@@ -1,0 +1,8 @@
+scenario,fuel,run,cells,lcoh_change_median_pct,lcof_change_median_pct,lcof_change_p10_pct,lcof_change_p90_pct,lcof_const_median_mmbtu,lcof_flex_median_mmbtu,storage_h_median,storage_h_const_median,synthesis_capacity_median,lcof_change_demand_weighted_pct,cells_changing_cost_class,build_first_cells_fig2,build_first_demand_share_fig2,build_first_cells,build_first_demand_share,own_tercile_build_first_cells,own_tercile_build_first_demand_share,own_tercile_overlap,rank_correlation
+flex60,e-methane,flex60,2740,-18.8204,-15.7534,-23.0789,-10.5966,73.2073,61.7226,59.8908,154.6388,1.1654,,,,,,,,,,
+flex60,e-diesel,flex60,2740,-18.7742,-15.0842,-22.4269,-10.0292,84.0484,71.5649,59.5779,154.6388,1.1623,,,,,,,,,,
+flex60,methanol,flex60,2740,-18.796,-15.1607,-22.5079,-10.094,73.48,62.3946,59.7281,154.6388,1.1633,,,,,,,,,,
+flex60,e-kerosene,flex60,2740,-18.7742,-15.0842,-22.4269,-10.0292,84.0484,71.5649,59.5779,154.6388,1.1623,,,,,,,,,,
+flex60,ammonia,flex60,2740,-18.7739,-15.7699,-23.1262,-10.447,65.3941,55.0666,59.5559,154.6388,1.1617,,,,,,,,,,
+flex60,ethanol,flex60,2740,-18.7905,-15.2392,-22.5894,-10.1454,81.3398,69.057,59.7129,154.6388,1.1632,,,,,,,,,,
+flex60,Fig. 2 mix,flex60,2740,,-15.2255,-22.5989,-10.1124,79.2254,67.0755,,,,-15.6332,1034.0,327.0,0.3921,542.0,0.637,336.0,0.4009,307.0,0.9818

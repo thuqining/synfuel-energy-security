@@ -1,0 +1,4 @@
+country,reporter_code,year,hs,hhi_coal,top_supplier,top_supplier_share,partner_sum_usd,world_total_usd,partner_world_ratio,n_partners,source_url
+China,156,2023,2701,0.22093603251900404,643,0.34683973572563775,41390469307,41390469307,1.0,27,https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&period=2023&cmdCode=2701&flowCode=M&partnerCode=&partner2Code=0&customsCode=C00&motCode=0
+India,699,2023,2701,0.22347870789822927,36,0.3418899850844804,37082084487.755005,37082084487.757,0.999999999999946,28,https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=699&period=2023&cmdCode=2701&flowCode=M&partnerCode=&partner2Code=0&customsCode=C00&motCode=0
+South Africa,710,2023,2701,0.15000853789064958,36,0.2867551959957684,520462364.592,520462364.59,1.0000000000038427,40,https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=710&period=2023&cmdCode=2701&flowCode=M&partnerCode=&partner2Code=0&customsCode=C00&motCode=0

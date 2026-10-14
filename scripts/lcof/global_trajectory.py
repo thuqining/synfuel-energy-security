@@ -1,5 +1,5 @@
-"""global_trajectory.py — the globally aggregated result (coauthor Q3)
-plus the demand-concentration numbers (coauthor Q1).
+"""global_trajectory.py — the globally aggregated result
+plus the demand-concentration numbers.
 
 For every assessed economy we compute the security-parity and
 cost-parity build years (same machinery as fig_main_parity, no core
@@ -182,7 +182,7 @@ def main():
           f"{tot_ej:.1f} EJ/yr = {tot_gj / UMM / 1e9:.1f} bn MMBtu/yr; "
           f"emissions pool {dfp.emis_t.sum() / 1e9:.1f} Gt/yr")
 
-    # ---- demand concentration per fuel (coauthor Q1) ----------------------
+    # ---- demand concentration per fuel ----------------------
     conc_rows = []
     for f in FUELS:
         col = f + "_gj"

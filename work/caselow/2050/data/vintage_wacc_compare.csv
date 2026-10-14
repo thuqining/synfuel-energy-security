@@ -1,0 +1,523 @@
+site,case,vintage,base,wacc_m2,saving_pct
+Argentina — Bahia Blanca,Advanced,2025,60.5651,54.062,10.7375
+Argentina — Bahia Blanca,Advanced,2030,46.2531,41.2224,10.8765
+Argentina — Bahia Blanca,Advanced,2035,38.7458,34.4511,11.0844
+Argentina — Bahia Blanca,Advanced,2040,35.0692,31.1744,11.1061
+Argentina — Bahia Blanca,Advanced,2045,32.0743,28.508,11.119
+Argentina — Bahia Blanca,Advanced,2050,29.245,25.9903,11.1292
+Argentina — Bahia Blanca,Conservative,2025,60.5651,54.062,10.7375
+Argentina — Bahia Blanca,Conservative,2030,55.7141,49.7045,10.7867
+Argentina — Bahia Blanca,Conservative,2035,52.336,46.6819,10.8033
+Argentina — Bahia Blanca,Conservative,2040,49.8554,44.4141,10.9142
+Argentina — Bahia Blanca,Conservative,2045,46.7724,41.6453,10.9618
+Argentina — Bahia Blanca,Conservative,2050,44.2468,39.3912,10.9741
+Argentina — Bahia Blanca,Moderate,2025,60.5651,54.062,10.7375
+Argentina — Bahia Blanca,Moderate,2030,49.7382,44.3411,10.8509
+Argentina — Bahia Blanca,Moderate,2035,44.3838,39.4974,11.0094
+Argentina — Bahia Blanca,Moderate,2040,40.9301,36.4102,11.043
+Argentina — Bahia Blanca,Moderate,2045,37.6314,33.4677,11.0643
+Argentina — Bahia Blanca,Moderate,2050,34.5178,30.6882,11.0945
+Australia — Pilbara,Advanced,2025,42.4173,36.311,14.3957
+Australia — Pilbara,Advanced,2030,26.2531,22.38,14.7527
+Australia — Pilbara,Advanced,2035,19.15,16.2987,14.8891
+Australia — Pilbara,Advanced,2040,16.8168,14.2911,15.019
+Australia — Pilbara,Advanced,2045,15.1357,12.8507,15.0972
+Australia — Pilbara,Advanced,2050,13.6807,11.6064,15.1621
+Australia — Pilbara,Conservative,2025,42.4173,36.311,14.3957
+Australia — Pilbara,Conservative,2030,36.2486,31.023,14.4159
+Australia — Pilbara,Conservative,2035,32.375,27.704,14.4278
+Australia — Pilbara,Conservative,2040,30.2611,25.8923,14.4372
+Australia — Pilbara,Conservative,2045,27.7882,23.7708,14.4575
+Australia — Pilbara,Conservative,2050,25.8744,22.1347,14.4536
+Australia — Pilbara,Moderate,2025,42.4173,36.311,14.3957
+Australia — Pilbara,Moderate,2030,29.7772,25.4124,14.6581
+Australia — Pilbara,Moderate,2035,24.0398,20.4963,14.7398
+Australia — Pilbara,Moderate,2040,21.6447,18.4307,14.8492
+Australia — Pilbara,Moderate,2045,19.6218,16.6994,14.894
+Australia — Pilbara,Moderate,2050,17.6799,15.0345,14.9629
+Brazil — Pecem,Advanced,2025,40.2528,34.6109,14.0163
+Brazil — Pecem,Advanced,2030,25.9785,22.2645,14.2964
+Brazil — Pecem,Advanced,2035,17.591,15.0635,14.3681
+Brazil — Pecem,Advanced,2040,15.8175,13.5334,14.4403
+Brazil — Pecem,Advanced,2045,14.4645,12.3692,14.4855
+Brazil — Pecem,Advanced,2050,13.2305,11.3099,14.5164
+Brazil — Pecem,Conservative,2025,40.2528,34.6109,14.0163
+Brazil — Pecem,Conservative,2030,34.5512,29.6877,14.0762
+Brazil — Pecem,Conservative,2035,30.2804,26.0143,14.0888
+Brazil — Pecem,Conservative,2040,28.0748,24.1163,14.0999
+Brazil — Pecem,Conservative,2045,25.5704,21.9589,14.1238
+Brazil — Pecem,Conservative,2050,23.4908,20.1715,14.1299
+Brazil — Pecem,Moderate,2025,40.2528,34.6109,14.0163
+Brazil — Pecem,Moderate,2030,29.3865,25.2046,14.2306
+Brazil — Pecem,Moderate,2035,22.5323,19.3167,14.2712
+Brazil — Pecem,Moderate,2040,20.4117,17.4882,14.3226
+Brazil — Pecem,Moderate,2045,18.4988,15.8442,14.3503
+Brazil — Pecem,Moderate,2050,16.67,14.2715,14.3882
+Chile — Antofagasta,Advanced,2025,21.9881,18.7126,14.8968
+Chile — Antofagasta,Advanced,2030,14.181,12.0048,15.3456
+Chile — Antofagasta,Advanced,2035,9.6039,8.1588,15.0462
+Chile — Antofagasta,Advanced,2040,8.5817,7.2824,15.1408
+Chile — Antofagasta,Advanced,2045,7.82,6.6319,15.1938
+Chile — Antofagasta,Advanced,2050,7.1362,6.0496,15.2266
+Chile — Antofagasta,Conservative,2025,21.9881,18.7126,14.8968
+Chile — Antofagasta,Conservative,2030,18.8747,16.0382,15.0281
+Chile — Antofagasta,Conservative,2035,16.6638,14.1543,15.0595
+Chile — Antofagasta,Conservative,2040,15.5085,13.1703,15.077
+Chile — Antofagasta,Conservative,2045,14.2071,12.0601,15.1116
+Chile — Antofagasta,Conservative,2050,13.1056,11.1426,14.9783
+Chile — Antofagasta,Moderate,2025,21.9881,18.7126,14.8968
+Chile — Antofagasta,Moderate,2030,16.0108,13.5686,15.2535
+Chile — Antofagasta,Moderate,2035,12.403,10.5475,14.9603
+Chile — Antofagasta,Moderate,2040,11.1855,9.5054,15.02
+Chile — Antofagasta,Moderate,2045,10.1135,8.5919,15.0448
+Chile — Antofagasta,Moderate,2050,9.0841,7.7142,15.0796
+China — Inner Mongolia,Advanced,2025,25.8457,21.9887,14.9232
+China — Inner Mongolia,Advanced,2030,19.0982,16.2151,15.0959
+China — Inner Mongolia,Advanced,2035,14.6301,12.4078,15.1898
+China — Inner Mongolia,Advanced,2040,13.2194,11.2068,15.2241
+China — Inner Mongolia,Advanced,2045,12.1,10.2401,15.3712
+China — Inner Mongolia,Advanced,2050,11.0681,9.3585,15.4462
+China — Inner Mongolia,Conservative,2025,25.8457,21.9887,14.9232
+China — Inner Mongolia,Conservative,2030,23.434,19.9431,14.8965
+China — Inner Mongolia,Conservative,2035,21.5941,18.3512,15.0174
+China — Inner Mongolia,Conservative,2040,20.4137,17.3322,15.0955
+China — Inner Mongolia,Conservative,2045,18.9363,16.0683,15.1454
+China — Inner Mongolia,Conservative,2050,17.7185,15.0333,15.1547
+China — Inner Mongolia,Moderate,2025,25.8457,21.9887,14.9232
+China — Inner Mongolia,Moderate,2030,20.7702,17.6491,15.0265
+China — Inner Mongolia,Moderate,2035,17.5754,14.9003,15.2211
+China — Inner Mongolia,Moderate,2040,16.151,13.6856,15.2643
+China — Inner Mongolia,Moderate,2045,14.8118,12.5472,15.2893
+China — Inner Mongolia,Moderate,2050,13.4965,11.4281,15.325
+China — Yangtze Delta,Advanced,2025,54.8241,45.8675,16.337
+China — Yangtze Delta,Advanced,2030,40.1519,33.4473,16.6982
+China — Yangtze Delta,Advanced,2035,28.0557,23.6043,15.8664
+China — Yangtze Delta,Advanced,2040,25.3785,21.3298,15.9534
+China — Yangtze Delta,Advanced,2045,23.2874,19.5606,16.0034
+China — Yangtze Delta,Advanced,2050,21.353,17.9286,16.0372
+China — Yangtze Delta,Conservative,2025,54.8241,45.8675,16.337
+China — Yangtze Delta,Conservative,2030,49.1408,41.033,16.4992
+China — Yangtze Delta,Conservative,2035,44.8585,37.4085,16.6078
+China — Yangtze Delta,Conservative,2040,42.4716,35.3983,16.6543
+China — Yangtze Delta,Conservative,2045,39.654,33.2571,16.1318
+China — Yangtze Delta,Conservative,2050,36.615,30.9164,15.5635
+China — Yangtze Delta,Moderate,2025,54.8241,45.8675,16.337
+China — Yangtze Delta,Moderate,2030,44.0292,36.6722,16.7093
+China — Yangtze Delta,Moderate,2035,35.4139,29.8493,15.7129
+China — Yangtze Delta,Moderate,2040,32.2616,27.1703,15.7814
+China — Yangtze Delta,Moderate,2045,29.3571,24.7111,15.8256
+China — Yangtze Delta,Moderate,2050,26.6025,22.3766,15.8854
+Germany — Wilhelmshaven,Advanced,2025,55.5577,47.4547,14.5848
+Germany — Wilhelmshaven,Advanced,2030,39.367,33.1191,15.871
+Germany — Wilhelmshaven,Advanced,2035,31.3562,26.6355,15.055
+Germany — Wilhelmshaven,Advanced,2040,27.9284,23.6945,15.1597
+Germany — Wilhelmshaven,Advanced,2045,25.2925,21.4416,15.2254
+Germany — Wilhelmshaven,Advanced,2050,22.9112,19.4078,15.2914
+Germany — Wilhelmshaven,Conservative,2025,55.5577,47.4547,14.5848
+Germany — Wilhelmshaven,Conservative,2030,49.4733,41.9036,15.3005
+Germany — Wilhelmshaven,Conservative,2035,45.6267,38.5366,15.5394
+Germany — Wilhelmshaven,Conservative,2040,43.2825,36.5329,15.5943
+Germany — Wilhelmshaven,Conservative,2045,40.6399,34.2674,15.6803
+Germany — Wilhelmshaven,Conservative,2050,38.4655,32.4185,15.7208
+Germany — Wilhelmshaven,Moderate,2025,55.5577,47.4547,14.5848
+Germany — Wilhelmshaven,Moderate,2030,43.1702,36.3707,15.7505
+Germany — Wilhelmshaven,Moderate,2035,37.1985,31.2804,15.9094
+Germany — Wilhelmshaven,Moderate,2040,34.1564,28.7584,15.8037
+Germany — Wilhelmshaven,Moderate,2045,31.1691,26.3418,15.4875
+Germany — Wilhelmshaven,Moderate,2050,28.3486,23.9367,15.5632
+Iceland — Reykjanes,Advanced,2025,46.8451,39.6251,15.4125
+Iceland — Reykjanes,Advanced,2030,34.1749,28.9164,15.3872
+Iceland — Reykjanes,Advanced,2035,28.3413,23.9628,15.4493
+Iceland — Reykjanes,Advanced,2040,25.7219,21.7324,15.5101
+Iceland — Reykjanes,Advanced,2045,23.5683,19.9037,15.5485
+Iceland — Reykjanes,Advanced,2050,21.5295,18.1751,15.5806
+Iceland — Reykjanes,Conservative,2025,46.8451,39.6251,15.4125
+Iceland — Reykjanes,Conservative,2030,41.8947,35.5033,15.2557
+Iceland — Reykjanes,Conservative,2035,38.333,32.4923,15.2369
+Iceland — Reykjanes,Conservative,2040,36.3694,30.8202,15.2578
+Iceland — Reykjanes,Conservative,2045,34.1127,28.8933,15.3005
+Iceland — Reykjanes,Conservative,2050,32.2549,27.3135,15.3199
+Iceland — Reykjanes,Moderate,2025,46.8451,39.6251,15.4125
+Iceland — Reykjanes,Moderate,2030,37.1374,31.4419,15.3364
+Iceland — Reykjanes,Moderate,2035,32.1384,27.1924,15.3895
+Iceland — Reykjanes,Moderate,2040,29.7378,25.1453,15.4435
+Iceland — Reykjanes,Moderate,2045,27.4376,23.1907,15.4783
+Iceland — Reykjanes,Moderate,2050,25.2918,21.3648,15.5267
+India — Gujarat,Advanced,2025,36.0678,31.006,14.0342
+India — Gujarat,Advanced,2030,24.2021,20.7767,14.1532
+India — Gujarat,Advanced,2035,17.3518,14.8586,14.3681
+India — Gujarat,Advanced,2040,15.5017,13.2589,14.4682
+India — Gujarat,Advanced,2045,14.113,12.0628,14.5273
+India — Gujarat,Advanced,2050,12.8572,10.9939,14.4922
+India — Gujarat,Conservative,2025,36.0678,31.006,14.0342
+India — Gujarat,Conservative,2030,31.5253,27.0597,14.1651
+India — Gujarat,Conservative,2035,28.4671,24.4233,14.2052
+India — Gujarat,Conservative,2040,26.7604,22.9534,14.2261
+India — Gujarat,Conservative,2045,24.7336,21.2802,13.9625
+India — Gujarat,Conservative,2050,23.0089,19.801,13.9421
+India — Gujarat,Moderate,2025,36.0678,31.006,14.0342
+India — Gujarat,Moderate,2030,27.051,23.1612,14.3796
+India — Gujarat,Moderate,2035,21.8479,18.735,14.2484
+India — Gujarat,Moderate,2040,19.783,16.9501,14.3199
+India — Gujarat,Moderate,2045,17.9727,15.3923,14.3572
+India — Gujarat,Moderate,2050,16.2492,13.9084,14.406
+Indonesia — Java,Advanced,2025,46.9651,40.1701,14.4681
+Indonesia — Java,Advanced,2030,30.6473,26.1343,14.7254
+Indonesia — Java,Advanced,2035,20.3887,17.3885,14.7153
+Indonesia — Java,Advanced,2040,18.3486,15.6373,14.7763
+Indonesia — Java,Advanced,2045,16.786,14.2985,14.8185
+Indonesia — Java,Advanced,2050,15.3543,13.0746,14.8472
+Indonesia — Java,Conservative,2025,46.9651,40.1701,14.4681
+Indonesia — Java,Conservative,2030,40.4433,34.5511,14.5691
+Indonesia — Java,Conservative,2035,35.4352,30.2866,14.5298
+Indonesia — Java,Conservative,2040,32.8107,28.0444,14.5265
+Indonesia — Java,Conservative,2045,29.8027,25.4772,14.5137
+Indonesia — Java,Conservative,2050,27.2907,23.3292,14.5157
+Indonesia — Java,Moderate,2025,46.9651,40.1701,14.4681
+Indonesia — Java,Moderate,2030,34.6287,29.5487,14.6698
+Indonesia — Java,Moderate,2035,26.3403,22.4839,14.6406
+Indonesia — Java,Moderate,2040,23.8292,20.3309,14.6805
+Indonesia — Java,Moderate,2045,21.5516,18.3826,14.7043
+Indonesia — Java,Moderate,2050,19.3637,16.5101,14.7369
+Japan — Tokyo Bay,Advanced,2025,71.8054,61.3774,14.5226
+Japan — Tokyo Bay,Advanced,2030,49.7385,42.2393,15.0773
+Japan — Tokyo Bay,Advanced,2035,37.0384,31.5648,14.7783
+Japan — Tokyo Bay,Advanced,2040,33.1258,28.2074,14.8477
+Japan — Tokyo Bay,Advanced,2045,30.1066,25.6231,14.8921
+Japan — Tokyo Bay,Advanced,2050,27.345,23.2632,14.9271
+Japan — Tokyo Bay,Conservative,2025,71.8054,61.3774,14.5226
+Japan — Tokyo Bay,Conservative,2030,63.5573,54.0771,14.916
+Japan — Tokyo Bay,Conservative,2035,57.6532,49.0324,14.9529
+Japan — Tokyo Bay,Conservative,2040,54.2912,46.1614,14.9744
+Japan — Tokyo Bay,Conservative,2045,50.3476,42.851,14.8898
+Japan — Tokyo Bay,Conservative,2050,46.7911,39.9628,14.5933
+Japan — Tokyo Bay,Moderate,2025,71.8054,61.3774,14.5226
+Japan — Tokyo Bay,Moderate,2030,55.0757,46.753,15.1115
+Japan — Tokyo Bay,Moderate,2035,44.8415,38.2325,14.7384
+Japan — Tokyo Bay,Moderate,2040,40.6113,34.6052,14.7893
+Japan — Tokyo Bay,Moderate,2045,36.8809,31.4174,14.814
+Japan — Tokyo Bay,Moderate,2050,33.3313,28.3864,14.8357
+Kazakhstan — Aktau,Advanced,2025,31.3319,26.81,14.4323
+Kazakhstan — Aktau,Advanced,2030,23.1848,19.7739,14.7117
+Kazakhstan — Aktau,Advanced,2035,19.1175,16.3286,14.5884
+Kazakhstan — Aktau,Advanced,2040,17.2363,14.7176,14.6131
+Kazakhstan — Aktau,Advanced,2045,15.7432,13.4392,14.6352
+Kazakhstan — Aktau,Advanced,2050,14.3546,12.2507,14.6569
+Kazakhstan — Aktau,Conservative,2025,31.3319,26.81,14.4323
+Kazakhstan — Aktau,Conservative,2030,28.3833,24.2629,14.5171
+Kazakhstan — Aktau,Conservative,2035,26.265,22.4422,14.5549
+Kazakhstan — Aktau,Conservative,2040,24.9597,21.3216,14.5756
+Kazakhstan — Aktau,Conservative,2045,23.457,20.0284,14.6166
+Kazakhstan — Aktau,Conservative,2050,22.2391,18.9843,14.6351
+Kazakhstan — Aktau,Moderate,2025,31.3319,26.81,14.4323
+Kazakhstan — Aktau,Moderate,2030,25.1979,21.504,14.6596
+Kazakhstan — Aktau,Moderate,2035,22.0197,18.7798,14.7136
+Kazakhstan — Aktau,Moderate,2040,20.3649,17.358,14.7649
+Kazakhstan — Aktau,Moderate,2045,18.7793,16.0075,14.7596
+Kazakhstan — Aktau,Moderate,2050,17.2383,14.7,14.7247
+Kenya — Mombasa,Advanced,2025,53.7882,47.9006,10.9459
+Kenya — Mombasa,Advanced,2030,36.7067,32.6424,11.0722
+Kenya — Mombasa,Advanced,2035,27.0262,24.0324,11.0773
+Kenya — Mombasa,Advanced,2040,24.3641,21.6581,11.1063
+Kenya — Mombasa,Advanced,2045,22.2699,19.7929,11.1227
+Kenya — Mombasa,Advanced,2050,20.2998,18.0563,11.0516
+Kenya — Mombasa,Conservative,2025,53.7882,47.9006,10.9459
+Kenya — Mombasa,Conservative,2030,47.1314,41.9545,10.984
+Kenya — Mombasa,Conservative,2035,42.0607,37.439,10.9883
+Kenya — Mombasa,Conservative,2040,39.3119,34.991,10.9914
+Kenya — Mombasa,Conservative,2045,36.1427,32.1726,10.9847
+Kenya — Mombasa,Conservative,2050,33.5437,29.8629,10.9731
+Kenya — Mombasa,Moderate,2025,53.7882,47.9006,10.9459
+Kenya — Mombasa,Moderate,2030,40.8574,36.3453,11.0434
+Kenya — Mombasa,Moderate,2035,32.8317,29.2021,11.0551
+Kenya — Mombasa,Moderate,2040,29.9514,26.6365,11.0677
+Kenya — Mombasa,Moderate,2045,27.2767,24.2735,11.0102
+Kenya — Mombasa,Moderate,2050,24.7159,21.9921,11.0205
+Morocco — Jorf Lasfar,Advanced,2025,43.3774,37.265,14.091
+Morocco — Jorf Lasfar,Advanced,2030,28.6984,24.455,14.7863
+Morocco — Jorf Lasfar,Advanced,2035,21.15,17.9815,14.9808
+Morocco — Jorf Lasfar,Advanced,2040,19.2579,16.3588,15.0538
+Morocco — Jorf Lasfar,Advanced,2045,17.7385,15.061,15.0938
+Morocco — Jorf Lasfar,Advanced,2050,16.3206,13.8528,15.1209
+Morocco — Jorf Lasfar,Conservative,2025,43.3774,37.265,14.091
+Morocco — Jorf Lasfar,Conservative,2030,37.5206,32.1941,14.1962
+Morocco — Jorf Lasfar,Conservative,2035,33.0554,28.3535,14.2243
+Morocco — Jorf Lasfar,Conservative,2040,30.7298,26.3538,14.2402
+Morocco — Jorf Lasfar,Conservative,2045,28.5834,24.3439,14.832
+Morocco — Jorf Lasfar,Conservative,2050,26.7115,22.7419,14.8609
+Morocco — Jorf Lasfar,Moderate,2025,43.3774,37.265,14.091
+Morocco — Jorf Lasfar,Moderate,2030,32.168,27.5444,14.3733
+Morocco — Jorf Lasfar,Moderate,2035,25.8864,22.0177,14.945
+Morocco — Jorf Lasfar,Moderate,2040,23.8276,20.2646,14.9533
+Morocco — Jorf Lasfar,Moderate,2045,21.8708,18.5962,14.9721
+Morocco — Jorf Lasfar,Moderate,2050,20.0286,17.0251,14.9958
+Namibia — Luderitz,Advanced,2025,43.1119,37.6561,12.6549
+Namibia — Luderitz,Advanced,2030,29.1917,25.4474,12.8266
+Namibia — Luderitz,Advanced,2035,19.7357,17.1722,12.9892
+Namibia — Luderitz,Advanced,2040,17.7657,15.449,13.0404
+Namibia — Luderitz,Advanced,2045,16.2609,14.1357,13.0696
+Namibia — Luderitz,Advanced,2050,14.8857,12.933,13.1178
+Namibia — Luderitz,Conservative,2025,43.1119,37.6561,12.6549
+Namibia — Luderitz,Conservative,2030,37.8282,32.9951,12.7763
+Namibia — Luderitz,Conservative,2035,33.5675,29.3068,12.6928
+Namibia — Luderitz,Conservative,2040,31.2914,27.3144,12.7096
+Namibia — Luderitz,Conservative,2045,28.5894,24.9475,12.7386
+Namibia — Luderitz,Conservative,2050,26.3153,22.9552,12.7687
+Namibia — Luderitz,Moderate,2025,43.1119,37.6561,12.6549
+Namibia — Luderitz,Moderate,2030,32.6048,28.437,12.7829
+Namibia — Luderitz,Moderate,2035,25.464,22.1736,12.922
+Namibia — Luderitz,Moderate,2040,23.0481,20.0585,12.9711
+Namibia — Luderitz,Moderate,2045,20.8516,18.1437,12.9862
+Namibia — Luderitz,Moderate,2050,18.7422,16.3044,13.0069
+Netherlands — Rotterdam,Advanced,2025,46.6196,39.8924,14.4299
+Netherlands — Rotterdam,Advanced,2030,31.6878,26.7582,15.5568
+Netherlands — Rotterdam,Advanced,2035,26.2242,22.0859,15.7806
+Netherlands — Rotterdam,Advanced,2040,23.5882,19.8393,15.8932
+Netherlands — Rotterdam,Advanced,2045,21.5068,18.0749,15.9574
+Netherlands — Rotterdam,Advanced,2050,19.5978,16.4609,16.0067
+Netherlands — Rotterdam,Conservative,2025,46.6196,39.8924,14.4299
+Netherlands — Rotterdam,Conservative,2030,40.7434,34.8187,14.5414
+Netherlands — Rotterdam,Conservative,2035,37.3304,31.701,15.08
+Netherlands — Rotterdam,Conservative,2040,35.3833,29.9667,15.3084
+Netherlands — Rotterdam,Conservative,2045,33.1758,28.0705,15.3886
+Netherlands — Rotterdam,Conservative,2050,31.3993,26.5546,15.4294
+Netherlands — Rotterdam,Moderate,2025,46.6196,39.8924,14.4299
+Netherlands — Rotterdam,Moderate,2030,34.8923,29.5051,15.4397
+Netherlands — Rotterdam,Moderate,2035,30.2039,25.4913,15.6025
+Netherlands — Rotterdam,Moderate,2040,27.7808,23.4195,15.6988
+Netherlands — Rotterdam,Moderate,2045,25.5905,21.557,15.7617
+Netherlands — Rotterdam,Moderate,2050,23.5552,19.8231,15.8444
+Oman — Duqm,Advanced,2025,31.9141,27.3933,14.1654
+Oman — Duqm,Advanced,2030,21.1445,18.0424,14.6712
+Oman — Duqm,Advanced,2035,14.8139,12.6225,14.7929
+Oman — Duqm,Advanced,2040,13.3841,11.393,14.8766
+Oman — Duqm,Advanced,2045,12.2741,10.4423,14.9236
+Oman — Duqm,Advanced,2050,11.2548,9.5717,14.9539
+Oman — Duqm,Conservative,2025,31.9141,27.3933,14.1654
+Oman — Duqm,Conservative,2030,27.6441,23.6293,14.5231
+Oman — Duqm,Conservative,2035,24.5402,20.9793,14.5105
+Oman — Duqm,Conservative,2040,22.8563,19.5537,14.4492
+Oman — Duqm,Conservative,2045,20.967,17.9297,14.4863
+Oman — Duqm,Conservative,2050,19.3788,16.5685,14.5019
+Oman — Duqm,Moderate,2025,31.9141,27.3933,14.1654
+Oman — Duqm,Moderate,2030,23.7756,20.302,14.6096
+Oman — Duqm,Moderate,2035,18.6066,15.8778,14.6657
+Oman — Duqm,Moderate,2040,16.9579,14.4598,14.7311
+Oman — Duqm,Moderate,2045,15.4514,13.1696,14.7674
+Oman — Duqm,Moderate,2050,14.0257,11.9477,14.8159
+Philippines — Batangas,Advanced,2025,50.6967,43.3593,14.473
+Philippines — Batangas,Advanced,2030,34.0789,29.0167,14.8544
+Philippines — Batangas,Advanced,2035,24.1351,20.4823,15.1352
+Philippines — Batangas,Advanced,2040,21.8787,18.5512,15.2086
+Philippines — Batangas,Advanced,2045,20.1011,17.0356,15.2504
+Philippines — Batangas,Advanced,2050,18.4499,15.6307,15.2802
+Philippines — Batangas,Conservative,2025,50.6967,43.3593,14.473
+Philippines — Batangas,Conservative,2030,44.1672,37.7134,14.6123
+Philippines — Batangas,Conservative,2035,38.9229,33.208,14.6826
+Philippines — Batangas,Conservative,2040,36.3305,30.8873,14.9824
+Philippines — Batangas,Conservative,2045,33.1588,28.259,14.7768
+Philippines — Batangas,Conservative,2050,30.6779,26.1387,14.7962
+Philippines — Batangas,Moderate,2025,50.6967,43.3593,14.473
+Philippines — Batangas,Moderate,2030,38.1936,32.4239,15.1063
+Philippines — Batangas,Moderate,2035,29.9201,25.4598,14.9074
+Philippines — Batangas,Moderate,2040,27.3481,23.2558,14.9636
+Philippines — Batangas,Moderate,2045,24.9528,21.21,14.9992
+Philippines — Batangas,Moderate,2050,22.6862,19.2725,15.0471
+Poland — Gdansk,Advanced,2025,48.2728,41.2257,14.5987
+Poland — Gdansk,Advanced,2030,34.0752,28.8873,15.2247
+Poland — Gdansk,Advanced,2035,29.1146,24.6064,15.4846
+Poland — Gdansk,Advanced,2040,26.1841,22.0972,15.6082
+Poland — Gdansk,Advanced,2045,23.86,20.1176,15.6848
+Poland — Gdansk,Advanced,2050,21.7346,18.315,15.7338
+Poland — Gdansk,Conservative,2025,48.2728,41.2257,14.5987
+Poland — Gdansk,Conservative,2030,43.1131,36.7369,14.7894
+Poland — Gdansk,Conservative,2035,40.0924,34.1203,14.8958
+Poland — Gdansk,Conservative,2040,38.1729,32.4681,14.9446
+Poland — Gdansk,Conservative,2045,36.0194,30.608,15.0235
+Poland — Gdansk,Conservative,2050,34.2939,29.1263,15.0686
+Poland — Gdansk,Moderate,2025,48.2728,41.2257,14.5987
+Poland — Gdansk,Moderate,2030,37.3082,31.6791,15.0881
+Poland — Gdansk,Moderate,2035,33.0,27.9555,15.2863
+Poland — Gdansk,Moderate,2040,30.4524,25.7649,15.393
+Poland — Gdansk,Moderate,2045,28.1412,23.7909,15.4588
+Poland — Gdansk,Moderate,2050,26.0205,21.9768,15.5403
+Saudi Arabia — NEOM,Advanced,2025,22.8048,19.4276,14.8091
+Saudi Arabia — NEOM,Advanced,2030,14.6286,12.3926,15.2854
+Saudi Arabia — NEOM,Advanced,2035,10.0885,8.5323,15.425
+Saudi Arabia — NEOM,Advanced,2040,9.0425,7.6382,15.5299
+Saudi Arabia — NEOM,Advanced,2045,8.254,6.9673,15.5891
+Saudi Arabia — NEOM,Advanced,2050,7.5433,6.3646,15.6259
+Saudi Arabia — NEOM,Conservative,2025,22.8048,19.4276,14.8091
+Saudi Arabia — NEOM,Conservative,2030,19.5619,16.6394,14.94
+Saudi Arabia — NEOM,Conservative,2035,17.2762,14.6921,14.9578
+Saudi Arabia — NEOM,Conservative,2040,16.076,13.6657,14.9929
+Saudi Arabia — NEOM,Conservative,2045,14.7011,12.4922,15.0251
+Saudi Arabia — NEOM,Conservative,2050,13.5689,11.5231,15.0771
+Saudi Arabia — NEOM,Moderate,2025,22.8048,19.4276,14.8091
+Saudi Arabia — NEOM,Moderate,2030,16.53,14.0237,15.1621
+Saudi Arabia — NEOM,Moderate,2035,12.8577,10.8911,15.2947
+Saudi Arabia — NEOM,Moderate,2040,11.6418,9.8526,15.3688
+Saudi Arabia — NEOM,Moderate,2045,10.5631,8.9358,15.4054
+Saudi Arabia — NEOM,Moderate,2050,9.5346,8.061,15.4561
+Singapore — Jurong,Advanced,2025,46.3411,39.4866,14.7915
+Singapore — Jurong,Advanced,2030,29.9722,25.4394,15.1233
+Singapore — Jurong,Advanced,2035,20.0602,17.0122,15.1941
+Singapore — Jurong,Advanced,2040,18.0554,15.2973,15.2758
+Singapore — Jurong,Advanced,2045,16.5218,13.9907,15.3198
+Singapore — Jurong,Advanced,2050,15.1152,12.7949,15.3506
+Singapore — Jurong,Conservative,2025,46.3411,39.4866,14.7915
+Singapore — Jurong,Conservative,2030,39.7556,33.8377,14.8857
+Singapore — Jurong,Conservative,2035,34.7458,29.5666,14.9061
+Singapore — Jurong,Conservative,2040,32.1695,27.3707,14.9173
+Singapore — Jurong,Conservative,2045,29.2361,24.8687,14.9386
+Singapore — Jurong,Conservative,2050,26.7973,22.793,14.9429
+Singapore — Jurong,Moderate,2025,46.3411,39.4866,14.7915
+Singapore — Jurong,Moderate,2030,33.9077,28.8018,15.0583
+Singapore — Jurong,Moderate,2035,25.8204,21.9228,15.0949
+Singapore — Jurong,Moderate,2040,23.3766,19.8349,15.1506
+Singapore — Jurong,Moderate,2045,21.1616,17.9492,15.1802
+Singapore — Jurong,Moderate,2050,19.038,16.1403,15.2203
+South Africa — N. Cape,Advanced,2025,32.9633,28.4194,13.7847
+South Africa — N. Cape,Advanced,2030,23.4723,20.2121,13.8899
+South Africa — N. Cape,Advanced,2035,16.7192,14.4475,13.5874
+South Africa — N. Cape,Advanced,2040,15.0131,12.9659,13.6362
+South Africa — N. Cape,Advanced,2045,13.691,11.822,13.6513
+South Africa — N. Cape,Advanced,2050,12.4665,10.7683,13.622
+South Africa — N. Cape,Conservative,2025,32.9633,28.4194,13.7847
+South Africa — N. Cape,Conservative,2030,29.2969,25.263,13.7689
+South Africa — N. Cape,Conservative,2035,26.7711,23.0742,13.8093
+South Africa — N. Cape,Conservative,2040,25.1763,21.7046,13.7898
+South Africa — N. Cape,Conservative,2045,23.2094,20.0185,13.7484
+South Africa — N. Cape,Conservative,2050,21.5111,18.555,13.7419
+South Africa — N. Cape,Moderate,2025,32.9633,28.4194,13.7847
+South Africa — N. Cape,Moderate,2030,25.917,22.3126,13.9076
+South Africa — N. Cape,Moderate,2035,20.7979,17.9048,13.9106
+South Africa — N. Cape,Moderate,2040,18.89,16.2517,13.9669
+South Africa — N. Cape,Moderate,2045,17.1498,14.7477,14.0066
+South Africa — N. Cape,Moderate,2050,15.4739,13.3014,14.0402
+South Korea — Ulsan,Advanced,2025,57.3384,48.8234,14.8504
+South Korea — Ulsan,Advanced,2030,38.9664,33.1626,14.8946
+South Korea — Ulsan,Advanced,2035,29.4456,25.0719,14.8535
+South Korea — Ulsan,Advanced,2040,26.1827,22.256,14.9974
+South Korea — Ulsan,Advanced,2045,23.7163,20.149,15.0418
+South Korea — Ulsan,Advanced,2050,21.5116,18.2657,15.089
+South Korea — Ulsan,Conservative,2025,57.3384,48.8234,14.8504
+South Korea — Ulsan,Conservative,2030,51.1669,43.4274,15.126
+South Korea — Ulsan,Conservative,2035,46.6441,39.7129,14.8598
+South Korea — Ulsan,Conservative,2040,43.7568,37.3468,14.6492
+South Korea — Ulsan,Conservative,2045,40.1572,34.3334,14.5023
+South Korea — Ulsan,Conservative,2050,37.5765,32.0507,14.7054
+South Korea — Ulsan,Moderate,2025,57.3384,48.8234,14.8504
+South Korea — Ulsan,Moderate,2030,43.8053,37.3332,14.7747
+South Korea — Ulsan,Moderate,2035,36.0954,30.7336,14.8545
+South Korea — Ulsan,Moderate,2040,32.7454,27.9292,14.708
+South Korea — Ulsan,Moderate,2045,29.66,25.3318,14.5926
+South Korea — Ulsan,Moderate,2050,26.6793,22.778,14.623
+Spain — Huelva,Advanced,2025,66.9669,57.5896,14.0029
+Spain — Huelva,Advanced,2030,42.6496,36.5306,14.3472
+Spain — Huelva,Advanced,2035,31.4351,26.7917,14.7713
+Spain — Huelva,Advanced,2040,27.8529,23.7034,14.8979
+Spain — Huelva,Advanced,2045,25.2069,21.453,14.8925
+Spain — Huelva,Advanced,2050,22.8613,19.4651,14.856
+Spain — Huelva,Conservative,2025,66.9669,57.5896,14.0029
+Spain — Huelva,Conservative,2030,57.6498,49.5357,14.0748
+Spain — Huelva,Conservative,2035,51.5532,44.2927,14.0836
+Spain — Huelva,Conservative,2040,48.1906,41.3981,14.0951
+Spain — Huelva,Conservative,2045,44.3325,38.0222,14.234
+Spain — Huelva,Conservative,2050,41.2856,35.3746,14.3173
+Spain — Huelva,Moderate,2025,66.9669,57.5896,14.0029
+Spain — Huelva,Moderate,2030,48.083,41.22,14.2733
+Spain — Huelva,Moderate,2035,39.0883,33.4138,14.5171
+Spain — Huelva,Moderate,2040,35.493,30.3196,14.5758
+Spain — Huelva,Moderate,2045,32.2843,27.5786,14.5757
+Spain — Huelva,Moderate,2050,29.0359,24.8914,14.2737
+"Taiwan, China — Kaohsiung",Advanced,2025,55.976,47.7663,14.6665
+"Taiwan, China — Kaohsiung",Advanced,2030,34.072,29.0464,14.7499
+"Taiwan, China — Kaohsiung",Advanced,2035,24.3394,20.7375,14.7986
+"Taiwan, China — Kaohsiung",Advanced,2040,21.3988,18.206,14.9203
+"Taiwan, China — Kaohsiung",Advanced,2045,19.2719,16.3823,14.994
+"Taiwan, China — Kaohsiung",Advanced,2050,17.4209,14.7994,15.0476
+"Taiwan, China — Kaohsiung",Conservative,2025,55.976,47.7663,14.6665
+"Taiwan, China — Kaohsiung",Conservative,2030,47.9039,40.8227,14.7821
+"Taiwan, China — Kaohsiung",Conservative,2035,42.524,36.3843,14.438
+"Taiwan, China — Kaohsiung",Conservative,2040,39.5909,33.8793,14.4265
+"Taiwan, China — Kaohsiung",Conservative,2045,36.1865,30.9592,14.4457
+"Taiwan, China — Kaohsiung",Conservative,2050,33.5326,28.6884,14.4461
+"Taiwan, China — Kaohsiung",Moderate,2025,55.976,47.7663,14.6665
+"Taiwan, China — Kaohsiung",Moderate,2030,38.9967,33.2859,14.6445
+"Taiwan, China — Kaohsiung",Moderate,2035,30.8228,26.2982,14.6794
+"Taiwan, China — Kaohsiung",Moderate,2040,27.6379,23.5606,14.7524
+"Taiwan, China — Kaohsiung",Moderate,2045,24.9807,21.2857,14.7917
+"Taiwan, China — Kaohsiung",Moderate,2050,22.4284,19.0987,14.8459
+UK — Humber,Advanced,2025,59.3165,50.562,14.7591
+UK — Humber,Advanced,2030,40.5122,34.3446,15.224
+UK — Humber,Advanced,2035,32.9922,27.9018,15.4289
+UK — Humber,Advanced,2040,29.6874,25.0802,15.519
+UK — Humber,Advanced,2045,27.1075,22.8511,15.7017
+UK — Humber,Advanced,2050,24.7317,20.8308,15.7731
+UK — Humber,Conservative,2025,59.3165,50.562,14.7591
+UK — Humber,Conservative,2030,52.3185,44.5226,14.9007
+UK — Humber,Conservative,2035,47.5355,40.4263,14.9556
+UK — Humber,Conservative,2040,44.7995,38.0869,14.9837
+UK — Humber,Conservative,2045,41.6756,35.4088,15.0371
+UK — Humber,Conservative,2050,39.2598,33.328,15.109
+UK — Humber,Moderate,2025,59.3165,50.562,14.7591
+UK — Humber,Moderate,2030,44.9071,38.1135,15.128
+UK — Humber,Moderate,2035,38.0551,32.2414,15.277
+UK — Humber,Moderate,2040,34.9759,29.604,15.3588
+UK — Humber,Moderate,2045,32.1956,27.2175,15.4618
+UK — Humber,Moderate,2050,29.6416,25.0087,15.6298
+US — Hawaii (Big Island),Advanced,2025,52.0431,44.2719,14.9323
+US — Hawaii (Big Island),Advanced,2030,33.0412,27.887,15.5992
+US — Hawaii (Big Island),Advanced,2035,23.333,19.7272,15.4537
+US — Hawaii (Big Island),Advanced,2040,20.6733,17.4611,15.5378
+US — Hawaii (Big Island),Advanced,2045,18.7299,15.8024,15.63
+US — Hawaii (Big Island),Advanced,2050,17.0246,14.3525,15.6953
+US — Hawaii (Big Island),Conservative,2025,52.0431,44.2719,14.9323
+US — Hawaii (Big Island),Conservative,2030,44.7356,37.9722,15.1186
+US — Hawaii (Big Island),Conservative,2035,39.894,33.8385,15.1788
+US — Hawaii (Big Island),Conservative,2040,37.2897,31.6167,15.2133
+US — Hawaii (Big Island),Conservative,2045,34.3441,29.0973,15.277
+US — Hawaii (Big Island),Conservative,2050,31.9314,27.0447,15.3038
+US — Hawaii (Big Island),Moderate,2025,52.0431,44.2719,14.9323
+US — Hawaii (Big Island),Moderate,2030,37.3529,31.5844,15.4434
+US — Hawaii (Big Island),Moderate,2035,29.7442,25.1352,15.4955
+US — Hawaii (Big Island),Moderate,2040,26.8569,22.7023,15.4694
+US — Hawaii (Big Island),Moderate,2045,24.3409,20.5727,15.4812
+US — Hawaii (Big Island),Moderate,2050,21.9295,18.5309,15.498
+US — Houston,Advanced,2025,59.6675,50.6842,15.0556
+US — Houston,Advanced,2030,39.3323,33.4017,15.0782
+US — Houston,Advanced,2035,29.1574,24.7062,15.266
+US — Houston,Advanced,2040,26.0426,22.0469,15.3429
+US — Houston,Advanced,2045,23.6406,20.0049,15.3792
+US — Houston,Advanced,2050,21.4555,18.1517,15.3983
+US — Houston,Conservative,2025,59.6675,50.6842,15.0556
+US — Houston,Conservative,2030,52.5018,44.6068,15.0377
+US — Houston,Conservative,2035,47.2787,40.23,14.9089
+US — Houston,Conservative,2040,44.1693,37.6368,14.7898
+US — Houston,Conservative,2045,40.5558,34.5464,14.8176
+US — Houston,Conservative,2050,37.6867,32.1011,14.821
+US — Houston,Moderate,2025,59.6675,50.6842,15.0556
+US — Houston,Moderate,2030,44.3821,37.7298,14.9885
+US — Houston,Moderate,2035,35.6437,30.2908,15.0178
+US — Houston,Moderate,2040,32.2328,27.369,15.0894
+US — Houston,Moderate,2045,29.2719,24.8437,15.1277
+US — Houston,Moderate,2050,26.4457,22.431,15.1807
+US — LA/Long Beach,Advanced,2025,57.2347,48.8608,14.6309
+US — LA/Long Beach,Advanced,2030,36.3911,30.907,15.0697
+US — LA/Long Beach,Advanced,2035,26.1573,22.173,15.232
+US — LA/Long Beach,Advanced,2040,23.1821,19.5493,15.6708
+US — LA/Long Beach,Advanced,2045,21.0588,17.7046,15.9276
+US — LA/Long Beach,Advanced,2050,19.1785,16.1179,15.9585
+US — LA/Long Beach,Conservative,2025,57.2347,48.8608,14.6309
+US — LA/Long Beach,Conservative,2030,49.1794,41.9421,14.7161
+US — LA/Long Beach,Conservative,2035,43.979,37.4949,14.7436
+US — LA/Long Beach,Conservative,2040,41.1427,35.0703,14.7594
+US — LA/Long Beach,Conservative,2045,37.8566,32.2569,14.7918
+US — LA/Long Beach,Conservative,2050,35.2364,30.024,14.7927
+US — LA/Long Beach,Moderate,2025,57.2347,48.8608,14.6309
+US — LA/Long Beach,Moderate,2030,41.0625,34.9167,14.9669
+US — LA/Long Beach,Moderate,2035,33.0407,28.0816,15.0091
+US — LA/Long Beach,Moderate,2040,29.8217,25.321,15.092
+US — LA/Long Beach,Moderate,2045,27.0373,22.9488,15.1214
+US — LA/Long Beach,Moderate,2050,24.4207,20.6529,15.4289

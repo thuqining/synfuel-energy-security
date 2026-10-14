@@ -1,0 +1,9 @@
+juris,country,carbon,border,subsidy,need,quota,labels,sub_labels,total,closes
+China,China,13,0,0.0,26.13,,national ETS,,13.0,False
+India,India,0,0,62.5,147.28,,—,SIGHT incentive,62.5,False
+European Union,Germany,125,0,0.0,224.94,RED III: 42 % of industrial H2 must be RFNBO by 2030,EU ETS; ETS2 (2027),,125.0,False
+Australia,Australia,22,0,208.33,277.54,,safeguard mechanism,Hydrogen Headstart,230.33,False
+United States,United States of America,60,0,312.5,298.6,,California LCFS,45V clean-H2 PTC,372.5,True
+Canada,Canada,65,0,0.0,340.98,,federal carbon price,,65.0,False
+United Kingdom,United Kingdom,50,0,0.0,358.26,"SAF mandate: 10 % of jet fuel by 2030, PtL sub-obligation 2028",UK ETS,,50.0,False
+Japan,Japan,10,0,208.33,493.75,,carbon levy,H2 CfD (indicative),218.33,False

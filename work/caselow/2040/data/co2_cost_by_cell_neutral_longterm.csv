@@ -1,0 +1,2741 @@
+cell_id,lon,lat,country,co2_cost,pathway,scenario
+2060,-70.0,-55.0,Chile,279.1616,DAC,climate_neutral_dac110
+2061,-67.5,-55.0,Argentina,279.1616,DAC,climate_neutral_dac110
+2203,-72.5,-52.5,Chile,279.1616,DAC,climate_neutral_dac110
+2204,-70.0,-52.5,Chile,279.1616,DAC,climate_neutral_dac110
+2208,-60.0,-52.5,Falkland Islands,279.1616,DAC,climate_neutral_dac110
+2346,-75.0,-50.0,Chile,279.1616,DAC,climate_neutral_dac110
+2347,-72.5,-50.0,Argentina,279.1616,DAC,climate_neutral_dac110
+2348,-70.0,-50.0,Argentina,279.1616,DAC,climate_neutral_dac110
+2349,-67.5,-50.0,Argentina,279.1616,DAC,climate_neutral_dac110
+2490,-75.0,-47.5,Chile,279.1616,DAC,climate_neutral_dac110
+2491,-72.5,-47.5,Chile,279.1616,DAC,climate_neutral_dac110
+2492,-70.0,-47.5,Argentina,279.1616,DAC,climate_neutral_dac110
+2493,-67.5,-47.5,Argentina,279.1616,DAC,climate_neutral_dac110
+2634,-75.0,-45.0,Chile,107.71582756239248,biogenic,climate_neutral_dac110
+2635,-72.5,-45.0,Chile,106.3107638865583,biogenic,climate_neutral_dac110
+2636,-70.0,-45.0,Argentina,108.9638883293606,biogenic,climate_neutral_dac110
+2637,-67.5,-45.0,Argentina,279.1616,DAC,climate_neutral_dac110
+2638,-65.0,-45.0,Argentina,279.1616,DAC,climate_neutral_dac110
+2731,167.5,-45.0,New Zealand,279.1616,DAC,climate_neutral_dac110
+2732,170.0,-45.0,New Zealand,279.1616,DAC,climate_neutral_dac110
+2779,-72.5,-42.5,Chile,89.6795955574874,biogenic,climate_neutral_dac110
+2780,-70.0,-42.5,Argentina,94.39878312197564,biogenic,climate_neutral_dac110
+2781,-67.5,-42.5,Argentina,103.45882706068348,biogenic,climate_neutral_dac110
+2782,-65.0,-42.5,Argentina,279.1616,DAC,climate_neutral_dac110
+2866,145.0,-42.5,Australia,99.70743086458585,biogenic,climate_neutral_dac110
+2867,147.5,-42.5,Australia,99.27996830247454,biogenic,climate_neutral_dac110
+2876,170.0,-42.5,New Zealand,104.57809641413722,biogenic,climate_neutral_dac110
+2877,172.5,-42.5,New Zealand,95.46956742149554,biogenic,climate_neutral_dac110
+2923,-72.5,-40.0,Chile,73.53414776760017,biogenic,climate_neutral_dac110
+2924,-70.0,-40.0,Argentina,85.11718359915254,biogenic,climate_neutral_dac110
+2925,-67.5,-40.0,Argentina,97.80203412139682,biogenic,climate_neutral_dac110
+2926,-65.0,-40.0,Argentina,279.1616,DAC,climate_neutral_dac110
+2927,-62.5,-40.0,Argentina,279.1616,DAC,climate_neutral_dac110
+3022,175.0,-40.0,New Zealand,74.610316395401,biogenic,climate_neutral_dac110
+3023,177.5,-40.0,New Zealand,80.53977644297049,biogenic,climate_neutral_dac110
+3067,-72.5,-37.5,Chile,70.80612809044491,biogenic,climate_neutral_dac110
+3068,-70.0,-37.5,Argentina,83.25056757659081,biogenic,climate_neutral_dac110
+3069,-67.5,-37.5,Argentina,96.38330696225606,biogenic,climate_neutral_dac110
+3070,-65.0,-37.5,Argentina,108.5284912035652,biogenic,climate_neutral_dac110
+3071,-62.5,-37.5,Argentina,99.6333452552761,biogenic,climate_neutral_dac110
+3072,-60.0,-37.5,Argentina,95.2795077932076,biogenic,climate_neutral_dac110
+3073,-57.5,-37.5,Argentina,91.18218024495712,biogenic,climate_neutral_dac110
+3152,140.0,-37.5,Australia,104.2572869396952,biogenic,climate_neutral_dac110
+3153,142.5,-37.5,Australia,91.2816899381468,biogenic,climate_neutral_dac110
+3154,145.0,-37.5,Australia,78.88237449775309,biogenic,climate_neutral_dac110
+3155,147.5,-37.5,Australia,77.19644111314001,biogenic,climate_neutral_dac110
+3156,150.0,-37.5,Australia,89.27709323312402,biogenic,climate_neutral_dac110
+3166,175.0,-37.5,New Zealand,76.62676545585853,biogenic,climate_neutral_dac110
+3167,177.5,-37.5,New Zealand,75.6314070250453,biogenic,climate_neutral_dac110
+3211,-72.5,-35.0,Chile,72.20813488714398,biogenic,climate_neutral_dac110
+3212,-70.0,-35.0,Argentina,83.36604832618939,biogenic,climate_neutral_dac110
+3213,-67.5,-35.0,Argentina,96.91022319886828,biogenic,climate_neutral_dac110
+3214,-65.0,-35.0,Argentina,97.8628746427528,biogenic,climate_neutral_dac110
+3215,-62.5,-35.0,Argentina,87.58913556750136,biogenic,climate_neutral_dac110
+3216,-60.0,-35.0,Argentina,78.76684996900354,biogenic,climate_neutral_dac110
+3217,-57.5,-35.0,Argentina,82.23378635983127,biogenic,climate_neutral_dac110
+3218,-55.0,-35.0,Uruguay,71.64949623209203,biogenic,climate_neutral_dac110
+3248,20.0,-35.0,South Africa,279.1616,DAC,climate_neutral_dac110
+3249,22.5,-35.0,South Africa,279.1616,DAC,climate_neutral_dac110
+3286,115.0,-35.0,Australia,279.1616,DAC,climate_neutral_dac110
+3287,117.5,-35.0,Australia,279.1616,DAC,climate_neutral_dac110
+3294,135.0,-35.0,Australia,279.1616,DAC,climate_neutral_dac110
+3295,137.5,-35.0,Australia,279.1616,DAC,climate_neutral_dac110
+3296,140.0,-35.0,Australia,279.1616,DAC,climate_neutral_dac110
+3297,142.5,-35.0,Australia,99.96548529488018,biogenic,climate_neutral_dac110
+3298,145.0,-35.0,Australia,92.61770953311262,biogenic,climate_neutral_dac110
+3299,147.5,-35.0,Australia,91.98994456982156,biogenic,climate_neutral_dac110
+3300,150.0,-35.0,Australia,98.52963217211058,biogenic,climate_neutral_dac110
+3356,-70.0,-32.5,Argentina,93.1130739228058,biogenic,climate_neutral_dac110
+3357,-67.5,-32.5,Argentina,103.1073746933874,biogenic,climate_neutral_dac110
+3358,-65.0,-32.5,Argentina,94.2359508899332,biogenic,climate_neutral_dac110
+3359,-62.5,-32.5,Argentina,80.32999556285866,biogenic,climate_neutral_dac110
+3360,-60.0,-32.5,Argentina,74.50438460116142,biogenic,climate_neutral_dac110
+3361,-57.5,-32.5,Uruguay,84.39984473293713,biogenic,climate_neutral_dac110
+3362,-55.0,-32.5,Uruguay,85.98480229083113,biogenic,climate_neutral_dac110
+3363,-52.5,-32.5,Brazil,87.16602819238392,biogenic,climate_neutral_dac110
+3391,17.5,-32.5,South Africa,279.1616,DAC,climate_neutral_dac110
+3392,20.0,-32.5,South Africa,279.1616,DAC,climate_neutral_dac110
+3393,22.5,-32.5,South Africa,279.1616,DAC,climate_neutral_dac110
+3394,25.0,-32.5,South Africa,279.1616,DAC,climate_neutral_dac110
+3395,27.5,-32.5,South Africa,279.1616,DAC,climate_neutral_dac110
+3430,115.0,-32.5,Australia,279.1616,DAC,climate_neutral_dac110
+3431,117.5,-32.5,Australia,279.1616,DAC,climate_neutral_dac110
+3432,120.0,-32.5,Australia,279.1616,DAC,climate_neutral_dac110
+3433,122.5,-32.5,Australia,279.1616,DAC,climate_neutral_dac110
+3434,125.0,-32.5,Australia,279.1616,DAC,climate_neutral_dac110
+3435,127.5,-32.5,Australia,279.1616,DAC,climate_neutral_dac110
+3437,132.5,-32.5,Australia,279.1616,DAC,climate_neutral_dac110
+3438,135.0,-32.5,Australia,279.1616,DAC,climate_neutral_dac110
+3439,137.5,-32.5,Australia,279.1616,DAC,climate_neutral_dac110
+3440,140.0,-32.5,Australia,279.1616,DAC,climate_neutral_dac110
+3441,142.5,-32.5,Australia,279.1616,DAC,climate_neutral_dac110
+3442,145.0,-32.5,Australia,108.73688177853153,biogenic,climate_neutral_dac110
+3443,147.5,-32.5,Australia,108.36250395247971,biogenic,climate_neutral_dac110
+3444,150.0,-32.5,Australia,279.1616,DAC,climate_neutral_dac110
+3445,152.5,-32.5,Australia,279.1616,DAC,climate_neutral_dac110
+3500,-70.0,-30.0,Argentina,108.02566221124852,biogenic,climate_neutral_dac110
+3501,-67.5,-30.0,Argentina,279.1616,DAC,climate_neutral_dac110
+3502,-65.0,-30.0,Argentina,100.88818649156283,biogenic,climate_neutral_dac110
+3503,-62.5,-30.0,Argentina,91.45471946731053,biogenic,climate_neutral_dac110
+3504,-60.0,-30.0,Argentina,89.27513313541925,biogenic,climate_neutral_dac110
+3505,-57.5,-30.0,Argentina,96.2260051177207,biogenic,climate_neutral_dac110
+3506,-55.0,-30.0,Brazil,91.26901524291716,biogenic,climate_neutral_dac110
+3507,-52.5,-30.0,Brazil,76.87380179086882,biogenic,climate_neutral_dac110
+3508,-50.0,-30.0,Brazil,77.6546294029568,biogenic,climate_neutral_dac110
+3535,17.5,-30.0,South Africa,279.1616,DAC,climate_neutral_dac110
+3536,20.0,-30.0,South Africa,279.1616,DAC,climate_neutral_dac110
+3537,22.5,-30.0,South Africa,279.1616,DAC,climate_neutral_dac110
+3538,25.0,-30.0,South Africa,279.1616,DAC,climate_neutral_dac110
+3539,27.5,-30.0,South Africa,279.1616,DAC,climate_neutral_dac110
+3540,30.0,-30.0,South Africa,279.1616,DAC,climate_neutral_dac110
+3574,115.0,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3575,117.5,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3576,120.0,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3577,122.5,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3578,125.0,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3579,127.5,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3580,130.0,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3581,132.5,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3582,135.0,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3583,137.5,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3584,140.0,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3585,142.5,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3586,145.0,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3587,147.5,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3588,150.0,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3589,152.5,-30.0,Australia,279.1616,DAC,climate_neutral_dac110
+3644,-70.0,-27.5,Chile,279.1616,DAC,climate_neutral_dac110
+3645,-67.5,-27.5,Argentina,279.1616,DAC,climate_neutral_dac110
+3646,-65.0,-27.5,Argentina,279.1616,DAC,climate_neutral_dac110
+3647,-62.5,-27.5,Argentina,107.01575478545833,biogenic,climate_neutral_dac110
+3648,-60.0,-27.5,Argentina,103.51172605465564,biogenic,climate_neutral_dac110
+3649,-57.5,-27.5,Argentina,89.82161955067753,biogenic,climate_neutral_dac110
+3650,-55.0,-27.5,Argentina,80.31027684939946,biogenic,climate_neutral_dac110
+3651,-52.5,-27.5,Brazil,75.19608944895347,biogenic,climate_neutral_dac110
+3652,-50.0,-27.5,Brazil,74.39655050705983,biogenic,climate_neutral_dac110
+3678,15.0,-27.5,Namibia,279.1616,DAC,climate_neutral_dac110
+3679,17.5,-27.5,Namibia,279.1616,DAC,climate_neutral_dac110
+3680,20.0,-27.5,Namibia,279.1616,DAC,climate_neutral_dac110
+3681,22.5,-27.5,South Africa,279.1616,DAC,climate_neutral_dac110
+3682,25.0,-27.5,South Africa,279.1616,DAC,climate_neutral_dac110
+3683,27.5,-27.5,South Africa,279.1616,DAC,climate_neutral_dac110
+3684,30.0,-27.5,South Africa,279.1616,DAC,climate_neutral_dac110
+3685,32.5,-27.5,South Africa,279.1616,DAC,climate_neutral_dac110
+3718,115.0,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3719,117.5,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3720,120.0,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3721,122.5,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3722,125.0,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3723,127.5,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3724,130.0,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3725,132.5,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3726,135.0,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3727,137.5,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3728,140.0,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3729,142.5,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3730,145.0,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3731,147.5,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3732,150.0,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3733,152.5,-27.5,Australia,279.1616,DAC,climate_neutral_dac110
+3788,-70.0,-25.0,Chile,279.1616,DAC,climate_neutral_dac110
+3789,-67.5,-25.0,Argentina,279.1616,DAC,climate_neutral_dac110
+3790,-65.0,-25.0,Argentina,279.1616,DAC,climate_neutral_dac110
+3791,-62.5,-25.0,Argentina,279.1616,DAC,climate_neutral_dac110
+3792,-60.0,-25.0,Argentina,102.97270595785028,biogenic,climate_neutral_dac110
+3793,-57.5,-25.0,Paraguay,88.47195710573467,biogenic,climate_neutral_dac110
+3794,-55.0,-25.0,Paraguay,76.95714220804523,biogenic,climate_neutral_dac110
+3795,-52.5,-25.0,Brazil,78.62680591708865,biogenic,climate_neutral_dac110
+3796,-50.0,-25.0,Brazil,73.691009341743,biogenic,climate_neutral_dac110
+3797,-47.5,-25.0,Brazil,82.24604304819842,biogenic,climate_neutral_dac110
+3822,15.0,-25.0,Namibia,279.1616,DAC,climate_neutral_dac110
+3823,17.5,-25.0,Namibia,279.1616,DAC,climate_neutral_dac110
+3824,20.0,-25.0,Namibia,279.1616,DAC,climate_neutral_dac110
+3825,22.5,-25.0,Botswana,279.1616,DAC,climate_neutral_dac110
+3826,25.0,-25.0,Botswana,279.1616,DAC,climate_neutral_dac110
+3827,27.5,-25.0,South Africa,279.1616,DAC,climate_neutral_dac110
+3828,30.0,-25.0,South Africa,279.1616,DAC,climate_neutral_dac110
+3829,32.5,-25.0,Mozambique,279.1616,DAC,climate_neutral_dac110
+3830,35.0,-25.0,Mozambique,279.1616,DAC,climate_neutral_dac110
+3834,45.0,-25.0,Madagascar,279.1616,DAC,climate_neutral_dac110
+3835,47.5,-25.0,Madagascar,279.1616,DAC,climate_neutral_dac110
+3862,115.0,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3863,117.5,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3864,120.0,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3865,122.5,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3866,125.0,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3867,127.5,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3868,130.0,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3869,132.5,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3870,135.0,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3871,137.5,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3872,140.0,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3873,142.5,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3874,145.0,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3875,147.5,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3876,150.0,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3877,152.5,-25.0,Australia,279.1616,DAC,climate_neutral_dac110
+3932,-70.0,-22.5,Chile,279.1616,DAC,climate_neutral_dac110
+3933,-67.5,-22.5,Chile,279.1616,DAC,climate_neutral_dac110
+3934,-65.0,-22.5,Argentina,279.1616,DAC,climate_neutral_dac110
+3935,-62.5,-22.5,Argentina,279.1616,DAC,climate_neutral_dac110
+3936,-60.0,-22.5,Paraguay,279.1616,DAC,climate_neutral_dac110
+3937,-57.5,-22.5,Paraguay,97.31614498580022,biogenic,climate_neutral_dac110
+3938,-55.0,-22.5,Brazil,85.82721246774064,biogenic,climate_neutral_dac110
+3939,-52.5,-22.5,Brazil,80.96348567666263,biogenic,climate_neutral_dac110
+3940,-50.0,-22.5,Brazil,77.33081701969962,biogenic,climate_neutral_dac110
+3941,-47.5,-22.5,Brazil,78.08695628371248,biogenic,climate_neutral_dac110
+3942,-45.0,-22.5,Brazil,76.40127710497656,biogenic,climate_neutral_dac110
+3943,-42.5,-22.5,Brazil,91.22078948883764,biogenic,climate_neutral_dac110
+3966,15.0,-22.5,Namibia,279.1616,DAC,climate_neutral_dac110
+3967,17.5,-22.5,Namibia,279.1616,DAC,climate_neutral_dac110
+3968,20.0,-22.5,Namibia,279.1616,DAC,climate_neutral_dac110
+3969,22.5,-22.5,Botswana,279.1616,DAC,climate_neutral_dac110
+3970,25.0,-22.5,Botswana,279.1616,DAC,climate_neutral_dac110
+3971,27.5,-22.5,Botswana,279.1616,DAC,climate_neutral_dac110
+3972,30.0,-22.5,South Africa,279.1616,DAC,climate_neutral_dac110
+3973,32.5,-22.5,Mozambique,279.1616,DAC,climate_neutral_dac110
+3974,35.0,-22.5,Mozambique,279.1616,DAC,climate_neutral_dac110
+3978,45.0,-22.5,Madagascar,279.1616,DAC,climate_neutral_dac110
+3979,47.5,-22.5,Madagascar,279.1616,DAC,climate_neutral_dac110
+4006,115.0,-22.5,Australia,279.1616,DAC,climate_neutral_dac110
+4007,117.5,-22.5,Australia,279.1616,DAC,climate_neutral_dac110
+4008,120.0,-22.5,Australia,279.1616,DAC,climate_neutral_dac110
+4009,122.5,-22.5,Australia,279.1616,DAC,climate_neutral_dac110
+4010,125.0,-22.5,Australia,279.1616,DAC,climate_neutral_dac110
+4011,127.5,-22.5,Australia,279.1616,DAC,climate_neutral_dac110
+4012,130.0,-22.5,Australia,279.1616,DAC,climate_neutral_dac110
+4013,132.5,-22.5,Australia,279.1616,DAC,climate_neutral_dac110
+4014,135.0,-22.5,Australia,279.1616,DAC,climate_neutral_dac110
+4015,137.5,-22.5,Australia,279.1616,DAC,climate_neutral_dac110
+4016,140.0,-22.5,Australia,279.1616,DAC,climate_neutral_dac110
+4017,142.5,-22.5,Australia,279.1616,DAC,climate_neutral_dac110
+4018,145.0,-22.5,Australia,279.1616,DAC,climate_neutral_dac110
+4019,147.5,-22.5,Australia,279.1616,DAC,climate_neutral_dac110
+4020,150.0,-22.5,Australia,279.1616,DAC,climate_neutral_dac110
+4076,-70.0,-20.0,Chile,279.1616,DAC,climate_neutral_dac110
+4077,-67.5,-20.0,Bolivia,279.1616,DAC,climate_neutral_dac110
+4078,-65.0,-20.0,Bolivia,279.1616,DAC,climate_neutral_dac110
+4079,-62.5,-20.0,Bolivia,279.1616,DAC,climate_neutral_dac110
+4080,-60.0,-20.0,Paraguay,109.70239674313582,biogenic,climate_neutral_dac110
+4081,-57.5,-20.0,Brazil,94.13581355400106,biogenic,climate_neutral_dac110
+4082,-55.0,-20.0,Brazil,78.85883745338487,biogenic,climate_neutral_dac110
+4083,-52.5,-20.0,Brazil,76.83417387739631,biogenic,climate_neutral_dac110
+4084,-50.0,-20.0,Brazil,80.84517972829678,biogenic,climate_neutral_dac110
+4085,-47.5,-20.0,Brazil,78.19905283079173,biogenic,climate_neutral_dac110
+4086,-45.0,-20.0,Brazil,86.98471569427463,biogenic,climate_neutral_dac110
+4087,-42.5,-20.0,Brazil,74.5802275790707,biogenic,climate_neutral_dac110
+4088,-40.0,-20.0,Brazil,83.05443651308634,biogenic,climate_neutral_dac110
+4109,12.5,-20.0,Namibia,279.1616,DAC,climate_neutral_dac110
+4110,15.0,-20.0,Namibia,279.1616,DAC,climate_neutral_dac110
+4111,17.5,-20.0,Namibia,279.1616,DAC,climate_neutral_dac110
+4112,20.0,-20.0,Namibia,279.1616,DAC,climate_neutral_dac110
+4113,22.5,-20.0,Botswana,279.1616,DAC,climate_neutral_dac110
+4114,25.0,-20.0,Botswana,279.1616,DAC,climate_neutral_dac110
+4115,27.5,-20.0,Zimbabwe,279.1616,DAC,climate_neutral_dac110
+4116,30.0,-20.0,Zimbabwe,279.1616,DAC,climate_neutral_dac110
+4117,32.5,-20.0,Zimbabwe,279.1616,DAC,climate_neutral_dac110
+4118,35.0,-20.0,Mozambique,279.1616,DAC,climate_neutral_dac110
+4122,45.0,-20.0,Madagascar,279.1616,DAC,climate_neutral_dac110
+4123,47.5,-20.0,Madagascar,279.1616,DAC,climate_neutral_dac110
+4151,117.5,-20.0,Australia,279.1616,DAC,climate_neutral_dac110
+4152,120.0,-20.0,Australia,279.1616,DAC,climate_neutral_dac110
+4153,122.5,-20.0,Australia,279.1616,DAC,climate_neutral_dac110
+4154,125.0,-20.0,Australia,279.1616,DAC,climate_neutral_dac110
+4155,127.5,-20.0,Australia,279.1616,DAC,climate_neutral_dac110
+4156,130.0,-20.0,Australia,279.1616,DAC,climate_neutral_dac110
+4157,132.5,-20.0,Australia,279.1616,DAC,climate_neutral_dac110
+4158,135.0,-20.0,Australia,279.1616,DAC,climate_neutral_dac110
+4159,137.5,-20.0,Australia,279.1616,DAC,climate_neutral_dac110
+4160,140.0,-20.0,Australia,279.1616,DAC,climate_neutral_dac110
+4161,142.5,-20.0,Australia,279.1616,DAC,climate_neutral_dac110
+4162,145.0,-20.0,Australia,279.1616,DAC,climate_neutral_dac110
+4163,147.5,-20.0,Australia,279.1616,DAC,climate_neutral_dac110
+4219,-72.5,-17.5,Peru,279.1616,DAC,climate_neutral_dac110
+4220,-70.0,-17.5,Peru,279.1616,DAC,climate_neutral_dac110
+4221,-67.5,-17.5,Bolivia,279.1616,DAC,climate_neutral_dac110
+4222,-65.0,-17.5,Bolivia,279.1616,DAC,climate_neutral_dac110
+4223,-62.5,-17.5,Bolivia,279.1616,DAC,climate_neutral_dac110
+4224,-60.0,-17.5,Bolivia,279.1616,DAC,climate_neutral_dac110
+4225,-57.5,-17.5,Brazil,101.21814301453404,biogenic,climate_neutral_dac110
+4226,-55.0,-17.5,Brazil,91.51196410060234,biogenic,climate_neutral_dac110
+4227,-52.5,-17.5,Brazil,91.1727715258645,biogenic,climate_neutral_dac110
+4228,-50.0,-17.5,Brazil,85.94577455386408,biogenic,climate_neutral_dac110
+4229,-47.5,-17.5,Brazil,79.28004186272827,biogenic,climate_neutral_dac110
+4230,-45.0,-17.5,Brazil,90.47447799237897,biogenic,climate_neutral_dac110
+4231,-42.5,-17.5,Brazil,82.15551557841665,biogenic,climate_neutral_dac110
+4232,-40.0,-17.5,Brazil,73.65356553202871,biogenic,climate_neutral_dac110
+4253,12.5,-17.5,Namibia,279.1616,DAC,climate_neutral_dac110
+4254,15.0,-17.5,Namibia,279.1616,DAC,climate_neutral_dac110
+4255,17.5,-17.5,Namibia,279.1616,DAC,climate_neutral_dac110
+4256,20.0,-17.5,Angola,279.1616,DAC,climate_neutral_dac110
+4257,22.5,-17.5,Angola,279.1616,DAC,climate_neutral_dac110
+4258,25.0,-17.5,Zambia,279.1616,DAC,climate_neutral_dac110
+4259,27.5,-17.5,Zimbabwe,279.1616,DAC,climate_neutral_dac110
+4260,30.0,-17.5,Zimbabwe,279.1616,DAC,climate_neutral_dac110
+4261,32.5,-17.5,Zimbabwe,279.1616,DAC,climate_neutral_dac110
+4262,35.0,-17.5,Mozambique,279.1616,DAC,climate_neutral_dac110
+4263,37.5,-17.5,Mozambique,279.1616,DAC,climate_neutral_dac110
+4266,45.0,-17.5,Madagascar,279.1616,DAC,climate_neutral_dac110
+4267,47.5,-17.5,Madagascar,279.1616,DAC,climate_neutral_dac110
+4268,50.0,-17.5,Madagascar,279.1616,DAC,climate_neutral_dac110
+4297,122.5,-17.5,Australia,279.1616,DAC,climate_neutral_dac110
+4298,125.0,-17.5,Australia,279.1616,DAC,climate_neutral_dac110
+4299,127.5,-17.5,Australia,279.1616,DAC,climate_neutral_dac110
+4300,130.0,-17.5,Australia,279.1616,DAC,climate_neutral_dac110
+4301,132.5,-17.5,Australia,279.1616,DAC,climate_neutral_dac110
+4302,135.0,-17.5,Australia,279.1616,DAC,climate_neutral_dac110
+4303,137.5,-17.5,Australia,279.1616,DAC,climate_neutral_dac110
+4304,140.0,-17.5,Australia,279.1616,DAC,climate_neutral_dac110
+4305,142.5,-17.5,Australia,279.1616,DAC,climate_neutral_dac110
+4306,145.0,-17.5,Australia,279.1616,DAC,climate_neutral_dac110
+4319,177.5,-17.5,Fiji,279.1616,DAC,climate_neutral_dac110
+4362,-75.0,-15.0,Peru,279.1616,DAC,climate_neutral_dac110
+4363,-72.5,-15.0,Peru,279.1616,DAC,climate_neutral_dac110
+4364,-70.0,-15.0,Peru,279.1616,DAC,climate_neutral_dac110
+4365,-67.5,-15.0,Bolivia,279.1616,DAC,climate_neutral_dac110
+4366,-65.0,-15.0,Bolivia,279.1616,DAC,climate_neutral_dac110
+4367,-62.5,-15.0,Bolivia,279.1616,DAC,climate_neutral_dac110
+4368,-60.0,-15.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4369,-57.5,-15.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4370,-55.0,-15.0,Brazil,107.46141159173295,biogenic,climate_neutral_dac110
+4371,-52.5,-15.0,Brazil,107.26496914542976,biogenic,climate_neutral_dac110
+4372,-50.0,-15.0,Brazil,98.84115775892693,biogenic,climate_neutral_dac110
+4373,-47.5,-15.0,Brazil,95.71768411502396,biogenic,climate_neutral_dac110
+4374,-45.0,-15.0,Brazil,101.62304006673432,biogenic,climate_neutral_dac110
+4375,-42.5,-15.0,Brazil,91.15584697055894,biogenic,climate_neutral_dac110
+4376,-40.0,-15.0,Brazil,78.20155987830952,biogenic,climate_neutral_dac110
+4397,12.5,-15.0,Angola,279.1616,DAC,climate_neutral_dac110
+4398,15.0,-15.0,Angola,279.1616,DAC,climate_neutral_dac110
+4399,17.5,-15.0,Angola,279.1616,DAC,climate_neutral_dac110
+4400,20.0,-15.0,Angola,279.1616,DAC,climate_neutral_dac110
+4401,22.5,-15.0,Zambia,279.1616,DAC,climate_neutral_dac110
+4402,25.0,-15.0,Zambia,279.1616,DAC,climate_neutral_dac110
+4403,27.5,-15.0,Zambia,279.1616,DAC,climate_neutral_dac110
+4404,30.0,-15.0,Zambia,279.1616,DAC,climate_neutral_dac110
+4405,32.5,-15.0,Mozambique,279.1616,DAC,climate_neutral_dac110
+4406,35.0,-15.0,Malawi,279.1616,DAC,climate_neutral_dac110
+4407,37.5,-15.0,Mozambique,279.1616,DAC,climate_neutral_dac110
+4408,40.0,-15.0,Mozambique,279.1616,DAC,climate_neutral_dac110
+4411,47.5,-15.0,Madagascar,279.1616,DAC,climate_neutral_dac110
+4412,50.0,-15.0,Madagascar,279.1616,DAC,climate_neutral_dac110
+4442,125.0,-15.0,Australia,279.1616,DAC,climate_neutral_dac110
+4443,127.5,-15.0,Australia,279.1616,DAC,climate_neutral_dac110
+4444,130.0,-15.0,Australia,279.1616,DAC,climate_neutral_dac110
+4445,132.5,-15.0,Australia,279.1616,DAC,climate_neutral_dac110
+4446,135.0,-15.0,Australia,279.1616,DAC,climate_neutral_dac110
+4449,142.5,-15.0,Australia,279.1616,DAC,climate_neutral_dac110
+4450,145.0,-15.0,Australia,279.1616,DAC,climate_neutral_dac110
+4505,-77.5,-12.5,Peru,279.1616,DAC,climate_neutral_dac110
+4506,-75.0,-12.5,Peru,279.1616,DAC,climate_neutral_dac110
+4507,-72.5,-12.5,Peru,279.1616,DAC,climate_neutral_dac110
+4508,-70.0,-12.5,Peru,279.1616,DAC,climate_neutral_dac110
+4509,-67.5,-12.5,Bolivia,279.1616,DAC,climate_neutral_dac110
+4510,-65.0,-12.5,Bolivia,279.1616,DAC,climate_neutral_dac110
+4511,-62.5,-12.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4512,-60.0,-12.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4513,-57.5,-12.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4514,-55.0,-12.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4515,-52.5,-12.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4516,-50.0,-12.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4517,-47.5,-12.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4518,-45.0,-12.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4519,-42.5,-12.5,Brazil,97.1689372407457,biogenic,climate_neutral_dac110
+4520,-40.0,-12.5,Brazil,80.9155312826778,biogenic,climate_neutral_dac110
+4521,-37.5,-12.5,Brazil,75.47608607650892,biogenic,climate_neutral_dac110
+4541,12.5,-12.5,Angola,279.1616,DAC,climate_neutral_dac110
+4542,15.0,-12.5,Angola,279.1616,DAC,climate_neutral_dac110
+4543,17.5,-12.5,Angola,279.1616,DAC,climate_neutral_dac110
+4544,20.0,-12.5,Angola,279.1616,DAC,climate_neutral_dac110
+4545,22.5,-12.5,Angola,279.1616,DAC,climate_neutral_dac110
+4546,25.0,-12.5,Zambia,279.1616,DAC,climate_neutral_dac110
+4547,27.5,-12.5,Zambia,279.1616,DAC,climate_neutral_dac110
+4548,30.0,-12.5,Zambia,279.1616,DAC,climate_neutral_dac110
+4549,32.5,-12.5,Zambia,279.1616,DAC,climate_neutral_dac110
+4550,35.0,-12.5,Mozambique,279.1616,DAC,climate_neutral_dac110
+4551,37.5,-12.5,Mozambique,279.1616,DAC,climate_neutral_dac110
+4552,40.0,-12.5,Mozambique,279.1616,DAC,climate_neutral_dac110
+4556,50.0,-12.5,Madagascar,279.1616,DAC,climate_neutral_dac110
+4588,130.0,-12.5,Australia,279.1616,DAC,climate_neutral_dac110
+4589,132.5,-12.5,Australia,279.1616,DAC,climate_neutral_dac110
+4590,135.0,-12.5,Australia,279.1616,DAC,climate_neutral_dac110
+4593,142.5,-12.5,Australia,279.1616,DAC,climate_neutral_dac110
+4649,-77.5,-10.0,Peru,279.1616,DAC,climate_neutral_dac110
+4650,-75.0,-10.0,Peru,279.1616,DAC,climate_neutral_dac110
+4651,-72.5,-10.0,Peru,279.1616,DAC,climate_neutral_dac110
+4652,-70.0,-10.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4653,-67.5,-10.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4654,-65.0,-10.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4655,-62.5,-10.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4656,-60.0,-10.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4657,-57.5,-10.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4658,-55.0,-10.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4659,-52.5,-10.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4660,-50.0,-10.0,Brazil,104.5570358156062,biogenic,climate_neutral_dac110
+4661,-47.5,-10.0,Brazil,100.58347576845286,biogenic,climate_neutral_dac110
+4662,-45.0,-10.0,Brazil,104.96547666840696,biogenic,climate_neutral_dac110
+4663,-42.5,-10.0,Brazil,102.48436671510296,biogenic,climate_neutral_dac110
+4664,-40.0,-10.0,Brazil,90.74097809057504,biogenic,climate_neutral_dac110
+4665,-37.5,-10.0,Brazil,88.43848035234593,biogenic,climate_neutral_dac110
+4666,-35.0,-10.0,Brazil,98.01087056587195,biogenic,climate_neutral_dac110
+4686,15.0,-10.0,Angola,279.1616,DAC,climate_neutral_dac110
+4687,17.5,-10.0,Angola,279.1616,DAC,climate_neutral_dac110
+4688,20.0,-10.0,Angola,279.1616,DAC,climate_neutral_dac110
+4689,22.5,-10.0,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+4690,25.0,-10.0,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+4691,27.5,-10.0,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+4692,30.0,-10.0,Zambia,279.1616,DAC,climate_neutral_dac110
+4693,32.5,-10.0,Zambia,279.1616,DAC,climate_neutral_dac110
+4694,35.0,-10.0,United Republic of Tanzania,279.1616,DAC,climate_neutral_dac110
+4695,37.5,-10.0,United Republic of Tanzania,279.1616,DAC,climate_neutral_dac110
+4696,40.0,-10.0,United Republic of Tanzania,279.1616,DAC,climate_neutral_dac110
+4728,120.0,-10.0,Indonesia,279.1616,DAC,climate_neutral_dac110
+4730,125.0,-10.0,Indonesia,279.1616,DAC,climate_neutral_dac110
+4737,142.5,-10.0,Papua New Guinea,279.1616,DAC,climate_neutral_dac110
+4739,147.5,-10.0,Papua New Guinea,279.1616,DAC,climate_neutral_dac110
+4740,150.0,-10.0,Papua New Guinea,279.1616,DAC,climate_neutral_dac110
+4792,-80.0,-7.5,Peru,279.1616,DAC,climate_neutral_dac110
+4793,-77.5,-7.5,Peru,279.1616,DAC,climate_neutral_dac110
+4794,-75.0,-7.5,Peru,279.1616,DAC,climate_neutral_dac110
+4795,-72.5,-7.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4796,-70.0,-7.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4797,-67.5,-7.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4798,-65.0,-7.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4799,-62.5,-7.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4800,-60.0,-7.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4801,-57.5,-7.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4802,-55.0,-7.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4803,-52.5,-7.5,Brazil,105.5449294805398,biogenic,climate_neutral_dac110
+4804,-50.0,-7.5,Brazil,91.302428789624,biogenic,climate_neutral_dac110
+4805,-47.5,-7.5,Brazil,83.90789533227677,biogenic,climate_neutral_dac110
+4806,-45.0,-7.5,Brazil,91.9626169277616,biogenic,climate_neutral_dac110
+4807,-42.5,-7.5,Brazil,106.33961284013384,biogenic,climate_neutral_dac110
+4808,-40.0,-7.5,Brazil,106.01712266635693,biogenic,climate_neutral_dac110
+4809,-37.5,-7.5,Brazil,104.73218507493354,biogenic,climate_neutral_dac110
+4810,-35.0,-7.5,Brazil,279.1616,DAC,climate_neutral_dac110
+4829,12.5,-7.5,Angola,279.1616,DAC,climate_neutral_dac110
+4830,15.0,-7.5,Angola,279.1616,DAC,climate_neutral_dac110
+4831,17.5,-7.5,Angola,279.1616,DAC,climate_neutral_dac110
+4832,20.0,-7.5,Angola,279.1616,DAC,climate_neutral_dac110
+4833,22.5,-7.5,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+4834,25.0,-7.5,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+4835,27.5,-7.5,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+4836,30.0,-7.5,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+4837,32.5,-7.5,United Republic of Tanzania,279.1616,DAC,climate_neutral_dac110
+4838,35.0,-7.5,United Republic of Tanzania,279.1616,DAC,climate_neutral_dac110
+4839,37.5,-7.5,United Republic of Tanzania,279.1616,DAC,climate_neutral_dac110
+4840,40.0,-7.5,United Republic of Tanzania,279.1616,DAC,climate_neutral_dac110
+4867,107.5,-7.5,Indonesia,74.41915219398734,biogenic,climate_neutral_dac110
+4868,110.0,-7.5,Indonesia,87.18645097458335,biogenic,climate_neutral_dac110
+4869,112.5,-7.5,Indonesia,72.40269527247607,biogenic,climate_neutral_dac110
+4870,115.0,-7.5,Indonesia,85.01863160475766,biogenic,climate_neutral_dac110
+4879,137.5,-7.5,Indonesia,279.1616,DAC,climate_neutral_dac110
+4880,140.0,-7.5,Indonesia,279.1616,DAC,climate_neutral_dac110
+4881,142.5,-7.5,Papua New Guinea,279.1616,DAC,climate_neutral_dac110
+4882,145.0,-7.5,Papua New Guinea,279.1616,DAC,climate_neutral_dac110
+4883,147.5,-7.5,Papua New Guinea,279.1616,DAC,climate_neutral_dac110
+4936,-80.0,-5.0,Peru,279.1616,DAC,climate_neutral_dac110
+4937,-77.5,-5.0,Peru,279.1616,DAC,climate_neutral_dac110
+4938,-75.0,-5.0,Peru,279.1616,DAC,climate_neutral_dac110
+4939,-72.5,-5.0,Peru,279.1616,DAC,climate_neutral_dac110
+4940,-70.0,-5.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4941,-67.5,-5.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4942,-65.0,-5.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4943,-62.5,-5.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4944,-60.0,-5.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4945,-57.5,-5.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4946,-55.0,-5.0,Brazil,102.11035003522711,biogenic,climate_neutral_dac110
+4947,-52.5,-5.0,Brazil,97.1869902254634,biogenic,climate_neutral_dac110
+4948,-50.0,-5.0,Brazil,86.41523685480804,biogenic,climate_neutral_dac110
+4949,-47.5,-5.0,Brazil,72.81138851129569,biogenic,climate_neutral_dac110
+4950,-45.0,-5.0,Brazil,87.26713291723897,biogenic,climate_neutral_dac110
+4951,-42.5,-5.0,Brazil,103.76692707467848,biogenic,climate_neutral_dac110
+4952,-40.0,-5.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4953,-37.5,-5.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4954,-35.0,-5.0,Brazil,279.1616,DAC,climate_neutral_dac110
+4973,12.5,-5.0,Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+4974,15.0,-5.0,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+4975,17.5,-5.0,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+4976,20.0,-5.0,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+4977,22.5,-5.0,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+4978,25.0,-5.0,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+4979,27.5,-5.0,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+4980,30.0,-5.0,United Republic of Tanzania,279.1616,DAC,climate_neutral_dac110
+4981,32.5,-5.0,United Republic of Tanzania,279.1616,DAC,climate_neutral_dac110
+4982,35.0,-5.0,United Republic of Tanzania,279.1616,DAC,climate_neutral_dac110
+4983,37.5,-5.0,United Republic of Tanzania,279.1616,DAC,climate_neutral_dac110
+4984,40.0,-5.0,Kenya,279.1616,DAC,climate_neutral_dac110
+5009,102.5,-5.0,Indonesia,84.52692411928334,biogenic,climate_neutral_dac110
+5010,105.0,-5.0,Indonesia,72.72412841129015,biogenic,climate_neutral_dac110
+5016,120.0,-5.0,Indonesia,279.1616,DAC,climate_neutral_dac110
+5017,122.5,-5.0,Indonesia,279.1616,DAC,climate_neutral_dac110
+5022,135.0,-5.0,Indonesia,279.1616,DAC,climate_neutral_dac110
+5023,137.5,-5.0,Indonesia,279.1616,DAC,climate_neutral_dac110
+5024,140.0,-5.0,Indonesia,279.1616,DAC,climate_neutral_dac110
+5025,142.5,-5.0,Papua New Guinea,279.1616,DAC,climate_neutral_dac110
+5026,145.0,-5.0,Papua New Guinea,279.1616,DAC,climate_neutral_dac110
+5028,150.0,-5.0,Papua New Guinea,279.1616,DAC,climate_neutral_dac110
+5029,152.5,-5.0,Papua New Guinea,279.1616,DAC,climate_neutral_dac110
+5080,-80.0,-2.5,Ecuador,279.1616,DAC,climate_neutral_dac110
+5081,-77.5,-2.5,Ecuador,279.1616,DAC,climate_neutral_dac110
+5082,-75.0,-2.5,Peru,279.1616,DAC,climate_neutral_dac110
+5083,-72.5,-2.5,Peru,279.1616,DAC,climate_neutral_dac110
+5084,-70.0,-2.5,Colombia,279.1616,DAC,climate_neutral_dac110
+5085,-67.5,-2.5,Brazil,279.1616,DAC,climate_neutral_dac110
+5086,-65.0,-2.5,Brazil,279.1616,DAC,climate_neutral_dac110
+5087,-62.5,-2.5,Brazil,279.1616,DAC,climate_neutral_dac110
+5088,-60.0,-2.5,Brazil,279.1616,DAC,climate_neutral_dac110
+5089,-57.5,-2.5,Brazil,105.37696627457548,biogenic,climate_neutral_dac110
+5090,-55.0,-2.5,Brazil,90.07734643508314,biogenic,climate_neutral_dac110
+5091,-52.5,-2.5,Brazil,80.5133839853894,biogenic,climate_neutral_dac110
+5092,-50.0,-2.5,Brazil,89.3345405127466,biogenic,climate_neutral_dac110
+5093,-47.5,-2.5,Brazil,89.46206691395905,biogenic,climate_neutral_dac110
+5094,-45.0,-2.5,Brazil,95.88390919469016,biogenic,climate_neutral_dac110
+5095,-42.5,-2.5,Brazil,108.92043072843762,biogenic,climate_neutral_dac110
+5096,-40.0,-2.5,Brazil,279.1616,DAC,climate_neutral_dac110
+5116,10.0,-2.5,Gabon,279.1616,DAC,climate_neutral_dac110
+5117,12.5,-2.5,Gabon,279.1616,DAC,climate_neutral_dac110
+5118,15.0,-2.5,Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5119,17.5,-2.5,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5120,20.0,-2.5,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5121,22.5,-2.5,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5122,25.0,-2.5,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5123,27.5,-2.5,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5124,30.0,-2.5,Rwanda,279.1616,DAC,climate_neutral_dac110
+5125,32.5,-2.5,United Republic of Tanzania,279.1616,DAC,climate_neutral_dac110
+5126,35.0,-2.5,United Republic of Tanzania,279.1616,DAC,climate_neutral_dac110
+5127,37.5,-2.5,Kenya,279.1616,DAC,climate_neutral_dac110
+5128,40.0,-2.5,Kenya,279.1616,DAC,climate_neutral_dac110
+5152,100.0,-2.5,Indonesia,92.9241008327825,biogenic,climate_neutral_dac110
+5153,102.5,-2.5,Indonesia,80.89513152666117,biogenic,climate_neutral_dac110
+5154,105.0,-2.5,Indonesia,72.80317253703828,biogenic,climate_neutral_dac110
+5156,110.0,-2.5,Indonesia,87.88692255660416,biogenic,climate_neutral_dac110
+5157,112.5,-2.5,Indonesia,97.8276669654269,biogenic,climate_neutral_dac110
+5158,115.0,-2.5,Indonesia,104.96239689765278,biogenic,climate_neutral_dac110
+5160,120.0,-2.5,Indonesia,103.62906694218805,biogenic,climate_neutral_dac110
+5161,122.5,-2.5,Indonesia,279.1616,DAC,climate_neutral_dac110
+5163,127.5,-2.5,Indonesia,279.1616,DAC,climate_neutral_dac110
+5164,130.0,-2.5,Indonesia,279.1616,DAC,climate_neutral_dac110
+5165,132.5,-2.5,Indonesia,279.1616,DAC,climate_neutral_dac110
+5166,135.0,-2.5,Indonesia,279.1616,DAC,climate_neutral_dac110
+5167,137.5,-2.5,Indonesia,279.1616,DAC,climate_neutral_dac110
+5168,140.0,-2.5,Indonesia,279.1616,DAC,climate_neutral_dac110
+5169,142.5,-2.5,Papua New Guinea,279.1616,DAC,climate_neutral_dac110
+5224,-80.0,0.0,Ecuador,279.1616,DAC,climate_neutral_dac110
+5225,-77.5,0.0,Ecuador,279.1616,DAC,climate_neutral_dac110
+5226,-75.0,0.0,Colombia,279.1616,DAC,climate_neutral_dac110
+5227,-72.5,0.0,Colombia,279.1616,DAC,climate_neutral_dac110
+5228,-70.0,0.0,Colombia,279.1616,DAC,climate_neutral_dac110
+5229,-67.5,0.0,Brazil,279.1616,DAC,climate_neutral_dac110
+5230,-65.0,0.0,Brazil,279.1616,DAC,climate_neutral_dac110
+5231,-62.5,0.0,Brazil,279.1616,DAC,climate_neutral_dac110
+5232,-60.0,0.0,Brazil,279.1616,DAC,climate_neutral_dac110
+5233,-57.5,0.0,Brazil,104.35572593520035,biogenic,climate_neutral_dac110
+5234,-55.0,0.0,Brazil,88.19744694851374,biogenic,climate_neutral_dac110
+5235,-52.5,0.0,Brazil,76.1906243829383,biogenic,climate_neutral_dac110
+5236,-50.0,0.0,Brazil,87.3737217597884,biogenic,climate_neutral_dac110
+5237,-47.5,0.0,Brazil,103.49200162885268,biogenic,climate_neutral_dac110
+5260,10.0,0.0,Gabon,279.1616,DAC,climate_neutral_dac110
+5261,12.5,0.0,Gabon,279.1616,DAC,climate_neutral_dac110
+5262,15.0,0.0,Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5263,17.5,0.0,Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5264,20.0,0.0,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5265,22.5,0.0,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5266,25.0,0.0,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5267,27.5,0.0,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5268,30.0,0.0,Uganda,279.1616,DAC,climate_neutral_dac110
+5269,32.5,0.0,Uganda,279.1616,DAC,climate_neutral_dac110
+5270,35.0,0.0,Kenya,279.1616,DAC,climate_neutral_dac110
+5271,37.5,0.0,Kenya,279.1616,DAC,climate_neutral_dac110
+5272,40.0,0.0,Kenya,279.1616,DAC,climate_neutral_dac110
+5273,42.5,0.0,Somalia,279.1616,DAC,climate_neutral_dac110
+5296,100.0,0.0,Indonesia,81.30930048215743,biogenic,climate_neutral_dac110
+5297,102.5,0.0,Indonesia,75.01728112297849,biogenic,climate_neutral_dac110
+5300,110.0,0.0,Indonesia,75.30733178249315,biogenic,climate_neutral_dac110
+5301,112.5,0.0,Indonesia,91.97467742479212,biogenic,climate_neutral_dac110
+5302,115.0,0.0,Indonesia,92.6812884959838,biogenic,climate_neutral_dac110
+5303,117.5,0.0,Indonesia,83.49388377809194,biogenic,climate_neutral_dac110
+5304,120.0,0.0,Indonesia,90.14684046070629,biogenic,climate_neutral_dac110
+5305,122.5,0.0,Indonesia,104.43648576092669,biogenic,climate_neutral_dac110
+5307,127.5,0.0,Indonesia,279.1616,DAC,climate_neutral_dac110
+5309,132.5,0.0,Indonesia,279.1616,DAC,climate_neutral_dac110
+5369,-77.5,2.5,Colombia,279.1616,DAC,climate_neutral_dac110
+5370,-75.0,2.5,Colombia,279.1616,DAC,climate_neutral_dac110
+5371,-72.5,2.5,Colombia,279.1616,DAC,climate_neutral_dac110
+5372,-70.0,2.5,Colombia,279.1616,DAC,climate_neutral_dac110
+5373,-67.5,2.5,Colombia,279.1616,DAC,climate_neutral_dac110
+5374,-65.0,2.5,Venezuela,279.1616,DAC,climate_neutral_dac110
+5375,-62.5,2.5,Brazil,279.1616,DAC,climate_neutral_dac110
+5376,-60.0,2.5,Brazil,279.1616,DAC,climate_neutral_dac110
+5377,-57.5,2.5,Guyana,279.1616,DAC,climate_neutral_dac110
+5378,-55.0,2.5,Suriname,98.55199396549637,biogenic,climate_neutral_dac110
+5379,-52.5,2.5,Brazil,92.85848201099596,biogenic,climate_neutral_dac110
+5380,-50.0,2.5,Brazil,98.03439331453612,biogenic,climate_neutral_dac110
+5404,10.0,2.5,Cameroon,279.1616,DAC,climate_neutral_dac110
+5405,12.5,2.5,Cameroon,279.1616,DAC,climate_neutral_dac110
+5406,15.0,2.5,Cameroon,279.1616,DAC,climate_neutral_dac110
+5407,17.5,2.5,Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5408,20.0,2.5,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5409,22.5,2.5,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5410,25.0,2.5,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5411,27.5,2.5,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5412,30.0,2.5,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5413,32.5,2.5,Uganda,279.1616,DAC,climate_neutral_dac110
+5414,35.0,2.5,Kenya,279.1616,DAC,climate_neutral_dac110
+5415,37.5,2.5,Kenya,279.1616,DAC,climate_neutral_dac110
+5416,40.0,2.5,Kenya,279.1616,DAC,climate_neutral_dac110
+5417,42.5,2.5,Somalia,279.1616,DAC,climate_neutral_dac110
+5418,45.0,2.5,Somalia,279.1616,DAC,climate_neutral_dac110
+5439,97.5,2.5,Indonesia,81.07369379597566,biogenic,climate_neutral_dac110
+5440,100.0,2.5,Indonesia,75.6033488997367,biogenic,climate_neutral_dac110
+5441,102.5,2.5,Malaysia,76.67048565448603,biogenic,climate_neutral_dac110
+5444,110.0,2.5,Malaysia,87.10999777820764,biogenic,climate_neutral_dac110
+5445,112.5,2.5,Malaysia,97.33450153133418,biogenic,climate_neutral_dac110
+5446,115.0,2.5,Indonesia,88.58505574152097,biogenic,climate_neutral_dac110
+5447,117.5,2.5,Indonesia,73.66450885684453,biogenic,climate_neutral_dac110
+5513,-77.5,5.0,Colombia,279.1616,DAC,climate_neutral_dac110
+5514,-75.0,5.0,Colombia,279.1616,DAC,climate_neutral_dac110
+5515,-72.5,5.0,Colombia,279.1616,DAC,climate_neutral_dac110
+5516,-70.0,5.0,Colombia,279.1616,DAC,climate_neutral_dac110
+5517,-67.5,5.0,Venezuela,279.1616,DAC,climate_neutral_dac110
+5518,-65.0,5.0,Venezuela,279.1616,DAC,climate_neutral_dac110
+5519,-62.5,5.0,Venezuela,279.1616,DAC,climate_neutral_dac110
+5520,-60.0,5.0,Guyana,279.1616,DAC,climate_neutral_dac110
+5521,-57.5,5.0,Suriname,279.1616,DAC,climate_neutral_dac110
+5522,-55.0,5.0,Suriname,279.1616,DAC,climate_neutral_dac110
+5523,-52.5,5.0,France,109.53593746565946,biogenic,climate_neutral_dac110
+5540,-10.0,5.0,Liberia,279.1616,DAC,climate_neutral_dac110
+5541,-7.5,5.0,Ivory Coast,279.1616,DAC,climate_neutral_dac110
+5542,-5.0,5.0,Ivory Coast,279.1616,DAC,climate_neutral_dac110
+5543,-2.5,5.0,Ghana,279.1616,DAC,climate_neutral_dac110
+5544,0.0,5.0,Ghana,279.1616,DAC,climate_neutral_dac110
+5546,5.0,5.0,Nigeria,279.1616,DAC,climate_neutral_dac110
+5547,7.5,5.0,Nigeria,279.1616,DAC,climate_neutral_dac110
+5548,10.0,5.0,Cameroon,279.1616,DAC,climate_neutral_dac110
+5549,12.5,5.0,Cameroon,279.1616,DAC,climate_neutral_dac110
+5550,15.0,5.0,Central African Republic,279.1616,DAC,climate_neutral_dac110
+5551,17.5,5.0,Central African Republic,279.1616,DAC,climate_neutral_dac110
+5552,20.0,5.0,Central African Republic,279.1616,DAC,climate_neutral_dac110
+5553,22.5,5.0,Central African Republic,279.1616,DAC,climate_neutral_dac110
+5554,25.0,5.0,Democratic Republic of the Congo,279.1616,DAC,climate_neutral_dac110
+5555,27.5,5.0,South Sudan,279.1616,DAC,climate_neutral_dac110
+5556,30.0,5.0,South Sudan,279.1616,DAC,climate_neutral_dac110
+5557,32.5,5.0,South Sudan,279.1616,DAC,climate_neutral_dac110
+5558,35.0,5.0,South Sudan,279.1616,DAC,climate_neutral_dac110
+5559,37.5,5.0,Ethiopia,279.1616,DAC,climate_neutral_dac110
+5560,40.0,5.0,Ethiopia,279.1616,DAC,climate_neutral_dac110
+5561,42.5,5.0,Ethiopia,279.1616,DAC,climate_neutral_dac110
+5562,45.0,5.0,Somalia,279.1616,DAC,climate_neutral_dac110
+5563,47.5,5.0,Somalia,279.1616,DAC,climate_neutral_dac110
+5582,95.0,5.0,Indonesia,84.28112677211826,biogenic,climate_neutral_dac110
+5583,97.5,5.0,Indonesia,72.67248756274412,biogenic,climate_neutral_dac110
+5584,100.0,5.0,Malaysia,87.86463277819804,biogenic,climate_neutral_dac110
+5585,102.5,5.0,Malaysia,85.89893160960116,biogenic,climate_neutral_dac110
+5590,115.0,5.0,Malaysia,97.06172185769732,biogenic,climate_neutral_dac110
+5591,117.5,5.0,Malaysia,90.02905437367005,biogenic,climate_neutral_dac110
+5655,-82.5,7.5,Panama,279.1616,DAC,climate_neutral_dac110
+5656,-80.0,7.5,Panama,279.1616,DAC,climate_neutral_dac110
+5657,-77.5,7.5,Colombia,279.1616,DAC,climate_neutral_dac110
+5658,-75.0,7.5,Colombia,279.1616,DAC,climate_neutral_dac110
+5659,-72.5,7.5,Colombia,279.1616,DAC,climate_neutral_dac110
+5660,-70.0,7.5,Venezuela,279.1616,DAC,climate_neutral_dac110
+5661,-67.5,7.5,Venezuela,279.1616,DAC,climate_neutral_dac110
+5662,-65.0,7.5,Venezuela,279.1616,DAC,climate_neutral_dac110
+5663,-62.5,7.5,Venezuela,279.1616,DAC,climate_neutral_dac110
+5664,-60.0,7.5,Guyana,279.1616,DAC,climate_neutral_dac110
+5683,-12.5,7.5,Sierra Leone,279.1616,DAC,climate_neutral_dac110
+5684,-10.0,7.5,Liberia,279.1616,DAC,climate_neutral_dac110
+5685,-7.5,7.5,Ivory Coast,279.1616,DAC,climate_neutral_dac110
+5686,-5.0,7.5,Ivory Coast,279.1616,DAC,climate_neutral_dac110
+5687,-2.5,7.5,Ghana,279.1616,DAC,climate_neutral_dac110
+5688,0.0,7.5,Ghana,279.1616,DAC,climate_neutral_dac110
+5689,2.5,7.5,Benin,279.1616,DAC,climate_neutral_dac110
+5690,5.0,7.5,Nigeria,279.1616,DAC,climate_neutral_dac110
+5691,7.5,7.5,Nigeria,279.1616,DAC,climate_neutral_dac110
+5692,10.0,7.5,Nigeria,279.1616,DAC,climate_neutral_dac110
+5693,12.5,7.5,Cameroon,279.1616,DAC,climate_neutral_dac110
+5694,15.0,7.5,Cameroon,279.1616,DAC,climate_neutral_dac110
+5695,17.5,7.5,Central African Republic,279.1616,DAC,climate_neutral_dac110
+5696,20.0,7.5,Central African Republic,279.1616,DAC,climate_neutral_dac110
+5697,22.5,7.5,Central African Republic,279.1616,DAC,climate_neutral_dac110
+5698,25.0,7.5,Central African Republic,279.1616,DAC,climate_neutral_dac110
+5699,27.5,7.5,South Sudan,279.1616,DAC,climate_neutral_dac110
+5700,30.0,7.5,South Sudan,279.1616,DAC,climate_neutral_dac110
+5701,32.5,7.5,South Sudan,279.1616,DAC,climate_neutral_dac110
+5702,35.0,7.5,Ethiopia,279.1616,DAC,climate_neutral_dac110
+5703,37.5,7.5,Ethiopia,279.1616,DAC,climate_neutral_dac110
+5704,40.0,7.5,Ethiopia,279.1616,DAC,climate_neutral_dac110
+5705,42.5,7.5,Ethiopia,279.1616,DAC,climate_neutral_dac110
+5706,45.0,7.5,Ethiopia,279.1616,DAC,climate_neutral_dac110
+5707,47.5,7.5,Somalia,279.1616,DAC,climate_neutral_dac110
+5708,50.0,7.5,Somalia,279.1616,DAC,climate_neutral_dac110
+5720,80.0,7.5,Sri Lanka,279.1616,DAC,climate_neutral_dac110
+5721,82.5,7.5,Sri Lanka,279.1616,DAC,climate_neutral_dac110
+5728,100.0,7.5,Thailand,94.46630552757868,biogenic,climate_neutral_dac110
+5737,122.5,7.5,Philippines,279.1616,DAC,climate_neutral_dac110
+5738,125.0,7.5,Philippines,279.1616,DAC,climate_neutral_dac110
+5798,-85.0,10.0,Costa Rica,279.1616,DAC,climate_neutral_dac110
+5799,-82.5,10.0,Costa Rica,279.1616,DAC,climate_neutral_dac110
+5800,-80.0,10.0,Panama,279.1616,DAC,climate_neutral_dac110
+5802,-75.0,10.0,Colombia,279.1616,DAC,climate_neutral_dac110
+5803,-72.5,10.0,Venezuela,279.1616,DAC,climate_neutral_dac110
+5804,-70.0,10.0,Venezuela,279.1616,DAC,climate_neutral_dac110
+5805,-67.5,10.0,Venezuela,279.1616,DAC,climate_neutral_dac110
+5806,-65.0,10.0,Venezuela,279.1616,DAC,climate_neutral_dac110
+5807,-62.5,10.0,Venezuela,279.1616,DAC,climate_neutral_dac110
+5826,-15.0,10.0,Guinea,279.1616,DAC,climate_neutral_dac110
+5827,-12.5,10.0,Guinea,279.1616,DAC,climate_neutral_dac110
+5828,-10.0,10.0,Guinea,279.1616,DAC,climate_neutral_dac110
+5829,-7.5,10.0,Ivory Coast,279.1616,DAC,climate_neutral_dac110
+5830,-5.0,10.0,Ivory Coast,279.1616,DAC,climate_neutral_dac110
+5831,-2.5,10.0,Ghana,279.1616,DAC,climate_neutral_dac110
+5832,0.0,10.0,Ghana,279.1616,DAC,climate_neutral_dac110
+5833,2.5,10.0,Benin,279.1616,DAC,climate_neutral_dac110
+5834,5.0,10.0,Nigeria,279.1616,DAC,climate_neutral_dac110
+5835,7.5,10.0,Nigeria,279.1616,DAC,climate_neutral_dac110
+5836,10.0,10.0,Nigeria,279.1616,DAC,climate_neutral_dac110
+5837,12.5,10.0,Nigeria,279.1616,DAC,climate_neutral_dac110
+5838,15.0,10.0,Chad,279.1616,DAC,climate_neutral_dac110
+5839,17.5,10.0,Chad,279.1616,DAC,climate_neutral_dac110
+5840,20.0,10.0,Chad,279.1616,DAC,climate_neutral_dac110
+5841,22.5,10.0,Central African Republic,279.1616,DAC,climate_neutral_dac110
+5842,25.0,10.0,Sudan,279.1616,DAC,climate_neutral_dac110
+5843,27.5,10.0,Sudan,279.1616,DAC,climate_neutral_dac110
+5844,30.0,10.0,Sudan,279.1616,DAC,climate_neutral_dac110
+5845,32.5,10.0,South Sudan,279.1616,DAC,climate_neutral_dac110
+5846,35.0,10.0,Ethiopia,279.1616,DAC,climate_neutral_dac110
+5847,37.5,10.0,Ethiopia,279.1616,DAC,climate_neutral_dac110
+5848,40.0,10.0,Ethiopia,279.1616,DAC,climate_neutral_dac110
+5849,42.5,10.0,Ethiopia,279.1616,DAC,climate_neutral_dac110
+5850,45.0,10.0,Somaliland,279.1616,DAC,climate_neutral_dac110
+5851,47.5,10.0,Somaliland,279.1616,DAC,climate_neutral_dac110
+5852,50.0,10.0,Somalia,279.1616,DAC,climate_neutral_dac110
+5863,77.5,10.0,India,279.1616,DAC,climate_neutral_dac110
+5864,80.0,10.0,India,279.1616,DAC,climate_neutral_dac110
+5872,100.0,10.0,Thailand,96.86043427472546,biogenic,climate_neutral_dac110
+5874,105.0,10.0,Vietnam,82.99066112736537,biogenic,climate_neutral_dac110
+5875,107.5,10.0,Vietnam,79.17040510202963,biogenic,climate_neutral_dac110
+5881,122.5,10.0,Philippines,279.1616,DAC,climate_neutral_dac110
+5882,125.0,10.0,Philippines,279.1616,DAC,climate_neutral_dac110
+5941,-87.5,12.5,Nicaragua,279.1616,DAC,climate_neutral_dac110
+5942,-85.0,12.5,Nicaragua,279.1616,DAC,climate_neutral_dac110
+5947,-72.5,12.5,Colombia,279.1616,DAC,climate_neutral_dac110
+5970,-15.0,12.5,Guinea-Bissau,279.1616,DAC,climate_neutral_dac110
+5971,-12.5,12.5,Guinea,279.1616,DAC,climate_neutral_dac110
+5972,-10.0,12.5,Mali,279.1616,DAC,climate_neutral_dac110
+5973,-7.5,12.5,Mali,279.1616,DAC,climate_neutral_dac110
+5974,-5.0,12.5,Mali,279.1616,DAC,climate_neutral_dac110
+5975,-2.5,12.5,Burkina Faso,279.1616,DAC,climate_neutral_dac110
+5976,0.0,12.5,Burkina Faso,279.1616,DAC,climate_neutral_dac110
+5977,2.5,12.5,Niger,279.1616,DAC,climate_neutral_dac110
+5978,5.0,12.5,Nigeria,279.1616,DAC,climate_neutral_dac110
+5979,7.5,12.5,Nigeria,279.1616,DAC,climate_neutral_dac110
+5980,10.0,12.5,Nigeria,279.1616,DAC,climate_neutral_dac110
+5981,12.5,12.5,Nigeria,279.1616,DAC,climate_neutral_dac110
+5982,15.0,12.5,Chad,279.1616,DAC,climate_neutral_dac110
+5983,17.5,12.5,Chad,279.1616,DAC,climate_neutral_dac110
+5984,20.0,12.5,Chad,279.1616,DAC,climate_neutral_dac110
+5985,22.5,12.5,Sudan,279.1616,DAC,climate_neutral_dac110
+5986,25.0,12.5,Sudan,279.1616,DAC,climate_neutral_dac110
+5987,27.5,12.5,Sudan,279.1616,DAC,climate_neutral_dac110
+5988,30.0,12.5,Sudan,279.1616,DAC,climate_neutral_dac110
+5989,32.5,12.5,Sudan,279.1616,DAC,climate_neutral_dac110
+5990,35.0,12.5,Sudan,279.1616,DAC,climate_neutral_dac110
+5991,37.5,12.5,Ethiopia,279.1616,DAC,climate_neutral_dac110
+5992,40.0,12.5,Ethiopia,279.1616,DAC,climate_neutral_dac110
+5993,42.5,12.5,Ethiopia,279.1616,DAC,climate_neutral_dac110
+5994,45.0,12.5,Yemen,279.1616,DAC,climate_neutral_dac110
+6006,75.0,12.5,India,279.1616,DAC,climate_neutral_dac110
+6007,77.5,12.5,India,279.1616,DAC,climate_neutral_dac110
+6008,80.0,12.5,India,279.1616,DAC,climate_neutral_dac110
+6016,100.0,12.5,Thailand,82.13255738476013,biogenic,climate_neutral_dac110
+6017,102.5,12.5,Cambodia,80.51260066618804,biogenic,climate_neutral_dac110
+6018,105.0,12.5,Cambodia,84.2880352520614,biogenic,climate_neutral_dac110
+6019,107.5,12.5,Vietnam,80.96427428394077,biogenic,climate_neutral_dac110
+6020,110.0,12.5,Vietnam,93.86207681282738,biogenic,climate_neutral_dac110
+6025,122.5,12.5,Philippines,279.1616,DAC,climate_neutral_dac110
+6026,125.0,12.5,Philippines,279.1616,DAC,climate_neutral_dac110
+6083,-92.5,15.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6084,-90.0,15.0,Guatemala,279.1616,DAC,climate_neutral_dac110
+6085,-87.5,15.0,Honduras,279.1616,DAC,climate_neutral_dac110
+6086,-85.0,15.0,Honduras,279.1616,DAC,climate_neutral_dac110
+6113,-17.5,15.0,Senegal,279.1616,DAC,climate_neutral_dac110
+6114,-15.0,15.0,Senegal,279.1616,DAC,climate_neutral_dac110
+6115,-12.5,15.0,Senegal,279.1616,DAC,climate_neutral_dac110
+6116,-10.0,15.0,Mali,279.1616,DAC,climate_neutral_dac110
+6117,-7.5,15.0,Mali,279.1616,DAC,climate_neutral_dac110
+6118,-5.0,15.0,Mali,279.1616,DAC,climate_neutral_dac110
+6119,-2.5,15.0,Mali,279.1616,DAC,climate_neutral_dac110
+6120,0.0,15.0,Mali,279.1616,DAC,climate_neutral_dac110
+6121,2.5,15.0,Niger,279.1616,DAC,climate_neutral_dac110
+6122,5.0,15.0,Niger,279.1616,DAC,climate_neutral_dac110
+6123,7.5,15.0,Niger,279.1616,DAC,climate_neutral_dac110
+6124,10.0,15.0,Niger,279.1616,DAC,climate_neutral_dac110
+6125,12.5,15.0,Niger,279.1616,DAC,climate_neutral_dac110
+6126,15.0,15.0,Chad,279.1616,DAC,climate_neutral_dac110
+6127,17.5,15.0,Chad,279.1616,DAC,climate_neutral_dac110
+6128,20.0,15.0,Chad,279.1616,DAC,climate_neutral_dac110
+6129,22.5,15.0,Chad,279.1616,DAC,climate_neutral_dac110
+6130,25.0,15.0,Sudan,279.1616,DAC,climate_neutral_dac110
+6131,27.5,15.0,Sudan,279.1616,DAC,climate_neutral_dac110
+6132,30.0,15.0,Sudan,279.1616,DAC,climate_neutral_dac110
+6133,32.5,15.0,Sudan,279.1616,DAC,climate_neutral_dac110
+6134,35.0,15.0,Sudan,279.1616,DAC,climate_neutral_dac110
+6135,37.5,15.0,Eritrea,279.1616,DAC,climate_neutral_dac110
+6136,40.0,15.0,Eritrea,279.1616,DAC,climate_neutral_dac110
+6137,42.5,15.0,Yemen,279.1616,DAC,climate_neutral_dac110
+6138,45.0,15.0,Yemen,279.1616,DAC,climate_neutral_dac110
+6139,47.5,15.0,Yemen,279.1616,DAC,climate_neutral_dac110
+6140,50.0,15.0,Yemen,279.1616,DAC,climate_neutral_dac110
+6150,75.0,15.0,India,279.1616,DAC,climate_neutral_dac110
+6151,77.5,15.0,India,279.1616,DAC,climate_neutral_dac110
+6152,80.0,15.0,India,279.1616,DAC,climate_neutral_dac110
+6159,97.5,15.0,Myanmar,89.81630421634651,biogenic,climate_neutral_dac110
+6160,100.0,15.0,Thailand,75.8078479484542,biogenic,climate_neutral_dac110
+6161,102.5,15.0,Thailand,79.36520617224943,biogenic,climate_neutral_dac110
+6162,105.0,15.0,Thailand,93.36790879562152,biogenic,climate_neutral_dac110
+6163,107.5,15.0,Vietnam,96.696224439523,biogenic,climate_neutral_dac110
+6168,120.0,15.0,Philippines,279.1616,DAC,climate_neutral_dac110
+6169,122.5,15.0,Philippines,279.1616,DAC,climate_neutral_dac110
+6223,-102.5,17.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6224,-100.0,17.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6225,-97.5,17.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6226,-95.0,17.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6227,-92.5,17.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6228,-90.0,17.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6229,-87.5,17.5,Belize,279.1616,DAC,climate_neutral_dac110
+6235,-72.5,17.5,Haiti,279.1616,DAC,climate_neutral_dac110
+6236,-70.0,17.5,Dominican Republic,279.1616,DAC,climate_neutral_dac110
+6258,-15.0,17.5,Mauritania,279.1616,DAC,climate_neutral_dac110
+6259,-12.5,17.5,Mauritania,279.1616,DAC,climate_neutral_dac110
+6260,-10.0,17.5,Mauritania,279.1616,DAC,climate_neutral_dac110
+6261,-7.5,17.5,Mauritania,279.1616,DAC,climate_neutral_dac110
+6262,-5.0,17.5,Mali,279.1616,DAC,climate_neutral_dac110
+6263,-2.5,17.5,Mali,279.1616,DAC,climate_neutral_dac110
+6264,0.0,17.5,Mali,279.1616,DAC,climate_neutral_dac110
+6265,2.5,17.5,Mali,279.1616,DAC,climate_neutral_dac110
+6266,5.0,17.5,Niger,279.1616,DAC,climate_neutral_dac110
+6267,7.5,17.5,Niger,279.1616,DAC,climate_neutral_dac110
+6268,10.0,17.5,Niger,279.1616,DAC,climate_neutral_dac110
+6269,12.5,17.5,Niger,279.1616,DAC,climate_neutral_dac110
+6270,15.0,17.5,Niger,279.1616,DAC,climate_neutral_dac110
+6271,17.5,17.5,Chad,279.1616,DAC,climate_neutral_dac110
+6272,20.0,17.5,Chad,279.1616,DAC,climate_neutral_dac110
+6273,22.5,17.5,Chad,279.1616,DAC,climate_neutral_dac110
+6274,25.0,17.5,Sudan,279.1616,DAC,climate_neutral_dac110
+6275,27.5,17.5,Sudan,279.1616,DAC,climate_neutral_dac110
+6276,30.0,17.5,Sudan,279.1616,DAC,climate_neutral_dac110
+6277,32.5,17.5,Sudan,279.1616,DAC,climate_neutral_dac110
+6278,35.0,17.5,Sudan,279.1616,DAC,climate_neutral_dac110
+6279,37.5,17.5,Sudan,279.1616,DAC,climate_neutral_dac110
+6281,42.5,17.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6282,45.0,17.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6283,47.5,17.5,Yemen,279.1616,DAC,climate_neutral_dac110
+6284,50.0,17.5,Yemen,279.1616,DAC,climate_neutral_dac110
+6285,52.5,17.5,Yemen,279.1616,DAC,climate_neutral_dac110
+6286,55.0,17.5,Oman,279.1616,DAC,climate_neutral_dac110
+6293,72.5,17.5,India,279.1616,DAC,climate_neutral_dac110
+6294,75.0,17.5,India,279.1616,DAC,climate_neutral_dac110
+6295,77.5,17.5,India,279.1616,DAC,climate_neutral_dac110
+6296,80.0,17.5,India,279.1616,DAC,climate_neutral_dac110
+6297,82.5,17.5,India,279.1616,DAC,climate_neutral_dac110
+6302,95.0,17.5,Myanmar,279.1616,DAC,climate_neutral_dac110
+6303,97.5,17.5,Myanmar,98.83125801123106,biogenic,climate_neutral_dac110
+6304,100.0,17.5,Thailand,91.83221033166303,biogenic,climate_neutral_dac110
+6305,102.5,17.5,Thailand,94.5367089914092,biogenic,climate_neutral_dac110
+6306,105.0,17.5,Laos,94.4576212101886,biogenic,climate_neutral_dac110
+6307,107.5,17.5,Vietnam,88.3515015803182,biogenic,climate_neutral_dac110
+6312,120.0,17.5,Philippines,279.1616,DAC,climate_neutral_dac110
+6313,122.5,17.5,Philippines,279.1616,DAC,climate_neutral_dac110
+6346,-155.0,20.0,United States of America,279.1616,DAC,climate_neutral_dac110
+6366,-105.0,20.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6367,-102.5,20.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6368,-100.0,20.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6369,-97.5,20.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6372,-90.0,20.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6373,-87.5,20.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6377,-77.5,20.0,Cuba,279.1616,DAC,climate_neutral_dac110
+6378,-75.0,20.0,Cuba,279.1616,DAC,climate_neutral_dac110
+6379,-72.5,20.0,Haiti,279.1616,DAC,climate_neutral_dac110
+6380,-70.0,20.0,Dominican Republic,279.1616,DAC,climate_neutral_dac110
+6402,-15.0,20.0,Mauritania,279.1616,DAC,climate_neutral_dac110
+6403,-12.5,20.0,Mauritania,279.1616,DAC,climate_neutral_dac110
+6404,-10.0,20.0,Mauritania,279.1616,DAC,climate_neutral_dac110
+6405,-7.5,20.0,Mauritania,279.1616,DAC,climate_neutral_dac110
+6406,-5.0,20.0,Mali,279.1616,DAC,climate_neutral_dac110
+6407,-2.5,20.0,Mali,279.1616,DAC,climate_neutral_dac110
+6408,0.0,20.0,Mali,279.1616,DAC,climate_neutral_dac110
+6409,2.5,20.0,Algeria,279.1616,DAC,climate_neutral_dac110
+6410,5.0,20.0,Algeria,279.1616,DAC,climate_neutral_dac110
+6411,7.5,20.0,Niger,279.1616,DAC,climate_neutral_dac110
+6412,10.0,20.0,Niger,279.1616,DAC,climate_neutral_dac110
+6413,12.5,20.0,Niger,279.1616,DAC,climate_neutral_dac110
+6414,15.0,20.0,Niger,279.1616,DAC,climate_neutral_dac110
+6415,17.5,20.0,Chad,279.1616,DAC,climate_neutral_dac110
+6416,20.0,20.0,Chad,279.1616,DAC,climate_neutral_dac110
+6417,22.5,20.0,Chad,279.1616,DAC,climate_neutral_dac110
+6418,25.0,20.0,Sudan,279.1616,DAC,climate_neutral_dac110
+6419,27.5,20.0,Sudan,279.1616,DAC,climate_neutral_dac110
+6420,30.0,20.0,Sudan,279.1616,DAC,climate_neutral_dac110
+6421,32.5,20.0,Sudan,279.1616,DAC,climate_neutral_dac110
+6422,35.0,20.0,Sudan,279.1616,DAC,climate_neutral_dac110
+6423,37.5,20.0,Sudan,279.1616,DAC,climate_neutral_dac110
+6424,40.0,20.0,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6425,42.5,20.0,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6426,45.0,20.0,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6427,47.5,20.0,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6428,50.0,20.0,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6429,52.5,20.0,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6430,55.0,20.0,Oman,279.1616,DAC,climate_neutral_dac110
+6431,57.5,20.0,Oman,279.1616,DAC,climate_neutral_dac110
+6437,72.5,20.0,India,279.1616,DAC,climate_neutral_dac110
+6438,75.0,20.0,India,279.1616,DAC,climate_neutral_dac110
+6439,77.5,20.0,India,279.1616,DAC,climate_neutral_dac110
+6440,80.0,20.0,India,279.1616,DAC,climate_neutral_dac110
+6441,82.5,20.0,India,279.1616,DAC,climate_neutral_dac110
+6442,85.0,20.0,India,279.1616,DAC,climate_neutral_dac110
+6445,92.5,20.0,Myanmar,279.1616,DAC,climate_neutral_dac110
+6446,95.0,20.0,Myanmar,279.1616,DAC,climate_neutral_dac110
+6447,97.5,20.0,Myanmar,101.08866074024738,biogenic,climate_neutral_dac110
+6448,100.0,20.0,Thailand,94.23160527289104,biogenic,climate_neutral_dac110
+6449,102.5,20.0,Laos,91.80081796719806,biogenic,climate_neutral_dac110
+6450,105.0,20.0,Vietnam,78.78508715984228,biogenic,climate_neutral_dac110
+6452,110.0,20.0,China,75.35808706543547,biogenic,climate_neutral_dac110
+6510,-105.0,22.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6511,-102.5,22.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6512,-100.0,22.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6513,-97.5,22.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6519,-82.5,22.5,Cuba,279.1616,DAC,climate_neutral_dac110
+6520,-80.0,22.5,Cuba,279.1616,DAC,climate_neutral_dac110
+6521,-77.5,22.5,Cuba,279.1616,DAC,climate_neutral_dac110
+6546,-15.0,22.5,Morocco,279.1616,DAC,climate_neutral_dac110
+6547,-12.5,22.5,Mauritania,279.1616,DAC,climate_neutral_dac110
+6548,-10.0,22.5,Mauritania,279.1616,DAC,climate_neutral_dac110
+6549,-7.5,22.5,Mauritania,279.1616,DAC,climate_neutral_dac110
+6550,-5.0,22.5,Mali,279.1616,DAC,climate_neutral_dac110
+6551,-2.5,22.5,Mali,279.1616,DAC,climate_neutral_dac110
+6552,0.0,22.5,Algeria,279.1616,DAC,climate_neutral_dac110
+6553,2.5,22.5,Algeria,279.1616,DAC,climate_neutral_dac110
+6554,5.0,22.5,Algeria,279.1616,DAC,climate_neutral_dac110
+6555,7.5,22.5,Algeria,279.1616,DAC,climate_neutral_dac110
+6556,10.0,22.5,Algeria,279.1616,DAC,climate_neutral_dac110
+6557,12.5,22.5,Niger,279.1616,DAC,climate_neutral_dac110
+6558,15.0,22.5,Chad,279.1616,DAC,climate_neutral_dac110
+6559,17.5,22.5,Chad,279.1616,DAC,climate_neutral_dac110
+6560,20.0,22.5,Libya,279.1616,DAC,climate_neutral_dac110
+6561,22.5,22.5,Libya,279.1616,DAC,climate_neutral_dac110
+6562,25.0,22.5,Libya,279.1616,DAC,climate_neutral_dac110
+6563,27.5,22.5,Egypt,279.1616,DAC,climate_neutral_dac110
+6564,30.0,22.5,Egypt,279.1616,DAC,climate_neutral_dac110
+6565,32.5,22.5,Egypt,279.1616,DAC,climate_neutral_dac110
+6566,35.0,22.5,Egypt,279.1616,DAC,climate_neutral_dac110
+6568,40.0,22.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6569,42.5,22.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6570,45.0,22.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6571,47.5,22.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6572,50.0,22.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6573,52.5,22.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6574,55.0,22.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6575,57.5,22.5,Oman,279.1616,DAC,climate_neutral_dac110
+6576,60.0,22.5,Oman,279.1616,DAC,climate_neutral_dac110
+6580,70.0,22.5,India,279.1616,DAC,climate_neutral_dac110
+6581,72.5,22.5,India,279.1616,DAC,climate_neutral_dac110
+6582,75.0,22.5,India,279.1616,DAC,climate_neutral_dac110
+6583,77.5,22.5,India,279.1616,DAC,climate_neutral_dac110
+6584,80.0,22.5,India,279.1616,DAC,climate_neutral_dac110
+6585,82.5,22.5,India,279.1616,DAC,climate_neutral_dac110
+6586,85.0,22.5,India,279.1616,DAC,climate_neutral_dac110
+6587,87.5,22.5,India,279.1616,DAC,climate_neutral_dac110
+6588,90.0,22.5,Bangladesh,279.1616,DAC,climate_neutral_dac110
+6589,92.5,22.5,Myanmar,279.1616,DAC,climate_neutral_dac110
+6590,95.0,22.5,Myanmar,105.87912900584928,biogenic,climate_neutral_dac110
+6591,97.5,22.5,Myanmar,91.05992053260849,biogenic,climate_neutral_dac110
+6592,100.0,22.5,China,78.41371398523908,biogenic,climate_neutral_dac110
+6593,102.5,22.5,China,83.00890712199507,biogenic,climate_neutral_dac110
+6594,105.0,22.5,Vietnam,80.60865643816419,biogenic,climate_neutral_dac110
+6595,107.5,22.5,China,77.82913244865196,biogenic,climate_neutral_dac110
+6596,110.0,22.5,China,78.88011336137473,biogenic,climate_neutral_dac110
+6597,112.5,22.5,China,73.81475615955738,biogenic,climate_neutral_dac110
+6598,115.0,22.5,China,79.67070086334144,biogenic,climate_neutral_dac110
+6600,120.0,22.5,Taiwan,87.638044869219,biogenic,climate_neutral_dac110
+6651,-112.5,25.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6652,-110.0,25.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6653,-107.5,25.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6654,-105.0,25.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6655,-102.5,25.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6656,-100.0,25.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6657,-97.5,25.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6664,-80.0,25.0,United States of America,279.1616,DAC,climate_neutral_dac110
+6690,-15.0,25.0,Morocco,279.1616,DAC,climate_neutral_dac110
+6691,-12.5,25.0,Morocco,279.1616,DAC,climate_neutral_dac110
+6692,-10.0,25.0,Mauritania,279.1616,DAC,climate_neutral_dac110
+6693,-7.5,25.0,Mauritania,279.1616,DAC,climate_neutral_dac110
+6694,-5.0,25.0,Algeria,279.1616,DAC,climate_neutral_dac110
+6695,-2.5,25.0,Algeria,279.1616,DAC,climate_neutral_dac110
+6696,0.0,25.0,Algeria,279.1616,DAC,climate_neutral_dac110
+6697,2.5,25.0,Algeria,279.1616,DAC,climate_neutral_dac110
+6698,5.0,25.0,Algeria,279.1616,DAC,climate_neutral_dac110
+6699,7.5,25.0,Algeria,279.1616,DAC,climate_neutral_dac110
+6700,10.0,25.0,Algeria,279.1616,DAC,climate_neutral_dac110
+6701,12.5,25.0,Libya,279.1616,DAC,climate_neutral_dac110
+6702,15.0,25.0,Libya,279.1616,DAC,climate_neutral_dac110
+6703,17.5,25.0,Libya,279.1616,DAC,climate_neutral_dac110
+6704,20.0,25.0,Libya,279.1616,DAC,climate_neutral_dac110
+6705,22.5,25.0,Libya,279.1616,DAC,climate_neutral_dac110
+6706,25.0,25.0,Egypt,279.1616,DAC,climate_neutral_dac110
+6707,27.5,25.0,Egypt,279.1616,DAC,climate_neutral_dac110
+6708,30.0,25.0,Egypt,279.1616,DAC,climate_neutral_dac110
+6709,32.5,25.0,Egypt,279.1616,DAC,climate_neutral_dac110
+6710,35.0,25.0,Egypt,279.1616,DAC,climate_neutral_dac110
+6711,37.5,25.0,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6712,40.0,25.0,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6713,42.5,25.0,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6714,45.0,25.0,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6715,47.5,25.0,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6716,50.0,25.0,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6717,52.5,25.0,United Arab Emirates,279.1616,DAC,climate_neutral_dac110
+6718,55.0,25.0,United Arab Emirates,279.1616,DAC,climate_neutral_dac110
+6719,57.5,25.0,Iran,279.1616,DAC,climate_neutral_dac110
+6720,60.0,25.0,Iran,279.1616,DAC,climate_neutral_dac110
+6721,62.5,25.0,Pakistan,279.1616,DAC,climate_neutral_dac110
+6722,65.0,25.0,Pakistan,279.1616,DAC,climate_neutral_dac110
+6723,67.5,25.0,Pakistan,279.1616,DAC,climate_neutral_dac110
+6724,70.0,25.0,Pakistan,279.1616,DAC,climate_neutral_dac110
+6725,72.5,25.0,India,279.1616,DAC,climate_neutral_dac110
+6726,75.0,25.0,India,279.1616,DAC,climate_neutral_dac110
+6727,77.5,25.0,India,279.1616,DAC,climate_neutral_dac110
+6728,80.0,25.0,India,279.1616,DAC,climate_neutral_dac110
+6729,82.5,25.0,India,279.1616,DAC,climate_neutral_dac110
+6730,85.0,25.0,India,279.1616,DAC,climate_neutral_dac110
+6731,87.5,25.0,India,279.1616,DAC,climate_neutral_dac110
+6732,90.0,25.0,Bangladesh,279.1616,DAC,climate_neutral_dac110
+6733,92.5,25.0,India,279.1616,DAC,climate_neutral_dac110
+6734,95.0,25.0,Myanmar,101.79108901242265,biogenic,climate_neutral_dac110
+6735,97.5,25.0,Myanmar,86.93359908477652,biogenic,climate_neutral_dac110
+6736,100.0,25.0,China,74.18495642954821,biogenic,climate_neutral_dac110
+6737,102.5,25.0,China,84.2502019360544,biogenic,climate_neutral_dac110
+6738,105.0,25.0,China,90.55592115645032,biogenic,climate_neutral_dac110
+6739,107.5,25.0,China,78.61346477911565,biogenic,climate_neutral_dac110
+6740,110.0,25.0,China,74.761844529706,biogenic,climate_neutral_dac110
+6741,112.5,25.0,China,76.96730483369484,biogenic,climate_neutral_dac110
+6742,115.0,25.0,China,74.36606330869047,biogenic,climate_neutral_dac110
+6743,117.5,25.0,China,77.90315841587733,biogenic,climate_neutral_dac110
+6744,120.0,25.0,Taiwan,77.2715485781841,biogenic,climate_neutral_dac110
+6794,-115.0,27.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6795,-112.5,27.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6796,-110.0,27.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6797,-107.5,27.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6798,-105.0,27.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6799,-102.5,27.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6800,-100.0,27.5,Mexico,279.1616,DAC,climate_neutral_dac110
+6801,-97.5,27.5,United States of America,279.1616,DAC,climate_neutral_dac110
+6807,-82.5,27.5,United States of America,105.90249426856992,biogenic,climate_neutral_dac110
+6808,-80.0,27.5,United States of America,279.1616,DAC,climate_neutral_dac110
+6835,-12.5,27.5,Morocco,279.1616,DAC,climate_neutral_dac110
+6836,-10.0,27.5,Morocco,279.1616,DAC,climate_neutral_dac110
+6837,-7.5,27.5,Algeria,279.1616,DAC,climate_neutral_dac110
+6838,-5.0,27.5,Algeria,279.1616,DAC,climate_neutral_dac110
+6839,-2.5,27.5,Algeria,279.1616,DAC,climate_neutral_dac110
+6840,0.0,27.5,Algeria,279.1616,DAC,climate_neutral_dac110
+6841,2.5,27.5,Algeria,279.1616,DAC,climate_neutral_dac110
+6842,5.0,27.5,Algeria,279.1616,DAC,climate_neutral_dac110
+6843,7.5,27.5,Algeria,279.1616,DAC,climate_neutral_dac110
+6844,10.0,27.5,Libya,279.1616,DAC,climate_neutral_dac110
+6845,12.5,27.5,Libya,279.1616,DAC,climate_neutral_dac110
+6846,15.0,27.5,Libya,279.1616,DAC,climate_neutral_dac110
+6847,17.5,27.5,Libya,279.1616,DAC,climate_neutral_dac110
+6848,20.0,27.5,Libya,279.1616,DAC,climate_neutral_dac110
+6849,22.5,27.5,Libya,279.1616,DAC,climate_neutral_dac110
+6850,25.0,27.5,Egypt,279.1616,DAC,climate_neutral_dac110
+6851,27.5,27.5,Egypt,279.1616,DAC,climate_neutral_dac110
+6852,30.0,27.5,Egypt,279.1616,DAC,climate_neutral_dac110
+6853,32.5,27.5,Egypt,279.1616,DAC,climate_neutral_dac110
+6854,35.0,27.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6855,37.5,27.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6856,40.0,27.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6857,42.5,27.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6858,45.0,27.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6859,47.5,27.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6860,50.0,27.5,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+6861,52.5,27.5,Iran,279.1616,DAC,climate_neutral_dac110
+6862,55.0,27.5,Iran,279.1616,DAC,climate_neutral_dac110
+6863,57.5,27.5,Iran,279.1616,DAC,climate_neutral_dac110
+6864,60.0,27.5,Iran,279.1616,DAC,climate_neutral_dac110
+6865,62.5,27.5,Iran,279.1616,DAC,climate_neutral_dac110
+6866,65.0,27.5,Pakistan,279.1616,DAC,climate_neutral_dac110
+6867,67.5,27.5,Pakistan,279.1616,DAC,climate_neutral_dac110
+6868,70.0,27.5,Pakistan,106.5919892142517,biogenic,climate_neutral_dac110
+6869,72.5,27.5,India,98.57780153801032,biogenic,climate_neutral_dac110
+6870,75.0,27.5,India,96.75095873680212,biogenic,climate_neutral_dac110
+6871,77.5,27.5,India,102.18368443342852,biogenic,climate_neutral_dac110
+6872,80.0,27.5,India,279.1616,DAC,climate_neutral_dac110
+6873,82.5,27.5,India,279.1616,DAC,climate_neutral_dac110
+6874,85.0,27.5,Nepal,279.1616,DAC,climate_neutral_dac110
+6875,87.5,27.5,Nepal,279.1616,DAC,climate_neutral_dac110
+6876,90.0,27.5,Bhutan,279.1616,DAC,climate_neutral_dac110
+6877,92.5,27.5,India,279.1616,DAC,climate_neutral_dac110
+6878,95.0,27.5,India,103.70644903692396,biogenic,climate_neutral_dac110
+6879,97.5,27.5,Myanmar,90.67617610949272,biogenic,climate_neutral_dac110
+6880,100.0,27.5,China,82.80471147534746,biogenic,climate_neutral_dac110
+6881,102.5,27.5,China,82.84029875221978,biogenic,climate_neutral_dac110
+6882,105.0,27.5,China,76.48065209108839,biogenic,climate_neutral_dac110
+6883,107.5,27.5,China,82.73264953319897,biogenic,climate_neutral_dac110
+6884,110.0,27.5,China,90.68937108049992,biogenic,climate_neutral_dac110
+6885,112.5,27.5,China,81.72294640742176,biogenic,climate_neutral_dac110
+6886,115.0,27.5,China,84.87923656129308,biogenic,climate_neutral_dac110
+6887,117.5,27.5,China,71.35058779569277,biogenic,climate_neutral_dac110
+6888,120.0,27.5,China,83.50726584576327,biogenic,climate_neutral_dac110
+6938,-115.0,30.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6939,-112.5,30.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6940,-110.0,30.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6941,-107.5,30.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6942,-105.0,30.0,Mexico,279.1616,DAC,climate_neutral_dac110
+6943,-102.5,30.0,United States of America,279.1616,DAC,climate_neutral_dac110
+6944,-100.0,30.0,United States of America,279.1616,DAC,climate_neutral_dac110
+6945,-97.5,30.0,United States of America,279.1616,DAC,climate_neutral_dac110
+6946,-95.0,30.0,United States of America,279.1616,DAC,climate_neutral_dac110
+6947,-92.5,30.0,United States of America,101.78543747047286,biogenic,climate_neutral_dac110
+6948,-90.0,30.0,United States of America,88.08875834526361,biogenic,climate_neutral_dac110
+6949,-87.5,30.0,United States of America,77.52702219597299,biogenic,climate_neutral_dac110
+6950,-85.0,30.0,United States of America,84.09985091319379,biogenic,climate_neutral_dac110
+6951,-82.5,30.0,United States of America,97.4514563446146,biogenic,climate_neutral_dac110
+6980,-10.0,30.0,Morocco,279.1616,DAC,climate_neutral_dac110
+6981,-7.5,30.0,Morocco,279.1616,DAC,climate_neutral_dac110
+6982,-5.0,30.0,Algeria,279.1616,DAC,climate_neutral_dac110
+6983,-2.5,30.0,Algeria,279.1616,DAC,climate_neutral_dac110
+6984,0.0,30.0,Algeria,279.1616,DAC,climate_neutral_dac110
+6985,2.5,30.0,Algeria,279.1616,DAC,climate_neutral_dac110
+6986,5.0,30.0,Algeria,279.1616,DAC,climate_neutral_dac110
+6987,7.5,30.0,Algeria,279.1616,DAC,climate_neutral_dac110
+6988,10.0,30.0,Libya,279.1616,DAC,climate_neutral_dac110
+6989,12.5,30.0,Libya,279.1616,DAC,climate_neutral_dac110
+6990,15.0,30.0,Libya,279.1616,DAC,climate_neutral_dac110
+6991,17.5,30.0,Libya,279.1616,DAC,climate_neutral_dac110
+6992,20.0,30.0,Libya,279.1616,DAC,climate_neutral_dac110
+6993,22.5,30.0,Libya,279.1616,DAC,climate_neutral_dac110
+6994,25.0,30.0,Egypt,279.1616,DAC,climate_neutral_dac110
+6995,27.5,30.0,Egypt,279.1616,DAC,climate_neutral_dac110
+6996,30.0,30.0,Egypt,279.1616,DAC,climate_neutral_dac110
+6997,32.5,30.0,Egypt,279.1616,DAC,climate_neutral_dac110
+6998,35.0,30.0,Jordan,279.1616,DAC,climate_neutral_dac110
+6999,37.5,30.0,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+7000,40.0,30.0,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+7001,42.5,30.0,Saudi Arabia,279.1616,DAC,climate_neutral_dac110
+7002,45.0,30.0,Iraq,279.1616,DAC,climate_neutral_dac110
+7003,47.5,30.0,Iraq,279.1616,DAC,climate_neutral_dac110
+7004,50.0,30.0,Iran,279.1616,DAC,climate_neutral_dac110
+7005,52.5,30.0,Iran,279.1616,DAC,climate_neutral_dac110
+7006,55.0,30.0,Iran,279.1616,DAC,climate_neutral_dac110
+7007,57.5,30.0,Iran,279.1616,DAC,climate_neutral_dac110
+7008,60.0,30.0,Iran,279.1616,DAC,climate_neutral_dac110
+7009,62.5,30.0,Afghanistan,279.1616,DAC,climate_neutral_dac110
+7010,65.0,30.0,Afghanistan,279.1616,DAC,climate_neutral_dac110
+7011,67.5,30.0,Pakistan,279.1616,DAC,climate_neutral_dac110
+7012,70.0,30.0,Pakistan,96.79937264981452,biogenic,climate_neutral_dac110
+7013,72.5,30.0,Pakistan,84.44428168836521,biogenic,climate_neutral_dac110
+7014,75.0,30.0,India,80.48903997252572,biogenic,climate_neutral_dac110
+7015,77.5,30.0,India,90.55245743753429,biogenic,climate_neutral_dac110
+7016,80.0,30.0,India,103.84719204345993,biogenic,climate_neutral_dac110
+7017,82.5,30.0,China,279.1616,DAC,climate_neutral_dac110
+7018,85.0,30.0,China,279.1616,DAC,climate_neutral_dac110
+7019,87.5,30.0,China,279.1616,DAC,climate_neutral_dac110
+7020,90.0,30.0,China,279.1616,DAC,climate_neutral_dac110
+7021,92.5,30.0,China,279.1616,DAC,climate_neutral_dac110
+7022,95.0,30.0,China,279.1616,DAC,climate_neutral_dac110
+7023,97.5,30.0,China,101.95342347961088,biogenic,climate_neutral_dac110
+7024,100.0,30.0,China,87.51189912309206,biogenic,climate_neutral_dac110
+7025,102.5,30.0,China,73.06854305445484,biogenic,climate_neutral_dac110
+7026,105.0,30.0,China,76.8802962027306,biogenic,climate_neutral_dac110
+7027,107.5,30.0,China,77.60565540124753,biogenic,climate_neutral_dac110
+7028,110.0,30.0,China,82.67380835560675,biogenic,climate_neutral_dac110
+7029,112.5,30.0,China,70.51684549349004,biogenic,climate_neutral_dac110
+7030,115.0,30.0,China,72.83279384419356,biogenic,climate_neutral_dac110
+7031,117.5,30.0,China,84.81412343426607,biogenic,climate_neutral_dac110
+7032,120.0,30.0,China,77.21280480902865,biogenic,climate_neutral_dac110
+7033,122.5,30.0,China,79.94052298632666,biogenic,climate_neutral_dac110
+7081,-117.5,32.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7082,-115.0,32.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7083,-112.5,32.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7084,-110.0,32.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7085,-107.5,32.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7086,-105.0,32.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7087,-102.5,32.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7088,-100.0,32.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7089,-97.5,32.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7090,-95.0,32.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7091,-92.5,32.5,United States of America,101.9955502320842,biogenic,climate_neutral_dac110
+7092,-90.0,32.5,United States of America,88.93253393990732,biogenic,climate_neutral_dac110
+7093,-87.5,32.5,United States of America,79.74444176073999,biogenic,climate_neutral_dac110
+7094,-85.0,32.5,United States of America,85.27725388925896,biogenic,climate_neutral_dac110
+7095,-82.5,32.5,United States of America,97.81525964044312,biogenic,climate_neutral_dac110
+7096,-80.0,32.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7124,-10.0,32.5,Morocco,279.1616,DAC,climate_neutral_dac110
+7125,-7.5,32.5,Morocco,279.1616,DAC,climate_neutral_dac110
+7126,-5.0,32.5,Morocco,279.1616,DAC,climate_neutral_dac110
+7127,-2.5,32.5,Morocco,279.1616,DAC,climate_neutral_dac110
+7128,0.0,32.5,Algeria,279.1616,DAC,climate_neutral_dac110
+7129,2.5,32.5,Algeria,279.1616,DAC,climate_neutral_dac110
+7130,5.0,32.5,Algeria,279.1616,DAC,climate_neutral_dac110
+7131,7.5,32.5,Algeria,279.1616,DAC,climate_neutral_dac110
+7132,10.0,32.5,Tunisia,279.1616,DAC,climate_neutral_dac110
+7133,12.5,32.5,Libya,279.1616,DAC,climate_neutral_dac110
+7134,15.0,32.5,Libya,279.1616,DAC,climate_neutral_dac110
+7136,20.0,32.5,Libya,279.1616,DAC,climate_neutral_dac110
+7137,22.5,32.5,Libya,279.1616,DAC,climate_neutral_dac110
+7138,25.0,32.5,Libya,279.1616,DAC,climate_neutral_dac110
+7142,35.0,32.5,Israel,279.1616,DAC,climate_neutral_dac110
+7143,37.5,32.5,Jordan,279.1616,DAC,climate_neutral_dac110
+7144,40.0,32.5,Iraq,279.1616,DAC,climate_neutral_dac110
+7145,42.5,32.5,Iraq,279.1616,DAC,climate_neutral_dac110
+7146,45.0,32.5,Iraq,279.1616,DAC,climate_neutral_dac110
+7147,47.5,32.5,Iran,279.1616,DAC,climate_neutral_dac110
+7148,50.0,32.5,Iran,279.1616,DAC,climate_neutral_dac110
+7149,52.5,32.5,Iran,279.1616,DAC,climate_neutral_dac110
+7150,55.0,32.5,Iran,279.1616,DAC,climate_neutral_dac110
+7151,57.5,32.5,Iran,279.1616,DAC,climate_neutral_dac110
+7152,60.0,32.5,Iran,279.1616,DAC,climate_neutral_dac110
+7153,62.5,32.5,Afghanistan,279.1616,DAC,climate_neutral_dac110
+7154,65.0,32.5,Afghanistan,279.1616,DAC,climate_neutral_dac110
+7155,67.5,32.5,Afghanistan,109.35977420121696,biogenic,climate_neutral_dac110
+7156,70.0,32.5,Pakistan,95.55494726706536,biogenic,climate_neutral_dac110
+7157,72.5,32.5,Pakistan,82.52346385681803,biogenic,climate_neutral_dac110
+7158,75.0,32.5,India,77.79761330673442,biogenic,climate_neutral_dac110
+7159,77.5,32.5,India,89.10506579255072,biogenic,climate_neutral_dac110
+7160,80.0,32.5,China,102.69979803109057,biogenic,climate_neutral_dac110
+7161,82.5,32.5,China,279.1616,DAC,climate_neutral_dac110
+7162,85.0,32.5,China,279.1616,DAC,climate_neutral_dac110
+7163,87.5,32.5,China,279.1616,DAC,climate_neutral_dac110
+7164,90.0,32.5,China,279.1616,DAC,climate_neutral_dac110
+7165,92.5,32.5,China,279.1616,DAC,climate_neutral_dac110
+7166,95.0,32.5,China,279.1616,DAC,climate_neutral_dac110
+7167,97.5,32.5,China,105.65537786934976,biogenic,climate_neutral_dac110
+7168,100.0,32.5,China,93.68837729779952,biogenic,climate_neutral_dac110
+7169,102.5,32.5,China,83.36271738061934,biogenic,climate_neutral_dac110
+7170,105.0,32.5,China,84.11871249641302,biogenic,climate_neutral_dac110
+7171,107.5,32.5,China,91.22226943913267,biogenic,climate_neutral_dac110
+7172,110.0,32.5,China,77.15799144613777,biogenic,climate_neutral_dac110
+7173,112.5,32.5,China,75.25560036915344,biogenic,climate_neutral_dac110
+7174,115.0,32.5,China,82.53561307501747,biogenic,climate_neutral_dac110
+7175,117.5,32.5,China,78.05399248777654,biogenic,climate_neutral_dac110
+7176,120.0,32.5,China,74.15153090082445,biogenic,climate_neutral_dac110
+7180,130.0,32.5,Japan,86.91130849794934,biogenic,climate_neutral_dac110
+7181,132.5,32.5,Japan,81.53619981678179,biogenic,climate_neutral_dac110
+7224,-120.0,35.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7225,-117.5,35.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7226,-115.0,35.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7227,-112.5,35.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7228,-110.0,35.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7229,-107.5,35.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7230,-105.0,35.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7231,-102.5,35.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7232,-100.0,35.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7233,-97.5,35.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7234,-95.0,35.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7235,-92.5,35.0,United States of America,109.90372152147552,biogenic,climate_neutral_dac110
+7236,-90.0,35.0,United States of America,100.75266774223178,biogenic,climate_neutral_dac110
+7237,-87.5,35.0,United States of America,96.26099738759088,biogenic,climate_neutral_dac110
+7238,-85.0,35.0,United States of America,98.7087521753183,biogenic,climate_neutral_dac110
+7239,-82.5,35.0,United States of America,106.732923739392,biogenic,climate_neutral_dac110
+7240,-80.0,35.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7241,-77.5,35.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7270,-5.0,35.0,Morocco,100.92998244470934,biogenic,climate_neutral_dac110
+7271,-2.5,35.0,Morocco,279.1616,DAC,climate_neutral_dac110
+7272,0.0,35.0,Algeria,279.1616,DAC,climate_neutral_dac110
+7273,2.5,35.0,Algeria,279.1616,DAC,climate_neutral_dac110
+7274,5.0,35.0,Algeria,279.1616,DAC,climate_neutral_dac110
+7275,7.5,35.0,Algeria,279.1616,DAC,climate_neutral_dac110
+7276,10.0,35.0,Tunisia,279.1616,DAC,climate_neutral_dac110
+7285,32.5,35.0,Cyprus,102.80577083113924,biogenic,climate_neutral_dac110
+7286,35.0,35.0,Syria,279.1616,DAC,climate_neutral_dac110
+7287,37.5,35.0,Syria,279.1616,DAC,climate_neutral_dac110
+7288,40.0,35.0,Syria,279.1616,DAC,climate_neutral_dac110
+7289,42.5,35.0,Iraq,279.1616,DAC,climate_neutral_dac110
+7290,45.0,35.0,Iraq,279.1616,DAC,climate_neutral_dac110
+7291,47.5,35.0,Iran,279.1616,DAC,climate_neutral_dac110
+7292,50.0,35.0,Iran,279.1616,DAC,climate_neutral_dac110
+7293,52.5,35.0,Iran,279.1616,DAC,climate_neutral_dac110
+7294,55.0,35.0,Iran,279.1616,DAC,climate_neutral_dac110
+7295,57.5,35.0,Iran,279.1616,DAC,climate_neutral_dac110
+7296,60.0,35.0,Iran,279.1616,DAC,climate_neutral_dac110
+7297,62.5,35.0,Afghanistan,279.1616,DAC,climate_neutral_dac110
+7298,65.0,35.0,Afghanistan,279.1616,DAC,climate_neutral_dac110
+7299,67.5,35.0,Afghanistan,279.1616,DAC,climate_neutral_dac110
+7300,70.0,35.0,Afghanistan,103.81598260656462,biogenic,climate_neutral_dac110
+7301,72.5,35.0,Pakistan,95.71556690299924,biogenic,climate_neutral_dac110
+7302,75.0,35.0,Pakistan,93.83195830998092,biogenic,climate_neutral_dac110
+7303,77.5,35.0,India,99.38689681625624,biogenic,climate_neutral_dac110
+7304,80.0,35.0,China,109.34467425569682,biogenic,climate_neutral_dac110
+7305,82.5,35.0,China,279.1616,DAC,climate_neutral_dac110
+7306,85.0,35.0,China,279.1616,DAC,climate_neutral_dac110
+7307,87.5,35.0,China,279.1616,DAC,climate_neutral_dac110
+7308,90.0,35.0,China,279.1616,DAC,climate_neutral_dac110
+7309,92.5,35.0,China,279.1616,DAC,climate_neutral_dac110
+7310,95.0,35.0,China,279.1616,DAC,climate_neutral_dac110
+7311,97.5,35.0,China,279.1616,DAC,climate_neutral_dac110
+7312,100.0,35.0,China,104.91916355709589,biogenic,climate_neutral_dac110
+7313,102.5,35.0,China,99.111594977427,biogenic,climate_neutral_dac110
+7314,105.0,35.0,China,99.45639288955932,biogenic,climate_neutral_dac110
+7315,107.5,35.0,China,95.2540809933298,biogenic,climate_neutral_dac110
+7316,110.0,35.0,China,84.82767812471484,biogenic,climate_neutral_dac110
+7317,112.5,35.0,China,75.0844185807134,biogenic,climate_neutral_dac110
+7318,115.0,35.0,China,75.11810547784098,biogenic,climate_neutral_dac110
+7319,117.5,35.0,China,72.06745338625849,biogenic,climate_neutral_dac110
+7320,120.0,35.0,China,73.85095991082385,biogenic,climate_neutral_dac110
+7323,127.5,35.0,South Korea,78.23885050032477,biogenic,climate_neutral_dac110
+7324,130.0,35.0,South Korea,74.42973998070768,biogenic,climate_neutral_dac110
+7325,132.5,35.0,Japan,71.52531894517526,biogenic,climate_neutral_dac110
+7326,135.0,35.0,Japan,70.61608327420613,biogenic,climate_neutral_dac110
+7327,137.5,35.0,Japan,73.83728629955706,biogenic,climate_neutral_dac110
+7328,140.0,35.0,Japan,74.81685275647077,biogenic,climate_neutral_dac110
+7367,-122.5,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7368,-120.0,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7369,-117.5,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7370,-115.0,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7371,-112.5,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7372,-110.0,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7373,-107.5,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7374,-105.0,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7375,-102.5,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7376,-100.0,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7377,-97.5,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7378,-95.0,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7379,-92.5,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7380,-90.0,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7381,-87.5,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7382,-85.0,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7383,-82.5,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7384,-80.0,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7385,-77.5,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7386,-75.0,37.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7413,-7.5,37.5,Portugal,79.54161666614117,biogenic,climate_neutral_dac110
+7414,-5.0,37.5,Spain,91.0811707631758,biogenic,climate_neutral_dac110
+7415,-2.5,37.5,Spain,103.17328982343278,biogenic,climate_neutral_dac110
+7416,0.0,37.5,Spain,107.52039547164696,biogenic,climate_neutral_dac110
+7417,2.5,37.5,Algeria,108.41017491271091,biogenic,climate_neutral_dac110
+7418,5.0,37.5,Algeria,279.1616,DAC,climate_neutral_dac110
+7419,7.5,37.5,Algeria,279.1616,DAC,climate_neutral_dac110
+7420,10.0,37.5,Tunisia,279.1616,DAC,climate_neutral_dac110
+7422,15.0,37.5,Italy,279.1616,DAC,climate_neutral_dac110
+7425,22.5,37.5,Greece,97.8825614586088,biogenic,climate_neutral_dac110
+7427,27.5,37.5,Turkey,74.12692711817422,biogenic,climate_neutral_dac110
+7428,30.0,37.5,Turkey,82.56403294241497,biogenic,climate_neutral_dac110
+7429,32.5,37.5,Turkey,95.41609087877444,biogenic,climate_neutral_dac110
+7430,35.0,37.5,Turkey,108.48441510960184,biogenic,climate_neutral_dac110
+7431,37.5,37.5,Turkey,279.1616,DAC,climate_neutral_dac110
+7432,40.0,37.5,Turkey,279.1616,DAC,climate_neutral_dac110
+7433,42.5,37.5,Turkey,279.1616,DAC,climate_neutral_dac110
+7434,45.0,37.5,Iran,279.1616,DAC,climate_neutral_dac110
+7435,47.5,37.5,Iran,279.1616,DAC,climate_neutral_dac110
+7436,50.0,37.5,Iran,279.1616,DAC,climate_neutral_dac110
+7437,52.5,37.5,Iran,279.1616,DAC,climate_neutral_dac110
+7438,55.0,37.5,Iran,279.1616,DAC,climate_neutral_dac110
+7439,57.5,37.5,Iran,279.1616,DAC,climate_neutral_dac110
+7440,60.0,37.5,Turkmenistan,279.1616,DAC,climate_neutral_dac110
+7441,62.5,37.5,Turkmenistan,279.1616,DAC,climate_neutral_dac110
+7442,65.0,37.5,Turkmenistan,279.1616,DAC,climate_neutral_dac110
+7443,67.5,37.5,Afghanistan,279.1616,DAC,climate_neutral_dac110
+7444,70.0,37.5,Afghanistan,279.1616,DAC,climate_neutral_dac110
+7445,72.5,37.5,Tajikistan,279.1616,DAC,climate_neutral_dac110
+7446,75.0,37.5,China,279.1616,DAC,climate_neutral_dac110
+7447,77.5,37.5,China,279.1616,DAC,climate_neutral_dac110
+7448,80.0,37.5,China,279.1616,DAC,climate_neutral_dac110
+7449,82.5,37.5,China,279.1616,DAC,climate_neutral_dac110
+7450,85.0,37.5,China,279.1616,DAC,climate_neutral_dac110
+7451,87.5,37.5,China,279.1616,DAC,climate_neutral_dac110
+7452,90.0,37.5,China,279.1616,DAC,climate_neutral_dac110
+7453,92.5,37.5,China,279.1616,DAC,climate_neutral_dac110
+7454,95.0,37.5,China,279.1616,DAC,climate_neutral_dac110
+7455,97.5,37.5,China,279.1616,DAC,climate_neutral_dac110
+7456,100.0,37.5,China,279.1616,DAC,climate_neutral_dac110
+7457,102.5,37.5,China,279.1616,DAC,climate_neutral_dac110
+7458,105.0,37.5,China,279.1616,DAC,climate_neutral_dac110
+7459,107.5,37.5,China,105.73267019319454,biogenic,climate_neutral_dac110
+7460,110.0,37.5,China,94.5187015662925,biogenic,climate_neutral_dac110
+7461,112.5,37.5,China,86.93010082309468,biogenic,climate_neutral_dac110
+7462,115.0,37.5,China,81.5664442494691,biogenic,climate_neutral_dac110
+7463,117.5,37.5,China,82.3326647155954,biogenic,climate_neutral_dac110
+7464,120.0,37.5,China,84.07185650491296,biogenic,climate_neutral_dac110
+7466,125.0,37.5,North Korea,83.18882107924797,biogenic,climate_neutral_dac110
+7467,127.5,37.5,South Korea,81.54348711414241,biogenic,climate_neutral_dac110
+7471,137.5,37.5,Japan,77.17249328938192,biogenic,climate_neutral_dac110
+7472,140.0,37.5,Japan,75.61979313155757,biogenic,climate_neutral_dac110
+7511,-122.5,40.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7512,-120.0,40.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7513,-117.5,40.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7514,-115.0,40.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7515,-112.5,40.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7516,-110.0,40.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7517,-107.5,40.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7518,-105.0,40.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7519,-102.5,40.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7520,-100.0,40.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7521,-97.5,40.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7522,-95.0,40.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7523,-92.5,40.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7524,-90.0,40.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7525,-87.5,40.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7526,-85.0,40.0,United States of America,107.96143718084618,biogenic,climate_neutral_dac110
+7527,-82.5,40.0,United States of America,99.83101793642264,biogenic,climate_neutral_dac110
+7528,-80.0,40.0,United States of America,95.42564361881134,biogenic,climate_neutral_dac110
+7529,-77.5,40.0,United States of America,96.6645616038112,biogenic,climate_neutral_dac110
+7530,-75.0,40.0,United States of America,102.9156688351333,biogenic,climate_neutral_dac110
+7557,-7.5,40.0,Portugal,75.54133996696537,biogenic,climate_neutral_dac110
+7558,-5.0,40.0,Spain,87.46002438716688,biogenic,climate_neutral_dac110
+7559,-2.5,40.0,Spain,91.2498181563987,biogenic,climate_neutral_dac110
+7560,0.0,40.0,Spain,90.97496262193256,biogenic,climate_neutral_dac110
+7564,10.0,40.0,Italy,100.74104399709933,biogenic,climate_neutral_dac110
+7566,15.0,40.0,Italy,108.11771049021227,biogenic,climate_neutral_dac110
+7567,17.5,40.0,Italy,108.06393325863507,biogenic,climate_neutral_dac110
+7568,20.0,40.0,Albania,96.82526021046516,biogenic,climate_neutral_dac110
+7569,22.5,40.0,Greece,87.49369385023749,biogenic,climate_neutral_dac110
+7570,25.0,40.0,Greece,84.43979214753894,biogenic,climate_neutral_dac110
+7571,27.5,40.0,Turkey,82.80414897377486,biogenic,climate_neutral_dac110
+7572,30.0,40.0,Turkey,87.31890884091564,biogenic,climate_neutral_dac110
+7573,32.5,40.0,Turkey,97.77295534985234,biogenic,climate_neutral_dac110
+7574,35.0,40.0,Turkey,109.72111278016432,biogenic,climate_neutral_dac110
+7575,37.5,40.0,Turkey,279.1616,DAC,climate_neutral_dac110
+7576,40.0,40.0,Turkey,279.1616,DAC,climate_neutral_dac110
+7577,42.5,40.0,Turkey,279.1616,DAC,climate_neutral_dac110
+7578,45.0,40.0,Armenia,279.1616,DAC,climate_neutral_dac110
+7579,47.5,40.0,Azerbaijan,279.1616,DAC,climate_neutral_dac110
+7580,50.0,40.0,Azerbaijan,279.1616,DAC,climate_neutral_dac110
+7581,52.5,40.0,Turkmenistan,279.1616,DAC,climate_neutral_dac110
+7582,55.0,40.0,Turkmenistan,279.1616,DAC,climate_neutral_dac110
+7583,57.5,40.0,Turkmenistan,279.1616,DAC,climate_neutral_dac110
+7584,60.0,40.0,Turkmenistan,279.1616,DAC,climate_neutral_dac110
+7585,62.5,40.0,Turkmenistan,279.1616,DAC,climate_neutral_dac110
+7586,65.0,40.0,Uzbekistan,279.1616,DAC,climate_neutral_dac110
+7587,67.5,40.0,Uzbekistan,279.1616,DAC,climate_neutral_dac110
+7588,70.0,40.0,Tajikistan,279.1616,DAC,climate_neutral_dac110
+7589,72.5,40.0,Kyrgyzstan,279.1616,DAC,climate_neutral_dac110
+7590,75.0,40.0,China,279.1616,DAC,climate_neutral_dac110
+7591,77.5,40.0,China,279.1616,DAC,climate_neutral_dac110
+7592,80.0,40.0,China,279.1616,DAC,climate_neutral_dac110
+7593,82.5,40.0,China,279.1616,DAC,climate_neutral_dac110
+7594,85.0,40.0,China,279.1616,DAC,climate_neutral_dac110
+7595,87.5,40.0,China,279.1616,DAC,climate_neutral_dac110
+7596,90.0,40.0,China,279.1616,DAC,climate_neutral_dac110
+7597,92.5,40.0,China,279.1616,DAC,climate_neutral_dac110
+7598,95.0,40.0,China,279.1616,DAC,climate_neutral_dac110
+7599,97.5,40.0,China,279.1616,DAC,climate_neutral_dac110
+7600,100.0,40.0,China,279.1616,DAC,climate_neutral_dac110
+7601,102.5,40.0,China,279.1616,DAC,climate_neutral_dac110
+7602,105.0,40.0,China,279.1616,DAC,climate_neutral_dac110
+7603,107.5,40.0,China,279.1616,DAC,climate_neutral_dac110
+7604,110.0,40.0,China,107.52012345434672,biogenic,climate_neutral_dac110
+7605,112.5,40.0,China,97.23379303713166,biogenic,climate_neutral_dac110
+7606,115.0,40.0,China,84.47160735288047,biogenic,climate_neutral_dac110
+7607,117.5,40.0,China,72.11645463147846,biogenic,climate_neutral_dac110
+7608,120.0,40.0,China,79.57521728383546,biogenic,climate_neutral_dac110
+7609,122.5,40.0,China,78.86734376630439,biogenic,climate_neutral_dac110
+7610,125.0,40.0,North Korea,87.23936265046052,biogenic,climate_neutral_dac110
+7611,127.5,40.0,North Korea,91.28185418829436,biogenic,climate_neutral_dac110
+7616,140.0,40.0,Japan,77.60028615680268,biogenic,climate_neutral_dac110
+7617,142.5,40.0,Japan,78.86121186938716,biogenic,climate_neutral_dac110
+7654,-125.0,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7655,-122.5,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7656,-120.0,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7657,-117.5,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7658,-115.0,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7659,-112.5,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7660,-110.0,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7661,-107.5,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7662,-105.0,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7663,-102.5,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7664,-100.0,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7665,-97.5,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7666,-95.0,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7667,-92.5,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7668,-90.0,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7669,-87.5,42.5,United States of America,279.1616,DAC,climate_neutral_dac110
+7670,-85.0,42.5,United States of America,99.13475472630547,biogenic,climate_neutral_dac110
+7671,-82.5,42.5,United States of America,87.85226135877826,biogenic,climate_neutral_dac110
+7672,-80.0,42.5,United States of America,79.1961770049514,biogenic,climate_neutral_dac110
+7673,-77.5,42.5,United States of America,82.10957418768378,biogenic,climate_neutral_dac110
+7674,-75.0,42.5,United States of America,90.70713586678396,biogenic,climate_neutral_dac110
+7675,-72.5,42.5,United States of America,94.53425539061448,biogenic,climate_neutral_dac110
+7676,-70.0,42.5,United States of America,93.57302653085328,biogenic,climate_neutral_dac110
+7701,-7.5,42.5,Spain,75.8187081038384,biogenic,climate_neutral_dac110
+7702,-5.0,42.5,Spain,80.84995635383585,biogenic,climate_neutral_dac110
+7703,-2.5,42.5,Spain,74.62271492173201,biogenic,climate_neutral_dac110
+7704,0.0,42.5,Spain,75.33817685860261,biogenic,climate_neutral_dac110
+7705,2.5,42.5,France,79.54899421760223,biogenic,climate_neutral_dac110
+7706,5.0,42.5,France,78.7097103249245,biogenic,climate_neutral_dac110
+7708,10.0,42.5,France,84.13482325990451,biogenic,climate_neutral_dac110
+7709,12.5,42.5,Italy,87.26255200356675,biogenic,climate_neutral_dac110
+7710,15.0,42.5,Italy,95.16667623275404,biogenic,climate_neutral_dac110
+7711,17.5,42.5,Bosnia and Herzegovina,101.979168934318,biogenic,climate_neutral_dac110
+7712,20.0,42.5,Albania,92.43477181414268,biogenic,climate_neutral_dac110
+7713,22.5,42.5,Bulgaria,80.26542267118965,biogenic,climate_neutral_dac110
+7714,25.0,42.5,Bulgaria,73.39715631434588,biogenic,climate_neutral_dac110
+7715,27.5,42.5,Bulgaria,82.86197355204418,biogenic,climate_neutral_dac110
+7717,32.5,42.5,Turkey,105.62832007309596,biogenic,climate_neutral_dac110
+7718,35.0,42.5,Turkey,279.1616,DAC,climate_neutral_dac110
+7721,42.5,42.5,Georgia,279.1616,DAC,climate_neutral_dac110
+7722,45.0,42.5,Russia,279.1616,DAC,climate_neutral_dac110
+7723,47.5,42.5,Russia,279.1616,DAC,climate_neutral_dac110
+7725,52.5,42.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+7726,55.0,42.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+7727,57.5,42.5,Uzbekistan,279.1616,DAC,climate_neutral_dac110
+7728,60.0,42.5,Uzbekistan,279.1616,DAC,climate_neutral_dac110
+7729,62.5,42.5,Uzbekistan,279.1616,DAC,climate_neutral_dac110
+7730,65.0,42.5,Uzbekistan,279.1616,DAC,climate_neutral_dac110
+7731,67.5,42.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+7732,70.0,42.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+7733,72.5,42.5,Kyrgyzstan,279.1616,DAC,climate_neutral_dac110
+7734,75.0,42.5,Kyrgyzstan,279.1616,DAC,climate_neutral_dac110
+7735,77.5,42.5,Kyrgyzstan,279.1616,DAC,climate_neutral_dac110
+7736,80.0,42.5,China,279.1616,DAC,climate_neutral_dac110
+7737,82.5,42.5,China,279.1616,DAC,climate_neutral_dac110
+7738,85.0,42.5,China,279.1616,DAC,climate_neutral_dac110
+7739,87.5,42.5,China,279.1616,DAC,climate_neutral_dac110
+7740,90.0,42.5,China,279.1616,DAC,climate_neutral_dac110
+7741,92.5,42.5,China,279.1616,DAC,climate_neutral_dac110
+7742,95.0,42.5,China,279.1616,DAC,climate_neutral_dac110
+7743,97.5,42.5,China,279.1616,DAC,climate_neutral_dac110
+7744,100.0,42.5,China,279.1616,DAC,climate_neutral_dac110
+7745,102.5,42.5,Mongolia,279.1616,DAC,climate_neutral_dac110
+7746,105.0,42.5,Mongolia,279.1616,DAC,climate_neutral_dac110
+7747,107.5,42.5,Mongolia,279.1616,DAC,climate_neutral_dac110
+7748,110.0,42.5,China,279.1616,DAC,climate_neutral_dac110
+7749,112.5,42.5,China,102.22030695275988,biogenic,climate_neutral_dac110
+7750,115.0,42.5,China,92.92824838673292,biogenic,climate_neutral_dac110
+7751,117.5,42.5,China,88.12128220381203,biogenic,climate_neutral_dac110
+7752,120.0,42.5,China,82.20696857512283,biogenic,climate_neutral_dac110
+7753,122.5,42.5,China,73.72232819434079,biogenic,climate_neutral_dac110
+7754,125.0,42.5,China,81.23761069847994,biogenic,climate_neutral_dac110
+7755,127.5,42.5,China,81.16762394314105,biogenic,climate_neutral_dac110
+7756,130.0,42.5,China,71.80358598278934,biogenic,climate_neutral_dac110
+7757,132.5,42.5,Russia,83.53615679603577,biogenic,climate_neutral_dac110
+7760,140.0,42.5,Japan,84.43488930681193,biogenic,climate_neutral_dac110
+7761,142.5,42.5,Japan,78.53661241109494,biogenic,climate_neutral_dac110
+7762,145.0,42.5,Japan,85.28316081176598,biogenic,climate_neutral_dac110
+7799,-122.5,45.0,United States of America,96.3007371978613,biogenic,climate_neutral_dac110
+7800,-120.0,45.0,United States of America,100.65775738330774,biogenic,climate_neutral_dac110
+7801,-117.5,45.0,United States of America,98.93164940299027,biogenic,climate_neutral_dac110
+7802,-115.0,45.0,United States of America,101.43877017420525,biogenic,climate_neutral_dac110
+7803,-112.5,45.0,United States of America,105.9365327498722,biogenic,climate_neutral_dac110
+7804,-110.0,45.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7805,-107.5,45.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7806,-105.0,45.0,United States of America,279.1616,DAC,climate_neutral_dac110
+7807,-102.5,45.0,United States of America,104.71680245805914,biogenic,climate_neutral_dac110
+7808,-100.0,45.0,United States of America,99.37807942279667,biogenic,climate_neutral_dac110
+7809,-97.5,45.0,United States of America,97.89670191702866,biogenic,climate_neutral_dac110
+7810,-95.0,45.0,United States of America,100.83514948163122,biogenic,climate_neutral_dac110
+7811,-92.5,45.0,United States of America,101.94052134284964,biogenic,climate_neutral_dac110
+7812,-90.0,45.0,United States of America,98.5605834276591,biogenic,climate_neutral_dac110
+7813,-87.5,45.0,United States of America,95.37884166238804,biogenic,climate_neutral_dac110
+7814,-85.0,45.0,United States of America,97.05194917924268,biogenic,climate_neutral_dac110
+7815,-82.5,45.0,Canada,87.42424423737276,biogenic,climate_neutral_dac110
+7816,-80.0,45.0,Canada,78.89125858575508,biogenic,climate_neutral_dac110
+7817,-77.5,45.0,Canada,81.25467261980064,biogenic,climate_neutral_dac110
+7818,-75.0,45.0,Canada,74.17002310855771,biogenic,climate_neutral_dac110
+7819,-72.5,45.0,United States of America,82.58292584049772,biogenic,climate_neutral_dac110
+7820,-70.0,45.0,United States of America,82.50748582689448,biogenic,climate_neutral_dac110
+7821,-67.5,45.0,United States of America,73.59184406195844,biogenic,climate_neutral_dac110
+7822,-65.0,45.0,Canada,75.43357190770828,biogenic,climate_neutral_dac110
+7823,-62.5,45.0,Canada,74.46022826021695,biogenic,climate_neutral_dac110
+7848,0.0,45.0,France,75.23508301592736,biogenic,climate_neutral_dac110
+7849,2.5,45.0,France,79.80938006303202,biogenic,climate_neutral_dac110
+7850,5.0,45.0,France,78.30234886873492,biogenic,climate_neutral_dac110
+7851,7.5,45.0,Italy,75.95159493945881,biogenic,climate_neutral_dac110
+7852,10.0,45.0,Italy,73.31117625628882,biogenic,climate_neutral_dac110
+7853,12.5,45.0,Italy,75.88659264460915,biogenic,climate_neutral_dac110
+7854,15.0,45.0,Croatia,81.89657058152305,biogenic,climate_neutral_dac110
+7855,17.5,45.0,Bosnia and Herzegovina,92.68678363842322,biogenic,climate_neutral_dac110
+7856,20.0,45.0,Republic of Serbia,96.89927164825588,biogenic,climate_neutral_dac110
+7857,22.5,45.0,Romania,86.18525024244755,biogenic,climate_neutral_dac110
+7858,25.0,45.0,Romania,79.21590387322837,biogenic,climate_neutral_dac110
+7859,27.5,45.0,Romania,83.79280865979906,biogenic,climate_neutral_dac110
+7860,30.0,45.0,Ukraine,94.0300423758455,biogenic,climate_neutral_dac110
+7861,32.5,45.0,Russia,105.34141816437138,biogenic,climate_neutral_dac110
+7862,35.0,45.0,Russia,279.1616,DAC,climate_neutral_dac110
+7863,37.5,45.0,Russia,279.1616,DAC,climate_neutral_dac110
+7864,40.0,45.0,Russia,279.1616,DAC,climate_neutral_dac110
+7865,42.5,45.0,Russia,279.1616,DAC,climate_neutral_dac110
+7866,45.0,45.0,Russia,279.1616,DAC,climate_neutral_dac110
+7867,47.5,45.0,Russia,279.1616,DAC,climate_neutral_dac110
+7869,52.5,45.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+7870,55.0,45.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+7871,57.5,45.0,Uzbekistan,279.1616,DAC,climate_neutral_dac110
+7872,60.0,45.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+7873,62.5,45.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+7874,65.0,45.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+7875,67.5,45.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+7876,70.0,45.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+7877,72.5,45.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+7878,75.0,45.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+7879,77.5,45.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+7880,80.0,45.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+7881,82.5,45.0,China,279.1616,DAC,climate_neutral_dac110
+7882,85.0,45.0,China,279.1616,DAC,climate_neutral_dac110
+7883,87.5,45.0,China,279.1616,DAC,climate_neutral_dac110
+7884,90.0,45.0,China,279.1616,DAC,climate_neutral_dac110
+7885,92.5,45.0,China,279.1616,DAC,climate_neutral_dac110
+7886,95.0,45.0,Mongolia,279.1616,DAC,climate_neutral_dac110
+7887,97.5,45.0,Mongolia,279.1616,DAC,climate_neutral_dac110
+7888,100.0,45.0,Mongolia,279.1616,DAC,climate_neutral_dac110
+7889,102.5,45.0,Mongolia,279.1616,DAC,climate_neutral_dac110
+7890,105.0,45.0,Mongolia,279.1616,DAC,climate_neutral_dac110
+7891,107.5,45.0,Mongolia,279.1616,DAC,climate_neutral_dac110
+7892,110.0,45.0,Mongolia,279.1616,DAC,climate_neutral_dac110
+7893,112.5,45.0,Mongolia,279.1616,DAC,climate_neutral_dac110
+7894,115.0,45.0,China,106.09985286697818,biogenic,climate_neutral_dac110
+7895,117.5,45.0,China,100.41224231405018,biogenic,climate_neutral_dac110
+7896,120.0,45.0,China,94.25622586367784,biogenic,climate_neutral_dac110
+7897,122.5,45.0,China,90.0933788477969,biogenic,climate_neutral_dac110
+7898,125.0,45.0,China,79.26285999728898,biogenic,climate_neutral_dac110
+7899,127.5,45.0,China,76.45143570783974,biogenic,climate_neutral_dac110
+7900,130.0,45.0,China,73.14718755934788,biogenic,climate_neutral_dac110
+7901,132.5,45.0,Russia,83.74367370578122,biogenic,climate_neutral_dac110
+7902,135.0,45.0,Russia,95.45238087481636,biogenic,climate_neutral_dac110
+7903,137.5,45.0,Russia,94.71148646060274,biogenic,climate_neutral_dac110
+7905,142.5,45.0,Japan,78.17410505312407,biogenic,climate_neutral_dac110
+7942,-125.0,47.5,United States of America,80.91217796016667,biogenic,climate_neutral_dac110
+7943,-122.5,47.5,United States of America,80.42919729491646,biogenic,climate_neutral_dac110
+7944,-120.0,47.5,United States of America,85.83822250355482,biogenic,climate_neutral_dac110
+7945,-117.5,47.5,United States of America,82.2748552823589,biogenic,climate_neutral_dac110
+7946,-115.0,47.5,United States of America,86.45984686909136,biogenic,climate_neutral_dac110
+7947,-112.5,47.5,United States of America,91.584763358245,biogenic,climate_neutral_dac110
+7948,-110.0,47.5,United States of America,100.04583069635956,biogenic,climate_neutral_dac110
+7949,-107.5,47.5,United States of America,109.7618646580282,biogenic,climate_neutral_dac110
+7950,-105.0,47.5,United States of America,103.280804416563,biogenic,climate_neutral_dac110
+7951,-102.5,47.5,United States of America,93.14282201346283,biogenic,climate_neutral_dac110
+7952,-100.0,47.5,United States of America,84.45350401502242,biogenic,climate_neutral_dac110
+7953,-97.5,47.5,United States of America,81.30929574447943,biogenic,climate_neutral_dac110
+7954,-95.0,47.5,United States of America,87.10746904290778,biogenic,climate_neutral_dac110
+7955,-92.5,47.5,United States of America,85.29869647021223,biogenic,climate_neutral_dac110
+7956,-90.0,47.5,United States of America,85.54439752678596,biogenic,climate_neutral_dac110
+7957,-87.5,47.5,United States of America,78.81833114617783,biogenic,climate_neutral_dac110
+7958,-85.0,47.5,Canada,82.70909544416084,biogenic,climate_neutral_dac110
+7959,-82.5,47.5,Canada,92.1994192182976,biogenic,climate_neutral_dac110
+7960,-80.0,47.5,Canada,86.91106855041934,biogenic,climate_neutral_dac110
+7961,-77.5,47.5,Canada,80.470093814299,biogenic,climate_neutral_dac110
+7962,-75.0,47.5,Canada,79.97166147722479,biogenic,climate_neutral_dac110
+7963,-72.5,47.5,Canada,71.35523974875906,biogenic,climate_neutral_dac110
+7964,-70.0,47.5,Canada,72.92195982391347,biogenic,climate_neutral_dac110
+7965,-67.5,47.5,Canada,73.85581864837393,biogenic,climate_neutral_dac110
+7966,-65.0,47.5,Canada,84.21118288929165,biogenic,climate_neutral_dac110
+7969,-57.5,47.5,Canada,79.9131556742828,biogenic,climate_neutral_dac110
+7970,-55.0,47.5,Canada,86.30857314391383,biogenic,climate_neutral_dac110
+7971,-52.5,47.5,Canada,96.08295334826995,biogenic,climate_neutral_dac110
+7991,-2.5,47.5,France,88.64783892789669,biogenic,climate_neutral_dac110
+7992,0.0,47.5,France,81.45983417519382,biogenic,climate_neutral_dac110
+7993,2.5,47.5,France,83.2896019829895,biogenic,climate_neutral_dac110
+7994,5.0,47.5,France,77.94967977604577,biogenic,climate_neutral_dac110
+7995,7.5,47.5,Switzerland,76.75263570609982,biogenic,climate_neutral_dac110
+7996,10.0,47.5,Germany,77.30858389085655,biogenic,climate_neutral_dac110
+7997,12.5,47.5,Austria,74.32564104945018,biogenic,climate_neutral_dac110
+7998,15.0,47.5,Austria,73.66062132024392,biogenic,climate_neutral_dac110
+7999,17.5,47.5,Hungary,82.65311556436245,biogenic,climate_neutral_dac110
+8000,20.0,47.5,Hungary,80.9557771209728,biogenic,climate_neutral_dac110
+8001,22.5,47.5,Romania,79.72117589906969,biogenic,climate_neutral_dac110
+8002,25.0,47.5,Romania,87.15860458590143,biogenic,climate_neutral_dac110
+8003,27.5,47.5,Romania,97.22859830447572,biogenic,climate_neutral_dac110
+8004,30.0,47.5,Ukraine,103.7860190913303,biogenic,climate_neutral_dac110
+8005,32.5,47.5,Ukraine,106.06625244874866,biogenic,climate_neutral_dac110
+8006,35.0,47.5,Ukraine,279.1616,DAC,climate_neutral_dac110
+8007,37.5,47.5,Ukraine,279.1616,DAC,climate_neutral_dac110
+8008,40.0,47.5,Russia,279.1616,DAC,climate_neutral_dac110
+8009,42.5,47.5,Russia,279.1616,DAC,climate_neutral_dac110
+8010,45.0,47.5,Russia,279.1616,DAC,climate_neutral_dac110
+8011,47.5,47.5,Russia,279.1616,DAC,climate_neutral_dac110
+8012,50.0,47.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8013,52.5,47.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8014,55.0,47.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8015,57.5,47.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8016,60.0,47.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8017,62.5,47.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8018,65.0,47.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8019,67.5,47.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8020,70.0,47.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8021,72.5,47.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8022,75.0,47.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8023,77.5,47.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8024,80.0,47.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8025,82.5,47.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8026,85.0,47.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8027,87.5,47.5,China,279.1616,DAC,climate_neutral_dac110
+8028,90.0,47.5,China,279.1616,DAC,climate_neutral_dac110
+8029,92.5,47.5,Mongolia,279.1616,DAC,climate_neutral_dac110
+8030,95.0,47.5,Mongolia,279.1616,DAC,climate_neutral_dac110
+8031,97.5,47.5,Mongolia,279.1616,DAC,climate_neutral_dac110
+8032,100.0,47.5,Mongolia,279.1616,DAC,climate_neutral_dac110
+8033,102.5,47.5,Mongolia,279.1616,DAC,climate_neutral_dac110
+8034,105.0,47.5,Mongolia,279.1616,DAC,climate_neutral_dac110
+8035,107.5,47.5,Mongolia,279.1616,DAC,climate_neutral_dac110
+8036,110.0,47.5,Mongolia,279.1616,DAC,climate_neutral_dac110
+8037,112.5,47.5,Mongolia,104.91778867257274,biogenic,climate_neutral_dac110
+8038,115.0,47.5,Mongolia,94.76317239331786,biogenic,climate_neutral_dac110
+8039,117.5,47.5,Mongolia,85.87645297507001,biogenic,climate_neutral_dac110
+8040,120.0,47.5,China,81.6695263252274,biogenic,climate_neutral_dac110
+8041,122.5,47.5,China,86.29988680278592,biogenic,climate_neutral_dac110
+8042,125.0,47.5,China,83.8470665204828,biogenic,climate_neutral_dac110
+8043,127.5,47.5,China,82.2280695277338,biogenic,climate_neutral_dac110
+8044,130.0,47.5,China,72.93685898922575,biogenic,climate_neutral_dac110
+8045,132.5,47.5,China,80.3131683206721,biogenic,climate_neutral_dac110
+8046,135.0,47.5,Russia,91.44334078523217,biogenic,climate_neutral_dac110
+8047,137.5,47.5,Russia,102.68986875228732,biogenic,climate_neutral_dac110
+8048,140.0,47.5,Russia,97.22836835585308,biogenic,climate_neutral_dac110
+8049,142.5,47.5,Russia,94.84254272185416,biogenic,climate_neutral_dac110
+8085,-127.5,50.0,Canada,82.65965068136717,biogenic,climate_neutral_dac110
+8086,-125.0,50.0,Canada,75.08716929224362,biogenic,climate_neutral_dac110
+8087,-122.5,50.0,Canada,75.32843275779271,biogenic,climate_neutral_dac110
+8088,-120.0,50.0,Canada,74.89629595769665,biogenic,climate_neutral_dac110
+8089,-117.5,50.0,Canada,74.53794694943254,biogenic,climate_neutral_dac110
+8090,-115.0,50.0,Canada,73.32587717393443,biogenic,climate_neutral_dac110
+8091,-112.5,50.0,Canada,84.0183481181096,biogenic,climate_neutral_dac110
+8092,-110.0,50.0,Canada,94.7390466708992,biogenic,climate_neutral_dac110
+8093,-107.5,50.0,Canada,97.8259490230656,biogenic,climate_neutral_dac110
+8094,-105.0,50.0,Canada,100.09739617858268,biogenic,climate_neutral_dac110
+8095,-102.5,50.0,Canada,90.5380893815116,biogenic,climate_neutral_dac110
+8096,-100.0,50.0,Canada,80.5368939061559,biogenic,climate_neutral_dac110
+8097,-97.5,50.0,Canada,75.82786444871651,biogenic,climate_neutral_dac110
+8098,-95.0,50.0,Canada,79.38356428367578,biogenic,climate_neutral_dac110
+8099,-92.5,50.0,Canada,72.07233542906754,biogenic,climate_neutral_dac110
+8100,-90.0,50.0,Canada,82.30628635021174,biogenic,climate_neutral_dac110
+8101,-87.5,50.0,Canada,78.23591768607194,biogenic,climate_neutral_dac110
+8102,-85.0,50.0,Canada,82.14580600185413,biogenic,climate_neutral_dac110
+8103,-82.5,50.0,Canada,91.5109316748975,biogenic,climate_neutral_dac110
+8104,-80.0,50.0,Canada,84.67330861816376,biogenic,climate_neutral_dac110
+8105,-77.5,50.0,Canada,76.89350168728356,biogenic,climate_neutral_dac110
+8106,-75.0,50.0,Canada,80.68749615855073,biogenic,climate_neutral_dac110
+8107,-72.5,50.0,Canada,78.53314366959847,biogenic,climate_neutral_dac110
+8108,-70.0,50.0,Canada,83.12216141621676,biogenic,climate_neutral_dac110
+8109,-67.5,50.0,Canada,77.79839614565175,biogenic,climate_neutral_dac110
+8110,-65.0,50.0,Canada,83.59629561815687,biogenic,climate_neutral_dac110
+8111,-62.5,50.0,Canada,90.92031452508448,biogenic,climate_neutral_dac110
+8112,-60.0,50.0,Canada,81.29716511843839,biogenic,climate_neutral_dac110
+8113,-57.5,50.0,Canada,77.23473431658991,biogenic,climate_neutral_dac110
+8114,-55.0,50.0,Canada,84.55639832401097,biogenic,climate_neutral_dac110
+8134,-5.0,50.0,United Kingdom,97.02350381849875,biogenic,climate_neutral_dac110
+8135,-2.5,50.0,United Kingdom,86.48673558478735,biogenic,climate_neutral_dac110
+8136,0.0,50.0,France,76.79642644215447,biogenic,climate_neutral_dac110
+8137,2.5,50.0,France,77.3250496302901,biogenic,climate_neutral_dac110
+8138,5.0,50.0,Belgium,73.69890630125907,biogenic,climate_neutral_dac110
+8139,7.5,50.0,Germany,74.39134631123814,biogenic,climate_neutral_dac110
+8140,10.0,50.0,Germany,73.99368313497662,biogenic,climate_neutral_dac110
+8141,12.5,50.0,Germany,72.06240632220081,biogenic,climate_neutral_dac110
+8142,15.0,50.0,Czechia,78.00737188701103,biogenic,climate_neutral_dac110
+8143,17.5,50.0,Czechia,72.73590520628261,biogenic,climate_neutral_dac110
+8144,20.0,50.0,Poland,74.80075611807426,biogenic,climate_neutral_dac110
+8145,22.5,50.0,Poland,78.28887848605801,biogenic,climate_neutral_dac110
+8146,25.0,50.0,Ukraine,86.09063596774345,biogenic,climate_neutral_dac110
+8147,27.5,50.0,Ukraine,89.8788977209901,biogenic,climate_neutral_dac110
+8148,30.0,50.0,Ukraine,87.48443952372759,biogenic,climate_neutral_dac110
+8149,32.5,50.0,Ukraine,90.81906264810549,biogenic,climate_neutral_dac110
+8150,35.0,50.0,Ukraine,97.89633548537982,biogenic,climate_neutral_dac110
+8151,37.5,50.0,Ukraine,106.60084101886198,biogenic,climate_neutral_dac110
+8152,40.0,50.0,Russia,279.1616,DAC,climate_neutral_dac110
+8153,42.5,50.0,Russia,279.1616,DAC,climate_neutral_dac110
+8154,45.0,50.0,Russia,279.1616,DAC,climate_neutral_dac110
+8155,47.5,50.0,Russia,279.1616,DAC,climate_neutral_dac110
+8156,50.0,50.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8157,52.5,50.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8158,55.0,50.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8159,57.5,50.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8160,60.0,50.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8161,62.5,50.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8162,65.0,50.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8163,67.5,50.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8164,70.0,50.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8165,72.5,50.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8166,75.0,50.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8167,77.5,50.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8168,80.0,50.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8169,82.5,50.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8170,85.0,50.0,Russia,279.1616,DAC,climate_neutral_dac110
+8171,87.5,50.0,Russia,279.1616,DAC,climate_neutral_dac110
+8172,90.0,50.0,Russia,279.1616,DAC,climate_neutral_dac110
+8173,92.5,50.0,Mongolia,279.1616,DAC,climate_neutral_dac110
+8174,95.0,50.0,Mongolia,279.1616,DAC,climate_neutral_dac110
+8175,97.5,50.0,Mongolia,279.1616,DAC,climate_neutral_dac110
+8176,100.0,50.0,Mongolia,279.1616,DAC,climate_neutral_dac110
+8177,102.5,50.0,Mongolia,279.1616,DAC,climate_neutral_dac110
+8178,105.0,50.0,Mongolia,279.1616,DAC,climate_neutral_dac110
+8179,107.5,50.0,Russia,279.1616,DAC,climate_neutral_dac110
+8180,110.0,50.0,Russia,279.1616,DAC,climate_neutral_dac110
+8181,112.5,50.0,Russia,102.48927432836706,biogenic,climate_neutral_dac110
+8182,115.0,50.0,Mongolia,91.88696402551504,biogenic,climate_neutral_dac110
+8183,117.5,50.0,Russia,81.63919273864784,biogenic,climate_neutral_dac110
+8184,120.0,50.0,China,75.02273101300389,biogenic,climate_neutral_dac110
+8185,122.5,50.0,China,82.18327145149316,biogenic,climate_neutral_dac110
+8186,125.0,50.0,China,92.4710359451387,biogenic,climate_neutral_dac110
+8187,127.5,50.0,China,92.90160167513622,biogenic,climate_neutral_dac110
+8188,130.0,50.0,Russia,89.33942911101298,biogenic,climate_neutral_dac110
+8189,132.5,50.0,Russia,91.61117416523982,biogenic,climate_neutral_dac110
+8190,135.0,50.0,Russia,98.34557708799863,biogenic,climate_neutral_dac110
+8191,137.5,50.0,Russia,107.18789723345456,biogenic,climate_neutral_dac110
+8192,140.0,50.0,Russia,279.1616,DAC,climate_neutral_dac110
+8193,142.5,50.0,Russia,279.1616,DAC,climate_neutral_dac110
+8228,-130.0,52.5,Canada,100.45396197283182,biogenic,climate_neutral_dac110
+8229,-127.5,52.5,Canada,90.46279422608612,biogenic,climate_neutral_dac110
+8230,-125.0,52.5,Canada,80.6441526750592,biogenic,climate_neutral_dac110
+8231,-122.5,52.5,Canada,73.31425057176529,biogenic,climate_neutral_dac110
+8232,-120.0,52.5,Canada,80.57095336218644,biogenic,climate_neutral_dac110
+8233,-117.5,52.5,Canada,76.10151439198484,biogenic,climate_neutral_dac110
+8234,-115.0,52.5,Canada,81.28514214052694,biogenic,climate_neutral_dac110
+8235,-112.5,52.5,Canada,83.97790729535637,biogenic,climate_neutral_dac110
+8236,-110.0,52.5,Canada,82.55223797564578,biogenic,climate_neutral_dac110
+8237,-107.5,52.5,Canada,81.4989722716895,biogenic,climate_neutral_dac110
+8238,-105.0,52.5,Canada,87.47410271019548,biogenic,climate_neutral_dac110
+8239,-102.5,52.5,Canada,80.43980524184796,biogenic,climate_neutral_dac110
+8240,-100.0,52.5,Canada,80.29878163026851,biogenic,climate_neutral_dac110
+8241,-97.5,52.5,Canada,87.4028828028665,biogenic,climate_neutral_dac110
+8242,-95.0,52.5,Canada,90.25543539629253,biogenic,climate_neutral_dac110
+8243,-92.5,52.5,Canada,88.19148940378797,biogenic,climate_neutral_dac110
+8244,-90.0,52.5,Canada,91.68737594386472,biogenic,climate_neutral_dac110
+8245,-87.5,52.5,Canada,94.78482866630252,biogenic,climate_neutral_dac110
+8246,-85.0,52.5,Canada,96.26416661161323,biogenic,climate_neutral_dac110
+8247,-82.5,52.5,Canada,101.4404637685496,biogenic,climate_neutral_dac110
+8248,-80.0,52.5,Canada,96.4725801411072,biogenic,climate_neutral_dac110
+8249,-77.5,52.5,Canada,93.27670161751354,biogenic,climate_neutral_dac110
+8250,-75.0,52.5,Canada,94.59698450321532,biogenic,climate_neutral_dac110
+8251,-72.5,52.5,Canada,95.21234167715014,biogenic,climate_neutral_dac110
+8252,-70.0,52.5,Canada,96.54265675776102,biogenic,climate_neutral_dac110
+8253,-67.5,52.5,Canada,94.4738186270552,biogenic,climate_neutral_dac110
+8254,-65.0,52.5,Canada,96.76784365007325,biogenic,climate_neutral_dac110
+8255,-62.5,52.5,Canada,100.46195714147296,biogenic,climate_neutral_dac110
+8256,-60.0,52.5,Canada,95.18217516617564,biogenic,climate_neutral_dac110
+8257,-57.5,52.5,Canada,93.72343209126366,biogenic,climate_neutral_dac110
+8276,-10.0,52.5,Ireland,279.1616,DAC,climate_neutral_dac110
+8277,-7.5,52.5,Ireland,279.1616,DAC,climate_neutral_dac110
+8278,-5.0,52.5,United Kingdom,103.50903425022818,biogenic,climate_neutral_dac110
+8279,-2.5,52.5,United Kingdom,96.23863886676934,biogenic,climate_neutral_dac110
+8280,0.0,52.5,United Kingdom,91.78727670720512,biogenic,climate_neutral_dac110
+8282,5.0,52.5,Netherlands,84.88700690797218,biogenic,climate_neutral_dac110
+8283,7.5,52.5,Germany,75.37317830919372,biogenic,climate_neutral_dac110
+8284,10.0,52.5,Germany,73.50069901287017,biogenic,climate_neutral_dac110
+8285,12.5,52.5,Germany,72.49012021345486,biogenic,climate_neutral_dac110
+8286,15.0,52.5,Poland,82.20047813461821,biogenic,climate_neutral_dac110
+8287,17.5,52.5,Poland,76.92617432772467,biogenic,climate_neutral_dac110
+8288,20.0,52.5,Poland,78.83182928622355,biogenic,climate_neutral_dac110
+8289,22.5,52.5,Poland,87.60532262020361,biogenic,climate_neutral_dac110
+8290,25.0,52.5,Belarus,83.83470425387642,biogenic,climate_neutral_dac110
+8291,27.5,52.5,Belarus,79.27941203814171,biogenic,climate_neutral_dac110
+8292,30.0,52.5,Belarus,71.1866050968409,biogenic,climate_neutral_dac110
+8293,32.5,52.5,Russia,81.06038033079705,biogenic,climate_neutral_dac110
+8294,35.0,52.5,Russia,91.1833486310463,biogenic,climate_neutral_dac110
+8295,37.5,52.5,Russia,101.30850706665493,biogenic,climate_neutral_dac110
+8296,40.0,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8297,42.5,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8298,45.0,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8299,47.5,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8300,50.0,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8301,52.5,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8302,55.0,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8303,57.5,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8304,60.0,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8305,62.5,52.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8306,65.0,52.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8307,67.5,52.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8308,70.0,52.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8309,72.5,52.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8310,75.0,52.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8311,77.5,52.5,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8312,80.0,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8313,82.5,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8314,85.0,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8315,87.5,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8316,90.0,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8317,92.5,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8318,95.0,52.5,Russia,105.27607779488976,biogenic,climate_neutral_dac110
+8319,97.5,52.5,Russia,98.98437587266346,biogenic,climate_neutral_dac110
+8320,100.0,52.5,Russia,94.98713656382252,biogenic,climate_neutral_dac110
+8321,102.5,52.5,Russia,94.44303385217609,biogenic,climate_neutral_dac110
+8322,105.0,52.5,Russia,97.5579860447192,biogenic,climate_neutral_dac110
+8323,107.5,52.5,Russia,103.31809321969308,biogenic,climate_neutral_dac110
+8324,110.0,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8325,112.5,52.5,Russia,108.0384302855822,biogenic,climate_neutral_dac110
+8326,115.0,52.5,Russia,100.0112154660264,biogenic,climate_neutral_dac110
+8327,117.5,52.5,Russia,93.98190304366965,biogenic,climate_neutral_dac110
+8328,120.0,52.5,Russia,91.69496992441182,biogenic,climate_neutral_dac110
+8329,122.5,52.5,China,94.23660479823776,biogenic,climate_neutral_dac110
+8330,125.0,52.5,China,100.41745618754202,biogenic,climate_neutral_dac110
+8331,127.5,52.5,Russia,107.9268723222286,biogenic,climate_neutral_dac110
+8332,130.0,52.5,Russia,105.99713383635304,biogenic,climate_neutral_dac110
+8333,132.5,52.5,Russia,107.20202830245655,biogenic,climate_neutral_dac110
+8334,135.0,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8335,137.5,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8336,140.0,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8337,142.5,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8343,157.5,52.5,Russia,279.1616,DAC,climate_neutral_dac110
+8359,-162.5,55.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8360,-160.0,55.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8371,-132.5,55.0,United States of America,108.56777751903772,biogenic,climate_neutral_dac110
+8372,-130.0,55.0,Canada,99.10084431449548,biogenic,climate_neutral_dac110
+8373,-127.5,55.0,Canada,89.8217940726558,biogenic,climate_neutral_dac110
+8374,-125.0,55.0,Canada,81.23300834992139,biogenic,climate_neutral_dac110
+8375,-122.5,55.0,Canada,76.85760701066147,biogenic,climate_neutral_dac110
+8376,-120.0,55.0,Canada,74.79732367415733,biogenic,climate_neutral_dac110
+8377,-117.5,55.0,Canada,74.93781280784822,biogenic,climate_neutral_dac110
+8378,-115.0,55.0,Canada,72.00140851633847,biogenic,climate_neutral_dac110
+8379,-112.5,55.0,Canada,71.48523194979614,biogenic,climate_neutral_dac110
+8380,-110.0,55.0,Canada,78.39120450754987,biogenic,climate_neutral_dac110
+8381,-107.5,55.0,Canada,76.82249950424239,biogenic,climate_neutral_dac110
+8382,-105.0,55.0,Canada,84.4790095355094,biogenic,climate_neutral_dac110
+8383,-102.5,55.0,Canada,79.08837550907155,biogenic,climate_neutral_dac110
+8384,-100.0,55.0,Canada,78.93549430552015,biogenic,climate_neutral_dac110
+8385,-97.5,55.0,Canada,86.28672522000522,biogenic,climate_neutral_dac110
+8386,-95.0,55.0,Canada,95.2706936733084,biogenic,climate_neutral_dac110
+8387,-92.5,55.0,Canada,104.6326965492488,biogenic,climate_neutral_dac110
+8388,-90.0,55.0,Canada,106.68028583660424,biogenic,climate_neutral_dac110
+8389,-87.5,55.0,Canada,279.1616,DAC,climate_neutral_dac110
+8390,-85.0,55.0,Canada,279.1616,DAC,climate_neutral_dac110
+8391,-82.5,55.0,Canada,279.1616,DAC,climate_neutral_dac110
+8393,-77.5,55.0,Canada,109.90584259174722,biogenic,climate_neutral_dac110
+8394,-75.0,55.0,Canada,279.1616,DAC,climate_neutral_dac110
+8395,-72.5,55.0,Canada,279.1616,DAC,climate_neutral_dac110
+8396,-70.0,55.0,Canada,279.1616,DAC,climate_neutral_dac110
+8397,-67.5,55.0,Canada,279.1616,DAC,climate_neutral_dac110
+8398,-65.0,55.0,Canada,279.1616,DAC,climate_neutral_dac110
+8399,-62.5,55.0,Canada,279.1616,DAC,climate_neutral_dac110
+8400,-60.0,55.0,Canada,279.1616,DAC,climate_neutral_dac110
+8401,-57.5,55.0,Canada,279.1616,DAC,climate_neutral_dac110
+8421,-7.5,55.0,Ireland,279.1616,DAC,climate_neutral_dac110
+8422,-5.0,55.0,United Kingdom,279.1616,DAC,climate_neutral_dac110
+8423,-2.5,55.0,United Kingdom,279.1616,DAC,climate_neutral_dac110
+8428,10.0,55.0,Denmark,87.06412566817406,biogenic,climate_neutral_dac110
+8429,12.5,55.0,Germany,80.1698737183398,biogenic,climate_neutral_dac110
+8430,15.0,55.0,Poland,77.2518153170096,biogenic,climate_neutral_dac110
+8431,17.5,55.0,Poland,75.73212097217372,biogenic,climate_neutral_dac110
+8432,20.0,55.0,Poland,77.24736605493712,biogenic,climate_neutral_dac110
+8433,22.5,55.0,Lithuania,86.06557692555853,biogenic,climate_neutral_dac110
+8434,25.0,55.0,Lithuania,82.34793475479756,biogenic,climate_neutral_dac110
+8435,27.5,55.0,Belarus,77.35712418087525,biogenic,climate_neutral_dac110
+8436,30.0,55.0,Belarus,81.99240443702688,biogenic,climate_neutral_dac110
+8437,32.5,55.0,Russia,89.16952340460698,biogenic,climate_neutral_dac110
+8438,35.0,55.0,Russia,95.98249997283804,biogenic,climate_neutral_dac110
+8439,37.5,55.0,Russia,104.29257181834718,biogenic,climate_neutral_dac110
+8440,40.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8441,42.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8442,45.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8443,47.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8444,50.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8445,52.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8446,55.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8447,57.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8448,60.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8449,62.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8450,65.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8451,67.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8452,70.0,55.0,Kazakhstan,279.1616,DAC,climate_neutral_dac110
+8453,72.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8454,75.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8455,77.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8456,80.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8457,82.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8458,85.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8459,87.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8460,90.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8461,92.5,55.0,Russia,105.13947453969188,biogenic,climate_neutral_dac110
+8462,95.0,55.0,Russia,96.01967486935044,biogenic,climate_neutral_dac110
+8463,97.5,55.0,Russia,87.21410183067,biogenic,climate_neutral_dac110
+8464,100.0,55.0,Russia,79.65307975457597,biogenic,climate_neutral_dac110
+8465,102.5,55.0,Russia,78.2375154242816,biogenic,climate_neutral_dac110
+8466,105.0,55.0,Russia,84.84527672838847,biogenic,climate_neutral_dac110
+8467,107.5,55.0,Russia,93.46403797382916,biogenic,climate_neutral_dac110
+8468,110.0,55.0,Russia,102.5263744676866,biogenic,climate_neutral_dac110
+8469,112.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8470,115.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8471,117.5,55.0,Russia,109.63639975691363,biogenic,climate_neutral_dac110
+8472,120.0,55.0,Russia,108.37329180680234,biogenic,climate_neutral_dac110
+8473,122.5,55.0,Russia,109.78226797537826,biogenic,climate_neutral_dac110
+8474,125.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8475,127.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8476,130.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8477,132.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8478,135.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8479,137.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8486,155.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8487,157.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8488,160.0,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8489,162.5,55.0,Russia,279.1616,DAC,climate_neutral_dac110
+8505,-157.5,57.5,United States of America,279.1616,DAC,climate_neutral_dac110
+8506,-155.0,57.5,United States of America,279.1616,DAC,climate_neutral_dac110
+8507,-152.5,57.5,United States of America,279.1616,DAC,climate_neutral_dac110
+8514,-135.0,57.5,United States of America,279.1616,DAC,climate_neutral_dac110
+8515,-132.5,57.5,Canada,279.1616,DAC,climate_neutral_dac110
+8516,-130.0,57.5,Canada,105.27408401885228,biogenic,climate_neutral_dac110
+8517,-127.5,57.5,Canada,96.57152070067434,biogenic,climate_neutral_dac110
+8518,-125.0,57.5,Canada,88.26301027780286,biogenic,climate_neutral_dac110
+8519,-122.5,57.5,Canada,81.27981170113387,biogenic,climate_neutral_dac110
+8520,-120.0,57.5,Canada,79.34937824169734,biogenic,climate_neutral_dac110
+8521,-117.5,57.5,Canada,77.61399415903524,biogenic,climate_neutral_dac110
+8522,-115.0,57.5,Canada,80.95111433898185,biogenic,climate_neutral_dac110
+8523,-112.5,57.5,Canada,86.75829937504501,biogenic,climate_neutral_dac110
+8524,-110.0,57.5,Canada,90.20514175205956,biogenic,climate_neutral_dac110
+8525,-107.5,57.5,Canada,92.74299565844429,biogenic,climate_neutral_dac110
+8526,-105.0,57.5,Canada,95.88638635636433,biogenic,climate_neutral_dac110
+8527,-102.5,57.5,Canada,94.75013335512035,biogenic,climate_neutral_dac110
+8528,-100.0,57.5,Canada,94.6979008405976,biogenic,climate_neutral_dac110
+8529,-97.5,57.5,Canada,97.9960308129927,biogenic,climate_neutral_dac110
+8530,-95.0,57.5,Canada,103.67071993764594,biogenic,climate_neutral_dac110
+8531,-92.5,57.5,Canada,279.1616,DAC,climate_neutral_dac110
+8532,-90.0,57.5,Canada,279.1616,DAC,climate_neutral_dac110
+8537,-77.5,57.5,Canada,279.1616,DAC,climate_neutral_dac110
+8538,-75.0,57.5,Canada,279.1616,DAC,climate_neutral_dac110
+8539,-72.5,57.5,Canada,279.1616,DAC,climate_neutral_dac110
+8540,-70.0,57.5,Canada,279.1616,DAC,climate_neutral_dac110
+8541,-67.5,57.5,Canada,279.1616,DAC,climate_neutral_dac110
+8542,-65.0,57.5,Canada,279.1616,DAC,climate_neutral_dac110
+8543,-62.5,57.5,Canada,279.1616,DAC,climate_neutral_dac110
+8566,-5.0,57.5,United Kingdom,279.1616,DAC,climate_neutral_dac110
+8567,-2.5,57.5,United Kingdom,279.1616,DAC,climate_neutral_dac110
+8571,7.5,57.5,Norway,86.89325526561936,biogenic,climate_neutral_dac110
+8572,10.0,57.5,Denmark,77.99110356541898,biogenic,climate_neutral_dac110
+8573,12.5,57.5,Sweden,71.448328304304,biogenic,climate_neutral_dac110
+8574,15.0,57.5,Sweden,76.22128776682075,biogenic,climate_neutral_dac110
+8575,17.5,57.5,Sweden,74.36041666382721,biogenic,climate_neutral_dac110
+8577,22.5,57.5,Latvia,89.51459367717615,biogenic,climate_neutral_dac110
+8578,25.0,57.5,Latvia,87.79497743455698,biogenic,climate_neutral_dac110
+8579,27.5,57.5,Russia,89.84722748809065,biogenic,climate_neutral_dac110
+8580,30.0,57.5,Russia,92.54596294974988,biogenic,climate_neutral_dac110
+8581,32.5,57.5,Russia,97.09240749137813,biogenic,climate_neutral_dac110
+8582,35.0,57.5,Russia,100.85304639615497,biogenic,climate_neutral_dac110
+8583,37.5,57.5,Russia,97.0579978697032,biogenic,climate_neutral_dac110
+8584,40.0,57.5,Russia,95.6072549562752,biogenic,climate_neutral_dac110
+8585,42.5,57.5,Russia,96.88507383460342,biogenic,climate_neutral_dac110
+8586,45.0,57.5,Russia,96.3921463674915,biogenic,climate_neutral_dac110
+8587,47.5,57.5,Russia,95.42570454215809,biogenic,climate_neutral_dac110
+8588,50.0,57.5,Russia,97.20310289518252,biogenic,climate_neutral_dac110
+8589,52.5,57.5,Russia,101.25764439389096,biogenic,climate_neutral_dac110
+8590,55.0,57.5,Russia,106.84054892223936,biogenic,climate_neutral_dac110
+8591,57.5,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8592,60.0,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8593,62.5,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8594,65.0,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8595,67.5,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8596,70.0,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8597,72.5,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8598,75.0,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8599,77.5,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8600,80.0,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8601,82.5,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8602,85.0,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8603,87.5,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8604,90.0,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8605,92.5,57.5,Russia,104.46361193747292,biogenic,climate_neutral_dac110
+8606,95.0,57.5,Russia,95.79293160152898,biogenic,climate_neutral_dac110
+8607,97.5,57.5,Russia,87.56857804610236,biogenic,climate_neutral_dac110
+8608,100.0,57.5,Russia,80.6118257543479,biogenic,climate_neutral_dac110
+8609,102.5,57.5,Russia,73.76940339285105,biogenic,climate_neutral_dac110
+8610,105.0,57.5,Russia,78.60386076327012,biogenic,climate_neutral_dac110
+8611,107.5,57.5,Russia,87.08752158871728,biogenic,climate_neutral_dac110
+8612,110.0,57.5,Russia,95.84148218968431,biogenic,climate_neutral_dac110
+8613,112.5,57.5,Russia,104.65414878487776,biogenic,climate_neutral_dac110
+8614,115.0,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8615,117.5,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8616,120.0,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8617,122.5,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8618,125.0,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8619,127.5,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8620,130.0,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8621,132.5,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8622,135.0,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8623,137.5,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8624,140.0,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8631,157.5,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8632,160.0,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8633,162.5,57.5,Russia,279.1616,DAC,climate_neutral_dac110
+8646,-165.0,60.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8647,-162.5,60.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8648,-160.0,60.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8649,-157.5,60.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8650,-155.0,60.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8651,-152.5,60.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8652,-150.0,60.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8653,-147.5,60.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8654,-145.0,60.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8655,-142.5,60.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8656,-140.0,60.0,Canada,279.1616,DAC,climate_neutral_dac110
+8657,-137.5,60.0,Canada,279.1616,DAC,climate_neutral_dac110
+8658,-135.0,60.0,Canada,279.1616,DAC,climate_neutral_dac110
+8659,-132.5,60.0,Canada,279.1616,DAC,climate_neutral_dac110
+8660,-130.0,60.0,Canada,279.1616,DAC,climate_neutral_dac110
+8661,-127.5,60.0,Canada,105.25440222920888,biogenic,climate_neutral_dac110
+8662,-125.0,60.0,Canada,99.93337506049453,biogenic,climate_neutral_dac110
+8663,-122.5,60.0,Canada,96.53112219899565,biogenic,climate_neutral_dac110
+8664,-120.0,60.0,Canada,95.82280529164812,biogenic,climate_neutral_dac110
+8665,-117.5,60.0,Canada,94.2319103042668,biogenic,climate_neutral_dac110
+8666,-115.0,60.0,Canada,95.3943551539087,biogenic,climate_neutral_dac110
+8667,-112.5,60.0,Canada,99.26826832245546,biogenic,climate_neutral_dac110
+8668,-110.0,60.0,Canada,104.95952888612122,biogenic,climate_neutral_dac110
+8669,-107.5,60.0,Canada,108.92810817266162,biogenic,climate_neutral_dac110
+8670,-105.0,60.0,Canada,279.1616,DAC,climate_neutral_dac110
+8671,-102.5,60.0,Canada,279.1616,DAC,climate_neutral_dac110
+8672,-100.0,60.0,Canada,279.1616,DAC,climate_neutral_dac110
+8673,-97.5,60.0,Canada,279.1616,DAC,climate_neutral_dac110
+8674,-95.0,60.0,Canada,279.1616,DAC,climate_neutral_dac110
+8681,-77.5,60.0,Canada,279.1616,DAC,climate_neutral_dac110
+8682,-75.0,60.0,Canada,279.1616,DAC,climate_neutral_dac110
+8683,-72.5,60.0,Canada,279.1616,DAC,climate_neutral_dac110
+8684,-70.0,60.0,Canada,279.1616,DAC,climate_neutral_dac110
+8686,-65.0,60.0,Canada,279.1616,DAC,climate_neutral_dac110
+8714,5.0,60.0,Norway,98.8422170736757,biogenic,climate_neutral_dac110
+8715,7.5,60.0,Norway,90.57628612555428,biogenic,climate_neutral_dac110
+8716,10.0,60.0,Norway,82.49967049922772,biogenic,climate_neutral_dac110
+8717,12.5,60.0,Sweden,75.55223615924598,biogenic,climate_neutral_dac110
+8718,15.0,60.0,Sweden,75.53596072439436,biogenic,climate_neutral_dac110
+8719,17.5,60.0,Sweden,73.90193652940992,biogenic,climate_neutral_dac110
+8721,22.5,60.0,Finland,77.75728868782465,biogenic,climate_neutral_dac110
+8722,25.0,60.0,Finland,71.12647944618408,biogenic,climate_neutral_dac110
+8723,27.5,60.0,Finland,73.75901597917579,biogenic,climate_neutral_dac110
+8724,30.0,60.0,Russia,78.30857903316799,biogenic,climate_neutral_dac110
+8725,32.5,60.0,Russia,84.08097845964976,biogenic,climate_neutral_dac110
+8726,35.0,60.0,Russia,88.84641385129957,biogenic,climate_neutral_dac110
+8727,37.5,60.0,Russia,82.28032530889415,biogenic,climate_neutral_dac110
+8728,40.0,60.0,Russia,78.93048448360557,biogenic,climate_neutral_dac110
+8729,42.5,60.0,Russia,81.92189774854216,biogenic,climate_neutral_dac110
+8730,45.0,60.0,Russia,81.13719909778006,biogenic,climate_neutral_dac110
+8731,47.5,60.0,Russia,78.8014262467998,biogenic,climate_neutral_dac110
+8732,50.0,60.0,Russia,82.82407465240274,biogenic,climate_neutral_dac110
+8733,52.5,60.0,Russia,89.61852924105847,biogenic,climate_neutral_dac110
+8734,55.0,60.0,Russia,97.17416747776916,biogenic,climate_neutral_dac110
+8735,57.5,60.0,Russia,104.99415109537227,biogenic,climate_neutral_dac110
+8736,60.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8737,62.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8738,65.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8739,67.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8740,70.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8741,72.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8742,75.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8743,77.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8744,80.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8745,82.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8746,85.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8747,87.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8748,90.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8749,92.5,60.0,Russia,107.67643453852466,biogenic,climate_neutral_dac110
+8750,95.0,60.0,Russia,99.79483744976372,biogenic,climate_neutral_dac110
+8751,97.5,60.0,Russia,92.41005073549852,biogenic,climate_neutral_dac110
+8752,100.0,60.0,Russia,86.23232805070182,biogenic,climate_neutral_dac110
+8753,102.5,60.0,Russia,83.1111044612148,biogenic,climate_neutral_dac110
+8754,105.0,60.0,Russia,85.08563434343648,biogenic,climate_neutral_dac110
+8755,107.5,60.0,Russia,90.7469621444266,biogenic,climate_neutral_dac110
+8756,110.0,60.0,Russia,97.93200947328914,biogenic,climate_neutral_dac110
+8757,112.5,60.0,Russia,105.7262950971886,biogenic,climate_neutral_dac110
+8758,115.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8759,117.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8760,120.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8761,122.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8762,125.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8763,127.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8764,130.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8765,132.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8766,135.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8767,137.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8768,140.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8769,142.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8770,145.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8771,147.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8772,150.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8773,152.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8774,155.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8776,160.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8777,162.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8778,165.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8779,167.5,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8780,170.0,60.0,Russia,279.1616,DAC,climate_neutral_dac110
+8790,-165.0,62.5,United States of America,279.1616,DAC,climate_neutral_dac110
+8791,-162.5,62.5,United States of America,279.1616,DAC,climate_neutral_dac110
+8792,-160.0,62.5,United States of America,279.1616,DAC,climate_neutral_dac110
+8793,-157.5,62.5,United States of America,279.1616,DAC,climate_neutral_dac110
+8794,-155.0,62.5,United States of America,279.1616,DAC,climate_neutral_dac110
+8795,-152.5,62.5,United States of America,279.1616,DAC,climate_neutral_dac110
+8796,-150.0,62.5,United States of America,279.1616,DAC,climate_neutral_dac110
+8797,-147.5,62.5,United States of America,279.1616,DAC,climate_neutral_dac110
+8798,-145.0,62.5,United States of America,279.1616,DAC,climate_neutral_dac110
+8799,-142.5,62.5,United States of America,279.1616,DAC,climate_neutral_dac110
+8800,-140.0,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8801,-137.5,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8802,-135.0,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8803,-132.5,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8804,-130.0,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8805,-127.5,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8806,-125.0,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8807,-122.5,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8808,-120.0,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8809,-117.5,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8810,-115.0,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8811,-112.5,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8812,-110.0,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8813,-107.5,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8814,-105.0,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8815,-102.5,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8816,-100.0,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8817,-97.5,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8818,-95.0,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8819,-92.5,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8823,-82.5,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8825,-77.5,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8826,-75.0,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8827,-72.5,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8828,-70.0,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8829,-67.5,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8830,-65.0,62.5,Canada,279.1616,DAC,climate_neutral_dac110
+8858,5.0,62.5,Norway,90.82688215386231,biogenic,climate_neutral_dac110
+8859,7.5,62.5,Norway,84.66989520990855,biogenic,climate_neutral_dac110
+8860,10.0,62.5,Norway,80.44780897606138,biogenic,climate_neutral_dac110
+8861,12.5,62.5,Sweden,80.75977310937701,biogenic,climate_neutral_dac110
+8862,15.0,62.5,Sweden,77.15661264440908,biogenic,climate_neutral_dac110
+8863,17.5,62.5,Sweden,70.54831375597378,biogenic,climate_neutral_dac110
+8865,22.5,62.5,Finland,74.00466979442963,biogenic,climate_neutral_dac110
+8866,25.0,62.5,Finland,72.36735546292847,biogenic,climate_neutral_dac110
+8867,27.5,62.5,Finland,71.69299536124049,biogenic,climate_neutral_dac110
+8868,30.0,62.5,Finland,72.88426418402732,biogenic,climate_neutral_dac110
+8869,32.5,62.5,Russia,76.88470014858281,biogenic,climate_neutral_dac110
+8870,35.0,62.5,Russia,83.52551063642385,biogenic,climate_neutral_dac110
+8871,37.5,62.5,Russia,81.21538983837858,biogenic,climate_neutral_dac110
+8872,40.0,62.5,Russia,77.75690279419992,biogenic,climate_neutral_dac110
+8873,42.5,62.5,Russia,80.85237729843755,biogenic,climate_neutral_dac110
+8874,45.0,62.5,Russia,80.38577959689853,biogenic,climate_neutral_dac110
+8875,47.5,62.5,Russia,78.0533172580874,biogenic,climate_neutral_dac110
+8876,50.0,62.5,Russia,82.04952829700252,biogenic,climate_neutral_dac110
+8877,52.5,62.5,Russia,88.67487637814232,biogenic,climate_neutral_dac110
+8878,55.0,62.5,Russia,95.98526005895428,biogenic,climate_neutral_dac110
+8879,57.5,62.5,Russia,103.52841833161769,biogenic,climate_neutral_dac110
+8880,60.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8881,62.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8882,65.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8883,67.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8884,70.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8885,72.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8886,75.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8887,77.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8888,80.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8889,82.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8890,85.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8891,87.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8892,90.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8893,92.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8894,95.0,62.5,Russia,109.33920261162405,biogenic,climate_neutral_dac110
+8895,97.5,62.5,Russia,104.514783482234,biogenic,climate_neutral_dac110
+8896,100.0,62.5,Russia,101.15502522124972,biogenic,climate_neutral_dac110
+8897,102.5,62.5,Russia,99.76552155556568,biogenic,climate_neutral_dac110
+8898,105.0,62.5,Russia,100.61770799634888,biogenic,climate_neutral_dac110
+8899,107.5,62.5,Russia,103.54004931841008,biogenic,climate_neutral_dac110
+8900,110.0,62.5,Russia,108.055080421244,biogenic,climate_neutral_dac110
+8901,112.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8902,115.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8903,117.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8904,120.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8905,122.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8906,125.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8907,127.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8908,130.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8909,132.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8910,135.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8911,137.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8912,140.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8913,142.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8914,145.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8915,147.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8916,150.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8917,152.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8918,155.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8919,157.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8920,160.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8921,162.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8922,165.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8923,167.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8924,170.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8925,172.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8926,175.0,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8927,177.5,62.5,Russia,279.1616,DAC,climate_neutral_dac110
+8928,-180.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+8929,-177.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+8930,-175.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+8931,-172.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+8933,-167.5,65.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8934,-165.0,65.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8935,-162.5,65.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8936,-160.0,65.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8937,-157.5,65.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8938,-155.0,65.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8939,-152.5,65.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8940,-150.0,65.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8941,-147.5,65.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8942,-145.0,65.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8943,-142.5,65.0,United States of America,279.1616,DAC,climate_neutral_dac110
+8944,-140.0,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8945,-137.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8946,-135.0,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8947,-132.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8948,-130.0,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8949,-127.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8950,-125.0,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8951,-122.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8952,-120.0,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8953,-117.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8954,-115.0,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8955,-112.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8956,-110.0,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8957,-107.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8958,-105.0,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8959,-102.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8960,-100.0,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8961,-97.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8962,-95.0,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8963,-92.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8964,-90.0,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8965,-87.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8966,-85.0,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8967,-82.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8969,-77.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8970,-75.0,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8971,-72.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8972,-70.0,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8973,-67.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8974,-65.0,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8975,-62.5,65.0,Canada,279.1616,DAC,climate_neutral_dac110
+8991,-22.5,65.0,Iceland,279.1616,DAC,climate_neutral_dac110
+8992,-20.0,65.0,Iceland,279.1616,DAC,climate_neutral_dac110
+8993,-17.5,65.0,Iceland,279.1616,DAC,climate_neutral_dac110
+8994,-15.0,65.0,Iceland,279.1616,DAC,climate_neutral_dac110
+9005,12.5,65.0,Norway,77.86996326650932,biogenic,climate_neutral_dac110
+9006,15.0,65.0,Sweden,83.08023614049083,biogenic,climate_neutral_dac110
+9007,17.5,65.0,Sweden,81.9442648642959,biogenic,climate_neutral_dac110
+9008,20.0,65.0,Sweden,81.66608900177222,biogenic,climate_neutral_dac110
+9009,22.5,65.0,Sweden,78.68330114758496,biogenic,climate_neutral_dac110
+9010,25.0,65.0,Finland,80.90301588715948,biogenic,climate_neutral_dac110
+9011,27.5,65.0,Finland,85.46281252727688,biogenic,climate_neutral_dac110
+9012,30.0,65.0,Finland,82.29286121246103,biogenic,climate_neutral_dac110
+9013,32.5,65.0,Russia,83.00659674057279,biogenic,climate_neutral_dac110
+9014,35.0,65.0,Russia,87.12431348941504,biogenic,climate_neutral_dac110
+9015,37.5,65.0,Russia,92.8721417382284,biogenic,climate_neutral_dac110
+9016,40.0,65.0,Russia,94.43316332242978,biogenic,climate_neutral_dac110
+9017,42.5,65.0,Russia,95.48989096615072,biogenic,climate_neutral_dac110
+9018,45.0,65.0,Russia,95.45637512991269,biogenic,climate_neutral_dac110
+9019,47.5,65.0,Russia,94.67060794091137,biogenic,climate_neutral_dac110
+9020,50.0,65.0,Russia,96.11917949106584,biogenic,climate_neutral_dac110
+9021,52.5,65.0,Russia,99.4725859866786,biogenic,climate_neutral_dac110
+9022,55.0,65.0,Russia,104.17047367119812,biogenic,climate_neutral_dac110
+9023,57.5,65.0,Russia,109.7331239150688,biogenic,climate_neutral_dac110
+9024,60.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9025,62.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9026,65.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9027,67.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9028,70.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9029,72.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9030,75.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9031,77.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9032,80.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9033,82.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9034,85.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9035,87.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9036,90.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9037,92.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9038,95.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9039,97.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9040,100.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9041,102.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9042,105.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9043,107.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9044,110.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9045,112.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9046,115.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9047,117.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9048,120.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9049,122.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9050,125.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9051,127.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9052,130.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9053,132.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9054,135.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9055,137.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9056,140.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9057,142.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9058,145.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9059,147.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9060,150.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9061,152.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9062,155.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9063,157.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9064,160.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9065,162.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9066,165.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9067,167.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9068,170.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9069,172.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9070,175.0,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9071,177.5,65.0,Russia,279.1616,DAC,climate_neutral_dac110
+9072,-180.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9073,-177.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9074,-175.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9075,-172.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9078,-165.0,67.5,United States of America,279.1616,DAC,climate_neutral_dac110
+9079,-162.5,67.5,United States of America,279.1616,DAC,climate_neutral_dac110
+9080,-160.0,67.5,United States of America,279.1616,DAC,climate_neutral_dac110
+9081,-157.5,67.5,United States of America,279.1616,DAC,climate_neutral_dac110
+9082,-155.0,67.5,United States of America,279.1616,DAC,climate_neutral_dac110
+9083,-152.5,67.5,United States of America,279.1616,DAC,climate_neutral_dac110
+9084,-150.0,67.5,United States of America,279.1616,DAC,climate_neutral_dac110
+9085,-147.5,67.5,United States of America,279.1616,DAC,climate_neutral_dac110
+9086,-145.0,67.5,United States of America,279.1616,DAC,climate_neutral_dac110
+9087,-142.5,67.5,United States of America,279.1616,DAC,climate_neutral_dac110
+9088,-140.0,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9089,-137.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9090,-135.0,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9091,-132.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9092,-130.0,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9093,-127.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9094,-125.0,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9095,-122.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9096,-120.0,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9097,-117.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9098,-115.0,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9099,-112.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9100,-110.0,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9101,-107.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9102,-105.0,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9103,-102.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9104,-100.0,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9105,-97.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9106,-95.0,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9107,-92.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9108,-90.0,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9109,-87.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9110,-85.0,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9111,-82.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9113,-77.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9114,-75.0,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9115,-72.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9116,-70.0,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9117,-67.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9118,-65.0,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9119,-62.5,67.5,Canada,279.1616,DAC,climate_neutral_dac110
+9150,15.0,67.5,Norway,95.75598007425988,biogenic,climate_neutral_dac110
+9151,17.5,67.5,Sweden,98.28871187336672,biogenic,climate_neutral_dac110
+9152,20.0,67.5,Sweden,96.4109458771279,biogenic,climate_neutral_dac110
+9153,22.5,67.5,Sweden,95.34837934547336,biogenic,climate_neutral_dac110
+9154,25.0,67.5,Finland,96.11385725526615,biogenic,climate_neutral_dac110
+9155,27.5,67.5,Finland,98.55968148884972,biogenic,climate_neutral_dac110
+9156,30.0,67.5,Russia,98.82606927163944,biogenic,climate_neutral_dac110
+9157,32.5,67.5,Russia,99.1085172261367,biogenic,climate_neutral_dac110
+9158,35.0,67.5,Russia,100.9796486562621,biogenic,climate_neutral_dac110
+9159,37.5,67.5,Russia,104.17694740490025,biogenic,climate_neutral_dac110
+9160,40.0,67.5,Russia,108.36603644727244,biogenic,climate_neutral_dac110
+9162,45.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9163,47.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9164,50.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9165,52.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9166,55.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9167,57.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9168,60.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9169,62.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9170,65.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9171,67.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9172,70.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9173,72.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9174,75.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9175,77.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9176,80.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9177,82.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9178,85.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9179,87.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9180,90.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9181,92.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9182,95.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9183,97.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9184,100.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9185,102.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9186,105.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9187,107.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9188,110.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9189,112.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9190,115.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9191,117.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9192,120.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9193,122.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9194,125.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9195,127.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9196,130.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9197,132.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9198,135.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9199,137.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9200,140.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9201,142.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9202,145.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9203,147.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9204,150.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9205,152.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9206,155.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9207,157.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9208,160.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9209,162.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9210,165.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9211,167.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9212,170.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9213,172.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9214,175.0,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9215,177.5,67.5,Russia,279.1616,DAC,climate_neutral_dac110
+9216,-180.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9223,-162.5,70.0,United States of America,279.1616,DAC,climate_neutral_dac110
+9224,-160.0,70.0,United States of America,279.1616,DAC,climate_neutral_dac110
+9225,-157.5,70.0,United States of America,279.1616,DAC,climate_neutral_dac110
+9226,-155.0,70.0,United States of America,279.1616,DAC,climate_neutral_dac110
+9227,-152.5,70.0,United States of America,279.1616,DAC,climate_neutral_dac110
+9228,-150.0,70.0,United States of America,279.1616,DAC,climate_neutral_dac110
+9229,-147.5,70.0,United States of America,279.1616,DAC,climate_neutral_dac110
+9230,-145.0,70.0,United States of America,279.1616,DAC,climate_neutral_dac110
+9231,-142.5,70.0,United States of America,279.1616,DAC,climate_neutral_dac110
+9232,-140.0,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9234,-135.0,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9235,-132.5,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9236,-130.0,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9237,-127.5,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9238,-125.0,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9239,-122.5,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9240,-120.0,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9241,-117.5,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9242,-115.0,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9243,-112.5,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9244,-110.0,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9245,-107.5,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9246,-105.0,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9247,-102.5,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9249,-97.5,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9250,-95.0,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9251,-92.5,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9252,-90.0,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9253,-87.5,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9254,-85.0,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9255,-82.5,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9256,-80.0,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9257,-77.5,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9258,-75.0,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9259,-72.5,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9260,-70.0,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9261,-67.5,70.0,Canada,279.1616,DAC,climate_neutral_dac110
+9295,17.5,70.0,Norway,279.1616,DAC,climate_neutral_dac110
+9296,20.0,70.0,Norway,279.1616,DAC,climate_neutral_dac110
+9297,22.5,70.0,Norway,279.1616,DAC,climate_neutral_dac110
+9298,25.0,70.0,Norway,279.1616,DAC,climate_neutral_dac110
+9299,27.5,70.0,Finland,279.1616,DAC,climate_neutral_dac110
+9300,30.0,70.0,Norway,279.1616,DAC,climate_neutral_dac110
+9301,32.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9302,35.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9310,55.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9312,60.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9313,62.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9314,65.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9315,67.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9316,70.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9317,72.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9318,75.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9319,77.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9320,80.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9321,82.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9322,85.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9323,87.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9324,90.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9325,92.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9326,95.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9327,97.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9328,100.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9329,102.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9330,105.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9331,107.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9332,110.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9333,112.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9334,115.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9335,117.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9336,120.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9337,122.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9338,125.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9339,127.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9340,130.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9341,132.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9342,135.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9343,137.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9344,140.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9345,142.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9346,145.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9347,147.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9348,150.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9349,152.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9350,155.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9351,157.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9352,160.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9353,162.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9354,165.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9355,167.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9356,170.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9357,172.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9358,175.0,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9359,177.5,70.0,Russia,279.1616,DAC,climate_neutral_dac110
+9382,-125.0,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9383,-122.5,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9384,-120.0,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9385,-117.5,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9386,-115.0,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9387,-112.5,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9388,-110.0,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9389,-107.5,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9390,-105.0,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9392,-100.0,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9393,-97.5,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9394,-95.0,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9395,-92.5,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9396,-90.0,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9397,-87.5,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9398,-85.0,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9399,-82.5,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9400,-80.0,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9401,-77.5,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9402,-75.0,72.5,Canada,279.1616,DAC,climate_neutral_dac110
+9453,52.5,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9454,55.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9460,70.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9461,72.5,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9462,75.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9463,77.5,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9464,80.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9465,82.5,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9466,85.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9467,87.5,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9468,90.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9469,92.5,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9470,95.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9471,97.5,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9472,100.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9473,102.5,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9474,105.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9475,107.5,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9476,110.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9477,112.5,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9478,115.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9479,117.5,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9480,120.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9481,122.5,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9482,125.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9483,127.5,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9488,140.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9489,142.5,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9490,145.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9491,147.5,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9492,150.0,72.5,Russia,279.1616,DAC,climate_neutral_dac110
+9527,-122.5,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9528,-120.0,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9529,-117.5,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9530,-115.0,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9531,-112.5,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9532,-110.0,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9533,-107.5,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9534,-105.0,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9535,-102.5,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9536,-100.0,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9537,-97.5,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9538,-95.0,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9539,-92.5,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9540,-90.0,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9541,-87.5,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9542,-85.0,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9543,-82.5,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9544,-80.0,75.0,Canada,279.1616,DAC,climate_neutral_dac110
+9598,55.0,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9599,57.5,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9600,60.0,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9601,62.5,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9602,65.0,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9611,87.5,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9612,90.0,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9613,92.5,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9614,95.0,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9615,97.5,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9616,100.0,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9617,102.5,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9618,105.0,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9619,107.5,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9620,110.0,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9621,112.5,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9631,137.5,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9632,140.0,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9633,142.5,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9635,147.5,75.0,Russia,279.1616,DAC,climate_neutral_dac110
+9672,-120.0,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9673,-117.5,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9674,-115.0,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9675,-112.5,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9676,-110.0,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9678,-105.0,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9679,-102.5,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9680,-100.0,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9681,-97.5,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9682,-95.0,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9683,-92.5,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9684,-90.0,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9685,-87.5,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9686,-85.0,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9687,-82.5,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9688,-80.0,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9689,-77.5,77.5,Canada,279.1616,DAC,climate_neutral_dac110
+9726,15.0,77.5,Norway,279.1616,DAC,climate_neutral_dac110
+9727,17.5,77.5,Norway,279.1616,DAC,climate_neutral_dac110
+9729,22.5,77.5,Norway,279.1616,DAC,climate_neutral_dac110
+9747,67.5,77.5,Russia,279.1616,DAC,climate_neutral_dac110
+9760,100.0,77.5,Russia,279.1616,DAC,climate_neutral_dac110
+9761,102.5,77.5,Russia,279.1616,DAC,climate_neutral_dac110
+9762,105.0,77.5,Russia,279.1616,DAC,climate_neutral_dac110
+9763,107.5,77.5,Russia,279.1616,DAC,climate_neutral_dac110
+9764,110.0,77.5,Russia,279.1616,DAC,climate_neutral_dac110
+9823,-102.5,80.0,Canada,279.1616,DAC,climate_neutral_dac110
+9826,-95.0,80.0,Canada,279.1616,DAC,climate_neutral_dac110
+9827,-92.5,80.0,Canada,279.1616,DAC,climate_neutral_dac110
+9828,-90.0,80.0,Canada,279.1616,DAC,climate_neutral_dac110
+9829,-87.5,80.0,Canada,279.1616,DAC,climate_neutral_dac110
+9830,-85.0,80.0,Canada,279.1616,DAC,climate_neutral_dac110
+9831,-82.5,80.0,Canada,279.1616,DAC,climate_neutral_dac110
+9832,-80.0,80.0,Canada,279.1616,DAC,climate_neutral_dac110
+9833,-77.5,80.0,Canada,279.1616,DAC,climate_neutral_dac110
+9834,-75.0,80.0,Canada,279.1616,DAC,climate_neutral_dac110
+9835,-72.5,80.0,Canada,279.1616,DAC,climate_neutral_dac110
+9836,-70.0,80.0,Canada,279.1616,DAC,climate_neutral_dac110
+9869,12.5,80.0,Norway,279.1616,DAC,climate_neutral_dac110
+9870,15.0,80.0,Norway,279.1616,DAC,climate_neutral_dac110
+9871,17.5,80.0,Norway,279.1616,DAC,climate_neutral_dac110
+9872,20.0,80.0,Norway,279.1616,DAC,climate_neutral_dac110
+9873,22.5,80.0,Norway,279.1616,DAC,climate_neutral_dac110
+9874,25.0,80.0,Norway,279.1616,DAC,climate_neutral_dac110
+9884,50.0,80.0,Russia,279.1616,DAC,climate_neutral_dac110
+9887,57.5,80.0,Russia,279.1616,DAC,climate_neutral_dac110
+9888,60.0,80.0,Russia,279.1616,DAC,climate_neutral_dac110
+9901,92.5,80.0,Russia,279.1616,DAC,climate_neutral_dac110
+9902,95.0,80.0,Russia,279.1616,DAC,climate_neutral_dac110
+9903,97.5,80.0,Russia,279.1616,DAC,climate_neutral_dac110
+9904,100.0,80.0,Russia,279.1616,DAC,climate_neutral_dac110
+9905,102.5,80.0,Russia,279.1616,DAC,climate_neutral_dac110
+9972,-90.0,82.5,Canada,279.1616,DAC,climate_neutral_dac110
+9973,-87.5,82.5,Canada,279.1616,DAC,climate_neutral_dac110
+9974,-85.0,82.5,Canada,279.1616,DAC,climate_neutral_dac110
+9975,-82.5,82.5,Canada,279.1616,DAC,climate_neutral_dac110
+9976,-80.0,82.5,Canada,279.1616,DAC,climate_neutral_dac110
+9977,-77.5,82.5,Canada,279.1616,DAC,climate_neutral_dac110
+9978,-75.0,82.5,Canada,279.1616,DAC,climate_neutral_dac110
+9979,-72.5,82.5,Canada,279.1616,DAC,climate_neutral_dac110
+9980,-70.0,82.5,Canada,279.1616,DAC,climate_neutral_dac110
+9981,-67.5,82.5,Canada,279.1616,DAC,climate_neutral_dac110
+9982,-65.0,82.5,Canada,279.1616,DAC,climate_neutral_dac110
+9983,-62.5,82.5,Canada,279.1616,DAC,climate_neutral_dac110

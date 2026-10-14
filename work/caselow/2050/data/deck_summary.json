@@ -1,0 +1,1398 @@
+{
+ "ladder": [
+  {
+   "fuel": "hydrogen",
+   "lcof": 49.8,
+   "fossil": 21.7,
+   "ratio": 2.3,
+   "win": 2.8,
+   "n_win": 52,
+   "n": 143
+  },
+  {
+   "fuel": "ammonia",
+   "lcof": 66.8,
+   "fossil": 28.9,
+   "ratio": 2.3,
+   "win": 2.4,
+   "n_win": 47,
+   "n": 143
+  },
+  {
+   "fuel": "methanol",
+   "lcof": 72.5,
+   "fossil": 23.7,
+   "ratio": 3.1,
+   "win": 0.9,
+   "n_win": 33,
+   "n": 143
+  },
+  {
+   "fuel": "e-methane",
+   "lcof": 72.6,
+   "fossil": 12.6,
+   "ratio": 5.8,
+   "win": 0.2,
+   "n_win": 23,
+   "n": 143
+  },
+  {
+   "fuel": "e-diesel",
+   "lcof": 83.5,
+   "fossil": 16.9,
+   "ratio": 4.9,
+   "win": 0.0,
+   "n_win": 0,
+   "n": 143
+  },
+  {
+   "fuel": "e-kerosene",
+   "lcof": 83.5,
+   "fossil": 16.9,
+   "ratio": 4.9,
+   "win": 0.0,
+   "n_win": 0,
+   "n": 143
+  },
+  {
+   "fuel": "ethanol",
+   "lcof": 80.5,
+   "fossil": 16.9,
+   "ratio": 4.8,
+   "win": 0.0,
+   "n_win": 1,
+   "n": 143
+  }
+ ],
+ "n_countries": 143,
+ "n_months": 248,
+ "edge": {
+  "hydrogen": {
+   "min_ratio": 0.235,
+   "country": "Turkey",
+   "wins": 992
+  },
+  "ammonia": {
+   "min_ratio": 0.263,
+   "country": "Turkey",
+   "wins": 866
+  },
+  "methanol": {
+   "min_ratio": 0.313,
+   "country": "Turkey",
+   "wins": 318
+  },
+  "e-methane": {
+   "min_ratio": 0.495,
+   "country": "Turkey",
+   "wins": 68
+  },
+  "e-diesel": {
+   "min_ratio": 1.013,
+   "country": "China",
+   "wins": 0
+  },
+  "e-kerosene": {
+   "min_ratio": 1.02,
+   "country": "China",
+   "wins": 0
+  },
+  "ethanol": {
+   "min_ratio": 0.979,
+   "country": "China",
+   "wins": 2
+  }
+ },
+ "taustar": [
+  {
+   "fuel": "hydrogen",
+   "min": -27,
+   "p10": 165,
+   "median": 375,
+   "max": 1035,
+   "competitive": [
+    "Chile",
+    "Falkland Islands"
+   ]
+  },
+  {
+   "fuel": "ammonia",
+   "min": -72,
+   "p10": 76,
+   "median": 246,
+   "max": 823,
+   "competitive": [
+    "Chile",
+    "China",
+    "Falkland Islands",
+    "Latvia",
+    "Peru",
+    "Sweden"
+   ]
+  },
+  {
+   "fuel": "methanol",
+   "min": 177,
+   "p10": 398,
+   "median": 724,
+   "max": 1475,
+   "competitive": []
+  },
+  {
+   "fuel": "e-methane",
+   "min": 257,
+   "p10": 616,
+   "median": 991,
+   "max": 2205,
+   "competitive": []
+  },
+  {
+   "fuel": "e-diesel",
+   "min": 149,
+   "p10": 458,
+   "median": 855,
+   "max": 1728,
+   "competitive": []
+  },
+  {
+   "fuel": "e-kerosene",
+   "min": 154,
+   "p10": 482,
+   "median": 895,
+   "max": 1799,
+   "competitive": []
+  },
+  {
+   "fuel": "ethanol",
+   "min": 134,
+   "p10": 434,
+   "median": 819,
+   "max": 1659,
+   "competitive": []
+  }
+ ],
+ "tau_by_country": {
+  "Chile": {
+   "hydrogen": -27,
+   "ammonia": -62,
+   "e-diesel": 182
+  },
+  "China": {
+   "hydrogen": 26,
+   "ammonia": -72,
+   "e-diesel": 149
+  },
+  "India": {
+   "hydrogen": 147,
+   "ammonia": 31,
+   "e-diesel": 371
+  },
+  "Germany": {
+   "hydrogen": 225,
+   "ammonia": 148,
+   "e-diesel": 575
+  },
+  "United States of America": {
+   "hydrogen": 299,
+   "ammonia": 47,
+   "e-diesel": 454
+  },
+  "Japan": {
+   "hydrogen": 494,
+   "ammonia": 322,
+   "e-diesel": 1003
+  }
+ },
+ "policy_stack": [
+  {
+   "juris": "China",
+   "carbon": 13,
+   "subsidy": 0,
+   "total": 13,
+   "need": 26,
+   "shortfall": 13.1,
+   "closes": false
+  },
+  {
+   "juris": "India",
+   "carbon": 0,
+   "subsidy": 62,
+   "total": 62,
+   "need": 147,
+   "shortfall": 84.8,
+   "closes": false
+  },
+  {
+   "juris": "European Union",
+   "carbon": 125,
+   "subsidy": 0,
+   "total": 125,
+   "need": 225,
+   "shortfall": 99.9,
+   "closes": false
+  },
+  {
+   "juris": "Australia",
+   "carbon": 22,
+   "subsidy": 208,
+   "total": 230,
+   "need": 278,
+   "shortfall": 47.2,
+   "closes": false
+  },
+  {
+   "juris": "United States",
+   "carbon": 60,
+   "subsidy": 312,
+   "total": 372,
+   "need": 299,
+   "shortfall": -73.9,
+   "closes": true
+  },
+  {
+   "juris": "Canada",
+   "carbon": 65,
+   "subsidy": 0,
+   "total": 65,
+   "need": 341,
+   "shortfall": 276.0,
+   "closes": false
+  },
+  {
+   "juris": "United Kingdom",
+   "carbon": 50,
+   "subsidy": 0,
+   "total": 50,
+   "need": 358,
+   "shortfall": 308.3,
+   "closes": false
+  },
+  {
+   "juris": "Japan",
+   "carbon": 10,
+   "subsidy": 208,
+   "total": 218,
+   "need": 494,
+   "shortfall": 275.4,
+   "closes": false
+  }
+ ],
+ "policy_nearest": {
+  "juris": "China",
+  "carbon": 13,
+  "subsidy": 0,
+  "total": 13,
+  "need": 26,
+  "shortfall": 13.1,
+  "closes": false
+ },
+ "policy_closes": [
+  "United States"
+ ],
+ "crisis": {
+  "quiet_any": 19,
+  "crisis_any": 52,
+  "n": 143,
+  "top_uplift": [
+   {
+    "country": "Falkland Islands",
+    "pp": 32
+   },
+   {
+    "country": "Chile",
+    "pp": 32
+   },
+   {
+    "country": "China",
+    "pp": 26
+   },
+   {
+    "country": "Turkey",
+    "pp": 24
+   },
+   {
+    "country": "Sweden",
+    "pp": 23
+   },
+   {
+    "country": "Latvia",
+    "pp": 22
+   }
+  ]
+ },
+ "events": [
+  {
+   "event": "Arab Spring / Libya",
+   "window": [
+    "2011-02",
+    "2011-09"
+   ],
+   "dev_med": 19.5,
+   "dev_max": 20,
+   "worst": "Afghanistan",
+   "win_med": 0.0,
+   "win_mean": 2.3,
+   "win_any": 5,
+   "win_max": 100
+  },
+  {
+   "event": "EU Iran oil embargo",
+   "window": [
+    "2012-02",
+    "2012-07"
+   ],
+   "dev_med": 40.3,
+   "dev_max": 40,
+   "worst": "Afghanistan",
+   "win_med": 0.0,
+   "win_mean": 4.0,
+   "win_any": 6,
+   "win_max": 100
+  },
+  {
+   "event": "Qatar blockade",
+   "window": [
+    "2017-06",
+    "2017-11"
+   ],
+   "dev_med": -18.3,
+   "dev_max": -3,
+   "worst": "Algeria",
+   "win_med": 0.0,
+   "win_mean": 0.0,
+   "win_any": 0,
+   "win_max": 0
+  },
+  {
+   "event": "US Iran sanctions",
+   "window": [
+    "2018-05",
+    "2018-10"
+   ],
+   "dev_med": -4.7,
+   "dev_max": 4,
+   "worst": "China",
+   "win_med": 0.0,
+   "win_mean": 1.0,
+   "win_any": 2,
+   "win_max": 100
+  },
+  {
+   "event": "Abqaiq attack",
+   "window": [
+    "2019-09",
+    "2020-02"
+   ],
+   "dev_med": -9.3,
+   "dev_max": -2,
+   "worst": "Algeria",
+   "win_med": 0.0,
+   "win_mean": 0.7,
+   "win_any": 1,
+   "win_max": 100
+  },
+  {
+   "event": "COVID collapse",
+   "window": [
+    "2020-03",
+    "2020-08"
+   ],
+   "dev_med": -13.0,
+   "dev_max": -2,
+   "worst": "Algeria",
+   "win_med": 0.0,
+   "win_mean": 0.3,
+   "win_any": 1,
+   "win_max": 50
+  },
+  {
+   "event": "2021 Russian gas squeeze",
+   "window": [
+    "2021-10",
+    "2022-02"
+   ],
+   "dev_med": 28.0,
+   "dev_max": 174,
+   "worst": "Bosnia and Herzegovina",
+   "win_med": 0.0,
+   "win_mean": 17.9,
+   "win_any": 35,
+   "win_max": 100
+  },
+  {
+   "event": "Russia–Ukraine",
+   "window": [
+    "2022-03",
+    "2023-08"
+   ],
+   "dev_med": 36.8,
+   "dev_max": 196,
+   "worst": "Bosnia and Herzegovina",
+   "win_med": 0.0,
+   "win_mean": 16.1,
+   "win_any": 52,
+   "win_max": 100
+  },
+  {
+   "event": "Red Sea / Houthi",
+   "window": [
+    "2023-12",
+    "2025-02"
+   ],
+   "dev_med": 10.7,
+   "dev_max": 21,
+   "worst": "Bosnia and Herzegovina",
+   "win_med": 0.0,
+   "win_mean": 1.7,
+   "win_any": 5,
+   "win_max": 100
+  },
+  {
+   "event": "Israel–Iran war",
+   "window": [
+    "2025-06",
+    "2025-11"
+   ],
+   "dev_med": 2.2,
+   "dev_max": 17,
+   "worst": "Bosnia and Herzegovina",
+   "win_med": 0.0,
+   "win_mean": 1.4,
+   "win_any": 2,
+   "win_max": 100
+  },
+  {
+   "event": "2026 Hormuz disruption",
+   "window": [
+    "2026-03",
+    "2026-08"
+   ],
+   "dev_med": 14.6,
+   "dev_max": 71,
+   "worst": "Bosnia and Herzegovina",
+   "win_med": 0.0,
+   "win_mean": 4.3,
+   "win_any": 16,
+   "win_max": 100
+  }
+ ],
+ "crisis_examples": {
+  "Chile": {
+   "quiet": 58.1,
+   "crisis": 89.8
+  },
+  "China": {
+   "quiet": 4.4,
+   "crisis": 30.7
+  },
+  "Germany": {
+   "quiet": 0.6,
+   "crisis": 19.3
+  },
+  "Sweden": {
+   "quiet": 1.2,
+   "crisis": 23.9
+  },
+  "Japan": {
+   "quiet": 0.0,
+   "crisis": 0.0
+  }
+ },
+ "volatility": {
+  "median": 4.7,
+  "max": 16.5,
+  "n": 143,
+  "top": [
+   {
+    "country": "Germany",
+    "x": 16.5
+   },
+   {
+    "country": "Cyprus",
+    "x": 16.4
+   },
+   {
+    "country": "Portugal",
+    "x": 14.1
+   },
+   {
+    "country": "France",
+    "x": 13.6
+   },
+   {
+    "country": "Poland",
+    "x": 12.8
+   }
+  ],
+  "examples": {
+   "Germany": 16.5,
+   "Japan": 4.9,
+   "China": 5.2,
+   "United States of America": 5.0,
+   "India": 2.7,
+   "Chile": 5.9
+  },
+  "clim_p99": 16.4,
+  "mkt_p99": 170.0,
+  "clim_max": 41.6,
+  "mkt_max": 555.3,
+  "cv_min": 4.5,
+  "cv_max_fuel": 6.9
+ },
+ "volatility_by_fuel": [
+  {
+   "fuel": "hydrogen",
+   "clim_p99": 16.4,
+   "mkt_p99": 170.0,
+   "clim_max": 41.6,
+   "mkt_max": 555.3,
+   "cv_ratio": 4.8
+  },
+  {
+   "fuel": "ammonia",
+   "clim_p99": 15.0,
+   "mkt_p99": 148.6,
+   "clim_max": 36.7,
+   "mkt_max": 497.0,
+   "cv_ratio": 4.5
+  },
+  {
+   "fuel": "methanol",
+   "clim_p99": 14.6,
+   "mkt_p99": 173.9,
+   "clim_max": 25.6,
+   "mkt_max": 564.4,
+   "cv_ratio": 5.7
+  },
+  {
+   "fuel": "e-methane",
+   "clim_p99": 14.9,
+   "mkt_p99": 215.5,
+   "clim_max": 26.1,
+   "mkt_max": 657.6,
+   "cv_ratio": 6.9
+  },
+  {
+   "fuel": "e-diesel",
+   "clim_p99": 14.6,
+   "mkt_p99": 83.0,
+   "clim_max": 25.4,
+   "mkt_max": 98.0,
+   "cv_ratio": 6.7
+  },
+  {
+   "fuel": "e-kerosene",
+   "clim_p99": 14.6,
+   "mkt_p99": 87.5,
+   "clim_max": 25.4,
+   "mkt_max": 96.7,
+   "cv_ratio": 6.9
+  },
+  {
+   "fuel": "ethanol",
+   "clim_p99": 14.6,
+   "mkt_p99": 83.0,
+   "clim_max": 25.6,
+   "mkt_max": 98.0,
+   "cv_ratio": 6.7
+  }
+ ],
+ "event_moves": {
+  "Arab Spring / Libya": [
+   {
+    "series": "Brent",
+    "move": 39,
+    "dev": 52
+   },
+   {
+    "series": "jet fuel",
+    "move": 39,
+    "dev": 46
+   },
+   {
+    "series": "diesel",
+    "move": 37,
+    "dev": 39
+   },
+   {
+    "series": "traded ammonia",
+    "move": 33,
+    "dev": 30
+   },
+   {
+    "series": "Asian LNG",
+    "move": 31,
+    "dev": 27
+   },
+   {
+    "series": "European gas",
+    "move": 23,
+    "dev": 11
+   },
+   {
+    "series": "coal",
+    "move": 20,
+    "dev": 31
+   },
+   {
+    "series": "US Henry Hub",
+    "move": -2,
+    "dev": 26
+   }
+  ],
+  "EU Iran oil embargo": [
+   {
+    "series": "Asian LNG",
+    "move": 12,
+    "dev": 50
+   },
+   {
+    "series": "traded ammonia",
+    "move": 8,
+    "dev": 49
+   },
+   {
+    "series": "European gas",
+    "move": 7,
+    "dev": 24
+   },
+   {
+    "series": "diesel",
+    "move": 1,
+    "dev": 40
+   },
+   {
+    "series": "Brent",
+    "move": 0,
+    "dev": 51
+   },
+   {
+    "series": "jet fuel",
+    "move": 0,
+    "dev": 45
+   },
+   {
+    "series": "coal",
+    "move": -17,
+    "dev": 7
+   },
+   {
+    "series": "US Henry Hub",
+    "move": -37,
+    "dev": -27
+   }
+  ],
+  "Qatar blockade": [
+   {
+    "series": "coal",
+    "move": 19,
+    "dev": 0
+   },
+   {
+    "series": "traded ammonia",
+    "move": 18,
+    "dev": -36
+   },
+   {
+    "series": "Asian LNG",
+    "move": 12,
+    "dev": -23
+   },
+   {
+    "series": "jet fuel",
+    "move": 12,
+    "dev": -24
+   },
+   {
+    "series": "European gas",
+    "move": 11,
+    "dev": -38
+   },
+   {
+    "series": "diesel",
+    "move": 10,
+    "dev": -24
+   },
+   {
+    "series": "Brent",
+    "move": 7,
+    "dev": -28
+   },
+   {
+    "series": "US Henry Hub",
+    "move": 0,
+    "dev": -12
+   }
+  ],
+  "US Iran sanctions": [
+   {
+    "series": "European gas",
+    "move": 33,
+    "dev": -12
+   },
+   {
+    "series": "Brent",
+    "move": 29,
+    "dev": 3
+   },
+   {
+    "series": "jet fuel",
+    "move": 26,
+    "dev": 3
+   },
+   {
+    "series": "diesel",
+    "move": 24,
+    "dev": 0
+   },
+   {
+    "series": "traded ammonia",
+    "move": 20,
+    "dev": -23
+   },
+   {
+    "series": "coal",
+    "move": 20,
+    "dev": 21
+   },
+   {
+    "series": "Asian LNG",
+    "move": 19,
+    "dev": -4
+   },
+   {
+    "series": "US Henry Hub",
+    "move": 0,
+    "dev": -11
+   }
+  ],
+  "Abqaiq attack": [
+   {
+    "series": "diesel",
+    "move": -7,
+    "dev": -17
+   },
+   {
+    "series": "jet fuel",
+    "move": -7,
+    "dev": -15
+   },
+   {
+    "series": "Brent",
+    "move": -8,
+    "dev": -17
+   },
+   {
+    "series": "Asian LNG",
+    "move": -10,
+    "dev": -12
+   },
+   {
+    "series": "traded ammonia",
+    "move": -19,
+    "dev": -34
+   },
+   {
+    "series": "US Henry Hub",
+    "move": -22,
+    "dev": -31
+   },
+   {
+    "series": "coal",
+    "move": -26,
+    "dev": -28
+   },
+   {
+    "series": "European gas",
+    "move": -30,
+    "dev": -54
+   }
+  ],
+  "COVID collapse": [
+   {
+    "series": "traded ammonia",
+    "move": -9,
+    "dev": -34
+   },
+   {
+    "series": "Asian LNG",
+    "move": -13,
+    "dev": -21
+   },
+   {
+    "series": "coal",
+    "move": -24,
+    "dev": -41
+   },
+   {
+    "series": "US Henry Hub",
+    "move": -24,
+    "dev": -45
+   },
+   {
+    "series": "Brent",
+    "move": -44,
+    "dev": -52
+   },
+   {
+    "series": "diesel",
+    "move": -44,
+    "dev": -52
+   },
+   {
+    "series": "European gas",
+    "move": -50,
+    "dev": -77
+   },
+   {
+    "series": "jet fuel",
+    "move": -51,
+    "dev": -57
+   }
+  ],
+  "2021 Russian gas squeeze": [
+   {
+    "series": "European gas",
+    "move": 225,
+    "dev": 229
+   },
+   {
+    "series": "traded ammonia",
+    "move": 175,
+    "dev": 213
+   },
+   {
+    "series": "coal",
+    "move": 77,
+    "dev": 107
+   },
+   {
+    "series": "Asian LNG",
+    "move": 68,
+    "dev": 32
+   },
+   {
+    "series": "jet fuel",
+    "move": 47,
+    "dev": 12
+   },
+   {
+    "series": "diesel",
+    "move": 42,
+    "dev": 14
+   },
+   {
+    "series": "US Henry Hub",
+    "move": 42,
+    "dev": 39
+   },
+   {
+    "series": "Brent",
+    "move": 36,
+    "dev": 13
+   }
+  ],
+  "Russia–Ukraine": [
+   {
+    "series": "coal",
+    "move": 83,
+    "dev": 211
+   },
+   {
+    "series": "jet fuel",
+    "move": 55,
+    "dev": 50
+   },
+   {
+    "series": "European gas",
+    "move": 51,
+    "dev": 221
+   },
+   {
+    "series": "diesel",
+    "move": 48,
+    "dev": 49
+   },
+   {
+    "series": "Asian LNG",
+    "move": 46,
+    "dev": 52
+   },
+   {
+    "series": "US Henry Hub",
+    "move": 22,
+    "dev": 45
+   },
+   {
+    "series": "Brent",
+    "move": 22,
+    "dev": 24
+   },
+   {
+    "series": "traded ammonia",
+    "move": -7,
+    "dev": 95
+   }
+  ],
+  "Red Sea / Houthi": [
+   {
+    "series": "Brent",
+    "move": -3,
+    "dev": 8
+   },
+   {
+    "series": "traded ammonia",
+    "move": -8,
+    "dev": 18
+   },
+   {
+    "series": "US Henry Hub",
+    "move": -11,
+    "dev": -26
+   },
+   {
+    "series": "Asian LNG",
+    "move": -13,
+    "dev": 15
+   },
+   {
+    "series": "jet fuel",
+    "move": -15,
+    "dev": 12
+   },
+   {
+    "series": "diesel",
+    "move": -15,
+    "dev": 9
+   },
+   {
+    "series": "European gas",
+    "move": -24,
+    "dev": 25
+   },
+   {
+    "series": "coal",
+    "move": -31,
+    "dev": 43
+   }
+  ],
+  "Israel–Iran war": [
+   {
+    "series": "traded ammonia",
+    "move": 26,
+    "dev": 60
+   },
+   {
+    "series": "US Henry Hub",
+    "move": 9,
+    "dev": -5
+   },
+   {
+    "series": "diesel",
+    "move": 2,
+    "dev": 5
+   },
+   {
+    "series": "jet fuel",
+    "move": 0,
+    "dev": 2
+   },
+   {
+    "series": "Asian LNG",
+    "move": -9,
+    "dev": 2
+   },
+   {
+    "series": "Brent",
+    "move": -10,
+    "dev": -9
+   },
+   {
+    "series": "European gas",
+    "move": -11,
+    "dev": 22
+   },
+   {
+    "series": "coal",
+    "move": -12,
+    "dev": 18
+   }
+  ],
+  "2026 Hormuz disruption": [
+   {
+    "series": "diesel",
+    "move": 75,
+    "dev": 77
+   },
+   {
+    "series": "jet fuel",
+    "move": 73,
+    "dev": 73
+   },
+   {
+    "series": "European gas",
+    "move": 52,
+    "dev": 87
+   },
+   {
+    "series": "traded ammonia",
+    "move": 47,
+    "dev": 123
+   },
+   {
+    "series": "Brent",
+    "move": 46,
+    "dev": 32
+   },
+   {
+    "series": "coal",
+    "move": 25,
+    "dev": 45
+   },
+   {
+    "series": "Asian LNG",
+    "move": 13,
+    "dev": 17
+   },
+   {
+    "series": "US Henry Hub",
+    "move": -22,
+    "dev": -12
+   }
+  ]
+ },
+ "vulnerability": {
+  "n": 119,
+  "zero": 15,
+  "top": [
+   {
+    "country": "Bhutan",
+    "V": 0.97,
+    "imp": 100,
+    "hhi": 1.0,
+    "pi": 60.6,
+    "lcof": 82.3
+   },
+   {
+    "country": "Honduras",
+    "V": 0.9,
+    "imp": 100,
+    "hhi": 0.85,
+    "pi": 56.1,
+    "lcof": 77.8
+   },
+   {
+    "country": "Liberia",
+    "V": 0.86,
+    "imp": 100,
+    "hhi": 0.96,
+    "pi": 44.2,
+    "lcof": 65.9
+   },
+   {
+    "country": "Laos",
+    "V": 0.85,
+    "imp": 100,
+    "hhi": 0.76,
+    "pi": 54.0,
+    "lcof": 75.7
+   },
+   {
+    "country": "Israel",
+    "V": 0.81,
+    "imp": 80,
+    "hhi": 0.9,
+    "pi": 49.2,
+    "lcof": 60.0
+   },
+   {
+    "country": "Austria",
+    "V": 0.79,
+    "imp": 86,
+    "hhi": 0.58,
+    "pi": 66.8,
+    "lcof": 87.1
+   },
+   {
+    "country": "Guatemala",
+    "V": 0.75,
+    "imp": 96,
+    "hhi": 0.83,
+    "pi": 35.0,
+    "lcof": 56.7
+   },
+   {
+    "country": "Costa Rica",
+    "V": 0.73,
+    "imp": 100,
+    "hhi": 0.69,
+    "pi": 38.0,
+    "lcof": 59.7
+   }
+  ],
+  "major": [
+   {
+    "country": "Japan",
+    "rank": 35,
+    "V": 0.55,
+    "imp": 98,
+    "hhi": 0.27,
+    "pi": 41.7
+   },
+   {
+    "country": "Germany",
+    "rank": 50,
+    "V": 0.46,
+    "imp": 97,
+    "hhi": 0.37,
+    "pi": 19.0
+   },
+   {
+    "country": "Italy",
+    "rank": 58,
+    "V": 0.42,
+    "imp": 94,
+    "hhi": 0.16,
+    "pi": 34.1
+   },
+   {
+    "country": "South Korea",
+    "rank": 59,
+    "V": 0.42,
+    "imp": 100,
+    "hhi": 0.16,
+    "pi": 30.6
+   },
+   {
+    "country": "Mexico",
+    "rank": 76,
+    "V": 0.35,
+    "imp": 16,
+    "hhi": 0.86,
+    "pi": 20.1
+   },
+   {
+    "country": "United Kingdom",
+    "rank": 69,
+    "V": 0.39,
+    "imp": 52,
+    "hhi": 0.25,
+    "pi": 30.2
+   },
+   {
+    "country": "Netherlands",
+    "rank": 74,
+    "V": 0.36,
+    "imp": 84,
+    "hhi": 0.15,
+    "pi": 25.0
+   },
+   {
+    "country": "India",
+    "rank": 90,
+    "V": 0.31,
+    "imp": 76,
+    "hhi": 0.2,
+    "pi": 12.4
+   },
+   {
+    "country": "China",
+    "rank": 101,
+    "V": 0.13,
+    "imp": 57,
+    "hhi": 0.1,
+    "pi": 2.2
+   },
+   {
+    "country": "United States of America",
+    "rank": 119,
+    "V": 0.0,
+    "imp": 0,
+    "hhi": 0.3,
+    "pi": 25.2
+   },
+   {
+    "country": "Chile",
+    "rank": 111,
+    "V": 0.0,
+    "imp": 94,
+    "hhi": 0.54,
+    "pi": 0.0
+   }
+  ]
+ },
+ "cheapest": [
+  {
+   "country": "China",
+   "mmbtu": 17.9,
+   "kg": 2.04
+  },
+  {
+   "country": "Saudi Arabia",
+   "mmbtu": 18.8,
+   "kg": 2.14
+  },
+  {
+   "country": "Chile",
+   "mmbtu": 19.4,
+   "kg": 2.2
+  },
+  {
+   "country": "Falkland Islands",
+   "mmbtu": 21.0,
+   "kg": 2.39
+  },
+  {
+   "country": "United Arab Emirates",
+   "mmbtu": 21.2,
+   "kg": 2.41
+  },
+  {
+   "country": "Peru",
+   "mmbtu": 25.7,
+   "kg": 2.92
+  }
+ ],
+ "dearest": [
+  {
+   "country": "Venezuela",
+   "mmbtu": 93.0
+  },
+  {
+   "country": "Austria",
+   "mmbtu": 87.1
+  },
+  {
+   "country": "Ecuador",
+   "mmbtu": 86.8
+  },
+  {
+   "country": "Belarus",
+   "mmbtu": 84.4
+  }
+ ],
+ "vintage": {
+  "n_sites": 29,
+  "years": [
+   2025,
+   2030,
+   2035,
+   2040,
+   2045,
+   2050
+  ],
+  "n_lp": 10440,
+  "median_path": {
+   "Conservative": {
+    "2025": 64.0,
+    "2030": 55.1,
+    "2035": 49.3,
+    "2040": 46.4,
+    "2045": 42.8,
+    "2050": 39.8
+   },
+   "Moderate": {
+    "2025": 64.0,
+    "2030": 47.1,
+    "2035": 38.0,
+    "2040": 34.1,
+    "2045": 30.9,
+    "2050": 27.9
+   },
+   "Advanced": {
+    "2025": 64.0,
+    "2030": 41.4,
+    "2035": 30.1,
+    "2040": 26.4,
+    "2045": 23.9,
+    "2050": 21.6
+   }
+  },
+  "cheapest_2050": [
+   {
+    "site": "Chile",
+    "mmbtu": 15.2
+   },
+   {
+    "site": "China",
+    "mmbtu": 15.6
+   },
+   {
+    "site": "Saudi Arabia",
+    "mmbtu": 15.9
+   },
+   {
+    "site": "Australia",
+    "mmbtu": 20.5
+   },
+   {
+    "site": "Oman",
+    "mmbtu": 21.2
+   },
+   {
+    "site": "Kazakhstan",
+    "mmbtu": 22.0
+   }
+  ],
+  "cross_firm": 7,
+  "cross_median": 12,
+  "n_pairs": 29,
+  "first_crossings": [
+   {
+    "site": "Chile",
+    "year": 2030
+   },
+   {
+    "site": "Brazil",
+    "year": 2045
+   },
+   {
+    "site": "China",
+    "year": 2045
+   },
+   {
+    "site": "Namibia",
+    "year": 2045
+   },
+   {
+    "site": "South Africa",
+    "year": 2045
+   },
+   {
+    "site": "India",
+    "year": 2050
+   }
+  ],
+  "withdraw_n": 10,
+  "withdraw": [
+   {
+    "site": "Chile",
+    "year": 2030
+   },
+   {
+    "site": "China",
+    "year": 2040
+   },
+   {
+    "site": "Brazil",
+    "year": 2045
+   },
+   {
+    "site": "Namibia",
+    "year": 2045
+   },
+   {
+    "site": "Netherlands",
+    "year": 2045
+   },
+   {
+    "site": "Poland",
+    "year": 2045
+   }
+  ],
+  "dropin_cross": 0,
+  "dropin_n": 348,
+  "wacc_saving_med": 3.3,
+  "tech_saving_med": 6.3
+ }
+}

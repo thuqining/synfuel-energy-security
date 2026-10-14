@@ -1,0 +1,27 @@
+jurisdiction,instrument,type,value,unit,status_2026,enters_model_as,notes
+EU (ETS),EU ETS allowance price,carbon_price,80,USD/tCO2,in force,tau* comparison,"power+industry; road fuels enter via ETS2 from 2027"
+EU,ETS2 (buildings+transport),carbon_price,45,USD/tCO2 (expected),adopted; starts 2027,tau* comparison (2027+),"extends coverage to road-transport fuels"
+EU,RED III / RFNBO quota,quota,42,% of industrial H2 by 2030,adopted,demand-side (not in LCOS),"green H2 quota; creates willingness-to-pay above grey"
+EU,ReFuelEU Aviation e-SAF sub-quota,quota,1.2,% of jet fuel 2030 (35% 2050),adopted,demand-side (not in LCOS),"e-kerosene specific mandate"
+EU,CBAM,border_carbon,80,USD/tCO2 on imports,in force 2026,import-parity adjustment,"covers H2 and ammonia imports"
+EU,Energy Taxation Directive excise,fuel_excise,varies,USD/L,in force,tax-inclusive benchmark,"NOT yet compiled per country - open item"
+United States,45V clean-H2 PTC,production_subsidy,3.0,USD/kg H2 (max tier),in force (10-yr),separate wedge (≈$25/GJ ≈ $312/t CO2-equiv),"can flip results; phase-out politics uncertain"
+United States,45Z clean fuel PTC,production_subsidy,1.75,USD/gal SAF (max),in force,separate wedge,"SAF/road fuels; CI-scored"
+United States,California LCFS,carbon_price,60,USD/tCO2 (credit),in force,tau* comparison (state),"state-level; stacks with 45V/45Z"
+United Kingdom,UK ETS,carbon_price,50,USD/tCO2,in force,tau* comparison,
+United Kingdom,SAF mandate,quota,10,% jet fuel by 2030,adopted,demand-side,"with PtL sub-obligation from 2028"
+Canada,federal carbon price,carbon_price,65,USD/tCO2,in force,tau* comparison,"rising schedule"
+Norway,CO2 tax + ETS,carbon_price,90,USD/tCO2,in force,tau* comparison,"green H2 already competitive at this price (our result)"
+Switzerland,CO2 levy,carbon_price,130,USD/tCO2,in force,tau* comparison,
+China,national ETS,carbon_price,13,USD/tCO2,in force,tau* comparison,"power sector; expanding"
+China,VAT immediate refund / consumption-tax exemption,tax_relief,varies,,in force,effective-LCOF reduction (~5-10%),"from 2026 China Green Fuel Report; no 45V analog"
+China,CCER credits (electrolytic H2 methodology),carbon_credit,10,USD/tCO2 (approx),in force,revenue wedge,"voluntary market"
+China,green liquid fuel pilots (Document No. 43),pilot_support,,,in force,soft (finance access),"9 projects batch 1; cheap credit + siting"
+Japan,H2 CfD support,production_subsidy,varies,USD/kg (contract),adopted,separate wedge,"15-yr contracts-for-difference"
+Japan,carbon levy,carbon_price,10,USD/tCO2,in force (low),tau* comparison,"GX levy rising from 2028"
+South Korea,K-ETS,carbon_price,8,USD/tCO2,in force,tau* comparison,
+India,SIGHT green-H2 incentive,production_subsidy,0.6,USD/kg (early yrs),in force,separate wedge,"declining schedule"
+Australia,Hydrogen Headstart + safeguard,production_subsidy,2.0,USD/kg (approx CfD),adopted,separate wedge,"safeguard mechanism ≈ $22/t carbon price"
+Brazil,ProQR / fuel taxes,fuel_excise,varies,,in force,tax-inclusive benchmark,"not yet compiled"
+Global,IMO net-zero framework (shipping),carbon_price,100,USD/tCO2 (2030s expected),adopted 2025,tau* for marine fuels (NH3/MeOH),"first global sectoral carbon price"
+Global,CORSIA (aviation),carbon_credit,20,USD/tCO2 (offset),in force,weak tau* for jet,"offset-based; far below e-SAF tau*"

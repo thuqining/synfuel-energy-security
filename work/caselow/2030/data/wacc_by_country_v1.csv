@@ -1,0 +1,258 @@
+country,CONTINENT,equity_risk_premium_pct,wacc_pct
+Norfolk Island,Oceania,,4.0
+Wallis and Futuna,Oceania,,4.0
+Tonga,Oceania,,4.0
+Cook Islands,Oceania,,4.0
+Samoa,Oceania,,4.0
+Nauru,Oceania,,4.0
+Tuvalu,Oceania,,4.0
+Solomon Islands,Oceania,,4.0
+Federated States of Micronesia,Oceania,,4.0
+French Polynesia,Oceania,,4.0
+Marshall Islands,Oceania,,4.0
+Kiribati,Oceania,,4.0
+Fiji,Oceania,,4.0
+Sweden,Europe,4.23,4.0
+Norway,Europe,4.23,4.0
+Germany,Europe,4.23,4.0
+Pitcairn Islands,Oceania,,4.0
+Denmark,Europe,4.23,4.0
+New Caledonia,Oceania,,4.0
+New Zealand,Oceania,4.23,4.0
+Papua New Guinea,Oceania,,4.0
+Canada,North America,4.23,4.0
+Australia,Oceania,4.23,4.0
+Coral Sea Islands,Oceania,,4.0
+Guam,Oceania,,4.0
+Northern Mariana Islands,Oceania,,4.0
+Palau,Oceania,,4.0
+American Samoa,Oceania,,4.0
+Vanuatu,Oceania,,4.0
+Niue,Oceania,,4.0
+Netherlands,Europe,4.23,4.0
+Switzerland,Europe,4.23,4.0
+Ashmore and Cartier Islands,Oceania,,4.0
+Montserrat,North America,,4.23
+Panama,North America,,4.23
+United States Minor Outlying Islands,North America,,4.23
+Barbados,North America,,4.23
+Saint Vincent and the Grenadines,North America,,4.23
+Dominica,North America,,4.23
+Saint Lucia,North America,,4.23
+Sint Maarten,North America,,4.23
+Cayman Islands,North America,,4.23
+Bermuda,North America,,4.23
+Saint Kitts and Nevis,North America,,4.23
+Curaçao,North America,,4.23
+Aruba,North America,,4.23
+United States Virgin Islands,North America,,4.23
+Antigua and Barbuda,North America,,4.23
+Haiti,North America,,4.23
+US Naval Base Guantanamo Bay,North America,,4.23
+Turks and Caicos Islands,North America,,4.23
+The Bahamas,North America,,4.23
+Greenland,North America,,4.23
+Saint Pierre and Miquelon,North America,,4.23
+Grenada,North America,,4.23
+Saint Martin,North America,,4.23
+Trinidad and Tobago,North America,,4.23
+British Virgin Islands,North America,,4.23
+Puerto Rico,North America,,4.23
+Jamaica,North America,,4.23
+Anguilla,North America,,4.23
+Saint Barthelemy,North America,,4.23
+Costa Rica,North America,,4.23
+Nicaragua,North America,,4.23
+Belize,North America,,4.23
+United States of America,North America,4.46,4.23
+Bajo Nuevo Bank (Petrel Is.),North America,,4.23
+Guatemala,North America,,4.23
+Honduras,North America,,4.23
+Cuba,North America,,4.23
+Dominican Republic,North America,,4.23
+El Salvador,North America,,4.23
+Serranilla Bank,North America,,4.23
+Austria,Europe,4.59,4.36
+Finland,Europe,4.59,4.36
+South Korea,Asia,4.87,4.64
+United Arab Emirates,Asia,4.87,4.64
+Qatar,Asia,4.87,4.64
+Bulgaria,Europe,,4.78
+Croatia,Europe,,4.78
+Slovenia,Europe,,4.78
+Saudi Arabia,Asia,5.01,4.78
+San Marino,Europe,,4.78
+Monaco,Europe,,4.78
+Republic of Serbia,Europe,,4.78
+Liechtenstein,Europe,,4.78
+Albania,Europe,,4.78
+North Macedonia,Europe,,4.78
+Vatican,Europe,,4.78
+Gibraltar,Europe,,4.78
+Montenegro,Europe,,4.78
+Andorra,Europe,,4.78
+Bosnia and Herzegovina,Europe,,4.78
+Moldova,Europe,,4.78
+United Kingdom,Europe,5.01,4.78
+Ireland,Europe,5.01,4.78
+Hungary,Europe,,4.78
+Slovakia,Europe,,4.78
+Romania,Europe,,4.78
+Luxembourg,Europe,,4.78
+Belgium,Europe,,4.78
+Kosovo,Europe,,4.78
+Belarus,Europe,,4.78
+Malta,Europe,,4.78
+Jersey,Europe,,4.78
+Guernsey,Europe,,4.78
+Lithuania,Europe,,4.78
+Czechia,Europe,,4.78
+Latvia,Europe,,4.78
+Estonia,Europe,,4.78
+Aland,Europe,,4.78
+Faroe Islands,Europe,,4.78
+Isle of Man,Europe,,4.78
+France,Europe,5.01,4.78
+Kuwait,Asia,5.14,4.91
+China,Asia,5.14,4.91
+Iceland,Europe,5.14,4.91
+Japan,Asia,5.14,4.91
+Chile,South America,5.33,5.1
+Poland,Europe,5.33,5.1
+Spain,Europe,5.78,5.55
+Malaysia,Asia,5.78,5.55
+Portugal,Europe,5.78,5.55
+Peru,South America,6.3,6.07
+Thailand,Asia,6.3,6.07
+Israel,Asia,6.3,6.07
+Botswana,Africa,6.3,6.07
+Uruguay,South America,6.3,6.07
+Kazakhstan,Asia,6.3,6.07
+Bahrain,Asia,,6.46
+Dhekelia Sovereign Base Area,Asia,,6.46
+Mexico,North America,6.69,6.46
+Cyprus No Mans Area,Asia,,6.46
+Nepal,Asia,,6.46
+Afghanistan,Asia,,6.46
+Kyrgyzstan,Asia,,6.46
+Yemen,Asia,,6.46
+Hong Kong S.A.R.,Asia,,6.46
+Baykonur Cosmodrome,Asia,,6.46
+Siachen Glacier,Asia,,6.46
+Akrotiri Sovereign Base Area,Asia,,6.46
+Northern Cyprus,Asia,,6.46
+Georgia,Asia,,6.46
+Azerbaijan,Asia,,6.46
+Armenia,Asia,,6.46
+Taiwan,Asia,,6.46
+Lebanon,Asia,,6.46
+Palestine,Asia,,6.46
+Macao S.A.R,Asia,,6.46
+Turkmenistan,Asia,,6.46
+Brunei,Asia,,6.46
+Italy,Europe,6.69,6.46
+Cambodia,Asia,,6.46
+Tajikistan,Asia,,6.46
+North Korea,Asia,,6.46
+Syria,Asia,,6.46
+Indian Ocean Territories,Asia,,6.46
+Indonesia,Asia,6.69,6.46
+Bhutan,Asia,,6.46
+Singapore,Asia,,6.46
+Scarborough Reef,Asia,,6.46
+Cyprus,Asia,,6.46
+Spratly Islands,Asia,,6.46
+Laos,Asia,,6.46
+Sri Lanka,Asia,,6.46
+Philippines,Asia,6.69,6.46
+Myanmar,Asia,,6.46
+East Timor,Asia,,6.46
+Paraguay,South America,7.08,6.85
+Colombia,South America,7.08,6.85
+India,Asia,7.08,6.85
+Clipperton Island,Seven seas (open ocean),,6.85
+South Georgia and the Islands,Seven seas (open ocean),,6.85
+Greece,Europe,7.08,6.85
+British Indian Ocean Territory,Seven seas (open ocean),,6.85
+Oman,Asia,7.08,6.85
+French Southern and Antarctic Lands,Seven seas (open ocean),,6.85
+Seychelles,Seven seas (open ocean),,6.85
+Saint Helena,Seven seas (open ocean),,6.85
+Mauritius,Seven seas (open ocean),,6.85
+Heard Island and McDonald Islands,Seven seas (open ocean),,6.85
+Maldives,Seven seas (open ocean),,6.85
+Guyana,South America,,7.04
+Suriname,South America,,7.04
+Brazilian Island,South America,,7.04
+Southern Patagonian Ice Field,South America,,7.04
+Falkland Islands,South America,,7.04
+Brazil,South America,7.47,7.24
+Morocco,Africa,7.47,7.24
+Libya,Africa,8.13,7.9
+Vietnam,Asia,8.13,7.9
+Russia,Europe,8.13,7.9
+Ivory Coast,Africa,8.13,7.9
+South Africa,Africa,8.13,7.9
+Jordan,Asia,8.89,8.66
+Turkey,Asia,8.89,8.66
+Uzbekistan,Asia,8.89,8.66
+Algeria,Africa,10.06,9.83
+Mongolia,Asia,10.06,9.83
+Namibia,Africa,10.06,9.83
+United Republic of Tanzania,Africa,10.06,9.83
+Bangladesh,Asia,11.35,11.12
+Angola,Africa,12.64,12.41
+Nigeria,Africa,12.64,12.41
+Democratic Republic of the Congo,Africa,12.64,12.41
+Benin,Africa,,13.71
+Burundi,Africa,,13.71
+Chad,Africa,,13.71
+Liberia,Africa,,13.71
+Argentina,South America,13.94,13.71
+South Sudan,Africa,,13.71
+Somalia,Africa,,13.71
+Iran,Asia,13.94,13.71
+Pakistan,Asia,13.94,13.71
+Senegal,Africa,13.94,13.71
+Sierra Leone,Africa,,13.71
+Togo,Africa,,13.71
+Madagascar,Africa,,13.71
+Egypt,Africa,13.94,13.71
+Gambia,Africa,,13.71
+Equatorial Guinea,Africa,,13.71
+Mauritania,Africa,,13.71
+Uganda,Africa,,13.71
+Burkina Faso,Africa,,13.71
+Rwanda,Africa,,13.71
+Guinea,Africa,,13.71
+Djibouti,Africa,,13.71
+Eritrea,Africa,,13.71
+Iraq,Asia,13.94,13.71
+Central African Republic,Africa,,13.71
+eSwatini,Africa,,13.71
+Gabon,Africa,,13.71
+Cameroon,Africa,13.94,13.71
+Bir Tawil,Africa,,13.71
+Lesotho,Africa,,13.71
+Tunisia,Africa,13.94,13.71
+Guinea-Bissau,Africa,,13.71
+Ghana,Africa,13.94,13.71
+Kenya,Africa,13.94,13.71
+Malawi,Africa,,13.71
+Comoros,Africa,,13.71
+Cabo Verde,Africa,,13.71
+Somaliland,Africa,,13.71
+São Tomé and Principe,Africa,,13.71
+Western Sahara,Africa,,13.71
+Republic of the Congo,Africa,,13.71
+Ethiopia,Africa,15.89,15.66
+Zambia,Africa,15.89,15.66
+Mali,Africa,15.89,15.66
+Zimbabwe,Africa,15.89,15.66
+Ecuador,South America,17.18,16.95
+Mozambique,Africa,17.18,16.95
+Niger,Africa,17.18,16.95
+Bolivia,South America,19.77,19.54
+Ukraine,Europe,19.77,19.54
+Sudan,Africa,30.89,30.66
+Venezuela,South America,30.89,30.66

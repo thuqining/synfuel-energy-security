@@ -1,0 +1,8 @@
+fuel,event_rule,n_series,normal_n,disruption_n,normal_median_pct,disruption_median_pct,normal_p98_pct,disruption_p98_pct,normal_max_pct,disruption_max_pct
+hydrogen,gas events,143,3432,9295,0.0,5.52,14.39,415.99,17.17,939.1
+ammonia,gas events,143,3432,9295,0.0,3.13,11.7,332.09,14.52,770.64
+methanol,gas events,143,3432,9295,-0.0,5.98,14.87,430.85,17.62,968.16
+e-methane,gas events,143,3432,9295,0.0,11.73,20.61,628.35,24.58,1318.47
+e-diesel,oil events,1,60,72,-0.0,27.54,26.88,75.76,28.16,87.16
+e-kerosene,oil events,1,60,72,0.0,30.43,31.18,89.38,33.01,95.64
+ethanol,oil events,1,60,72,-0.0,27.54,26.88,75.76,28.16,87.16

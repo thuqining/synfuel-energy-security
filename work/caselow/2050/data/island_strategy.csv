@@ -1,0 +1,114 @@
+country,lon,lat,area_km2,coastal,pv_cf,wind_onshore_cf,wind_offshore_cf,strategy,code
+Western Sahara,-12.6,24.2,90495.0,True,0.217,0.609,0.538,production-capable,1
+Estonia,25.5,58.6,45819.0,True,0.111,0.459,0.415,production-capable,1
+New Caledonia,165.2,-21.2,18841.0,True,0.181,0.579,0.505,production-capable,1
+Kuwait,47.4,29.3,17474.0,True,0.203,0.406,0.35,production-capable,1
+The Bahamas,-78.3,26.7,12604.0,True,0.173,0.434,0.375,production-capable,1
+Vanuatu,168.4,-17.7,12297.0,True,0.172,0.576,0.501,production-capable,1
+Qatar,51.1,25.4,11150.0,True,0.21,0.3,0.249,production-capable,1
+Jamaica,-77.2,18.1,11033.0,True,0.191,0.496,0.421,production-capable,1
+Puerto Rico,-66.4,18.2,9006.0,True,0.199,0.515,0.426,production-capable,1
+French Southern and Antarctic Lands,70.2,-49.2,7280.0,True,0.13,0.868,0.832,production-capable,1
+Togo,1.0,8.6,56863.0,True,0.173,0.068,0.059,mixed,2
+Solomon Islands,160.1,-9.6,27199.0,True,0.165,0.246,0.199,mixed,2
+Equatorial Guinea,10.5,1.6,26672.0,True,0.14,0.032,0.03,mixed,2
+Djibouti,42.5,11.8,21848.0,True,0.19,0.172,0.137,mixed,2
+El Salvador,-88.9,13.8,20539.0,True,0.173,0.011,0.012,mixed,2
+Slovenia,14.6,46.2,20327.0,True,0.155,0.11,0.1,mixed,2
+East Timor,125.8,-8.9,15082.0,True,0.198,0.102,0.078,mixed,2
+Montenegro,19.3,42.7,13727.0,True,0.171,0.024,0.023,mixed,2
+Gambia,-14.3,13.4,10501.0,True,0.18,0.124,0.106,mixed,2
+Lebanon,35.9,33.9,10004.0,True,0.193,0.263,0.218,mixed,2
+Palestine,35.3,31.9,6074.0,True,0.189,0.144,0.126,mixed,2
+Brunei,114.5,4.5,5717.0,True,0.17,0.056,0.048,mixed,2
+Trinidad and Tobago,-61.3,10.4,5123.0,True,0.175,0.115,0.1,mixed,2
+Cabo Verde,-25.2,17.1,3927.0,True,0.205,0.542,0.45,mixed,2
+South Georgia and the Islands,-36.5,-54.4,3921.0,True,0.108,0.761,0.715,mixed,2
+French Polynesia,-139.0,-9.8,3337.0,True,0.207,0.557,0.451,mixed,2
+Mauritius,57.6,-20.3,2014.0,True,0.186,0.553,0.478,mixed,2
+Faroe Islands,-6.8,62.2,1329.0,True,0.098,0.686,0.637,mixed,2
+Kiribati,-155.9,-5.6,950.0,True,0.209,0.558,0.446,mixed,2
+Aland,19.9,60.2,942.0,True,0.133,0.641,0.583,mixed,2
+Dominica,-61.3,15.4,730.0,True,0.199,0.549,0.453,mixed,2
+Bahrain,50.5,26.0,688.0,True,0.21,0.3,0.249,mixed,2
+Federated States of Micronesia,158.2,6.9,634.0,True,0.176,0.473,0.397,mixed,2
+Saint Lucia,-61.0,13.9,605.0,True,0.197,0.538,0.446,mixed,2
+Tonga,-175.3,-21.2,603.0,True,0.173,0.53,0.461,mixed,2
+Northern Mariana Islands,145.2,14.2,579.0,True,0.189,0.523,0.44,mixed,2
+Isle of Man,-4.5,54.2,575.0,True,0.116,0.611,0.571,mixed,2
+Guam,144.8,13.5,564.0,True,0.19,0.533,0.453,mixed,2
+Curaçao,-69.0,12.2,463.0,True,0.203,0.836,0.775,mixed,2
+Antigua and Barbuda,-61.8,17.1,452.0,True,0.199,0.539,0.447,mixed,2
+Turks and Caicos Islands,-71.8,21.8,445.0,True,0.19,0.527,0.445,mixed,2
+Barbados,-59.6,13.2,444.0,True,0.195,0.552,0.451,mixed,2
+Seychelles,46.3,-9.3,436.0,True,0.192,0.603,0.557,mixed,2
+Heard Island and McDonald Islands,73.5,-53.1,395.0,True,0.123,0.878,0.848,mixed,2
+Saint Vincent and the Grenadines,-61.2,13.3,368.0,True,0.195,0.552,0.451,mixed,2
+Saint Helena,-12.3,-37.1,367.0,True,0.15,0.725,0.678,mixed,2
+United States Virgin Islands,-64.8,17.7,355.0,True,0.197,0.516,0.425,mixed,2
+Grenada,-61.7,12.1,347.0,True,0.195,0.593,0.485,mixed,2
+Saint Kitts and Nevis,-62.7,17.3,264.0,True,0.199,0.539,0.447,mixed,2
+Saint Pierre and Miquelon,-56.2,46.8,243.0,True,0.141,0.502,0.47,mixed,2
+Niue,-169.9,-19.1,221.0,True,0.17,0.491,0.427,mixed,2
+Cook Islands,-159.8,-21.2,191.0,True,0.17,0.451,0.383,mixed,2
+American Samoa,-170.8,-14.3,180.0,True,0.171,0.411,0.348,mixed,2
+Aruba,-70.0,12.5,170.0,True,0.203,0.836,0.775,mixed,2
+Marshall Islands,166.9,11.2,165.0,True,0.189,0.652,0.572,mixed,2
+British Virgin Islands,-64.6,18.4,145.0,True,0.197,0.516,0.425,mixed,2
+Wallis and Futuna,-178.2,-14.3,139.0,True,0.174,0.428,0.375,mixed,2
+Jersey,-2.1,49.2,119.0,True,0.146,0.689,0.637,mixed,2
+Indian Ocean Territories,105.6,-10.5,112.0,True,0.185,0.495,0.423,mixed,2
+Montserrat,-62.2,16.8,100.0,True,0.199,0.539,0.447,mixed,2
+Anguilla,-63.0,18.2,87.0,True,0.199,0.539,0.447,mixed,2
+Guernsey,-2.6,49.5,74.0,True,0.146,0.689,0.637,mixed,2
+Saint Martin,-63.1,18.1,68.0,True,0.199,0.539,0.447,mixed,2
+Bermuda,-64.7,32.3,62.0,True,0.168,0.528,0.468,mixed,2
+Pitcairn Islands,-128.3,-24.4,43.0,True,0.183,0.432,0.361,mixed,2
+Norfolk Island,168.0,-29.0,41.0,True,0.177,0.517,0.455,mixed,2
+Nauru,166.9,-0.5,29.0,True,0.201,0.214,0.165,mixed,2
+United States Minor Outlying Islands,-162.1,5.9,28.0,True,0.173,0.502,0.408,mixed,2
+Saint Barthelemy,-62.8,17.9,24.0,True,0.199,0.539,0.447,mixed,2
+Sint Maarten,-63.1,18.0,23.0,True,0.199,0.539,0.447,mixed,2
+Monaco,7.4,43.7,19.0,True,0.184,0.411,0.37,mixed,2
+Ashmore and Cartier Islands,123.6,-12.4,3.0,True,0.204,0.283,0.232,mixed,2
+Coral Sea Islands,154.4,-21.0,0.0,True,0.19,0.533,0.462,mixed,2
+Bajo Nuevo Bank (Petrel Is.),-80.0,15.8,0.0,True,0.188,0.59,0.499,mixed,2
+Serranilla Bank,-78.6,15.9,0.0,True,0.192,0.703,0.616,mixed,2
+Northern Cyprus,33.8,35.3,3319.0,True,0.193,0.263,0.218,import-reliant,3
+Samoa,-172.4,-13.6,2780.0,True,0.174,0.319,0.266,import-reliant,3
+Comoros,44.4,-12.2,1672.0,True,0.197,0.197,0.162,import-reliant,3
+São Tomé and Principe,6.6,0.2,1037.0,True,0.166,0.156,0.119,import-reliant,3
+Hong Kong S.A.R.,114.1,22.4,1036.0,True,0.157,0.376,0.308,import-reliant,3
+Singapore,103.8,1.4,511.0,True,0.17,0.215,0.171,import-reliant,3
+Palau,134.6,7.5,492.0,True,0.174,0.28,0.23,import-reliant,3
+Cyprus No Mans Area,34.0,35.1,341.0,True,0.193,0.263,0.218,import-reliant,3
+Malta,14.4,35.9,326.0,True,0.192,0.388,0.338,import-reliant,3
+Cayman Islands,-81.2,19.3,309.0,True,0.191,0.386,0.329,import-reliant,3
+Dhekelia Sovereign Base Area,33.8,35.0,127.0,True,0.193,0.263,0.218,import-reliant,3
+Maldives,73.5,4.2,109.0,True,0.186,0.239,0.191,import-reliant,3
+Akrotiri Sovereign Base Area,32.9,34.6,99.0,True,0.196,0.118,0.106,import-reliant,3
+US Naval Base Guantanamo Bay,-75.2,19.9,65.0,True,0.192,0.189,0.162,import-reliant,3
+British Indian Ocean Territory,71.3,-6.2,49.0,True,0.18,0.252,0.203,import-reliant,3
+Macao S.A.R,113.6,22.1,30.0,True,0.137,0.132,0.113,import-reliant,3
+Tuvalu,178.7,-7.5,23.0,True,0.179,0.251,0.201,import-reliant,3
+Spratly Islands,115.8,10.7,12.0,True,0.178,0.342,0.284,import-reliant,3
+Clipperton Island,-109.2,10.3,5.0,True,0.166,0.337,0.272,import-reliant,3
+Gibraltar,-5.3,36.1,4.0,True,0.196,0.022,0.02,import-reliant,3
+Scarborough Reef,117.8,15.2,0.0,True,0.179,0.317,0.274,import-reliant,3
+Slovakia,19.6,48.7,48458.0,False,0.138,0.185,0.16,inland / landlocked,4
+Moldova,28.8,47.0,33207.0,False,0.142,0.238,0.209,inland / landlocked,4
+Lesotho,28.2,-29.6,30106.0,False,0.21,0.127,0.109,inland / landlocked,4
+Burundi,29.9,-3.4,27041.0,False,0.174,0.015,0.014,inland / landlocked,4
+North Macedonia,21.7,41.6,25385.0,False,0.167,0.065,0.058,inland / landlocked,4
+eSwatini,31.4,-26.5,17112.0,False,0.169,0.373,0.337,inland / landlocked,4
+Kosovo,20.9,42.6,10913.0,False,0.171,0.024,0.023,inland / landlocked,4
+Baykonur Cosmodrome,63.4,46.0,6501.0,False,0.177,0.444,0.382,inland / landlocked,4
+Luxembourg,6.1,49.8,2608.0,False,0.129,0.418,0.378,inland / landlocked,4
+Siachen Glacier,77.3,35.4,2088.0,False,0.262,0.001,0.001,inland / landlocked,4
+Bir Tawil,33.7,21.9,2019.0,False,0.219,0.304,0.242,inland / landlocked,4
+Southern Patagonian Ice Field,-73.3,-49.5,1409.0,False,0.168,0.136,0.115,inland / landlocked,4
+Andorra,1.6,42.5,452.0,False,0.162,0.02,0.018,inland / landlocked,4
+Liechtenstein,9.5,47.2,137.0,False,0.145,0.049,0.045,inland / landlocked,4
+San Marino,12.4,43.9,60.0,False,0.166,0.214,0.183,inland / landlocked,4
+Brazilian Island,-57.6,-30.2,3.0,False,0.187,0.325,0.278,inland / landlocked,4
+Vatican,12.5,41.9,0.0,False,0.169,0.082,0.074,inland / landlocked,4

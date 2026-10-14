@@ -59,7 +59,7 @@ CF_SYN = 0.90
 # ammonia's syn_capex (the paper's tab:synparams says "Haber-Bosch loop;
 # air-separation unit") and its electricity is inside ammonia's mu_el. A
 # merchant N2 price on top of that charged nitrogen three times — the
-# 2026-08-12 coauthor audit caught it. Keep mu_n2 as the (real) mass flow;
+# 2026-08-12 audit caught it. Keep mu_n2 as the (real) mass flow;
 # price it at zero.
 C_N2_DEFAULT = 0.0       # $/t N2 (own ASU; was 30 $/t merchant = double count)
 C_CO2_DAC = 500.0        # $/t DAC at TODAY's cost (2025: $400-600, Climeworks/

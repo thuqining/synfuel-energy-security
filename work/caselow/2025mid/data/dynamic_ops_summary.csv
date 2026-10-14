@@ -1,0 +1,6 @@
+variant,label,cells,lcoh_change_median_pct,cost_change_median_pct,cost_change_p10_pct,cost_change_p90_pct,cost_change_demand_weighted_pct,storage_h_median,storage_h_base_median,synthesis_capacity_median,cells_changing_cost_class,build_first_cells,build_first_demand_share,build_first_cells_fig2,build_first_demand_share_fig2,build_first_overlap,own_tercile_build_first_cells,own_tercile_build_first_demand_share,own_tercile_overlap,rank_correlation
+pl_up,part-load efficiency rises (0.70 below 30% load),1587,-1.382,-1.1493,-1.6658,-0.4893,-0.8416,138.6755,143.938,1.0,45,373,0.4801,360,0.4567,360,364,0.4731,357,0.9997
+pl_down,part-load efficiency falls (2% standby draw),1587,0.6139,0.5219,-0.136,1.424,0.3958,146.0424,143.938,1.0,29,355,0.4528,360,0.4567,355,357,0.4538,356,0.9998
+flex_mod,"flexible synthesis, 60% minimum load, 5%/h ramp",1587,-14.9652,-11.0285,-17.9322,-6.6539,-7.899,43.4149,143.938,1.15,466,467,0.5994,360,0.4567,360,368,0.4862,321,0.9726
+flex_high,"flexible synthesis, 20% minimum load, 20%/h ramp",1587,-17.9487,-12.1211,-22.2942,-6.963,-8.7601,9.8006,143.938,1.2766,529,490,0.6223,360,0.4567,360,375,0.483,317,0.9585
+flex_full,fully flexible synthesis (bound),1587,-18.0472,-12.0995,-22.2915,-6.9452,-8.7645,7.2529,143.938,1.2776,530,490,0.6223,360,0.4567,360,375,0.483,317,0.9577

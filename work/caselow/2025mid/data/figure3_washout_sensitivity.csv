@@ -1,0 +1,181 @@
+version,country,washout_months,normal_median_2025usd_mmbtu,disruption_median_2025usd_mmbtu,disruption_uplift_2025usd_pct,n_regimes,regimes
+ft,China,3,21.774463163343533,27.82803402918195,27.801240473424716,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,China,6,22.236334368286077,29.634114924740228,33.26888521250615,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,China,12,22.866113302861272,28.432237138768187,24.342238500193282,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,United States of America,3,22.026817591033275,27.080131422697637,22.941642889536062,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,United States of America,6,22.249715602823738,28.69136181792218,28.95158900044963,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,United States of America,12,22.6870628857292,26.91954965365078,18.655948499106657,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,India,3,20.586822086493864,26.16860379619524,27.113372264305635,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,India,6,20.908646743787646,26.994531739341376,29.10702481193317,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,India,12,21.707743163221135,26.076732671125225,20.126410539564322,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Japan,3,21.718793695553227,26.3164454661752,21.169001534202646,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Japan,6,21.955939142934092,27.167575543390598,23.736795618390683,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Japan,12,22.685946288813344,27.022016157551967,19.11346264130398,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Germany,3,22.262014260860298,28.2177786859923,26.753034812321808,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Germany,6,22.616559216902413,28.944130028248047,27.977601502781834,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Germany,12,23.015037088047,28.876506035547525,25.467996966838324,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,South Korea,3,20.881970197194228,26.465949892701882,26.740674576089283,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,South Korea,6,21.47845674661986,28.409734558893618,32.270837211637925,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,South Korea,12,21.956029000839333,26.523607440553118,20.80329935590437,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Brazil,3,22.472294251677496,27.759229938413725,23.526461639943918,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Brazil,6,22.581023222142502,28.833461775429594,27.68890714906167,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Brazil,12,23.28641650238429,28.031777923181647,20.37823819011173,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Indonesia,3,21.061437188390457,26.694211832919024,26.744493237306145,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Indonesia,6,21.39007138981152,27.399230319767003,28.093215868450816,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Indonesia,12,21.853096031700645,26.093729032343273,19.405181739425203,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Italy,3,22.16332528676186,28.483238738424145,28.515186100874335,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Italy,6,22.403027640989958,29.60679646552099,32.15533605534002,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Italy,12,23.388271265364565,28.75945530790697,22.965288804805905,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Spain,3,22.368978943178966,27.573675381327707,23.267474350839002,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Spain,6,22.971385428841575,30.76927737450369,33.94611078124841,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Spain,12,23.394341598949936,29.24445427829566,25.00652841458171,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Israel,3,22.040194159009246,27.359286524324222,24.13360030742162,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Israel,6,22.40520033745136,28.257401281588418,26.119833145855974,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Israel,12,23.260259598987343,28.810402753458423,23.861054219329137,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Netherlands,3,21.444350953076498,26.07916049717472,21.61319572804925,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Netherlands,6,22.232508397884793,27.052400050187213,21.67947748424548,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Netherlands,12,22.68147395079572,27.93957709718788,23.182369707536978,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Poland,3,22.073296051038675,28.013004407330858,26.90902320413848,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Poland,6,22.509059968333105,29.580268981893777,31.41494590848668,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Poland,12,23.18073872218919,28.93433775958816,24.82060259749823,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,United Kingdom,3,22.331639927486957,29.07552311760183,30.198781692759358,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,United Kingdom,6,22.428788773700326,29.694839113242907,32.39608885194303,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,United Kingdom,12,23.30920747091837,29.913758440897762,28.334515355013814,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Vietnam,3,21.566595609002995,27.62643630072262,28.098271983130886,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Vietnam,6,21.785192275831943,28.44848280268708,30.58632874334215,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Vietnam,12,22.483048724880458,27.292288051996692,21.390512407661944,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Egypt,3,22.933850054439418,28.445434724016273,24.032531199487583,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Egypt,6,22.937785277540907,28.477958461533976,24.153043185985457,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Egypt,12,22.973023997069703,27.751469929966838,20.800247862478383,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Pakistan,3,19.867468564596642,25.487082336962864,28.285504789373306,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Pakistan,6,20.198478768352697,26.164899996178285,29.538963286551436,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Pakistan,12,21.089673999256934,25.68095973988384,21.77030209565436,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Kenya,3,21.79965844012183,28.126506405682456,29.022693098329434,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Kenya,6,22.409911882373738,29.88025642121355,33.335001842267516,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Kenya,12,23.230685903225552,29.274165380005567,26.015071194866813,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Philippines,3,20.73079425777116,27.33633444812955,31.86342070749284,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Philippines,6,21.33025725201782,28.39187756752405,33.106118843635656,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Philippines,12,21.882484765551162,28.202725535841697,28.88264672867622,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Sri Lanka,3,21.362781154616513,27.292070317543946,27.755230557357024,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Sri Lanka,6,21.764701834397858,28.578471220635283,31.306513813429106,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Sri Lanka,12,22.33105397958348,28.535552704678654,27.784173244880115,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Dominican Republic,3,23.513113153956198,30.14417968112404,28.201567711386332,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Dominican Republic,6,23.733358083235824,30.88721209040904,30.14261185494176,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Dominican Republic,12,24.186726157692664,29.225866551412125,20.834321937021414,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Madagascar,3,22.103391759485547,28.27482888681103,27.920769782660358,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Madagascar,6,22.39934914146204,29.50640954799174,31.72887016334891,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Madagascar,12,22.97521142227706,26.981323633940725,17.43667180263373,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Ireland,3,22.320467394263694,27.82497431421269,24.6612529330978,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Ireland,6,22.67261749283837,28.723572025220005,26.688380970097334,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Ireland,12,22.960635335950613,28.680440342518953,24.91135337885253,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Chile,3,22.888167378162446,28.97218640124509,26.581503545309594,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Chile,6,23.113055634791888,29.97106141954782,29.671566984127494,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Chile,12,24.043273788744827,30.028777316316898,24.89471101216678,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Morocco,3,21.554413868774947,27.333017866026694,26.80937664291112,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Morocco,6,22.007290539279573,28.591890032083278,29.920082533791348,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Morocco,12,22.784544390215956,27.590288817402676,21.092124314104698,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Australia,3,21.58824413528468,27.247561772603344,26.214812107247077,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Australia,6,21.969395845311716,28.19648121200629,28.344363270342,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Australia,12,22.667011589631183,27.5924056605571,21.72934906504831,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Saudi Arabia,3,20.488700960593015,25.40085169685911,23.97492523178453,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Saudi Arabia,6,20.73599276278068,26.19518271065559,26.327121205760108,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Saudi Arabia,12,21.290066813493276,24.924589840159005,17.071449603728972,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,South Africa,3,21.930137418832516,27.46142820449426,25.22232615337716,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,South Africa,6,22.655150461573466,28.92778687040998,27.68746303175451,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,South Africa,12,23.99106776487666,30.16860106101557,25.749305352648456,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Norway,3,22.414025720536163,27.04471120441706,20.659766976345395,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Norway,6,22.591344496304643,28.118310050956946,24.464969561932783,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Norway,12,23.031660778708517,28.106435095894085,22.033905266080133,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ft,Oman,3,20.49115559464614,25.416658160719155,24.037212266154164,7,Arab Spring / Libya | EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine | Red Sea / Houthi | 2026 Hormuz disruption
+ft,Oman,6,20.74652043471032,26.221366339190872,26.389224745951935,5,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions | Abqaiq attack | Russia–Ukraine + Red Sea / Houthi | 2026 Hormuz disruption
+ft,Oman,12,21.370860016607814,25.07086774430146,17.31333097881076,3,Arab Spring / Libya + EU Iran oil embargo | US Iran sanctions + Abqaiq attack | Russia–Ukraine + Red Sea / Houthi
+ammonia,China,3,33.674366071905,44.87165789382701,33.25167814002021,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,China,6,33.86338000183165,46.266598082010525,36.62723000334871,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,China,12,34.34104826591097,46.91922299982717,36.627230003348686,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,United States of America,3,37.96878939199671,71.85062722500003,89.23602352237528,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,United States of America,6,38.46428411050172,69.64816301718669,81.07229765956046,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,United States of America,12,39.820759556109806,72.10436427373703,81.0722976595605,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,India,3,33.01107234587257,44.414071776721826,34.54295368346312,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,India,6,33.43683047847386,46.18332660273776,38.12112554289471,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,India,12,34.24194766179599,47.29536351828154,38.12112554289471,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Japan,3,36.6777839782001,53.71949562240471,46.463307746001135,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Japan,6,36.86305896234784,54.2817774911471,47.25250432035728,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Japan,12,38.06695557370553,56.05454540079922,47.25250432035728,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Germany,3,31.679060018563423,55.52172222671776,75.26316183050545,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Germany,6,32.464073894711696,56.473143619667056,73.95581282503909,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Germany,12,32.76126006569641,56.99011623900713,73.95581282503909,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,South Korea,3,31.342291335028325,38.64719753435751,23.30686713758281,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,South Korea,6,32.03901381380835,39.73158799760269,24.010021745672283,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,South Korea,12,32.041763365517546,39.73499771727517,24.010021745672283,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Brazil,3,34.267662351662686,66.74034505277817,94.76188474099368,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Brazil,6,34.4206584541841,68.40947070676168,98.74538657596766,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Brazil,12,34.97594026393587,69.51306768613885,98.74538657596766,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Indonesia,3,20.650038398915516,21.025667228522124,1.8190224267395694,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Indonesia,6,20.872051224195634,19.41500408776178,-6.9808526281537215,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Indonesia,12,21.666724946468157,20.154202808607796,-6.980852628153733,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Italy,3,37.25317131647674,65.43469073963045,75.64864527570914,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Italy,6,37.563248883846455,65.21929880032147,73.6252873173814,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Italy,12,38.19497659315611,66.31613785067388,73.6252873173814,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Spain,3,30.500383193169988,53.8520576535188,76.56190518149948,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Spain,6,32.07731539365307,56.28898941290999,75.47911576181193,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Spain,12,32.079447967130534,56.29273163399122,75.47911576181193,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Israel,3,27.700030344813392,39.06003665395611,41.01080817505238,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Israel,6,27.760622101427955,41.28875909959988,48.73138991174142,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Israel,12,27.760622101427955,41.28875909959988,48.73138991174142,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Netherlands,3,31.342948518876568,44.196945012358455,41.01080817505236,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Netherlands,6,31.411508888110745,46.71877376153731,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Netherlands,12,31.411508888110745,46.71877376153731,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Poland,3,31.342948518876568,44.196945012358455,41.01080817505236,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Poland,6,31.411508888110745,46.71877376153731,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Poland,12,31.411508888110745,46.71877376153731,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,United Kingdom,3,31.342948518876568,44.196945012358455,41.01080817505236,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,United Kingdom,6,31.411508888110745,46.71877376153731,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,United Kingdom,12,31.411508888110745,46.71877376153731,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Vietnam,3,31.217800304231346,44.02047250347057,41.01080817505236,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Vietnam,6,31.286086921051965,46.53223192667614,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Vietnam,12,31.286086921051965,46.53223192667614,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Egypt,3,18.9434537965056,19.074250057172463,0.6904562498048161,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Egypt,6,19.12540469602762,17.40480979868803,-8.996384257933954,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Egypt,12,19.525882133080174,17.76925874663701,-8.996384257933965,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Pakistan,3,31.217800304231346,44.02047250347057,41.01080817505236,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Pakistan,6,31.286086921051965,46.53223192667614,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Pakistan,12,31.286086921051965,46.53223192667614,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Kenya,3,27.700030344813392,39.06003665395611,41.01080817505238,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Kenya,6,27.760622101427955,41.28875909959988,48.73138991174142,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Kenya,12,27.760622101427955,41.28875909959988,48.73138991174142,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Philippines,3,32.13985606612975,43.31395413237548,34.76710674514012,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Philippines,6,32.61958655623772,47.63217329823852,46.02322814888653,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Philippines,12,33.48198843632264,48.89148036315522,46.02322814888653,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Sri Lanka,3,31.217800304231346,44.02047250347057,41.01080817505236,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Sri Lanka,6,31.286086921051965,46.53223192667614,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Sri Lanka,12,31.286086921051965,46.53223192667614,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Dominican Republic,3,31.440225270054405,44.33411574536076,41.01080817505238,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Dominican Republic,6,31.508998424948317,46.86377130469436,48.73138991174146,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Dominican Republic,12,31.508998424948317,46.86377130469436,48.73138991174146,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Madagascar,3,27.700030344813392,39.06003665395611,41.01080817505238,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Madagascar,6,27.760622101427955,41.28875909959988,48.73138991174142,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Madagascar,12,27.760622101427955,41.28875909959988,48.73138991174142,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Ireland,3,31.342948518876568,44.196945012358455,41.01080817505236,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Ireland,6,31.411508888110745,46.71877376153731,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Ireland,12,31.411508888110745,46.71877376153731,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Chile,3,34.52562032130929,62.9084276985389,82.20795778059254,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Chile,6,35.2261983614994,63.58278068773337,80.49855972317013,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Chile,12,35.78033022544874,64.5829807211291,80.49855972317017,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Morocco,3,27.55378537878746,48.06314151977346,74.43389668257821,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Morocco,6,27.73227279609031,47.216541873034316,70.25846464228816,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Morocco,12,28.09341419719084,47.83141567773573,70.25846464228817,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Australia,3,31.217800304231346,44.02047250347057,41.01080817505236,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Australia,6,31.286086921051965,46.53223192667614,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Australia,12,31.286086921051965,46.53223192667614,48.73138991174144,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Saudi Arabia,3,16.036425156706425,14.550064714054484,-9.26865201020407,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Saudi Arabia,6,16.095171702211935,13.69760819587446,-14.896166072015127,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Saudi Arabia,12,16.171962607933878,13.76296020075186,-14.896166072015127,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,South Africa,3,29.408271081793224,43.67056454001199,48.49755845405208,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,South Africa,6,29.58692251844495,46.84265731432441,58.32216846859273,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,South Africa,12,29.59705659335205,46.85870180147156,58.32216846859271,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Norway,3,30.987606501162066,57.41867134813684,85.295599858555,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Norway,6,31.420570635947104,57.40579917768086,82.70132596511479,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Norway,12,31.460523755245223,57.47879405640295,82.70132596511482,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Oman,3,18.172753345202217,18.13306378637512,-0.218401461094897,3,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine | Red Sea / Houthi
+ammonia,Oman,6,18.297490080437395,16.368799892275888,-10.540736350629576,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption
+ammonia,Oman,12,18.48166958879525,16.53356552424585,-10.540736350629597,2,Qatar blockade | 2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption

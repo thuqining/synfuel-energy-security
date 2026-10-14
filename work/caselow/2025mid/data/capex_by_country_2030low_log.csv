@@ -1,0 +1,200 @@
+country,region,bloc,pv_central,pv_2025low,pv_2030low,wind_central,wind_2025low,wind_2030low,pv_national,wind_national,ely_central,ely_2030low,iea_ratio
+Afghanistan,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Aland,Europe,cn_import,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,1950.0,1125.0,Europe
+Albania,Europe,cn_import,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,1950.0,1125.0,Europe
+Algeria,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+American Samoa,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Angola,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Argentina,Other South America,cn_import,850.0,478.0,384.0,1400.0,1167.0,1125.0,False,False,1950.0,1125.0,median
+Armenia,Eurasia,cn_import,800.0,612.0,492.0,1500.0,907.0,875.0,False,False,1950.0,1125.0,median
+Ashmore and Cartier Islands,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Australia,Oceania,cn_import,900.0,607.0,487.0,1700.0,1700.0,1639.0,True,True,2200.0,1125.0,median
+Austria,Europe,west,850.0,535.0,434.0,1700.0,1145.0,1099.0,False,True,2200.0,1440.0,Europe
+Azerbaijan,Eurasia,cn_import,800.0,612.0,492.0,1500.0,907.0,875.0,False,False,1950.0,1125.0,median
+Bajo Nuevo Bank (Petrel Is.),Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Bangladesh,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Barbados,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Belarus,Eurasia,cn_import,850.0,651.0,523.0,1700.0,1028.0,991.0,False,False,1950.0,1125.0,median
+Belgium,Europe,west,850.0,535.0,434.0,1700.0,1526.0,1464.0,False,True,2200.0,1440.0,Europe
+Belize,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Benin,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Bermuda,Other North America,cn_import,1050.0,831.0,674.0,1450.0,1300.0,1264.0,False,False,1950.0,1125.0,North America
+Bhutan,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Bolivia,Other South America,cn_import,800.0,450.0,362.0,1300.0,1083.0,1044.0,False,False,1950.0,1125.0,median
+Bosnia and Herzegovina,Europe,cn_import,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,1950.0,1125.0,Europe
+Botswana,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Brazil,Brazil,cn_import,800.0,503.0,404.0,1200.0,1016.0,979.0,True,True,1950.0,1125.0,median
+British Indian Ocean Territory,,,,,,,,,,,,,
+Bulgaria,Europe,west,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,1950.0,1440.0,Europe
+Burkina Faso,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Cabo Verde,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Cambodia,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Cameroon,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Canada,Other North America,cn_import,1100.0,871.0,706.0,1600.0,1534.0,1491.0,False,True,2200.0,1125.0,North America
+Cayman Islands,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Central African Republic,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Chad,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Chile,Other South America,cn_import,700.0,394.0,316.0,1400.0,993.0,958.0,False,True,1950.0,1125.0,median
+China,China,cn,715.0,374.0,293.0,950.0,553.0,535.0,True,True,820.0,450.0,China
+Clipperton Island,,,,,,,,,,,,,
+Colombia,Other South America,cn_import,800.0,450.0,362.0,1300.0,1083.0,1044.0,False,False,1950.0,1125.0,median
+Comoros,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Cook Islands,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Coral Sea Islands,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Costa Rica,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Croatia,Europe,west,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,1950.0,1440.0,Europe
+Cuba,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Cyprus,Other Asia,west,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1440.0,median
+Czechia,Europe,west,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,2200.0,1440.0,Europe
+Democratic Republic of the Congo,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Denmark,Europe,west,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,2200.0,1440.0,Europe
+Dominican Republic,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+East Timor,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Ecuador,Other South America,cn_import,800.0,450.0,362.0,1300.0,1083.0,1044.0,False,False,1950.0,1125.0,median
+Egypt,Africa,cn_import,650.0,461.0,370.0,1250.0,1250.0,1205.0,False,True,1950.0,1125.0,median
+El Salvador,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Equatorial Guinea,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Eritrea,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Ethiopia,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Falkland Islands,Other South America,cn_import,800.0,450.0,362.0,1300.0,1083.0,1044.0,False,False,1950.0,1125.0,median
+Faroe Islands,Europe,cn_import,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,1950.0,1125.0,Europe
+Federated States of Micronesia,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Fiji,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Finland,Europe,west,850.0,535.0,434.0,1700.0,1067.0,1023.0,False,True,2200.0,1440.0,Europe
+France,Europe,west,850.0,541.0,439.0,1600.0,1393.0,1336.0,True,True,2200.0,1440.0,Europe
+French Polynesia,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+French Southern and Antarctic Lands,,,,,,,,,,,,,
+Gabon,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Georgia,Eurasia,cn_import,800.0,612.0,492.0,1500.0,907.0,875.0,False,False,1950.0,1125.0,median
+Germany,Europe,west,800.0,535.0,434.0,1900.0,1319.0,1265.0,True,True,2200.0,1440.0,Europe
+Ghana,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Greece,Europe,west,850.0,535.0,434.0,1700.0,1201.0,1152.0,False,True,2200.0,1440.0,Europe
+Greenland,Other North America,cn_import,1050.0,831.0,674.0,1450.0,1300.0,1264.0,False,False,1950.0,1125.0,North America
+Grenada,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Guam,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Guatemala,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Guinea,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Guinea-Bissau,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Guyana,Other South America,cn_import,800.0,450.0,362.0,1300.0,1083.0,1044.0,False,False,1950.0,1125.0,median
+Haiti,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Heard Island and McDonald Islands,,,,,,,,,,,,,
+Honduras,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Hungary,Europe,west,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,1950.0,1440.0,Europe
+Iceland,Europe,west,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,1950.0,1440.0,Europe
+India,India,cn_import,570.0,397.0,310.0,1000.0,782.0,720.0,True,True,1950.0,1125.0,India
+Indian Ocean Territories,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Indonesia,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Iran,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Iraq,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Ireland,Europe,west,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,2200.0,1440.0,Europe
+Israel,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,2200.0,1125.0,median
+Italy,Europe,west,750.0,640.0,519.0,1800.0,1069.0,1026.0,True,True,2200.0,1440.0,Europe
+Ivory Coast,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Jamaica,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Japan,Other Asia,cn_import,1600.0,885.0,731.0,2600.0,1464.0,1405.0,False,True,2200.0,1125.0,Japan
+Jordan,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Kazakhstan,Eurasia,cn_import,800.0,612.0,492.0,1300.0,818.0,789.0,False,True,1950.0,1125.0,median
+Kenya,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Kiribati,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Kyrgyzstan,Eurasia,cn_import,800.0,612.0,492.0,1500.0,907.0,875.0,False,False,1950.0,1125.0,median
+Laos,Other Asia,cn_import,800.0,443.0,355.0,1500.0,822.0,792.0,False,True,1950.0,1125.0,median
+Latvia,Europe,west,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,1950.0,1440.0,Europe
+Liberia,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Libya,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Lithuania,Europe,west,850.0,535.0,434.0,1700.0,1370.0,1314.0,False,True,1950.0,1440.0,Europe
+Madagascar,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Malawi,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Malaysia,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Maldives,Other Asia,cn_import,900.0,498.0,400.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Mali,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Malta,Europe,west,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,1950.0,1440.0,Europe
+Marshall Islands,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Mauritania,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Mauritius,Africa,cn_import,900.0,638.0,512.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Mexico,Central America and the Caribbean,cn_import,800.0,558.0,448.0,1300.0,1166.0,1124.0,False,False,1950.0,1125.0,median
+Mongolia,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Morocco,Africa,cn_import,700.0,496.0,398.0,1300.0,1167.0,1124.0,False,False,1950.0,1125.0,median
+Mozambique,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Myanmar,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Namibia,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Nauru,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Nepal,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Netherlands,Europe,west,800.0,504.0,408.0,1700.0,1226.0,1176.0,False,False,2200.0,1440.0,Europe
+New Caledonia,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+New Zealand,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,2200.0,1125.0,median
+Nicaragua,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Niger,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Nigeria,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Niue,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Norfolk Island,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+North Korea,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Northern Mariana Islands,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Norway,Europe,west,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,2200.0,1440.0,Europe
+Oman,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Pakistan,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Palau,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Panama,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Papua New Guinea,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Paraguay,Other South America,cn_import,800.0,450.0,362.0,1300.0,1083.0,1044.0,False,False,1950.0,1125.0,median
+Peru,Other South America,cn_import,800.0,450.0,362.0,1300.0,1018.0,981.0,False,True,1950.0,1125.0,median
+Philippines,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Pitcairn Islands,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Poland,Europe,west,800.0,721.0,585.0,1500.0,1337.0,1283.0,True,True,2200.0,1440.0,Europe
+Portugal,Europe,west,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,2200.0,1440.0,Europe
+Puerto Rico,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Republic of Serbia,Europe,cn_import,850.0,535.0,434.0,1700.0,1142.0,1095.0,False,True,1950.0,1125.0,Europe
+Republic of the Congo,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Romania,Europe,west,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,1950.0,1440.0,Europe
+Russia,Eurasia,cn_import,850.0,651.0,523.0,1700.0,1100.0,1060.0,False,True,1950.0,1125.0,median
+Rwanda,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Saint Helena,,,,,,,,,,,,,
+Samoa,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Saudi Arabia,Other Asia,cn_import,600.0,401.0,322.0,1300.0,641.0,617.0,True,False,1950.0,1125.0,median
+Scarborough Reef,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Senegal,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Serranilla Bank,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Seychelles,Africa,cn_import,900.0,638.0,512.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Sierra Leone,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Solomon Islands,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Somalia,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Somaliland,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+South Africa,Africa,cn_import,750.0,531.0,427.0,1400.0,1400.0,1349.0,False,True,1950.0,1125.0,median
+South Georgia and the Islands,,,,,,,,,,,,,
+South Korea,Other Asia,cn_import,1200.0,620.0,493.0,2200.0,1120.0,1090.0,True,True,2200.0,1125.0,Korea
+South Sudan,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Spain,Europe,west,640.0,434.0,352.0,1300.0,1026.0,984.0,True,True,2200.0,1440.0,Europe
+Spratly Islands,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Sri Lanka,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Sudan,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Suriname,Other South America,cn_import,800.0,450.0,362.0,1300.0,1083.0,1044.0,False,False,1950.0,1125.0,median
+Sweden,Europe,west,850.0,535.0,434.0,1500.0,1183.0,1135.0,False,True,2200.0,1440.0,Europe
+Switzerland,Europe,cn_import,850.0,535.0,434.0,1700.0,1226.0,1176.0,False,False,2200.0,1125.0,Europe
+Syria,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+São Tomé and Principe,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Taiwan,Other Asia,west,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,2200.0,1440.0,median
+Tajikistan,Eurasia,cn_import,800.0,612.0,492.0,1500.0,907.0,875.0,False,False,1950.0,1125.0,median
+Thailand,Other Asia,cn_import,800.0,594.0,477.0,1500.0,739.0,712.0,True,False,1950.0,1125.0,median
+The Bahamas,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Togo,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Tonga,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Tunisia,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Turkey,Eurasia,cn_import,650.0,650.0,522.0,1200.0,814.0,784.0,True,True,1950.0,1125.0,median
+Turkmenistan,Eurasia,cn_import,800.0,612.0,492.0,1500.0,907.0,875.0,False,False,1950.0,1125.0,median
+Turks and Caicos Islands,Central America and the Caribbean,cn_import,1050.0,732.0,588.0,1450.0,1300.0,1253.0,False,False,1950.0,1125.0,median
+Tuvalu,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Uganda,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Ukraine,Eurasia,cn_import,850.0,651.0,523.0,1700.0,1028.0,991.0,False,False,1950.0,1125.0,median
+United Arab Emirates,Other Asia,cn_import,550.0,304.0,244.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+United Kingdom,Europe,cn_import,1000.0,629.0,510.0,1900.0,1057.0,1014.0,False,True,2200.0,1125.0,Europe
+United Republic of Tanzania,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+United States Minor Outlying Islands,Other North America,cn_import,1050.0,831.0,674.0,1450.0,1300.0,1264.0,False,False,1950.0,1125.0,North America
+United States of America,United States,west,1120.0,679.0,550.0,1430.0,1014.0,986.0,True,True,2200.0,1440.0,North America
+Uruguay,Other South America,cn_import,800.0,450.0,362.0,1300.0,1083.0,1044.0,False,False,1950.0,1125.0,median
+Uzbekistan,Eurasia,cn_import,800.0,490.0,394.0,1500.0,836.0,806.0,True,True,1950.0,1125.0,median
+Vanuatu,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Venezuela,Other South America,cn_import,800.0,450.0,362.0,1300.0,1083.0,1044.0,False,False,1950.0,1125.0,median
+Vietnam,Other Asia,cn_import,750.0,415.0,333.0,1600.0,788.0,760.0,False,False,1950.0,1125.0,median
+Wallis and Futuna,Oceania,cn_import,900.0,598.0,480.0,1700.0,1700.0,1639.0,False,False,1950.0,1125.0,median
+Yemen,Other Asia,cn_import,800.0,443.0,355.0,1500.0,739.0,712.0,False,False,1950.0,1125.0,median
+Zambia,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median
+Zimbabwe,Africa,cn_import,850.0,602.0,484.0,1500.0,1346.0,1297.0,False,False,1950.0,1125.0,median

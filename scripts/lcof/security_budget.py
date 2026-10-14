@@ -3,7 +3,7 @@ security_budget.py — how much security does 1%, 2%, 3% of GDP buy?
 
 The "cost of full independence" framing asks the wrong question: no
 government will spend 10-20% of GDP a year, so a number that large reads
-as a refutation rather than as a plan (coauthor round 5). The same object
+as a refutation rather than as a plan. The same object
 inverted is a policy instrument: fix the annual budget, and ask how much
 of the fuel bill it domesticates.
 
@@ -874,7 +874,7 @@ def _figure(d: pd.DataFrame, curves: dict, land_style: str = "hatch",
     # importers whose screened land ceiling is reached within the 3%
     # budget in the middle, and the net exporters of the bill
     # (no net imports, no tick) at the bottom
-    # 2026-09-25 (coauthor): four bands. An economy whose 3% budget
+    # 2026-09-25: four bands. An economy whose 3% budget
     # already covers its imported share is bound by neither money nor
     # land (Australia and Chile used to sit in the land band only because
     # they reach 100% of demand, which is not a land ceiling). Land binds

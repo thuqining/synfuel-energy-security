@@ -1,0 +1,21 @@
+year,event,class,channel,commodities,duration_months,censored,notes,source,accessed
+1956,Suez crisis closure,chokepoint,suez,crude;refined,6,no,canal blocked Nov 1956 - Apr 1957,IEA oil-security history https://www.iea.org/about/oil-security-and-emergency-response; CRS R45281,2026-08-29
+1967,Six-Day War Suez closure,chokepoint,suez,crude;refined,96,no,canal closed 1967-1975; rerouting via Cape,IEA oil-security history (ibid.); CRS R45281 https://www.congress.gov/crs-product/R45281,2026-08-29
+1973,OPEC embargo,export_ban,supplier,crude,5,no,Oct 1973 - Mar 1974 targeted embargo,IEA oil-security history (ibid.); EIA petroleum chronology,2026-08-29
+1979,Iranian revolution,supplier_outage,supplier,crude,12,no,Iranian exports collapse,IEA oil-security history (ibid.); EIA petroleum chronology,2026-08-29
+1980,Iran-Iraq war onset,supplier_outage,supplier,crude,24,no,combined exports fall; sustained,IEA oil-security history (ibid.); EIA petroleum chronology,2026-08-29
+1984,Tanker war attacks,chokepoint,hormuz,crude,48,no,1984-88 attacks on Gulf shipping; flow continued at risk premium,CRS R45281 https://www.congress.gov/crs-product/R45281,2026-08-29
+1990,Iraq invasion of Kuwait,supplier_outage,supplier,crude,7,no,UN embargo removes Iraqi+Kuwaiti supply; IEA collective action,IEA oil-security history (ibid.),2026-08-29
+2002,Venezuela strike,supplier_outage,supplier,crude,3,no,PDVSA strike Dec 2002 - Feb 2003; ~2.3 mb/d off world supply,US GAO-06-668 https://www.gao.gov/assets/gao-06-668.pdf,2026-08-29
+2005,Hurricane Katrina-Rita,infrastructure,domestic,refined;gas,2,no,US Gulf production and refining outage; IEA collective action,EIA hurricane impact reports 2005; IEA oil-security history (ibid.),2026-08-29
+2006,Russia-Ukraine gas cutoff,supplier_outage,pipeline,gas,1,no,January 2006 transit dispute,"Stern, The Russian-Ukrainian gas crisis of January 2006 (OIES, oxfordenergy.org)",pending
+2009,Russia-Ukraine gas cutoff,supplier_outage,pipeline,gas,1,no,January 2009 full transit halt ~2 weeks Europe-wide,"Stern, Pirani & Yafimava (OIES NG27) https://www.oxfordenergy.org/publications/the-russo-ukrainian-gas-dispute-of-january-2009-a-comprehensive-assessment/",2026-08-29
+2011,Libya civil war,supplier_outage,supplier,crude,8,no,exports fall from 1.6 mb/d to near zero; IEA Libya collective action (stock release),IEA oil-security history (ibid.),2026-08-29
+2017,Qatar blockade,export_ban,supplier,gas,42,no,Gulf states embargo; LNG rerouted (flows held - mitigation case),IEA gas market reports 2017-21; press coverage,pending
+2019,Abqaiq-Khurais attack,infrastructure,supplier,crude,1,no,5.7 mb/d (half of Saudi processing) hit; restored within weeks,EIA Today in Energy https://www.eia.gov/todayinenergy/detail.php?id=41413; CRS IN11173,2026-08-29
+2019,Hormuz tanker attacks,chokepoint,hormuz,crude;refined,3,no,May-Jul attacks + seizures; war-risk premium,CRS R45281 https://www.congress.gov/crs-product/R45281,2026-08-29
+2021,Ever Given grounding,chokepoint,suez,crude;refined;gas,0.25,no,six-day closure; queue cleared in weeks,Suez Canal Authority statements March 2021; press coverage,pending
+2022,Russia-Europe gas curtailment,supplier_outage,pipeline,gas,18,no,progressive cuts to near-zero pipeline flow,IEA gas market reports 2022-23,pending
+2022,Russian crude embargo-sanctions,export_ban,supplier,crude;refined,12,no,EU embargo + price cap reroutes flows,EU Council embargo decisions 2022; IEA OMR 2022-23,pending
+2023,Red Sea Houthi attacks,chokepoint,bab_el_mandeb,crude;refined;gas,15,no,sustained rerouting via Cape from Nov 2023,IEA Middle East maritime chokepoint monitor https://www.iea.org/data-and-statistics/data-tools/middle-east-maritime-chokepoints-shipping-monitor,2026-08-28
+2026,Hormuz closure,chokepoint,hormuz,crude;refined;gas,4,yes,closed Feb-Apr; partial May-Jun reopening; effectively re-closed from early Jul and ONGOING as of 2026-08 (3 transits on Aug 23 vs ~85/day normal) - duration right-censored at 4 months of effective closure,IEA OMR Aug 2026; IEA chokepoint monitor (ibid.); https://www.iea.org/about/oil-security-and-emergency-response/strait-of-hormuz,2026-08-29

@@ -1,0 +1,391 @@
+version,country,regime,event,start,end,n_event,n_pre,baseline_first,baseline_last,event_observed_share,pre_observed_share,event_move_nominal_pct,event_move_2025usd_pct
+ft,China,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,0.0,0.0,44.636332861393655,39.552356591537084
+ft,China,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,0.0,0.0,46.154718471417965,38.81035751529443
+ft,China,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,27.11352051113096,23.897971752997904
+ft,China,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,11.71946851499066,6.769264186046087
+ft,China,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,53.62242624949687,43.89482843813761
+ft,China,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,36.02461295718111,19.199972370698237
+ft,China,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,0.0,1.0,105.3209857418572,67.87177937049238
+ft,United States of America,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,42.80849539355782,37.87104088242393
+ft,United States of America,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,44.85867680129303,38.05397879080541
+ft,United States of America,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,18.990767885922487,16.571987594054605
+ft,United States of America,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,2.791125969694397,-1.4177068513831936
+ft,United States of America,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,60.94935471661876,47.822466553638534
+ft,United States of America,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,16.174854305964125,0.9818489283391907
+ft,United States of America,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,1.0,1.0,87.22489106685727,54.01290323107651
+ft,India,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,0.75,0.0,52.8072475404431,47.19830400288403
+ft,India,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,0.0,45.94154481974544,38.29382819045139
+ft,India,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,24.602322805181153,22.030835789915027
+ft,India,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,7.194866589455118,2.648509779057018
+ft,India,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,53.60705417058986,41.092243200202525
+ft,India,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,18.09272777127442,2.8652557419007962
+ft,India,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,0.8333333333333334,1.0,88.85601893346752,54.25432853252134
+ft,Japan,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,43.798726678841504,39.17491480532671
+ft,Japan,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,42.91256480465358,36.43796772579051
+ft,Japan,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,25.6132656761195,23.019893199577158
+ft,Japan,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,10.881093669122354,6.271585397966728
+ft,Japan,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,35.59043586022958,22.737139114660998
+ft,Japan,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,21.951366042683883,6.257502764571932
+ft,Japan,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,0.8333333333333334,1.0,105.31605476071721,67.99877938905574
+ft,Germany,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,45.5877513525516,41.2600070050269
+ft,Germany,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,47.8430654550303,41.110589937091866
+ft,Germany,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,20.350320466464055,17.804104199530713
+ft,Germany,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,9.787656392382328,5.224474658725131
+ft,Germany,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,56.58624686514504,43.80451466904658
+ft,Germany,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,32.68746729377081,15.574624105195056
+ft,Germany,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,3,12,2021-03,2022-02,1.0,1.0,98.14419005250873,61.80104280741388
+ft,South Korea,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,43.69552779191179,38.901556187368904
+ft,South Korea,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,45.307798553407295,37.948655286926595
+ft,South Korea,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,25.223134226090348,22.6389665433935
+ft,South Korea,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,8.731716051673711,4.180091923467177
+ft,South Korea,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,54.01865214962969,40.31727725973124
+ft,South Korea,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,23.295850419367703,7.394546248345324
+ft,South Korea,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,0.8333333333333334,1.0,96.45751787483564,60.45798229850918
+ft,Brazil,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,37.746944323594974,33.177997500124825
+ft,Brazil,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,43.98743765646862,36.8905424868627
+ft,Brazil,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,19.963513966581736,17.681890808260057
+ft,Brazil,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,8.436151944907454,4.295326537525135
+ft,Brazil,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,63.42881331072312,50.23314040673803
+ft,Brazil,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,21.165164614800002,5.648616737875023
+ft,Brazil,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,1.0,1.0,85.83494756988004,52.60760186897282
+ft,Indonesia,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,0.0,0.08333333333333333,44.60181484255212,39.51904908348502
+ft,Indonesia,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,0.16666666666666666,0.08333333333333333,46.62229197000307,38.93883045225519
+ft,Indonesia,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,22.450680379734123,19.96070030281065
+ft,Indonesia,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,6.916661538961666,2.595742027344272
+ft,Indonesia,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,54.13902559998105,43.81700803991049
+ft,Indonesia,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,21.00047972134187,5.251653956219804
+ft,Indonesia,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,0.8333333333333334,1.0,86.99525967192388,52.779271400413855
+ft,Italy,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,44.48287083214204,39.48175136134717
+ft,Italy,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,46.44435620412983,39.243315266425014
+ft,Italy,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,21.43837082474058,18.869108264648936
+ft,Italy,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,4.637371330575046,0.3216106339853697
+ft,Italy,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,62.57918480492661,53.56780109189388
+ft,Italy,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,35.02183692777074,18.44458144539709
+ft,Italy,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,3,12,2021-03,2022-02,1.0,1.0,117.08973769318227,78.74015353534156
+ft,Spain,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,46.117917857314474,41.15938521907603
+ft,Spain,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,55.187021934382805,47.42333447667231
+ft,Spain,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,24.57993596411181,22.62946253300342
+ft,Spain,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,10.496407486864069,6.292102084379114
+ft,Spain,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,56.37178900359776,47.5174691099038
+ft,Spain,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,19.70708136537882,5.026024049723765
+ft,Spain,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,4,12,2021-03,2022-02,1.0,1.0,95.16348629171452,61.93804396197555
+ft,Israel,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,42.99783771113938,38.54781419331588
+ft,Israel,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,44.56985706653569,37.78211302001553
+ft,Israel,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,24.828293700136662,22.17661775176709
+ft,Israel,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,9.923876886683436,5.465722782313565
+ft,Israel,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,60.34342455638375,46.648266471009194
+ft,Israel,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,24.753952840060368,8.488250451936086
+ft,Israel,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,1.0,1.0,99.6206930647165,63.08101991484203
+ft,Netherlands,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,42.9285803682671,38.808361049262444
+ft,Netherlands,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,45.59957927055074,38.387238554792866
+ft,Netherlands,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,25.64212143629625,23.022232063505864
+ft,Netherlands,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,8.872554209182603,4.379194328127012
+ft,Netherlands,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,46.21201510936537,38.05960575834748
+ft,Netherlands,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,19.034563601417776,4.530779202818835
+ft,Netherlands,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,3,12,2021-03,2022-02,1.0,1.0,64.32560548793961,36.09153109107868
+ft,Poland,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,41.21241777767235,36.5559469097563
+ft,Poland,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,45.37527435145985,38.81438324899911
+ft,Poland,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,21.70105885661584,19.099125387185545
+ft,Poland,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,8.440194303422155,3.9673702194676697
+ft,Poland,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,70.87199346426662,55.94309858803022
+ft,Poland,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,26.12232865825421,9.66979392538978
+ft,Poland,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,3,12,2021-03,2022-02,1.0,1.0,119.34642026072511,79.0182243299183
+ft,United Kingdom,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,44.23135274535852,39.2590525950193
+ft,United Kingdom,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,47.20476947489012,40.548248841785494
+ft,United Kingdom,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,26.66405337131468,24.023597412876853
+ft,United Kingdom,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,14.875642796857713,10.135539712371022
+ft,United Kingdom,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,71.75420569789767,60.430288356730124
+ft,United Kingdom,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,32.93078507612795,15.905082603576348
+ft,United Kingdom,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,5,12,2021-03,2022-02,1.0,1.0,92.35548880710762,57.786219022641625
+ft,Vietnam,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,44.22894232679886,39.38952696808269
+ft,Vietnam,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,46.204343364538936,39.51794813446177
+ft,Vietnam,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,24.361918345976097,21.832903869467547
+ft,Vietnam,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,8.390669771198688,4.011745602607819
+ft,Vietnam,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,58.8107923570647,46.42895930819508
+ft,Vietnam,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,23.53803629575355,7.64416818870246
+ft,Vietnam,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,1.0,1.0,95.035779582838,60.477244644315164
+ft,Egypt,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,23.65025678012824,21.185623402379417
+ft,Egypt,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,38.27654609431519,32.48038459431917
+ft,Egypt,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,0.8333333333333334,22.4415337158375,19.81672825841749
+ft,Egypt,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,0.8333333333333334,0.8333333333333334,0.6823455302668258,-3.57160967436021
+ft,Egypt,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,0.5555555555555556,0.6666666666666666,66.56178874398384,57.29064190534636
+ft,Egypt,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,0.7333333333333333,0.6666666666666666,36.70492870521957,19.728857837218207
+ft,Egypt,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,4,12,2021-03,2022-02,1.0,0.6666666666666666,135.5732995060765,94.0624601390829
+ft,Pakistan,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,0.875,0.8333333333333334,43.3602108629735,38.75962641278035
+ft,Pakistan,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,0.8333333333333334,48.73902036937494,42.25438965347055
+ft,Pakistan,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,0.16666666666666666,0.16666666666666666,29.321749946409525,26.691498900855983
+ft,Pakistan,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,0.0,0.16666666666666666,10.624633432986098,5.937042928760783
+ft,Pakistan,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,0.1111111111111111,0.08333333333333333,53.2493333676116,39.01590486683448
+ft,Pakistan,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,0.06666666666666667,0.08333333333333333,20.04862524622004,3.4176871768605066
+ft,Pakistan,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,0.16666666666666666,0.08333333333333333,93.33567895916116,57.912989254514756
+ft,Kenya,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,0.0,0.0,44.65485000536127,39.57022436221942
+ft,Kenya,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,0.0,0.0,46.0654630640357,38.74143837031041
+ft,Kenya,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,0.9166666666666666,25.631259784979797,22.935953698032385
+ft,Kenya,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,0.9166666666666666,10.325259040473988,5.816446032888756
+ft,Kenya,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,0.8333333333333334,1.0,60.40271225272789,46.47712425465418
+ft,Kenya,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,0.8666666666666667,1.0,38.53009017337499,20.958148118736307
+ft,Kenya,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,1.0,1.0,98.78562531250319,63.300482997847695
+ft,Philippines,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,0.0,0.08333333333333333,44.63752767825557,39.5535095075775
+ft,Philippines,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,0.16666666666666666,0.08333333333333333,46.148959275186364,39.253729507360255
+ft,Philippines,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,0.9166666666666666,34.93540210053916,32.07309416866813
+ft,Philippines,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,0.9166666666666666,7.317157586164891,2.8118413485721083
+ft,Philippines,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,59.273422883071426,45.76740026437982
+ft,Philippines,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,0.9333333333333333,1.0,25.562443615929254,9.244799474676224
+ft,Philippines,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,0.8333333333333334,1.0,102.38106649864562,65.29933847882174
+ft,Sri Lanka,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,0.0,0.0,44.64580845202184,39.56149988463626
+ft,Sri Lanka,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,0.0,0.0,46.10904470535624,38.77509022012162
+ft,Sri Lanka,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,26.10462302646177,23.436672291047778
+ft,Sri Lanka,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,0.6666666666666666,1.0,9.24012014287332,4.854733567271197
+ft,Sri Lanka,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,0.7222222222222222,0.75,58.31615194553721,43.97324757681713
+ft,Sri Lanka,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,0.9333333333333333,0.75,31.263920497559063,14.862275950406678
+ft,Sri Lanka,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,0.8333333333333334,0.75,97.93377626140692,62.356094483721726
+ft,Dominican Republic,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,41.082334439082956,36.05849953864693
+ft,Dominican Republic,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,41.069225058830305,34.47261369352417
+ft,Dominican Republic,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,0.0,0.0,18.956724243874866,16.538631392371418
+ft,Dominican Republic,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,0.0,0.0,2.767492838867147,-1.4403920491679933
+ft,Dominican Republic,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,62.493072726535345,49.393517701259256
+ft,Dominican Republic,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,23.50323622861019,7.68626360878415
+ft,Dominican Republic,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,1.0,1.0,82.98810912702007,50.68903069752706
+ft,Madagascar,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,0.0,0.0,44.61171619079949,39.528603200927215
+ft,Madagascar,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,0.0,0.0,46.27337451071401,38.901978535085455
+ft,Madagascar,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,0.9166666666666666,27.240952987264233,24.690716854152917
+ft,Madagascar,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,0.9166666666666666,6.577269601804736,2.30216260547198
+ft,Madagascar,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,0.9444444444444444,1.0,53.66239947155294,41.00192549466672
+ft,Madagascar,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,19.45343663687973,3.5505195032864423
+ft,Madagascar,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,0.6666666666666666,1.0,112.29216428904101,72.5632727705563
+ft,Ireland,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,43.527608182862544,38.82553649306972
+ft,Ireland,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,49.674913614342174,42.18252238897031
+ft,Ireland,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,21.855040818697514,19.3710616101638
+ft,Ireland,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,13.319414753026804,8.352202084265725
+ft,Ireland,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,52.41797961430146,41.00949802452274
+ft,Ireland,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,24.16173585562438,8.745237529060335
+ft,Ireland,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,4,12,2021-03,2022-02,1.0,1.0,80.3708596549368,48.52097493269167
+ft,Chile,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,42.60043277740579,37.73270444575789
+ft,Chile,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,46.659067398974365,40.1046285528134
+ft,Chile,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,23.713935224708482,21.09655316444492
+ft,Chile,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,8.332782122060657,3.9396263029896295
+ft,Chile,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,63.55779515592354,49.00457205046593
+ft,Chile,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,29.317416231247172,12.485569527344232
+ft,Chile,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,1.0,1.0,88.76750005951037,54.68942451238097
+ft,Morocco,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,39.84666838706388,35.64820001607003
+ft,Morocco,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,42.192377898686594,35.6731800885284
+ft,Morocco,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,20.854354192155668,18.39626180847247
+ft,Morocco,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,7.4611485900440755,3.029061034439895
+ft,Morocco,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,73.77966835549053,62.039087486949576
+ft,Morocco,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,32.8469669787995,15.160844441457666
+ft,Morocco,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,3,12,2021-03,2022-02,0.3333333333333333,1.0,121.27417924440618,79.82551982582675
+ft,Australia,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,0.5833333333333334,43.55095128743862,38.77446066383359
+ft,Australia,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,0.5833333333333334,44.13330832758571,37.326980199548544
+ft,Australia,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,24.563039582385017,22.028944598821496
+ft,Australia,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,7.114949727161535,2.5749315184584898
+ft,Australia,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,61.03014013076129,48.48023973664457
+ft,Australia,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,21.64685428338231,5.841062712085221
+ft,Australia,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,0.6666666666666666,1.0,95.27550583576327,60.70042397412401
+ft,Saudi Arabia,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,0.0,0.0,44.6097691528504,39.52672444367893
+ft,Saudi Arabia,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,0.0,0.0,46.28275952525187,38.909225233371856
+ft,Saudi Arabia,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,0.5833333333333334,22.775306481499612,20.24180342799191
+ft,Saudi Arabia,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,0.5833333333333334,3.257453192119253,-1.147485191703479
+ft,Saudi Arabia,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,50.3267351147614,36.151998497721834
+ft,Saudi Arabia,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,16.282638650528902,1.0365317964273757
+ft,Saudi Arabia,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,1.0,1.0,88.32699395349006,53.82240045487057
+ft,South Africa,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,38.90972892270108,33.89999558669459
+ft,South Africa,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,45.3136613559258,38.02011384163506
+ft,South Africa,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,21.960384852769256,19.46347086322384
+ft,South Africa,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,12.466311493717619,7.9999812324764275
+ft,South Africa,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,55.0710137288311,45.04436094706994
+ft,South Africa,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,31.519568612398242,14.542574072217306
+ft,South Africa,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,1.0,1.0,113.32639730907572,74.7405768199302
+ft,Norway,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,1.0,1.0,39.00871270199979,34.147293482150175
+ft,Norway,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,1.0,1.0,41.983447625523354,35.58263376724751
+ft,Norway,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,1.0,16.55716311371571,13.160652819280871
+ft,Norway,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,1.0,11.353978655055808,5.797688309116267
+ft,Norway,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,53.85861689706075,41.39866554162801
+ft,Norway,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,18.776234969170446,2.243332192502212
+ft,Norway,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,5,12,2021-03,2022-02,1.0,1.0,76.38923360264643,43.5097996252235
+ft,Oman,Arab Spring / Libya + EU Iran oil embargo,Arab Spring / Libya,2011-02,2011-09,8,12,2010-02,2011-01,0.0,0.0,44.62212728889732,39.53864919254948
+ft,Oman,Arab Spring / Libya + EU Iran oil embargo,EU Iran oil embargo,2012-02,2012-07,6,12,2010-02,2011-01,0.0,0.0,46.223191458530486,38.863229372392816
+ft,Oman,US Iran sanctions,US Iran sanctions,2018-05,2018-10,6,12,2017-05,2018-04,1.0,0.5833333333333334,22.93614840340139,20.399355113024352
+ft,Oman,Abqaiq attack,Abqaiq attack,2019-09,2020-02,6,12,2017-05,2018-04,1.0,0.5833333333333334,3.4270418923861845,-0.985213175270494
+ft,Oman,Russia–Ukraine + Red Sea / Houthi,Russia–Ukraine,2022-03,2023-08,18,12,2021-03,2022-02,1.0,1.0,50.355774335831626,36.17754630695773
+ft,Oman,Russia–Ukraine + Red Sea / Houthi,Red Sea / Houthi,2023-12,2025-02,15,12,2021-03,2022-02,1.0,1.0,16.34116585798344,1.0872942059777513
+ft,Oman,2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2021-03,2022-02,1.0,1.0,88.42178242038692,53.89968334998861
+ammonia,China,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,1.0,1.0,-15.266357787355123,-16.868806644413837
+ammonia,China,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,1.0,1.0,163.70866057405226,143.00355287009526
+ammonia,China,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.9444444444444444,1.0,233.33915205621673,188.10067095725535
+ammonia,China,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,1.0,1.0,46.526074501797595,19.583104737314237
+ammonia,China,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.8333333333333334,1.0,35.53919582901235,7.33862165977186
+ammonia,China,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.3333333333333333,1.0,108.77241597188778,60.84907750448656
+ammonia,United States of America,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,1.0,1.0,-16.2409334594765,-17.428418969858473
+ammonia,United States of America,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,1.0,1.0,208.41044481450325,184.39383876185326
+ammonia,United States of America,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,1.0,1.0,314.2317948706918,259.4245970050782
+ammonia,United States of America,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,1.0,1.0,112.40879671754023,73.87390883083444
+ammonia,United States of America,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,1.0,1.0,101.87986059846521,60.352669649164326
+ammonia,United States of America,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.8333333333333334,1.0,170.45442840220431,108.5035799893737
+ammonia,India,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,1.0,1.0,-16.00348073728344,-17.054289096585585
+ammonia,India,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,1.0,0.9166666666666666,158.37461556877406,138.77986734479904
+ammonia,India,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.9444444444444444,0.9166666666666666,231.01784497523064,186.7717733010928
+ammonia,India,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,1.0,0.9166666666666666,53.242113404909695,26.416976354281463
+ammonia,India,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,1.0,0.9166666666666666,35.32899946593986,7.489801085932268
+ammonia,India,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.6666666666666666,0.9166666666666666,137.70218313223995,83.68915196265867
+ammonia,Japan,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,1.0,0.9166666666666666,-18.542285082358433,-20.230371335521713
+ammonia,Japan,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.8,1.0,153.96503673676207,134.35789170546823
+ammonia,Japan,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.9444444444444444,1.0,214.7791571657799,176.2096996245941
+ammonia,Japan,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.9333333333333333,1.0,57.62520057427582,30.679969477738034
+ammonia,Japan,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.8333333333333334,1.0,39.31762520057427,10.417172081580173
+ammonia,Japan,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,1.0,244.85165407975978,167.56940905293413
+ammonia,Germany,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,1.0,1.0,-5.567340159466594,-7.025702325218274
+ammonia,Germany,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,1.0,1.0,166.318587487652,146.40025409946782
+ammonia,Germany,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,1.0,1.0,282.91768009082926,235.6672746020826
+ammonia,Germany,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,1.0,1.0,93.41953219383834,57.60125794916209
+ammonia,Germany,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,1.0,1.0,80.78721972543572,43.621825711116436
+ammonia,Germany,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.5,1.0,137.35123867254035,83.02838432638433
+ammonia,South Korea,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,1.0,1.0,-18.890833016356012,-20.226378264525103
+ammonia,South Korea,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,1.0,1.0,166.9462850697871,146.70152371647478
+ammonia,South Korea,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,1.0,1.0,210.51212462991683,172.1854500030389
+ammonia,South Korea,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,1.0,1.0,46.369660228394174,19.793097614113652
+ammonia,South Korea,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,1.0,1.0,27.58529536162413,1.3375050551467593
+ammonia,South Korea,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,1.0,214.65968082805662,144.50488673353678
+ammonia,Brazil,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,1.0,0.75,-21.611413432622072,-22.718758422464514
+ammonia,Brazil,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,1.0,1.0,223.08741475511474,198.06897732319536
+ammonia,Brazil,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.9444444444444444,1.0,335.91651167596615,275.18298514808765
+ammonia,Brazil,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,1.0,1.0,120.67369291175858,77.3407525110272
+ammonia,Brazil,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,1.0,1.0,114.90183922297996,69.86118755325667
+ammonia,Brazil,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,1.0,1.0,207.7309361438314,136.31398238800534
+ammonia,Indonesia,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,5.417247402798986,3.579024492339933
+ammonia,Indonesia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,22.091939938991743,12.604266768077865
+ammonia,Indonesia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,27.38457734435633,12.399265490604972
+ammonia,Indonesia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,11.678086582687186,-9.202018451406047
+ammonia,Indonesia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,6.57829831355039,-15.72355483116219
+ammonia,Indonesia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,14.013703899224605,-12.572523503801092
+ammonia,Italy,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.6666666666666666,0.5,13.70447234027723,11.319386913430595
+ammonia,Italy,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,1.0,0.8333333333333334,266.63435395956685,232.4729465557913
+ammonia,Italy,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,1.0,0.8333333333333334,239.96125678149065,194.75905456278207
+ammonia,Italy,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.9333333333333333,0.8333333333333334,84.66303622713389,49.55790954448602
+ammonia,Italy,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,1.0,0.8333333333333334,110.2950784398383,66.9646463014427
+ammonia,Italy,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.5,0.8333333333333334,116.76786735065426,67.24956087958776
+ammonia,Spain,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,1.0,1.0,-12.388111085516474,-13.811645556808605
+ammonia,Spain,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,1.0,1.0,263.79072133239066,235.8178076432227
+ammonia,Spain,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.9444444444444444,1.0,291.5951117635827,238.49326081526218
+ammonia,Spain,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,1.0,1.0,101.24430813755461,64.26545717165548
+ammonia,Spain,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,1.0,1.0,110.18258950765056,66.83700012004232
+ammonia,Spain,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.6666666666666666,1.0,173.63774960598093,112.2808703777558
+ammonia,Israel,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,12.910986367281453,11.283401048112252
+ammonia,Israel,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,339.85364480720517,301.2016656737469
+ammonia,Israel,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,175.31663383056565,137.49142214628222
+ammonia,Israel,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,56.20602307908806,27.353658048628414
+ammonia,Israel,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,111.53954404728398,67.56704333907453
+ammonia,Israel,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,195.15902054601747,128.26966509191186
+ammonia,Netherlands,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,12.910986367281474,11.283401048112252
+ammonia,Netherlands,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,339.85364480720506,301.2016656737469
+ammonia,Netherlands,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,175.31663383056565,137.4914221462822
+ammonia,Netherlands,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,56.20602307908806,27.35365804862844
+ammonia,Netherlands,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,111.53954404728398,67.56704333907454
+ammonia,Netherlands,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,195.15902054601736,128.26966509191186
+ammonia,Poland,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,12.910986367281474,11.283401048112252
+ammonia,Poland,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,339.85364480720506,301.2016656737469
+ammonia,Poland,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,175.31663383056565,137.4914221462822
+ammonia,Poland,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,56.20602307908806,27.35365804862844
+ammonia,Poland,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,111.53954404728398,67.56704333907454
+ammonia,Poland,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,195.15902054601736,128.26966509191186
+ammonia,United Kingdom,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,12.910986367281474,11.283401048112252
+ammonia,United Kingdom,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,339.85364480720506,301.2016656737469
+ammonia,United Kingdom,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,175.31663383056565,137.4914221462822
+ammonia,United Kingdom,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,56.20602307908806,27.35365804862844
+ammonia,United Kingdom,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,111.53954404728398,67.56704333907454
+ammonia,United Kingdom,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,195.15902054601736,128.26966509191186
+ammonia,Vietnam,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,12.910986367281474,11.283401048112252
+ammonia,Vietnam,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,339.85364480720517,301.2016656737469
+ammonia,Vietnam,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,175.31663383056565,137.4914221462822
+ammonia,Vietnam,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,56.206023079088084,27.35365804862844
+ammonia,Vietnam,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,111.53954404728394,67.56704333907453
+ammonia,Vietnam,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,195.15902054601747,128.26966509191186
+ammonia,Egypt,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,4.203117410827084,2.35566815400563
+ammonia,Egypt,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,17.558017381469938,8.37145426185495
+ammonia,Egypt,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,21.7644483157309,7.4361480161338145
+ammonia,Egypt,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,9.281396190980695,-11.154561929626905
+ammonia,Egypt,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,5.228236019506549,-16.794948606974415
+ammonia,Egypt,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,11.137675429176852,-14.802192797674252
+ammonia,Pakistan,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,12.910986367281474,11.283401048112252
+ammonia,Pakistan,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,339.85364480720517,301.2016656737469
+ammonia,Pakistan,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,175.31663383056565,137.4914221462822
+ammonia,Pakistan,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,56.206023079088084,27.35365804862844
+ammonia,Pakistan,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,111.53954404728394,67.56704333907453
+ammonia,Pakistan,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,195.15902054601747,128.26966509191186
+ammonia,Kenya,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,12.910986367281453,11.283401048112252
+ammonia,Kenya,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,339.85364480720517,301.2016656737469
+ammonia,Kenya,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,175.31663383056565,137.49142214628222
+ammonia,Kenya,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,56.20602307908806,27.353658048628414
+ammonia,Kenya,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,111.53954404728398,67.56704333907453
+ammonia,Kenya,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,195.15902054601747,128.26966509191186
+ammonia,Philippines,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,1.0,0.25,28.647354700839678,26.667687396419737
+ammonia,Philippines,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.2,0.8333333333333334,348.1131238521763,308.6378214288052
+ammonia,Philippines,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.2222222222222222,0.8333333333333334,165.13115223916623,129.2560772302891
+ammonia,Philippines,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.3333333333333333,0.8333333333333334,55.06755655186646,26.9633350233077
+ammonia,Philippines,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.3333333333333333,0.8333333333333334,93.17494979473457,52.723643690231704
+ammonia,Philippines,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.3333333333333333,0.8333333333333334,89.24664815871282,45.076053121510796
+ammonia,Sri Lanka,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,12.910986367281474,11.283401048112252
+ammonia,Sri Lanka,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,339.85364480720517,301.2016656737469
+ammonia,Sri Lanka,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,175.31663383056565,137.4914221462822
+ammonia,Sri Lanka,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,56.206023079088084,27.35365804862844
+ammonia,Sri Lanka,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,111.53954404728394,67.56704333907453
+ammonia,Sri Lanka,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,195.15902054601747,128.26966509191186
+ammonia,Dominican Republic,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,12.910986367281453,11.283401048112252
+ammonia,Dominican Republic,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,339.85364480720517,301.2016656737469
+ammonia,Dominican Republic,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,175.3166338305657,137.4914221462822
+ammonia,Dominican Republic,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,56.206023079088105,27.35365804862844
+ammonia,Dominican Republic,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,111.53954404728398,67.56704333907457
+ammonia,Dominican Republic,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,195.15902054601747,128.26966509191192
+ammonia,Madagascar,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,12.910986367281453,11.283401048112252
+ammonia,Madagascar,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,339.85364480720517,301.2016656737469
+ammonia,Madagascar,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,175.31663383056565,137.49142214628222
+ammonia,Madagascar,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,56.20602307908806,27.353658048628414
+ammonia,Madagascar,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,111.53954404728398,67.56704333907453
+ammonia,Madagascar,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,195.15902054601747,128.26966509191186
+ammonia,Ireland,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,12.910986367281474,11.283401048112252
+ammonia,Ireland,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,339.85364480720506,301.2016656737469
+ammonia,Ireland,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,175.31663383056565,137.4914221462822
+ammonia,Ireland,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,56.20602307908806,27.35365804862844
+ammonia,Ireland,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,111.53954404728398,67.56704333907454
+ammonia,Ireland,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,195.15902054601736,128.26966509191186
+ammonia,Chile,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,1.0,1.0,-14.744273008439768,-16.659605800589773
+ammonia,Chile,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,1.0,0.8333333333333334,266.390523381852,239.0465293471376
+ammonia,Chile,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.9444444444444444,0.8333333333333334,282.0745586869,231.18939688619275
+ammonia,Chile,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,1.0,0.8333333333333334,107.99783214617528,68.17733211896355
+ammonia,Chile,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,1.0,0.8333333333333334,84.49984515329822,46.72469594544098
+ammonia,Chile,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.8333333333333334,0.8333333333333334,182.5642613812326,118.58538799044554
+ammonia,Morocco,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,12.910986367281453,11.283401048112252
+ammonia,Morocco,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,1.0,1.0,237.5852702730722,211.25558393229835
+ammonia,Morocco,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,1.0,1.0,337.2016836343279,277.16226109916045
+ammonia,Morocco,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.4,1.0,83.06228232116352,49.155300760303035
+ammonia,Morocco,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,1.0,1.0,93.55574446909536,53.36425222168266
+ammonia,Morocco,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,1.0,234.10618773095058,159.01008633158193
+ammonia,Australia,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,5.604248507563825,3.767446699630028
+ammonia,Australia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,22.771170309893883,13.238420070286349
+ammonia,Australia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,28.226533129043997,13.142831932789045
+ammonia,Australia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,12.03713658476444,-8.909491463121322
+ammonia,Australia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,6.7805521679315195,-15.563040303316223
+ammonia,Australia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,14.444563901717355,-12.24147073330154
+ammonia,Saudi Arabia,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,0.9359153534342246,-0.7875539298866974
+ammonia,Saudi Arabia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,4.183831653110759,-4.4957365622185215
+ammonia,Saudi Arabia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,5.186165715495195,-7.3750879728419205
+ammonia,Saudi Arabia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,2.2116277894717484,-16.874129186800502
+ammonia,Saudi Arabia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,1.2458160208584035,-19.917182555607027
+ammonia,Saudi Arabia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,2.6539533473660892,-21.23807295517156
+ammonia,South Africa,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.6666666666666666,0.5,11.755610434887442,10.562669312185434
+ammonia,South Africa,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.8,0.4166666666666667,338.122051340645,295.9212594749623
+ammonia,South Africa,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.6666666666666666,0.4166666666666667,237.26682803577646,191.16477596632726
+ammonia,South Africa,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.6,0.4166666666666667,67.28804815886316,35.0158895457725
+ammonia,South Africa,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.8333333333333334,0.4166666666666667,49.08877973000276,17.893762751865474
+ammonia,South Africa,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.16666666666666666,0.4166666666666667,169.5093615721572,107.226495921299
+ammonia,Norway,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,1.0,1.0,-13.160248839636301,-14.374121561213071
+ammonia,Norway,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,1.0,1.0,183.03432863700007,159.9496269920166
+ammonia,Norway,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,1.0,1.0,326.91643247094913,270.66383337246367
+ammonia,Norway,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,1.0,1.0,97.00949136669601,62.52402679207616
+ammonia,Norway,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,1.0,1.0,104.06878760187683,62.43717841890226
+ammonia,Norway,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.8333333333333334,1.0,195.75479631133877,129.00949498669405
+ammonia,Oman,Qatar blockade,Qatar blockade,2017-06,2017-11,6,12,2016-06,2017-05,0.0,0.0,3.513995881112564,1.6613101649281425
+ammonia,Oman,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2021 Russian gas squeeze,2021-10,2022-02,5,12,2019-03,2020-02,0.0,0.0,14.885024246296119,5.876158385146124
+ammonia,Oman,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Russia–Ukraine,2022-03,2023-08,18,12,2019-03,2020-02,0.0,0.0,18.4510775817327,4.510328232842609
+ammonia,Oman,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Red Sea / Houthi,2023-12,2025-02,15,12,2019-03,2020-02,0.0,0.0,7.86841727859493,-12.305610714125692
+ammonia,Oman,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,Israel–Iran war,2025-06,2025-11,6,12,2019-03,2020-02,0.0,0.0,4.432301109226877,-17.426548628753157
+ammonia,Oman,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,2026 Hormuz disruption,2026-03,2026-08,6,12,2019-03,2020-02,0.0,0.0,9.442100734313929,-16.12032947687132

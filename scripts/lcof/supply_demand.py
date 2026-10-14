@@ -1,5 +1,5 @@
 """supply_demand.py — can each country actually supply its own demand,
-at what cost, and with what security gain?  (coauthor round 4, Q1)
+at what cost, and with what security gain? 
 
 Per country:
   potential  = sum over land cells of the maximum firm-hydrogen output

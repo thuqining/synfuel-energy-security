@@ -1,0 +1,8 @@
+scenario,fuel,run,cells,lcoh_change_median_pct,lcof_change_median_pct,lcof_change_p10_pct,lcof_change_p90_pct,lcof_const_median_mmbtu,lcof_flex_median_mmbtu,storage_h_median,storage_h_const_median,synthesis_capacity_median,lcof_change_demand_weighted_pct,cells_changing_cost_class,build_first_cells_fig2,build_first_demand_share_fig2,build_first_cells,build_first_demand_share,own_tercile_build_first_cells,own_tercile_build_first_demand_share,own_tercile_overlap,rank_correlation
+syn200,e-methane,syn200,2737,-18.6807,-9.982,-19.0225,-4.2801,73.1951,65.7727,58.4114,154.6129,1.1532,,,,,,,,,,
+syn200,e-diesel,syn200,2737,-18.5984,-7.9405,-17.4151,-2.0554,84.0442,77.2108,57.1801,154.6129,1.1482,,,,,,,,,,
+syn200,methanol,syn200,2737,-18.6229,-8.6268,-17.9429,-2.8685,73.4738,67.0564,57.6452,154.6129,1.1501,,,,,,,,,,
+syn200,e-kerosene,syn200,2737,-18.5984,-7.9405,-17.4151,-2.0554,84.0442,77.2108,57.1801,154.6129,1.1482,,,,,,,,,,
+syn200,ammonia,syn200,2737,-18.5945,-8.1897,-17.8322,-1.8913,65.3871,59.7514,57.1801,154.6129,1.1477,,,,,,,,,,
+syn200,ethanol,syn200,2737,-18.6199,-8.5643,-17.9406,-2.7738,81.3257,74.2105,57.6282,154.6129,1.1499,,,,,,,,,,
+syn200,Fig. 2 mix,syn200,2740,,-8.3823,-17.8213,-2.3639,79.2254,72.2735,,,,-9.0161,659.0,327.0,0.3921,457.0,0.5303,339.0,0.398,309.0,0.9815

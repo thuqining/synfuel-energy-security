@@ -1,0 +1,13 @@
+item,2030,2040,2050,basis,source
+electrolyser,1.000,0.800,0.550,capex ratio to 2030 (central),"DEA Technology Data for Renewable Fuels v0014, sheet 86 AEC 1 GW: 500/400/275 EUR/kW_e"
+eta_el,1.000,1.051,1.125,efficiency ratio to 2030 (multiplies 0.65),"DEA v0014, 86 AEC 1 GW, hydrogen output 62.17/65.32/69.94 % of electricity input"
+ammonia,1.000,0.818,0.627,capex ratio to 2030,"DEA v0014, 103 Hydrogen to Ammonia: 1.380/1.128/0.865 MEUR/MW"
+methanol,1.000,0.880,0.800,capex ratio to 2030,"DEA v0014, 98 Methanol from hydrogen: 1.085/0.955/0.868 MEUR/MW"
+ethanol,1.000,0.880,0.800,capex ratio to 2030,methanol loop used as the analogue (no published CO2-to-ethanol plant)
+fischer_tropsch,1.000,0.687,0.563,capex ratio to 2030,"DEA v0014, 102 Hydrogen to Jet: 1.701/1.170/0.957 MEUR/MW"
+methanation,1.000,0.800,0.600,capex ratio to 2030,"DEA v0014, 99 SNG from methanation of biogas: 0.804/0.643/0.482 MEUR/MW"
+h2_tank,1.000,0.602,0.468,capex ratio to 2030,"DEA Technology Data for Energy Storage, 151a Hydrogen Storage - Tanks: 0.0478/0.0288/0.0223 MEUR/MWh"
+dac,1.000,0.823,0.717,levelised cost ratio to 2030,"DEA Technology Data for Carbon Capture, Transport and Storage, 403.a Direct air capture (capex 6/5/4 MEUR per t/h, O&M, heat and electricity; ratio within +-0.01 for heat 15-40 and electricity 25-60 EUR/MWh)"
+pv,1.000,0.691,0.572,capex ratio to 2030,"NREL ATB 2024 v4.0.0 utility PV, Moderate: index 0.8001/0.5528/0.4578 of 2025"
+wind_onshore,1.000,0.896,0.792,capex ratio to 2030,"NREL ATB 2024 v4.0.0 land-based wind, Moderate: index 0.8973/0.8039/0.7105 of 2025"
+battery,1.000,0.867,0.711,capex ratio to 2030,"NREL ATB 2024 v4.0.0 utility battery, Moderate: index 0.8134/0.7054/0.5785 of 2025"

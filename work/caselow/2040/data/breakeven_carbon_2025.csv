@@ -1,0 +1,1002 @@
+fuel,country,carbon_case,lcof_usd_gj,p_fossil_usd_gj,fossil_ref,delta_ef_t_gj,tau_star_usd_t,carbon_price_now,competitive_now,comparator
+hydrogen,Afghanistan,neutral,53.17675225496154,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,407.74089188826446,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Afghanistan,neutral,70.07289628555927,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,286.9903848288913,0.0,False,Fig 3 comparator
+methanol,Afghanistan,neutral,77.18462384686997,15.1,fossil MeOH $300/t,0.0741,837.849174721592,0.0,False,Fig 3 comparator
+e-methane,Afghanistan,neutral,77.01772571554584,14.109007025886783,regional natural gas,0.0561,1121.3675345750278,0.0,False,Fig 3 comparator
+e-diesel,Afghanistan,neutral,88.52896993509808,15.4,wholesale diesel $0.55/L,0.0741,986.8956806356015,0.0,False,Fig 3 comparator
+e-kerosene,Afghanistan,neutral,88.52896993509808,14.8,wholesale jet $0.52/L,0.0715,1031.1744046866866,0.0,False,Fig 3 comparator
+ethanol,Afghanistan,neutral,85.51844261921295,15.4,vs diesel (fuel use),0.0741,946.2677816358022,0.0,False,Fig 3 comparator
+hydrogen,Albania,neutral,75.59729705639452,22.25528090029635,"grey H2 (SMR, regional gas)",0.08,666.7752019512271,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Albania,neutral,94.88791134976974,40.4999111120595,"grey NH3 (SMR, regional gas)",0.129,421.6124049434902,0.0,False,Fig 3 comparator
+methanol,Albania,neutral,102.95359333734346,15.1,fossil MeOH $300/t,0.0741,1185.608547062665,0.0,False,Fig 3 comparator
+e-methane,Albania,neutral,103.9110219480043,17.848498151223616,regional natural gas,0.0561,1534.091333275948,0.0,False,Fig 3 comparator
+e-diesel,Albania,neutral,117.99720229583977,15.4,wholesale diesel $0.55/L,0.0741,1384.5776288237485,0.0,False,Fig 3 comparator
+e-kerosene,Albania,neutral,117.99720229583977,14.8,wholesale jet $0.52/L,0.0715,1443.3175146271299,0.0,False,Fig 3 comparator
+ethanol,Albania,neutral,114.24147312903844,15.4,vs diesel (fuel use),0.0741,1333.8930246833797,0.0,False,Fig 3 comparator
+hydrogen,Algeria,neutral,31.73984362841091,6.083333333333334,"grey H2 (SMR, regional gas)",0.08,320.70637868846967,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Algeria,neutral,43.73340495735512,13.6842210580797,"grey NH3 (SMR, regional gas)",0.129,232.93941007190247,0.0,False,Fig 3 comparator
+methanol,Algeria,neutral,50.7044063144169,15.1,fossil MeOH $300/t,0.0741,480.4913132849784,0.0,False,Fig 3 comparator
+e-methane,Algeria,neutral,49.763113471982635,1.9589683612669273,regional natural gas,0.0561,852.123798764986,0.0,False,Fig 3 comparator
+e-diesel,Algeria,neutral,58.04830617835775,15.4,wholesale diesel $0.55/L,0.0741,575.5506906660964,0.0,False,Fig 3 comparator
+e-kerosene,Algeria,neutral,58.04830617835775,14.8,wholesale jet $0.52/L,0.0715,604.8714150819267,0.0,False,Fig 3 comparator
+ethanol,Algeria,neutral,55.98194181440709,15.4,vs diesel (fuel use),0.0741,547.6645319083278,0.0,False,Fig 3 comparator
+hydrogen,Angola,neutral,40.1047011325536,7.472222222222222,"grey H2 (SMR, regional gas)",0.08,407.90598637914223,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Angola,neutral,54.60476802203119,15.780840114969788,"grey NH3 (SMR, regional gas)",0.129,300.9606814500884,0.0,False,Fig 3 comparator
+methanol,Angola,neutral,60.56095997677236,15.1,fossil MeOH $300/t,0.0741,613.5082318052949,0.0,False,Fig 3 comparator
+e-methane,Angola,neutral,60.05161640195736,3.0156860446672242,regional natural gas,0.0561,1016.6832505755817,0.0,False,Fig 3 comparator
+e-diesel,Angola,neutral,69.5596841852821,15.4,wholesale diesel $0.55/L,0.0741,730.8999215287732,0.0,False,Fig 3 comparator
+e-kerosene,Angola,neutral,69.5596841852821,14.8,wholesale jet $0.52/L,0.0715,765.8697088850644,0.0,False,Fig 3 comparator
+ethanol,Angola,neutral,67.06915698173358,15.4,vs diesel (fuel use),0.0741,697.2895679046368,0.0,False,Fig 3 comparator
+hydrogen,Argentina,neutral,35.85441215879269,12.826870225975096,"grey H2 (SMR, regional gas)",0.08,287.8442741602199,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Argentina,neutral,49.08912383577018,23.76391721597912,"grey NH3 (SMR, regional gas)",0.129,196.319431161171,0.0,False,Fig 3 comparator
+methanol,Argentina,neutral,54.93909507278046,15.1,fossil MeOH $300/t,0.0741,537.6396096191695,0.0,False,Fig 3 comparator
+e-methane,Argentina,neutral,54.350749277676144,8.189428954835051,regional natural gas,0.0561,822.8399344534954,0.0,False,Fig 3 comparator
+e-diesel,Argentina,neutral,63.086397120441575,15.4,wholesale diesel $0.55/L,0.0741,643.5411217333547,0.0,False,Fig 3 comparator
+e-kerosene,Argentina,neutral,63.086397120441575,14.8,wholesale jet $0.52/L,0.0715,675.3342254607214,0.0,False,Fig 3 comparator
+ethanol,Argentina,neutral,60.810252351580345,15.4,vs diesel (fuel use),0.0741,612.8239183749034,0.0,False,Fig 3 comparator
+hydrogen,Armenia,neutral,50.54633835656141,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,374.86071815826284,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Armenia,neutral,64.75585980174488,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,245.77304774505882,0.0,False,Fig 3 comparator
+methanol,Armenia,neutral,70.8414915991412,15.1,fossil MeOH $300/t,0.0741,752.2468501908393,0.0,False,Fig 3 comparator
+e-methane,Armenia,neutral,71.12226547647197,14.109007025886783,regional natural gas,0.0561,1016.2791167662243,0.0,False,Fig 3 comparator
+e-diesel,Armenia,neutral,81.20834822533303,15.4,wholesale diesel $0.55/L,0.0741,888.1018653891095,0.0,False,Fig 3 comparator
+e-kerosene,Armenia,neutral,81.20834822533303,14.8,wholesale jet $0.52/L,0.0715,928.7880870675949,0.0,False,Fig 3 comparator
+ethanol,Armenia,neutral,78.54904613951109,15.4,vs diesel (fuel use),0.0741,852.2138480365869,0.0,False,Fig 3 comparator
+hydrogen,Australia,neutral,33.1480400225453,10.944444444444445,"grey H2 (SMR, regional gas)",0.08,277.5449447262607,22.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Australia,neutral,43.174830966237806,21.904611222676706,"grey NH3 (SMR, regional gas)",0.129,164.88542436869068,22.0,False,Fig 3 comparator
+methanol,Australia,neutral,51.02909718043274,15.1,fossil MeOH $300/t,0.0741,484.87310634862,22.0,False,Fig 3 comparator
+e-methane,Australia,neutral,50.3300082279152,5.918082522017471,regional natural gas,0.0561,791.6564296951467,22.0,False,Fig 3 comparator
+e-diesel,Australia,neutral,58.18494011443609,20.822098232690465,wholesale diesel $0.55/L,0.0741,504.2218877428559,22.0,False,Fig 3 comparator
+e-kerosene,Australia,neutral,58.18494011443609,20.822098232690465,wholesale jet $0.52/L,0.0715,522.5572291153235,22.0,False,Fig 3 comparator
+ethanol,Australia,neutral,56.28793046892646,20.822098232690465,vs diesel (fuel use),0.0741,478.6212177629689,22.0,False,Fig 3 comparator
+hydrogen,Austria,neutral,82.57509416230536,19.24422740352811,"grey H2 (SMR, regional gas)",0.08,791.6358344847156,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Austria,neutral,101.5318102330728,35.54552745773263,"grey NH3 (SMR, regional gas)",0.129,511.52157190186176,80.0,False,Fig 3 comparator
+methanol,Austria,neutral,110.38434546924853,15.1,fossil MeOH $300/t,0.0741,1285.888602823867,80.0,False,Fig 3 comparator
+e-methane,Austria,neutral,111.75257816317801,14.904540013092152,regional natural gas,0.0561,1726.3464910888747,80.0,False,Fig 3 comparator
+e-diesel,Austria,neutral,126.35258251175287,15.4,wholesale diesel $0.55/L,0.0741,1497.3357963799308,80.0,False,Fig 3 comparator
+e-kerosene,Austria,neutral,126.35258251175287,14.8,wholesale jet $0.52/L,0.0715,1560.1759791853551,80.0,False,Fig 3 comparator
+ethanol,Austria,neutral,122.48343788534635,15.4,vs diesel (fuel use),0.0741,1445.1206192354432,80.0,False,Fig 3 comparator
+hydrogen,Azerbaijan,neutral,43.8284546189379,7.472222222222222,"grey H2 (SMR, regional gas)",0.08,454.45290495894596,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Azerbaijan,neutral,57.221265093496974,15.816375099056465,"grey NH3 (SMR, regional gas)",0.129,320.96813949178687,0.0,False,Fig 3 comparator
+methanol,Azerbaijan,neutral,62.54785596688616,15.1,fossil MeOH $300/t,0.0741,640.3219428729576,0.0,False,Fig 3 comparator
+e-methane,Azerbaijan,neutral,62.590734226952634,2.9590412610087355,regional natural gas,0.0561,1062.953528804704,0.0,False,Fig 3 comparator
+e-diesel,Azerbaijan,neutral,71.75075989889632,15.4,wholesale diesel $0.55/L,0.0741,760.4690944520421,0.0,False,Fig 3 comparator
+e-kerosene,Azerbaijan,neutral,71.75075989889632,14.8,wholesale jet $0.52/L,0.0715,796.5141244600885,0.0,False,Fig 3 comparator
+ethanol,Azerbaijan,neutral,69.34072132772428,15.4,vs diesel (fuel use),0.0741,727.9449571892616,0.0,False,Fig 3 comparator
+hydrogen,Bangladesh,neutral,62.56507365059552,12.856133160059002,"grey H2 (SMR, regional gas)",0.08,621.3617561317064,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Bangladesh,neutral,80.8350041269964,23.936998525235865,"grey NH3 (SMR, regional gas)",0.129,441.0698108663607,0.0,False,Fig 3 comparator
+methanol,Bangladesh,neutral,87.58453692898661,15.1,fossil MeOH $300/t,0.0741,978.1988789336925,0.0,False,Fig 3 comparator
+e-methane,Bangladesh,neutral,87.90912731001035,7.993089024424128,regional natural gas,0.0561,1424.5283116860292,0.0,False,Fig 3 comparator
+e-diesel,Bangladesh,neutral,100.4321460761135,15.4,wholesale diesel $0.55/L,0.0741,1147.5323357100337,0.0,False,Fig 3 comparator
+e-kerosene,Bangladesh,neutral,100.4321460761135,14.8,wholesale jet $0.52/L,0.0715,1197.6523926729162,0.0,False,Fig 3 comparator
+ethanol,Bangladesh,neutral,97.13679493071803,15.4,vs diesel (fuel use),0.0741,1103.0606603335766,0.0,False,Fig 3 comparator
+hydrogen,Belarus,neutral,79.97200609098726,22.25528090029635,"grey H2 (SMR, regional gas)",0.08,721.4590648836364,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Belarus,neutral,104.7411199256805,40.4999111120595,"grey NH3 (SMR, regional gas)",0.129,497.9938667722558,0.0,False,Fig 3 comparator
+methanol,Belarus,neutral,111.09042894135996,15.1,fossil MeOH $300/t,0.0741,1295.4173946202425,0.0,False,Fig 3 comparator
+e-methane,Belarus,neutral,111.73738453881431,17.848498151223616,regional natural gas,0.0561,1673.5986878358415,0.0,False,Fig 3 comparator
+e-diesel,Belarus,neutral,127.70855142568064,15.4,wholesale diesel $0.55/L,0.0741,1515.6349720064864,0.0,False,Fig 3 comparator
+e-kerosene,Belarus,neutral,127.70855142568064,14.8,wholesale jet $0.52/L,0.0715,1579.140579380149,0.0,False,Fig 3 comparator
+ethanol,Belarus,neutral,123.38247251463851,15.4,vs diesel (fuel use),0.0741,1457.2533402785223,0.0,False,Fig 3 comparator
+hydrogen,Belgium,neutral,49.58051191574944,18.532238606720085,"grey H2 (SMR, regional gas)",0.08,388.10341636286694,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Belgium,neutral,63.13897156755222,34.37059046611269,"grey NH3 (SMR, regional gas)",0.129,223.01070621270952,80.0,False,Fig 3 comparator
+methanol,Belgium,neutral,68.70988591441298,15.1,fossil MeOH $300/t,0.0741,723.4802417599592,80.0,False,Fig 3 comparator
+e-methane,Belgium,neutral,69.10608157953655,14.208416475310068,regional natural gas,0.0561,978.5680054229321,80.0,False,Fig 3 comparator
+e-diesel,Belgium,neutral,78.76182955936993,15.4,wholesale diesel $0.55/L,0.0741,855.0854191547899,80.0,False,Fig 3 comparator
+e-kerosene,Belgium,neutral,78.76182955936993,14.8,wholesale jet $0.52/L,0.0715,894.5710427883907,80.0,False,Fig 3 comparator
+ethanol,Belgium,neutral,76.21137928538388,15.4,vs diesel (fuel use),0.0741,820.6663871171914,80.0,False,Fig 3 comparator
+hydrogen,Belize,neutral,51.126642459642774,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,382.1145194467799,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Belize,neutral,67.35648004752447,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,265.9328946115673,0.0,False,Fig 3 comparator
+methanol,Belize,neutral,73.37338584179147,15.1,fossil MeOH $300/t,0.0741,786.4154634519767,0.0,False,Fig 3 comparator
+e-methane,Belize,neutral,73.36560034542397,14.109007025886783,regional natural gas,0.0561,1056.267260597811,0.0,False,Fig 3 comparator
+e-diesel,Belize,neutral,84.22742105021976,15.4,wholesale diesel $0.55/L,0.0741,928.8450883970278,0.0,False,Fig 3 comparator
+e-kerosene,Belize,neutral,84.22742105021976,14.8,wholesale jet $0.52/L,0.0715,971.0128818212555,0.0,False,Fig 3 comparator
+ethanol,Belize,neutral,81.35547238190996,15.4,vs diesel (fuel use),0.0741,890.0873465844799,0.0,False,Fig 3 comparator
+hydrogen,Benin,neutral,52.92620966521716,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,404.6091095164597,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Benin,neutral,70.02780015979539,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,286.6408024586287,0.0,False,Fig 3 comparator
+methanol,Benin,neutral,76.74172375946759,15.1,fossil MeOH $300/t,0.0741,831.8721155123831,0.0,False,Fig 3 comparator
+e-methane,Benin,neutral,76.60906143177056,14.109007025886783,regional natural gas,0.0561,1114.0829662367876,0.0,False,Fig 3 comparator
+e-diesel,Benin,neutral,88.09433673961237,15.4,wholesale diesel $0.55/L,0.0741,981.03018541987,0.0,False,Fig 3 comparator
+e-kerosene,Benin,neutral,88.09433673961237,14.8,wholesale jet $0.52/L,0.0715,1025.0956187358374,0.0,False,Fig 3 comparator
+ethanol,Benin,neutral,85.06355456723773,15.4,vs diesel (fuel use),0.0741,940.1289415281744,0.0,False,Fig 3 comparator
+hydrogen,Bhutan,neutral,77.98596332309705,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,717.8560302399584,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Bhutan,neutral,99.50046295435897,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,515.1110566800518,0.0,False,Fig 3 comparator
+methanol,Bhutan,neutral,106.27589065832248,15.1,fossil MeOH $300/t,0.0741,1230.4438685333669,0.0,False,Fig 3 comparator
+e-methane,Bhutan,neutral,107.22842133764674,14.109007025886783,regional natural gas,0.0561,1659.8826080527622,0.0,False,Fig 3 comparator
+e-diesel,Bhutan,neutral,121.95738706869172,15.4,wholesale diesel $0.55/L,0.0741,1438.0214179310622,0.0,False,Fig 3 comparator
+e-kerosene,Bhutan,neutral,121.95738706869172,14.8,wholesale jet $0.52/L,0.0715,1498.7047142474366,0.0,False,Fig 3 comparator
+ethanol,Bhutan,neutral,118.00265286823789,15.4,vs diesel (fuel use),0.0741,1384.6511858061792,0.0,False,Fig 3 comparator
+hydrogen,Bolivia,neutral,46.326865793735806,7.472222222222222,"grey H2 (SMR, regional gas)",0.08,485.6830446439198,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Bolivia,neutral,63.576537733562915,15.816375099056465,"grey NH3 (SMR, regional gas)",0.129,370.233818872143,0.0,False,Fig 3 comparator
+methanol,Bolivia,neutral,69.32387564167871,15.1,fossil MeOH $300/t,0.0741,731.7662029916155,0.0,False,Fig 3 comparator
+e-methane,Bolivia,neutral,68.9039868722636,2.9590412610087355,regional natural gas,0.0561,1175.4892265820831,0.0,False,Fig 3 comparator
+e-diesel,Bolivia,neutral,79.7858509464456,15.4,wholesale diesel $0.55/L,0.0741,868.9048710721404,0.0,False,Fig 3 comparator
+e-kerosene,Bolivia,neutral,79.7858509464456,14.8,wholesale jet $0.52/L,0.0715,908.8930202300086,0.0,False,Fig 3 comparator
+ethanol,Bolivia,neutral,76.8650171629995,15.4,vs diesel (fuel use),0.0741,829.4874111066059,0.0,False,Fig 3 comparator
+hydrogen,Bosnia and Herzegovina,neutral,51.70116559968078,25.718727337223967,"grey H2 (SMR, regional gas)",0.08,324.7804782807101,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Bosnia and Herzegovina,neutral,67.62478265449033,45.979816886721,"grey NH3 (SMR, regional gas)",0.129,167.7904323082894,0.0,False,Fig 3 comparator
+methanol,Bosnia and Herzegovina,neutral,73.33080149837366,15.1,fossil MeOH $300/t,0.0741,785.8407759564597,0.0,False,Fig 3 comparator
+e-methane,Bosnia and Herzegovina,neutral,73.46954911779092,21.234768549580572,regional natural gas,0.0561,931.1012579003627,0.0,False,Fig 3 comparator
+e-diesel,Bosnia and Herzegovina,neutral,84.17055218250324,15.4,wholesale diesel $0.55/L,0.0741,928.0776272942408,0.0,False,Fig 3 comparator
+e-kerosene,Bosnia and Herzegovina,neutral,84.17055218250324,14.8,wholesale jet $0.52/L,0.0715,970.2175130420035,0.0,False,Fig 3 comparator
+ethanol,Bosnia and Herzegovina,neutral,81.3328225993576,15.4,vs diesel (fuel use),0.0741,889.7816815028016,0.0,False,Fig 3 comparator
+hydrogen,Botswana,neutral,27.01253843195208,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,80.68821910064625,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Botswana,neutral,36.712512172800096,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,28.382756047812478,0.0,False,Fig 3 comparator
+methanol,Botswana,neutral,42.74165187069674,15.1,fossil MeOH $300/t,0.0741,373.031739145705,0.0,False,Fig 3 comparator
+e-methane,Botswana,neutral,42.00901581267011,14.109007025886783,regional natural gas,0.0561,497.3263598357099,0.0,False,Fig 3 comparator
+e-diesel,Botswana,neutral,48.902542126298215,15.4,wholesale diesel $0.55/L,0.0741,452.1260745789233,0.0,False,Fig 3 comparator
+e-kerosene,Botswana,neutral,48.902542126298215,14.8,wholesale jet $0.52/L,0.0715,476.958631137038,0.0,False,Fig 3 comparator
+ethanol,Botswana,neutral,47.188113150513665,15.4,vs diesel (fuel use),0.0741,428.9893812484975,0.0,False,Fig 3 comparator
+hydrogen,Brazil,neutral,28.14833428335595,17.83429600750575,"grey H2 (SMR, regional gas)",0.08,128.9254784481275,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Brazil,neutral,38.07737053417833,32.62312430497972,"grey NH3 (SMR, regional gas)",0.129,42.280978520919454,0.0,False,Fig 3 comparator
+methanol,Brazil,neutral,43.074887355895456,15.1,fossil MeOH $300/t,0.0741,377.52884420911545,0.0,False,Fig 3 comparator
+e-methane,Brazil,neutral,42.594422667720465,12.307701929314364,regional natural gas,0.0561,539.8702448913745,0.0,False,Fig 3 comparator
+e-diesel,Brazil,neutral,49.39022026761627,21.40178487550233,wholesale diesel $0.55/L,0.0741,377.7116787059911,0.0,False,Fig 3 comparator
+e-kerosene,Brazil,neutral,49.39022026761627,21.40178487550233,wholesale jet $0.52/L,0.0715,391.44664884075445,0.0,False,Fig 3 comparator
+ethanol,Brazil,neutral,47.647654468916826,21.40178487550233,vs diesel (fuel use),0.0741,354.1952711661875,0.0,False,Fig 3 comparator
+hydrogen,Bulgaria,neutral,51.39709045579743,18.786904085109327,"grey H2 (SMR, regional gas)",0.08,407.6273296336013,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Bulgaria,neutral,66.98818745653622,34.78777641215939,"grey NH3 (SMR, regional gas)",0.129,249.6155894912933,80.0,False,Fig 3 comparator
+methanol,Bulgaria,neutral,72.29989039949825,15.1,fossil MeOH $300/t,0.0741,771.9283454723111,80.0,False,Fig 3 comparator
+e-methane,Bulgaria,neutral,72.52196819080126,14.457407238313728,regional natural gas,0.0561,1035.018911809047,80.0,False,Fig 3 comparator
+e-diesel,Bulgaria,neutral,82.98316791512028,15.4,wholesale diesel $0.55/L,0.0741,912.0535481122844,80.0,False,Fig 3 comparator
+e-kerosene,Bulgaria,neutral,82.98316791512028,14.8,wholesale jet $0.52/L,0.0715,953.6107400716123,80.0,False,Fig 3 comparator
+ethanol,Bulgaria,neutral,80.20933269003298,15.4,vs diesel (fuel use),0.0741,874.6198743594193,80.0,False,Fig 3 comparator
+hydrogen,Burkina Faso,neutral,50.53889584707103,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,374.76768678963316,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Burkina Faso,neutral,68.01927822142993,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,271.0708649519197,0.0,False,Fig 3 comparator
+methanol,Burkina Faso,neutral,74.81834642273093,15.1,fossil MeOH $300/t,0.0741,805.9156062446818,0.0,False,Fig 3 comparator
+e-methane,Burkina Faso,neutral,74.43286582419454,14.109007025886783,regional natural gas,0.0561,1075.2916006828477,0.0,False,Fig 3 comparator
+e-diesel,Burkina Faso,neutral,85.92908020107646,15.4,wholesale diesel $0.55/L,0.0741,951.8094494072396,0.0,False,Fig 3 comparator
+e-kerosene,Burkina Faso,neutral,85.92908020107646,14.8,wholesale jet $0.52/L,0.0715,994.812310504566,0.0,False,Fig 3 comparator
+ethanol,Burkina Faso,neutral,82.90218766733375,15.4,vs diesel (fuel use),0.0741,910.9606972649628,0.0,False,Fig 3 comparator
+hydrogen,Cambodia,neutral,60.97158930939446,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,505.17635506867595,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Cambodia,neutral,78.94978052881453,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,355.8034409781569,0.0,False,Fig 3 comparator
+methanol,Cambodia,neutral,85.20503695373526,15.1,fossil MeOH $300/t,0.0741,946.0868684714611,0.0,False,Fig 3 comparator
+e-methane,Cambodia,neutral,85.57648861555896,14.109007025886783,regional natural gas,0.0561,1273.9301531135861,0.0,False,Fig 3 comparator
+e-diesel,Cambodia,neutral,97.77056370865427,15.4,wholesale diesel $0.55/L,0.0741,1111.6135453259685,0.0,False,Fig 3 comparator
+e-kerosene,Cambodia,neutral,97.77056370865427,14.8,wholesale jet $0.52/L,0.0715,1160.427464456703,0.0,False,Fig 3 comparator
+ethanol,Cambodia,neutral,94.5319292072792,15.4,vs diesel (fuel use),0.0741,1067.9072767514062,0.0,False,Fig 3 comparator
+hydrogen,Cameroon,neutral,52.162271781602996,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,395.0598859712827,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Cameroon,neutral,69.56768441595702,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,283.0740137467033,0.0,False,Fig 3 comparator
+methanol,Cameroon,neutral,75.97346697532804,15.1,fossil MeOH $300/t,0.0741,821.504277669744,0.0,False,Fig 3 comparator
+e-methane,Cameroon,neutral,75.80161849046505,14.109007025886783,regional natural gas,0.0561,1099.6900439318765,0.0,False,Fig 3 comparator
+e-diesel,Cameroon,neutral,87.27668808065386,15.4,wholesale diesel $0.55/L,0.0741,969.9957905621302,0.0,False,Fig 3 comparator
+e-kerosene,Cameroon,neutral,87.27668808065386,14.8,wholesale jet $0.52/L,0.0715,1013.659973155998,0.0,False,Fig 3 comparator
+ethanol,Cameroon,neutral,84.23034649971376,15.4,vs diesel (fuel use),0.0741,928.8845681472842,0.0,False,Fig 3 comparator
+hydrogen,Canada,neutral,36.14917985283242,8.870707721730412,"grey H2 (SMR, regional gas)",0.08,340.9809016387751,65.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Canada,neutral,46.44921104345529,18.036132604046777,"grey NH3 (SMR, regional gas)",0.129,220.25642201091873,65.0,False,Fig 3 comparator
+methanol,Canada,neutral,55.30094371165187,15.1,fossil MeOH $300/t,0.0741,542.5228571073127,65.0,False,Fig 3 comparator
+e-methane,Canada,neutral,54.584065838221726,4.51295535805659,regional natural gas,0.0561,892.5331636393072,65.0,False,Fig 3 comparator
+e-diesel,Canada,neutral,62.97754108500841,15.4,wholesale diesel $0.55/L,0.0741,642.0720794198166,65.0,False,Fig 3 comparator
+e-kerosene,Canada,neutral,62.97754108500841,14.8,wholesale jet $0.52/L,0.0715,673.8117634266912,65.0,False,Fig 3 comparator
+ethanol,Canada,neutral,60.97428913536824,15.4,vs diesel (fuel use),0.0741,615.0376401534176,65.0,False,Fig 3 comparator
+hydrogen,Central African Republic,neutral,57.30465889097522,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,459.3397248384354,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Central African Republic,neutral,76.84647865765012,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,339.49877531021576,0.0,False,Fig 3 comparator
+methanol,Central African Republic,neutral,85.55923118828028,15.1,fossil MeOH $300/t,0.0741,950.8668176556043,0.0,False,Fig 3 comparator
+e-methane,Central African Republic,neutral,84.95815115891233,14.109007025886783,regional natural gas,0.0561,1262.908095062844,0.0,False,Fig 3 comparator
+e-diesel,Central African Republic,neutral,98.12910020493797,15.4,wholesale diesel $0.55/L,0.0741,1116.4520945335757,0.0,False,Fig 3 comparator
+e-kerosene,Central African Republic,neutral,98.12910020493797,14.8,wholesale jet $0.52/L,0.0715,1165.4419609082236,0.0,False,Fig 3 comparator
+ethanol,Central African Republic,neutral,94.71920866563185,15.4,vs diesel (fuel use),0.0741,1070.4346648533312,0.0,False,Fig 3 comparator
+hydrogen,Chad,neutral,38.31120938176285,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,221.92160597328086,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Chad,neutral,53.38052772784846,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,157.59217895516412,0.0,False,Fig 3 comparator
+methanol,Chad,neutral,62.40330121248013,15.1,fossil MeOH $300/t,0.0741,638.371136470717,0.0,False,Fig 3 comparator
+e-methane,Chad,neutral,61.13654522251833,14.109007025886783,regional natural gas,0.0561,838.280538264377,0.0,False,Fig 3 comparator
+e-diesel,Chad,neutral,71.48958820384708,15.4,wholesale diesel $0.55/L,0.0741,756.9445101733749,0.0,False,Fig 3 comparator
+e-kerosene,Chad,neutral,71.48958820384708,14.8,wholesale jet $0.52/L,0.0715,792.8613734803788,0.0,False,Fig 3 comparator
+ethanol,Chad,neutral,68.91526229029913,15.4,vs diesel (fuel use),0.0741,722.2032697746171,0.0,False,Fig 3 comparator
+hydrogen,Chile,neutral,18.360469735508502,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,-27.462639604898474,5.0,True,"grey H2 (SMR, regional gas)"
+ammonia,Chile,neutral,25.415053331299326,33.38659687375547,"grey NH3 (SMR, regional gas)",0.129,-61.79491118183059,5.0,True,Fig 3 comparator
+methanol,Chile,neutral,31.03796279682099,15.1,fossil MeOH $300/t,0.0741,215.08721723105253,5.0,False,Fig 3 comparator
+e-methane,Chile,neutral,30.17925451199637,14.109007025886783,regional natural gas,0.0561,286.45717444045613,5.0,False,Fig 3 comparator
+e-diesel,Chile,neutral,35.428720941266505,21.90603320518613,wholesale diesel $0.55/L,0.0741,182.49241209285256,5.0,False,Fig 3 comparator
+e-kerosene,Chile,neutral,35.428720941266505,21.90603320518613,wholesale jet $0.52/L,0.0715,189.12849980531993,5.0,False,Fig 3 comparator
+ethanol,Chile,neutral,34.16963282745668,21.90603320518613,vs diesel (fuel use),0.0741,165.50066966626923,5.0,False,Fig 3 comparator
+hydrogen,China,neutral,16.994656529995613,14.904436261307794,"grey H2 (SMR, regional gas)",0.08,26.127753358597737,13.0,False,"grey H2 (SMR, regional gas)"
+ammonia,China,neutral,22.83475705222215,32.09494834786434,"grey NH3 (SMR, regional gas)",0.129,-71.78442864838904,13.0,True,Fig 3 comparator
+methanol,China,neutral,28.21259696654188,15.1,fossil MeOH $300/t,0.0741,176.95812370501864,13.0,False,Fig 3 comparator
+e-methane,China,neutral,27.468606453458456,13.034405768920944,regional natural gas,0.0561,257.29412984915353,13.0,False,Fig 3 comparator
+e-diesel,China,neutral,32.096070879917534,21.075096548465623,wholesale diesel $0.55/L,0.0741,148.73109759044414,13.0,False,Fig 3 comparator
+e-kerosene,China,neutral,32.096070879917534,21.075096548465623,wholesale jet $0.52/L,0.0715,154.13950113918756,13.0,False,Fig 3 comparator
+ethanol,China,neutral,31.025715320726775,21.075096548465623,vs diesel (fuel use),0.0741,134.2863532019049,13.0,False,Fig 3 comparator
+hydrogen,Colombia,neutral,28.644577866691435,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,101.08871203488818,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Colombia,neutral,38.468005350675455,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,41.99123029490828,0.0,False,Fig 3 comparator
+methanol,Colombia,neutral,44.169245775282285,15.1,fossil MeOH $300/t,0.0741,392.29751383646806,0.0,False,Fig 3 comparator
+e-methane,Colombia,neutral,43.60371787634555,14.109007025886783,regional natural gas,0.0561,525.7524215768051,0.0,False,Fig 3 comparator
+e-diesel,Colombia,neutral,50.56252109999083,15.4,wholesale diesel $0.55/L,0.0741,474.52795006735266,0.0,False,Fig 3 comparator
+e-kerosene,Colombia,neutral,50.56252109999083,14.8,wholesale jet $0.52/L,0.0715,500.17512027959214,0.0,False,Fig 3 comparator
+ethanol,Colombia,neutral,48.80999921205503,15.4,vs diesel (fuel use),0.0741,450.8771823489208,0.0,False,Fig 3 comparator
+hydrogen,Costa Rica,neutral,56.55433957675338,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,449.96073341066244,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Costa Rica,neutral,73.13163071428491,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,310.7015044314157,0.0,False,Fig 3 comparator
+methanol,Costa Rica,neutral,78.86119192364613,15.1,fossil MeOH $300/t,0.0741,860.4749247455618,0.0,False,Fig 3 comparator
+e-methane,Costa Rica,neutral,79.25094013232217,14.109007025886783,regional natural gas,0.0561,1161.175278189579,0.0,False,Fig 3 comparator
+e-diesel,Costa Rica,neutral,90.5166421528171,15.4,wholesale diesel $0.55/L,0.0741,1013.7198671095424,0.0,False,Fig 3 comparator
+e-kerosene,Costa Rica,neutral,90.5166421528171,14.8,wholesale jet $0.52/L,0.0715,1058.9740161233162,0.0,False,Fig 3 comparator
+ethanol,Costa Rica,neutral,87.50984229107213,15.4,vs diesel (fuel use),0.0741,973.1422711345766,0.0,False,Fig 3 comparator
+hydrogen,Croatia,neutral,75.71594282429282,21.95776441058753,"grey H2 (SMR, regional gas)",0.08,671.9772301713161,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Croatia,neutral,95.22518962075546,40.029177015343215,"grey NH3 (SMR, regional gas)",0.129,427.87606670862203,80.0,False,Fig 3 comparator
+methanol,Croatia,neutral,102.64073975913375,15.1,fossil MeOH $300/t,0.0741,1181.3865014727903,80.0,False,Fig 3 comparator
+e-methane,Croatia,neutral,103.65420417661223,17.557611226747966,regional natural gas,0.0561,1534.6986265572953,80.0,False,Fig 3 comparator
+e-diesel,Croatia,neutral,117.6595763063618,15.4,wholesale diesel $0.55/L,0.0741,1380.0212726904426,80.0,False,Fig 3 comparator
+e-kerosene,Croatia,neutral,117.6595763063618,14.8,wholesale jet $0.52/L,0.0715,1438.5954728162492,80.0,False,Fig 3 comparator
+ethanol,Croatia,neutral,113.92387033865532,15.4,vs diesel (fuel use),0.0741,1329.6068871613402,80.0,False,Fig 3 comparator
+hydrogen,Cuba,neutral,53.03005366913657,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,405.9071595654524,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Cuba,neutral,70.71231205898566,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,291.94709625080134,0.0,False,Fig 3 comparator
+methanol,Cuba,neutral,76.29560589039967,15.1,fossil MeOH $300/t,0.0741,825.8516314493883,0.0,False,Fig 3 comparator
+e-methane,Cuba,neutral,76.2698772929993,14.109007025886783,regional natural gas,0.0561,1108.0369031570858,0.0,False,Fig 3 comparator
+e-diesel,Cuba,neutral,87.6868887967057,15.4,wholesale diesel $0.55/L,0.0741,975.5315627085789,0.0,False,Fig 3 comparator
+e-kerosene,Cuba,neutral,87.6868887967057,14.8,wholesale jet $0.52/L,0.0715,1019.3970461077722,0.0,False,Fig 3 comparator
+ethanol,Cuba,neutral,84.638766643106,15.4,vs diesel (fuel use),0.0741,934.3963109730903,0.0,False,Fig 3 comparator
+hydrogen,Cyprus,neutral,42.655370494104034,22.25528090029635,"grey H2 (SMR, regional gas)",0.08,255.00111992259605,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Cyprus,neutral,54.77149435673387,40.4999111120595,"grey NH3 (SMR, regional gas)",0.129,110.63242825328967,0.0,False,Fig 3 comparator
+methanol,Cyprus,neutral,60.67446337369773,15.1,fossil MeOH $300/t,0.0741,615.0399915478777,0.0,False,Fig 3 comparator
+e-methane,Cyprus,neutral,60.730619170851135,17.848498151223616,regional natural gas,0.0561,764.3871839505797,0.0,False,Fig 3 comparator
+e-diesel,Cyprus,neutral,69.48665329098696,15.4,wholesale diesel $0.55/L,0.0741,729.914349406032,0.0,False,Fig 3 comparator
+e-kerosene,Cyprus,neutral,69.48665329098696,14.8,wholesale jet $0.52/L,0.0715,764.8482977760416,0.0,False,Fig 3 comparator
+ethanol,Cyprus,neutral,67.21580944101535,15.4,vs diesel (fuel use),0.0741,699.2686834145122,0.0,False,Fig 3 comparator
+hydrogen,Czechia,neutral,54.556908643476476,19.83101942947967,"grey H2 (SMR, regional gas)",0.08,434.0736151749601,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Czechia,neutral,69.3097317484081,36.50879423926936,"grey NH3 (SMR, regional gas)",0.129,254.27083340417622,80.0,False,Fig 3 comparator
+methanol,Czechia,neutral,75.28702167966912,15.1,fossil MeOH $300/t,0.0741,812.2405084975591,80.0,False,Fig 3 comparator
+e-methane,Czechia,neutral,75.76822625444018,15.478256541890083,regional natural gas,0.0561,1074.6875171577558,80.0,False,Fig 3 comparator
+e-diesel,Czechia,neutral,86.28635435266088,15.4,wholesale diesel $0.55/L,0.0741,956.6309629238984,80.0,False,Fig 3 comparator
+e-kerosene,Czechia,neutral,86.28635435266088,14.8,wholesale jet $0.52/L,0.0715,999.809151785467,80.0,False,Fig 3 comparator
+ethanol,Czechia,neutral,83.51131140634944,15.4,vs diesel (fuel use),0.0741,919.1809906389936,80.0,False,Fig 3 comparator
+hydrogen,Democratic Republic of the Congo,neutral,53.65489721404566,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,413.71770387681596,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Democratic Republic of the Congo,neutral,71.6382519390977,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,299.12492477880164,0.0,False,Fig 3 comparator
+methanol,Democratic Republic of the Congo,neutral,77.81377369949422,15.1,fossil MeOH $300/t,0.0741,846.3397260390583,0.0,False,Fig 3 comparator
+e-methane,Democratic Republic of the Congo,neutral,77.66772556543748,14.109007025886783,regional natural gas,0.0561,1132.9539846622229,0.0,False,Fig 3 comparator
+e-diesel,Democratic Republic of the Congo,neutral,89.38962747503315,15.4,wholesale diesel $0.55/L,0.0741,998.5104922406632,0.0,False,Fig 3 comparator
+e-kerosene,Democratic Republic of the Congo,neutral,89.38962747503315,14.8,wholesale jet $0.52/L,0.0715,1043.211573077387,0.0,False,Fig 3 comparator
+ethanol,Democratic Republic of the Congo,neutral,86.28386229772514,15.4,vs diesel (fuel use),0.0741,956.5973319531057,0.0,False,Fig 3 comparator
+hydrogen,Denmark,neutral,43.43651357906094,19.399252766118867,"grey H2 (SMR, regional gas)",0.08,300.46576016177596,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Denmark,neutral,55.3885773042782,35.80239306213627,"grey NH3 (SMR, regional gas)",0.129,151.83088559799947,80.0,False,Fig 3 comparator
+methanol,Denmark,neutral,61.363125392738226,15.1,fossil MeOH $300/t,0.0741,624.3336760153607,80.0,False,Fig 3 comparator
+e-methane,Denmark,neutral,61.49546411589695,15.056110942770314,regional natural gas,0.0561,827.7959567402253,80.0,False,Fig 3 comparator
+e-diesel,Denmark,neutral,70.26096338869124,15.4,wholesale diesel $0.55/L,0.0741,740.3638783898953,80.0,False,Fig 3 comparator
+e-kerosene,Denmark,neutral,70.26096338869124,14.8,wholesale jet $0.52/L,0.0715,775.6778096320454,80.0,False,Fig 3 comparator
+ethanol,Denmark,neutral,67.98608937477468,15.4,vs diesel (fuel use),0.0741,709.6638242209808,80.0,False,Fig 3 comparator
+hydrogen,Dominican Republic,neutral,41.31904917691763,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,259.51960341271564,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Dominican Republic,neutral,54.8188753974111,29.86351855269484,"grey NH3 (SMR, regional gas)",0.129,193.4523786412113,0.0,False,Fig 3 comparator
+methanol,Dominican Republic,neutral,59.98871265588495,15.1,fossil MeOH $300/t,0.0741,605.7855958958833,0.0,False,Fig 3 comparator
+e-methane,Dominican Republic,neutral,59.8584468580389,14.109007025886783,regional natural gas,0.0561,815.4980362237455,0.0,False,Fig 3 comparator
+e-diesel,Dominican Republic,neutral,68.86766102389822,22.493941885352886,wholesale diesel $0.55/L,0.0741,625.8261692111382,0.0,False,Fig 3 comparator
+e-kerosene,Dominican Republic,neutral,68.86766102389822,22.493941885352886,wholesale jet $0.52/L,0.0715,648.5834844551796,0.0,False,Fig 3 comparator
+ethanol,Dominican Republic,neutral,66.49511717154891,22.493941885352886,vs diesel (fuel use),0.0741,593.8080335519032,0.0,False,Fig 3 comparator
+hydrogen,Ecuador,neutral,82.2700156224019,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,771.4066839812689,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Ecuador,neutral,106.97054137866266,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,573.0186413645765,0.0,False,Fig 3 comparator
+methanol,Ecuador,neutral,113.43355894440947,15.1,fossil MeOH $300/t,0.0741,1327.038582245742,0.0,False,Fig 3 comparator
+e-methane,Ecuador,neutral,114.27425504995554,14.109007025886783,regional natural gas,0.0561,1785.4767918728835,0.0,False,Fig 3 comparator
+e-diesel,Ecuador,neutral,130.40153274787144,15.4,wholesale diesel $0.55/L,0.0741,1551.9774999712745,0.0,False,Fig 3 comparator
+e-kerosene,Ecuador,neutral,130.40153274787144,14.8,wholesale jet $0.52/L,0.0715,1616.804653816384,0.0,False,Fig 3 comparator
+ethanol,Ecuador,neutral,126.00971112934744,15.4,vs diesel (fuel use),0.0741,1492.708652217914,0.0,False,Fig 3 comparator
+hydrogen,Egypt,neutral,33.599330017416605,8.166666666666668,"grey H2 (SMR, regional gas)",0.08,317.9082918843742,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Egypt,neutral,45.85600197862733,18.126627519692565,"grey NH3 (SMR, regional gas)",0.129,214.95639115453307,0.0,False,Fig 3 comparator
+methanol,Egypt,neutral,52.19329168722471,15.1,fossil MeOH $300/t,0.0741,500.58423329588,0.0,False,Fig 3 comparator
+e-methane,Egypt,neutral,51.622456400734904,3.547077840581567,regional natural gas,0.0561,856.9586196105765,0.0,False,Fig 3 comparator
+e-diesel,Egypt,neutral,59.892999041406696,21.73991591085292,wholesale diesel $0.55/L,0.0741,514.8864120182697,0.0,False,Fig 3 comparator
+e-kerosene,Egypt,neutral,59.892999041406696,21.73991591085292,wholesale jet $0.52/L,0.0715,533.6095542734795,0.0,False,Fig 3 comparator
+ethanol,Egypt,neutral,57.75360452917651,21.73991591085292,vs diesel (fuel use),0.0741,486.0146912054467,0.0,False,Fig 3 comparator
+hydrogen,Eritrea,neutral,58.40332521390948,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,473.0730538751137,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Eritrea,neutral,78.05745245279776,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,348.8861690710502,0.0,False,Fig 3 comparator
+methanol,Eritrea,neutral,84.3742130971689,15.1,fossil MeOH $300/t,0.0741,934.8746706770434,0.0,False,Fig 3 comparator
+e-methane,Eritrea,neutral,84.32780119104274,14.109007025886783,regional natural gas,0.0561,1251.6719102523343,0.0,False,Fig 3 comparator
+e-diesel,Eritrea,neutral,97.02155141597228,15.4,wholesale diesel $0.55/L,0.0741,1101.505417219599,0.0,False,Fig 3 comparator
+e-kerosene,Eritrea,neutral,97.02155141597228,14.8,wholesale jet $0.52/L,0.0715,1149.9517680555566,0.0,False,Fig 3 comparator
+ethanol,Eritrea,neutral,93.60894051847899,15.4,vs diesel (fuel use),0.0741,1055.4512890482993,0.0,False,Fig 3 comparator
+hydrogen,Ethiopia,neutral,51.557214392461205,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,387.4966686070103,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Ethiopia,neutral,69.85220758160983,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,285.27961968199645,0.0,False,Fig 3 comparator
+methanol,Ethiopia,neutral,75.01256498786067,15.1,fossil MeOH $300/t,0.0741,808.5366395122898,0.0,False,Fig 3 comparator
+e-methane,Ethiopia,neutral,74.89607171327636,14.109007025886783,regional natural gas,0.0561,1083.5483901495468,0.0,False,Fig 3 comparator
+e-diesel,Ethiopia,neutral,86.3602592241622,15.4,wholesale diesel $0.55/L,0.0741,957.628329610826,0.0,False,Fig 3 comparator
+e-kerosene,Ethiopia,neutral,86.3602592241622,14.8,wholesale jet $0.52/L,0.0715,1000.8427863519191,0.0,False,Fig 3 comparator
+ethanol,Ethiopia,neutral,83.254209298428,15.4,vs diesel (fuel use),0.0741,915.7113265644803,0.0,False,Fig 3 comparator
+hydrogen,Falkland Islands,neutral,19.878199355311928,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,-8.491019357355656,0.0,True,"grey H2 (SMR, regional gas)"
+ammonia,Falkland Islands,neutral,27.28446201105968,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,-44.702904120717875,0.0,True,Fig 3 comparator
+methanol,Falkland Islands,neutral,35.28843625541347,15.1,fossil MeOH $300/t,0.0741,272.4485324617203,0.0,False,Fig 3 comparator
+e-methane,Falkland Islands,neutral,33.99583336471454,14.109007025886783,regional natural gas,0.0561,354.4888830450581,0.0,False,Fig 3 comparator
+e-diesel,Falkland Islands,neutral,40.058912957024134,15.4,wholesale diesel $0.55/L,0.0741,332.7788523215133,0.0,False,Fig 3 comparator
+e-kerosene,Falkland Islands,neutral,40.058912957024134,14.8,wholesale jet $0.52/L,0.0715,353.27150988844943,0.0,False,Fig 3 comparator
+ethanol,Falkland Islands,neutral,38.702802676488446,15.4,vs diesel (fuel use),0.0741,314.47776891347434,0.0,False,Fig 3 comparator
+hydrogen,Fiji,neutral,45.000305249411504,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,305.535304318889,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Fiji,neutral,59.43691982006234,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,204.54095486379887,0.0,False,Fig 3 comparator
+methanol,Fiji,neutral,65.08076458807435,15.1,fossil MeOH $300/t,0.0741,674.5042454530951,0.0,False,Fig 3 comparator
+e-methane,Fiji,neutral,64.99481673932272,14.109007025886783,regional natural gas,0.0561,907.0554316120488,0.0,False,Fig 3 comparator
+e-diesel,Fiji,neutral,74.7097348244669,15.4,wholesale diesel $0.55/L,0.0741,800.4012796824144,0.0,False,Fig 3 comparator
+e-kerosene,Fiji,neutral,74.7097348244669,14.8,wholesale jet $0.52/L,0.0715,837.8983891533834,0.0,False,Fig 3 comparator
+ethanol,Fiji,neutral,72.14435197049403,15.4,vs diesel (fuel use),0.0741,765.7807283467481,0.0,False,Fig 3 comparator
+hydrogen,Finland,neutral,40.556830018955104,21.25058215666843,"grey H2 (SMR, regional gas)",0.08,241.32809827858344,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Finland,neutral,52.02440001443967,38.87510450846109,"grey NH3 (SMR, regional gas)",0.129,101.93252330215952,80.0,False,Fig 3 comparator
+methanol,Finland,neutral,57.75998689048893,15.1,fossil MeOH $300/t,0.0741,575.7083251078128,80.0,False,Fig 3 comparator
+e-methane,Finland,neutral,57.80596309180198,16.866187127574094,regional natural gas,0.0561,729.7642774372172,80.0,False,Fig 3 comparator
+e-diesel,Finland,neutral,66.14169794743941,15.4,wholesale diesel $0.55/L,0.0741,684.7732516523538,80.0,False,Fig 3 comparator
+e-kerosene,Finland,neutral,66.14169794743941,14.8,wholesale jet $0.52/L,0.0715,718.0657055585932,80.0,False,Fig 3 comparator
+ethanol,Finland,neutral,63.98143865834713,15.4,vs diesel (fuel use),0.0741,655.6199549034701,80.0,False,Fig 3 comparator
+hydrogen,France,neutral,42.49674266308123,20.540443221612236,"grey H2 (SMR, regional gas)",0.08,274.4537430183624,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,France,neutral,54.453331720929626,37.67674399559496,"grey NH3 (SMR, regional gas)",0.129,130.05106763825322,80.0,False,Fig 3 comparator
+methanol,France,neutral,60.18458235971838,15.1,fossil MeOH $300/t,0.0741,608.4289117370901,80.0,False,Fig 3 comparator
+e-methane,France,neutral,60.29731668001123,16.171872231041526,regional natural gas,0.0561,786.5498119245937,80.0,False,Fig 3 comparator
+e-diesel,France,neutral,68.94496165603198,15.4,wholesale diesel $0.55/L,0.0741,722.6040709316056,80.0,False,Fig 3 comparator
+e-kerosene,France,neutral,68.94496165603198,14.8,wholesale jet $0.52/L,0.0715,757.2721909934544,80.0,False,Fig 3 comparator
+ethanol,France,neutral,66.69064019145475,15.4,vs diesel (fuel use),0.0741,692.1813791019534,80.0,False,Fig 3 comparator
+hydrogen,Gabon,neutral,73.57356849990347,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,662.7010949500386,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Gabon,neutral,96.85287759212912,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,494.58713914338625,0.0,False,Fig 3 comparator
+methanol,Gabon,neutral,103.37198688537987,15.1,fossil MeOH $300/t,0.0741,1191.2548837433183,0.0,False,Fig 3 comparator
+e-methane,Gabon,neutral,103.76168210582756,14.109007025886783,regional natural gas,0.0561,1598.0868998206913,0.0,False,Fig 3 comparator
+e-diesel,Gabon,neutral,118.8242451520824,15.4,wholesale diesel $0.55/L,0.0741,1395.7388009727717,0.0,False,Fig 3 comparator
+e-kerosene,Gabon,neutral,118.8242451520824,14.8,wholesale jet $0.52/L,0.0715,1454.8845475815722,0.0,False,Fig 3 comparator
+ethanol,Gabon,neutral,114.76563863914527,15.4,vs diesel (fuel use),0.0741,1340.966783254322,0.0,False,Fig 3 comparator
+hydrogen,Georgia,neutral,71.36352643370238,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,635.0755691225249,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Georgia,neutral,90.0251365251137,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,441.65891381768535,0.0,False,Fig 3 comparator
+methanol,Georgia,neutral,97.57891775790952,15.1,fossil MeOH $300/t,0.0741,1113.0758131971597,0.0,False,Fig 3 comparator
+e-methane,Georgia,neutral,98.37575399352176,14.109007025886783,regional natural gas,0.0561,1502.081051116488,0.0,False,Fig 3 comparator
+e-diesel,Georgia,neutral,111.81390621982837,15.4,wholesale diesel $0.55/L,0.0741,1301.1323376495056,0.0,False,Fig 3 comparator
+e-kerosene,Georgia,neutral,111.81390621982837,14.8,wholesale jet $0.52/L,0.0715,1356.837849228369,0.0,False,Fig 3 comparator
+ethanol,Georgia,neutral,108.25741837835616,15.4,vs diesel (fuel use),0.0741,1253.1365503151978,0.0,False,Fig 3 comparator
+hydrogen,Germany,neutral,38.69918169813868,20.703697328440036,"grey H2 (SMR, regional gas)",0.08,224.94355462123306,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Germany,neutral,49.856487322614406,30.768717557304228,"grey NH3 (SMR, regional gas)",0.129,147.96720748302462,80.0,False,Fig 3 comparator
+methanol,Germany,neutral,55.946560811305915,15.1,fossil MeOH $300/t,0.0741,551.2356384791622,80.0,False,Fig 3 comparator
+e-methane,Germany,neutral,55.82470844076714,16.3314885437025,regional natural gas,0.0561,703.9789642970525,80.0,False,Fig 3 comparator
+e-diesel,Germany,neutral,64.01775580300858,21.43546509042026,wholesale diesel $0.55/L,0.0741,574.6597936921502,80.0,False,Fig 3 comparator
+e-kerosene,Germany,neutral,64.01775580300858,21.43546509042026,wholesale jet $0.52/L,0.0715,595.5565134627739,80.0,False,Fig 3 comparator
+ethanol,Germany,neutral,61.924896826777484,21.43546509042026,vs diesel (fuel use),0.0741,546.4160828118385,80.0,False,Fig 3 comparator
+hydrogen,Ghana,neutral,52.66416845899822,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,401.3335944387229,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Ghana,neutral,70.3304315300611,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,288.9867820730916,0.0,False,Fig 3 comparator
+methanol,Ghana,neutral,76.47092490622835,15.1,fossil MeOH $300/t,0.0741,828.217610070558,0.0,False,Fig 3 comparator
+e-methane,Ghana,neutral,76.34052928372441,14.109007025886783,regional natural gas,0.0561,1109.296296931152,0.0,False,Fig 3 comparator
+e-diesel,Ghana,neutral,87.87828171949481,15.4,wholesale diesel $0.55/L,0.0741,978.114463151077,0.0,False,Fig 3 comparator
+e-kerosene,Ghana,neutral,87.87828171949481,14.8,wholesale jet $0.52/L,0.0715,1022.0738702027247,0.0,False,Fig 3 comparator
+ethanol,Ghana,neutral,84.8036738302491,15.4,vs diesel (fuel use),0.0741,936.6217790856828,0.0,False,Fig 3 comparator
+hydrogen,Greece,neutral,50.84287697125555,21.887985125886544,"grey H2 (SMR, regional gas)",0.08,361.9361480671125,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Greece,neutral,64.93772478082926,39.918771408630874,"grey NH3 (SMR, regional gas)",0.129,193.94537497828202,80.0,False,Fig 3 comparator
+methanol,Greece,neutral,71.46311567049145,15.1,fossil MeOH $300/t,0.0741,760.6358390079818,80.0,False,Fig 3 comparator
+e-methane,Greece,neutral,71.69754368168222,17.489386835089377,regional natural gas,0.0561,966.2773056433663,80.0,False,Fig 3 comparator
+e-diesel,Greece,neutral,81.87465087136029,15.4,wholesale diesel $0.55/L,0.0741,897.0938039319876,80.0,False,Fig 3 comparator
+e-kerosene,Greece,neutral,81.87465087136029,14.8,wholesale jet $0.52/L,0.0715,938.1070051938503,80.0,False,Fig 3 comparator
+ethanol,Greece,neutral,79.21025453142836,15.4,vs diesel (fuel use),0.0741,861.137038210909,80.0,False,Fig 3 comparator
+hydrogen,Guatemala,neutral,53.747664409499734,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,414.87729381999185,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Guatemala,neutral,69.92084785589219,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,285.8117148314721,0.0,False,Fig 3 comparator
+methanol,Guatemala,neutral,75.38547404319493,15.1,fossil MeOH $300/t,0.0741,813.5691503804984,0.0,False,Fig 3 comparator
+e-methane,Guatemala,neutral,75.6783523865185,14.109007025886783,regional natural gas,0.0561,1097.492787177036,0.0,False,Fig 3 comparator
+e-diesel,Guatemala,neutral,86.5470916943407,15.4,wholesale diesel $0.55/L,0.0741,960.1496854836801,0.0,False,Fig 3 comparator
+e-kerosene,Guatemala,neutral,86.5470916943407,14.8,wholesale jet $0.52/L,0.0715,1003.455827892877,0.0,False,Fig 3 comparator
+ethanol,Guatemala,neutral,83.64817953734243,15.4,vs diesel (fuel use),0.0741,921.0280639317466,0.0,False,Fig 3 comparator
+hydrogen,Guinea,neutral,53.688508996512084,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,414.13785115764625,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Guinea,neutral,70.88866851062116,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,293.3142005270455,0.0,False,Fig 3 comparator
+methanol,Guinea,neutral,77.72997654770063,15.1,fossil MeOH $300/t,0.0741,845.208860292856,0.0,False,Fig 3 comparator
+e-methane,Guinea,neutral,77.6147100689634,14.109007025886783,regional natural gas,0.0561,1132.0089668997616,0.0,False,Fig 3 comparator
+e-diesel,Guinea,neutral,89.21738009362629,15.4,wholesale diesel $0.55/L,0.0741,996.1859661757933,0.0,False,Fig 3 comparator
+e-kerosene,Guinea,neutral,89.21738009362629,14.8,wholesale jet $0.52/L,0.0715,1040.8025187919761,0.0,False,Fig 3 comparator
+ethanol,Guinea,neutral,86.15729323351647,15.4,vs diesel (fuel use),0.0741,954.8892474158768,0.0,False,Fig 3 comparator
+hydrogen,Guinea-Bissau,neutral,57.19949727547838,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,458.0252046447249,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Guinea-Bissau,neutral,75.0921599098489,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,325.8994051722218,0.0,False,Fig 3 comparator
+methanol,Guinea-Bissau,neutral,82.1236877783169,15.1,fossil MeOH $300/t,0.0741,904.5032088841689,0.0,False,Fig 3 comparator
+e-methane,Guinea-Bissau,neutral,82.11927316728355,14.109007025886783,regional natural gas,0.0561,1212.3042092940602,0.0,False,Fig 3 comparator
+e-diesel,Guinea-Bissau,neutral,94.2518802511855,15.4,wholesale diesel $0.55/L,0.0741,1064.1279386124897,0.0,False,Fig 3 comparator
+e-kerosene,Guinea-Bissau,neutral,94.2518802511855,14.8,wholesale jet $0.52/L,0.0715,1111.2151084081888,0.0,False,Fig 3 comparator
+ethanol,Guinea-Bissau,neutral,91.04548804032365,15.4,vs diesel (fuel use),0.0741,1020.8567886683353,0.0,False,Fig 3 comparator
+hydrogen,Guyana,neutral,53.776380573417015,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,415.2362458689579,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Guyana,neutral,70.29917912524469,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,288.7445153690884,0.0,False,Fig 3 comparator
+methanol,Guyana,neutral,76.95239283558911,15.1,fossil MeOH $300/t,0.0741,834.715152976911,0.0,False,Fig 3 comparator
+e-methane,Guyana,neutral,76.94740180471172,14.109007025886783,regional natural gas,0.0561,1120.1139889273607,0.0,False,Fig 3 comparator
+e-diesel,Guyana,neutral,88.24311501691157,15.4,wholesale diesel $0.55/L,0.0741,983.037989432005,0.0,False,Fig 3 comparator
+e-kerosene,Guyana,neutral,88.24311501691157,14.8,wholesale jet $0.52/L,0.0715,1027.1764338029593,0.0,False,Fig 3 comparator
+ethanol,Guyana,neutral,85.29001250573954,15.4,vs diesel (fuel use),0.0741,943.1850540585632,0.0,False,Fig 3 comparator
+hydrogen,Haiti,neutral,57.98367504095013,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,467.82742671312184,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Haiti,neutral,77.06735970273199,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,341.2110314736411,0.0,False,Fig 3 comparator
+methanol,Haiti,neutral,83.222901352381,15.1,fossil MeOH $300/t,0.0741,919.3374001670851,0.0,False,Fig 3 comparator
+e-methane,Haiti,neutral,83.2349601570773,14.109007025886783,regional natural gas,0.0561,1232.1916779178346,0.0,False,Fig 3 comparator
+e-diesel,Haiti,neutral,95.63563311068785,15.4,wholesale diesel $0.55/L,0.0741,1082.802066271091,0.0,False,Fig 3 comparator
+e-kerosene,Haiti,neutral,95.63563311068785,14.8,wholesale jet $0.52/L,0.0715,1130.5682952543757,0.0,False,Fig 3 comparator
+ethanol,Haiti,neutral,92.32317944432296,15.4,vs diesel (fuel use),0.0741,1038.099587642685,0.0,False,Fig 3 comparator
+hydrogen,Honduras,neutral,73.76227726857417,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,665.0599545584223,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Honduras,neutral,95.7454177126761,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,486.0021788375489,0.0,False,Fig 3 comparator
+methanol,Honduras,neutral,102.26551987130279,15.1,fossil MeOH $300/t,0.0741,1176.3228052807394,0.0,False,Fig 3 comparator
+e-methane,Honduras,neutral,102.85052334069695,14.109007025886783,regional natural gas,0.0561,1581.8452106026768,0.0,False,Fig 3 comparator
+e-diesel,Honduras,neutral,117.42037965523228,15.4,wholesale diesel $0.55/L,0.0741,1376.7932477089375,0.0,False,Fig 3 comparator
+e-kerosene,Honduras,neutral,117.42037965523228,14.8,wholesale jet $0.52/L,0.0715,1435.2500651081439,0.0,False,Fig 3 comparator
+ethanol,Honduras,neutral,113.52338504172647,15.4,vs diesel (fuel use),0.0741,1324.202227283758,0.0,False,Fig 3 comparator
+hydrogen,Hungary,neutral,53.220800108576434,21.690111358118898,"grey H2 (SMR, regional gas)",0.08,394.1336093807192,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Hungary,neutral,69.16861366033751,39.605693201015846,"grey NH3 (SMR, regional gas)",0.129,229.16992604125323,80.0,False,Fig 3 comparator
+methanol,Hungary,neutral,74.23446482448144,15.1,fossil MeOH $300/t,0.0741,798.0359625436091,80.0,False,Fig 3 comparator
+e-methane,Hungary,neutral,74.58467599936026,17.29592229200918,regional natural gas,0.0561,1021.189905656882,80.0,False,Fig 3 comparator
+e-diesel,Hungary,neutral,85.23513524564946,15.4,wholesale diesel $0.55/L,0.0741,942.4444702516796,80.0,False,Fig 3 comparator
+e-kerosene,Hungary,neutral,85.23513524564946,14.8,wholesale jet $0.52/L,0.0715,985.1067866524401,80.0,False,Fig 3 comparator
+ethanol,Hungary,neutral,82.39051389317794,15.4,vs diesel (fuel use),0.0741,904.0555181265578,80.0,False,Fig 3 comparator
+hydrogen,Iceland,neutral,40.53985834644606,22.25528090029635,"grey H2 (SMR, regional gas)",0.08,228.55721807687138,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Iceland,neutral,52.895750763201235,40.4999111120595,"grey NH3 (SMR, regional gas)",0.129,96.0917802414088,0.0,False,Fig 3 comparator
+methanol,Iceland,neutral,63.44421954480034,15.1,fossil MeOH $300/t,0.0741,652.418617338736,0.0,False,Fig 3 comparator
+e-methane,Iceland,neutral,62.33437857087131,17.848498151223616,regional natural gas,0.0561,792.9746955373921,0.0,False,Fig 3 comparator
+e-diesel,Iceland,neutral,72.18619534618661,15.4,wholesale diesel $0.55/L,0.0741,766.345416277822,0.0,False,Fig 3 comparator
+e-kerosene,Iceland,neutral,72.18619534618661,14.8,wholesale jet $0.52/L,0.0715,802.6041307158968,0.0,False,Fig 3 comparator
+ethanol,Iceland,neutral,69.88450364017126,15.4,vs diesel (fuel use),0.0741,735.2834499348348,0.0,False,Fig 3 comparator
+hydrogen,India,neutral,27.642493766296415,15.860382905396657,"grey H2 (SMR, regional gas)",0.08,147.27638576124698,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,India,neutral,35.66210837102778,31.69067432326211,"grey NH3 (SMR, regional gas)",0.129,30.786310447795856,0.0,False,Fig 3 comparator
+methanol,India,neutral,41.45887984184057,15.1,fossil MeOH $300/t,0.0741,355.72037573334103,0.0,False,Fig 3 comparator
+e-methane,India,neutral,41.096983363061454,11.477421102159166,regional natural gas,0.0561,527.9779369144793,0.0,False,Fig 3 comparator
+e-diesel,India,neutral,47.32981979883606,19.81674414158625,wholesale diesel $0.55/L,0.0741,371.2965675742215,0.0,False,Fig 3 comparator
+e-kerosene,India,neutral,47.32981979883606,19.81674414158625,wholesale jet $0.52/L,0.0715,384.7982609405569,0.0,False,Fig 3 comparator
+ethanol,India,neutral,45.789009174477826,19.81674414158625,vs diesel (fuel use),0.0741,350.5029019283614,0.0,False,Fig 3 comparator
+hydrogen,Indonesia,neutral,34.74425560785413,9.555555555555555,"grey H2 (SMR, regional gas)",0.08,314.85875065373216,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Indonesia,neutral,45.56161682225286,19.782059732912177,"grey NH3 (SMR, regional gas)",0.129,199.84152782434637,0.0,False,Fig 3 comparator
+methanol,Indonesia,neutral,50.995465332882205,15.1,fossil MeOH $300/t,0.0741,484.4192352615682,0.0,False,Fig 3 comparator
+e-methane,Indonesia,neutral,50.74801593840108,4.753668606950431,regional natural gas,0.0561,819.8635887959119,0.0,False,Fig 3 comparator
+e-diesel,Indonesia,neutral,58.38568263364417,20.273027570667733,wholesale diesel $0.55/L,0.0741,514.3408240617604,0.0,False,Fig 3 comparator
+e-kerosene,Indonesia,neutral,58.38568263364417,20.273027570667733,wholesale jet $0.52/L,0.0715,533.0441267549154,0.0,False,Fig 3 comparator
+ethanol,Indonesia,neutral,56.43686500157611,20.273027570667733,vs diesel (fuel use),0.0741,488.04099097042337,0.0,False,Fig 3 comparator
+hydrogen,Iran,neutral,44.41535797907184,6.083333333333334,"grey H2 (SMR, regional gas)",0.08,479.15030807173133,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Iran,neutral,58.853985636745406,13.6842210580797,"grey NH3 (SMR, regional gas)",0.129,350.15321378810626,0.0,False,Fig 3 comparator
+methanol,Iran,neutral,64.49021715042339,15.1,fossil MeOH $300/t,0.0741,666.5346444051739,0.0,False,Fig 3 comparator
+e-methane,Iran,neutral,64.35965448039724,1.9589683612669273,regional natural gas,0.0561,1112.3116955281696,0.0,False,Fig 3 comparator
+e-diesel,Iran,neutral,74.02745291574759,15.4,wholesale diesel $0.55/L,0.0741,791.1936965687934,0.0,False,Fig 3 comparator
+e-kerosene,Iran,neutral,74.02745291574759,14.8,wholesale jet $0.52/L,0.0715,828.3559848356307,0.0,False,Fig 3 comparator
+ethanol,Iran,neutral,71.4796794547862,15.4,vs diesel (fuel use),0.0741,756.8107888635114,0.0,False,Fig 3 comparator
+hydrogen,Iraq,neutral,50.93724900200459,6.083333333333334,"grey H2 (SMR, regional gas)",0.08,560.6739458583907,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Iraq,neutral,66.62654122682818,13.6842210580797,"grey NH3 (SMR, regional gas)",0.129,410.40558270347657,0.0,False,Fig 3 comparator
+methanol,Iraq,neutral,72.64172637300268,15.1,fossil MeOH $300/t,0.0741,776.5415165047596,0.0,False,Fig 3 comparator
+e-methane,Iraq,neutral,72.71932495929516,1.9589683612669273,regional natural gas,0.0561,1261.3254295548707,0.0,False,Fig 3 comparator
+e-diesel,Iraq,neutral,83.36481257658559,15.4,wholesale diesel $0.55/L,0.0741,917.2039484019648,0.0,False,Fig 3 comparator
+e-kerosene,Iraq,neutral,83.36481257658559,14.8,wholesale jet $0.52/L,0.0715,958.9484276445538,0.0,False,Fig 3 comparator
+ethanol,Iraq,neutral,80.54745311081952,15.4,vs diesel (fuel use),0.0741,879.1829029800205,0.0,False,Fig 3 comparator
+hydrogen,Ireland,neutral,44.78379792044488,20.446282862022073,"grey H2 (SMR, regional gas)",0.08,304.2189382302851,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Ireland,neutral,57.31593588452167,29.771120166913796,"grey NH3 (SMR, regional gas)",0.129,213.52570323727033,80.0,False,Fig 3 comparator
+methanol,Ireland,neutral,63.394790252245684,15.1,fossil MeOH $300/t,0.0741,651.7515553609404,80.0,False,Fig 3 comparator
+e-methane,Ireland,neutral,63.50810175870778,16.07981004841927,regional natural gas,0.0561,845.4240946575493,80.0,False,Fig 3 comparator
+e-diesel,Ireland,neutral,72.60788160936245,21.488595860902635,wholesale diesel $0.55/L,0.0741,689.8689034879867,80.0,False,Fig 3 comparator
+e-kerosene,Ireland,neutral,72.60788160936245,21.488595860902635,wholesale jet $0.52/L,0.0715,714.9550454330044,80.0,False,Fig 3 comparator
+ethanol,Ireland,neutral,70.24297567537319,21.488595860902635,vs diesel (fuel use),0.0741,657.953843650075,80.0,False,Fig 3 comparator
+hydrogen,Israel,neutral,56.86682852999288,10.25,"grey H2 (SMR, regional gas)",0.08,582.710356624911,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Israel,neutral,70.84532859253582,26.310891954722734,"grey NH3 (SMR, regional gas)",0.129,345.22819099079913,0.0,False,Fig 3 comparator
+methanol,Israel,neutral,78.16099695831252,15.1,fossil MeOH $300/t,0.0741,851.025599977227,0.0,False,Fig 3 comparator
+e-methane,Israel,neutral,78.718098278914,5.876905083800782,regional natural gas,0.0561,1298.4169910002356,0.0,False,Fig 3 comparator
+e-diesel,Israel,neutral,89.44389860182287,21.235143908114267,wholesale diesel $0.55/L,0.0741,920.4960147599002,0.0,False,Fig 3 comparator
+e-kerosene,Israel,neutral,89.44389860182287,21.235143908114267,wholesale jet $0.52/L,0.0715,953.9685971148057,0.0,False,Fig 3 comparator
+ethanol,Israel,neutral,86.64343750613637,21.235143908114267,vs diesel (fuel use),0.0741,882.7030175171674,0.0,False,Fig 3 comparator
+hydrogen,Italy,neutral,52.81457048706109,20.46626468742825,"grey H2 (SMR, regional gas)",0.08,404.3538224954105,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Italy,neutral,67.22954422124654,35.60160068604536,"grey NH3 (SMR, regional gas)",0.129,245.17785686202467,80.0,False,Fig 3 comparator
+methanol,Italy,neutral,73.3170754279491,15.1,fossil MeOH $300/t,0.0741,785.6555388387194,80.0,False,Fig 3 comparator
+e-methane,Italy,neutral,73.73272262963263,16.099346618454433,regional natural gas,0.0561,1027.3329057251017,80.0,False,Fig 3 comparator
+e-diesel,Italy,neutral,84.04697932128117,21.233084675376706,wholesale diesel $0.55/L,0.0741,847.690885909642,80.0,False,Fig 3 comparator
+e-kerosene,Italy,neutral,84.04697932128117,21.233084675376706,wholesale jet $0.52/L,0.0715,878.516009033629,80.0,False,Fig 3 comparator
+ethanol,Italy,neutral,81.31754751312725,21.233084675376706,vs diesel (fuel use),0.0741,810.856448552639,80.0,False,Fig 3 comparator
+hydrogen,Ivory Coast,neutral,36.37588513316962,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,197.73005286586547,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Ivory Coast,neutral,48.629904220610456,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,120.76564013936564,0.0,False,Fig 3 comparator
+methanol,Ivory Coast,neutral,55.17782917149508,15.1,fossil MeOH $300/t,0.0741,540.8613923278688,0.0,False,Fig 3 comparator
+e-methane,Ivory Coast,neutral,54.621674340829216,14.109007025886783,regional natural gas,0.0561,722.1509325301682,0.0,False,Fig 3 comparator
+e-diesel,Ivory Coast,neutral,63.19524622640169,15.4,wholesale diesel $0.55/L,0.0741,645.0100705317368,0.0,False,Fig 3 comparator
+e-kerosene,Ivory Coast,neutral,63.19524622640169,14.8,wholesale jet $0.52/L,0.0715,676.8565905790448,0.0,False,Fig 3 comparator
+ethanol,Ivory Coast,neutral,61.017423025469434,15.4,vs diesel (fuel use),0.0741,615.6197439334607,0.0,False,Fig 3 comparator
+hydrogen,Japan,neutral,60.05718831123406,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,493.7463425916709,10.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Japan,neutral,76.5086752186262,34.93797645943308,"grey NH3 (SMR, regional gas)",0.129,322.253478753435,10.0,False,Fig 3 comparator
+methanol,Japan,neutral,82.96728005174955,15.1,fossil MeOH $300/t,0.0741,915.8877199966203,10.0,False,Fig 3 comparator
+e-methane,Japan,neutral,83.48709473359621,14.109007025886783,regional natural gas,0.0561,1236.68605539589,10.0,False,Fig 3 comparator
+e-diesel,Japan,neutral,95.11448924573568,20.809344273466102,wholesale diesel $0.55/L,0.0741,1002.7684881547851,10.0,False,Fig 3 comparator
+e-kerosene,Japan,neutral,95.11448924573568,20.809344273466102,wholesale jet $0.52/L,0.0715,1039.232796814959,10.0,False,Fig 3 comparator
+ethanol,Japan,neutral,92.03941931776896,20.809344273466102,vs diesel (fuel use),0.0741,961.2695687490263,10.0,False,Fig 3 comparator
+hydrogen,Jordan,neutral,35.225147978514094,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,183.34583843267143,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Jordan,neutral,46.20982456334111,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,102.00533271867303,0.0,False,Fig 3 comparator
+methanol,Jordan,neutral,51.69680031600444,15.1,fossil MeOH $300/t,0.0741,493.8839448853501,0.0,False,Fig 3 comparator
+e-methane,Jordan,neutral,51.473132044906436,14.109007025886783,regional natural gas,0.0561,666.0271839397443,0.0,False,Fig 3 comparator
+e-diesel,Jordan,neutral,59.226519132564135,15.4,wholesale diesel $0.55/L,0.0741,591.4510004394621,0.0,False,Fig 3 comparator
+e-kerosene,Jordan,neutral,59.226519132564135,14.8,wholesale jet $0.52/L,0.0715,621.3499179379601,0.0,False,Fig 3 comparator
+ethanol,Jordan,neutral,57.22857746416294,15.4,vs diesel (fuel use),0.0741,564.4882248874891,0.0,False,Fig 3 comparator
+hydrogen,Kazakhstan,neutral,27.005253773497003,7.472222222222222,"grey H2 (SMR, regional gas)",0.08,244.16289439093475,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Kazakhstan,neutral,35.905992429016194,15.780840114969788,"grey NH3 (SMR, regional gas)",0.129,156.00893266702641,0.0,False,Fig 3 comparator
+methanol,Kazakhstan,neutral,41.263319622832114,15.1,fossil MeOH $300/t,0.0741,353.0812364754671,0.0,False,Fig 3 comparator
+e-methane,Kazakhstan,neutral,40.778155825854284,3.0156860446672242,regional natural gas,0.0561,673.1278035862221,0.0,False,Fig 3 comparator
+e-diesel,Kazakhstan,neutral,47.193081731863245,15.4,wholesale diesel $0.55/L,0.0741,429.0564336283839,0.0,False,Fig 3 comparator
+e-kerosene,Kazakhstan,neutral,47.193081731863245,14.8,wholesale jet $0.52/L,0.0715,453.0500941519336,0.0,False,Fig 3 comparator
+ethanol,Kazakhstan,neutral,45.59137063760897,15.4,vs diesel (fuel use),0.0741,407.44089929296854,0.0,False,Fig 3 comparator
+hydrogen,Kenya,neutral,42.80444276685975,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,278.0870232869921,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Kenya,neutral,58.47237558787594,26.310891954722734,"grey NH3 (SMR, regional gas)",0.129,249.31382661359072,0.0,False,Fig 3 comparator
+methanol,Kenya,neutral,64.86315973475682,15.1,fossil MeOH $300/t,0.0741,671.5676077565023,0.0,False,Fig 3 comparator
+e-methane,Kenya,neutral,64.27347010923827,14.109007025886783,regional natural gas,0.0561,894.1972029117914,0.0,False,Fig 3 comparator
+e-diesel,Kenya,neutral,74.4967662931962,21.239609404202202,wholesale diesel $0.55/L,0.0741,718.7200659783266,0.0,False,Fig 3 comparator
+e-kerosene,Kenya,neutral,74.4967662931962,21.239609404202202,wholesale jet $0.52/L,0.0715,744.8553411048113,0.0,False,Fig 3 comparator
+ethanol,Kenya,neutral,71.82548996432021,21.239609404202202,vs diesel (fuel use),0.0741,682.6704529030771,0.0,False,Fig 3 comparator
+hydrogen,Kyrgyzstan,neutral,56.80889912541186,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,453.14272776889356,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Kyrgyzstan,neutral,72.81756148745848,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,308.26685926221853,0.0,False,Fig 3 comparator
+methanol,Kyrgyzstan,neutral,79.26358372634749,15.1,fossil MeOH $300/t,0.0741,865.9053134459851,0.0,False,Fig 3 comparator
+e-methane,Kyrgyzstan,neutral,79.65853208751508,14.109007025886783,regional natural gas,0.0561,1168.4407319363333,0.0,False,Fig 3 comparator
+e-diesel,Kyrgyzstan,neutral,90.90830407461895,15.4,wholesale diesel $0.55/L,0.0741,1019.0054530987712,0.0,False,Fig 3 comparator
+e-kerosene,Kyrgyzstan,neutral,90.90830407461895,14.8,wholesale jet $0.52/L,0.0715,1064.451805239426,0.0,False,Fig 3 comparator
+ethanol,Kyrgyzstan,neutral,87.91934299504041,15.4,vs diesel (fuel use),0.0741,978.668596424297,0.0,False,Fig 3 comparator
+hydrogen,Laos,neutral,71.71882815546579,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,639.5168406445675,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Laos,neutral,92.62396242900027,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,461.80485105711614,0.0,False,Fig 3 comparator
+methanol,Laos,neutral,98.49732475483253,15.1,fossil MeOH $300/t,0.0741,1125.469969700844,0.0,False,Fig 3 comparator
+e-methane,Laos,neutral,99.26904745379177,14.109007025886783,regional natural gas,0.0561,1518.0042857024064,0.0,False,Fig 3 comparator
+e-diesel,Laos,neutral,113.15350000092563,15.4,wholesale diesel $0.55/L,0.0741,1319.210526328281,0.0,False,Fig 3 comparator
+e-kerosene,Laos,neutral,113.15350000092563,14.8,wholesale jet $0.52/L,0.0715,1375.5734265863725,0.0,False,Fig 3 comparator
+ethanol,Laos,neutral,109.39614046840315,15.4,vs diesel (fuel use),0.0741,1268.5039199514595,0.0,False,Fig 3 comparator
+hydrogen,Latvia,neutral,35.33558973536093,21.67951046256139,"grey H2 (SMR, regional gas)",0.08,170.7009909099942,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Latvia,neutral,46.7275702404155,39.588920339116555,"grey NH3 (SMR, regional gas)",0.129,55.33837132789882,80.0,True,Fig 3 comparator
+methanol,Latvia,neutral,51.5858867204335,15.1,fossil MeOH $300/t,0.0741,492.38713522852225,80.0,False,Fig 3 comparator
+e-methane,Latvia,neutral,51.404363462362994,17.28555761639598,regional natural gas,0.0561,608.1783573256154,80.0,False,Fig 3 comparator
+e-diesel,Latvia,neutral,59.16272513819898,15.4,wholesale diesel $0.55/L,0.0741,590.5900828366935,80.0,False,Fig 3 comparator
+e-kerosene,Latvia,neutral,59.16272513819898,14.8,wholesale jet $0.52/L,0.0715,620.4576942405453,80.0,False,Fig 3 comparator
+ethanol,Latvia,neutral,57.14566438599385,15.4,vs diesel (fuel use),0.0741,563.3692899594312,80.0,False,Fig 3 comparator
+hydrogen,Liberia,neutral,62.45598094202708,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,523.7312504765837,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Liberia,neutral,82.2938263712477,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,381.72627696601097,0.0,False,Fig 3 comparator
+methanol,Liberia,neutral,89.67623048334033,15.1,fossil MeOH $300/t,0.0741,1006.4268621233514,0.0,False,Fig 3 comparator
+e-methane,Liberia,neutral,89.64038661529905,14.109007025886783,regional natural gas,0.0561,1346.3704026633204,0.0,False,Fig 3 comparator
+e-diesel,Liberia,neutral,102.90825289923674,15.4,wholesale diesel $0.55/L,0.0741,1180.9480823108872,0.0,False,Fig 3 comparator
+e-kerosene,Liberia,neutral,102.90825289923674,14.8,wholesale jet $0.52/L,0.0715,1232.2832573319827,0.0,False,Fig 3 comparator
+ethanol,Liberia,neutral,99.41763350285362,15.4,vs diesel (fuel use),0.0741,1133.8412078657707,0.0,False,Fig 3 comparator
+hydrogen,Libya,neutral,27.14987626423222,6.083333333333334,"grey H2 (SMR, regional gas)",0.08,263.331786636236,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Libya,neutral,37.4590192383447,13.6842210580797,"grey NH3 (SMR, regional gas)",0.129,184.30076108732558,0.0,False,Fig 3 comparator
+methanol,Libya,neutral,45.69145526509547,15.1,fossil MeOH $300/t,0.0741,412.84015202557987,0.0,False,Fig 3 comparator
+e-methane,Libya,neutral,44.45827709387059,1.9589683612669273,regional natural gas,0.0561,757.563435518782,0.0,False,Fig 3 comparator
+e-diesel,Libya,neutral,52.14157193345494,15.4,wholesale diesel $0.55/L,0.0741,495.8376779143717,0.0,False,Fig 3 comparator
+e-kerosene,Libya,neutral,52.14157193345494,14.8,wholesale jet $0.52/L,0.0715,522.2597473210482,0.0,False,Fig 3 comparator
+ethanol,Libya,neutral,50.3249370343848,15.4,vs diesel (fuel use),0.0741,471.3216873736141,0.0,False,Fig 3 comparator
+hydrogen,Lithuania,neutral,42.21338091797259,22.210354758167785,"grey H2 (SMR, regional gas)",0.08,250.0378269975601,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Lithuania,neutral,55.22643249882434,40.42882844045856,"grey NH3 (SMR, regional gas)",0.129,114.71010897957967,80.0,False,Fig 3 comparator
+methanol,Lithuania,neutral,60.29138146403462,15.1,fossil MeOH $300/t,0.0741,609.8701951961488,80.0,False,Fig 3 comparator
+e-methane,Lithuania,neutral,60.304718606040915,17.804573099119366,regional natural gas,0.0561,757.5783512820241,80.0,False,Fig 3 comparator
+e-diesel,Lithuania,neutral,69.15345753135857,15.4,wholesale diesel $0.55/L,0.0741,725.4177804501832,80.0,False,Fig 3 comparator
+e-kerosene,Lithuania,neutral,69.15345753135857,14.8,wholesale jet $0.52/L,0.0715,760.1882172217983,80.0,False,Fig 3 comparator
+ethanol,Lithuania,neutral,66.835178399308,15.4,vs diesel (fuel use),0.0741,694.1319622038867,80.0,False,Fig 3 comparator
+hydrogen,Madagascar,neutral,42.556557367022535,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,274.98845578902694,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Madagascar,neutral,57.645932872317275,26.310891954722734,"grey NH3 (SMR, regional gas)",0.129,242.9072939348414,0.0,False,Fig 3 comparator
+methanol,Madagascar,neutral,65.85969519613742,15.1,fossil MeOH $300/t,0.0741,685.0161295025293,0.0,False,Fig 3 comparator
+e-methane,Madagascar,neutral,65.20640841174423,14.109007025886783,regional natural gas,0.0561,910.8271191774948,0.0,False,Fig 3 comparator
+e-diesel,Madagascar,neutral,75.6055574630117,21.229598276430714,wholesale diesel $0.55/L,0.0741,733.8186125044668,0.0,False,Fig 3 comparator
+e-kerosene,Madagascar,neutral,75.6055574630117,21.229598276430714,wholesale jet $0.52/L,0.0715,760.5029256864475,0.0,False,Fig 3 comparator
+ethanol,Madagascar,neutral,72.94508051109818,21.229598276430714,vs diesel (fuel use),0.0741,697.9147400090077,0.0,False,Fig 3 comparator
+hydrogen,Malawi,neutral,56.04820003546802,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,443.63398914459555,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Malawi,neutral,74.58989997677193,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,322.005917318912,0.0,False,Fig 3 comparator
+methanol,Malawi,neutral,81.09134765981493,15.1,fossil MeOH $300/t,0.0741,890.5714933848169,0.0,False,Fig 3 comparator
+e-methane,Malawi,neutral,81.0060315219709,14.109007025886783,regional natural gas,0.0561,1192.4603296984692,0.0,False,Fig 3 comparator
+e-diesel,Malawi,neutral,93.1778941097863,15.4,wholesale diesel $0.55/L,0.0741,1049.6341985126355,0.0,False,Fig 3 comparator
+e-kerosene,Malawi,neutral,93.1778941097863,14.8,wholesale jet $0.52/L,0.0715,1096.1943232137944,0.0,False,Fig 3 comparator
+ethanol,Malawi,neutral,89.93178605608213,15.4,vs diesel (fuel use),0.0741,1005.82707228181,0.0,False,Fig 3 comparator
+hydrogen,Malaysia,neutral,35.145020118903766,9.555555555555555,"grey H2 (SMR, regional gas)",0.08,319.8683070418526,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Malaysia,neutral,45.94199462902088,18.831886809143413,"grey NH3 (SMR, regional gas)",0.129,210.15587457269356,0.0,False,Fig 3 comparator
+methanol,Malaysia,neutral,51.42933081098878,15.1,fossil MeOH $300/t,0.0741,490.2743699188769,0.0,False,Fig 3 comparator
+e-methane,Malaysia,neutral,51.19716546354487,4.753668606950431,regional natural gas,0.0561,827.8698191906317,0.0,False,Fig 3 comparator
+e-diesel,Malaysia,neutral,58.868705678525785,15.4,wholesale diesel $0.55/L,0.0741,586.6222088869877,0.0,False,Fig 3 comparator
+e-kerosene,Malaysia,neutral,58.868705678525785,14.8,wholesale jet $0.52/L,0.0715,616.3455339653957,0.0,False,Fig 3 comparator
+ethanol,Malaysia,neutral,56.9162486912295,15.4,vs diesel (fuel use),0.0741,560.2732616900067,0.0,False,Fig 3 comparator
+hydrogen,Mali,neutral,43.85641223162554,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,291.2366415965645,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Mali,neutral,60.587472480362855,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,213.4599677343455,0.0,False,Fig 3 comparator
+methanol,Mali,neutral,67.68286661118239,15.1,fossil MeOH $300/t,0.0741,709.6203321347151,0.0,False,Fig 3 comparator
+e-methane,Mali,neutral,67.03979887599527,14.109007025886783,regional natural gas,0.0561,943.507876116016,0.0,False,Fig 3 comparator
+e-diesel,Mali,neutral,77.79489874813653,15.4,wholesale diesel $0.55/L,0.0741,842.0364203527198,0.0,False,Fig 3 comparator
+e-kerosene,Mali,neutral,77.79489874813653,14.8,wholesale jet $0.52/L,0.0715,881.0475349389726,0.0,False,Fig 3 comparator
+ethanol,Mali,neutral,74.967780992121,15.4,vs diesel (fuel use),0.0741,803.8836841041972,0.0,False,Fig 3 comparator
+hydrogen,Mauritania,neutral,37.3289228385807,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,209.64302418350402,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Mauritania,neutral,51.47013337553135,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,142.78292041007023,0.0,False,Fig 3 comparator
+methanol,Mauritania,neutral,57.8753824392127,15.1,fossil MeOH $300/t,0.0741,577.2656199623846,0.0,False,Fig 3 comparator
+e-methane,Mauritania,neutral,57.22318040906662,14.109007025886783,regional natural gas,0.0561,768.5235897180007,0.0,False,Fig 3 comparator
+e-diesel,Mauritania,neutral,66.46338319557432,15.4,wholesale diesel $0.55/L,0.0741,689.1144830711785,0.0,False,Fig 3 comparator
+e-kerosene,Mauritania,neutral,66.46338319557432,14.8,wholesale jet $0.52/L,0.0715,722.5647999381025,0.0,False,Fig 3 comparator
+ethanol,Mauritania,neutral,64.06119451468568,15.4,vs diesel (fuel use),0.0741,656.6962822494694,0.0,False,Fig 3 comparator
+hydrogen,Mexico,neutral,27.94829756376349,8.870707721730412,"grey H2 (SMR, regional gas)",0.08,238.46987302541348,4.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Mexico,neutral,37.39023672477247,18.036132604046777,"grey NH3 (SMR, regional gas)",0.129,150.03181488934646,4.0,False,Fig 3 comparator
+methanol,Mexico,neutral,42.674658589286096,15.1,fossil MeOH $300/t,0.0741,372.1276462791646,4.0,False,Fig 3 comparator
+e-methane,Mexico,neutral,42.317848036270505,4.51295535805659,regional natural gas,0.0561,673.8840049592499,4.0,False,Fig 3 comparator
+e-diesel,Mexico,neutral,48.8767728860237,15.4,wholesale diesel $0.55/L,0.0741,451.7783115522767,4.0,False,Fig 3 comparator
+e-kerosene,Mexico,neutral,48.8767728860237,14.8,wholesale jet $0.52/L,0.0715,476.59822218214975,4.0,False,Fig 3 comparator
+ethanol,Mexico,neutral,47.20347960261669,15.4,vs diesel (fuel use),0.0741,429.19675577080557,4.0,False,Fig 3 comparator
+hydrogen,Mongolia,neutral,35.20767074695901,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,183.12737303823286,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Mongolia,neutral,46.949294192864684,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,107.73765542815812,0.0,False,Fig 3 comparator
+methanol,Mongolia,neutral,52.49505620688916,15.1,fossil MeOH $300/t,0.0741,504.65662897286313,0.0,False,Fig 3 comparator
+e-methane,Mongolia,neutral,52.11669725437628,14.109007025886783,regional natural gas,0.0561,677.49893455418,0.0,False,Fig 3 comparator
+e-diesel,Mongolia,neutral,60.1626065945262,15.4,wholesale diesel $0.55/L,0.0741,604.0837597102052,0.0,False,Fig 3 comparator
+e-kerosene,Mongolia,neutral,60.1626065945262,14.8,wholesale jet $0.52/L,0.0715,634.4420502730937,0.0,False,Fig 3 comparator
+ethanol,Mongolia,neutral,58.09802213082294,15.4,vs diesel (fuel use),0.0741,576.2216211986902,0.0,False,Fig 3 comparator
+hydrogen,Morocco,neutral,25.88102884274125,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,66.5443492355109,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Morocco,neutral,35.59253854434618,26.28402312206456,"grey NH3 (SMR, regional gas)",0.129,72.15903428125289,0.0,False,Fig 3 comparator
+methanol,Morocco,neutral,43.142442926123266,15.1,fossil MeOH $300/t,0.0741,378.4405253188025,0.0,False,Fig 3 comparator
+e-methane,Morocco,neutral,42.0234827945113,14.109007025886783,regional natural gas,0.0561,497.5842382999023,0.0,False,Fig 3 comparator
+e-diesel,Morocco,neutral,49.22546362021617,20.858013969556986,wholesale diesel $0.55/L,0.0741,382.8265809805558,0.0,False,Fig 3 comparator
+e-kerosene,Morocco,neutral,49.22546362021617,20.858013969556986,wholesale jet $0.52/L,0.0715,396.7475475616669,0.0,False,Fig 3 comparator
+ethanol,Morocco,neutral,47.50429681713809,20.858013969556986,vs diesel (fuel use),0.0741,359.59895880676254,0.0,False,Fig 3 comparator
+hydrogen,Mozambique,neutral,59.86568751236477,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,491.35258260580486,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Mozambique,neutral,80.09349121448156,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,364.66941528565326,0.0,False,Fig 3 comparator
+methanol,Mozambique,neutral,86.60340500527154,15.1,fossil MeOH $300/t,0.0741,964.9582321898994,0.0,False,Fig 3 comparator
+e-methane,Mozambique,neutral,86.53501429748394,14.109007025886783,regional natural gas,0.0561,1291.0161723992364,0.0,False,Fig 3 comparator
+e-diesel,Mozambique,neutral,99.58051799100463,15.4,wholesale diesel $0.55/L,0.0741,1136.0393790958788,0.0,False,Fig 3 comparator
+e-kerosene,Mozambique,neutral,99.58051799100463,14.8,wholesale jet $0.52/L,0.0715,1185.7415103637013,0.0,False,Fig 3 comparator
+ethanol,Mozambique,neutral,96.07716238522008,15.4,vs diesel (fuel use),0.0741,1088.7606259813774,0.0,False,Fig 3 comparator
+hydrogen,Myanmar,neutral,73.39575176915983,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,660.4783858157431,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Myanmar,neutral,95.44485704760783,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,483.6722512013608,0.0,False,Fig 3 comparator
+methanol,Myanmar,neutral,102.18583593601224,15.1,fossil MeOH $300/t,0.0741,1175.24744852918,0.0,False,Fig 3 comparator
+e-methane,Myanmar,neutral,102.71180910566937,14.109007025886783,regional natural gas,0.0561,1579.3725860923814,0.0,False,Fig 3 comparator
+e-diesel,Myanmar,neutral,117.34150962679587,15.4,wholesale diesel $0.55/L,0.0741,1375.7288748555447,0.0,False,Fig 3 comparator
+e-kerosene,Myanmar,neutral,117.34150962679587,14.8,wholesale jet $0.52/L,0.0715,1434.1469877873549,0.0,False,Fig 3 comparator
+ethanol,Myanmar,neutral,113.4246592449689,15.4,vs diesel (fuel use),0.0741,1322.8698953437097,0.0,False,Fig 3 comparator
+hydrogen,Namibia,neutral,33.61749293821223,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,163.2501504288981,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Namibia,neutral,45.869659602483814,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,99.36839503760874,0.0,False,Fig 3 comparator
+methanol,Namibia,neutral,51.593178056955345,15.1,fossil MeOH $300/t,0.0741,492.4855338320559,0.0,False,Fig 3 comparator
+e-methane,Namibia,neutral,51.00821195582532,14.109007025886783,regional natural gas,0.0561,657.7398383233251,0.0,False,Fig 3 comparator
+e-diesel,Namibia,neutral,59.203672945707,15.4,wholesale diesel $0.55/L,0.0741,591.142684827355,0.0,False,Fig 3 comparator
+e-kerosene,Namibia,neutral,59.203672945707,14.8,wholesale jet $0.52/L,0.0715,621.030390849049,0.0,False,Fig 3 comparator
+ethanol,Namibia,neutral,57.08662123590917,15.4,vs diesel (fuel use),0.0741,562.5724863145638,0.0,False,Fig 3 comparator
+hydrogen,Nepal,neutral,69.9872993717745,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,617.8727308484264,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Nepal,neutral,89.04556246365007,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,434.06531644199833,0.0,False,Fig 3 comparator
+methanol,Nepal,neutral,96.12248335669405,15.1,fossil MeOH $300/t,0.0741,1093.4208280255607,0.0,False,Fig 3 comparator
+e-methane,Nepal,neutral,96.85650699999476,14.109007025886783,regional natural gas,0.0561,1474.9999995384667,0.0,False,Fig 3 comparator
+e-diesel,Nepal,neutral,110.23902807679512,15.4,wholesale diesel $0.55/L,0.0741,1279.8789214142391,0.0,False,Fig 3 comparator
+e-kerosene,Nepal,neutral,110.23902807679512,14.8,wholesale jet $0.52/L,0.0715,1334.8115814936382,0.0,False,Fig 3 comparator
+ethanol,Nepal,neutral,106.66987075962808,15.4,vs diesel (fuel use),0.0741,1231.7121560003789,0.0,False,Fig 3 comparator
+hydrogen,Netherlands,neutral,41.92144507090232,18.236820723383644,"grey H2 (SMR, regional gas)",0.08,296.0578043439835,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Netherlands,neutral,53.60810089699231,29.771120166913796,"grey NH3 (SMR, regional gas)",0.129,184.78279635719778,80.0,False,Fig 3 comparator
+methanol,Netherlands,neutral,59.72403606632486,15.1,fossil MeOH $300/t,0.0741,602.2137120961519,80.0,False,Fig 3 comparator
+e-methane,Netherlands,neutral,59.756231249199516,14.12336577689386,regional natural gas,0.0561,813.4200618949315,80.0,False,Fig 3 comparator
+e-diesel,Netherlands,neutral,68.36028994637276,21.07147037994958,wholesale diesel $0.55/L,0.0741,638.1757026507852,80.0,False,Fig 3 comparator
+e-kerosene,Netherlands,neutral,68.36028994637276,21.07147037994958,wholesale jet $0.52/L,0.0715,661.3820918380865,80.0,False,Fig 3 comparator
+ethanol,Netherlands,neutral,66.14291777112344,21.07147037994958,vs diesel (fuel use),0.0741,608.2516517027511,80.0,False,Fig 3 comparator
+hydrogen,New Zealand,neutral,38.30836977432471,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,221.88611088030413,35.0,False,"grey H2 (SMR, regional gas)"
+ammonia,New Zealand,neutral,49.48660582554639,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,127.40673785204731,35.0,False,Fig 3 comparator
+methanol,New Zealand,neutral,56.639787497633755,15.1,fossil MeOH $300/t,0.0741,560.5909243945176,35.0,False,Fig 3 comparator
+e-methane,New Zealand,neutral,56.27474655247323,14.109007025886783,regional natural gas,0.0561,751.6174603669599,35.0,False,Fig 3 comparator
+e-diesel,New Zealand,neutral,64.71564973118774,15.4,wholesale diesel $0.55/L,0.0741,665.5283364532759,35.0,False,Fig 3 comparator
+e-kerosene,New Zealand,neutral,64.71564973118774,14.8,wholesale jet $0.52/L,0.0715,698.1209752613671,35.0,False,Fig 3 comparator
+ethanol,New Zealand,neutral,62.60824876664785,15.4,vs diesel (fuel use),0.0741,637.0883774176498,35.0,False,Fig 3 comparator
+hydrogen,Nicaragua,neutral,53.81593649095406,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,415.7306948381709,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Nicaragua,neutral,70.87190782170609,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,293.18427270599847,0.0,False,Fig 3 comparator
+methanol,Nicaragua,neutral,76.49992307287297,15.1,fossil MeOH $300/t,0.0741,828.608948351862,0.0,False,Fig 3 comparator
+e-methane,Nicaragua,neutral,76.62387841577504,14.109007025886783,regional natural gas,0.0561,1114.3470835987212,0.0,False,Fig 3 comparator
+e-diesel,Nicaragua,neutral,87.86766933064474,15.4,wholesale diesel $0.55/L,0.0741,977.9712460275944,0.0,False,Fig 3 comparator
+e-kerosene,Nicaragua,neutral,87.86766933064474,14.8,wholesale jet $0.52/L,0.0715,1021.9254451838427,0.0,False,Fig 3 comparator
+ethanol,Nicaragua,neutral,84.87022811147895,15.4,vs diesel (fuel use),0.0741,937.5199475233326,0.0,False,Fig 3 comparator
+hydrogen,Niger,neutral,44.71251062633422,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,301.937871530423,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Niger,neutral,61.917013061652824,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,223.76648386837624,0.0,False,Fig 3 comparator
+methanol,Niger,neutral,68.7322723878458,15.1,fossil MeOH $300/t,0.0741,723.782353412224,0.0,False,Fig 3 comparator
+e-methane,Niger,neutral,67.96057847239956,14.109007025886783,regional natural gas,0.0561,959.9210596526342,0.0,False,Fig 3 comparator
+e-diesel,Niger,neutral,78.99380148004042,15.4,wholesale diesel $0.55/L,0.0741,858.2159444000057,0.0,False,Fig 3 comparator
+e-kerosene,Niger,neutral,78.99380148004042,14.8,wholesale jet $0.52/L,0.0715,897.8154053152507,0.0,False,Fig 3 comparator
+ethanol,Niger,neutral,76.10431591092022,15.4,vs diesel (fuel use),0.0741,819.2215372593822,0.0,False,Fig 3 comparator
+hydrogen,Nigeria,neutral,42.63800178436614,7.472222222222222,"grey H2 (SMR, regional gas)",0.08,439.57224452679895,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Nigeria,neutral,57.62835641394075,15.780840114969788,"grey NH3 (SMR, regional gas)",0.129,324.39935115481364,0.0,False,Fig 3 comparator
+methanol,Nigeria,neutral,63.50015315829725,15.1,fossil MeOH $300/t,0.0741,653.1734569270884,0.0,False,Fig 3 comparator
+e-methane,Nigeria,neutral,63.117719253574506,3.0156860446672242,regional natural gas,0.0561,1071.3374903548536,0.0,False,Fig 3 comparator
+e-diesel,Nigeria,neutral,72.95012921838358,15.4,wholesale diesel $0.55/L,0.0741,776.6549152278486,0.0,False,Fig 3 comparator
+e-kerosene,Nigeria,neutral,72.95012921838358,14.8,wholesale jet $0.52/L,0.0715,813.2885205368334,0.0,False,Fig 3 comparator
+ethanol,Nigeria,neutral,70.35792137868866,15.4,vs diesel (fuel use),0.0741,741.6723532886459,0.0,False,Fig 3 comparator
+hydrogen,North Korea,neutral,64.40376321439237,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,548.0785288811499,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,North Korea,neutral,84.32890284428069,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,397.5020635786698,0.0,False,Fig 3 comparator
+methanol,North Korea,neutral,90.09437072828757,15.1,fossil MeOH $300/t,0.0741,1012.0697804087392,0.0,False,Fig 3 comparator
+e-methane,North Korea,neutral,90.50871701868199,14.109007025886783,regional natural gas,0.0561,1361.8486629731767,0.0,False,Fig 3 comparator
+e-diesel,North Korea,neutral,103.52985936018992,15.4,wholesale diesel $0.55/L,0.0741,1189.3368334708491,0.0,False,Fig 3 comparator
+e-kerosene,North Korea,neutral,103.52985936018992,14.8,wholesale jet $0.52/L,0.0715,1240.9770539886704,0.0,False,Fig 3 comparator
+ethanol,North Korea,neutral,100.02148694542119,15.4,vs diesel (fuel use),0.0741,1141.9903771311901,0.0,False,Fig 3 comparator
+hydrogen,Norway,neutral,36.33382143393949,18.286501873511142,"grey H2 (SMR, regional gas)",0.08,225.59149450535435,90.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Norway,neutral,46.94434091044606,29.779708687278088,"grey NH3 (SMR, regional gas)",0.129,133.05916452068195,90.0,False,Fig 3 comparator
+methanol,Norway,neutral,52.820081910706065,15.1,fossil MeOH $300/t,0.0741,509.042940765264,90.0,False,Fig 3 comparator
+e-methane,Norway,neutral,52.65788944022272,14.181616983672349,regional natural gas,0.0561,685.8515589402919,90.0,False,Fig 3 comparator
+e-diesel,Norway,neutral,60.44069604579421,21.411567146530796,wholesale diesel $0.55/L,0.0741,526.7088920278463,90.0,False,Fig 3 comparator
+e-kerosene,Norway,neutral,60.44069604579421,21.411567146530796,wholesale jet $0.52/L,0.0715,545.8619426470408,90.0,False,Fig 3 comparator
+ethanol,Norway,neutral,58.454725517601034,21.411567146530796,vs diesel (fuel use),0.0741,499.9076703248345,90.0,False,Fig 3 comparator
+hydrogen,Oman,neutral,25.261931122744237,7.472222222222222,"grey H2 (SMR, regional gas)",0.08,222.37136125652518,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Oman,neutral,34.17663622818519,17.341948706698314,"grey NH3 (SMR, regional gas)",0.129,130.501453654937,0.0,False,Fig 3 comparator
+methanol,Oman,neutral,39.957132824947706,15.1,fossil MeOH $300/t,0.0741,335.453884277297,0.0,False,Fig 3 comparator
+e-methane,Oman,neutral,39.24732502660309,2.9590412610087355,regional natural gas,0.0561,646.8499779963344,0.0,False,Fig 3 comparator
+e-diesel,Oman,neutral,45.659084362749695,19.66308447986951,wholesale diesel $0.55/L,0.0741,350.8232102952791,0.0,False,Fig 3 comparator
+e-kerosene,Oman,neutral,45.659084362749695,19.66308447986951,wholesale jet $0.52/L,0.0715,363.5804179423802,0.0,False,Fig 3 comparator
+ethanol,Oman,neutral,44.089564415244205,19.66308447986951,vs diesel (fuel use),0.0741,329.6421043910215,0.0,False,Fig 3 comparator
+hydrogen,Pakistan,neutral,43.056576179740304,14.309007205254023,"grey H2 (SMR, regional gas)",0.08,359.3446121810785,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Pakistan,neutral,57.258546772336615,29.65224805331435,"grey NH3 (SMR, regional gas)",0.129,214.00231565133538,0.0,False,Fig 3 comparator
+methanol,Pakistan,neutral,63.510197630506724,15.1,fossil MeOH $300/t,0.0741,653.3090098583904,0.0,False,Fig 3 comparator
+e-methane,Pakistan,neutral,63.19039589914201,9.300774441572575,regional natural gas,0.0561,960.5993129691522,0.0,False,Fig 3 comparator
+e-diesel,Pakistan,neutral,72.83429133398961,19.143662940339965,wholesale diesel $0.55/L,0.0741,724.569883854921,0.0,False,Fig 3 comparator
+e-kerosene,Pakistan,neutral,72.83429133398961,19.143662940339965,wholesale jet $0.52/L,0.0715,750.9178796314636,0.0,False,Fig 3 comparator
+ethanol,Pakistan,neutral,70.33090840844284,19.143662940339965,vs diesel (fuel use),0.0741,690.7860387058417,0.0,False,Fig 3 comparator
+hydrogen,Panama,neutral,43.620435425903025,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,288.2869315250331,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Panama,neutral,57.09880619309219,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,186.41604302682094,0.0,False,Fig 3 comparator
+methanol,Panama,neutral,62.4305576029667,15.1,fossil MeOH $300/t,0.0741,638.7389690009002,0.0,False,Fig 3 comparator
+e-methane,Panama,neutral,62.42636073311931,14.109007025886783,regional natural gas,0.0561,861.2719020897064,0.0,False,Fig 3 comparator
+e-diesel,Panama,neutral,71.60711036185515,15.4,wholesale diesel $0.55/L,0.0741,758.5305042085715,0.0,False,Fig 3 comparator
+e-kerosene,Panama,neutral,71.60711036185515,14.8,wholesale jet $0.52/L,0.0715,794.5050400259463,0.0,False,Fig 3 comparator
+ethanol,Panama,neutral,69.20214859253312,15.4,vs diesel (fuel use),0.0741,726.0748797912702,0.0,False,Fig 3 comparator
+hydrogen,Papua New Guinea,neutral,58.4538747957693,8.166666666666668,"grey H2 (SMR, regional gas)",0.08,628.590101613783,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Papua New Guinea,neutral,77.13588092019731,16.959909507499887,"grey NH3 (SMR, regional gas)",0.129,466.480398548042,0.0,False,Fig 3 comparator
+methanol,Papua New Guinea,neutral,83.22115732505873,15.1,fossil MeOH $300/t,0.0741,919.3138640358803,0.0,False,Fig 3 comparator
+e-methane,Papua New Guinea,neutral,83.33313220726461,3.547077840581567,regional natural gas,0.0561,1422.2113077840115,0.0,False,Fig 3 comparator
+e-diesel,Papua New Guinea,neutral,95.60055989914358,15.4,wholesale diesel $0.55/L,0.0741,1082.3287435781858,0.0,False,Fig 3 comparator
+e-kerosene,Papua New Guinea,neutral,95.60055989914358,14.8,wholesale jet $0.52/L,0.0715,1130.077760827183,0.0,False,Fig 3 comparator
+ethanol,Papua New Guinea,neutral,92.32899403052392,15.4,vs diesel (fuel use),0.0741,1038.1780570920905,0.0,False,Fig 3 comparator
+hydrogen,Paraguay,neutral,37.752884456952074,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,214.94254441314618,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Paraguay,neutral,49.771860790375115,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,129.61801664916922,0.0,False,Fig 3 comparator
+methanol,Paraguay,neutral,54.71544513674924,15.1,fossil MeOH $300/t,0.0741,534.6213918589641,0.0,False,Fig 3 comparator
+e-methane,Paraguay,neutral,54.608169454518745,14.109007025886783,regional natural gas,0.0561,721.9102037189299,0.0,False,Fig 3 comparator
+e-diesel,Paraguay,neutral,62.77893045572757,15.4,wholesale diesel $0.55/L,0.0741,639.3917740314112,0.0,False,Fig 3 comparator
+e-kerosene,Paraguay,neutral,62.77893045572757,14.8,wholesale jet $0.52/L,0.0715,671.0339923877982,0.0,False,Fig 3 comparator
+ethanol,Paraguay,neutral,60.636415776497834,15.4,vs diesel (fuel use),0.0741,610.4779457017252,0.0,False,Fig 3 comparator
+hydrogen,Peru,neutral,24.31087797569858,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,46.91746339747751,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Peru,neutral,33.00093862581603,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,-0.3891319133042887,0.0,True,Fig 3 comparator
+methanol,Peru,neutral,37.9818529861699,15.1,fossil MeOH $300/t,0.0741,308.79693638555864,0.0,False,Fig 3 comparator
+e-methane,Peru,neutral,37.437769805093794,14.109007025886783,regional natural gas,0.0561,415.8424737826562,0.0,False,Fig 3 comparator
+e-diesel,Peru,neutral,43.5377914884037,15.4,wholesale diesel $0.55/L,0.0741,379.72728054525913,0.0,False,Fig 3 comparator
+e-kerosene,Peru,neutral,43.5377914884037,14.8,wholesale jet $0.52/L,0.0715,401.92715368396784,0.0,False,Fig 3 comparator
+ethanol,Peru,neutral,41.987893537253925,15.4,vs diesel (fuel use),0.0741,358.8109789103094,0.0,False,Fig 3 comparator
+hydrogen,Philippines,neutral,34.548593678412544,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,174.88890968140205,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Philippines,neutral,45.49138402699943,30.916108952931214,"grey NH3 (SMR, regional gas)",0.129,112.98662848114893,0.0,False,Fig 3 comparator
+methanol,Philippines,neutral,50.71175218969819,15.1,fossil MeOH $300/t,0.0741,480.5904479041591,0.0,False,Fig 3 comparator
+e-methane,Philippines,neutral,50.46490716673102,14.109007025886783,regional natural gas,0.0561,648.0552609776156,0.0,False,Fig 3 comparator
+e-diesel,Philippines,neutral,58.086955917289956,20.216337078966752,wholesale diesel $0.55/L,0.0741,511.07447824997575,0.0,False,Fig 3 comparator
+e-kerosene,Philippines,neutral,58.086955917289956,20.216337078966752,wholesale jet $0.52/L,0.0715,529.6590047317931,0.0,False,Fig 3 comparator
+ethanol,Philippines,neutral,56.135492181166256,20.216337078966752,vs diesel (fuel use),0.0741,484.73893525235496,0.0,False,Fig 3 comparator
+hydrogen,Poland,neutral,40.824557224772235,21.149674391889242,"grey H2 (SMR, regional gas)",0.08,245.9360354110374,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Poland,neutral,52.33890412102327,29.771120166913796,"grey NH3 (SMR, regional gas)",0.129,174.94406165976335,80.0,False,Fig 3 comparator
+methanol,Poland,neutral,59.08051796159592,15.1,fossil MeOH $300/t,0.0741,593.5292572415104,80.0,False,Fig 3 comparator
+e-methane,Poland,neutral,58.94499820226693,16.76752789231269,regional natural gas,0.0561,751.8265652398261,80.0,False,Fig 3 comparator
+e-diesel,Poland,neutral,67.57113122313547,21.333579725460243,wholesale diesel $0.55/L,0.0741,623.9885492263863,80.0,False,Fig 3 comparator
+e-kerosene,Poland,neutral,67.57113122313547,21.333579725460243,wholesale jet $0.52/L,0.0715,646.6790419255277,80.0,False,Fig 3 comparator
+ethanol,Poland,neutral,65.37545132360208,21.333579725460243,vs diesel (fuel use),0.0741,594.3572415403758,80.0,False,Fig 3 comparator
+hydrogen,Portugal,neutral,59.43015779208504,20.72364447443921,"grey H2 (SMR, regional gas)",0.08,483.83141647057283,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Portugal,neutral,74.86688476908031,37.98589638318808,"grey NH3 (SMR, regional gas)",0.129,285.8991347743584,80.0,False,Fig 3 comparator
+methanol,Portugal,neutral,81.44684982763494,15.1,fossil MeOH $300/t,0.0741,895.3690934903501,80.0,False,Fig 3 comparator
+e-methane,Portugal,neutral,82.08982428894419,16.350991207092505,regional natural gas,0.0561,1171.8152064501191,80.0,False,Fig 3 comparator
+e-diesel,Portugal,neutral,93.32974177978295,15.4,wholesale diesel $0.55/L,0.0741,1051.6834248283799,80.0,False,Fig 3 comparator
+e-kerosene,Portugal,neutral,93.32974177978295,14.8,wholesale jet $0.52/L,0.0715,1098.3180668501113,80.0,False,Fig 3 comparator
+ethanol,Portugal,neutral,90.35275843194319,15.4,vs diesel (fuel use),0.0741,1011.5082109573979,80.0,False,Fig 3 comparator
+hydrogen,Republic of Serbia,neutral,74.00501505756282,22.25528090029635,"grey H2 (SMR, regional gas)",0.08,646.8716769658308,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Republic of Serbia,neutral,95.53196498567962,40.4999111120595,"grey NH3 (SMR, regional gas)",0.129,426.6050687877529,0.0,False,Fig 3 comparator
+methanol,Republic of Serbia,neutral,101.10404254868106,15.1,fossil MeOH $300/t,0.0741,1160.6483474855745,0.0,False,Fig 3 comparator
+e-methane,Republic of Serbia,neutral,101.96803933998572,17.848498151223616,regional natural gas,0.0561,1499.4570621882729,0.0,False,Fig 3 comparator
+e-diesel,Republic of Serbia,neutral,116.15026576763478,15.4,wholesale diesel $0.55/L,0.0741,1359.6527094147743,0.0,False,Fig 3 comparator
+e-kerosene,Republic of Serbia,neutral,116.15026576763478,14.8,wholesale jet $0.52/L,0.0715,1417.4862345123747,0.0,False,Fig 3 comparator
+ethanol,Republic of Serbia,neutral,112.31314004207043,15.4,vs diesel (fuel use),0.0741,1307.8696361952823,0.0,False,Fig 3 comparator
+hydrogen,Republic of the Congo,neutral,62.2973002062803,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,521.7477412797489,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Republic of the Congo,neutral,83.18535764393454,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,388.6373721031182,0.0,False,Fig 3 comparator
+methanol,Republic of the Congo,neutral,89.900524956883,15.1,fossil MeOH $300/t,0.0741,1009.4537780955872,0.0,False,Fig 3 comparator
+e-methane,Republic of the Congo,neutral,89.80569203918114,14.109007025886783,regional natural gas,0.0561,1349.3170234098816,0.0,False,Fig 3 comparator
+e-diesel,Republic of the Congo,neutral,103.29574529775861,15.4,wholesale diesel $0.55/L,0.0741,1186.1773994299408,0.0,False,Fig 3 comparator
+e-kerosene,Republic of the Congo,neutral,103.29574529775861,14.8,wholesale jet $0.52/L,0.0715,1237.7027314371835,0.0,False,Fig 3 comparator
+ethanol,Republic of the Congo,neutral,99.71137428531694,15.4,vs diesel (fuel use),0.0741,1137.8053209894322,0.0,False,Fig 3 comparator
+hydrogen,Romania,neutral,55.53866395998131,16.36225924590352,"grey H2 (SMR, regional gas)",0.08,489.70505892597237,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Romania,neutral,71.92324567880732,30.522891355742587,"grey NH3 (SMR, regional gas)",0.129,320.9329792485638,80.0,False,Fig 3 comparator
+methanol,Romania,neutral,77.49203358712802,15.1,fossil MeOH $300/t,0.0741,841.997754212254,80.0,False,Fig 3 comparator
+e-methane,Romania,neutral,77.84279716160404,12.095015545060273,regional natural gas,0.0561,1171.974716872438,80.0,False,Fig 3 comparator
+e-diesel,Romania,neutral,88.93539260354552,15.4,wholesale diesel $0.55/L,0.0741,992.38046698442,80.0,False,Fig 3 comparator
+e-kerosene,Romania,neutral,88.93539260354552,14.8,wholesale jet $0.52/L,0.0715,1036.8586378118257,80.0,False,Fig 3 comparator
+ethanol,Romania,neutral,85.98691137856721,15.4,vs diesel (fuel use),0.0741,952.589897146656,80.0,False,Fig 3 comparator
+hydrogen,Russia,neutral,38.11689242083878,6.777777777777778,"grey H2 (SMR, regional gas)",0.08,391.73893303826253,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Russia,neutral,50.40961940631466,14.654803504279576,"grey NH3 (SMR, regional gas)",0.129,277.1691155196518,0.0,False,Fig 3 comparator
+methanol,Russia,neutral,57.19797327347013,15.1,fossil MeOH $300/t,0.0741,568.1237958632946,0.0,False,Fig 3 comparator
+e-methane,Russia,neutral,57.01226135406124,2.474133974084907,regional natural gas,0.0561,972.1591333329114,0.0,False,Fig 3 comparator
+e-diesel,Russia,neutral,65.64203053359631,15.4,wholesale diesel $0.55/L,0.0741,678.0301016679665,0.0,False,Fig 3 comparator
+e-kerosene,Russia,neutral,65.64203053359631,14.8,wholesale jet $0.52/L,0.0715,711.0773501202283,0.0,False,Fig 3 comparator
+ethanol,Russia,neutral,63.3830943660746,15.4,vs diesel (fuel use),0.0741,647.5451331454062,0.0,False,Fig 3 comparator
+hydrogen,Rwanda,neutral,47.34098463540892,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,334.79379664385675,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Rwanda,neutral,63.54587513461992,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,236.39332164331498,0.0,False,Fig 3 comparator
+methanol,Rwanda,neutral,68.90194670201873,15.1,fossil MeOH $300/t,0.0741,726.0721552229248,0.0,False,Fig 3 comparator
+e-methane,Rwanda,neutral,68.7643381819717,14.109007025886783,regional natural gas,0.0561,974.2483272029397,0.0,False,Fig 3 comparator
+e-diesel,Rwanda,neutral,79.22129223849205,15.4,wholesale diesel $0.55/L,0.0741,861.2859951213503,0.0,False,Fig 3 comparator
+e-kerosene,Rwanda,neutral,79.22129223849205,14.8,wholesale jet $0.52/L,0.0715,900.9970942446442,0.0,False,Fig 3 comparator
+ethanol,Rwanda,neutral,76.42386904757893,15.4,vs diesel (fuel use),0.0741,823.5339952439803,0.0,False,Fig 3 comparator
+hydrogen,Saudi Arabia,neutral,17.817527498461278,6.083333333333334,"grey H2 (SMR, regional gas)",0.08,146.6774270640993,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Saudi Arabia,neutral,24.694754976378874,15.254640983993868,"grey NH3 (SMR, regional gas)",0.129,73.17917823554268,0.0,False,Fig 3 comparator
+methanol,Saudi Arabia,neutral,29.571412846331754,15.1,fossil MeOH $300/t,0.0741,195.29571992350546,0.0,False,Fig 3 comparator
+e-methane,Saudi Arabia,neutral,28.841156095905767,1.9589683612669273,regional natural gas,0.0561,479.18338207912376,0.0,False,Fig 3 comparator
+e-diesel,Saudi Arabia,neutral,33.800085742918895,19.65310658968883,wholesale diesel $0.55/L,0.0741,190.91739747948807,0.0,False,Fig 3 comparator
+e-kerosene,Saudi Arabia,neutral,33.800085742918895,19.65310658968883,wholesale jet $0.52/L,0.0715,197.859848296924,0.0,False,Fig 3 comparator
+ethanol,Saudi Arabia,neutral,32.59145492082878,19.65310658968883,vs diesel (fuel use),0.0741,174.606590163832,0.0,False,Fig 3 comparator
+hydrogen,Senegal,neutral,47.176776421524465,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,332.7411939703011,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Senegal,neutral,63.55775061860603,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,236.48537965871117,0.0,False,Fig 3 comparator
+methanol,Senegal,neutral,68.74930339601369,15.1,fossil MeOH $300/t,0.0741,724.012191579132,0.0,False,Fig 3 comparator
+e-methane,Senegal,neutral,68.62017793911099,14.109007025886783,regional natural gas,0.0561,971.6786259041749,0.0,False,Fig 3 comparator
+e-diesel,Senegal,neutral,79.09516224027783,15.4,wholesale diesel $0.55/L,0.0741,859.5838359011854,0.0,False,Fig 3 comparator
+e-kerosene,Senegal,neutral,79.09516224027783,14.8,wholesale jet $0.52/L,0.0715,899.2330383255642,0.0,False,Fig 3 comparator
+ethanol,Senegal,neutral,76.27319630859427,15.4,vs diesel (fuel use),0.0741,821.500624947291,0.0,False,Fig 3 comparator
+hydrogen,Sierra Leone,neutral,74.27069986618407,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,671.4152370285461,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Sierra Leone,neutral,96.50501849760573,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,491.89055701529804,0.0,False,Fig 3 comparator
+methanol,Sierra Leone,neutral,102.91281571972831,15.1,fossil MeOH $300/t,0.0741,1185.0582418316912,0.0,False,Fig 3 comparator
+e-methane,Sierra Leone,neutral,103.55611971764387,14.109007025886783,regional natural gas,0.0561,1594.4226861275774,0.0,False,Fig 3 comparator
+e-diesel,Sierra Leone,neutral,118.28899994072142,15.4,wholesale diesel $0.55/L,0.0741,1388.5155187681703,0.0,False,Fig 3 comparator
+e-kerosene,Sierra Leone,neutral,118.28899994072142,14.8,wholesale jet $0.52/L,0.0715,1447.3986005695306,0.0,False,Fig 3 comparator
+ethanol,Sierra Leone,neutral,114.29972013790055,15.4,vs diesel (fuel use),0.0741,1334.6790841821935,0.0,False,Fig 3 comparator
+hydrogen,Somalia,neutral,51.51870276641841,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,387.01527328147534,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Somalia,neutral,70.11631413260092,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,287.32695728657853,0.0,False,Fig 3 comparator
+methanol,Somalia,neutral,77.06470507591288,15.1,fossil MeOH $300/t,0.0741,836.2308377316178,0.0,False,Fig 3 comparator
+e-methane,Somalia,neutral,76.53426492443286,14.109007025886783,regional natural gas,0.0561,1112.7496951612493,0.0,False,Fig 3 comparator
+e-diesel,Somalia,neutral,88.54623476917641,15.4,wholesale diesel $0.55/L,0.0741,987.1286743478597,0.0,False,Fig 3 comparator
+e-kerosene,Somalia,neutral,88.54623476917641,14.8,wholesale jet $0.52/L,0.0715,1031.4158708975722,0.0,False,Fig 3 comparator
+ethanol,Somalia,neutral,85.38436755358308,15.4,vs diesel (fuel use),0.0741,944.458401532835,0.0,False,Fig 3 comparator
+hydrogen,Somaliland,neutral,52.47230521734176,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,398.93530391801727,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Somaliland,neutral,71.2594421122777,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,296.18841449337526,0.0,False,Fig 3 comparator
+methanol,Somaliland,neutral,77.15981308305467,15.1,fossil MeOH $300/t,0.0741,837.5143465999281,0.0,False,Fig 3 comparator
+e-methane,Somaliland,neutral,76.88184087670398,14.109007025886783,regional natural gas,0.0561,1118.945344934353,0.0,False,Fig 3 comparator
+e-diesel,Somaliland,neutral,88.77723233569426,15.4,wholesale diesel $0.55/L,0.0741,990.2460504142275,0.0,False,Fig 3 comparator
+e-kerosene,Somaliland,neutral,88.77723233569426,14.8,wholesale jet $0.52/L,0.0715,1034.6466060936261,0.0,False,Fig 3 comparator
+ethanol,Somaliland,neutral,85.58667281850066,15.4,vs diesel (fuel use),0.0741,947.1885670512909,0.0,False,Fig 3 comparator
+hydrogen,South Africa,neutral,29.04766804546806,16.769104968021598,"grey H2 (SMR, regional gas)",0.08,153.4820384680808,9.0,False,"grey H2 (SMR, regional gas)"
+ammonia,South Africa,neutral,39.01569466363607,28.041818328542274,"grey NH3 (SMR, regional gas)",0.129,85.06880879917671,9.0,False,Fig 3 comparator
+methanol,South Africa,neutral,44.32034442505787,15.1,fossil MeOH $300/t,0.0741,394.3366319171102,9.0,False,Fig 3 comparator
+e-methane,South Africa,neutral,43.842865529286435,14.109007025886783,regional natural gas,0.0561,530.0153030909029,9.0,False,Fig 3 comparator
+e-diesel,South Africa,neutral,50.781481245693044,21.4720410023443,wholesale diesel $0.55/L,0.0741,395.5390046335863,9.0,False,Fig 3 comparator
+e-kerosene,South Africa,neutral,50.781481245693044,21.4720410023443,wholesale jet $0.52/L,0.0715,409.9222411657167,9.0,False,Fig 3 comparator
+ethanol,South Africa,neutral,49.01194321463811,21.4720410023443,vs diesel (fuel use),0.0741,371.65859935619176,9.0,False,Fig 3 comparator
+hydrogen,South Korea,neutral,49.52490614260495,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,362.0928154838071,8.0,False,"grey H2 (SMR, regional gas)"
+ammonia,South Korea,neutral,63.35490392776163,30.365855192691075,"grey NH3 (SMR, regional gas)",0.129,255.72905996178724,8.0,False,Fig 3 comparator
+methanol,South Korea,neutral,69.47788517129759,15.1,fossil MeOH $300/t,0.0741,733.844604201047,8.0,False,Fig 3 comparator
+e-methane,South Korea,neutral,69.70681106366531,14.109007025886783,regional natural gas,0.0561,991.0482003169079,8.0,False,Fig 3 comparator
+e-diesel,South Korea,neutral,79.59511915191948,20.35679721980841,wholesale diesel $0.55/L,0.0741,799.4375429434691,8.0,False,Fig 3 comparator
+e-kerosene,South Korea,neutral,79.59511915191948,20.35679721980841,wholesale jet $0.52/L,0.0715,828.5079990505044,8.0,False,Fig 3 comparator
+ethanol,South Korea,neutral,77.01430471615977,20.35679721980841,vs diesel (fuel use),0.0741,764.6087381423935,8.0,False,Fig 3 comparator
+hydrogen,South Sudan,neutral,55.277241538464565,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,433.99700793205227,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,South Sudan,neutral,74.59154859269279,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,322.0186972872907,0.0,False,Fig 3 comparator
+methanol,South Sudan,neutral,81.67426480282212,15.1,fossil MeOH $300/t,0.0741,898.4381214955753,0.0,False,Fig 3 comparator
+e-methane,South Sudan,neutral,81.2816367878246,14.109007025886783,regional natural gas,0.0561,1197.3730795354334,0.0,False,Fig 3 comparator
+e-diesel,South Sudan,neutral,93.83597324697755,15.4,wholesale diesel $0.55/L,0.0741,1058.5151585287117,0.0,False,Fig 3 comparator
+e-kerosene,South Sudan,neutral,93.83597324697755,14.8,wholesale jet $0.52/L,0.0715,1105.3982272304554,0.0,False,Fig 3 comparator
+ethanol,South Sudan,neutral,90.51971252869501,15.4,vs diesel (fuel use),0.0741,1013.761302681444,0.0,False,Fig 3 comparator
+hydrogen,Spain,neutral,38.396092636221624,19.72949740374109,"grey H2 (SMR, regional gas)",0.08,233.3324404060067,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Spain,neutral,49.231250523652065,30.402156566821226,"grey NH3 (SMR, regional gas)",0.129,145.9619686576034,80.0,False,Fig 3 comparator
+methanol,Spain,neutral,55.40295965535053,15.1,fossil MeOH $300/t,0.0741,543.8995904905604,80.0,False,Fig 3 comparator
+e-methane,Spain,neutral,55.317227277666646,15.378996733257168,regional natural gas,0.0561,711.9114179039123,80.0,False,Fig 3 comparator
+e-diesel,Spain,neutral,63.39328958158241,21.7717613769705,wholesale diesel $0.55/L,0.0741,561.6940378490136,80.0,False,Fig 3 comparator
+e-kerosene,Spain,neutral,63.39328958158241,21.7717613769705,wholesale jet $0.52/L,0.0715,582.1192755889778,80.0,False,Fig 3 comparator
+ethanol,Spain,neutral,61.32348564895542,21.7717613769705,vs diesel (fuel use),0.0741,533.7614611603904,80.0,False,Fig 3 comparator
+hydrogen,Sri Lanka,neutral,53.84985629505131,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,416.1546923893866,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Sri Lanka,neutral,70.60775136361579,29.65224805331435,"grey NH3 (SMR, regional gas)",0.129,317.4845217852825,0.0,False,Fig 3 comparator
+methanol,Sri Lanka,neutral,77.16724396520813,15.1,fossil MeOH $300/t,0.0741,837.6146284103661,0.0,False,Fig 3 comparator
+e-methane,Sri Lanka,neutral,77.16970489925953,14.109007025886783,regional natural gas,0.0561,1124.0766109335607,0.0,False,Fig 3 comparator
+e-diesel,Sri Lanka,neutral,88.52183979202715,20.628093862570243,wholesale diesel $0.55/L,0.0741,916.24488433815,0.0,False,Fig 3 comparator
+e-kerosene,Sri Lanka,neutral,88.52183979202715,20.628093862570243,wholesale jet $0.52/L,0.0715,949.5628801322646,0.0,False,Fig 3 comparator
+ethanol,Sri Lanka,neutral,85.53737303814421,20.628093862570243,vs diesel (fuel use),0.0741,875.9686798323073,0.0,False,Fig 3 comparator
+hydrogen,Sudan,neutral,72.96592957360423,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,655.105608371298,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Sudan,neutral,101.38471139573556,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,529.7176337449866,0.0,False,Fig 3 comparator
+methanol,Sudan,neutral,109.65524120256529,15.1,fossil MeOH $300/t,0.0741,1276.049139035969,0.0,False,Fig 3 comparator
+e-methane,Sudan,neutral,109.05915539478076,14.109007025886783,regional natural gas,0.0561,1692.516013705775,0.0,False,Fig 3 comparator
+e-diesel,Sudan,neutral,126.49672781742373,15.4,wholesale diesel $0.55/L,0.0741,1499.2810771582149,0.0,False,Fig 3 comparator
+e-kerosene,Sudan,neutral,126.49672781742373,14.8,wholesale jet $0.52/L,0.0715,1562.1919974464859,0.0,False,Fig 3 comparator
+ethanol,Sudan,neutral,121.78564200294231,15.4,vs diesel (fuel use),0.0741,1435.7036707549569,0.0,False,Fig 3 comparator
+hydrogen,Suriname,neutral,72.24177054701362,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,646.0536205389154,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Suriname,neutral,94.19541660450201,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,473.9866663710832,0.0,False,Fig 3 comparator
+methanol,Suriname,neutral,100.90525807641215,15.1,fossil MeOH $300/t,0.0741,1157.965696037951,0.0,False,Fig 3 comparator
+e-methane,Suriname,neutral,101.38599266953884,14.109007025886783,regional natural gas,0.0561,1555.7394945392523,0.0,False,Fig 3 comparator
+e-diesel,Suriname,neutral,115.90520697908818,15.4,wholesale diesel $0.55/L,0.0741,1356.3455732670468,0.0,False,Fig 3 comparator
+e-kerosene,Suriname,neutral,115.90520697908818,14.8,wholesale jet $0.52/L,0.0715,1414.0588388683664,0.0,False,Fig 3 comparator
+ethanol,Suriname,neutral,112.00666307482354,15.4,vs diesel (fuel use),0.0741,1303.7336447344605,0.0,False,Fig 3 comparator
+hydrogen,Sweden,neutral,40.10598738028568,25.04012803849815,"grey H2 (SMR, regional gas)",0.08,188.32324177234415,80.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Sweden,neutral,51.337161488962096,44.90612907791872,"grey NH3 (SMR, regional gas)",0.129,49.85296442669283,80.0,True,Fig 3 comparator
+methanol,Sweden,neutral,57.039353852220096,15.1,fossil MeOH $300/t,0.0741,565.9831828909595,80.0,False,Fig 3 comparator
+e-methane,Sweden,neutral,57.09852354572365,20.571290491100914,regional natural gas,0.0561,651.1093236118136,80.0,False,Fig 3 comparator
+e-diesel,Sweden,neutral,65.31536112538348,15.4,wholesale diesel $0.55/L,0.0741,673.6216076300065,80.0,False,Fig 3 comparator
+e-kerosene,Sweden,neutral,65.31536112538348,14.8,wholesale jet $0.52/L,0.0715,706.5085472081606,80.0,False,Fig 3 comparator
+ethanol,Sweden,neutral,63.1851862859817,15.4,vs diesel (fuel use),0.0741,644.8743088526545,80.0,False,Fig 3 comparator
+hydrogen,Switzerland,neutral,78.47134802856172,22.25528090029635,"grey H2 (SMR, regional gas)",0.08,702.7008391033171,130.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Switzerland,neutral,97.86745775704799,40.4999111120595,"grey NH3 (SMR, regional gas)",0.129,444.7096639146394,130.0,False,Fig 3 comparator
+methanol,Switzerland,neutral,104.94715123492794,15.1,fossil MeOH $300/t,0.0741,1212.5121624146823,130.0,False,Fig 3 comparator
+e-methane,Switzerland,neutral,106.2352662314295,17.848498151223616,regional natural gas,0.0561,1575.5217126596415,130.0,False,Fig 3 comparator
+e-diesel,Switzerland,neutral,120.28798471974889,15.4,wholesale diesel $0.55/L,0.0741,1415.4923713866247,130.0,False,Fig 3 comparator
+e-kerosene,Switzerland,neutral,120.28798471974889,14.8,wholesale jet $0.52/L,0.0715,1475.3564296468378,130.0,False,Fig 3 comparator
+ethanol,Switzerland,neutral,116.52644975761493,15.4,vs diesel (fuel use),0.0741,1364.7294164320501,130.0,False,Fig 3 comparator
+hydrogen,Syria,neutral,68.6450765482169,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,601.0949455539566,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Syria,neutral,88.33741069377857,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,428.5757678383432,0.0,False,Fig 3 comparator
+methanol,Syria,neutral,95.42601612560684,15.1,fossil MeOH $300/t,0.0741,1084.0218100621705,0.0,False,Fig 3 comparator
+e-methane,Syria,neutral,95.97533029138532,14.109007025886783,regional natural gas,0.0561,1459.2927498306335,0.0,False,Fig 3 comparator
+e-diesel,Syria,neutral,109.51629130071512,15.4,wholesale diesel $0.55/L,0.0741,1270.1253886736183,0.0,False,Fig 3 comparator
+e-kerosene,Syria,neutral,109.51629130071512,14.8,wholesale jet $0.52/L,0.0715,1324.7033748351766,0.0,False,Fig 3 comparator
+ethanol,Syria,neutral,105.89191272448996,15.4,vs diesel (fuel use),0.0741,1221.2133970916323,0.0,False,Fig 3 comparator
+hydrogen,Taiwan,neutral,39.9527574128153,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,242.44095636143652,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Taiwan,neutral,50.539038668508695,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,135.56513198353804,0.0,False,Fig 3 comparator
+methanol,Taiwan,neutral,56.4284408377826,15.1,fossil MeOH $300/t,0.0741,557.7387427501026,0.0,False,Fig 3 comparator
+e-methane,Taiwan,neutral,56.544783394902495,14.109007025886783,regional natural gas,0.0561,756.4309513193532,0.0,False,Fig 3 comparator
+e-diesel,Taiwan,neutral,64.55117859132349,15.4,wholesale diesel $0.55/L,0.0741,663.3087529193454,0.0,False,Fig 3 comparator
+e-kerosene,Taiwan,neutral,64.55117859132349,14.8,wholesale jet $0.52/L,0.0715,695.82067959893,0.0,False,Fig 3 comparator
+ethanol,Taiwan,neutral,62.49116657486057,15.4,vs diesel (fuel use),0.0741,635.5083208483209,0.0,False,Fig 3 comparator
+hydrogen,Tajikistan,neutral,49.613717362692746,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,363.20295573490455,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Tajikistan,neutral,64.03854328012035,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,240.21245455417105,0.0,False,Fig 3 comparator
+methanol,Tajikistan,neutral,71.01847261455521,15.1,fossil MeOH $300/t,0.0741,754.6352579562106,0.0,False,Fig 3 comparator
+e-methane,Tajikistan,neutral,71.0331482905579,14.109007025886783,regional natural gas,0.0561,1014.6905751278275,0.0,False,Fig 3 comparator
+e-diesel,Tajikistan,neutral,81.36447590780878,15.4,wholesale diesel $0.55/L,0.0741,890.2088516573384,0.0,False,Fig 3 comparator
+e-kerosene,Tajikistan,neutral,81.36447590780878,14.8,wholesale jet $0.52/L,0.0715,930.9716910183048,0.0,False,Fig 3 comparator
+ethanol,Tajikistan,neutral,78.67374775043434,15.4,vs diesel (fuel use),0.0741,853.8967307750924,0.0,False,Fig 3 comparator
+hydrogen,Thailand,neutral,35.76857949486151,18.10661449714521,"grey H2 (SMR, regional gas)",0.08,220.77456247145378,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Thailand,neutral,46.600871457272206,31.812301286796405,"grey NH3 (SMR, regional gas)",0.129,114.64007884089767,0.0,False,Fig 3 comparator
+methanol,Thailand,neutral,52.28505734060633,15.1,fossil MeOH $300/t,0.0741,501.822636175524,0.0,False,Fig 3 comparator
+e-methane,Thailand,neutral,52.0532950934017,12.434296271615098,regional natural gas,0.0561,706.2210128660714,0.0,False,Fig 3 comparator
+e-diesel,Thailand,neutral,59.82423370784656,15.4,wholesale diesel $0.55/L,0.0741,599.5173239925311,0.0,False,Fig 3 comparator
+e-kerosene,Thailand,neutral,59.82423370784656,14.8,wholesale jet $0.52/L,0.0715,629.7095623475044,0.0,False,Fig 3 comparator
+ethanol,Thailand,neutral,57.854059758033465,15.4,vs diesel (fuel use),0.0741,572.9292814849321,0.0,False,Fig 3 comparator
+hydrogen,Tunisia,neutral,52.125925973146856,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,394.60556336558096,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Tunisia,neutral,69.38878247436092,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,281.68717699014445,0.0,False,Fig 3 comparator
+methanol,Tunisia,neutral,76.02350587094978,15.1,fossil MeOH $300/t,0.0741,822.1795664095786,0.0,False,Fig 3 comparator
+e-methane,Tunisia,neutral,75.8318786632807,14.109007025886783,regional natural gas,0.0561,1100.2294409517633,0.0,False,Fig 3 comparator
+e-diesel,Tunisia,neutral,87.30901127537231,15.4,wholesale diesel $0.55/L,0.0741,970.4320010171701,0.0,False,Fig 3 comparator
+e-kerosene,Tunisia,neutral,87.30901127537231,14.8,wholesale jet $0.52/L,0.0715,1014.1120458094031,0.0,False,Fig 3 comparator
+ethanol,Tunisia,neutral,84.27053298447784,15.4,vs diesel (fuel use),0.0741,929.4268958768938,0.0,False,Fig 3 comparator
+hydrogen,Turkey,neutral,33.50348595348112,22.25528090029635,"grey H2 (SMR, regional gas)",0.08,140.60256316480962,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Turkey,neutral,44.28837456182862,40.4999111120595,"grey NH3 (SMR, regional gas)",0.129,29.36793371914045,0.0,False,Fig 3 comparator
+methanol,Turkey,neutral,49.55375890342338,15.1,fossil MeOH $300/t,0.0741,464.9630081433654,0.0,False,Fig 3 comparator
+e-methane,Turkey,neutral,49.272666543695635,17.848498151223616,regional natural gas,0.0561,560.1456041438863,0.0,False,Fig 3 comparator
+e-diesel,Turkey,neutral,56.78474081604232,15.4,wholesale diesel $0.55/L,0.0741,558.498526532285,0.0,False,Fig 3 comparator
+e-kerosene,Turkey,neutral,56.78474081604232,14.8,wholesale jet $0.52/L,0.0715,587.1991722523402,0.0,False,Fig 3 comparator
+ethanol,Turkey,neutral,54.85077022314677,15.4,vs diesel (fuel use),0.0741,532.3990583420617,0.0,False,Fig 3 comparator
+hydrogen,Turkmenistan,neutral,48.76341172926473,6.083333333333334,"grey H2 (SMR, regional gas)",0.08,533.5009799491424,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Turkmenistan,neutral,63.97479993103936,13.6842210580797,"grey NH3 (SMR, regional gas)",0.129,389.8494486275942,0.0,False,Fig 3 comparator
+methanol,Turkmenistan,neutral,69.91080579679272,15.1,fossil MeOH $300/t,0.0741,739.6869878109678,0.0,False,Fig 3 comparator
+e-methane,Turkmenistan,neutral,69.90218919523048,1.9589683612669273,regional natural gas,0.0561,1211.1091057747515,0.0,False,Fig 3 comparator
+e-diesel,Turkmenistan,neutral,80.2071119201043,15.4,wholesale diesel $0.55/L,0.0741,874.5899044548487,0.0,False,Fig 3 comparator
+e-kerosene,Turkmenistan,neutral,80.2071119201043,14.8,wholesale jet $0.52/L,0.0715,914.7847820993609,0.0,False,Fig 3 comparator
+ethanol,Turkmenistan,neutral,77.49794139876563,15.4,vs diesel (fuel use),0.0741,838.028898768767,0.0,False,Fig 3 comparator
+hydrogen,Uganda,neutral,43.31117779247546,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,284.4212111071885,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Uganda,neutral,58.64464215259642,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,198.39926751910178,0.0,False,Fig 3 comparator
+methanol,Uganda,neutral,64.52318782935704,15.1,fossil MeOH $300/t,0.0741,666.9795928388264,0.0,False,Fig 3 comparator
+e-methane,Uganda,neutral,64.12405648817565,14.109007025886783,regional natural gas,0.0561,891.5338585078231,0.0,False,Fig 3 comparator
+e-diesel,Uganda,neutral,74.12624623887757,15.4,wholesale diesel $0.55/L,0.0741,792.5269397959187,0.0,False,Fig 3 comparator
+e-kerosene,Uganda,neutral,74.12624623887757,14.8,wholesale jet $0.52/L,0.0715,829.7377096346514,0.0,False,Fig 3 comparator
+ethanol,Uganda,neutral,71.49203887204791,15.4,vs diesel (fuel use),0.0741,756.9775826187303,0.0,False,Fig 3 comparator
+hydrogen,Ukraine,neutral,75.1451550409725,19.929274875457438,"grey H2 (SMR, regional gas)",0.08,690.1985020689382,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Ukraine,neutral,99.65739842970538,36.036657819395344,"grey NH3 (SMR, regional gas)",0.129,493.1840357388375,0.0,False,Fig 3 comparator
+methanol,Ukraine,neutral,105.49330943292159,15.1,fossil MeOH $300/t,0.0741,1219.882718393004,0.0,False,Fig 3 comparator
+e-methane,Ukraine,neutral,105.95299912482325,15.768551247374383,regional natural gas,0.0561,1607.5659158190529,0.0,False,Fig 3 comparator
+e-diesel,Ukraine,neutral,121.39910172271865,15.4,wholesale diesel $0.55/L,0.0741,1430.4872027357442,0.0,False,Fig 3 comparator
+e-kerosene,Ukraine,neutral,121.39910172271865,14.8,wholesale jet $0.52/L,0.0715,1490.896527590471,0.0,False,Fig 3 comparator
+ethanol,Ukraine,neutral,117.1846932188941,15.4,vs diesel (fuel use),0.0741,1373.6125940471538,0.0,False,Fig 3 comparator
+hydrogen,United Arab Emirates,neutral,20.08848100780763,7.472222222222222,"grey H2 (SMR, regional gas)",0.08,157.7032348198176,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,United Arab Emirates,neutral,27.244922788777032,15.816375099056465,"grey NH3 (SMR, regional gas)",0.129,88.59339294357028,0.0,False,Fig 3 comparator
+methanol,United Arab Emirates,neutral,32.09820060001013,15.1,fossil MeOH $300/t,0.0741,229.3954197032406,0.0,False,Fig 3 comparator
+e-methane,United Arab Emirates,neutral,31.53258688697649,2.9590412610087355,regional natural gas,0.0561,509.33236409924694,0.0,False,Fig 3 comparator
+e-diesel,United Arab Emirates,neutral,36.72253117775654,15.4,wholesale diesel $0.55/L,0.0741,287.75345718969686,0.0,False,Fig 3 comparator
+e-kerosene,United Arab Emirates,neutral,36.72253117775654,14.8,wholesale jet $0.52/L,0.0715,306.6088276609306,0.0,False,Fig 3 comparator
+ethanol,United Arab Emirates,neutral,35.43102169908819,15.4,vs diesel (fuel use),0.0741,270.32417947487437,0.0,False,Fig 3 comparator
+hydrogen,United Kingdom,neutral,46.250709894601925,17.589666718967198,"grey H2 (SMR, regional gas)",0.08,358.2630396954341,50.0,False,"grey H2 (SMR, regional gas)"
+ammonia,United Kingdom,neutral,59.32535120525746,29.771120166913796,"grey NH3 (SMR, regional gas)",0.129,229.10256618871057,50.0,False,Fig 3 comparator
+methanol,United Kingdom,neutral,65.65383919816318,15.1,fossil MeOH $300/t,0.0741,682.2380458591523,50.0,False,Fig 3 comparator
+e-methane,United Kingdom,neutral,65.73252368307882,13.462459890801796,regional natural gas,0.0561,931.7301923757046,50.0,False,Fig 3 comparator
+e-diesel,United Kingdom,neutral,75.18389258913848,21.25750049635137,wholesale diesel $0.55/L,0.0741,727.7515801995562,50.0,False,Fig 3 comparator
+e-kerosene,United Kingdom,neutral,75.18389258913848,21.25750049635137,wholesale jet $0.52/L,0.0715,754.2152740249946,50.0,False,Fig 3 comparator
+ethanol,United Kingdom,neutral,72.73531111658156,21.25750049635137,vs diesel (fuel use),0.0741,694.7072958195707,50.0,False,Fig 3 comparator
+hydrogen,United Republic of Tanzania,neutral,35.04519495608949,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,181.09642565236385,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,United Republic of Tanzania,neutral,47.62860876558102,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,113.00365986781964,0.0,False,Fig 3 comparator
+methanol,United Republic of Tanzania,neutral,53.330918661484674,15.1,fossil MeOH $300/t,0.0741,515.9368240416285,0.0,False,Fig 3 comparator
+e-methane,United Republic of Tanzania,neutral,52.800681943995244,14.109007025886783,regional natural gas,0.0561,689.691175010846,0.0,False,Fig 3 comparator
+e-diesel,United Republic of Tanzania,neutral,61.20536071599551,15.4,wholesale diesel $0.55/L,0.0741,618.1560150606682,0.0,False,Fig 3 comparator
+e-kerosene,United Republic of Tanzania,neutral,61.20536071599551,14.8,wholesale jet $0.52/L,0.0715,649.0260239999373,0.0,False,Fig 3 comparator
+ethanol,United Republic of Tanzania,neutral,59.02673058719618,15.4,vs diesel (fuel use),0.0741,588.7547987475867,0.0,False,Fig 3 comparator
+hydrogen,United States of America,neutral,32.75910393800501,8.870707721730412,"grey H2 (SMR, regional gas)",0.08,298.6049527034325,15.0,False,"grey H2 (SMR, regional gas)"
+ammonia,United States of America,neutral,42.51874078457331,36.45558156620389,"grey NH3 (SMR, regional gas)",0.129,47.00123425092574,15.0,False,Fig 3 comparator
+methanol,United States of America,neutral,47.82008099604701,15.1,fossil MeOH $300/t,0.0741,441.5665451558301,15.0,False,Fig 3 comparator
+e-methane,United States of America,neutral,47.64589528682279,4.51295535805659,regional natural gas,0.0561,768.8581092471695,15.0,False,Fig 3 comparator
+e-diesel,United States of America,neutral,54.74157176795408,21.08777898097218,wholesale diesel $0.55/L,0.0741,454.16724408882453,15.0,False,Fig 3 comparator
+e-kerosene,United States of America,neutral,54.74157176795408,21.08777898097218,wholesale jet $0.52/L,0.0715,470.68241660114546,15.0,False,Fig 3 comparator
+ethanol,United States of America,neutral,52.925129318596376,21.08777898097218,vs diesel (fuel use),0.0741,429.6538507101781,15.0,False,Fig 3 comparator
+hydrogen,Uruguay,neutral,30.94790518478007,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,129.8803035109961,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Uruguay,neutral,41.056970735040196,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,62.06072939851092,0.0,False,Fig 3 comparator
+methanol,Uruguay,neutral,46.21876364395574,15.1,fossil MeOH $300/t,0.0741,419.9563244798345,0.0,False,Fig 3 comparator
+e-methane,Uruguay,neutral,45.88421538008684,14.109007025886783,regional natural gas,0.0561,566.403000966133,0.0,False,Fig 3 comparator
+e-diesel,Uruguay,neutral,52.96318466760085,15.4,wholesale diesel $0.55/L,0.0741,506.9255690634393,0.0,False,Fig 3 comparator
+e-kerosene,Uruguay,neutral,52.96318466760085,14.8,wholesale jet $0.52/L,0.0715,533.7508345118999,0.0,False,Fig 3 comparator
+ethanol,Uruguay,neutral,51.144936963280315,15.4,vs diesel (fuel use),0.0741,482.38781326963993,0.0,False,Fig 3 comparator
+hydrogen,Uzbekistan,neutral,35.65823850875901,6.777777777777778,"grey H2 (SMR, regional gas)",0.08,361.00575913726544,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Uzbekistan,neutral,47.22497921691418,14.654803504279576,"grey NH3 (SMR, regional gas)",0.129,252.48198226848527,0.0,False,Fig 3 comparator
+methanol,Uzbekistan,neutral,52.926704690113795,15.1,fossil MeOH $300/t,0.0741,510.4818446709014,0.0,False,Fig 3 comparator
+e-methane,Uzbekistan,neutral,52.57437877479144,2.474133974084907,regional natural gas,0.0561,893.0524919912039,0.0,False,Fig 3 comparator
+e-diesel,Uzbekistan,neutral,60.62126464406418,15.4,wholesale diesel $0.55/L,0.0741,610.2734769779242,0.0,False,Fig 3 comparator
+e-kerosene,Uzbekistan,neutral,60.62126464406418,14.8,wholesale jet $0.52/L,0.0715,640.8568481687299,0.0,False,Fig 3 comparator
+ethanol,Uzbekistan,neutral,58.566938387829566,15.4,vs diesel (fuel use),0.0741,582.5497758141643,0.0,False,Fig 3 comparator
+hydrogen,Venezuela,neutral,88.17795675373739,5.388888888888889,"grey H2 (SMR, regional gas)",0.08,1034.8633483106064,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Venezuela,neutral,118.76583124204839,12.604281973557306,"grey NH3 (SMR, regional gas)",0.129,822.9577462673727,0.0,False,Fig 3 comparator
+methanol,Venezuela,neutral,124.40741984887889,15.1,fossil MeOH $300/t,0.0741,1475.1338711049784,0.0,False,Fig 3 comparator
+e-methane,Venezuela,neutral,124.94503421374841,1.2370669870424535,regional natural gas,0.0561,2205.133105645383,0.0,False,Fig 3 comparator
+e-diesel,Venezuela,neutral,143.45935376351332,15.4,wholesale diesel $0.55/L,0.0741,1728.196407064957,0.0,False,Fig 3 comparator
+e-kerosene,Venezuela,neutral,143.45935376351332,14.8,wholesale jet $0.52/L,0.0715,1799.4315211680184,0.0,False,Fig 3 comparator
+ethanol,Venezuela,neutral,138.3054201507411,15.4,vs diesel (fuel use),0.0741,1658.6426471085167,0.0,False,Fig 3 comparator
+hydrogen,Vietnam,neutral,36.151978902825675,16.039659028226822,"grey H2 (SMR, regional gas)",0.08,251.40399843248565,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Vietnam,neutral,47.50748194180798,29.65224805331435,"grey NH3 (SMR, regional gas)",0.129,138.41266580227622,0.0,False,Fig 3 comparator
+methanol,Vietnam,neutral,53.79843107363854,15.1,fossil MeOH $300/t,0.0741,522.2460333824364,0.0,False,Fig 3 comparator
+e-methane,Vietnam,neutral,53.3891994824294,10.921697588519727,regional natural gas,0.0561,756.9964686971421,0.0,False,Fig 3 comparator
+e-diesel,Vietnam,neutral,61.53008180352953,20.64751424114485,wholesale diesel $0.55/L,0.0741,551.721559546352,0.0,False,Fig 3 comparator
+e-kerosene,Vietnam,neutral,61.53008180352953,20.64751424114485,wholesale jet $0.52/L,0.0715,571.7841617116738,0.0,False,Fig 3 comparator
+ethanol,Vietnam,neutral,59.48682618370627,20.64751424114485,vs diesel (fuel use),0.0741,524.14725968369,0.0,False,Fig 3 comparator
+hydrogen,Yemen,neutral,43.97990497060128,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,292.78030083376126,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Yemen,neutral,59.34831402042133,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,203.85408819991503,0.0,False,Fig 3 comparator
+methanol,Yemen,neutral,65.43081661896704,15.1,fossil MeOH $300/t,0.0741,679.2282944529965,0.0,False,Fig 3 comparator
+e-methane,Yemen,neutral,65.02161388185307,14.109007025886783,regional natural gas,0.0561,907.5330990368323,0.0,False,Fig 3 comparator
+e-diesel,Yemen,neutral,75.11822157981187,15.4,wholesale diesel $0.55/L,0.0741,805.913921454951,0.0,False,Fig 3 comparator
+e-kerosene,Yemen,neutral,75.11822157981187,14.8,wholesale jet $0.52/L,0.0715,843.6114906267396,0.0,False,Fig 3 comparator
+ethanol,Yemen,neutral,72.47813033057209,15.4,vs diesel (fuel use),0.0741,770.2851596568432,0.0,False,Fig 3 comparator
+hydrogen,Zambia,neutral,55.27842441849305,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,434.01179393240847,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Zambia,neutral,74.0246887282126,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,317.62443477194034,0.0,False,Fig 3 comparator
+methanol,Zambia,neutral,80.95332797697026,15.1,fossil MeOH $300/t,0.0741,888.7088795812451,0.0,False,Fig 3 comparator
+e-methane,Zambia,neutral,80.6946432398156,14.109007025886783,regional natural gas,0.0561,1186.909736433669,0.0,False,Fig 3 comparator
+e-diesel,Zambia,neutral,93.00080737210563,15.4,wholesale diesel $0.55/L,0.0741,1047.2443639960272,0.0,False,Fig 3 comparator
+e-kerosene,Zambia,neutral,93.00080737210563,14.8,wholesale jet $0.52/L,0.0715,1093.717585623855,0.0,False,Fig 3 comparator
+ethanol,Zambia,neutral,89.73878512298184,15.4,vs diesel (fuel use),0.0741,1003.2224712953014,0.0,False,Fig 3 comparator
+hydrogen,Zimbabwe,neutral,52.499953739861795,20.55748090390038,"grey H2 (SMR, regional gas)",0.08,399.28091044951765,0.0,False,"grey H2 (SMR, regional gas)"
+ammonia,Zimbabwe,neutral,70.78112023489304,33.05113664263229,"grey NH3 (SMR, regional gas)",0.129,292.4804929632616,0.0,False,Fig 3 comparator
+methanol,Zimbabwe,neutral,76.68739738029404,15.1,fossil MeOH $300/t,0.0741,831.138965995871,0.0,False,Fig 3 comparator
+e-methane,Zimbabwe,neutral,76.50149456985375,14.109007025886783,regional natural gas,0.0561,1112.1655533683952,0.0,False,Fig 3 comparator
+e-diesel,Zimbabwe,neutral,88.20278467321094,15.4,wholesale diesel $0.55/L,0.0741,982.4937202862475,0.0,False,Fig 3 comparator
+e-kerosene,Zimbabwe,neutral,88.20278467321094,14.8,wholesale jet $0.52/L,0.0715,1026.6123730519014,0.0,False,Fig 3 comparator
+ethanol,Zimbabwe,neutral,85.06341670077194,15.4,vs diesel (fuel use),0.0741,940.1270809820774,0.0,False,Fig 3 comparator

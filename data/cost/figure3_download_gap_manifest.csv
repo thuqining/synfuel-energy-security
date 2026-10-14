@@ -1,0 +1,61 @@
+version,country,trade_status,observed_months,total_months,observed_share,data_status,next_action_or_reason
+ammonia,China,net importer,165,248,0.6653225806451613,blocked_public,GACC online query returns an anti-bot challenge; Comtrade usable months retained
+ammonia,Israel,net importer,0,248,0.0,blocked_quality,Comtrade weights are absent or common-factor imputations; CBS item-level interface is bot-blocked
+ammonia,Vietnam,net importer,0,248,0.0,blocked_quality,all Comtrade weights are common-factor imputations; national public summaries do not list anhydrous ammonia
+ammonia,Australia,net exporter,0,248,0.0,conceptual_not_download_gap,"use downloaded export FOB unit values as an opportunity-cost comparator, or omit from an import-price panel"
+ammonia,Egypt,net exporter,0,248,0.0,conceptual_not_download_gap,"use downloaded export FOB unit values as an opportunity-cost comparator, or omit from an import-price panel"
+ammonia,Indonesia,net exporter,0,248,0.0,conceptual_not_download_gap,"use downloaded export FOB unit values as an opportunity-cost comparator, or omit from an import-price panel"
+ammonia,Netherlands,net exporter,0,248,0.0,conceptual_not_download_gap,"use downloaded export FOB unit values as an opportunity-cost comparator, or omit from an import-price panel"
+ammonia,Oman,net exporter,0,248,0.0,conceptual_not_download_gap,"use downloaded export FOB unit values as an opportunity-cost comparator, or omit from an import-price panel"
+ammonia,Pakistan,net exporter,0,248,0.0,conceptual_not_download_gap,"use downloaded export FOB unit values as an opportunity-cost comparator, or omit from an import-price panel"
+ammonia,Poland,net exporter,0,248,0.0,conceptual_not_download_gap,"use downloaded export FOB unit values as an opportunity-cost comparator, or omit from an import-price panel"
+ammonia,Saudi Arabia,net exporter,0,248,0.0,conceptual_not_download_gap,"use downloaded export FOB unit values as an opportunity-cost comparator, or omit from an import-price panel"
+ammonia,United Kingdom,net exporter,0,248,0.0,conceptual_not_download_gap,"use downloaded export FOB unit values as an opportunity-cost comparator, or omit from an import-price panel"
+ammonia,Brazil,net importer,242,248,0.9758064516129032,download_complete_for_analysis,none; retain routine release refresh
+ammonia,Chile,net importer,235,248,0.9475806451612904,download_complete_for_analysis,none; retain routine release refresh
+ammonia,Germany,net importer,245,248,0.9879032258064516,download_complete_for_analysis,none; retain routine release refresh
+ammonia,Italy,net importer,197,248,0.7943548387096774,download_complete_for_analysis,none; retain routine release refresh
+ammonia,Norway,net importer,242,248,0.9758064516129032,download_complete_for_analysis,none; retain routine release refresh
+ammonia,Spain,net importer,244,248,0.9838709677419356,download_complete_for_analysis,none; retain routine release refresh
+ammonia,United States of America,net importer,211,248,0.8508064516129032,download_complete_for_analysis,none; retain routine release refresh
+ammonia,Sri Lanka,net importer,0,248,0.0,manual_or_request,only two thin Comtrade months; request customs HS 281410 value and tonnes
+ammonia,Dominican Republic,net importer,0,248,0.0,not_material_thin_trade,reported imports are below the 500 t/month quality threshold
+ammonia,Ireland,net importer,0,248,0.0,not_material_thin_trade,Eurostat imports are consistently below the 500 t/month quality threshold
+ammonia,Kenya,net importer,0,248,0.0,not_material_thin_trade,reported imports are below the 500 t/month quality threshold
+ammonia,Madagascar,net importer,0,248,0.0,not_material_thin_trade,ammonia imports are negligible and reported to Comtrade yearly only
+ammonia,India,net importer,180,248,0.7258064516129032,partial_usable,retain observed import months; do not label constructed fill as observed
+ammonia,Japan,net importer,184,248,0.7419354838709677,partial_usable,retain observed import months; do not label constructed fill as observed
+ammonia,Morocco,net importer,156,248,0.6290322580645161,partial_usable,retain observed import months; do not label constructed fill as observed
+ammonia,Philippines,net importer,94,248,0.3790322580645161,partial_usable,retain observed import months; do not label constructed fill as observed
+ammonia,South Africa,net importer,113,248,0.4556451612903225,partial_usable,retain observed import months; do not label constructed fill as observed
+ammonia,South Korea,net importer,132,248,0.532258064516129,partial_usable,retain observed import months; do not label constructed fill as observed
+ft,Brazil,net exporter,247,248,0.995967741935484,download_complete_for_analysis,none; retain routine release refresh
+ft,Chile,net importer,248,248,1.0,download_complete_for_analysis,none; retain routine release refresh
+ft,Germany,net importer,245,245,1.0,download_complete_for_analysis,none; retain routine release refresh
+ft,Ireland,net importer,246,246,1.0,download_complete_for_analysis,none; retain routine release refresh
+ft,Israel,net importer,248,248,1.0,download_complete_for_analysis,none; retain routine release refresh
+ft,Italy,net importer,245,245,1.0,download_complete_for_analysis,none; retain routine release refresh
+ft,Japan,net importer,243,248,0.9798387096774194,download_complete_for_analysis,none; retain routine release refresh
+ft,Morocco,net importer,243,245,0.9918367346938776,download_complete_for_analysis,none; retain routine release refresh
+ft,Netherlands,net importer,245,245,1.0,download_complete_for_analysis,none; retain routine release refresh
+ft,Norway,net exporter,247,247,1.0,download_complete_for_analysis,none; retain routine release refresh
+ft,Poland,net importer,245,245,1.0,download_complete_for_analysis,none; retain routine release refresh
+ft,South Africa,net importer,248,248,1.0,download_complete_for_analysis,none; retain routine release refresh
+ft,South Korea,net importer,247,248,0.995967741935484,download_complete_for_analysis,none; retain routine release refresh
+ft,Spain,net importer,246,246,1.0,download_complete_for_analysis,none; retain routine release refresh
+ft,United Kingdom,net importer,247,247,1.0,download_complete_for_analysis,none; retain routine release refresh
+ft,United States of America,net exporter,248,248,1.0,download_complete_for_analysis,none; retain routine release refresh
+ft,Vietnam,net importer,233,248,0.939516129032258,download_complete_for_analysis,none; retain routine release refresh
+ft,Egypt,net importer,207,246,0.8414634146341463,manual_or_account,CAPMAS item-level value and quantity require a registered account
+ft,Sri Lanka,net importer,92,248,0.3709677419354839,manual_or_request,request CPC/customs value and tonnes; public CPC sheets cover only selected months
+ft,Australia,net importer,192,248,0.7741935483870968,partial_usable,APS official monthly series starts 2010-07; no earlier APS series exists
+ft,China,net importer,132,248,0.532258064516129,partial_usable,GACC query returns an anti-bot challenge; official FOB export series retained
+ft,Dominican Republic,net importer,147,248,0.592741935483871,partial_usable,weekly MIC/SEIC notices and customs mirrors are sparse in some years
+ft,India,net importer,211,248,0.8508064516129032,partial_usable,country observations plus transparently labelled regional fill
+ft,Indonesia,net importer,156,248,0.6290322580645161,partial_usable,BPS detailed customs is Cloudflare-blocked; official HIP plus verified customs months retained
+ft,Kenya,net importer,111,248,0.4475806451612903,partial_usable,EPRA landed-cost notices are public but historical notice gaps remain
+ft,Madagascar,net importer,121,248,0.4879032258064516,partial_usable,OMH publishes monthly landed CIF value and tonnes from 2016-01 only; earlier years are not on the site
+ft,Oman,net exporter,107,248,0.4314516129032258,partial_usable,country observations plus transparently labelled regional fill
+ft,Pakistan,net importer,89,248,0.3588709677419355,partial_usable,official OGRA tax-free C&F recovered for 2006-2012; PBS HS8 is June-only thereafter
+ft,Philippines,net importer,171,248,0.6895161290322581,partial_usable,PSA HS8 workbook access is blocked for some editions; available customs rows retained
+ft,Saudi Arabia,net exporter,107,248,0.4314516129032258,partial_usable,country observations plus transparently labelled regional fill

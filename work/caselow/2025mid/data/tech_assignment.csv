@@ -1,0 +1,2741 @@
+cell_id,lon,lat,country,iec_class,pv_mode
+2060,-70.0,-55.0,Chile,II,fixed
+2061,-67.5,-55.0,Argentina,III,fixed
+2203,-72.5,-52.5,Chile,III,fixed
+2204,-70.0,-52.5,Chile,I,fixed
+2208,-60.0,-52.5,Falkland Islands,I,fixed
+2346,-75.0,-50.0,Chile,I,fixed
+2347,-72.5,-50.0,Argentina,III,fixed
+2348,-70.0,-50.0,Argentina,II,fixed
+2349,-67.5,-50.0,Argentina,I,tracking
+2490,-75.0,-47.5,Chile,I,fixed
+2491,-72.5,-47.5,Chile,III,fixed
+2492,-70.0,-47.5,Argentina,I,tracking
+2493,-67.5,-47.5,Argentina,II,tracking
+2634,-75.0,-45.0,Chile,I,fixed
+2635,-72.5,-45.0,Chile,III,fixed
+2636,-70.0,-45.0,Argentina,II,tracking
+2637,-67.5,-45.0,Argentina,II,tracking
+2638,-65.0,-45.0,Argentina,I,tracking
+2731,167.5,-45.0,New Zealand,III,fixed
+2732,170.0,-45.0,New Zealand,III,fixed
+2779,-72.5,-42.5,Chile,III,fixed
+2780,-70.0,-42.5,Argentina,III,tracking
+2781,-67.5,-42.5,Argentina,II,tracking
+2782,-65.0,-42.5,Argentina,II,tracking
+2866,145.0,-42.5,Australia,I,fixed
+2867,147.5,-42.5,Australia,III,fixed
+2876,170.0,-42.5,New Zealand,II,fixed
+2877,172.5,-42.5,New Zealand,III,fixed
+2923,-72.5,-40.0,Chile,III,fixed
+2924,-70.0,-40.0,Argentina,III,tracking
+2925,-67.5,-40.0,Argentina,III,tracking
+2926,-65.0,-40.0,Argentina,II,tracking
+2927,-62.5,-40.0,Argentina,II,tracking
+3022,175.0,-40.0,New Zealand,II,fixed
+3023,177.5,-40.0,New Zealand,II,tracking
+3067,-72.5,-37.5,Chile,III,tracking
+3068,-70.0,-37.5,Argentina,III,tracking
+3069,-67.5,-37.5,Argentina,III,tracking
+3070,-65.0,-37.5,Argentina,III,tracking
+3071,-62.5,-37.5,Argentina,III,tracking
+3072,-60.0,-37.5,Argentina,III,tracking
+3073,-57.5,-37.5,Argentina,III,tracking
+3152,140.0,-37.5,Australia,II,fixed
+3153,142.5,-37.5,Australia,III,fixed
+3154,145.0,-37.5,Australia,III,fixed
+3155,147.5,-37.5,Australia,III,fixed
+3156,150.0,-37.5,Australia,II,tracking
+3166,175.0,-37.5,New Zealand,III,fixed
+3167,177.5,-37.5,New Zealand,III,tracking
+3211,-72.5,-35.0,Chile,II,tracking
+3212,-70.0,-35.0,Argentina,III,tracking
+3213,-67.5,-35.0,Argentina,III,tracking
+3214,-65.0,-35.0,Argentina,III,tracking
+3215,-62.5,-35.0,Argentina,III,tracking
+3216,-60.0,-35.0,Argentina,III,tracking
+3217,-57.5,-35.0,Argentina,III,tracking
+3218,-55.0,-35.0,Uruguay,II,tracking
+3248,20.0,-35.0,South Africa,II,tracking
+3249,22.5,-35.0,South Africa,II,tracking
+3286,115.0,-35.0,Australia,I,tracking
+3287,117.5,-35.0,Australia,III,fixed
+3294,135.0,-35.0,Australia,II,tracking
+3295,137.5,-35.0,Australia,III,tracking
+3296,140.0,-35.0,Australia,III,tracking
+3297,142.5,-35.0,Australia,III,tracking
+3298,145.0,-35.0,Australia,III,tracking
+3299,147.5,-35.0,Australia,III,tracking
+3300,150.0,-35.0,Australia,III,fixed
+3356,-70.0,-32.5,Argentina,III,tracking
+3357,-67.5,-32.5,Argentina,III,tracking
+3358,-65.0,-32.5,Argentina,III,tracking
+3359,-62.5,-32.5,Argentina,III,tracking
+3360,-60.0,-32.5,Argentina,III,tracking
+3361,-57.5,-32.5,Uruguay,III,tracking
+3362,-55.0,-32.5,Uruguay,III,tracking
+3363,-52.5,-32.5,Brazil,III,tracking
+3391,17.5,-32.5,South Africa,II,tracking
+3392,20.0,-32.5,South Africa,III,tracking
+3393,22.5,-32.5,South Africa,III,tracking
+3394,25.0,-32.5,South Africa,III,tracking
+3395,27.5,-32.5,South Africa,III,tracking
+3430,115.0,-32.5,Australia,II,tracking
+3431,117.5,-32.5,Australia,III,tracking
+3432,120.0,-32.5,Australia,III,tracking
+3433,122.5,-32.5,Australia,III,tracking
+3434,125.0,-32.5,Australia,II,tracking
+3435,127.5,-32.5,Australia,II,tracking
+3437,132.5,-32.5,Australia,II,tracking
+3438,135.0,-32.5,Australia,III,tracking
+3439,137.5,-32.5,Australia,III,tracking
+3440,140.0,-32.5,Australia,III,tracking
+3441,142.5,-32.5,Australia,III,tracking
+3442,145.0,-32.5,Australia,III,tracking
+3443,147.5,-32.5,Australia,III,tracking
+3444,150.0,-32.5,Australia,III,tracking
+3445,152.5,-32.5,Australia,III,tracking
+3500,-70.0,-30.0,Argentina,III,tracking
+3501,-67.5,-30.0,Argentina,III,tracking
+3502,-65.0,-30.0,Argentina,III,tracking
+3503,-62.5,-30.0,Argentina,III,tracking
+3504,-60.0,-30.0,Argentina,III,tracking
+3505,-57.5,-30.0,Argentina,III,tracking
+3506,-55.0,-30.0,Brazil,III,tracking
+3507,-52.5,-30.0,Brazil,III,tracking
+3508,-50.0,-30.0,Brazil,II,tracking
+3535,17.5,-30.0,South Africa,III,tracking
+3536,20.0,-30.0,South Africa,III,tracking
+3537,22.5,-30.0,South Africa,III,tracking
+3538,25.0,-30.0,South Africa,III,tracking
+3539,27.5,-30.0,South Africa,III,tracking
+3540,30.0,-30.0,South Africa,III,tracking
+3574,115.0,-30.0,Australia,III,tracking
+3575,117.5,-30.0,Australia,III,tracking
+3576,120.0,-30.0,Australia,III,tracking
+3577,122.5,-30.0,Australia,III,tracking
+3578,125.0,-30.0,Australia,III,tracking
+3579,127.5,-30.0,Australia,III,tracking
+3580,130.0,-30.0,Australia,III,tracking
+3581,132.5,-30.0,Australia,III,tracking
+3582,135.0,-30.0,Australia,III,tracking
+3583,137.5,-30.0,Australia,III,tracking
+3584,140.0,-30.0,Australia,III,tracking
+3585,142.5,-30.0,Australia,III,tracking
+3586,145.0,-30.0,Australia,III,tracking
+3587,147.5,-30.0,Australia,III,tracking
+3588,150.0,-30.0,Australia,III,tracking
+3589,152.5,-30.0,Australia,III,tracking
+3644,-70.0,-27.5,Chile,III,tracking
+3645,-67.5,-27.5,Argentina,III,tracking
+3646,-65.0,-27.5,Argentina,III,tracking
+3647,-62.5,-27.5,Argentina,III,tracking
+3648,-60.0,-27.5,Argentina,III,tracking
+3649,-57.5,-27.5,Argentina,III,tracking
+3650,-55.0,-27.5,Argentina,III,tracking
+3651,-52.5,-27.5,Brazil,III,tracking
+3652,-50.0,-27.5,Brazil,III,fixed
+3678,15.0,-27.5,Namibia,I,tracking
+3679,17.5,-27.5,Namibia,III,tracking
+3680,20.0,-27.5,Namibia,III,tracking
+3681,22.5,-27.5,South Africa,III,tracking
+3682,25.0,-27.5,South Africa,III,tracking
+3683,27.5,-27.5,South Africa,III,tracking
+3684,30.0,-27.5,South Africa,III,tracking
+3685,32.5,-27.5,South Africa,III,fixed
+3718,115.0,-27.5,Australia,III,tracking
+3719,117.5,-27.5,Australia,III,tracking
+3720,120.0,-27.5,Australia,III,tracking
+3721,122.5,-27.5,Australia,III,tracking
+3722,125.0,-27.5,Australia,III,tracking
+3723,127.5,-27.5,Australia,III,tracking
+3724,130.0,-27.5,Australia,III,tracking
+3725,132.5,-27.5,Australia,III,tracking
+3726,135.0,-27.5,Australia,III,tracking
+3727,137.5,-27.5,Australia,III,tracking
+3728,140.0,-27.5,Australia,III,tracking
+3729,142.5,-27.5,Australia,III,tracking
+3730,145.0,-27.5,Australia,III,tracking
+3731,147.5,-27.5,Australia,III,tracking
+3732,150.0,-27.5,Australia,III,tracking
+3733,152.5,-27.5,Australia,III,tracking
+3788,-70.0,-25.0,Chile,III,tracking
+3789,-67.5,-25.0,Argentina,III,tracking
+3790,-65.0,-25.0,Argentina,III,tracking
+3791,-62.5,-25.0,Argentina,III,tracking
+3792,-60.0,-25.0,Argentina,III,tracking
+3793,-57.5,-25.0,Paraguay,III,tracking
+3794,-55.0,-25.0,Paraguay,III,tracking
+3795,-52.5,-25.0,Brazil,III,tracking
+3796,-50.0,-25.0,Brazil,III,tracking
+3797,-47.5,-25.0,Brazil,III,fixed
+3822,15.0,-25.0,Namibia,III,tracking
+3823,17.5,-25.0,Namibia,III,tracking
+3824,20.0,-25.0,Namibia,III,tracking
+3825,22.5,-25.0,Botswana,III,tracking
+3826,25.0,-25.0,Botswana,III,tracking
+3827,27.5,-25.0,South Africa,III,tracking
+3828,30.0,-25.0,South Africa,III,tracking
+3829,32.5,-25.0,Mozambique,III,fixed
+3830,35.0,-25.0,Mozambique,III,tracking
+3834,45.0,-25.0,Madagascar,III,tracking
+3835,47.5,-25.0,Madagascar,I,tracking
+3862,115.0,-25.0,Australia,III,tracking
+3863,117.5,-25.0,Australia,III,tracking
+3864,120.0,-25.0,Australia,III,tracking
+3865,122.5,-25.0,Australia,III,tracking
+3866,125.0,-25.0,Australia,III,tracking
+3867,127.5,-25.0,Australia,III,tracking
+3868,130.0,-25.0,Australia,III,tracking
+3869,132.5,-25.0,Australia,III,tracking
+3870,135.0,-25.0,Australia,III,tracking
+3871,137.5,-25.0,Australia,III,tracking
+3872,140.0,-25.0,Australia,III,tracking
+3873,142.5,-25.0,Australia,III,tracking
+3874,145.0,-25.0,Australia,III,tracking
+3875,147.5,-25.0,Australia,III,tracking
+3876,150.0,-25.0,Australia,III,tracking
+3877,152.5,-25.0,Australia,III,tracking
+3932,-70.0,-22.5,Chile,III,tracking
+3933,-67.5,-22.5,Chile,III,tracking
+3934,-65.0,-22.5,Argentina,III,tracking
+3935,-62.5,-22.5,Argentina,III,tracking
+3936,-60.0,-22.5,Paraguay,III,tracking
+3937,-57.5,-22.5,Paraguay,III,tracking
+3938,-55.0,-22.5,Brazil,III,tracking
+3939,-52.5,-22.5,Brazil,III,tracking
+3940,-50.0,-22.5,Brazil,III,tracking
+3941,-47.5,-22.5,Brazil,III,tracking
+3942,-45.0,-22.5,Brazil,III,tracking
+3943,-42.5,-22.5,Brazil,III,fixed
+3966,15.0,-22.5,Namibia,III,tracking
+3967,17.5,-22.5,Namibia,III,tracking
+3968,20.0,-22.5,Namibia,III,tracking
+3969,22.5,-22.5,Botswana,III,tracking
+3970,25.0,-22.5,Botswana,III,tracking
+3971,27.5,-22.5,Botswana,III,tracking
+3972,30.0,-22.5,South Africa,III,tracking
+3973,32.5,-22.5,Mozambique,III,tracking
+3974,35.0,-22.5,Mozambique,III,tracking
+3978,45.0,-22.5,Madagascar,III,tracking
+3979,47.5,-22.5,Madagascar,III,fixed
+4006,115.0,-22.5,Australia,III,tracking
+4007,117.5,-22.5,Australia,III,tracking
+4008,120.0,-22.5,Australia,III,tracking
+4009,122.5,-22.5,Australia,III,tracking
+4010,125.0,-22.5,Australia,III,tracking
+4011,127.5,-22.5,Australia,III,tracking
+4012,130.0,-22.5,Australia,III,tracking
+4013,132.5,-22.5,Australia,III,tracking
+4014,135.0,-22.5,Australia,III,tracking
+4015,137.5,-22.5,Australia,III,tracking
+4016,140.0,-22.5,Australia,III,tracking
+4017,142.5,-22.5,Australia,III,tracking
+4018,145.0,-22.5,Australia,III,tracking
+4019,147.5,-22.5,Australia,III,tracking
+4020,150.0,-22.5,Australia,III,tracking
+4076,-70.0,-20.0,Chile,III,tracking
+4077,-67.5,-20.0,Bolivia,III,tracking
+4078,-65.0,-20.0,Bolivia,III,tracking
+4079,-62.5,-20.0,Bolivia,III,tracking
+4080,-60.0,-20.0,Paraguay,III,tracking
+4081,-57.5,-20.0,Brazil,III,tracking
+4082,-55.0,-20.0,Brazil,III,tracking
+4083,-52.5,-20.0,Brazil,III,tracking
+4084,-50.0,-20.0,Brazil,III,tracking
+4085,-47.5,-20.0,Brazil,III,tracking
+4086,-45.0,-20.0,Brazil,III,tracking
+4087,-42.5,-20.0,Brazil,III,fixed
+4088,-40.0,-20.0,Brazil,III,tracking
+4109,12.5,-20.0,Namibia,II,tracking
+4110,15.0,-20.0,Namibia,III,tracking
+4111,17.5,-20.0,Namibia,III,tracking
+4112,20.0,-20.0,Namibia,III,tracking
+4113,22.5,-20.0,Botswana,III,tracking
+4114,25.0,-20.0,Botswana,III,tracking
+4115,27.5,-20.0,Zimbabwe,III,tracking
+4116,30.0,-20.0,Zimbabwe,III,tracking
+4117,32.5,-20.0,Zimbabwe,III,tracking
+4118,35.0,-20.0,Mozambique,III,tracking
+4122,45.0,-20.0,Madagascar,III,tracking
+4123,47.5,-20.0,Madagascar,III,tracking
+4151,117.5,-20.0,Australia,III,tracking
+4152,120.0,-20.0,Australia,III,tracking
+4153,122.5,-20.0,Australia,III,tracking
+4154,125.0,-20.0,Australia,III,tracking
+4155,127.5,-20.0,Australia,III,tracking
+4156,130.0,-20.0,Australia,III,tracking
+4157,132.5,-20.0,Australia,III,tracking
+4158,135.0,-20.0,Australia,III,tracking
+4159,137.5,-20.0,Australia,III,tracking
+4160,140.0,-20.0,Australia,III,tracking
+4161,142.5,-20.0,Australia,III,tracking
+4162,145.0,-20.0,Australia,III,tracking
+4163,147.5,-20.0,Australia,III,tracking
+4219,-72.5,-17.5,Peru,III,tracking
+4220,-70.0,-17.5,Peru,III,tracking
+4221,-67.5,-17.5,Bolivia,III,tracking
+4222,-65.0,-17.5,Bolivia,III,tracking
+4223,-62.5,-17.5,Bolivia,III,tracking
+4224,-60.0,-17.5,Bolivia,III,tracking
+4225,-57.5,-17.5,Brazil,III,tracking
+4226,-55.0,-17.5,Brazil,III,tracking
+4227,-52.5,-17.5,Brazil,III,tracking
+4228,-50.0,-17.5,Brazil,III,tracking
+4229,-47.5,-17.5,Brazil,III,tracking
+4230,-45.0,-17.5,Brazil,III,tracking
+4231,-42.5,-17.5,Brazil,III,fixed
+4232,-40.0,-17.5,Brazil,III,fixed
+4253,12.5,-17.5,Namibia,III,tracking
+4254,15.0,-17.5,Namibia,III,tracking
+4255,17.5,-17.5,Namibia,III,tracking
+4256,20.0,-17.5,Angola,III,tracking
+4257,22.5,-17.5,Angola,III,tracking
+4258,25.0,-17.5,Zambia,III,tracking
+4259,27.5,-17.5,Zimbabwe,III,tracking
+4260,30.0,-17.5,Zimbabwe,III,tracking
+4261,32.5,-17.5,Zimbabwe,III,tracking
+4262,35.0,-17.5,Mozambique,III,tracking
+4263,37.5,-17.5,Mozambique,III,tracking
+4266,45.0,-17.5,Madagascar,III,tracking
+4267,47.5,-17.5,Madagascar,III,tracking
+4268,50.0,-17.5,Madagascar,III,tracking
+4297,122.5,-17.5,Australia,III,tracking
+4298,125.0,-17.5,Australia,III,tracking
+4299,127.5,-17.5,Australia,III,tracking
+4300,130.0,-17.5,Australia,III,tracking
+4301,132.5,-17.5,Australia,III,tracking
+4302,135.0,-17.5,Australia,III,tracking
+4303,137.5,-17.5,Australia,III,tracking
+4304,140.0,-17.5,Australia,III,tracking
+4305,142.5,-17.5,Australia,III,tracking
+4306,145.0,-17.5,Australia,III,tracking
+4319,177.5,-17.5,Fiji,III,tracking
+4362,-75.0,-15.0,Peru,III,tracking
+4363,-72.5,-15.0,Peru,III,tracking
+4364,-70.0,-15.0,Peru,III,tracking
+4365,-67.5,-15.0,Bolivia,III,fixed
+4366,-65.0,-15.0,Bolivia,III,tracking
+4367,-62.5,-15.0,Bolivia,III,tracking
+4368,-60.0,-15.0,Brazil,III,tracking
+4369,-57.5,-15.0,Brazil,III,tracking
+4370,-55.0,-15.0,Brazil,III,tracking
+4371,-52.5,-15.0,Brazil,III,tracking
+4372,-50.0,-15.0,Brazil,III,tracking
+4373,-47.5,-15.0,Brazil,III,tracking
+4374,-45.0,-15.0,Brazil,III,tracking
+4375,-42.5,-15.0,Brazil,III,tracking
+4376,-40.0,-15.0,Brazil,III,fixed
+4397,12.5,-15.0,Angola,III,tracking
+4398,15.0,-15.0,Angola,III,tracking
+4399,17.5,-15.0,Angola,III,tracking
+4400,20.0,-15.0,Angola,III,tracking
+4401,22.5,-15.0,Zambia,III,tracking
+4402,25.0,-15.0,Zambia,III,tracking
+4403,27.5,-15.0,Zambia,III,tracking
+4404,30.0,-15.0,Zambia,III,tracking
+4405,32.5,-15.0,Mozambique,III,tracking
+4406,35.0,-15.0,Malawi,III,tracking
+4407,37.5,-15.0,Mozambique,III,tracking
+4408,40.0,-15.0,Mozambique,III,tracking
+4411,47.5,-15.0,Madagascar,III,tracking
+4412,50.0,-15.0,Madagascar,III,fixed
+4442,125.0,-15.0,Australia,III,tracking
+4443,127.5,-15.0,Australia,III,tracking
+4444,130.0,-15.0,Australia,III,tracking
+4445,132.5,-15.0,Australia,III,tracking
+4446,135.0,-15.0,Australia,III,tracking
+4449,142.5,-15.0,Australia,III,tracking
+4450,145.0,-15.0,Australia,III,tracking
+4505,-77.5,-12.5,Peru,III,tracking
+4506,-75.0,-12.5,Peru,III,tracking
+4507,-72.5,-12.5,Peru,III,fixed
+4508,-70.0,-12.5,Peru,III,fixed
+4509,-67.5,-12.5,Bolivia,III,fixed
+4510,-65.0,-12.5,Bolivia,III,tracking
+4511,-62.5,-12.5,Brazil,III,tracking
+4512,-60.0,-12.5,Brazil,III,tracking
+4513,-57.5,-12.5,Brazil,III,tracking
+4514,-55.0,-12.5,Brazil,III,tracking
+4515,-52.5,-12.5,Brazil,III,tracking
+4516,-50.0,-12.5,Brazil,III,tracking
+4517,-47.5,-12.5,Brazil,III,tracking
+4518,-45.0,-12.5,Brazil,III,tracking
+4519,-42.5,-12.5,Brazil,III,tracking
+4520,-40.0,-12.5,Brazil,III,fixed
+4521,-37.5,-12.5,Brazil,III,tracking
+4541,12.5,-12.5,Angola,III,tracking
+4542,15.0,-12.5,Angola,III,tracking
+4543,17.5,-12.5,Angola,III,tracking
+4544,20.0,-12.5,Angola,III,tracking
+4545,22.5,-12.5,Angola,III,tracking
+4546,25.0,-12.5,Zambia,III,tracking
+4547,27.5,-12.5,Zambia,III,tracking
+4548,30.0,-12.5,Zambia,III,tracking
+4549,32.5,-12.5,Zambia,III,tracking
+4550,35.0,-12.5,Mozambique,III,tracking
+4551,37.5,-12.5,Mozambique,III,tracking
+4552,40.0,-12.5,Mozambique,III,tracking
+4556,50.0,-12.5,Madagascar,I,tracking
+4588,130.0,-12.5,Australia,III,tracking
+4589,132.5,-12.5,Australia,III,tracking
+4590,135.0,-12.5,Australia,III,tracking
+4593,142.5,-12.5,Australia,III,fixed
+4649,-77.5,-10.0,Peru,III,tracking
+4650,-75.0,-10.0,Peru,III,fixed
+4651,-72.5,-10.0,Peru,III,fixed
+4652,-70.0,-10.0,Brazil,III,fixed
+4653,-67.5,-10.0,Brazil,III,fixed
+4654,-65.0,-10.0,Brazil,III,fixed
+4655,-62.5,-10.0,Brazil,III,fixed
+4656,-60.0,-10.0,Brazil,III,fixed
+4657,-57.5,-10.0,Brazil,III,tracking
+4658,-55.0,-10.0,Brazil,III,tracking
+4659,-52.5,-10.0,Brazil,III,tracking
+4660,-50.0,-10.0,Brazil,III,tracking
+4661,-47.5,-10.0,Brazil,III,tracking
+4662,-45.0,-10.0,Brazil,III,tracking
+4663,-42.5,-10.0,Brazil,III,tracking
+4664,-40.0,-10.0,Brazil,III,tracking
+4665,-37.5,-10.0,Brazil,III,tracking
+4666,-35.0,-10.0,Brazil,III,tracking
+4686,15.0,-10.0,Angola,III,tracking
+4687,17.5,-10.0,Angola,III,tracking
+4688,20.0,-10.0,Angola,III,tracking
+4689,22.5,-10.0,Democratic Republic of the Congo,III,tracking
+4690,25.0,-10.0,Democratic Republic of the Congo,III,tracking
+4691,27.5,-10.0,Democratic Republic of the Congo,III,tracking
+4692,30.0,-10.0,Zambia,III,tracking
+4693,32.5,-10.0,Zambia,III,tracking
+4694,35.0,-10.0,United Republic of Tanzania,III,tracking
+4695,37.5,-10.0,United Republic of Tanzania,III,tracking
+4696,40.0,-10.0,United Republic of Tanzania,III,tracking
+4728,120.0,-10.0,Indonesia,III,tracking
+4730,125.0,-10.0,Indonesia,III,tracking
+4737,142.5,-10.0,Papua New Guinea,II,tracking
+4739,147.5,-10.0,Papua New Guinea,II,fixed
+4740,150.0,-10.0,Papua New Guinea,III,fixed
+4792,-80.0,-7.5,Peru,III,tracking
+4793,-77.5,-7.5,Peru,III,tracking
+4794,-75.0,-7.5,Peru,III,fixed
+4795,-72.5,-7.5,Brazil,III,fixed
+4796,-70.0,-7.5,Brazil,III,fixed
+4797,-67.5,-7.5,Brazil,III,fixed
+4798,-65.0,-7.5,Brazil,III,fixed
+4799,-62.5,-7.5,Brazil,III,fixed
+4800,-60.0,-7.5,Brazil,III,fixed
+4801,-57.5,-7.5,Brazil,III,fixed
+4802,-55.0,-7.5,Brazil,III,fixed
+4803,-52.5,-7.5,Brazil,III,tracking
+4804,-50.0,-7.5,Brazil,III,tracking
+4805,-47.5,-7.5,Brazil,III,tracking
+4806,-45.0,-7.5,Brazil,III,tracking
+4807,-42.5,-7.5,Brazil,III,tracking
+4808,-40.0,-7.5,Brazil,III,tracking
+4809,-37.5,-7.5,Brazil,III,tracking
+4810,-35.0,-7.5,Brazil,III,tracking
+4829,12.5,-7.5,Angola,III,tracking
+4830,15.0,-7.5,Angola,III,tracking
+4831,17.5,-7.5,Angola,III,tracking
+4832,20.0,-7.5,Angola,III,tracking
+4833,22.5,-7.5,Democratic Republic of the Congo,III,tracking
+4834,25.0,-7.5,Democratic Republic of the Congo,III,tracking
+4835,27.5,-7.5,Democratic Republic of the Congo,III,tracking
+4836,30.0,-7.5,Democratic Republic of the Congo,III,tracking
+4837,32.5,-7.5,United Republic of Tanzania,III,tracking
+4838,35.0,-7.5,United Republic of Tanzania,III,tracking
+4839,37.5,-7.5,United Republic of Tanzania,III,tracking
+4840,40.0,-7.5,United Republic of Tanzania,III,tracking
+4867,107.5,-7.5,Indonesia,III,fixed
+4868,110.0,-7.5,Indonesia,III,fixed
+4869,112.5,-7.5,Indonesia,III,fixed
+4870,115.0,-7.5,Indonesia,III,tracking
+4879,137.5,-7.5,Indonesia,III,tracking
+4880,140.0,-7.5,Indonesia,III,fixed
+4881,142.5,-7.5,Papua New Guinea,III,fixed
+4882,145.0,-7.5,Papua New Guinea,III,fixed
+4883,147.5,-7.5,Papua New Guinea,III,fixed
+4936,-80.0,-5.0,Peru,III,tracking
+4937,-77.5,-5.0,Peru,III,fixed
+4938,-75.0,-5.0,Peru,III,fixed
+4939,-72.5,-5.0,Peru,III,fixed
+4940,-70.0,-5.0,Brazil,III,fixed
+4941,-67.5,-5.0,Brazil,III,fixed
+4942,-65.0,-5.0,Brazil,III,fixed
+4943,-62.5,-5.0,Brazil,III,fixed
+4944,-60.0,-5.0,Brazil,III,fixed
+4945,-57.5,-5.0,Brazil,III,fixed
+4946,-55.0,-5.0,Brazil,III,fixed
+4947,-52.5,-5.0,Brazil,III,fixed
+4948,-50.0,-5.0,Brazil,III,fixed
+4949,-47.5,-5.0,Brazil,III,tracking
+4950,-45.0,-5.0,Brazil,III,tracking
+4951,-42.5,-5.0,Brazil,III,tracking
+4952,-40.0,-5.0,Brazil,III,tracking
+4953,-37.5,-5.0,Brazil,III,tracking
+4954,-35.0,-5.0,Brazil,II,tracking
+4973,12.5,-5.0,Republic of the Congo,III,fixed
+4974,15.0,-5.0,Democratic Republic of the Congo,III,fixed
+4975,17.5,-5.0,Democratic Republic of the Congo,III,tracking
+4976,20.0,-5.0,Democratic Republic of the Congo,III,tracking
+4977,22.5,-5.0,Democratic Republic of the Congo,III,tracking
+4978,25.0,-5.0,Democratic Republic of the Congo,III,tracking
+4979,27.5,-5.0,Democratic Republic of the Congo,III,tracking
+4980,30.0,-5.0,United Republic of Tanzania,III,tracking
+4981,32.5,-5.0,United Republic of Tanzania,III,tracking
+4982,35.0,-5.0,United Republic of Tanzania,III,tracking
+4983,37.5,-5.0,United Republic of Tanzania,III,tracking
+4984,40.0,-5.0,Kenya,III,tracking
+5009,102.5,-5.0,Indonesia,III,tracking
+5010,105.0,-5.0,Indonesia,III,fixed
+5016,120.0,-5.0,Indonesia,III,fixed
+5017,122.5,-5.0,Indonesia,III,fixed
+5022,135.0,-5.0,Indonesia,III,fixed
+5023,137.5,-5.0,Indonesia,III,fixed
+5024,140.0,-5.0,Indonesia,III,fixed
+5025,142.5,-5.0,Papua New Guinea,III,fixed
+5026,145.0,-5.0,Papua New Guinea,III,fixed
+5028,150.0,-5.0,Papua New Guinea,III,fixed
+5029,152.5,-5.0,Papua New Guinea,III,fixed
+5080,-80.0,-2.5,Ecuador,III,fixed
+5081,-77.5,-2.5,Ecuador,III,fixed
+5082,-75.0,-2.5,Peru,III,fixed
+5083,-72.5,-2.5,Peru,III,fixed
+5084,-70.0,-2.5,Colombia,III,fixed
+5085,-67.5,-2.5,Brazil,III,fixed
+5086,-65.0,-2.5,Brazil,III,fixed
+5087,-62.5,-2.5,Brazil,III,fixed
+5088,-60.0,-2.5,Brazil,III,fixed
+5089,-57.5,-2.5,Brazil,III,fixed
+5090,-55.0,-2.5,Brazil,III,fixed
+5091,-52.5,-2.5,Brazil,III,fixed
+5092,-50.0,-2.5,Brazil,III,fixed
+5093,-47.5,-2.5,Brazil,III,fixed
+5094,-45.0,-2.5,Brazil,III,fixed
+5095,-42.5,-2.5,Brazil,III,tracking
+5096,-40.0,-2.5,Brazil,II,tracking
+5116,10.0,-2.5,Gabon,III,fixed
+5117,12.5,-2.5,Gabon,III,fixed
+5118,15.0,-2.5,Republic of the Congo,III,fixed
+5119,17.5,-2.5,Democratic Republic of the Congo,III,fixed
+5120,20.0,-2.5,Democratic Republic of the Congo,III,tracking
+5121,22.5,-2.5,Democratic Republic of the Congo,III,tracking
+5122,25.0,-2.5,Democratic Republic of the Congo,III,tracking
+5123,27.5,-2.5,Democratic Republic of the Congo,III,tracking
+5124,30.0,-2.5,Rwanda,III,tracking
+5125,32.5,-2.5,United Republic of Tanzania,III,tracking
+5126,35.0,-2.5,United Republic of Tanzania,III,tracking
+5127,37.5,-2.5,Kenya,III,tracking
+5128,40.0,-2.5,Kenya,III,tracking
+5152,100.0,-2.5,Indonesia,III,fixed
+5153,102.5,-2.5,Indonesia,III,fixed
+5154,105.0,-2.5,Indonesia,III,fixed
+5156,110.0,-2.5,Indonesia,III,fixed
+5157,112.5,-2.5,Indonesia,III,fixed
+5158,115.0,-2.5,Indonesia,III,fixed
+5160,120.0,-2.5,Indonesia,III,fixed
+5161,122.5,-2.5,Indonesia,III,tracking
+5163,127.5,-2.5,Indonesia,III,tracking
+5164,130.0,-2.5,Indonesia,III,tracking
+5165,132.5,-2.5,Indonesia,III,tracking
+5166,135.0,-2.5,Indonesia,III,fixed
+5167,137.5,-2.5,Indonesia,III,fixed
+5168,140.0,-2.5,Indonesia,III,fixed
+5169,142.5,-2.5,Papua New Guinea,III,fixed
+5224,-80.0,0.0,Ecuador,III,fixed
+5225,-77.5,0.0,Ecuador,III,fixed
+5226,-75.0,0.0,Colombia,III,fixed
+5227,-72.5,0.0,Colombia,III,fixed
+5228,-70.0,0.0,Colombia,III,fixed
+5229,-67.5,0.0,Brazil,III,fixed
+5230,-65.0,0.0,Brazil,III,fixed
+5231,-62.5,0.0,Brazil,III,fixed
+5232,-60.0,0.0,Brazil,III,fixed
+5233,-57.5,0.0,Brazil,III,fixed
+5234,-55.0,0.0,Brazil,III,fixed
+5235,-52.5,0.0,Brazil,III,fixed
+5236,-50.0,0.0,Brazil,III,fixed
+5237,-47.5,0.0,Brazil,III,tracking
+5260,10.0,0.0,Gabon,III,fixed
+5261,12.5,0.0,Gabon,III,fixed
+5262,15.0,0.0,Republic of the Congo,III,fixed
+5263,17.5,0.0,Republic of the Congo,III,fixed
+5264,20.0,0.0,Democratic Republic of the Congo,III,tracking
+5265,22.5,0.0,Democratic Republic of the Congo,III,tracking
+5266,25.0,0.0,Democratic Republic of the Congo,III,fixed
+5267,27.5,0.0,Democratic Republic of the Congo,III,fixed
+5268,30.0,0.0,Uganda,III,tracking
+5269,32.5,0.0,Uganda,III,tracking
+5270,35.0,0.0,Kenya,III,tracking
+5271,37.5,0.0,Kenya,III,tracking
+5272,40.0,0.0,Kenya,III,tracking
+5273,42.5,0.0,Somalia,III,tracking
+5296,100.0,0.0,Indonesia,III,fixed
+5297,102.5,0.0,Indonesia,III,fixed
+5300,110.0,0.0,Indonesia,III,fixed
+5301,112.5,0.0,Indonesia,III,fixed
+5302,115.0,0.0,Indonesia,III,fixed
+5303,117.5,0.0,Indonesia,III,fixed
+5304,120.0,0.0,Indonesia,III,tracking
+5305,122.5,0.0,Indonesia,III,tracking
+5307,127.5,0.0,Indonesia,III,fixed
+5309,132.5,0.0,Indonesia,III,tracking
+5369,-77.5,2.5,Colombia,III,fixed
+5370,-75.0,2.5,Colombia,III,fixed
+5371,-72.5,2.5,Colombia,III,fixed
+5372,-70.0,2.5,Colombia,III,fixed
+5373,-67.5,2.5,Colombia,III,fixed
+5374,-65.0,2.5,Venezuela,III,fixed
+5375,-62.5,2.5,Brazil,III,fixed
+5376,-60.0,2.5,Brazil,III,fixed
+5377,-57.5,2.5,Guyana,III,fixed
+5378,-55.0,2.5,Suriname,III,fixed
+5379,-52.5,2.5,Brazil,III,fixed
+5380,-50.0,2.5,Brazil,III,tracking
+5404,10.0,2.5,Cameroon,III,fixed
+5405,12.5,2.5,Cameroon,III,fixed
+5406,15.0,2.5,Cameroon,III,fixed
+5407,17.5,2.5,Republic of the Congo,III,tracking
+5408,20.0,2.5,Democratic Republic of the Congo,III,tracking
+5409,22.5,2.5,Democratic Republic of the Congo,III,tracking
+5410,25.0,2.5,Democratic Republic of the Congo,III,tracking
+5411,27.5,2.5,Democratic Republic of the Congo,III,tracking
+5412,30.0,2.5,Democratic Republic of the Congo,III,fixed
+5413,32.5,2.5,Uganda,III,tracking
+5414,35.0,2.5,Kenya,III,tracking
+5415,37.5,2.5,Kenya,III,tracking
+5416,40.0,2.5,Kenya,III,tracking
+5417,42.5,2.5,Somalia,III,tracking
+5418,45.0,2.5,Somalia,III,tracking
+5439,97.5,2.5,Indonesia,III,fixed
+5440,100.0,2.5,Indonesia,III,fixed
+5441,102.5,2.5,Malaysia,III,fixed
+5444,110.0,2.5,Malaysia,III,fixed
+5445,112.5,2.5,Malaysia,III,fixed
+5446,115.0,2.5,Indonesia,III,fixed
+5447,117.5,2.5,Indonesia,III,fixed
+5513,-77.5,5.0,Colombia,III,fixed
+5514,-75.0,5.0,Colombia,III,tracking
+5515,-72.5,5.0,Colombia,III,tracking
+5516,-70.0,5.0,Colombia,III,fixed
+5517,-67.5,5.0,Venezuela,III,fixed
+5518,-65.0,5.0,Venezuela,III,fixed
+5519,-62.5,5.0,Venezuela,III,fixed
+5520,-60.0,5.0,Guyana,III,fixed
+5521,-57.5,5.0,Suriname,III,fixed
+5522,-55.0,5.0,Suriname,III,fixed
+5523,-52.5,5.0,France,III,fixed
+5540,-10.0,5.0,Liberia,III,fixed
+5541,-7.5,5.0,Ivory Coast,III,fixed
+5542,-5.0,5.0,Ivory Coast,III,fixed
+5543,-2.5,5.0,Ghana,III,fixed
+5544,0.0,5.0,Ghana,III,tracking
+5546,5.0,5.0,Nigeria,III,fixed
+5547,7.5,5.0,Nigeria,III,fixed
+5548,10.0,5.0,Cameroon,III,fixed
+5549,12.5,5.0,Cameroon,III,tracking
+5550,15.0,5.0,Central African Republic,III,tracking
+5551,17.5,5.0,Central African Republic,III,tracking
+5552,20.0,5.0,Central African Republic,III,tracking
+5553,22.5,5.0,Central African Republic,III,tracking
+5554,25.0,5.0,Democratic Republic of the Congo,III,tracking
+5555,27.5,5.0,South Sudan,III,tracking
+5556,30.0,5.0,South Sudan,III,tracking
+5557,32.5,5.0,South Sudan,III,tracking
+5558,35.0,5.0,South Sudan,III,tracking
+5559,37.5,5.0,Ethiopia,III,tracking
+5560,40.0,5.0,Ethiopia,III,tracking
+5561,42.5,5.0,Ethiopia,III,tracking
+5562,45.0,5.0,Somalia,III,tracking
+5563,47.5,5.0,Somalia,II,tracking
+5582,95.0,5.0,Indonesia,III,fixed
+5583,97.5,5.0,Indonesia,III,fixed
+5584,100.0,5.0,Malaysia,III,tracking
+5585,102.5,5.0,Malaysia,III,fixed
+5590,115.0,5.0,Malaysia,III,tracking
+5591,117.5,5.0,Malaysia,III,fixed
+5655,-82.5,7.5,Panama,III,tracking
+5656,-80.0,7.5,Panama,III,fixed
+5657,-77.5,7.5,Colombia,III,fixed
+5658,-75.0,7.5,Colombia,III,fixed
+5659,-72.5,7.5,Colombia,III,fixed
+5660,-70.0,7.5,Venezuela,III,tracking
+5661,-67.5,7.5,Venezuela,III,tracking
+5662,-65.0,7.5,Venezuela,III,fixed
+5663,-62.5,7.5,Venezuela,III,tracking
+5664,-60.0,7.5,Guyana,III,fixed
+5683,-12.5,7.5,Sierra Leone,III,fixed
+5684,-10.0,7.5,Liberia,III,fixed
+5685,-7.5,7.5,Ivory Coast,III,fixed
+5686,-5.0,7.5,Ivory Coast,III,fixed
+5687,-2.5,7.5,Ghana,III,fixed
+5688,0.0,7.5,Ghana,III,tracking
+5689,2.5,7.5,Benin,III,fixed
+5690,5.0,7.5,Nigeria,III,fixed
+5691,7.5,7.5,Nigeria,III,fixed
+5692,10.0,7.5,Nigeria,III,tracking
+5693,12.5,7.5,Cameroon,III,tracking
+5694,15.0,7.5,Cameroon,III,tracking
+5695,17.5,7.5,Central African Republic,III,tracking
+5696,20.0,7.5,Central African Republic,III,tracking
+5697,22.5,7.5,Central African Republic,III,tracking
+5698,25.0,7.5,Central African Republic,III,tracking
+5699,27.5,7.5,South Sudan,III,tracking
+5700,30.0,7.5,South Sudan,III,tracking
+5701,32.5,7.5,South Sudan,III,tracking
+5702,35.0,7.5,Ethiopia,III,fixed
+5703,37.5,7.5,Ethiopia,III,tracking
+5704,40.0,7.5,Ethiopia,III,tracking
+5705,42.5,7.5,Ethiopia,III,tracking
+5706,45.0,7.5,Ethiopia,III,tracking
+5707,47.5,7.5,Somalia,III,tracking
+5708,50.0,7.5,Somalia,I,tracking
+5720,80.0,7.5,Sri Lanka,III,tracking
+5721,82.5,7.5,Sri Lanka,III,tracking
+5728,100.0,7.5,Thailand,III,fixed
+5737,122.5,7.5,Philippines,III,tracking
+5738,125.0,7.5,Philippines,III,fixed
+5798,-85.0,10.0,Costa Rica,III,fixed
+5799,-82.5,10.0,Costa Rica,III,fixed
+5800,-80.0,10.0,Panama,III,tracking
+5802,-75.0,10.0,Colombia,III,fixed
+5803,-72.5,10.0,Venezuela,III,tracking
+5804,-70.0,10.0,Venezuela,III,tracking
+5805,-67.5,10.0,Venezuela,III,tracking
+5806,-65.0,10.0,Venezuela,III,tracking
+5807,-62.5,10.0,Venezuela,III,tracking
+5826,-15.0,10.0,Guinea,III,tracking
+5827,-12.5,10.0,Guinea,III,fixed
+5828,-10.0,10.0,Guinea,III,tracking
+5829,-7.5,10.0,Ivory Coast,III,tracking
+5830,-5.0,10.0,Ivory Coast,III,tracking
+5831,-2.5,10.0,Ghana,III,tracking
+5832,0.0,10.0,Ghana,III,tracking
+5833,2.5,10.0,Benin,III,tracking
+5834,5.0,10.0,Nigeria,III,tracking
+5835,7.5,10.0,Nigeria,III,tracking
+5836,10.0,10.0,Nigeria,III,tracking
+5837,12.5,10.0,Nigeria,III,tracking
+5838,15.0,10.0,Chad,III,tracking
+5839,17.5,10.0,Chad,III,tracking
+5840,20.0,10.0,Chad,III,tracking
+5841,22.5,10.0,Central African Republic,III,tracking
+5842,25.0,10.0,Sudan,III,tracking
+5843,27.5,10.0,Sudan,III,tracking
+5844,30.0,10.0,Sudan,III,tracking
+5845,32.5,10.0,South Sudan,III,tracking
+5846,35.0,10.0,Ethiopia,III,tracking
+5847,37.5,10.0,Ethiopia,III,tracking
+5848,40.0,10.0,Ethiopia,III,tracking
+5849,42.5,10.0,Ethiopia,III,tracking
+5850,45.0,10.0,Somaliland,III,tracking
+5851,47.5,10.0,Somaliland,III,tracking
+5852,50.0,10.0,Somalia,II,tracking
+5863,77.5,10.0,India,III,fixed
+5864,80.0,10.0,India,III,tracking
+5872,100.0,10.0,Thailand,III,tracking
+5874,105.0,10.0,Vietnam,III,fixed
+5875,107.5,10.0,Vietnam,III,tracking
+5881,122.5,10.0,Philippines,III,tracking
+5882,125.0,10.0,Philippines,III,tracking
+5941,-87.5,12.5,Nicaragua,III,tracking
+5942,-85.0,12.5,Nicaragua,III,fixed
+5947,-72.5,12.5,Colombia,I,tracking
+5970,-15.0,12.5,Guinea-Bissau,III,tracking
+5971,-12.5,12.5,Guinea,III,tracking
+5972,-10.0,12.5,Mali,III,tracking
+5973,-7.5,12.5,Mali,III,tracking
+5974,-5.0,12.5,Mali,III,tracking
+5975,-2.5,12.5,Burkina Faso,III,tracking
+5976,0.0,12.5,Burkina Faso,III,tracking
+5977,2.5,12.5,Niger,III,tracking
+5978,5.0,12.5,Nigeria,III,tracking
+5979,7.5,12.5,Nigeria,III,tracking
+5980,10.0,12.5,Nigeria,III,tracking
+5981,12.5,12.5,Nigeria,III,tracking
+5982,15.0,12.5,Chad,III,tracking
+5983,17.5,12.5,Chad,III,tracking
+5984,20.0,12.5,Chad,III,tracking
+5985,22.5,12.5,Sudan,III,tracking
+5986,25.0,12.5,Sudan,III,tracking
+5987,27.5,12.5,Sudan,III,tracking
+5988,30.0,12.5,Sudan,III,tracking
+5989,32.5,12.5,Sudan,III,tracking
+5990,35.0,12.5,Sudan,III,tracking
+5991,37.5,12.5,Ethiopia,III,tracking
+5992,40.0,12.5,Ethiopia,III,tracking
+5993,42.5,12.5,Ethiopia,III,tracking
+5994,45.0,12.5,Yemen,III,tracking
+6006,75.0,12.5,India,III,fixed
+6007,77.5,12.5,India,III,tracking
+6008,80.0,12.5,India,III,tracking
+6016,100.0,12.5,Thailand,III,tracking
+6017,102.5,12.5,Cambodia,III,fixed
+6018,105.0,12.5,Cambodia,III,tracking
+6019,107.5,12.5,Vietnam,III,fixed
+6020,110.0,12.5,Vietnam,III,tracking
+6025,122.5,12.5,Philippines,III,tracking
+6026,125.0,12.5,Philippines,III,fixed
+6083,-92.5,15.0,Mexico,III,tracking
+6084,-90.0,15.0,Guatemala,III,tracking
+6085,-87.5,15.0,Honduras,III,fixed
+6086,-85.0,15.0,Honduras,III,fixed
+6113,-17.5,15.0,Senegal,III,tracking
+6114,-15.0,15.0,Senegal,III,tracking
+6115,-12.5,15.0,Senegal,III,tracking
+6116,-10.0,15.0,Mali,III,tracking
+6117,-7.5,15.0,Mali,III,tracking
+6118,-5.0,15.0,Mali,III,tracking
+6119,-2.5,15.0,Mali,III,tracking
+6120,0.0,15.0,Mali,III,tracking
+6121,2.5,15.0,Niger,III,tracking
+6122,5.0,15.0,Niger,III,tracking
+6123,7.5,15.0,Niger,III,tracking
+6124,10.0,15.0,Niger,III,tracking
+6125,12.5,15.0,Niger,III,tracking
+6126,15.0,15.0,Chad,III,tracking
+6127,17.5,15.0,Chad,III,tracking
+6128,20.0,15.0,Chad,III,tracking
+6129,22.5,15.0,Chad,III,tracking
+6130,25.0,15.0,Sudan,III,tracking
+6131,27.5,15.0,Sudan,II,tracking
+6132,30.0,15.0,Sudan,III,tracking
+6133,32.5,15.0,Sudan,III,tracking
+6134,35.0,15.0,Sudan,III,tracking
+6135,37.5,15.0,Eritrea,III,tracking
+6136,40.0,15.0,Eritrea,III,tracking
+6137,42.5,15.0,Yemen,III,tracking
+6138,45.0,15.0,Yemen,III,tracking
+6139,47.5,15.0,Yemen,III,tracking
+6140,50.0,15.0,Yemen,III,tracking
+6150,75.0,15.0,India,III,fixed
+6151,77.5,15.0,India,III,fixed
+6152,80.0,15.0,India,III,tracking
+6159,97.5,15.0,Myanmar,III,tracking
+6160,100.0,15.0,Thailand,III,tracking
+6161,102.5,15.0,Thailand,III,tracking
+6162,105.0,15.0,Thailand,III,tracking
+6163,107.5,15.0,Vietnam,III,fixed
+6168,120.0,15.0,Philippines,III,tracking
+6169,122.5,15.0,Philippines,III,tracking
+6223,-102.5,17.5,Mexico,III,tracking
+6224,-100.0,17.5,Mexico,III,tracking
+6225,-97.5,17.5,Mexico,III,tracking
+6226,-95.0,17.5,Mexico,III,fixed
+6227,-92.5,17.5,Mexico,III,tracking
+6228,-90.0,17.5,Mexico,III,fixed
+6229,-87.5,17.5,Belize,II,tracking
+6235,-72.5,17.5,Haiti,II,tracking
+6236,-70.0,17.5,Dominican Republic,II,tracking
+6258,-15.0,17.5,Mauritania,III,tracking
+6259,-12.5,17.5,Mauritania,III,tracking
+6260,-10.0,17.5,Mauritania,III,tracking
+6261,-7.5,17.5,Mauritania,III,tracking
+6262,-5.0,17.5,Mali,III,tracking
+6263,-2.5,17.5,Mali,III,tracking
+6264,0.0,17.5,Mali,III,tracking
+6265,2.5,17.5,Mali,III,tracking
+6266,5.0,17.5,Niger,III,tracking
+6267,7.5,17.5,Niger,III,tracking
+6268,10.0,17.5,Niger,III,tracking
+6269,12.5,17.5,Niger,III,tracking
+6270,15.0,17.5,Niger,III,tracking
+6271,17.5,17.5,Chad,II,tracking
+6272,20.0,17.5,Chad,II,tracking
+6273,22.5,17.5,Chad,III,tracking
+6274,25.0,17.5,Sudan,III,tracking
+6275,27.5,17.5,Sudan,III,tracking
+6276,30.0,17.5,Sudan,III,tracking
+6277,32.5,17.5,Sudan,III,tracking
+6278,35.0,17.5,Sudan,III,tracking
+6279,37.5,17.5,Sudan,III,tracking
+6281,42.5,17.5,Saudi Arabia,III,tracking
+6282,45.0,17.5,Saudi Arabia,III,tracking
+6283,47.5,17.5,Yemen,III,tracking
+6284,50.0,17.5,Yemen,III,tracking
+6285,52.5,17.5,Yemen,III,tracking
+6286,55.0,17.5,Oman,III,tracking
+6293,72.5,17.5,India,III,tracking
+6294,75.0,17.5,India,III,fixed
+6295,77.5,17.5,India,III,fixed
+6296,80.0,17.5,India,III,fixed
+6297,82.5,17.5,India,III,fixed
+6302,95.0,17.5,Myanmar,III,fixed
+6303,97.5,17.5,Myanmar,III,fixed
+6304,100.0,17.5,Thailand,III,tracking
+6305,102.5,17.5,Thailand,III,tracking
+6306,105.0,17.5,Laos,III,fixed
+6307,107.5,17.5,Vietnam,III,fixed
+6312,120.0,17.5,Philippines,III,tracking
+6313,122.5,17.5,Philippines,III,fixed
+6346,-155.0,20.0,United States of America,III,tracking
+6366,-105.0,20.0,Mexico,III,tracking
+6367,-102.5,20.0,Mexico,III,tracking
+6368,-100.0,20.0,Mexico,III,tracking
+6369,-97.5,20.0,Mexico,III,fixed
+6372,-90.0,20.0,Mexico,III,tracking
+6373,-87.5,20.0,Mexico,III,tracking
+6377,-77.5,20.0,Cuba,III,tracking
+6378,-75.0,20.0,Cuba,III,tracking
+6379,-72.5,20.0,Haiti,III,tracking
+6380,-70.0,20.0,Dominican Republic,III,tracking
+6402,-15.0,20.0,Mauritania,II,tracking
+6403,-12.5,20.0,Mauritania,II,tracking
+6404,-10.0,20.0,Mauritania,III,tracking
+6405,-7.5,20.0,Mauritania,III,tracking
+6406,-5.0,20.0,Mali,III,tracking
+6407,-2.5,20.0,Mali,III,tracking
+6408,0.0,20.0,Mali,III,tracking
+6409,2.5,20.0,Algeria,III,tracking
+6410,5.0,20.0,Algeria,III,tracking
+6411,7.5,20.0,Niger,III,tracking
+6412,10.0,20.0,Niger,III,tracking
+6413,12.5,20.0,Niger,III,tracking
+6414,15.0,20.0,Niger,III,tracking
+6415,17.5,20.0,Chad,III,tracking
+6416,20.0,20.0,Chad,III,tracking
+6417,22.5,20.0,Chad,III,tracking
+6418,25.0,20.0,Sudan,III,tracking
+6419,27.5,20.0,Sudan,III,tracking
+6420,30.0,20.0,Sudan,II,tracking
+6421,32.5,20.0,Sudan,III,tracking
+6422,35.0,20.0,Sudan,III,tracking
+6423,37.5,20.0,Sudan,III,tracking
+6424,40.0,20.0,Saudi Arabia,III,tracking
+6425,42.5,20.0,Saudi Arabia,III,tracking
+6426,45.0,20.0,Saudi Arabia,III,tracking
+6427,47.5,20.0,Saudi Arabia,III,tracking
+6428,50.0,20.0,Saudi Arabia,III,tracking
+6429,52.5,20.0,Saudi Arabia,III,tracking
+6430,55.0,20.0,Oman,III,tracking
+6431,57.5,20.0,Oman,III,tracking
+6437,72.5,20.0,India,III,tracking
+6438,75.0,20.0,India,III,tracking
+6439,77.5,20.0,India,III,fixed
+6440,80.0,20.0,India,III,fixed
+6441,82.5,20.0,India,III,fixed
+6442,85.0,20.0,India,III,fixed
+6445,92.5,20.0,Myanmar,III,tracking
+6446,95.0,20.0,Myanmar,III,tracking
+6447,97.5,20.0,Myanmar,III,tracking
+6448,100.0,20.0,Thailand,III,tracking
+6449,102.5,20.0,Laos,III,tracking
+6450,105.0,20.0,Vietnam,III,fixed
+6452,110.0,20.0,China,III,fixed
+6510,-105.0,22.5,Mexico,III,tracking
+6511,-102.5,22.5,Mexico,III,tracking
+6512,-100.0,22.5,Mexico,III,tracking
+6513,-97.5,22.5,Mexico,III,tracking
+6519,-82.5,22.5,Cuba,III,tracking
+6520,-80.0,22.5,Cuba,III,tracking
+6521,-77.5,22.5,Cuba,II,tracking
+6546,-15.0,22.5,Morocco,II,tracking
+6547,-12.5,22.5,Mauritania,III,tracking
+6548,-10.0,22.5,Mauritania,III,tracking
+6549,-7.5,22.5,Mauritania,III,tracking
+6550,-5.0,22.5,Mali,III,tracking
+6551,-2.5,22.5,Mali,III,tracking
+6552,0.0,22.5,Algeria,III,tracking
+6553,2.5,22.5,Algeria,III,tracking
+6554,5.0,22.5,Algeria,III,tracking
+6555,7.5,22.5,Algeria,III,tracking
+6556,10.0,22.5,Algeria,III,tracking
+6557,12.5,22.5,Niger,III,tracking
+6558,15.0,22.5,Chad,I,tracking
+6559,17.5,22.5,Chad,III,tracking
+6560,20.0,22.5,Libya,III,tracking
+6561,22.5,22.5,Libya,III,tracking
+6562,25.0,22.5,Libya,III,tracking
+6563,27.5,22.5,Egypt,III,tracking
+6564,30.0,22.5,Egypt,III,tracking
+6565,32.5,22.5,Egypt,III,tracking
+6566,35.0,22.5,Egypt,III,tracking
+6568,40.0,22.5,Saudi Arabia,III,tracking
+6569,42.5,22.5,Saudi Arabia,III,tracking
+6570,45.0,22.5,Saudi Arabia,III,tracking
+6571,47.5,22.5,Saudi Arabia,III,tracking
+6572,50.0,22.5,Saudi Arabia,III,tracking
+6573,52.5,22.5,Saudi Arabia,III,tracking
+6574,55.0,22.5,Saudi Arabia,III,tracking
+6575,57.5,22.5,Oman,III,tracking
+6576,60.0,22.5,Oman,III,tracking
+6580,70.0,22.5,India,III,tracking
+6581,72.5,22.5,India,III,tracking
+6582,75.0,22.5,India,III,tracking
+6583,77.5,22.5,India,III,tracking
+6584,80.0,22.5,India,III,fixed
+6585,82.5,22.5,India,III,fixed
+6586,85.0,22.5,India,III,fixed
+6587,87.5,22.5,India,III,fixed
+6588,90.0,22.5,Bangladesh,III,fixed
+6589,92.5,22.5,Myanmar,III,fixed
+6590,95.0,22.5,Myanmar,III,tracking
+6591,97.5,22.5,Myanmar,III,tracking
+6592,100.0,22.5,China,III,tracking
+6593,102.5,22.5,China,III,fixed
+6594,105.0,22.5,Vietnam,III,fixed
+6595,107.5,22.5,China,III,fixed
+6596,110.0,22.5,China,III,fixed
+6597,112.5,22.5,China,III,fixed
+6598,115.0,22.5,China,III,fixed
+6600,120.0,22.5,Taiwan,III,fixed
+6651,-112.5,25.0,Mexico,III,tracking
+6652,-110.0,25.0,Mexico,III,tracking
+6653,-107.5,25.0,Mexico,III,tracking
+6654,-105.0,25.0,Mexico,III,tracking
+6655,-102.5,25.0,Mexico,III,tracking
+6656,-100.0,25.0,Mexico,III,tracking
+6657,-97.5,25.0,Mexico,II,tracking
+6664,-80.0,25.0,United States of America,III,tracking
+6690,-15.0,25.0,Morocco,I,tracking
+6691,-12.5,25.0,Morocco,II,tracking
+6692,-10.0,25.0,Mauritania,III,tracking
+6693,-7.5,25.0,Mauritania,III,tracking
+6694,-5.0,25.0,Algeria,III,tracking
+6695,-2.5,25.0,Algeria,III,tracking
+6696,0.0,25.0,Algeria,III,tracking
+6697,2.5,25.0,Algeria,III,tracking
+6698,5.0,25.0,Algeria,III,tracking
+6699,7.5,25.0,Algeria,III,tracking
+6700,10.0,25.0,Algeria,III,tracking
+6701,12.5,25.0,Libya,III,tracking
+6702,15.0,25.0,Libya,III,tracking
+6703,17.5,25.0,Libya,III,tracking
+6704,20.0,25.0,Libya,III,tracking
+6705,22.5,25.0,Libya,III,tracking
+6706,25.0,25.0,Egypt,III,tracking
+6707,27.5,25.0,Egypt,III,tracking
+6708,30.0,25.0,Egypt,III,tracking
+6709,32.5,25.0,Egypt,III,tracking
+6710,35.0,25.0,Egypt,III,tracking
+6711,37.5,25.0,Saudi Arabia,III,tracking
+6712,40.0,25.0,Saudi Arabia,III,tracking
+6713,42.5,25.0,Saudi Arabia,III,tracking
+6714,45.0,25.0,Saudi Arabia,III,tracking
+6715,47.5,25.0,Saudi Arabia,III,tracking
+6716,50.0,25.0,Saudi Arabia,III,tracking
+6717,52.5,25.0,United Arab Emirates,III,tracking
+6718,55.0,25.0,United Arab Emirates,III,tracking
+6719,57.5,25.0,Iran,III,tracking
+6720,60.0,25.0,Iran,III,tracking
+6721,62.5,25.0,Pakistan,III,tracking
+6722,65.0,25.0,Pakistan,III,tracking
+6723,67.5,25.0,Pakistan,III,tracking
+6724,70.0,25.0,Pakistan,III,tracking
+6725,72.5,25.0,India,III,tracking
+6726,75.0,25.0,India,III,tracking
+6727,77.5,25.0,India,III,tracking
+6728,80.0,25.0,India,III,tracking
+6729,82.5,25.0,India,III,tracking
+6730,85.0,25.0,India,III,tracking
+6731,87.5,25.0,India,III,fixed
+6732,90.0,25.0,Bangladesh,III,fixed
+6733,92.5,25.0,India,III,fixed
+6734,95.0,25.0,Myanmar,III,fixed
+6735,97.5,25.0,Myanmar,III,fixed
+6736,100.0,25.0,China,III,fixed
+6737,102.5,25.0,China,III,fixed
+6738,105.0,25.0,China,III,fixed
+6739,107.5,25.0,China,III,fixed
+6740,110.0,25.0,China,III,fixed
+6741,112.5,25.0,China,III,fixed
+6742,115.0,25.0,China,III,fixed
+6743,117.5,25.0,China,III,fixed
+6744,120.0,25.0,Taiwan,I,fixed
+6794,-115.0,27.5,Mexico,III,tracking
+6795,-112.5,27.5,Mexico,III,tracking
+6796,-110.0,27.5,Mexico,III,tracking
+6797,-107.5,27.5,Mexico,III,tracking
+6798,-105.0,27.5,Mexico,III,tracking
+6799,-102.5,27.5,Mexico,III,tracking
+6800,-100.0,27.5,Mexico,III,tracking
+6801,-97.5,27.5,United States of America,III,fixed
+6807,-82.5,27.5,United States of America,III,tracking
+6808,-80.0,27.5,United States of America,III,fixed
+6835,-12.5,27.5,Morocco,II,tracking
+6836,-10.0,27.5,Morocco,III,tracking
+6837,-7.5,27.5,Algeria,III,tracking
+6838,-5.0,27.5,Algeria,III,tracking
+6839,-2.5,27.5,Algeria,III,tracking
+6840,0.0,27.5,Algeria,III,tracking
+6841,2.5,27.5,Algeria,II,tracking
+6842,5.0,27.5,Algeria,II,tracking
+6843,7.5,27.5,Algeria,III,tracking
+6844,10.0,27.5,Libya,III,tracking
+6845,12.5,27.5,Libya,III,tracking
+6846,15.0,27.5,Libya,III,tracking
+6847,17.5,27.5,Libya,III,tracking
+6848,20.0,27.5,Libya,III,tracking
+6849,22.5,27.5,Libya,III,tracking
+6850,25.0,27.5,Egypt,III,tracking
+6851,27.5,27.5,Egypt,III,tracking
+6852,30.0,27.5,Egypt,III,tracking
+6853,32.5,27.5,Egypt,III,tracking
+6854,35.0,27.5,Saudi Arabia,III,tracking
+6855,37.5,27.5,Saudi Arabia,III,tracking
+6856,40.0,27.5,Saudi Arabia,III,tracking
+6857,42.5,27.5,Saudi Arabia,III,tracking
+6858,45.0,27.5,Saudi Arabia,III,tracking
+6859,47.5,27.5,Saudi Arabia,III,tracking
+6860,50.0,27.5,Saudi Arabia,III,tracking
+6861,52.5,27.5,Iran,III,tracking
+6862,55.0,27.5,Iran,III,tracking
+6863,57.5,27.5,Iran,III,tracking
+6864,60.0,27.5,Iran,III,tracking
+6865,62.5,27.5,Iran,III,tracking
+6866,65.0,27.5,Pakistan,III,tracking
+6867,67.5,27.5,Pakistan,III,tracking
+6868,70.0,27.5,Pakistan,III,tracking
+6869,72.5,27.5,India,III,tracking
+6870,75.0,27.5,India,III,tracking
+6871,77.5,27.5,India,III,tracking
+6872,80.0,27.5,India,III,tracking
+6873,82.5,27.5,India,III,tracking
+6874,85.0,27.5,Nepal,III,fixed
+6875,87.5,27.5,Nepal,III,tracking
+6876,90.0,27.5,Bhutan,III,fixed
+6877,92.5,27.5,India,III,fixed
+6878,95.0,27.5,India,III,fixed
+6879,97.5,27.5,Myanmar,III,fixed
+6880,100.0,27.5,China,III,tracking
+6881,102.5,27.5,China,III,fixed
+6882,105.0,27.5,China,III,fixed
+6883,107.5,27.5,China,III,fixed
+6884,110.0,27.5,China,III,fixed
+6885,112.5,27.5,China,III,fixed
+6886,115.0,27.5,China,III,fixed
+6887,117.5,27.5,China,III,fixed
+6888,120.0,27.5,China,III,fixed
+6938,-115.0,30.0,Mexico,III,tracking
+6939,-112.5,30.0,Mexico,III,tracking
+6940,-110.0,30.0,Mexico,III,tracking
+6941,-107.5,30.0,Mexico,III,tracking
+6942,-105.0,30.0,Mexico,III,tracking
+6943,-102.5,30.0,United States of America,III,tracking
+6944,-100.0,30.0,United States of America,III,tracking
+6945,-97.5,30.0,United States of America,III,fixed
+6946,-95.0,30.0,United States of America,III,fixed
+6947,-92.5,30.0,United States of America,III,fixed
+6948,-90.0,30.0,United States of America,III,fixed
+6949,-87.5,30.0,United States of America,III,tracking
+6950,-85.0,30.0,United States of America,III,tracking
+6951,-82.5,30.0,United States of America,III,fixed
+6980,-10.0,30.0,Morocco,III,tracking
+6981,-7.5,30.0,Morocco,III,tracking
+6982,-5.0,30.0,Algeria,III,tracking
+6983,-2.5,30.0,Algeria,III,tracking
+6984,0.0,30.0,Algeria,III,tracking
+6985,2.5,30.0,Algeria,III,tracking
+6986,5.0,30.0,Algeria,III,tracking
+6987,7.5,30.0,Algeria,III,tracking
+6988,10.0,30.0,Libya,III,tracking
+6989,12.5,30.0,Libya,III,tracking
+6990,15.0,30.0,Libya,III,tracking
+6991,17.5,30.0,Libya,III,tracking
+6992,20.0,30.0,Libya,III,tracking
+6993,22.5,30.0,Libya,III,tracking
+6994,25.0,30.0,Egypt,III,tracking
+6995,27.5,30.0,Egypt,III,tracking
+6996,30.0,30.0,Egypt,III,tracking
+6997,32.5,30.0,Egypt,III,tracking
+6998,35.0,30.0,Jordan,III,tracking
+6999,37.5,30.0,Saudi Arabia,III,tracking
+7000,40.0,30.0,Saudi Arabia,III,tracking
+7001,42.5,30.0,Saudi Arabia,III,tracking
+7002,45.0,30.0,Iraq,III,tracking
+7003,47.5,30.0,Iraq,III,tracking
+7004,50.0,30.0,Iran,III,tracking
+7005,52.5,30.0,Iran,III,tracking
+7006,55.0,30.0,Iran,III,tracking
+7007,57.5,30.0,Iran,III,tracking
+7008,60.0,30.0,Iran,III,tracking
+7009,62.5,30.0,Afghanistan,III,tracking
+7010,65.0,30.0,Afghanistan,III,tracking
+7011,67.5,30.0,Pakistan,III,tracking
+7012,70.0,30.0,Pakistan,III,tracking
+7013,72.5,30.0,Pakistan,III,tracking
+7014,75.0,30.0,India,III,tracking
+7015,77.5,30.0,India,III,tracking
+7016,80.0,30.0,India,III,tracking
+7017,82.5,30.0,China,III,tracking
+7018,85.0,30.0,China,III,tracking
+7019,87.5,30.0,China,III,tracking
+7020,90.0,30.0,China,III,tracking
+7021,92.5,30.0,China,III,tracking
+7022,95.0,30.0,China,III,fixed
+7023,97.5,30.0,China,III,tracking
+7024,100.0,30.0,China,III,tracking
+7025,102.5,30.0,China,III,fixed
+7026,105.0,30.0,China,III,fixed
+7027,107.5,30.0,China,III,fixed
+7028,110.0,30.0,China,III,fixed
+7029,112.5,30.0,China,III,fixed
+7030,115.0,30.0,China,III,fixed
+7031,117.5,30.0,China,III,fixed
+7032,120.0,30.0,China,III,fixed
+7033,122.5,30.0,China,II,fixed
+7081,-117.5,32.5,United States of America,III,tracking
+7082,-115.0,32.5,United States of America,III,tracking
+7083,-112.5,32.5,United States of America,III,tracking
+7084,-110.0,32.5,United States of America,III,tracking
+7085,-107.5,32.5,United States of America,III,tracking
+7086,-105.0,32.5,United States of America,III,tracking
+7087,-102.5,32.5,United States of America,III,tracking
+7088,-100.0,32.5,United States of America,III,tracking
+7089,-97.5,32.5,United States of America,III,tracking
+7090,-95.0,32.5,United States of America,III,fixed
+7091,-92.5,32.5,United States of America,III,fixed
+7092,-90.0,32.5,United States of America,III,fixed
+7093,-87.5,32.5,United States of America,III,fixed
+7094,-85.0,32.5,United States of America,III,fixed
+7095,-82.5,32.5,United States of America,III,fixed
+7096,-80.0,32.5,United States of America,III,tracking
+7124,-10.0,32.5,Morocco,II,tracking
+7125,-7.5,32.5,Morocco,III,tracking
+7126,-5.0,32.5,Morocco,III,tracking
+7127,-2.5,32.5,Morocco,III,tracking
+7128,0.0,32.5,Algeria,III,tracking
+7129,2.5,32.5,Algeria,III,tracking
+7130,5.0,32.5,Algeria,III,tracking
+7131,7.5,32.5,Algeria,III,tracking
+7132,10.0,32.5,Tunisia,III,tracking
+7133,12.5,32.5,Libya,III,tracking
+7134,15.0,32.5,Libya,III,tracking
+7136,20.0,32.5,Libya,III,tracking
+7137,22.5,32.5,Libya,III,tracking
+7138,25.0,32.5,Libya,III,tracking
+7142,35.0,32.5,Israel,III,tracking
+7143,37.5,32.5,Jordan,III,tracking
+7144,40.0,32.5,Iraq,III,tracking
+7145,42.5,32.5,Iraq,III,tracking
+7146,45.0,32.5,Iraq,III,tracking
+7147,47.5,32.5,Iran,III,tracking
+7148,50.0,32.5,Iran,III,tracking
+7149,52.5,32.5,Iran,III,tracking
+7150,55.0,32.5,Iran,III,tracking
+7151,57.5,32.5,Iran,III,tracking
+7152,60.0,32.5,Iran,III,tracking
+7153,62.5,32.5,Afghanistan,III,tracking
+7154,65.0,32.5,Afghanistan,III,tracking
+7155,67.5,32.5,Afghanistan,III,tracking
+7156,70.0,32.5,Pakistan,III,tracking
+7157,72.5,32.5,Pakistan,III,tracking
+7158,75.0,32.5,India,III,tracking
+7159,77.5,32.5,India,III,tracking
+7160,80.0,32.5,China,III,tracking
+7161,82.5,32.5,China,III,tracking
+7162,85.0,32.5,China,III,tracking
+7163,87.5,32.5,China,III,tracking
+7164,90.0,32.5,China,III,tracking
+7165,92.5,32.5,China,III,tracking
+7166,95.0,32.5,China,III,tracking
+7167,97.5,32.5,China,III,tracking
+7168,100.0,32.5,China,III,tracking
+7169,102.5,32.5,China,III,tracking
+7170,105.0,32.5,China,III,fixed
+7171,107.5,32.5,China,III,fixed
+7172,110.0,32.5,China,III,fixed
+7173,112.5,32.5,China,III,fixed
+7174,115.0,32.5,China,III,fixed
+7175,117.5,32.5,China,III,fixed
+7176,120.0,32.5,China,III,fixed
+7180,130.0,32.5,Japan,III,fixed
+7181,132.5,32.5,Japan,II,fixed
+7224,-120.0,35.0,United States of America,III,tracking
+7225,-117.5,35.0,United States of America,III,tracking
+7226,-115.0,35.0,United States of America,III,tracking
+7227,-112.5,35.0,United States of America,III,tracking
+7228,-110.0,35.0,United States of America,III,tracking
+7229,-107.5,35.0,United States of America,III,tracking
+7230,-105.0,35.0,United States of America,III,tracking
+7231,-102.5,35.0,United States of America,II,tracking
+7232,-100.0,35.0,United States of America,III,tracking
+7233,-97.5,35.0,United States of America,III,tracking
+7234,-95.0,35.0,United States of America,III,fixed
+7235,-92.5,35.0,United States of America,III,fixed
+7236,-90.0,35.0,United States of America,III,fixed
+7237,-87.5,35.0,United States of America,III,fixed
+7238,-85.0,35.0,United States of America,III,fixed
+7239,-82.5,35.0,United States of America,III,fixed
+7240,-80.0,35.0,United States of America,III,fixed
+7241,-77.5,35.0,United States of America,III,fixed
+7270,-5.0,35.0,Morocco,III,tracking
+7271,-2.5,35.0,Morocco,III,tracking
+7272,0.0,35.0,Algeria,III,tracking
+7273,2.5,35.0,Algeria,III,tracking
+7274,5.0,35.0,Algeria,III,tracking
+7275,7.5,35.0,Algeria,III,tracking
+7276,10.0,35.0,Tunisia,III,tracking
+7285,32.5,35.0,Cyprus,III,tracking
+7286,35.0,35.0,Syria,III,tracking
+7287,37.5,35.0,Syria,III,tracking
+7288,40.0,35.0,Syria,III,tracking
+7289,42.5,35.0,Iraq,III,tracking
+7290,45.0,35.0,Iraq,III,tracking
+7291,47.5,35.0,Iran,III,tracking
+7292,50.0,35.0,Iran,III,tracking
+7293,52.5,35.0,Iran,III,tracking
+7294,55.0,35.0,Iran,III,tracking
+7295,57.5,35.0,Iran,III,tracking
+7296,60.0,35.0,Iran,III,tracking
+7297,62.5,35.0,Afghanistan,III,tracking
+7298,65.0,35.0,Afghanistan,III,tracking
+7299,67.5,35.0,Afghanistan,III,tracking
+7300,70.0,35.0,Afghanistan,III,tracking
+7301,72.5,35.0,Pakistan,III,tracking
+7302,75.0,35.0,Pakistan,III,tracking
+7303,77.5,35.0,India,III,tracking
+7304,80.0,35.0,China,III,tracking
+7305,82.5,35.0,China,III,tracking
+7306,85.0,35.0,China,III,tracking
+7307,87.5,35.0,China,III,tracking
+7308,90.0,35.0,China,III,tracking
+7309,92.5,35.0,China,III,tracking
+7310,95.0,35.0,China,III,tracking
+7311,97.5,35.0,China,III,tracking
+7312,100.0,35.0,China,III,tracking
+7313,102.5,35.0,China,III,tracking
+7314,105.0,35.0,China,III,fixed
+7315,107.5,35.0,China,III,fixed
+7316,110.0,35.0,China,III,fixed
+7317,112.5,35.0,China,III,fixed
+7318,115.0,35.0,China,III,fixed
+7319,117.5,35.0,China,III,fixed
+7320,120.0,35.0,China,III,fixed
+7323,127.5,35.0,South Korea,III,fixed
+7324,130.0,35.0,South Korea,II,fixed
+7325,132.5,35.0,Japan,III,fixed
+7326,135.0,35.0,Japan,III,fixed
+7327,137.5,35.0,Japan,III,fixed
+7328,140.0,35.0,Japan,II,fixed
+7367,-122.5,37.5,United States of America,III,tracking
+7368,-120.0,37.5,United States of America,III,tracking
+7369,-117.5,37.5,United States of America,III,tracking
+7370,-115.0,37.5,United States of America,III,tracking
+7371,-112.5,37.5,United States of America,III,tracking
+7372,-110.0,37.5,United States of America,III,tracking
+7373,-107.5,37.5,United States of America,III,tracking
+7374,-105.0,37.5,United States of America,III,tracking
+7375,-102.5,37.5,United States of America,II,tracking
+7376,-100.0,37.5,United States of America,II,tracking
+7377,-97.5,37.5,United States of America,III,tracking
+7378,-95.0,37.5,United States of America,III,fixed
+7379,-92.5,37.5,United States of America,III,fixed
+7380,-90.0,37.5,United States of America,III,fixed
+7381,-87.5,37.5,United States of America,III,fixed
+7382,-85.0,37.5,United States of America,III,fixed
+7383,-82.5,37.5,United States of America,III,fixed
+7384,-80.0,37.5,United States of America,III,fixed
+7385,-77.5,37.5,United States of America,III,fixed
+7386,-75.0,37.5,United States of America,II,fixed
+7413,-7.5,37.5,Portugal,III,tracking
+7414,-5.0,37.5,Spain,III,tracking
+7415,-2.5,37.5,Spain,III,tracking
+7416,0.0,37.5,Spain,III,tracking
+7417,2.5,37.5,Algeria,III,tracking
+7418,5.0,37.5,Algeria,III,tracking
+7419,7.5,37.5,Algeria,III,tracking
+7420,10.0,37.5,Tunisia,II,tracking
+7422,15.0,37.5,Italy,III,tracking
+7425,22.5,37.5,Greece,III,tracking
+7427,27.5,37.5,Turkey,III,tracking
+7428,30.0,37.5,Turkey,III,tracking
+7429,32.5,37.5,Turkey,III,tracking
+7430,35.0,37.5,Turkey,III,tracking
+7431,37.5,37.5,Turkey,III,tracking
+7432,40.0,37.5,Turkey,III,tracking
+7433,42.5,37.5,Turkey,III,tracking
+7434,45.0,37.5,Iran,III,tracking
+7435,47.5,37.5,Iran,III,tracking
+7436,50.0,37.5,Iran,III,fixed
+7437,52.5,37.5,Iran,III,tracking
+7438,55.0,37.5,Iran,III,tracking
+7439,57.5,37.5,Iran,III,tracking
+7440,60.0,37.5,Turkmenistan,III,tracking
+7441,62.5,37.5,Turkmenistan,III,tracking
+7442,65.0,37.5,Turkmenistan,III,tracking
+7443,67.5,37.5,Afghanistan,III,tracking
+7444,70.0,37.5,Afghanistan,III,tracking
+7445,72.5,37.5,Tajikistan,III,tracking
+7446,75.0,37.5,China,III,tracking
+7447,77.5,37.5,China,III,tracking
+7448,80.0,37.5,China,III,tracking
+7449,82.5,37.5,China,III,tracking
+7450,85.0,37.5,China,III,tracking
+7451,87.5,37.5,China,III,tracking
+7452,90.0,37.5,China,III,tracking
+7453,92.5,37.5,China,III,tracking
+7454,95.0,37.5,China,III,tracking
+7455,97.5,37.5,China,III,tracking
+7456,100.0,37.5,China,III,tracking
+7457,102.5,37.5,China,III,tracking
+7458,105.0,37.5,China,III,tracking
+7459,107.5,37.5,China,III,tracking
+7460,110.0,37.5,China,III,tracking
+7461,112.5,37.5,China,III,tracking
+7462,115.0,37.5,China,III,tracking
+7463,117.5,37.5,China,III,fixed
+7464,120.0,37.5,China,III,tracking
+7466,125.0,37.5,North Korea,III,fixed
+7467,127.5,37.5,South Korea,III,fixed
+7471,137.5,37.5,Japan,III,fixed
+7472,140.0,37.5,Japan,III,fixed
+7511,-122.5,40.0,United States of America,III,tracking
+7512,-120.0,40.0,United States of America,III,tracking
+7513,-117.5,40.0,United States of America,III,tracking
+7514,-115.0,40.0,United States of America,III,tracking
+7515,-112.5,40.0,United States of America,III,tracking
+7516,-110.0,40.0,United States of America,III,tracking
+7517,-107.5,40.0,United States of America,III,tracking
+7518,-105.0,40.0,United States of America,III,tracking
+7519,-102.5,40.0,United States of America,III,tracking
+7520,-100.0,40.0,United States of America,III,tracking
+7521,-97.5,40.0,United States of America,III,tracking
+7522,-95.0,40.0,United States of America,III,tracking
+7523,-92.5,40.0,United States of America,III,fixed
+7524,-90.0,40.0,United States of America,III,fixed
+7525,-87.5,40.0,United States of America,III,fixed
+7526,-85.0,40.0,United States of America,III,fixed
+7527,-82.5,40.0,United States of America,III,fixed
+7528,-80.0,40.0,United States of America,III,fixed
+7529,-77.5,40.0,United States of America,III,fixed
+7530,-75.0,40.0,United States of America,III,fixed
+7557,-7.5,40.0,Portugal,III,tracking
+7558,-5.0,40.0,Spain,III,tracking
+7559,-2.5,40.0,Spain,III,tracking
+7560,0.0,40.0,Spain,III,tracking
+7564,10.0,40.0,Italy,III,tracking
+7566,15.0,40.0,Italy,III,tracking
+7567,17.5,40.0,Italy,III,tracking
+7568,20.0,40.0,Albania,III,tracking
+7569,22.5,40.0,Greece,III,tracking
+7570,25.0,40.0,Greece,II,tracking
+7571,27.5,40.0,Turkey,III,fixed
+7572,30.0,40.0,Turkey,III,tracking
+7573,32.5,40.0,Turkey,III,tracking
+7574,35.0,40.0,Turkey,III,tracking
+7575,37.5,40.0,Turkey,III,tracking
+7576,40.0,40.0,Turkey,III,tracking
+7577,42.5,40.0,Turkey,III,tracking
+7578,45.0,40.0,Armenia,III,tracking
+7579,47.5,40.0,Azerbaijan,III,fixed
+7580,50.0,40.0,Azerbaijan,III,tracking
+7581,52.5,40.0,Turkmenistan,III,tracking
+7582,55.0,40.0,Turkmenistan,III,tracking
+7583,57.5,40.0,Turkmenistan,III,tracking
+7584,60.0,40.0,Turkmenistan,III,tracking
+7585,62.5,40.0,Turkmenistan,III,tracking
+7586,65.0,40.0,Uzbekistan,III,tracking
+7587,67.5,40.0,Uzbekistan,III,tracking
+7588,70.0,40.0,Tajikistan,III,tracking
+7589,72.5,40.0,Kyrgyzstan,III,tracking
+7590,75.0,40.0,China,III,tracking
+7591,77.5,40.0,China,III,tracking
+7592,80.0,40.0,China,III,tracking
+7593,82.5,40.0,China,III,tracking
+7594,85.0,40.0,China,III,tracking
+7595,87.5,40.0,China,III,tracking
+7596,90.0,40.0,China,III,tracking
+7597,92.5,40.0,China,III,tracking
+7598,95.0,40.0,China,III,tracking
+7599,97.5,40.0,China,III,tracking
+7600,100.0,40.0,China,III,tracking
+7601,102.5,40.0,China,III,tracking
+7602,105.0,40.0,China,III,tracking
+7603,107.5,40.0,China,III,tracking
+7604,110.0,40.0,China,III,tracking
+7605,112.5,40.0,China,III,tracking
+7606,115.0,40.0,China,III,tracking
+7607,117.5,40.0,China,III,tracking
+7608,120.0,40.0,China,III,tracking
+7609,122.5,40.0,China,III,tracking
+7610,125.0,40.0,North Korea,III,fixed
+7611,127.5,40.0,North Korea,III,fixed
+7616,140.0,40.0,Japan,III,fixed
+7617,142.5,40.0,Japan,II,fixed
+7654,-125.0,42.5,United States of America,I,tracking
+7655,-122.5,42.5,United States of America,III,tracking
+7656,-120.0,42.5,United States of America,III,tracking
+7657,-117.5,42.5,United States of America,III,tracking
+7658,-115.0,42.5,United States of America,III,tracking
+7659,-112.5,42.5,United States of America,III,tracking
+7660,-110.0,42.5,United States of America,III,tracking
+7661,-107.5,42.5,United States of America,III,tracking
+7662,-105.0,42.5,United States of America,III,tracking
+7663,-102.5,42.5,United States of America,II,tracking
+7664,-100.0,42.5,United States of America,II,tracking
+7665,-97.5,42.5,United States of America,II,tracking
+7666,-95.0,42.5,United States of America,III,tracking
+7667,-92.5,42.5,United States of America,III,fixed
+7668,-90.0,42.5,United States of America,III,fixed
+7669,-87.5,42.5,United States of America,II,fixed
+7670,-85.0,42.5,United States of America,III,fixed
+7671,-82.5,42.5,United States of America,III,fixed
+7672,-80.0,42.5,United States of America,II,fixed
+7673,-77.5,42.5,United States of America,III,fixed
+7674,-75.0,42.5,United States of America,III,fixed
+7675,-72.5,42.5,United States of America,III,fixed
+7676,-70.0,42.5,United States of America,I,fixed
+7701,-7.5,42.5,Spain,III,fixed
+7702,-5.0,42.5,Spain,III,fixed
+7703,-2.5,42.5,Spain,III,fixed
+7704,0.0,42.5,Spain,III,tracking
+7705,2.5,42.5,France,III,fixed
+7706,5.0,42.5,France,II,tracking
+7708,10.0,42.5,France,III,tracking
+7709,12.5,42.5,Italy,III,fixed
+7710,15.0,42.5,Italy,III,tracking
+7711,17.5,42.5,Bosnia and Herzegovina,III,tracking
+7712,20.0,42.5,Albania,III,tracking
+7713,22.5,42.5,Bulgaria,III,fixed
+7714,25.0,42.5,Bulgaria,III,fixed
+7715,27.5,42.5,Bulgaria,III,fixed
+7717,32.5,42.5,Turkey,III,tracking
+7718,35.0,42.5,Turkey,III,tracking
+7721,42.5,42.5,Georgia,III,fixed
+7722,45.0,42.5,Russia,III,tracking
+7723,47.5,42.5,Russia,III,fixed
+7725,52.5,42.5,Kazakhstan,II,tracking
+7726,55.0,42.5,Kazakhstan,III,tracking
+7727,57.5,42.5,Uzbekistan,III,tracking
+7728,60.0,42.5,Uzbekistan,III,tracking
+7729,62.5,42.5,Uzbekistan,III,tracking
+7730,65.0,42.5,Uzbekistan,III,tracking
+7731,67.5,42.5,Kazakhstan,III,tracking
+7732,70.0,42.5,Kazakhstan,III,tracking
+7733,72.5,42.5,Kyrgyzstan,III,tracking
+7734,75.0,42.5,Kyrgyzstan,III,tracking
+7735,77.5,42.5,Kyrgyzstan,III,tracking
+7736,80.0,42.5,China,III,tracking
+7737,82.5,42.5,China,III,tracking
+7738,85.0,42.5,China,III,tracking
+7739,87.5,42.5,China,III,tracking
+7740,90.0,42.5,China,III,tracking
+7741,92.5,42.5,China,III,tracking
+7742,95.0,42.5,China,III,tracking
+7743,97.5,42.5,China,III,tracking
+7744,100.0,42.5,China,III,tracking
+7745,102.5,42.5,Mongolia,III,tracking
+7746,105.0,42.5,Mongolia,III,tracking
+7747,107.5,42.5,Mongolia,III,tracking
+7748,110.0,42.5,China,III,tracking
+7749,112.5,42.5,China,III,tracking
+7750,115.0,42.5,China,III,tracking
+7751,117.5,42.5,China,III,tracking
+7752,120.0,42.5,China,III,tracking
+7753,122.5,42.5,China,III,tracking
+7754,125.0,42.5,China,III,fixed
+7755,127.5,42.5,China,III,fixed
+7756,130.0,42.5,China,III,fixed
+7757,132.5,42.5,Russia,II,tracking
+7760,140.0,42.5,Japan,III,fixed
+7761,142.5,42.5,Japan,III,fixed
+7762,145.0,42.5,Japan,II,fixed
+7799,-122.5,45.0,United States of America,III,fixed
+7800,-120.0,45.0,United States of America,III,tracking
+7801,-117.5,45.0,United States of America,III,tracking
+7802,-115.0,45.0,United States of America,III,tracking
+7803,-112.5,45.0,United States of America,III,tracking
+7804,-110.0,45.0,United States of America,III,tracking
+7805,-107.5,45.0,United States of America,III,tracking
+7806,-105.0,45.0,United States of America,III,tracking
+7807,-102.5,45.0,United States of America,III,tracking
+7808,-100.0,45.0,United States of America,III,tracking
+7809,-97.5,45.0,United States of America,II,tracking
+7810,-95.0,45.0,United States of America,III,tracking
+7811,-92.5,45.0,United States of America,III,fixed
+7812,-90.0,45.0,United States of America,III,fixed
+7813,-87.5,45.0,United States of America,III,fixed
+7814,-85.0,45.0,United States of America,III,fixed
+7815,-82.5,45.0,Canada,II,fixed
+7816,-80.0,45.0,Canada,III,fixed
+7817,-77.5,45.0,Canada,III,fixed
+7818,-75.0,45.0,Canada,III,fixed
+7819,-72.5,45.0,United States of America,III,fixed
+7820,-70.0,45.0,United States of America,III,fixed
+7821,-67.5,45.0,United States of America,III,fixed
+7822,-65.0,45.0,Canada,III,fixed
+7823,-62.5,45.0,Canada,III,fixed
+7848,0.0,45.0,France,III,fixed
+7849,2.5,45.0,France,III,fixed
+7850,5.0,45.0,France,III,fixed
+7851,7.5,45.0,Italy,III,fixed
+7852,10.0,45.0,Italy,III,fixed
+7853,12.5,45.0,Italy,III,fixed
+7854,15.0,45.0,Croatia,III,fixed
+7855,17.5,45.0,Bosnia and Herzegovina,III,fixed
+7856,20.0,45.0,Republic of Serbia,III,fixed
+7857,22.5,45.0,Romania,III,fixed
+7858,25.0,45.0,Romania,III,fixed
+7859,27.5,45.0,Romania,III,fixed
+7860,30.0,45.0,Ukraine,III,fixed
+7861,32.5,45.0,Russia,III,fixed
+7862,35.0,45.0,Russia,III,fixed
+7863,37.5,45.0,Russia,III,fixed
+7864,40.0,45.0,Russia,III,fixed
+7865,42.5,45.0,Russia,III,fixed
+7866,45.0,45.0,Russia,III,fixed
+7867,47.5,45.0,Russia,II,fixed
+7869,52.5,45.0,Kazakhstan,III,fixed
+7870,55.0,45.0,Kazakhstan,III,fixed
+7871,57.5,45.0,Uzbekistan,III,fixed
+7872,60.0,45.0,Kazakhstan,III,tracking
+7873,62.5,45.0,Kazakhstan,III,tracking
+7874,65.0,45.0,Kazakhstan,III,tracking
+7875,67.5,45.0,Kazakhstan,III,tracking
+7876,70.0,45.0,Kazakhstan,III,tracking
+7877,72.5,45.0,Kazakhstan,III,tracking
+7878,75.0,45.0,Kazakhstan,III,tracking
+7879,77.5,45.0,Kazakhstan,III,tracking
+7880,80.0,45.0,Kazakhstan,III,tracking
+7881,82.5,45.0,China,III,tracking
+7882,85.0,45.0,China,III,tracking
+7883,87.5,45.0,China,III,tracking
+7884,90.0,45.0,China,III,tracking
+7885,92.5,45.0,China,III,tracking
+7886,95.0,45.0,Mongolia,III,tracking
+7887,97.5,45.0,Mongolia,III,tracking
+7888,100.0,45.0,Mongolia,III,tracking
+7889,102.5,45.0,Mongolia,III,tracking
+7890,105.0,45.0,Mongolia,III,tracking
+7891,107.5,45.0,Mongolia,III,tracking
+7892,110.0,45.0,Mongolia,III,tracking
+7893,112.5,45.0,Mongolia,III,tracking
+7894,115.0,45.0,China,II,tracking
+7895,117.5,45.0,China,III,tracking
+7896,120.0,45.0,China,III,tracking
+7897,122.5,45.0,China,III,tracking
+7898,125.0,45.0,China,III,tracking
+7899,127.5,45.0,China,III,fixed
+7900,130.0,45.0,China,III,fixed
+7901,132.5,45.0,Russia,III,tracking
+7902,135.0,45.0,Russia,III,fixed
+7903,137.5,45.0,Russia,II,fixed
+7905,142.5,45.0,Japan,III,fixed
+7942,-125.0,47.5,United States of America,II,fixed
+7943,-122.5,47.5,United States of America,III,fixed
+7944,-120.0,47.5,United States of America,III,tracking
+7945,-117.5,47.5,United States of America,III,tracking
+7946,-115.0,47.5,United States of America,III,fixed
+7947,-112.5,47.5,United States of America,III,tracking
+7948,-110.0,47.5,United States of America,III,tracking
+7949,-107.5,47.5,United States of America,III,tracking
+7950,-105.0,47.5,United States of America,III,tracking
+7951,-102.5,47.5,United States of America,III,tracking
+7952,-100.0,47.5,United States of America,III,tracking
+7953,-97.5,47.5,United States of America,III,tracking
+7954,-95.0,47.5,United States of America,III,fixed
+7955,-92.5,47.5,United States of America,III,fixed
+7956,-90.0,47.5,United States of America,II,fixed
+7957,-87.5,47.5,United States of America,II,fixed
+7958,-85.0,47.5,Canada,III,fixed
+7959,-82.5,47.5,Canada,III,fixed
+7960,-80.0,47.5,Canada,III,fixed
+7961,-77.5,47.5,Canada,III,fixed
+7962,-75.0,47.5,Canada,III,fixed
+7963,-72.5,47.5,Canada,III,fixed
+7964,-70.0,47.5,Canada,III,fixed
+7965,-67.5,47.5,Canada,III,fixed
+7966,-65.0,47.5,Canada,II,fixed
+7969,-57.5,47.5,Canada,II,fixed
+7970,-55.0,47.5,Canada,II,fixed
+7971,-52.5,47.5,Canada,I,fixed
+7991,-2.5,47.5,France,III,fixed
+7992,0.0,47.5,France,III,fixed
+7993,2.5,47.5,France,III,fixed
+7994,5.0,47.5,France,III,fixed
+7995,7.5,47.5,Switzerland,III,fixed
+7996,10.0,47.5,Germany,III,fixed
+7997,12.5,47.5,Austria,III,fixed
+7998,15.0,47.5,Austria,III,fixed
+7999,17.5,47.5,Hungary,III,fixed
+8000,20.0,47.5,Hungary,III,fixed
+8001,22.5,47.5,Romania,III,fixed
+8002,25.0,47.5,Romania,III,fixed
+8003,27.5,47.5,Romania,III,fixed
+8004,30.0,47.5,Ukraine,III,fixed
+8005,32.5,47.5,Ukraine,III,fixed
+8006,35.0,47.5,Ukraine,III,fixed
+8007,37.5,47.5,Ukraine,III,fixed
+8008,40.0,47.5,Russia,III,fixed
+8009,42.5,47.5,Russia,III,fixed
+8010,45.0,47.5,Russia,III,fixed
+8011,47.5,47.5,Russia,III,fixed
+8012,50.0,47.5,Kazakhstan,III,fixed
+8013,52.5,47.5,Kazakhstan,III,fixed
+8014,55.0,47.5,Kazakhstan,III,fixed
+8015,57.5,47.5,Kazakhstan,III,fixed
+8016,60.0,47.5,Kazakhstan,III,fixed
+8017,62.5,47.5,Kazakhstan,III,fixed
+8018,65.0,47.5,Kazakhstan,III,fixed
+8019,67.5,47.5,Kazakhstan,III,fixed
+8020,70.0,47.5,Kazakhstan,III,fixed
+8021,72.5,47.5,Kazakhstan,III,tracking
+8022,75.0,47.5,Kazakhstan,III,tracking
+8023,77.5,47.5,Kazakhstan,III,tracking
+8024,80.0,47.5,Kazakhstan,III,tracking
+8025,82.5,47.5,Kazakhstan,III,tracking
+8026,85.0,47.5,Kazakhstan,III,tracking
+8027,87.5,47.5,China,III,tracking
+8028,90.0,47.5,China,III,tracking
+8029,92.5,47.5,Mongolia,III,tracking
+8030,95.0,47.5,Mongolia,III,tracking
+8031,97.5,47.5,Mongolia,III,tracking
+8032,100.0,47.5,Mongolia,III,tracking
+8033,102.5,47.5,Mongolia,III,tracking
+8034,105.0,47.5,Mongolia,III,tracking
+8035,107.5,47.5,Mongolia,III,tracking
+8036,110.0,47.5,Mongolia,III,tracking
+8037,112.5,47.5,Mongolia,III,tracking
+8038,115.0,47.5,Mongolia,III,tracking
+8039,117.5,47.5,Mongolia,III,tracking
+8040,120.0,47.5,China,III,tracking
+8041,122.5,47.5,China,III,tracking
+8042,125.0,47.5,China,III,tracking
+8043,127.5,47.5,China,III,fixed
+8044,130.0,47.5,China,III,fixed
+8045,132.5,47.5,China,III,fixed
+8046,135.0,47.5,Russia,III,fixed
+8047,137.5,47.5,Russia,III,fixed
+8048,140.0,47.5,Russia,III,fixed
+8049,142.5,47.5,Russia,III,fixed
+8085,-127.5,50.0,Canada,III,fixed
+8086,-125.0,50.0,Canada,III,fixed
+8087,-122.5,50.0,Canada,III,fixed
+8088,-120.0,50.0,Canada,III,fixed
+8089,-117.5,50.0,Canada,III,fixed
+8090,-115.0,50.0,Canada,III,tracking
+8091,-112.5,50.0,Canada,III,tracking
+8092,-110.0,50.0,Canada,III,tracking
+8093,-107.5,50.0,Canada,III,tracking
+8094,-105.0,50.0,Canada,III,tracking
+8095,-102.5,50.0,Canada,III,tracking
+8096,-100.0,50.0,Canada,III,tracking
+8097,-97.5,50.0,Canada,III,fixed
+8098,-95.0,50.0,Canada,III,fixed
+8099,-92.5,50.0,Canada,III,fixed
+8100,-90.0,50.0,Canada,III,fixed
+8101,-87.5,50.0,Canada,III,fixed
+8102,-85.0,50.0,Canada,III,fixed
+8103,-82.5,50.0,Canada,III,fixed
+8104,-80.0,50.0,Canada,III,fixed
+8105,-77.5,50.0,Canada,III,fixed
+8106,-75.0,50.0,Canada,III,fixed
+8107,-72.5,50.0,Canada,III,fixed
+8108,-70.0,50.0,Canada,III,fixed
+8109,-67.5,50.0,Canada,III,fixed
+8110,-65.0,50.0,Canada,II,fixed
+8111,-62.5,50.0,Canada,I,fixed
+8112,-60.0,50.0,Canada,I,fixed
+8113,-57.5,50.0,Canada,III,fixed
+8114,-55.0,50.0,Canada,I,fixed
+8134,-5.0,50.0,United Kingdom,I,fixed
+8135,-2.5,50.0,United Kingdom,I,fixed
+8136,0.0,50.0,France,I,fixed
+8137,2.5,50.0,France,III,fixed
+8138,5.0,50.0,Belgium,III,fixed
+8139,7.5,50.0,Germany,III,fixed
+8140,10.0,50.0,Germany,III,fixed
+8141,12.5,50.0,Germany,III,fixed
+8142,15.0,50.0,Czechia,III,fixed
+8143,17.5,50.0,Czechia,III,fixed
+8144,20.0,50.0,Poland,III,fixed
+8145,22.5,50.0,Poland,III,fixed
+8146,25.0,50.0,Ukraine,III,fixed
+8147,27.5,50.0,Ukraine,III,fixed
+8148,30.0,50.0,Ukraine,III,fixed
+8149,32.5,50.0,Ukraine,III,fixed
+8150,35.0,50.0,Ukraine,III,fixed
+8151,37.5,50.0,Ukraine,III,fixed
+8152,40.0,50.0,Russia,III,fixed
+8153,42.5,50.0,Russia,III,fixed
+8154,45.0,50.0,Russia,III,fixed
+8155,47.5,50.0,Russia,III,fixed
+8156,50.0,50.0,Kazakhstan,III,fixed
+8157,52.5,50.0,Kazakhstan,III,fixed
+8158,55.0,50.0,Kazakhstan,III,fixed
+8159,57.5,50.0,Kazakhstan,III,fixed
+8160,60.0,50.0,Kazakhstan,III,fixed
+8161,62.5,50.0,Kazakhstan,III,fixed
+8162,65.0,50.0,Kazakhstan,III,fixed
+8163,67.5,50.0,Kazakhstan,III,fixed
+8164,70.0,50.0,Kazakhstan,III,fixed
+8165,72.5,50.0,Kazakhstan,III,fixed
+8166,75.0,50.0,Kazakhstan,III,fixed
+8167,77.5,50.0,Kazakhstan,III,fixed
+8168,80.0,50.0,Kazakhstan,III,fixed
+8169,82.5,50.0,Kazakhstan,III,fixed
+8170,85.0,50.0,Russia,III,tracking
+8171,87.5,50.0,Russia,III,tracking
+8172,90.0,50.0,Russia,III,tracking
+8173,92.5,50.0,Mongolia,III,tracking
+8174,95.0,50.0,Mongolia,III,tracking
+8175,97.5,50.0,Mongolia,III,tracking
+8176,100.0,50.0,Mongolia,III,tracking
+8177,102.5,50.0,Mongolia,III,tracking
+8178,105.0,50.0,Mongolia,III,tracking
+8179,107.5,50.0,Russia,III,fixed
+8180,110.0,50.0,Russia,III,fixed
+8181,112.5,50.0,Russia,III,tracking
+8182,115.0,50.0,Mongolia,III,tracking
+8183,117.5,50.0,Russia,III,tracking
+8184,120.0,50.0,China,III,tracking
+8185,122.5,50.0,China,III,fixed
+8186,125.0,50.0,China,III,fixed
+8187,127.5,50.0,China,III,fixed
+8188,130.0,50.0,Russia,III,fixed
+8189,132.5,50.0,Russia,III,fixed
+8190,135.0,50.0,Russia,III,fixed
+8191,137.5,50.0,Russia,III,fixed
+8192,140.0,50.0,Russia,III,fixed
+8193,142.5,50.0,Russia,III,fixed
+8228,-130.0,52.5,Canada,I,fixed
+8229,-127.5,52.5,Canada,III,fixed
+8230,-125.0,52.5,Canada,III,fixed
+8231,-122.5,52.5,Canada,III,fixed
+8232,-120.0,52.5,Canada,III,fixed
+8233,-117.5,52.5,Canada,III,tracking
+8234,-115.0,52.5,Canada,III,fixed
+8235,-112.5,52.5,Canada,III,tracking
+8236,-110.0,52.5,Canada,III,fixed
+8237,-107.5,52.5,Canada,III,fixed
+8238,-105.0,52.5,Canada,III,fixed
+8239,-102.5,52.5,Canada,III,fixed
+8240,-100.0,52.5,Canada,III,fixed
+8241,-97.5,52.5,Canada,II,fixed
+8242,-95.0,52.5,Canada,III,fixed
+8243,-92.5,52.5,Canada,III,fixed
+8244,-90.0,52.5,Canada,III,fixed
+8245,-87.5,52.5,Canada,III,fixed
+8246,-85.0,52.5,Canada,III,fixed
+8247,-82.5,52.5,Canada,III,fixed
+8248,-80.0,52.5,Canada,II,fixed
+8249,-77.5,52.5,Canada,III,fixed
+8250,-75.0,52.5,Canada,III,fixed
+8251,-72.5,52.5,Canada,III,fixed
+8252,-70.0,52.5,Canada,III,fixed
+8253,-67.5,52.5,Canada,II,fixed
+8254,-65.0,52.5,Canada,III,fixed
+8255,-62.5,52.5,Canada,III,fixed
+8256,-60.0,52.5,Canada,III,fixed
+8257,-57.5,52.5,Canada,II,fixed
+8276,-10.0,52.5,Ireland,I,fixed
+8277,-7.5,52.5,Ireland,III,fixed
+8278,-5.0,52.5,United Kingdom,I,fixed
+8279,-2.5,52.5,United Kingdom,III,fixed
+8280,0.0,52.5,United Kingdom,II,fixed
+8282,5.0,52.5,Netherlands,II,fixed
+8283,7.5,52.5,Germany,III,fixed
+8284,10.0,52.5,Germany,III,fixed
+8285,12.5,52.5,Germany,III,fixed
+8286,15.0,52.5,Poland,III,fixed
+8287,17.5,52.5,Poland,III,fixed
+8288,20.0,52.5,Poland,III,fixed
+8289,22.5,52.5,Poland,III,fixed
+8290,25.0,52.5,Belarus,III,fixed
+8291,27.5,52.5,Belarus,III,fixed
+8292,30.0,52.5,Belarus,III,fixed
+8293,32.5,52.5,Russia,III,fixed
+8294,35.0,52.5,Russia,III,fixed
+8295,37.5,52.5,Russia,III,fixed
+8296,40.0,52.5,Russia,III,fixed
+8297,42.5,52.5,Russia,III,fixed
+8298,45.0,52.5,Russia,III,fixed
+8299,47.5,52.5,Russia,III,fixed
+8300,50.0,52.5,Russia,III,fixed
+8301,52.5,52.5,Russia,III,fixed
+8302,55.0,52.5,Russia,III,fixed
+8303,57.5,52.5,Russia,III,fixed
+8304,60.0,52.5,Russia,III,fixed
+8305,62.5,52.5,Kazakhstan,III,fixed
+8306,65.0,52.5,Kazakhstan,III,fixed
+8307,67.5,52.5,Kazakhstan,III,fixed
+8308,70.0,52.5,Kazakhstan,III,fixed
+8309,72.5,52.5,Kazakhstan,III,fixed
+8310,75.0,52.5,Kazakhstan,III,fixed
+8311,77.5,52.5,Kazakhstan,III,fixed
+8312,80.0,52.5,Russia,III,fixed
+8313,82.5,52.5,Russia,III,fixed
+8314,85.0,52.5,Russia,III,fixed
+8315,87.5,52.5,Russia,III,fixed
+8316,90.0,52.5,Russia,III,fixed
+8317,92.5,52.5,Russia,III,fixed
+8318,95.0,52.5,Russia,III,fixed
+8319,97.5,52.5,Russia,III,fixed
+8320,100.0,52.5,Russia,III,tracking
+8321,102.5,52.5,Russia,III,fixed
+8322,105.0,52.5,Russia,III,fixed
+8323,107.5,52.5,Russia,III,fixed
+8324,110.0,52.5,Russia,III,fixed
+8325,112.5,52.5,Russia,III,fixed
+8326,115.0,52.5,Russia,III,fixed
+8327,117.5,52.5,Russia,III,fixed
+8328,120.0,52.5,Russia,III,fixed
+8329,122.5,52.5,China,III,fixed
+8330,125.0,52.5,China,III,fixed
+8331,127.5,52.5,Russia,III,fixed
+8332,130.0,52.5,Russia,III,fixed
+8333,132.5,52.5,Russia,III,fixed
+8334,135.0,52.5,Russia,III,fixed
+8335,137.5,52.5,Russia,III,fixed
+8336,140.0,52.5,Russia,III,fixed
+8337,142.5,52.5,Russia,III,fixed
+8343,157.5,52.5,Russia,III,fixed
+8359,-162.5,55.0,United States of America,II,fixed
+8360,-160.0,55.0,United States of America,I,fixed
+8371,-132.5,55.0,United States of America,III,fixed
+8372,-130.0,55.0,Canada,III,fixed
+8373,-127.5,55.0,Canada,III,fixed
+8374,-125.0,55.0,Canada,III,fixed
+8375,-122.5,55.0,Canada,III,fixed
+8376,-120.0,55.0,Canada,III,fixed
+8377,-117.5,55.0,Canada,III,fixed
+8378,-115.0,55.0,Canada,III,fixed
+8379,-112.5,55.0,Canada,III,fixed
+8380,-110.0,55.0,Canada,III,fixed
+8381,-107.5,55.0,Canada,III,fixed
+8382,-105.0,55.0,Canada,III,fixed
+8383,-102.5,55.0,Canada,III,fixed
+8384,-100.0,55.0,Canada,III,fixed
+8385,-97.5,55.0,Canada,III,fixed
+8386,-95.0,55.0,Canada,III,fixed
+8387,-92.5,55.0,Canada,III,fixed
+8388,-90.0,55.0,Canada,III,fixed
+8389,-87.5,55.0,Canada,III,fixed
+8390,-85.0,55.0,Canada,II,fixed
+8391,-82.5,55.0,Canada,II,fixed
+8393,-77.5,55.0,Canada,II,fixed
+8394,-75.0,55.0,Canada,II,fixed
+8395,-72.5,55.0,Canada,II,fixed
+8396,-70.0,55.0,Canada,II,fixed
+8397,-67.5,55.0,Canada,II,fixed
+8398,-65.0,55.0,Canada,II,fixed
+8399,-62.5,55.0,Canada,II,fixed
+8400,-60.0,55.0,Canada,II,fixed
+8401,-57.5,55.0,Canada,I,fixed
+8421,-7.5,55.0,Ireland,III,fixed
+8422,-5.0,55.0,United Kingdom,II,fixed
+8423,-2.5,55.0,United Kingdom,III,fixed
+8428,10.0,55.0,Denmark,II,fixed
+8429,12.5,55.0,Germany,I,fixed
+8430,15.0,55.0,Poland,I,fixed
+8431,17.5,55.0,Poland,I,fixed
+8432,20.0,55.0,Poland,II,fixed
+8433,22.5,55.0,Lithuania,III,fixed
+8434,25.0,55.0,Lithuania,III,fixed
+8435,27.5,55.0,Belarus,III,fixed
+8436,30.0,55.0,Belarus,III,fixed
+8437,32.5,55.0,Russia,III,fixed
+8438,35.0,55.0,Russia,III,fixed
+8439,37.5,55.0,Russia,III,fixed
+8440,40.0,55.0,Russia,III,fixed
+8441,42.5,55.0,Russia,III,fixed
+8442,45.0,55.0,Russia,III,fixed
+8443,47.5,55.0,Russia,III,fixed
+8444,50.0,55.0,Russia,III,fixed
+8445,52.5,55.0,Russia,III,fixed
+8446,55.0,55.0,Russia,III,fixed
+8447,57.5,55.0,Russia,III,fixed
+8448,60.0,55.0,Russia,III,fixed
+8449,62.5,55.0,Russia,III,fixed
+8450,65.0,55.0,Russia,III,fixed
+8451,67.5,55.0,Russia,III,fixed
+8452,70.0,55.0,Kazakhstan,III,fixed
+8453,72.5,55.0,Russia,III,fixed
+8454,75.0,55.0,Russia,III,fixed
+8455,77.5,55.0,Russia,III,fixed
+8456,80.0,55.0,Russia,III,fixed
+8457,82.5,55.0,Russia,III,fixed
+8458,85.0,55.0,Russia,III,fixed
+8459,87.5,55.0,Russia,III,fixed
+8460,90.0,55.0,Russia,III,fixed
+8461,92.5,55.0,Russia,III,fixed
+8462,95.0,55.0,Russia,III,fixed
+8463,97.5,55.0,Russia,III,fixed
+8464,100.0,55.0,Russia,III,fixed
+8465,102.5,55.0,Russia,III,fixed
+8466,105.0,55.0,Russia,III,fixed
+8467,107.5,55.0,Russia,III,fixed
+8468,110.0,55.0,Russia,III,fixed
+8469,112.5,55.0,Russia,III,fixed
+8470,115.0,55.0,Russia,III,fixed
+8471,117.5,55.0,Russia,III,fixed
+8472,120.0,55.0,Russia,III,fixed
+8473,122.5,55.0,Russia,III,fixed
+8474,125.0,55.0,Russia,III,fixed
+8475,127.5,55.0,Russia,III,fixed
+8476,130.0,55.0,Russia,III,fixed
+8477,132.5,55.0,Russia,III,fixed
+8478,135.0,55.0,Russia,III,fixed
+8479,137.5,55.0,Russia,III,fixed
+8486,155.0,55.0,Russia,II,fixed
+8487,157.5,55.0,Russia,III,fixed
+8488,160.0,55.0,Russia,III,fixed
+8489,162.5,55.0,Russia,II,fixed
+8505,-157.5,57.5,United States of America,III,fixed
+8506,-155.0,57.5,United States of America,II,fixed
+8507,-152.5,57.5,United States of America,III,fixed
+8514,-135.0,57.5,United States of America,III,fixed
+8515,-132.5,57.5,Canada,III,fixed
+8516,-130.0,57.5,Canada,III,fixed
+8517,-127.5,57.5,Canada,III,fixed
+8518,-125.0,57.5,Canada,III,fixed
+8519,-122.5,57.5,Canada,III,fixed
+8520,-120.0,57.5,Canada,III,fixed
+8521,-117.5,57.5,Canada,III,fixed
+8522,-115.0,57.5,Canada,III,fixed
+8523,-112.5,57.5,Canada,III,fixed
+8524,-110.0,57.5,Canada,III,fixed
+8525,-107.5,57.5,Canada,III,fixed
+8526,-105.0,57.5,Canada,III,fixed
+8527,-102.5,57.5,Canada,III,fixed
+8528,-100.0,57.5,Canada,III,fixed
+8529,-97.5,57.5,Canada,III,fixed
+8530,-95.0,57.5,Canada,III,fixed
+8531,-92.5,57.5,Canada,II,fixed
+8532,-90.0,57.5,Canada,II,fixed
+8537,-77.5,57.5,Canada,II,fixed
+8538,-75.0,57.5,Canada,II,fixed
+8539,-72.5,57.5,Canada,II,fixed
+8540,-70.0,57.5,Canada,III,fixed
+8541,-67.5,57.5,Canada,III,fixed
+8542,-65.0,57.5,Canada,III,fixed
+8543,-62.5,57.5,Canada,III,fixed
+8566,-5.0,57.5,United Kingdom,III,fixed
+8567,-2.5,57.5,United Kingdom,III,fixed
+8571,7.5,57.5,Norway,I,fixed
+8572,10.0,57.5,Denmark,II,fixed
+8573,12.5,57.5,Sweden,III,fixed
+8574,15.0,57.5,Sweden,III,fixed
+8575,17.5,57.5,Sweden,I,fixed
+8577,22.5,57.5,Latvia,II,fixed
+8578,25.0,57.5,Latvia,III,fixed
+8579,27.5,57.5,Russia,III,fixed
+8580,30.0,57.5,Russia,III,fixed
+8581,32.5,57.5,Russia,III,fixed
+8582,35.0,57.5,Russia,III,fixed
+8583,37.5,57.5,Russia,III,fixed
+8584,40.0,57.5,Russia,III,fixed
+8585,42.5,57.5,Russia,III,fixed
+8586,45.0,57.5,Russia,III,fixed
+8587,47.5,57.5,Russia,III,fixed
+8588,50.0,57.5,Russia,III,fixed
+8589,52.5,57.5,Russia,III,fixed
+8590,55.0,57.5,Russia,III,fixed
+8591,57.5,57.5,Russia,III,fixed
+8592,60.0,57.5,Russia,III,fixed
+8593,62.5,57.5,Russia,III,fixed
+8594,65.0,57.5,Russia,III,fixed
+8595,67.5,57.5,Russia,III,fixed
+8596,70.0,57.5,Russia,III,fixed
+8597,72.5,57.5,Russia,III,fixed
+8598,75.0,57.5,Russia,III,fixed
+8599,77.5,57.5,Russia,III,fixed
+8600,80.0,57.5,Russia,III,fixed
+8601,82.5,57.5,Russia,III,fixed
+8602,85.0,57.5,Russia,III,fixed
+8603,87.5,57.5,Russia,III,fixed
+8604,90.0,57.5,Russia,III,fixed
+8605,92.5,57.5,Russia,III,fixed
+8606,95.0,57.5,Russia,III,fixed
+8607,97.5,57.5,Russia,III,fixed
+8608,100.0,57.5,Russia,III,fixed
+8609,102.5,57.5,Russia,III,fixed
+8610,105.0,57.5,Russia,III,fixed
+8611,107.5,57.5,Russia,III,fixed
+8612,110.0,57.5,Russia,III,fixed
+8613,112.5,57.5,Russia,III,fixed
+8614,115.0,57.5,Russia,III,fixed
+8615,117.5,57.5,Russia,III,fixed
+8616,120.0,57.5,Russia,III,fixed
+8617,122.5,57.5,Russia,III,fixed
+8618,125.0,57.5,Russia,III,fixed
+8619,127.5,57.5,Russia,III,fixed
+8620,130.0,57.5,Russia,III,fixed
+8621,132.5,57.5,Russia,III,fixed
+8622,135.0,57.5,Russia,III,fixed
+8623,137.5,57.5,Russia,III,fixed
+8624,140.0,57.5,Russia,III,fixed
+8631,157.5,57.5,Russia,III,fixed
+8632,160.0,57.5,Russia,III,fixed
+8633,162.5,57.5,Russia,III,fixed
+8646,-165.0,60.0,United States of America,II,fixed
+8647,-162.5,60.0,United States of America,II,fixed
+8648,-160.0,60.0,United States of America,III,fixed
+8649,-157.5,60.0,United States of America,III,fixed
+8650,-155.0,60.0,United States of America,III,fixed
+8651,-152.5,60.0,United States of America,III,fixed
+8652,-150.0,60.0,United States of America,III,fixed
+8653,-147.5,60.0,United States of America,III,fixed
+8654,-145.0,60.0,United States of America,II,fixed
+8655,-142.5,60.0,United States of America,III,fixed
+8656,-140.0,60.0,Canada,III,fixed
+8657,-137.5,60.0,Canada,III,fixed
+8658,-135.0,60.0,Canada,III,fixed
+8659,-132.5,60.0,Canada,III,fixed
+8660,-130.0,60.0,Canada,III,fixed
+8661,-127.5,60.0,Canada,III,fixed
+8662,-125.0,60.0,Canada,III,fixed
+8663,-122.5,60.0,Canada,III,fixed
+8664,-120.0,60.0,Canada,III,fixed
+8665,-117.5,60.0,Canada,III,fixed
+8666,-115.0,60.0,Canada,III,fixed
+8667,-112.5,60.0,Canada,III,fixed
+8668,-110.0,60.0,Canada,III,fixed
+8669,-107.5,60.0,Canada,III,fixed
+8670,-105.0,60.0,Canada,III,fixed
+8671,-102.5,60.0,Canada,III,fixed
+8672,-100.0,60.0,Canada,III,fixed
+8673,-97.5,60.0,Canada,II,fixed
+8674,-95.0,60.0,Canada,II,fixed
+8681,-77.5,60.0,Canada,II,fixed
+8682,-75.0,60.0,Canada,II,fixed
+8683,-72.5,60.0,Canada,II,fixed
+8684,-70.0,60.0,Canada,II,fixed
+8686,-65.0,60.0,Canada,II,fixed
+8714,5.0,60.0,Norway,II,fixed
+8715,7.5,60.0,Norway,III,fixed
+8716,10.0,60.0,Norway,III,fixed
+8717,12.5,60.0,Sweden,III,fixed
+8718,15.0,60.0,Sweden,III,fixed
+8719,17.5,60.0,Sweden,III,fixed
+8721,22.5,60.0,Finland,I,fixed
+8722,25.0,60.0,Finland,I,fixed
+8723,27.5,60.0,Finland,I,fixed
+8724,30.0,60.0,Russia,II,fixed
+8725,32.5,60.0,Russia,III,fixed
+8726,35.0,60.0,Russia,III,fixed
+8727,37.5,60.0,Russia,III,fixed
+8728,40.0,60.0,Russia,III,fixed
+8729,42.5,60.0,Russia,III,fixed
+8730,45.0,60.0,Russia,III,fixed
+8731,47.5,60.0,Russia,III,fixed
+8732,50.0,60.0,Russia,III,fixed
+8733,52.5,60.0,Russia,III,fixed
+8734,55.0,60.0,Russia,III,fixed
+8735,57.5,60.0,Russia,III,fixed
+8736,60.0,60.0,Russia,III,fixed
+8737,62.5,60.0,Russia,III,fixed
+8738,65.0,60.0,Russia,III,fixed
+8739,67.5,60.0,Russia,III,fixed
+8740,70.0,60.0,Russia,III,fixed
+8741,72.5,60.0,Russia,III,fixed
+8742,75.0,60.0,Russia,III,fixed
+8743,77.5,60.0,Russia,III,fixed
+8744,80.0,60.0,Russia,III,fixed
+8745,82.5,60.0,Russia,III,fixed
+8746,85.0,60.0,Russia,III,fixed
+8747,87.5,60.0,Russia,III,fixed
+8748,90.0,60.0,Russia,III,fixed
+8749,92.5,60.0,Russia,III,fixed
+8750,95.0,60.0,Russia,III,fixed
+8751,97.5,60.0,Russia,III,fixed
+8752,100.0,60.0,Russia,III,fixed
+8753,102.5,60.0,Russia,III,fixed
+8754,105.0,60.0,Russia,III,fixed
+8755,107.5,60.0,Russia,III,fixed
+8756,110.0,60.0,Russia,III,fixed
+8757,112.5,60.0,Russia,III,fixed
+8758,115.0,60.0,Russia,III,fixed
+8759,117.5,60.0,Russia,III,fixed
+8760,120.0,60.0,Russia,III,fixed
+8761,122.5,60.0,Russia,III,fixed
+8762,125.0,60.0,Russia,III,fixed
+8763,127.5,60.0,Russia,III,fixed
+8764,130.0,60.0,Russia,III,fixed
+8765,132.5,60.0,Russia,III,fixed
+8766,135.0,60.0,Russia,III,fixed
+8767,137.5,60.0,Russia,III,fixed
+8768,140.0,60.0,Russia,III,fixed
+8769,142.5,60.0,Russia,III,fixed
+8770,145.0,60.0,Russia,III,fixed
+8771,147.5,60.0,Russia,III,fixed
+8772,150.0,60.0,Russia,III,fixed
+8773,152.5,60.0,Russia,III,fixed
+8774,155.0,60.0,Russia,III,fixed
+8776,160.0,60.0,Russia,II,fixed
+8777,162.5,60.0,Russia,III,fixed
+8778,165.0,60.0,Russia,II,fixed
+8779,167.5,60.0,Russia,II,fixed
+8780,170.0,60.0,Russia,II,fixed
+8790,-165.0,62.5,United States of America,II,fixed
+8791,-162.5,62.5,United States of America,III,fixed
+8792,-160.0,62.5,United States of America,III,fixed
+8793,-157.5,62.5,United States of America,III,fixed
+8794,-155.0,62.5,United States of America,III,fixed
+8795,-152.5,62.5,United States of America,III,fixed
+8796,-150.0,62.5,United States of America,III,fixed
+8797,-147.5,62.5,United States of America,III,fixed
+8798,-145.0,62.5,United States of America,III,fixed
+8799,-142.5,62.5,United States of America,III,fixed
+8800,-140.0,62.5,Canada,III,fixed
+8801,-137.5,62.5,Canada,III,fixed
+8802,-135.0,62.5,Canada,III,fixed
+8803,-132.5,62.5,Canada,III,fixed
+8804,-130.0,62.5,Canada,III,fixed
+8805,-127.5,62.5,Canada,III,fixed
+8806,-125.0,62.5,Canada,III,fixed
+8807,-122.5,62.5,Canada,III,fixed
+8808,-120.0,62.5,Canada,III,fixed
+8809,-117.5,62.5,Canada,III,fixed
+8810,-115.0,62.5,Canada,III,fixed
+8811,-112.5,62.5,Canada,III,fixed
+8812,-110.0,62.5,Canada,III,fixed
+8813,-107.5,62.5,Canada,III,fixed
+8814,-105.0,62.5,Canada,II,fixed
+8815,-102.5,62.5,Canada,II,fixed
+8816,-100.0,62.5,Canada,II,fixed
+8817,-97.5,62.5,Canada,II,fixed
+8818,-95.0,62.5,Canada,II,fixed
+8819,-92.5,62.5,Canada,II,fixed
+8823,-82.5,62.5,Canada,II,fixed
+8825,-77.5,62.5,Canada,III,fixed
+8826,-75.0,62.5,Canada,III,fixed
+8827,-72.5,62.5,Canada,II,fixed
+8828,-70.0,62.5,Canada,III,fixed
+8829,-67.5,62.5,Canada,III,fixed
+8830,-65.0,62.5,Canada,II,fixed
+8858,5.0,62.5,Norway,I,fixed
+8859,7.5,62.5,Norway,III,fixed
+8860,10.0,62.5,Norway,III,fixed
+8861,12.5,62.5,Sweden,III,fixed
+8862,15.0,62.5,Sweden,III,fixed
+8863,17.5,62.5,Sweden,III,fixed
+8865,22.5,62.5,Finland,III,fixed
+8866,25.0,62.5,Finland,III,fixed
+8867,27.5,62.5,Finland,III,fixed
+8868,30.0,62.5,Finland,III,fixed
+8869,32.5,62.5,Russia,III,fixed
+8870,35.0,62.5,Russia,III,fixed
+8871,37.5,62.5,Russia,III,fixed
+8872,40.0,62.5,Russia,III,fixed
+8873,42.5,62.5,Russia,III,fixed
+8874,45.0,62.5,Russia,III,fixed
+8875,47.5,62.5,Russia,III,fixed
+8876,50.0,62.5,Russia,III,fixed
+8877,52.5,62.5,Russia,III,fixed
+8878,55.0,62.5,Russia,III,fixed
+8879,57.5,62.5,Russia,III,fixed
+8880,60.0,62.5,Russia,III,fixed
+8881,62.5,62.5,Russia,III,fixed
+8882,65.0,62.5,Russia,III,fixed
+8883,67.5,62.5,Russia,III,fixed
+8884,70.0,62.5,Russia,III,fixed
+8885,72.5,62.5,Russia,II,fixed
+8886,75.0,62.5,Russia,II,fixed
+8887,77.5,62.5,Russia,III,fixed
+8888,80.0,62.5,Russia,III,fixed
+8889,82.5,62.5,Russia,III,fixed
+8890,85.0,62.5,Russia,III,fixed
+8891,87.5,62.5,Russia,III,fixed
+8892,90.0,62.5,Russia,III,fixed
+8893,92.5,62.5,Russia,III,fixed
+8894,95.0,62.5,Russia,III,fixed
+8895,97.5,62.5,Russia,III,fixed
+8896,100.0,62.5,Russia,III,fixed
+8897,102.5,62.5,Russia,III,fixed
+8898,105.0,62.5,Russia,III,fixed
+8899,107.5,62.5,Russia,III,fixed
+8900,110.0,62.5,Russia,III,fixed
+8901,112.5,62.5,Russia,III,fixed
+8902,115.0,62.5,Russia,III,fixed
+8903,117.5,62.5,Russia,III,fixed
+8904,120.0,62.5,Russia,III,fixed
+8905,122.5,62.5,Russia,III,fixed
+8906,125.0,62.5,Russia,III,fixed
+8907,127.5,62.5,Russia,III,fixed
+8908,130.0,62.5,Russia,III,fixed
+8909,132.5,62.5,Russia,III,fixed
+8910,135.0,62.5,Russia,III,fixed
+8911,137.5,62.5,Russia,III,fixed
+8912,140.0,62.5,Russia,III,fixed
+8913,142.5,62.5,Russia,III,fixed
+8914,145.0,62.5,Russia,III,fixed
+8915,147.5,62.5,Russia,III,fixed
+8916,150.0,62.5,Russia,III,fixed
+8917,152.5,62.5,Russia,III,fixed
+8918,155.0,62.5,Russia,III,fixed
+8919,157.5,62.5,Russia,III,fixed
+8920,160.0,62.5,Russia,III,fixed
+8921,162.5,62.5,Russia,III,fixed
+8922,165.0,62.5,Russia,III,fixed
+8923,167.5,62.5,Russia,III,fixed
+8924,170.0,62.5,Russia,III,fixed
+8925,172.5,62.5,Russia,III,fixed
+8926,175.0,62.5,Russia,III,fixed
+8927,177.5,62.5,Russia,II,fixed
+8928,-180.0,65.0,Russia,II,fixed
+8929,-177.5,65.0,Russia,II,fixed
+8930,-175.0,65.0,Russia,II,fixed
+8931,-172.5,65.0,Russia,III,fixed
+8933,-167.5,65.0,United States of America,I,fixed
+8934,-165.0,65.0,United States of America,III,fixed
+8935,-162.5,65.0,United States of America,III,fixed
+8936,-160.0,65.0,United States of America,III,fixed
+8937,-157.5,65.0,United States of America,III,fixed
+8938,-155.0,65.0,United States of America,III,fixed
+8939,-152.5,65.0,United States of America,III,fixed
+8940,-150.0,65.0,United States of America,III,fixed
+8941,-147.5,65.0,United States of America,III,fixed
+8942,-145.0,65.0,United States of America,III,fixed
+8943,-142.5,65.0,United States of America,III,fixed
+8944,-140.0,65.0,Canada,III,fixed
+8945,-137.5,65.0,Canada,III,fixed
+8946,-135.0,65.0,Canada,III,fixed
+8947,-132.5,65.0,Canada,III,fixed
+8948,-130.0,65.0,Canada,III,fixed
+8949,-127.5,65.0,Canada,III,fixed
+8950,-125.0,65.0,Canada,III,fixed
+8951,-122.5,65.0,Canada,III,fixed
+8952,-120.0,65.0,Canada,III,fixed
+8953,-117.5,65.0,Canada,III,fixed
+8954,-115.0,65.0,Canada,III,fixed
+8955,-112.5,65.0,Canada,III,fixed
+8956,-110.0,65.0,Canada,II,fixed
+8957,-107.5,65.0,Canada,III,fixed
+8958,-105.0,65.0,Canada,II,fixed
+8959,-102.5,65.0,Canada,II,fixed
+8960,-100.0,65.0,Canada,II,fixed
+8961,-97.5,65.0,Canada,II,fixed
+8962,-95.0,65.0,Canada,II,fixed
+8963,-92.5,65.0,Canada,II,fixed
+8964,-90.0,65.0,Canada,II,fixed
+8965,-87.5,65.0,Canada,II,fixed
+8966,-85.0,65.0,Canada,III,fixed
+8967,-82.5,65.0,Canada,III,fixed
+8969,-77.5,65.0,Canada,III,fixed
+8970,-75.0,65.0,Canada,III,fixed
+8971,-72.5,65.0,Canada,III,fixed
+8972,-70.0,65.0,Canada,III,fixed
+8973,-67.5,65.0,Canada,III,fixed
+8974,-65.0,65.0,Canada,II,fixed
+8975,-62.5,65.0,Canada,III,fixed
+8991,-22.5,65.0,Iceland,II,fixed
+8992,-20.0,65.0,Iceland,II,fixed
+8993,-17.5,65.0,Iceland,II,fixed
+8994,-15.0,65.0,Iceland,III,fixed
+9005,12.5,65.0,Norway,III,fixed
+9006,15.0,65.0,Sweden,III,fixed
+9007,17.5,65.0,Sweden,III,fixed
+9008,20.0,65.0,Sweden,III,fixed
+9009,22.5,65.0,Sweden,I,fixed
+9010,25.0,65.0,Finland,II,fixed
+9011,27.5,65.0,Finland,III,fixed
+9012,30.0,65.0,Finland,III,fixed
+9013,32.5,65.0,Russia,III,fixed
+9014,35.0,65.0,Russia,II,fixed
+9015,37.5,65.0,Russia,III,fixed
+9016,40.0,65.0,Russia,II,fixed
+9017,42.5,65.0,Russia,III,fixed
+9018,45.0,65.0,Russia,III,fixed
+9019,47.5,65.0,Russia,III,fixed
+9020,50.0,65.0,Russia,III,fixed
+9021,52.5,65.0,Russia,III,fixed
+9022,55.0,65.0,Russia,III,fixed
+9023,57.5,65.0,Russia,III,fixed
+9024,60.0,65.0,Russia,III,fixed
+9025,62.5,65.0,Russia,III,fixed
+9026,65.0,65.0,Russia,II,fixed
+9027,67.5,65.0,Russia,III,fixed
+9028,70.0,65.0,Russia,II,fixed
+9029,72.5,65.0,Russia,II,fixed
+9030,75.0,65.0,Russia,II,fixed
+9031,77.5,65.0,Russia,II,fixed
+9032,80.0,65.0,Russia,III,fixed
+9033,82.5,65.0,Russia,II,fixed
+9034,85.0,65.0,Russia,III,fixed
+9035,87.5,65.0,Russia,III,fixed
+9036,90.0,65.0,Russia,III,fixed
+9037,92.5,65.0,Russia,III,fixed
+9038,95.0,65.0,Russia,III,fixed
+9039,97.5,65.0,Russia,III,fixed
+9040,100.0,65.0,Russia,III,fixed
+9041,102.5,65.0,Russia,III,fixed
+9042,105.0,65.0,Russia,III,fixed
+9043,107.5,65.0,Russia,III,fixed
+9044,110.0,65.0,Russia,III,fixed
+9045,112.5,65.0,Russia,III,fixed
+9046,115.0,65.0,Russia,III,fixed
+9047,117.5,65.0,Russia,III,fixed
+9048,120.0,65.0,Russia,III,fixed
+9049,122.5,65.0,Russia,III,fixed
+9050,125.0,65.0,Russia,III,fixed
+9051,127.5,65.0,Russia,III,fixed
+9052,130.0,65.0,Russia,III,fixed
+9053,132.5,65.0,Russia,III,fixed
+9054,135.0,65.0,Russia,III,fixed
+9055,137.5,65.0,Russia,III,fixed
+9056,140.0,65.0,Russia,III,fixed
+9057,142.5,65.0,Russia,III,fixed
+9058,145.0,65.0,Russia,III,fixed
+9059,147.5,65.0,Russia,III,fixed
+9060,150.0,65.0,Russia,III,fixed
+9061,152.5,65.0,Russia,III,fixed
+9062,155.0,65.0,Russia,III,fixed
+9063,157.5,65.0,Russia,III,fixed
+9064,160.0,65.0,Russia,III,fixed
+9065,162.5,65.0,Russia,III,fixed
+9066,165.0,65.0,Russia,III,fixed
+9067,167.5,65.0,Russia,III,fixed
+9068,170.0,65.0,Russia,III,fixed
+9069,172.5,65.0,Russia,III,fixed
+9070,175.0,65.0,Russia,III,fixed
+9071,177.5,65.0,Russia,III,fixed
+9072,-180.0,67.5,Russia,III,fixed
+9073,-177.5,67.5,Russia,III,fixed
+9074,-175.0,67.5,Russia,II,fixed
+9075,-172.5,67.5,Russia,II,fixed
+9078,-165.0,67.5,United States of America,II,fixed
+9079,-162.5,67.5,United States of America,III,fixed
+9080,-160.0,67.5,United States of America,III,fixed
+9081,-157.5,67.5,United States of America,III,fixed
+9082,-155.0,67.5,United States of America,III,fixed
+9083,-152.5,67.5,United States of America,III,fixed
+9084,-150.0,67.5,United States of America,III,fixed
+9085,-147.5,67.5,United States of America,III,fixed
+9086,-145.0,67.5,United States of America,III,fixed
+9087,-142.5,67.5,United States of America,III,fixed
+9088,-140.0,67.5,Canada,III,fixed
+9089,-137.5,67.5,Canada,III,fixed
+9090,-135.0,67.5,Canada,III,fixed
+9091,-132.5,67.5,Canada,III,fixed
+9092,-130.0,67.5,Canada,III,fixed
+9093,-127.5,67.5,Canada,III,fixed
+9094,-125.0,67.5,Canada,III,fixed
+9095,-122.5,67.5,Canada,III,fixed
+9096,-120.0,67.5,Canada,III,fixed
+9097,-117.5,67.5,Canada,III,fixed
+9098,-115.0,67.5,Canada,III,fixed
+9099,-112.5,67.5,Canada,III,fixed
+9100,-110.0,67.5,Canada,II,fixed
+9101,-107.5,67.5,Canada,III,fixed
+9102,-105.0,67.5,Canada,II,fixed
+9103,-102.5,67.5,Canada,II,fixed
+9104,-100.0,67.5,Canada,II,fixed
+9105,-97.5,67.5,Canada,II,fixed
+9106,-95.0,67.5,Canada,III,fixed
+9107,-92.5,67.5,Canada,II,fixed
+9108,-90.0,67.5,Canada,III,fixed
+9109,-87.5,67.5,Canada,III,fixed
+9110,-85.0,67.5,Canada,II,fixed
+9111,-82.5,67.5,Canada,II,fixed
+9113,-77.5,67.5,Canada,III,fixed
+9114,-75.0,67.5,Canada,III,fixed
+9115,-72.5,67.5,Canada,III,fixed
+9116,-70.0,67.5,Canada,III,fixed
+9117,-67.5,67.5,Canada,III,fixed
+9118,-65.0,67.5,Canada,III,fixed
+9119,-62.5,67.5,Canada,III,fixed
+9150,15.0,67.5,Norway,III,fixed
+9151,17.5,67.5,Sweden,III,fixed
+9152,20.0,67.5,Sweden,III,fixed
+9153,22.5,67.5,Sweden,III,fixed
+9154,25.0,67.5,Finland,III,fixed
+9155,27.5,67.5,Finland,III,fixed
+9156,30.0,67.5,Russia,III,fixed
+9157,32.5,67.5,Russia,III,fixed
+9158,35.0,67.5,Russia,III,fixed
+9159,37.5,67.5,Russia,III,fixed
+9160,40.0,67.5,Russia,II,fixed
+9162,45.0,67.5,Russia,II,fixed
+9163,47.5,67.5,Russia,I,fixed
+9164,50.0,67.5,Russia,III,fixed
+9165,52.5,67.5,Russia,II,fixed
+9166,55.0,67.5,Russia,II,fixed
+9167,57.5,67.5,Russia,II,fixed
+9168,60.0,67.5,Russia,I,fixed
+9169,62.5,67.5,Russia,II,fixed
+9170,65.0,67.5,Russia,III,fixed
+9171,67.5,67.5,Russia,III,fixed
+9172,70.0,67.5,Russia,II,fixed
+9173,72.5,67.5,Russia,II,fixed
+9174,75.0,67.5,Russia,II,fixed
+9175,77.5,67.5,Russia,II,fixed
+9176,80.0,67.5,Russia,II,fixed
+9177,82.5,67.5,Russia,II,fixed
+9178,85.0,67.5,Russia,II,fixed
+9179,87.5,67.5,Russia,II,fixed
+9180,90.0,67.5,Russia,III,fixed
+9181,92.5,67.5,Russia,III,fixed
+9182,95.0,67.5,Russia,III,fixed
+9183,97.5,67.5,Russia,III,fixed
+9184,100.0,67.5,Russia,III,fixed
+9185,102.5,67.5,Russia,III,fixed
+9186,105.0,67.5,Russia,III,fixed
+9187,107.5,67.5,Russia,III,fixed
+9188,110.0,67.5,Russia,III,fixed
+9189,112.5,67.5,Russia,III,fixed
+9190,115.0,67.5,Russia,III,fixed
+9191,117.5,67.5,Russia,III,fixed
+9192,120.0,67.5,Russia,III,fixed
+9193,122.5,67.5,Russia,III,fixed
+9194,125.0,67.5,Russia,III,fixed
+9195,127.5,67.5,Russia,III,fixed
+9196,130.0,67.5,Russia,III,fixed
+9197,132.5,67.5,Russia,III,fixed
+9198,135.0,67.5,Russia,III,fixed
+9199,137.5,67.5,Russia,III,fixed
+9200,140.0,67.5,Russia,III,fixed
+9201,142.5,67.5,Russia,III,fixed
+9202,145.0,67.5,Russia,III,fixed
+9203,147.5,67.5,Russia,III,fixed
+9204,150.0,67.5,Russia,III,fixed
+9205,152.5,67.5,Russia,III,fixed
+9206,155.0,67.5,Russia,III,fixed
+9207,157.5,67.5,Russia,III,fixed
+9208,160.0,67.5,Russia,III,fixed
+9209,162.5,67.5,Russia,III,fixed
+9210,165.0,67.5,Russia,III,fixed
+9211,167.5,67.5,Russia,III,fixed
+9212,170.0,67.5,Russia,III,fixed
+9213,172.5,67.5,Russia,III,fixed
+9214,175.0,67.5,Russia,III,fixed
+9215,177.5,67.5,Russia,III,fixed
+9216,-180.0,70.0,Russia,II,fixed
+9223,-162.5,70.0,United States of America,II,fixed
+9224,-160.0,70.0,United States of America,III,fixed
+9225,-157.5,70.0,United States of America,III,fixed
+9226,-155.0,70.0,United States of America,III,fixed
+9227,-152.5,70.0,United States of America,III,fixed
+9228,-150.0,70.0,United States of America,III,fixed
+9229,-147.5,70.0,United States of America,III,fixed
+9230,-145.0,70.0,United States of America,III,fixed
+9231,-142.5,70.0,United States of America,III,fixed
+9232,-140.0,70.0,Canada,II,fixed
+9234,-135.0,70.0,Canada,II,fixed
+9235,-132.5,70.0,Canada,III,fixed
+9236,-130.0,70.0,Canada,III,fixed
+9237,-127.5,70.0,Canada,III,fixed
+9238,-125.0,70.0,Canada,III,fixed
+9239,-122.5,70.0,Canada,III,fixed
+9240,-120.0,70.0,Canada,II,fixed
+9241,-117.5,70.0,Canada,III,fixed
+9242,-115.0,70.0,Canada,III,fixed
+9243,-112.5,70.0,Canada,III,fixed
+9244,-110.0,70.0,Canada,III,fixed
+9245,-107.5,70.0,Canada,III,fixed
+9246,-105.0,70.0,Canada,II,fixed
+9247,-102.5,70.0,Canada,III,fixed
+9249,-97.5,70.0,Canada,III,fixed
+9250,-95.0,70.0,Canada,III,fixed
+9251,-92.5,70.0,Canada,III,fixed
+9252,-90.0,70.0,Canada,III,fixed
+9253,-87.5,70.0,Canada,III,fixed
+9254,-85.0,70.0,Canada,III,fixed
+9255,-82.5,70.0,Canada,III,fixed
+9256,-80.0,70.0,Canada,III,fixed
+9257,-77.5,70.0,Canada,III,fixed
+9258,-75.0,70.0,Canada,III,fixed
+9259,-72.5,70.0,Canada,III,fixed
+9260,-70.0,70.0,Canada,III,fixed
+9261,-67.5,70.0,Canada,III,fixed
+9295,17.5,70.0,Norway,II,fixed
+9296,20.0,70.0,Norway,III,fixed
+9297,22.5,70.0,Norway,III,fixed
+9298,25.0,70.0,Norway,III,fixed
+9299,27.5,70.0,Finland,III,fixed
+9300,30.0,70.0,Norway,III,fixed
+9301,32.5,70.0,Russia,II,fixed
+9302,35.0,70.0,Russia,I,fixed
+9310,55.0,70.0,Russia,I,fixed
+9312,60.0,70.0,Russia,I,fixed
+9313,62.5,70.0,Russia,I,fixed
+9314,65.0,70.0,Russia,I,fixed
+9315,67.5,70.0,Russia,I,fixed
+9316,70.0,70.0,Russia,II,fixed
+9317,72.5,70.0,Russia,II,fixed
+9318,75.0,70.0,Russia,II,fixed
+9319,77.5,70.0,Russia,II,fixed
+9320,80.0,70.0,Russia,II,fixed
+9321,82.5,70.0,Russia,II,fixed
+9322,85.0,70.0,Russia,I,fixed
+9323,87.5,70.0,Russia,I,fixed
+9324,90.0,70.0,Russia,III,fixed
+9325,92.5,70.0,Russia,III,fixed
+9326,95.0,70.0,Russia,III,fixed
+9327,97.5,70.0,Russia,III,fixed
+9328,100.0,70.0,Russia,III,fixed
+9329,102.5,70.0,Russia,III,fixed
+9330,105.0,70.0,Russia,III,fixed
+9331,107.5,70.0,Russia,III,fixed
+9332,110.0,70.0,Russia,III,fixed
+9333,112.5,70.0,Russia,III,fixed
+9334,115.0,70.0,Russia,III,fixed
+9335,117.5,70.0,Russia,III,fixed
+9336,120.0,70.0,Russia,III,fixed
+9337,122.5,70.0,Russia,III,fixed
+9338,125.0,70.0,Russia,III,fixed
+9339,127.5,70.0,Russia,III,fixed
+9340,130.0,70.0,Russia,III,fixed
+9341,132.5,70.0,Russia,III,fixed
+9342,135.0,70.0,Russia,III,fixed
+9343,137.5,70.0,Russia,III,fixed
+9344,140.0,70.0,Russia,III,fixed
+9345,142.5,70.0,Russia,III,fixed
+9346,145.0,70.0,Russia,III,fixed
+9347,147.5,70.0,Russia,III,fixed
+9348,150.0,70.0,Russia,III,fixed
+9349,152.5,70.0,Russia,III,fixed
+9350,155.0,70.0,Russia,III,fixed
+9351,157.5,70.0,Russia,III,fixed
+9352,160.0,70.0,Russia,III,fixed
+9353,162.5,70.0,Russia,III,fixed
+9354,165.0,70.0,Russia,III,fixed
+9355,167.5,70.0,Russia,III,fixed
+9356,170.0,70.0,Russia,III,fixed
+9357,172.5,70.0,Russia,III,fixed
+9358,175.0,70.0,Russia,III,fixed
+9359,177.5,70.0,Russia,II,fixed
+9382,-125.0,72.5,Canada,III,fixed
+9383,-122.5,72.5,Canada,III,fixed
+9384,-120.0,72.5,Canada,III,fixed
+9385,-117.5,72.5,Canada,III,fixed
+9386,-115.0,72.5,Canada,III,fixed
+9387,-112.5,72.5,Canada,III,fixed
+9388,-110.0,72.5,Canada,III,fixed
+9389,-107.5,72.5,Canada,III,fixed
+9390,-105.0,72.5,Canada,III,fixed
+9392,-100.0,72.5,Canada,III,fixed
+9393,-97.5,72.5,Canada,III,fixed
+9394,-95.0,72.5,Canada,III,fixed
+9395,-92.5,72.5,Canada,III,fixed
+9396,-90.0,72.5,Canada,III,fixed
+9397,-87.5,72.5,Canada,III,fixed
+9398,-85.0,72.5,Canada,III,fixed
+9399,-82.5,72.5,Canada,III,fixed
+9400,-80.0,72.5,Canada,III,fixed
+9401,-77.5,72.5,Canada,III,fixed
+9402,-75.0,72.5,Canada,III,fixed
+9453,52.5,72.5,Russia,II,fixed
+9454,55.0,72.5,Russia,III,fixed
+9460,70.0,72.5,Russia,II,fixed
+9461,72.5,72.5,Russia,II,fixed
+9462,75.0,72.5,Russia,I,fixed
+9463,77.5,72.5,Russia,I,fixed
+9464,80.0,72.5,Russia,I,fixed
+9465,82.5,72.5,Russia,II,fixed
+9466,85.0,72.5,Russia,II,fixed
+9467,87.5,72.5,Russia,I,fixed
+9468,90.0,72.5,Russia,II,fixed
+9469,92.5,72.5,Russia,II,fixed
+9470,95.0,72.5,Russia,II,fixed
+9471,97.5,72.5,Russia,II,fixed
+9472,100.0,72.5,Russia,II,fixed
+9473,102.5,72.5,Russia,II,fixed
+9474,105.0,72.5,Russia,II,fixed
+9475,107.5,72.5,Russia,II,fixed
+9476,110.0,72.5,Russia,II,fixed
+9477,112.5,72.5,Russia,II,fixed
+9478,115.0,72.5,Russia,II,fixed
+9479,117.5,72.5,Russia,II,fixed
+9480,120.0,72.5,Russia,II,fixed
+9481,122.5,72.5,Russia,II,fixed
+9482,125.0,72.5,Russia,II,fixed
+9483,127.5,72.5,Russia,II,fixed
+9488,140.0,72.5,Russia,II,fixed
+9489,142.5,72.5,Russia,III,fixed
+9490,145.0,72.5,Russia,III,fixed
+9491,147.5,72.5,Russia,III,fixed
+9492,150.0,72.5,Russia,III,fixed
+9527,-122.5,75.0,Canada,III,fixed
+9528,-120.0,75.0,Canada,III,fixed
+9529,-117.5,75.0,Canada,III,fixed
+9530,-115.0,75.0,Canada,III,fixed
+9531,-112.5,75.0,Canada,III,fixed
+9532,-110.0,75.0,Canada,III,fixed
+9533,-107.5,75.0,Canada,III,fixed
+9534,-105.0,75.0,Canada,III,fixed
+9535,-102.5,75.0,Canada,III,fixed
+9536,-100.0,75.0,Canada,III,fixed
+9537,-97.5,75.0,Canada,III,fixed
+9538,-95.0,75.0,Canada,III,fixed
+9539,-92.5,75.0,Canada,III,fixed
+9540,-90.0,75.0,Canada,III,fixed
+9541,-87.5,75.0,Canada,III,fixed
+9542,-85.0,75.0,Canada,III,fixed
+9543,-82.5,75.0,Canada,III,fixed
+9544,-80.0,75.0,Canada,III,fixed
+9598,55.0,75.0,Russia,II,fixed
+9599,57.5,75.0,Russia,III,fixed
+9600,60.0,75.0,Russia,III,fixed
+9601,62.5,75.0,Russia,III,fixed
+9602,65.0,75.0,Russia,II,fixed
+9611,87.5,75.0,Russia,II,fixed
+9612,90.0,75.0,Russia,II,fixed
+9613,92.5,75.0,Russia,II,fixed
+9614,95.0,75.0,Russia,II,fixed
+9615,97.5,75.0,Russia,II,fixed
+9616,100.0,75.0,Russia,III,fixed
+9617,102.5,75.0,Russia,III,fixed
+9618,105.0,75.0,Russia,III,fixed
+9619,107.5,75.0,Russia,III,fixed
+9620,110.0,75.0,Russia,III,fixed
+9621,112.5,75.0,Russia,III,fixed
+9631,137.5,75.0,Russia,II,fixed
+9632,140.0,75.0,Russia,II,fixed
+9633,142.5,75.0,Russia,II,fixed
+9635,147.5,75.0,Russia,II,fixed
+9672,-120.0,77.5,Canada,III,fixed
+9673,-117.5,77.5,Canada,III,fixed
+9674,-115.0,77.5,Canada,III,fixed
+9675,-112.5,77.5,Canada,III,fixed
+9676,-110.0,77.5,Canada,III,fixed
+9678,-105.0,77.5,Canada,III,fixed
+9679,-102.5,77.5,Canada,III,fixed
+9680,-100.0,77.5,Canada,III,fixed
+9681,-97.5,77.5,Canada,III,fixed
+9682,-95.0,77.5,Canada,III,fixed
+9683,-92.5,77.5,Canada,III,fixed
+9684,-90.0,77.5,Canada,III,fixed
+9685,-87.5,77.5,Canada,III,fixed
+9686,-85.0,77.5,Canada,III,fixed
+9687,-82.5,77.5,Canada,III,fixed
+9688,-80.0,77.5,Canada,III,fixed
+9689,-77.5,77.5,Canada,III,fixed
+9726,15.0,77.5,Norway,III,fixed
+9727,17.5,77.5,Norway,III,fixed
+9729,22.5,77.5,Norway,III,fixed
+9747,67.5,77.5,Russia,II,fixed
+9760,100.0,77.5,Russia,II,fixed
+9761,102.5,77.5,Russia,II,fixed
+9762,105.0,77.5,Russia,II,fixed
+9763,107.5,77.5,Russia,II,fixed
+9764,110.0,77.5,Russia,II,fixed
+9823,-102.5,80.0,Canada,II,fixed
+9826,-95.0,80.0,Canada,III,fixed
+9827,-92.5,80.0,Canada,III,fixed
+9828,-90.0,80.0,Canada,III,fixed
+9829,-87.5,80.0,Canada,III,fixed
+9830,-85.0,80.0,Canada,III,fixed
+9831,-82.5,80.0,Canada,III,fixed
+9832,-80.0,80.0,Canada,III,fixed
+9833,-77.5,80.0,Canada,III,fixed
+9834,-75.0,80.0,Canada,III,fixed
+9835,-72.5,80.0,Canada,III,fixed
+9836,-70.0,80.0,Canada,III,fixed
+9869,12.5,80.0,Norway,III,fixed
+9870,15.0,80.0,Norway,III,fixed
+9871,17.5,80.0,Norway,III,fixed
+9872,20.0,80.0,Norway,III,fixed
+9873,22.5,80.0,Norway,III,fixed
+9874,25.0,80.0,Norway,II,fixed
+9884,50.0,80.0,Russia,II,fixed
+9887,57.5,80.0,Russia,II,fixed
+9888,60.0,80.0,Russia,II,fixed
+9901,92.5,80.0,Russia,II,fixed
+9902,95.0,80.0,Russia,III,fixed
+9903,97.5,80.0,Russia,III,fixed
+9904,100.0,80.0,Russia,III,fixed
+9905,102.5,80.0,Russia,II,fixed
+9972,-90.0,82.5,Canada,III,fixed
+9973,-87.5,82.5,Canada,III,fixed
+9974,-85.0,82.5,Canada,III,fixed
+9975,-82.5,82.5,Canada,III,fixed
+9976,-80.0,82.5,Canada,III,fixed
+9977,-77.5,82.5,Canada,III,fixed
+9978,-75.0,82.5,Canada,III,fixed
+9979,-72.5,82.5,Canada,III,fixed
+9980,-70.0,82.5,Canada,III,fixed
+9981,-67.5,82.5,Canada,III,fixed
+9982,-65.0,82.5,Canada,III,fixed
+9983,-62.5,82.5,Canada,III,fixed
