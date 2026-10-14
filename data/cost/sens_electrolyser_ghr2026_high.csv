@@ -1,0 +1,16 @@
+scenario,ghr2026_high
+lcoh_median_mmbtu,70.6
+fig3_build_over_normal_med,2.38
+fig3_build_le_p98,22
+fig5_cov1_median_pct,12.6
+fig5_covered_3pct,"Brazil, Egypt, Australia"
+fig4a_justified,1: Ireland
+fig4a_margin_gt100,14
+fig4a_margin_gt200,7
+fig4a_median_extra_cost,625.0
+gt_sec_2025,0.017
+gt_cost_2025,0.0
+gt_sec_2030,0.092
+gt_cost_2030,0.008
+gt_sec_2050,0.966
+gt_cost_2050,0.305

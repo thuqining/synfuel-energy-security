@@ -1,0 +1,8 @@
+corridor,mode,km,case,source,transport,delivered,local,transport_range,saving,saving_pct,transport_share
+Iberia -> Germany,overland,2045,mid,65.81,3.21,69.03,77.56,2.1-5.4,8.53,11.0,4.65
+North Africa -> Italy/central Europe,overland,3138,mid,58.06,4.37,62.43,86.2,2.7-7.7,23.77,27.58,6.99
+Inner Mongolia/NW China -> North China Plain,overland,1159,mid,26.45,2.28,28.73,40.59,1.7-3.5,11.86,29.22,7.93
+Western Australia (Pilbara) -> Japan,sea,6928,mid,46.94,1.6,48.54,103.51,1.5-1.7,54.97,53.11,3.3
+Northern Chile -> Rotterdam (via Panama),sea,12925,mid,44.59,2.08,46.67,72.98,1.9-2.3,26.31,36.05,4.45
+Oman (Duqm) -> Rotterdam (via Suez),sea,10095,mid,55.58,1.85,57.44,72.98,1.7-2.0,15.54,21.3,3.23
+"Oman (Duqm) -> Rotterdam (via Cape, Red Sea closed)",sea,18964,mid,55.58,2.56,58.14,72.98,2.2-2.9,14.84,20.34,4.4

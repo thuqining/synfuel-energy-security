@@ -894,7 +894,7 @@ def palettes():
 
 def palette_finals():
     """the fused map, full size, in the two shortlisted alternative
-    palettes: Stevens dark violet (coauthors) and teal x pink (Qi)."""
+    palettes: Stevens dark violet and teal x pink."""
     import pandas as pd
     df = pd.read_csv(inputs.MAPS / "sd_map_classes.csv", index_col=0)
     picks = {"dkviolet": PALETTES["Stevens dark violet (blue x red)"],

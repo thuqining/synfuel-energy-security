@@ -2,7 +2,7 @@
 land_screen.py — country-level screened land availability for the
 renewable build, replacing the uniform 2%-of-land cap.
 
-Method (coauthor screening note, 2026-08-18): from four WDI series,
+Method (screening note, 2026-08-18): from four WDI series,
     s_eligible = max(0, (1 - p) * (1 - f - 0.90 a))
 with a = agricultural land share (2023, FAO), f = forest share (2023,
 FAO), p = terrestrial protected-area share (2025, Protected Planet).

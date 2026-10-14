@@ -1,0 +1,1161 @@
+cell_id,weather_year,matching,status,lcoh_usd_gj,cap_ez,h2sto,curtail,site,archetype,country
+3071,2006,hourly,ok,49.231186,3.239535,124.656772,0.167147,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2006,annual,ok,35.984971,2.900663,0.0,0.033358,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2006,hourly,ok,27.911341,2.557027,119.781816,0.137198,South Africa — N. Cape,production + demand,South Africa
+3536,2006,annual,ok,21.412103,2.80139,0.0,0.040472,South Africa — N. Cape,production + demand,South Africa
+3678,2006,hourly,ok,39.426179,3.554588,64.969155,0.364358,Namibia — Luderitz,low-cost production,Namibia
+3678,2006,annual,ok,23.202815,2.737505,0.0,4.5e-05,Namibia — Luderitz,low-cost production,Namibia
+3932,2006,hourly,ok,18.946812,3.684055,33.00577,0.224548,Chile — Antofagasta,low-cost production,Chile
+3932,2006,annual,ok,15.433648,3.659335,0.0,0.026791,Chile — Antofagasta,low-cost production,Chile
+4151,2006,hourly,ok,35.944133,3.299313,56.166505,0.169297,Australia — Pilbara,low-cost production,Australia
+4151,2006,annual,ok,30.862908,2.754257,0.0,0.084556,Australia — Pilbara,low-cost production,Australia
+4984,2006,hourly,ok,45.315627,3.887221,61.983555,0.123906,Kenya — Mombasa,emerging market,Kenya
+4984,2006,annual,ok,37.045819,3.206425,0.0,0.020357,Kenya — Mombasa,emerging market,Kenya
+5010,2006,hourly,ok,40.005006,5.30944,139.130449,0.122978,Indonesia — Java,island / security,Indonesia
+5010,2006,annual,ok,32.87554,5.334458,0.0,0.028488,Indonesia — Java,island / security,Indonesia
+5096,2006,hourly,ok,34.57226,4.129406,188.737492,0.193446,Brazil — Pecem,production + demand,Brazil
+5096,2006,annual,ok,17.013436,2.696348,0.0,0.008663,Brazil — Pecem,production + demand,Brazil
+5441,2006,hourly,ok,39.618214,5.241224,216.457714,0.079842,Singapore — Jurong,island / security,Malaysia
+5441,2006,annual,ok,32.121406,5.491709,0.0,0.028114,Singapore — Jurong,island / security,Malaysia
+6168,2006,hourly,ok,47.319377,5.107175,314.84573,0.193472,Philippines — Batangas,island / security,Philippines
+6168,2006,annual,ok,32.89529,5.565632,0.0,0.028942,Philippines — Batangas,island / security,Philippines
+6346,2006,hourly,ok,43.349617,3.196166,127.923641,0.119735,US — Hawaii (Big Island),island / security,United States of America
+6346,2006,annual,ok,37.544448,2.869523,0.0,0.087028,US — Hawaii (Big Island),island / security,United States of America
+6431,2006,hourly,ok,27.261392,4.01823,76.711249,0.113454,Oman — Duqm,low-cost production,Oman
+6431,2006,annual,ok,22.822665,3.734033,0.0,0.016065,Oman — Duqm,low-cost production,Oman
+6580,2006,hourly,ok,28.725115,3.528772,86.014743,0.191103,India — Gujarat,production + demand,India
+6580,2006,annual,ok,22.67903,2.716816,0.0,0.091808,India — Gujarat,production + demand,India
+6600,2006,hourly,ok,49.092067,4.571822,81.161393,0.147174,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2006,annual,ok,40.305513,3.154169,0.0,0.104921,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2006,hourly,ok,20.558703,3.473219,68.896488,0.246304,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2006,annual,ok,15.194991,2.906306,0.0,0.040115,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2006,hourly,ok,49.103039,3.296053,106.663761,0.155923,US — Houston,demand centre,United States of America
+6946,2006,annual,ok,42.329783,3.027968,0.0,0.077274,US — Houston,demand centre,United States of America
+7032,2006,hourly,ok,43.614976,8.447952,388.580389,0.183776,China — Yangtze Delta,demand centre,China
+7032,2006,annual,ok,29.521326,7.054736,0.0,0.026757,China — Yangtze Delta,demand centre,China
+7125,2006,hourly,ok,35.120586,4.972149,124.621954,0.313476,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2006,annual,ok,22.612316,4.255982,0.0,0.0259,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2006,hourly,ok,46.249427,3.721698,43.374417,0.353176,US — LA/Long Beach,demand centre,United States of America
+7225,2006,annual,ok,34.335901,3.126304,0.0,0.072153,US — LA/Long Beach,demand centre,United States of America
+7324,2006,hourly,ok,49.003797,2.681548,202.156579,0.136962,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2006,annual,ok,38.749079,3.071831,0.0,0.024023,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2006,hourly,ok,67.102407,2.944569,275.36953,0.120744,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2006,annual,ok,51.17607,3.988875,0.0,0.004048,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2006,hourly,ok,60.046402,3.618463,89.554127,0.358191,Spain — Huelva,carbon policy,Portugal
+7413,2006,annual,ok,40.981875,4.083904,0.0,0.1086,Spain — Huelva,carbon policy,Portugal
+7604,2006,hourly,ok,23.036535,3.307639,102.551826,0.329517,China — Inner Mongolia,low-cost production,China
+7604,2006,annual,ok,14.277981,3.634986,0.0,0.0,China — Inner Mongolia,low-cost production,China
+7725,2006,hourly,ok,27.028696,3.084197,184.373302,0.104372,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2006,annual,ok,18.515228,3.095904,0.0,0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2006,hourly,ok,53.63824,2.999615,309.005157,0.155792,UK — Humber,carbon policy,United Kingdom
+8280,2006,annual,ok,36.986852,3.338711,0.0,0.015945,UK — Humber,carbon policy,United Kingdom
+8282,2006,hourly,ok,42.34011,2.737168,213.292782,0.200573,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2006,annual,ok,30.983379,3.03443,0.0,0.014982,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2006,hourly,ok,51.695712,2.760542,347.110928,0.144744,Germany — Wilhelmshaven,demand centre,Germany
+8283,2006,annual,ok,38.633419,2.924541,0.0,0.056513,Germany — Wilhelmshaven,demand centre,Germany
+8431,2006,hourly,ok,42.867529,2.84853,104.712212,0.222708,Poland — Gdansk,carbon policy,Poland
+8431,2006,annual,ok,31.75712,2.949584,0.0,0.051461,Poland — Gdansk,carbon policy,Poland
+8991,2006,hourly,ok,42.6841,3.649809,283.422964,0.119705,Iceland — Reykjanes,island / security,Iceland
+8991,2006,annual,ok,21.376965,3.181979,0.0,-0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2007,hourly,ok,55.742653,3.215257,160.512047,0.259544,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2007,annual,ok,36.492389,2.871372,0.0,0.042243,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2007,hourly,ok,28.35554,2.856012,89.275403,0.200865,South Africa — N. Cape,production + demand,South Africa
+3536,2007,annual,ok,21.299666,3.030646,0.0,0.028538,South Africa — N. Cape,production + demand,South Africa
+3678,2007,hourly,ok,40.091823,3.26741,115.601932,0.34089,Namibia — Luderitz,low-cost production,Namibia
+3678,2007,annual,ok,23.164933,2.732093,0.0,0.000134,Namibia — Luderitz,low-cost production,Namibia
+3932,2007,hourly,ok,20.191853,3.805396,40.497938,0.271637,Chile — Antofagasta,low-cost production,Chile
+3932,2007,annual,ok,15.555869,3.705399,0.0,0.028598,Chile — Antofagasta,low-cost production,Chile
+4151,2007,hourly,ok,36.181414,3.373982,65.218499,0.225527,Australia — Pilbara,low-cost production,Australia
+4151,2007,annual,ok,28.846688,2.298374,0.0,0.128143,Australia — Pilbara,low-cost production,Australia
+4984,2007,hourly,ok,43.705936,3.633998,48.729283,0.150424,Kenya — Mombasa,emerging market,Kenya
+4984,2007,annual,ok,35.634115,3.119335,0.0,0.020693,Kenya — Mombasa,emerging market,Kenya
+5010,2007,hourly,ok,38.173709,5.432225,88.996792,0.08696,Indonesia — Java,island / security,Indonesia
+5010,2007,annual,ok,33.616904,5.402938,0.0,0.028717,Indonesia — Java,island / security,Indonesia
+5096,2007,hourly,ok,31.917266,4.178749,98.279559,0.275821,Brazil — Pecem,production + demand,Brazil
+5096,2007,annual,ok,15.150684,2.446287,0.0,0.004641,Brazil — Pecem,production + demand,Brazil
+5441,2007,hourly,ok,41.180515,5.573916,177.944049,0.115986,Singapore — Jurong,island / security,Malaysia
+5441,2007,annual,ok,33.545539,5.669477,0.0,0.029966,Singapore — Jurong,island / security,Malaysia
+6168,2007,hourly,ok,43.365882,6.03571,152.93295,0.199933,Philippines — Batangas,island / security,Philippines
+6168,2007,annual,ok,32.403982,5.4632,0.0,0.029374,Philippines — Batangas,island / security,Philippines
+6346,2007,hourly,ok,43.408769,3.268343,106.511116,0.170203,US — Hawaii (Big Island),island / security,United States of America
+6346,2007,annual,ok,37.666531,3.232432,0.0,0.071499,US — Hawaii (Big Island),island / security,United States of America
+6431,2007,hourly,ok,27.590327,4.065732,84.621616,0.111448,Oman — Duqm,low-cost production,Oman
+6431,2007,annual,ok,22.986691,4.018261,0.0,0.0163,Oman — Duqm,low-cost production,Oman
+6580,2007,hourly,ok,30.883254,3.796921,108.483067,0.236018,India — Gujarat,production + demand,India
+6580,2007,annual,ok,23.607482,3.117604,0.0,0.067413,India — Gujarat,production + demand,India
+6600,2007,hourly,ok,48.810194,4.184334,104.460302,0.16716,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2007,annual,ok,39.705735,3.12483,0.0,0.095615,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2007,hourly,ok,19.389129,3.217333,49.967104,0.220322,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2007,annual,ok,15.308757,3.196217,0.0,0.031819,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2007,hourly,ok,53.256356,3.45169,153.697832,0.123125,US — Houston,demand centre,United States of America
+6946,2007,annual,ok,46.099148,3.270549,0.0,0.072364,US — Houston,demand centre,United States of America
+7032,2007,hourly,ok,40.14857,7.146869,487.96932,0.058314,China — Yangtze Delta,demand centre,China
+7032,2007,annual,ok,28.528103,6.83403,0.0,0.02468,China — Yangtze Delta,demand centre,China
+7125,2007,hourly,ok,34.26524,4.93442,86.300468,0.352239,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2007,annual,ok,22.163177,4.199599,0.0,0.025544,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2007,hourly,ok,46.737743,3.887433,110.883088,0.331137,US — LA/Long Beach,demand centre,United States of America
+7225,2007,annual,ok,33.823945,3.135088,0.0,0.071983,US — LA/Long Beach,demand centre,United States of America
+7324,2007,hourly,ok,47.240676,2.725872,147.893236,0.11186,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2007,annual,ok,40.460515,2.893949,0.0,0.04801,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2007,hourly,ok,61.761163,2.895657,186.651706,0.115022,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2007,annual,ok,51.404749,3.682029,0.0,0.016072,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2007,hourly,ok,61.069191,3.976885,160.075236,0.380083,Spain — Huelva,carbon policy,Portugal
+7413,2007,annual,ok,39.533783,3.970151,0.0,0.104305,Spain — Huelva,carbon policy,Portugal
+7604,2007,hourly,ok,21.955665,3.199168,161.236722,0.145654,China — Inner Mongolia,low-cost production,China
+7604,2007,annual,ok,16.245875,3.801869,0.0,0.012935,China — Inner Mongolia,low-cost production,China
+7725,2007,hourly,ok,26.280562,2.702418,99.561195,0.161708,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2007,annual,ok,18.051261,3.018005,0.0,0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2007,hourly,ok,53.936872,2.746171,316.725526,0.161866,UK — Humber,carbon policy,United Kingdom
+8280,2007,annual,ok,37.471639,3.430235,0.0,0.004075,UK — Humber,carbon policy,United Kingdom
+8282,2007,hourly,ok,41.847026,2.595236,207.839032,0.245008,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2007,annual,ok,29.728796,3.051751,0.0,0.0,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2007,hourly,ok,50.367128,2.639875,226.609936,0.269547,Germany — Wilhelmshaven,demand centre,Germany
+8283,2007,annual,ok,37.408539,2.930039,0.0,0.05318,Germany — Wilhelmshaven,demand centre,Germany
+8431,2007,hourly,ok,37.021998,2.407238,170.174326,0.13541,Poland — Gdansk,carbon policy,Poland
+8431,2007,annual,ok,27.452706,2.72442,0.0,0.018732,Poland — Gdansk,carbon policy,Poland
+8991,2007,hourly,ok,37.163229,3.701853,191.091457,0.096575,Iceland — Reykjanes,island / security,Iceland
+8991,2007,annual,ok,22.213541,3.306796,0.0,0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2008,hourly,ok,50.05111,3.102079,161.12886,0.119487,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2008,annual,ok,36.766723,2.857551,0.0,0.037852,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2008,hourly,ok,29.796371,3.183905,56.317241,0.271804,South Africa — N. Cape,production + demand,South Africa
+3536,2008,annual,ok,21.826001,3.239785,0.0,0.026761,South Africa — N. Cape,production + demand,South Africa
+3678,2008,hourly,ok,40.374896,3.836974,60.572527,0.382809,Namibia — Luderitz,low-cost production,Namibia
+3678,2008,annual,ok,22.579396,2.66403,0.0,2.6e-05,Namibia — Luderitz,low-cost production,Namibia
+3932,2008,hourly,ok,18.933547,3.695855,26.785025,0.237695,Chile — Antofagasta,low-cost production,Chile
+3932,2008,annual,ok,15.409835,3.659977,0.0,0.027761,Chile — Antofagasta,low-cost production,Chile
+4151,2008,hourly,ok,38.072092,3.790261,77.293354,0.213481,Australia — Pilbara,low-cost production,Australia
+4151,2008,annual,ok,30.616922,2.735598,0.0,0.098916,Australia — Pilbara,low-cost production,Australia
+4984,2008,hourly,ok,43.066745,3.75491,41.350008,0.141287,Kenya — Mombasa,emerging market,Kenya
+4984,2008,annual,ok,35.840349,3.1295,0.0,0.02093,Kenya — Mombasa,emerging market,Kenya
+5010,2008,hourly,ok,40.261887,5.656659,63.157499,0.153036,Indonesia — Java,island / security,Indonesia
+5010,2008,annual,ok,34.109875,5.444402,0.0,0.026573,Indonesia — Java,island / security,Indonesia
+5096,2008,hourly,ok,35.9203,4.765112,122.35693,0.262533,Brazil — Pecem,production + demand,Brazil
+5096,2008,annual,ok,18.206004,2.886556,0.0,0.008861,Brazil — Pecem,production + demand,Brazil
+5441,2008,hourly,ok,37.908146,5.708655,106.292988,0.095461,Singapore — Jurong,island / security,Malaysia
+5441,2008,annual,ok,32.670256,5.560456,0.0,0.028159,Singapore — Jurong,island / security,Malaysia
+6168,2008,hourly,ok,42.850545,5.651972,157.81206,0.175726,Philippines — Batangas,island / security,Philippines
+6168,2008,annual,ok,33.256407,5.583187,0.0,0.027999,Philippines — Batangas,island / security,Philippines
+6346,2008,hourly,ok,44.651546,3.098984,136.784552,0.154101,US — Hawaii (Big Island),island / security,United States of America
+6346,2008,annual,ok,38.362694,3.489324,0.0,0.061163,US — Hawaii (Big Island),island / security,United States of America
+6431,2008,hourly,ok,25.54609,3.965735,55.048027,0.091063,Oman — Duqm,low-cost production,Oman
+6431,2008,annual,ok,22.273937,3.555881,0.0,0.01765,Oman — Duqm,low-cost production,Oman
+6580,2008,hourly,ok,27.867371,3.4796,72.583176,0.187915,India — Gujarat,production + demand,India
+6580,2008,annual,ok,22.254767,2.650941,0.0,0.088382,India — Gujarat,production + demand,India
+6600,2008,hourly,ok,47.479559,4.217303,98.147354,0.111641,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2008,annual,ok,39.861106,3.138859,0.0,0.091974,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2008,hourly,ok,20.570835,3.497101,57.004951,0.279334,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2008,annual,ok,14.940173,2.6705,0.0,0.046877,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2008,hourly,ok,47.006297,3.119831,84.793885,0.207322,US — Houston,demand centre,United States of America
+6946,2008,annual,ok,39.074621,2.880904,0.0,0.077785,US — Houston,demand centre,United States of America
+7032,2008,hourly,ok,38.634454,7.608669,338.168466,0.103816,China — Yangtze Delta,demand centre,China
+7032,2008,annual,ok,28.768026,6.922088,0.0,0.026621,China — Yangtze Delta,demand centre,China
+7125,2008,hourly,ok,38.096419,5.414755,94.167294,0.422476,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2008,annual,ok,22.178247,4.209316,0.0,0.025578,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2008,hourly,ok,50.300815,3.643568,127.370222,0.396246,US — LA/Long Beach,demand centre,United States of America
+7225,2008,annual,ok,33.950489,3.159548,0.0,0.075545,US — LA/Long Beach,demand centre,United States of America
+7324,2008,hourly,ok,54.344057,2.707926,314.919738,0.133163,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2008,annual,ok,41.041252,2.896583,0.0,0.053479,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2008,hourly,ok,68.058764,3.104321,232.869538,0.150204,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2008,annual,ok,52.846354,3.331248,0.0,0.028718,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2008,hourly,ok,58.647683,3.108556,256.124013,0.287359,Spain — Huelva,carbon policy,Portugal
+7413,2008,annual,ok,40.087143,4.00383,0.0,0.107398,Spain — Huelva,carbon policy,Portugal
+7604,2008,hourly,ok,22.814968,2.818037,227.492792,0.196952,China — Inner Mongolia,low-cost production,China
+7604,2008,annual,ok,14.558023,3.706531,0.0,-0.0,China — Inner Mongolia,low-cost production,China
+7725,2008,hourly,ok,27.671195,3.232556,184.888769,0.070224,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2008,annual,ok,20.037539,3.351497,0.0,0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2008,hourly,ok,46.703499,2.717276,204.059648,0.129448,UK — Humber,carbon policy,United Kingdom
+8280,2008,annual,ok,33.956173,3.108805,0.0,0.003841,UK — Humber,carbon policy,United Kingdom
+8282,2008,hourly,ok,38.181478,2.604141,176.140674,0.133605,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2008,annual,ok,29.21137,2.998546,0.0,0.0,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2008,hourly,ok,46.319986,2.73659,187.723532,0.158898,Germany — Wilhelmshaven,demand centre,Germany
+8283,2008,annual,ok,37.408951,2.890921,0.0,0.050315,Germany — Wilhelmshaven,demand centre,Germany
+8431,2008,hourly,ok,40.959978,2.589228,234.19161,0.166084,Poland — Gdansk,carbon policy,Poland
+8431,2008,annual,ok,27.870014,2.756587,0.0,0.021294,Poland — Gdansk,carbon policy,Poland
+8991,2008,hourly,ok,37.073363,3.60886,175.206474,0.098108,Iceland — Reykjanes,island / security,Iceland
+8991,2008,annual,ok,22.078667,3.286673,0.0,-0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2009,hourly,ok,46.755514,3.116617,111.02043,0.132595,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2009,annual,ok,35.946516,2.716217,0.0,0.046979,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2009,hourly,ok,31.241835,3.097653,143.245021,0.22477,South Africa — N. Cape,production + demand,South Africa
+3536,2009,annual,ok,21.734677,3.095375,0.0,0.029274,South Africa — N. Cape,production + demand,South Africa
+3678,2009,hourly,ok,40.860449,3.654734,81.073001,0.360247,Namibia — Luderitz,low-cost production,Namibia
+3678,2009,annual,ok,25.366113,2.928783,0.0,0.007352,Namibia — Luderitz,low-cost production,Namibia
+3932,2009,hourly,ok,19.73521,3.677094,55.370616,0.235477,Chile — Antofagasta,low-cost production,Chile
+3932,2009,annual,ok,15.382262,3.665466,0.0,0.026459,Chile — Antofagasta,low-cost production,Chile
+4151,2009,hourly,ok,37.419889,2.580434,89.265433,0.291403,Australia — Pilbara,low-cost production,Australia
+4151,2009,annual,ok,29.372627,2.339221,0.0,0.120369,Australia — Pilbara,low-cost production,Australia
+4984,2009,hourly,ok,42.174831,3.601704,61.448218,0.092501,Kenya — Mombasa,emerging market,Kenya
+4984,2009,annual,ok,35.858945,3.42896,0.0,0.015047,Kenya — Mombasa,emerging market,Kenya
+5010,2009,hourly,ok,37.843346,5.425329,68.752217,0.109496,Indonesia — Java,island / security,Indonesia
+5010,2009,annual,ok,33.252456,5.388216,0.0,0.026093,Indonesia — Java,island / security,Indonesia
+5096,2009,hourly,ok,38.150695,5.184625,94.700341,0.309685,Brazil — Pecem,production + demand,Brazil
+5096,2009,annual,ok,19.67869,3.06487,0.0,0.013023,Brazil — Pecem,production + demand,Brazil
+5441,2009,hourly,ok,39.545661,5.767114,118.227299,0.167343,Singapore — Jurong,island / security,Malaysia
+5441,2009,annual,ok,31.579679,5.429246,0.0,0.027587,Singapore — Jurong,island / security,Malaysia
+6168,2009,hourly,ok,44.545759,5.536531,122.618004,0.152166,Philippines — Batangas,island / security,Philippines
+6168,2009,annual,ok,34.469787,5.77443,0.0,0.029059,Philippines — Batangas,island / security,Philippines
+6346,2009,hourly,ok,46.288031,3.594609,121.431922,0.172148,US — Hawaii (Big Island),island / security,United States of America
+6346,2009,annual,ok,39.312759,3.288885,0.0,0.071466,US — Hawaii (Big Island),island / security,United States of America
+6431,2009,hourly,ok,27.372904,4.149907,58.026509,0.156381,Oman — Duqm,low-cost production,Oman
+6431,2009,annual,ok,22.565032,4.009708,0.0,0.016266,Oman — Duqm,low-cost production,Oman
+6580,2009,hourly,ok,27.727953,3.514963,72.608981,0.17743,India — Gujarat,production + demand,India
+6580,2009,annual,ok,22.669656,2.865164,0.0,0.075901,India — Gujarat,production + demand,India
+6600,2009,hourly,ok,46.44286,4.503277,75.97825,0.119895,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2009,annual,ok,39.173162,3.093693,0.0,0.104841,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2009,hourly,ok,19.912165,4.086445,28.440279,0.257931,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2009,annual,ok,15.662979,3.518147,0.0,0.028693,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2009,hourly,ok,52.461294,3.27393,145.987299,0.236826,US — Houston,demand centre,United States of America
+6946,2009,annual,ok,41.140991,2.908213,0.0,0.091948,US — Houston,demand centre,United States of America
+7032,2009,hourly,ok,40.653724,8.578798,272.010855,0.174987,China — Yangtze Delta,demand centre,China
+7032,2009,annual,ok,29.262481,7.087028,0.0,0.025089,China — Yangtze Delta,demand centre,China
+7125,2009,hourly,ok,41.112089,5.038268,126.308833,0.429417,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2009,annual,ok,22.542318,4.255253,0.0,0.025904,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2009,hourly,ok,49.530875,4.12114,136.706407,0.353396,US — LA/Long Beach,demand centre,United States of America
+7225,2009,annual,ok,34.133796,3.114876,0.0,0.078926,US — LA/Long Beach,demand centre,United States of America
+7324,2009,hourly,ok,48.573372,2.662837,207.139166,0.130644,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2009,annual,ok,38.540963,3.032974,0.0,0.025908,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2009,hourly,ok,59.253367,3.010876,131.273446,0.139507,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2009,annual,ok,47.116666,3.656859,0.0,0.006418,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2009,hourly,ok,56.398876,2.974719,190.535331,0.275746,Spain — Huelva,carbon policy,Portugal
+7413,2009,annual,ok,39.747046,4.038525,0.0,0.095781,Spain — Huelva,carbon policy,Portugal
+7604,2009,hourly,ok,19.657954,2.799877,114.61465,0.184429,China — Inner Mongolia,low-cost production,China
+7604,2009,annual,ok,14.136857,3.598931,0.0,0.0,China — Inner Mongolia,low-cost production,China
+7725,2009,hourly,ok,26.36608,2.496631,187.463107,0.073687,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2009,annual,ok,17.860236,2.985933,0.0,-0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2009,hourly,ok,48.623393,2.696967,170.609921,0.152474,UK — Humber,carbon policy,United Kingdom
+8280,2009,annual,ok,38.362633,3.316839,0.0,0.047252,UK — Humber,carbon policy,United Kingdom
+8282,2009,hourly,ok,37.532529,2.627424,129.864223,0.121379,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2009,annual,ok,30.902466,3.031516,0.0,0.041277,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2009,hourly,ok,44.87693,2.753701,121.907566,0.147339,Germany — Wilhelmshaven,demand centre,Germany
+8283,2009,annual,ok,39.424258,2.946188,0.0,0.065942,Germany — Wilhelmshaven,demand centre,Germany
+8431,2009,hourly,ok,40.690268,2.90183,209.633413,0.144652,Poland — Gdansk,carbon policy,Poland
+8431,2009,annual,ok,31.10803,3.014084,0.0,0.039238,Poland — Gdansk,carbon policy,Poland
+8991,2009,hourly,ok,41.371043,3.153853,312.8653,0.111997,Iceland — Reykjanes,island / security,Iceland
+8991,2009,annual,ok,22.563275,3.358976,0.0,0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2010,hourly,ok,46.142778,2.819301,64.87267,0.212541,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2010,annual,ok,35.425971,2.829702,0.0,0.032376,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2010,hourly,ok,27.934725,2.792936,75.957194,0.184796,South Africa — N. Cape,production + demand,South Africa
+3536,2010,annual,ok,21.367532,3.020216,0.0,0.028999,South Africa — N. Cape,production + demand,South Africa
+3678,2010,hourly,ok,37.23713,3.667496,49.905591,0.311354,Namibia — Luderitz,low-cost production,Namibia
+3678,2010,annual,ok,24.691101,2.845344,0.0,0.006632,Namibia — Luderitz,low-cost production,Namibia
+3932,2010,hourly,ok,19.784569,3.841435,26.461119,0.284205,Chile — Antofagasta,low-cost production,Chile
+3932,2010,annual,ok,15.288049,3.669272,0.0,0.025805,Chile — Antofagasta,low-cost production,Chile
+4151,2010,hourly,ok,36.060419,3.320374,47.801535,0.238209,Australia — Pilbara,low-cost production,Australia
+4151,2010,annual,ok,28.69151,2.295275,0.0,0.129426,Australia — Pilbara,low-cost production,Australia
+4984,2010,hourly,ok,46.117751,3.812171,47.315607,0.197789,Kenya — Mombasa,emerging market,Kenya
+4984,2010,annual,ok,35.905929,3.132824,0.0,0.023098,Kenya — Mombasa,emerging market,Kenya
+5010,2010,hourly,ok,42.461911,5.708824,82.907092,0.13659,Indonesia — Java,island / security,Indonesia
+5010,2010,annual,ok,36.458835,5.737546,0.0,0.02935,Indonesia — Java,island / security,Indonesia
+5096,2010,hourly,ok,28.163252,4.138805,63.939745,0.1423,Brazil — Pecem,production + demand,Brazil
+5096,2010,annual,ok,15.958,2.545099,0.0,0.008444,Brazil — Pecem,production + demand,Brazil
+5441,2010,hourly,ok,38.073452,5.605332,112.442041,0.120627,Singapore — Jurong,island / security,Malaysia
+5441,2010,annual,ok,32.048803,5.534088,0.0,0.025848,Singapore — Jurong,island / security,Malaysia
+6168,2010,hourly,ok,39.005296,5.489932,101.884393,0.168466,Philippines — Batangas,island / security,Philippines
+6168,2010,annual,ok,31.658178,5.3648,0.0,0.029319,Philippines — Batangas,island / security,Philippines
+6346,2010,hourly,ok,42.224281,3.363349,64.214009,0.155846,US — Hawaii (Big Island),island / security,United States of America
+6346,2010,annual,ok,37.482621,3.705408,0.0,0.066476,US — Hawaii (Big Island),island / security,United States of America
+6431,2010,hourly,ok,25.446841,3.912253,42.474412,0.083369,Oman — Duqm,low-cost production,Oman
+6431,2010,annual,ok,22.582534,3.984667,0.0,0.016618,Oman — Duqm,low-cost production,Oman
+6580,2010,hourly,ok,31.662485,3.496879,100.13608,0.25596,India — Gujarat,production + demand,India
+6580,2010,annual,ok,24.05304,3.114596,0.0,0.08166,India — Gujarat,production + demand,India
+6600,2010,hourly,ok,47.720382,4.019424,117.519822,0.147257,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2010,annual,ok,39.612525,3.123856,0.0,0.100414,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2010,hourly,ok,20.671269,4.291161,36.573402,0.276214,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2010,annual,ok,15.640256,3.763492,0.0,0.031723,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2010,hourly,ok,46.345556,3.294821,101.356792,0.128084,US — Houston,demand centre,United States of America
+6946,2010,annual,ok,40.600738,2.95569,0.0,0.080182,US — Houston,demand centre,United States of America
+7032,2010,hourly,ok,39.974197,7.541067,406.925916,0.054234,China — Yangtze Delta,demand centre,China
+7032,2010,annual,ok,30.229191,7.216653,0.0,0.028175,China — Yangtze Delta,demand centre,China
+7125,2010,hourly,ok,38.690657,4.855961,54.39395,0.375922,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2010,annual,ok,23.562152,4.411228,0.0,0.027773,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2010,hourly,ok,54.044942,3.672999,82.347034,0.47143,US — LA/Long Beach,demand centre,United States of America
+7225,2010,annual,ok,34.317776,3.039495,0.0,0.090527,US — LA/Long Beach,demand centre,United States of America
+7324,2010,hourly,ok,48.309102,2.825251,98.964758,0.205239,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2010,annual,ok,38.009714,3.141953,0.0,0.013602,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2010,hourly,ok,59.044197,2.897685,164.117512,0.163498,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2010,annual,ok,44.083107,3.453839,0.0,0.001071,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2010,hourly,ok,54.281262,2.903471,145.983952,0.199171,Spain — Huelva,carbon policy,Portugal
+7413,2010,annual,ok,41.954095,3.633393,0.0,0.078443,Spain — Huelva,carbon policy,Portugal
+7604,2010,hourly,ok,20.983969,3.241607,103.987639,0.219201,China — Inner Mongolia,low-cost production,China
+7604,2010,annual,ok,13.667268,3.47896,0.0,0.0,China — Inner Mongolia,low-cost production,China
+7725,2010,hourly,ok,28.332125,2.724385,147.724534,0.178599,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2010,annual,ok,18.36482,3.070651,0.0,0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2010,hourly,ok,51.437613,2.943787,152.495003,0.146522,UK — Humber,carbon policy,United Kingdom
+8280,2010,annual,ok,42.010192,3.237175,0.0,0.097093,UK — Humber,carbon policy,United Kingdom
+8282,2010,hourly,ok,44.184988,3.043246,131.256468,0.196258,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2010,annual,ok,34.908065,2.939009,0.0,0.047214,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2010,hourly,ok,51.995489,3.16514,123.468625,0.202263,Germany — Wilhelmshaven,demand centre,Germany
+8283,2010,annual,ok,43.129174,3.08069,0.0,0.078247,Germany — Wilhelmshaven,demand centre,Germany
+8431,2010,hourly,ok,40.584847,2.652181,151.438525,0.187427,Poland — Gdansk,carbon policy,Poland
+8431,2010,annual,ok,30.959202,3.049693,0.0,0.025198,Poland — Gdansk,carbon policy,Poland
+8991,2010,hourly,ok,43.420625,3.660808,264.646048,0.159409,Iceland — Reykjanes,island / security,Iceland
+8991,2010,annual,ok,26.245685,3.908391,0.0,-0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2011,hourly,ok,49.193617,4.238168,98.107724,0.182624,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2011,annual,ok,34.994924,2.922656,0.0,0.028451,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2011,hourly,ok,29.98896,2.920284,84.298169,0.239058,South Africa — N. Cape,production + demand,South Africa
+3536,2011,annual,ok,22.074487,3.284102,0.0,0.0294,South Africa — N. Cape,production + demand,South Africa
+3678,2011,hourly,ok,39.419212,3.763998,66.789951,0.342903,Namibia — Luderitz,low-cost production,Namibia
+3678,2011,annual,ok,24.102686,2.842572,0.0,0.000178,Namibia — Luderitz,low-cost production,Namibia
+3932,2011,hourly,ok,20.59248,3.815239,46.586654,0.282877,Chile — Antofagasta,low-cost production,Chile
+3932,2011,annual,ok,15.535095,3.703,0.0,0.027391,Chile — Antofagasta,low-cost production,Chile
+4151,2011,hourly,ok,38.097192,3.409479,92.751044,0.220312,Australia — Pilbara,low-cost production,Australia
+4151,2011,annual,ok,29.927513,2.439235,0.0,0.115893,Australia — Pilbara,low-cost production,Australia
+4984,2011,hourly,ok,40.962071,3.813179,40.954964,0.095314,Kenya — Mombasa,emerging market,Kenya
+4984,2011,annual,ok,35.963077,3.631889,0.0,0.016433,Kenya — Mombasa,emerging market,Kenya
+5010,2011,hourly,ok,38.969602,5.457424,85.025641,0.10631,Indonesia — Java,island / security,Indonesia
+5010,2011,annual,ok,33.928662,5.418164,0.0,0.028174,Indonesia — Java,island / security,Indonesia
+5096,2011,hourly,ok,35.789647,4.392457,182.461221,0.196372,Brazil — Pecem,production + demand,Brazil
+5096,2011,annual,ok,18.022343,2.866744,0.0,0.008494,Brazil — Pecem,production + demand,Brazil
+5441,2011,hourly,ok,41.447713,5.728754,174.361897,0.144091,Singapore — Jurong,island / security,Malaysia
+5441,2011,annual,ok,32.738516,5.596895,0.0,0.028847,Singapore — Jurong,island / security,Malaysia
+6168,2011,hourly,ok,44.899024,6.179216,114.132133,0.21491,Philippines — Batangas,island / security,Philippines
+6168,2011,annual,ok,34.599565,5.746104,0.0,0.03156,Philippines — Batangas,island / security,Philippines
+6346,2011,hourly,ok,49.12038,3.558829,114.821435,0.249666,US — Hawaii (Big Island),island / security,United States of America
+6346,2011,annual,ok,39.412127,3.559703,0.0,0.069808,US — Hawaii (Big Island),island / security,United States of America
+6431,2011,hourly,ok,30.201715,4.104699,157.865216,0.123175,Oman — Duqm,low-cost production,Oman
+6431,2011,annual,ok,22.692855,3.554611,0.0,0.018775,Oman — Duqm,low-cost production,Oman
+6580,2011,hourly,ok,31.112591,3.459527,96.307999,0.270166,India — Gujarat,production + demand,India
+6580,2011,annual,ok,22.855059,2.722399,0.0,0.088385,India — Gujarat,production + demand,India
+6600,2011,hourly,ok,53.243346,4.303734,209.419285,0.180655,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2011,annual,ok,38.654416,3.066971,0.0,0.089051,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2011,hourly,ok,20.792765,4.074899,51.967656,0.279135,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2011,annual,ok,15.033788,2.911069,0.0,0.039068,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2011,hourly,ok,46.535568,2.455739,160.493608,0.244226,US — Houston,demand centre,United States of America
+6946,2011,annual,ok,37.943288,2.731246,0.0,0.106952,US — Houston,demand centre,United States of America
+7032,2011,hourly,ok,38.012612,7.274637,270.670016,0.157554,China — Yangtze Delta,demand centre,China
+7032,2011,annual,ok,28.504553,6.886077,0.0,0.02841,China — Yangtze Delta,demand centre,China
+7125,2011,hourly,ok,33.207568,4.70249,96.530852,0.30093,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2011,annual,ok,22.632858,4.250318,0.0,0.024336,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2011,hourly,ok,48.746827,4.199335,118.984315,0.356803,US — LA/Long Beach,demand centre,United States of America
+7225,2011,annual,ok,34.127097,3.200031,0.0,0.081461,US — LA/Long Beach,demand centre,United States of America
+7324,2011,hourly,ok,48.510766,2.804844,130.824718,0.203146,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2011,annual,ok,37.261399,3.094382,0.0,0.017702,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2011,hourly,ok,61.114737,3.108257,167.569389,0.160464,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2011,annual,ok,47.495201,3.720131,0.0,0.001255,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2011,hourly,ok,62.497617,4.03399,205.648445,0.388578,Spain — Huelva,carbon policy,Portugal
+7413,2011,annual,ok,39.784679,4.022908,0.0,0.095101,Spain — Huelva,carbon policy,Portugal
+7604,2011,hourly,ok,24.495955,3.977705,236.943292,0.179294,China — Inner Mongolia,low-cost production,China
+7604,2011,annual,ok,16.498902,3.359759,0.0,0.035501,China — Inner Mongolia,low-cost production,China
+7725,2011,hourly,ok,29.695669,3.019214,176.469139,0.138274,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2011,annual,ok,20.267759,3.390151,0.0,0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2011,hourly,ok,51.490843,2.8779,217.504755,0.20081,UK — Humber,carbon policy,United Kingdom
+8280,2011,annual,ok,35.862548,3.172111,0.0,0.031665,UK — Humber,carbon policy,United Kingdom
+8282,2011,hourly,ok,39.180202,2.54797,189.065925,0.12539,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2011,annual,ok,30.241109,3.10443,0.0,0.0,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2011,hourly,ok,47.080111,2.690697,220.845346,0.163726,Germany — Wilhelmshaven,demand centre,Germany
+8283,2011,annual,ok,37.650548,2.886043,0.0,0.05115,Germany — Wilhelmshaven,demand centre,Germany
+8431,2011,hourly,ok,40.653906,2.431213,292.514094,0.172799,Poland — Gdansk,carbon policy,Poland
+8431,2011,annual,ok,27.451966,2.714954,0.0,0.021578,Poland — Gdansk,carbon policy,Poland
+8991,2011,hourly,ok,35.99679,3.378793,166.031375,0.207514,Iceland — Reykjanes,island / security,Iceland
+8991,2011,annual,ok,21.418625,3.188195,0.0,0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2012,hourly,ok,51.985273,2.95747,178.403266,0.149493,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2012,annual,ok,36.883495,2.928843,0.0,0.038211,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2012,hourly,ok,30.649136,2.553005,146.730313,0.167023,South Africa — N. Cape,production + demand,South Africa
+3536,2012,annual,ok,21.795379,3.202522,0.0,0.027899,South Africa — N. Cape,production + demand,South Africa
+3678,2012,hourly,ok,37.751856,3.053267,153.232916,0.283106,Namibia — Luderitz,low-cost production,Namibia
+3678,2012,annual,ok,22.227438,2.621894,0.0,7.9e-05,Namibia — Luderitz,low-cost production,Namibia
+3932,2012,hourly,ok,19.572378,3.651424,54.002328,0.21162,Chile — Antofagasta,low-cost production,Chile
+3932,2012,annual,ok,15.722259,3.706656,0.0,0.03069,Chile — Antofagasta,low-cost production,Chile
+4151,2012,hourly,ok,35.504795,3.281844,73.80961,0.161104,Australia — Pilbara,low-cost production,Australia
+4151,2012,annual,ok,30.52912,2.728031,0.0,0.094667,Australia — Pilbara,low-cost production,Australia
+4984,2012,hourly,ok,41.139606,3.57451,62.444115,0.069381,Kenya — Mombasa,emerging market,Kenya
+4984,2012,annual,ok,34.849796,2.879218,0.0,0.028948,Kenya — Mombasa,emerging market,Kenya
+5010,2012,hourly,ok,39.652371,5.785313,50.693707,0.16373,Indonesia — Java,island / security,Indonesia
+5010,2012,annual,ok,33.406793,5.402394,0.0,0.028141,Indonesia — Java,island / security,Indonesia
+5096,2012,hourly,ok,28.15635,3.950265,54.192313,0.250712,Brazil — Pecem,production + demand,Brazil
+5096,2012,annual,ok,13.694267,2.217096,0.0,0.003623,Brazil — Pecem,production + demand,Brazil
+5441,2012,hourly,ok,39.739653,5.853454,93.763411,0.170914,Singapore — Jurong,island / security,Malaysia
+5441,2012,annual,ok,32.292187,5.513446,0.0,0.027206,Singapore — Jurong,island / security,Malaysia
+6168,2012,hourly,ok,45.787417,5.762001,77.96936,0.198248,Philippines — Batangas,island / security,Philippines
+6168,2012,annual,ok,34.045497,5.690712,0.0,0.029168,Philippines — Batangas,island / security,Philippines
+6346,2012,hourly,ok,43.231771,3.136714,150.55019,0.135613,US — Hawaii (Big Island),island / security,United States of America
+6346,2012,annual,ok,37.131504,3.107062,0.0,0.072178,US — Hawaii (Big Island),island / security,United States of America
+6431,2012,hourly,ok,27.441464,4.156587,65.181352,0.147562,Oman — Duqm,low-cost production,Oman
+6431,2012,annual,ok,22.408264,3.302782,0.0,0.023384,Oman — Duqm,low-cost production,Oman
+6580,2012,hourly,ok,31.339278,3.401814,142.526752,0.245273,India — Gujarat,production + demand,India
+6580,2012,annual,ok,22.444852,2.76318,0.0,0.081279,India — Gujarat,production + demand,India
+6600,2012,hourly,ok,50.110326,3.896272,156.782965,0.178374,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2012,annual,ok,39.511159,3.121691,0.0,0.0978,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2012,hourly,ok,20.628337,3.963756,46.179367,0.266683,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2012,annual,ok,15.689014,3.584784,0.0,0.030058,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2012,hourly,ok,49.065162,3.025326,122.892932,0.143684,US — Houston,demand centre,United States of America
+6946,2012,annual,ok,42.79138,3.072746,0.0,0.070145,US — Houston,demand centre,United States of America
+7032,2012,hourly,ok,46.976956,9.070562,406.435799,0.210355,China — Yangtze Delta,demand centre,China
+7032,2012,annual,ok,31.108451,7.386348,0.0,0.029805,China — Yangtze Delta,demand centre,China
+7125,2012,hourly,ok,37.799003,5.107537,140.482388,0.386789,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2012,annual,ok,21.933031,4.165888,0.0,0.021673,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2012,hourly,ok,46.884101,3.576373,65.894294,0.37136,US — LA/Long Beach,demand centre,United States of America
+7225,2012,annual,ok,33.810518,3.015279,0.0,0.084317,US — LA/Long Beach,demand centre,United States of America
+7324,2012,hourly,ok,47.428695,2.63576,157.088033,0.148696,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2012,annual,ok,38.566611,2.968544,0.0,0.031268,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2012,hourly,ok,64.412982,3.464665,187.268241,0.068121,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2012,annual,ok,50.631603,3.919263,0.0,0.005092,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2012,hourly,ok,62.491048,3.72151,234.384957,0.382635,Spain — Huelva,carbon policy,Portugal
+7413,2012,annual,ok,39.029516,3.991493,0.0,0.090777,Spain — Huelva,carbon policy,Portugal
+7604,2012,hourly,ok,20.434461,2.902633,199.085516,0.103003,China — Inner Mongolia,low-cost production,China
+7604,2012,annual,ok,14.954717,3.807879,0.0,0.0,China — Inner Mongolia,low-cost production,China
+7725,2012,hourly,ok,26.203759,2.701967,118.353247,0.139225,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2012,annual,ok,18.537663,3.099671,0.0,0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2012,hourly,ok,51.505475,3.018183,182.083421,0.175281,UK — Humber,carbon policy,United Kingdom
+8280,2012,annual,ok,37.810554,3.299749,0.0,0.041136,UK — Humber,carbon policy,United Kingdom
+8282,2012,hourly,ok,40.017984,2.595743,178.051195,0.119676,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2012,annual,ok,31.893477,3.009436,0.0,0.030888,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2012,hourly,ok,46.575863,2.87342,168.42058,0.121243,Germany — Wilhelmshaven,demand centre,Germany
+8283,2012,annual,ok,39.083626,2.927386,0.0,0.054313,Germany — Wilhelmshaven,demand centre,Germany
+8431,2012,hourly,ok,39.709398,2.754418,143.37749,0.239055,Poland — Gdansk,carbon policy,Poland
+8431,2012,annual,ok,29.553775,2.867099,0.0,0.039047,Poland — Gdansk,carbon policy,Poland
+8991,2012,hourly,ok,39.25878,3.75661,211.101554,0.054347,Iceland — Reykjanes,island / security,Iceland
+8991,2012,annual,ok,25.553546,3.805124,0.0,0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2013,hourly,ok,46.496229,3.465247,103.341015,0.142292,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2013,annual,ok,35.241383,2.890072,0.0,0.033597,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2013,hourly,ok,29.962439,2.867674,76.76654,0.272592,South Africa — N. Cape,production + demand,South Africa
+3536,2013,annual,ok,21.183024,2.9969,0.0,0.029652,South Africa — N. Cape,production + demand,South Africa
+3678,2013,hourly,ok,39.189205,3.446037,73.089717,0.365765,Namibia — Luderitz,low-cost production,Namibia
+3678,2013,annual,ok,23.0471,2.71914,0.0,4.4e-05,Namibia — Luderitz,low-cost production,Namibia
+3932,2013,hourly,ok,19.914765,3.829354,41.93607,0.257352,Chile — Antofagasta,low-cost production,Chile
+3932,2013,annual,ok,15.41663,3.682306,0.0,0.026974,Chile — Antofagasta,low-cost production,Chile
+4151,2013,hourly,ok,35.078029,3.101935,60.366272,0.185196,Australia — Pilbara,low-cost production,Australia
+4151,2013,annual,ok,29.150835,2.292912,0.0,0.116032,Australia — Pilbara,low-cost production,Australia
+4984,2013,hourly,ok,44.428995,3.901113,64.512575,0.130816,Kenya — Mombasa,emerging market,Kenya
+4984,2013,annual,ok,35.906785,3.259227,0.0,0.0174,Kenya — Mombasa,emerging market,Kenya
+5010,2013,hourly,ok,44.512458,5.752182,129.619522,0.163139,Indonesia — Java,island / security,Indonesia
+5010,2013,annual,ok,35.850106,5.664006,0.0,0.028187,Indonesia — Java,island / security,Indonesia
+5096,2013,hourly,ok,28.001645,3.461888,70.815907,0.277819,Brazil — Pecem,production + demand,Brazil
+5096,2013,annual,ok,14.780505,2.376046,0.0,0.005984,Brazil — Pecem,production + demand,Brazil
+5441,2013,hourly,ok,39.301528,5.67477,122.059588,0.132979,Singapore — Jurong,island / security,Malaysia
+5441,2013,annual,ok,32.507957,5.544706,0.0,0.027243,Singapore — Jurong,island / security,Malaysia
+6168,2013,hourly,ok,45.576803,6.123556,157.291114,0.231634,Philippines — Batangas,island / security,Philippines
+6168,2013,annual,ok,33.201856,5.558996,0.0,0.030486,Philippines — Batangas,island / security,Philippines
+6346,2013,hourly,ok,46.025282,3.634604,102.032584,0.193058,US — Hawaii (Big Island),island / security,United States of America
+6346,2013,annual,ok,39.163581,3.848607,0.0,0.074505,US — Hawaii (Big Island),island / security,United States of America
+6431,2013,hourly,ok,26.484667,4.054249,45.80067,0.114278,Oman — Duqm,low-cost production,Oman
+6431,2013,annual,ok,22.986717,4.059267,0.0,0.018131,Oman — Duqm,low-cost production,Oman
+6580,2013,hourly,ok,28.878889,3.589785,70.13432,0.194473,India — Gujarat,production + demand,India
+6580,2013,annual,ok,23.070065,2.731823,0.0,0.078385,India — Gujarat,production + demand,India
+6600,2013,hourly,ok,49.239822,4.048608,176.801865,0.152471,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2013,annual,ok,37.668591,2.994728,0.0,0.091947,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2013,hourly,ok,21.613906,4.093337,67.373798,0.283852,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2013,annual,ok,15.41355,3.176048,0.0,0.036493,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2013,hourly,ok,51.220415,3.162883,130.638198,0.193862,US — Houston,demand centre,United States of America
+6946,2013,annual,ok,42.473949,3.029077,0.0,0.079481,US — Houston,demand centre,United States of America
+7032,2013,hourly,ok,36.570964,6.979866,355.722003,0.044319,China — Yangtze Delta,demand centre,China
+7032,2013,annual,ok,28.243679,6.796218,0.0,0.023565,China — Yangtze Delta,demand centre,China
+7125,2013,hourly,ok,33.685953,4.878931,79.688069,0.343778,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2013,annual,ok,22.237252,4.183129,0.0,0.029447,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2013,hourly,ok,48.811516,4.028687,104.398126,0.363353,US — LA/Long Beach,demand centre,United States of America
+7225,2013,annual,ok,34.101451,3.176076,0.0,0.07268,US — LA/Long Beach,demand centre,United States of America
+7324,2013,hourly,ok,48.161454,2.544335,241.298592,0.110774,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2013,annual,ok,37.988673,2.952565,0.0,0.028382,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2013,hourly,ok,62.347676,3.051199,176.03381,0.139473,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2013,annual,ok,48.672312,3.813077,0.0,0.001185,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2013,hourly,ok,56.122317,3.187438,181.823203,0.292755,Spain — Huelva,carbon policy,Portugal
+7413,2013,annual,ok,39.768725,3.997896,0.0,0.106159,Spain — Huelva,carbon policy,Portugal
+7604,2013,hourly,ok,20.053964,3.352607,177.176296,0.117532,China — Inner Mongolia,low-cost production,China
+7604,2013,annual,ok,14.52913,3.69915,0.0,0.0,China — Inner Mongolia,low-cost production,China
+7725,2013,hourly,ok,26.679883,2.86293,134.054971,0.078965,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2013,annual,ok,18.180461,3.039698,0.0,0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2013,hourly,ok,51.173177,2.779382,199.136098,0.198435,UK — Humber,carbon policy,United Kingdom
+8280,2013,annual,ok,37.828648,3.364352,0.0,0.027966,UK — Humber,carbon policy,United Kingdom
+8282,2013,hourly,ok,41.963159,2.90228,114.384367,0.234788,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2013,annual,ok,31.420983,2.933955,0.0,0.029596,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2013,hourly,ok,50.354237,3.002368,204.212243,0.14544,Germany — Wilhelmshaven,demand centre,Germany
+8283,2013,annual,ok,40.521377,2.998799,0.0,0.067529,Germany — Wilhelmshaven,demand centre,Germany
+8431,2013,hourly,ok,41.790276,2.620978,172.97929,0.205689,Poland — Gdansk,carbon policy,Poland
+8431,2013,annual,ok,30.68712,2.988112,0.0,0.034792,Poland — Gdansk,carbon policy,Poland
+8991,2013,hourly,ok,38.997944,3.634679,193.197459,0.137534,Iceland — Reykjanes,island / security,Iceland
+8991,2013,annual,ok,22.908826,3.410532,0.0,0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2014,hourly,ok,56.654287,3.024292,242.862653,0.176454,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2014,annual,ok,35.972466,2.936229,0.0,0.028376,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2014,hourly,ok,27.228295,2.930607,66.016552,0.188482,South Africa — N. Cape,production + demand,South Africa
+3536,2014,annual,ok,21.231394,2.952251,0.0,0.031377,South Africa — N. Cape,production + demand,South Africa
+3678,2014,hourly,ok,40.056775,4.207421,46.464398,0.361057,Namibia — Luderitz,low-cost production,Namibia
+3678,2014,annual,ok,24.909104,2.896346,0.0,0.004667,Namibia — Luderitz,low-cost production,Namibia
+3932,2014,hourly,ok,19.590604,3.770542,40.912926,0.247826,Chile — Antofagasta,low-cost production,Chile
+3932,2014,annual,ok,15.38674,3.6895,0.0,0.026003,Chile — Antofagasta,low-cost production,Chile
+4151,2014,hourly,ok,37.932076,3.537944,86.283555,0.23796,Australia — Pilbara,low-cost production,Australia
+4151,2014,annual,ok,29.972632,2.639877,0.0,0.096194,Australia — Pilbara,low-cost production,Australia
+4984,2014,hourly,ok,42.293898,3.878724,43.911688,0.111332,Kenya — Mombasa,emerging market,Kenya
+4984,2014,annual,ok,36.110993,3.327458,0.0,0.018966,Kenya — Mombasa,emerging market,Kenya
+5010,2014,hourly,ok,41.454289,5.692193,64.20453,0.200185,Indonesia — Java,island / security,Indonesia
+5010,2014,annual,ok,33.683834,5.439218,0.0,0.028856,Indonesia — Java,island / security,Indonesia
+5096,2014,hourly,ok,28.724848,4.221659,69.520189,0.13507,Brazil — Pecem,production + demand,Brazil
+5096,2014,annual,ok,15.128134,2.445553,0.0,0.004101,Brazil — Pecem,production + demand,Brazil
+5441,2014,hourly,ok,40.7024,5.474877,232.039223,0.115805,Singapore — Jurong,island / security,Malaysia
+5441,2014,annual,ok,31.382219,5.440354,0.0,0.029868,Singapore — Jurong,island / security,Malaysia
+6168,2014,hourly,ok,44.886156,5.909865,103.291529,0.278624,Philippines — Batangas,island / security,Philippines
+6168,2014,annual,ok,32.808661,5.558272,0.0,0.028662,Philippines — Batangas,island / security,Philippines
+6346,2014,hourly,ok,46.172212,3.21105,78.91587,0.17379,US — Hawaii (Big Island),island / security,United States of America
+6346,2014,annual,ok,39.98821,3.916834,0.0,0.069819,US — Hawaii (Big Island),island / security,United States of America
+6431,2014,hourly,ok,25.450994,4.019016,40.62432,0.095161,Oman — Duqm,low-cost production,Oman
+6431,2014,annual,ok,22.629041,3.987544,0.0,0.017617,Oman — Duqm,low-cost production,Oman
+6580,2014,hourly,ok,29.452096,3.62198,75.921136,0.225304,India — Gujarat,production + demand,India
+6580,2014,annual,ok,23.116905,2.975474,0.0,0.068158,India — Gujarat,production + demand,India
+6600,2014,hourly,ok,50.087617,4.035424,155.495103,0.164931,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2014,annual,ok,42.864373,3.383967,0.0,0.09915,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2014,hourly,ok,20.173876,4.10491,34.38581,0.266758,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2014,annual,ok,15.431273,3.179096,0.0,0.033947,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2014,hourly,ok,52.575142,3.060536,147.706774,0.193157,US — Houston,demand centre,United States of America
+6946,2014,annual,ok,43.85083,3.061967,0.0,0.084142,US — Houston,demand centre,United States of America
+7032,2014,hourly,ok,37.857257,6.790632,270.796758,0.103278,China — Yangtze Delta,demand centre,China
+7032,2014,annual,ok,30.550749,7.299186,0.0,0.025219,China — Yangtze Delta,demand centre,China
+7125,2014,hourly,ok,38.561602,4.794509,88.983845,0.396336,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2014,annual,ok,22.397195,4.277157,0.0,0.02405,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2014,hourly,ok,51.76344,4.134635,221.788027,0.344519,US — LA/Long Beach,demand centre,United States of America
+7225,2014,annual,ok,34.550947,3.18256,0.0,0.081647,US — LA/Long Beach,demand centre,United States of America
+7324,2014,hourly,ok,49.679028,2.623636,267.229506,0.09314,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2014,annual,ok,38.843709,3.0725,0.0,0.021664,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2014,hourly,ok,60.461496,2.903385,217.508757,0.131116,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2014,annual,ok,46.99141,3.679796,0.0,0.00138,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2014,hourly,ok,57.810135,2.968051,79.40166,0.356683,Spain — Huelva,carbon policy,Portugal
+7413,2014,annual,ok,41.022204,4.096143,0.0,0.11421,Spain — Huelva,carbon policy,Portugal
+7604,2014,hourly,ok,20.421564,3.276137,103.371978,0.117185,China — Inner Mongolia,low-cost production,China
+7604,2014,annual,ok,16.147913,3.385874,0.0,0.024912,China — Inner Mongolia,low-cost production,China
+7725,2014,hourly,ok,26.957462,2.84893,223.123568,0.119043,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2014,annual,ok,16.929304,2.829631,0.0,0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2014,hourly,ok,56.218866,2.913693,255.110285,0.214685,UK — Humber,carbon policy,United Kingdom
+8280,2014,annual,ok,37.547949,3.408955,0.0,0.011232,UK — Humber,carbon policy,United Kingdom
+8282,2014,hourly,ok,43.072749,2.768305,171.119417,0.209509,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2014,annual,ok,31.679949,2.94026,0.0,0.020981,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2014,hourly,ok,50.830719,2.866899,178.650493,0.225214,Germany — Wilhelmshaven,demand centre,Germany
+8283,2014,annual,ok,39.720916,2.95282,0.0,0.055146,Germany — Wilhelmshaven,demand centre,Germany
+8431,2014,hourly,ok,38.408381,2.632084,117.635751,0.227863,Poland — Gdansk,carbon policy,Poland
+8431,2014,annual,ok,29.337118,2.808876,0.0,0.048605,Poland — Gdansk,carbon policy,Poland
+8991,2014,hourly,ok,44.398698,3.596527,293.343353,0.099697,Iceland — Reykjanes,island / security,Iceland
+8991,2014,annual,ok,22.215887,3.307146,0.0,0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2015,hourly,ok,47.448535,3.115167,104.000504,0.119024,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2015,annual,ok,37.791199,2.913102,0.0,0.041413,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2015,hourly,ok,30.46794,3.149509,58.441153,0.29556,South Africa — N. Cape,production + demand,South Africa
+3536,2015,annual,ok,21.853485,3.315416,0.0,0.027307,South Africa — N. Cape,production + demand,South Africa
+3678,2015,hourly,ok,36.394376,2.887103,131.290871,0.277996,Namibia — Luderitz,low-cost production,Namibia
+3678,2015,annual,ok,22.253254,2.624253,0.0,0.000151,Namibia — Luderitz,low-cost production,Namibia
+3932,2015,hourly,ok,20.323629,3.713604,61.747168,0.228442,Chile — Antofagasta,low-cost production,Chile
+3932,2015,annual,ok,15.89834,3.745221,0.0,0.030431,Chile — Antofagasta,low-cost production,Chile
+4151,2015,hourly,ok,36.79941,2.4498,130.045145,0.264608,Australia — Pilbara,low-cost production,Australia
+4151,2015,annual,ok,28.637081,2.285332,0.0,0.123654,Australia — Pilbara,low-cost production,Australia
+4984,2015,hourly,ok,45.090243,3.726348,70.642027,0.146637,Kenya — Mombasa,emerging market,Kenya
+4984,2015,annual,ok,35.666983,3.19444,0.0,0.024502,Kenya — Mombasa,emerging market,Kenya
+5010,2015,hourly,ok,37.675741,5.418333,67.514497,0.116548,Indonesia — Java,island / security,Indonesia
+5010,2015,annual,ok,32.944683,5.319198,0.0,0.030368,Indonesia — Java,island / security,Indonesia
+5096,2015,hourly,ok,30.880546,4.662489,53.54095,0.226293,Brazil — Pecem,production + demand,Brazil
+5096,2015,annual,ok,14.645946,2.352646,0.0,0.00626,Brazil — Pecem,production + demand,Brazil
+5441,2015,hourly,ok,35.553682,5.463195,73.858426,0.123953,Singapore — Jurong,island / security,Malaysia
+5441,2015,annual,ok,30.697024,5.332837,0.0,0.028602,Singapore — Jurong,island / security,Malaysia
+6168,2015,hourly,ok,40.709488,5.438204,166.803411,0.16239,Philippines — Batangas,island / security,Philippines
+6168,2015,annual,ok,31.442357,5.344919,0.0,0.027974,Philippines — Batangas,island / security,Philippines
+6346,2015,hourly,ok,46.386263,3.423998,132.653515,0.133896,US — Hawaii (Big Island),island / security,United States of America
+6346,2015,annual,ok,39.343338,3.849927,0.0,0.06638,US — Hawaii (Big Island),island / security,United States of America
+6431,2015,hourly,ok,26.068144,4.009194,61.205774,0.09237,Oman — Duqm,low-cost production,Oman
+6431,2015,annual,ok,22.658451,4.003983,0.0,0.016833,Oman — Duqm,low-cost production,Oman
+6580,2015,hourly,ok,27.093244,3.44657,61.052245,0.17082,India — Gujarat,production + demand,India
+6580,2015,annual,ok,22.521376,2.774188,0.0,0.079853,India — Gujarat,production + demand,India
+6600,2015,hourly,ok,50.643626,4.712617,106.105695,0.185042,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2015,annual,ok,40.219071,3.160095,0.0,0.109339,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2015,hourly,ok,20.155915,4.120329,32.162258,0.257054,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2015,annual,ok,15.546275,3.189746,0.0,0.036596,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2015,hourly,ok,51.33942,3.074262,155.139857,0.097759,US — Houston,demand centre,United States of America
+6946,2015,annual,ok,45.076563,3.232414,0.0,0.054777,US — Houston,demand centre,United States of America
+7032,2015,hourly,ok,47.595719,7.921837,582.633719,0.081733,China — Yangtze Delta,demand centre,China
+7032,2015,annual,ok,33.539005,7.864013,0.0,0.030107,China — Yangtze Delta,demand centre,China
+7125,2015,hourly,ok,34.67799,4.683174,115.797561,0.330445,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2015,annual,ok,22.487646,4.24662,0.0,0.023481,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2015,hourly,ok,49.01068,4.159207,108.687188,0.350194,US — LA/Long Beach,demand centre,United States of America
+7225,2015,annual,ok,34.811968,3.306569,0.0,0.071045,US — LA/Long Beach,demand centre,United States of America
+7324,2015,hourly,ok,50.870448,2.682503,231.995329,0.1207,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2015,annual,ok,40.684929,3.022062,0.0,0.03649,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2015,hourly,ok,61.32623,2.812573,261.818256,0.103015,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2015,annual,ok,46.85321,3.62046,0.0,0.008767,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2015,hourly,ok,60.814048,4.376879,154.76214,0.404366,Spain — Huelva,carbon policy,Portugal
+7413,2015,annual,ok,39.568866,3.98159,0.0,0.10362,Spain — Huelva,carbon policy,Portugal
+7604,2015,hourly,ok,22.612237,3.622977,162.224438,0.189737,China — Inner Mongolia,low-cost production,China
+7604,2015,annual,ok,16.191183,3.695557,0.0,0.017028,China — Inner Mongolia,low-cost production,China
+7725,2015,hourly,ok,26.529503,2.867697,106.575398,0.086607,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2015,annual,ok,18.243913,3.050351,0.0,-0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2015,hourly,ok,51.279122,2.888857,88.899221,0.385189,UK — Humber,carbon policy,United Kingdom
+8280,2015,annual,ok,34.597013,3.134963,0.0,0.012805,UK — Humber,carbon policy,United Kingdom
+8282,2015,hourly,ok,41.926512,2.325144,246.173369,0.266526,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2015,annual,ok,29.432746,3.021309,0.0,0.0,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2015,hourly,ok,52.39506,2.572259,350.440168,0.222367,Germany — Wilhelmshaven,demand centre,Germany
+8283,2015,annual,ok,37.067044,2.862624,0.0,0.046331,Germany — Wilhelmshaven,demand centre,Germany
+8431,2015,hourly,ok,39.811875,3.065428,159.035875,0.288834,Poland — Gdansk,carbon policy,Poland
+8431,2015,annual,ok,26.93227,2.675437,0.0,0.017595,Poland — Gdansk,carbon policy,Poland
+8991,2015,hourly,ok,32.989456,3.244705,157.906228,0.163832,Iceland — Reykjanes,island / security,Iceland
+8991,2015,annual,ok,20.063608,2.986026,0.0,-0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2016,hourly,ok,57.402284,3.535143,136.48168,0.251816,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2016,annual,ok,39.162375,3.065713,0.0,0.043829,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2016,hourly,ok,27.229674,2.923733,53.124476,0.228307,South Africa — N. Cape,production + demand,South Africa
+3536,2016,annual,ok,20.929997,2.830849,0.0,0.031856,South Africa — N. Cape,production + demand,South Africa
+3678,2016,hourly,ok,38.502381,4.022912,44.37147,0.345488,Namibia — Luderitz,low-cost production,Namibia
+3678,2016,annual,ok,22.84177,2.694731,0.0,4.7e-05,Namibia — Luderitz,low-cost production,Namibia
+3932,2016,hourly,ok,20.721745,3.755094,64.859932,0.265192,Chile — Antofagasta,low-cost production,Chile
+3932,2016,annual,ok,15.473848,3.692618,0.0,0.025556,Chile — Antofagasta,low-cost production,Chile
+4151,2016,hourly,ok,40.20214,3.213547,92.295767,0.303545,Australia — Pilbara,low-cost production,Australia
+4151,2016,annual,ok,30.32894,2.390817,0.0,0.124239,Australia — Pilbara,low-cost production,Australia
+4984,2016,hourly,ok,46.726552,3.585885,145.232064,0.083877,Kenya — Mombasa,emerging market,Kenya
+4984,2016,annual,ok,35.308394,3.271743,0.0,0.01628,Kenya — Mombasa,emerging market,Kenya
+5010,2016,hourly,ok,40.705167,5.849502,63.592807,0.107807,Indonesia — Java,island / security,Indonesia
+5010,2016,annual,ok,35.910774,5.667077,0.0,0.02694,Indonesia — Java,island / security,Indonesia
+5096,2016,hourly,ok,30.247288,3.47914,114.311515,0.294412,Brazil — Pecem,production + demand,Brazil
+5096,2016,annual,ok,15.102467,2.421645,0.0,0.006711,Brazil — Pecem,production + demand,Brazil
+5441,2016,hourly,ok,38.454046,5.431289,132.538523,0.128959,Singapore — Jurong,island / security,Malaysia
+5441,2016,annual,ok,31.802824,5.449922,0.0,0.028552,Singapore — Jurong,island / security,Malaysia
+6168,2016,hourly,ok,44.332053,5.952963,131.772383,0.221997,Philippines — Batangas,island / security,Philippines
+6168,2016,annual,ok,33.337443,5.525726,0.0,0.029664,Philippines — Batangas,island / security,Philippines
+6346,2016,hourly,ok,49.326587,3.4512,230.689795,0.137927,US — Hawaii (Big Island),island / security,United States of America
+6346,2016,annual,ok,39.929164,3.898296,0.0,0.068997,US — Hawaii (Big Island),island / security,United States of America
+6431,2016,hourly,ok,27.327118,4.131183,72.315736,0.114434,Oman — Duqm,low-cost production,Oman
+6431,2016,annual,ok,22.939236,4.050368,0.0,0.01563,Oman — Duqm,low-cost production,Oman
+6580,2016,hourly,ok,28.108428,3.513705,72.827193,0.173959,India — Gujarat,production + demand,India
+6580,2016,annual,ok,22.800252,2.734303,0.0,0.084423,India — Gujarat,production + demand,India
+6600,2016,hourly,ok,48.161397,3.615704,150.814773,0.154018,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2016,annual,ok,39.264738,3.103031,0.0,0.083298,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2016,hourly,ok,19.600631,3.605519,50.494127,0.221362,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2016,annual,ok,15.38023,3.095468,0.0,0.036647,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2016,hourly,ok,54.014257,3.689062,111.689473,0.192797,US — Houston,demand centre,United States of America
+6946,2016,annual,ok,44.590099,3.174638,0.0,0.072707,US — Houston,demand centre,United States of America
+7032,2016,hourly,ok,50.20616,8.869864,536.091363,0.180196,China — Yangtze Delta,demand centre,China
+7032,2016,annual,ok,32.907062,7.714353,0.0,0.030725,China — Yangtze Delta,demand centre,China
+7125,2016,hourly,ok,37.197555,4.94409,139.995651,0.362362,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2016,annual,ok,22.519312,4.261453,0.0,0.023672,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2016,hourly,ok,49.503977,3.263621,122.465711,0.397368,US — LA/Long Beach,demand centre,United States of America
+7225,2016,annual,ok,33.838791,2.952308,0.0,0.090787,US — LA/Long Beach,demand centre,United States of America
+7324,2016,hourly,ok,52.866568,3.473486,97.367751,0.127719,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2016,annual,ok,42.831232,2.998049,0.0,0.044995,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2016,hourly,ok,68.075051,3.543798,129.723875,0.117578,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2016,annual,ok,56.135102,3.408393,0.0,0.037516,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2016,hourly,ok,58.478867,3.076133,118.365406,0.3514,Spain — Huelva,carbon policy,Portugal
+7413,2016,annual,ok,40.054827,4.049134,0.0,0.098964,Spain — Huelva,carbon policy,Portugal
+7604,2016,hourly,ok,21.160728,2.703852,192.991301,0.151249,China — Inner Mongolia,low-cost production,China
+7604,2016,annual,ok,14.875699,3.787691,0.0,0.0,China — Inner Mongolia,low-cost production,China
+7725,2016,hourly,ok,27.831006,2.628723,157.875217,0.110577,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2016,annual,ok,19.056527,3.186787,0.0,0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2016,hourly,ok,50.606999,2.885951,166.148178,0.152482,UK — Humber,carbon policy,United Kingdom
+8280,2016,annual,ok,39.680399,3.465501,0.0,0.040348,UK — Humber,carbon policy,United Kingdom
+8282,2016,hourly,ok,42.465746,2.672505,150.898201,0.24468,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2016,annual,ok,32.807095,2.833755,0.0,0.041427,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2016,hourly,ok,52.656353,2.991587,171.190515,0.242571,Germany — Wilhelmshaven,demand centre,Germany
+8283,2016,annual,ok,41.061335,3.011631,0.0,0.064833,Germany — Wilhelmshaven,demand centre,Germany
+8431,2016,hourly,ok,42.711981,2.645705,196.318908,0.162711,Poland — Gdansk,carbon policy,Poland
+8431,2016,annual,ok,31.270407,3.044718,0.0,0.035361,Poland — Gdansk,carbon policy,Poland
+8991,2016,hourly,ok,42.479721,3.902151,197.74492,0.106693,Iceland — Reykjanes,island / security,Iceland
+8991,2016,annual,ok,25.988282,3.869987,0.0,-0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2017,hourly,ok,52.597293,2.993167,203.373071,0.163812,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2017,annual,ok,35.420363,3.178643,0.0,0.017191,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2017,hourly,ok,28.826082,3.352264,43.038941,0.294275,South Africa — N. Cape,production + demand,South Africa
+3536,2017,annual,ok,21.187887,3.134591,0.0,0.029657,South Africa — N. Cape,production + demand,South Africa
+3678,2017,hourly,ok,36.128032,3.262996,74.069713,0.324765,Namibia — Luderitz,low-cost production,Namibia
+3678,2017,annual,ok,21.22892,2.50434,0.0,0.0,Namibia — Luderitz,low-cost production,Namibia
+3932,2017,hourly,ok,20.839819,3.728353,83.577036,0.234336,Chile — Antofagasta,low-cost production,Chile
+3932,2017,annual,ok,15.53272,3.678851,0.0,0.027059,Chile — Antofagasta,low-cost production,Chile
+4151,2017,hourly,ok,36.319007,3.60482,46.548355,0.208974,Australia — Pilbara,low-cost production,Australia
+4151,2017,annual,ok,30.655501,2.700754,0.0,0.095986,Australia — Pilbara,low-cost production,Australia
+4984,2017,hourly,ok,46.470571,3.461683,57.534939,0.19382,Kenya — Mombasa,emerging market,Kenya
+4984,2017,annual,ok,36.109109,3.17058,0.0,0.020805,Kenya — Mombasa,emerging market,Kenya
+5010,2017,hourly,ok,39.564843,5.378746,102.829813,0.087285,Indonesia — Java,island / security,Indonesia
+5010,2017,annual,ok,34.686959,5.465275,0.0,0.029099,Indonesia — Java,island / security,Indonesia
+5096,2017,hourly,ok,32.152566,4.673907,64.422842,0.23338,Brazil — Pecem,production + demand,Brazil
+5096,2017,annual,ok,16.077438,2.578375,0.0,0.006809,Brazil — Pecem,production + demand,Brazil
+5441,2017,hourly,ok,38.309342,5.510359,134.276528,0.09327,Singapore — Jurong,island / security,Malaysia
+5441,2017,annual,ok,32.533419,5.531533,0.0,0.027095,Singapore — Jurong,island / security,Malaysia
+6168,2017,hourly,ok,42.550268,5.584676,189.793736,0.146357,Philippines — Batangas,island / security,Philippines
+6168,2017,annual,ok,32.910959,5.50432,0.0,0.029847,Philippines — Batangas,island / security,Philippines
+6346,2017,hourly,ok,47.594837,3.229957,139.220196,0.188154,US — Hawaii (Big Island),island / security,United States of America
+6346,2017,annual,ok,39.110103,3.88127,0.0,0.069241,US — Hawaii (Big Island),island / security,United States of America
+6431,2017,hourly,ok,26.423907,4.229003,38.734294,0.126607,Oman — Duqm,low-cost production,Oman
+6431,2017,annual,ok,22.721516,3.673862,0.0,0.018771,Oman — Duqm,low-cost production,Oman
+6580,2017,hourly,ok,28.035939,3.34871,50.632885,0.241016,India — Gujarat,production + demand,India
+6580,2017,annual,ok,22.056957,2.601558,0.0,0.094497,India — Gujarat,production + demand,India
+6600,2017,hourly,ok,48.572549,4.141068,124.162648,0.159394,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2017,annual,ok,39.984164,3.152993,0.0,0.102362,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2017,hourly,ok,21.172701,4.044699,58.393931,0.285736,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2017,annual,ok,14.854131,2.639188,0.0,0.044793,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2017,hourly,ok,51.227083,2.785309,143.218739,0.217815,US — Houston,demand centre,United States of America
+6946,2017,annual,ok,42.233277,2.991016,0.0,0.076941,US — Houston,demand centre,United States of America
+7032,2017,hourly,ok,41.39544,8.216523,261.311063,0.18133,China — Yangtze Delta,demand centre,China
+7032,2017,annual,ok,30.400321,7.18769,0.0,0.027929,China — Yangtze Delta,demand centre,China
+7125,2017,hourly,ok,32.450395,4.830714,58.074832,0.346831,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2017,annual,ok,21.742478,4.11199,0.0,0.022081,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2017,hourly,ok,47.458027,3.82261,52.31526,0.380625,US — LA/Long Beach,demand centre,United States of America
+7225,2017,annual,ok,33.472609,2.870765,0.0,0.097539,US — LA/Long Beach,demand centre,United States of America
+7324,2017,hourly,ok,47.658952,2.71992,136.398801,0.15037,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2017,annual,ok,39.662139,2.92489,0.0,0.041224,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2017,hourly,ok,61.497814,2.883741,176.50549,0.148434,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2017,annual,ok,48.841149,3.8144,0.0,0.002889,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2017,hourly,ok,54.797774,3.275575,127.382766,0.322743,Spain — Huelva,carbon policy,Portugal
+7413,2017,annual,ok,37.870621,3.836122,0.0,0.097101,Spain — Huelva,carbon policy,Portugal
+7604,2017,hourly,ok,20.402673,3.094426,123.661358,0.094698,China — Inner Mongolia,low-cost production,China
+7604,2017,annual,ok,16.542493,3.043017,0.0,0.039056,China — Inner Mongolia,low-cost production,China
+7725,2017,hourly,ok,25.104232,2.907506,96.136769,0.154487,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2017,annual,ok,18.025453,3.013672,0.0,-0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2017,hourly,ok,48.05041,2.661677,188.107728,0.181165,UK — Humber,carbon policy,United Kingdom
+8280,2017,annual,ok,36.303879,3.144763,0.0,0.046183,UK — Humber,carbon policy,United Kingdom
+8282,2017,hourly,ok,41.612666,2.746815,157.846311,0.183569,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2017,annual,ok,31.811941,3.024225,0.0,0.017648,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2017,hourly,ok,49.604512,3.022763,194.150624,0.150005,Germany — Wilhelmshaven,demand centre,Germany
+8283,2017,annual,ok,39.463678,2.960628,0.0,0.056488,Germany — Wilhelmshaven,demand centre,Germany
+8431,2017,hourly,ok,36.777122,2.598033,147.315141,0.231501,Poland — Gdansk,carbon policy,Poland
+8431,2017,annual,ok,26.824052,2.659244,0.0,0.019329,Poland — Gdansk,carbon policy,Poland
+8991,2017,hourly,ok,42.165263,3.935064,177.958509,0.176836,Iceland — Reykjanes,island / security,Iceland
+8991,2017,annual,ok,26.358243,3.925185,0.0,0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2018,hourly,ok,56.26366,4.045896,120.598931,0.276675,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2018,annual,ok,36.610777,2.931648,0.0,0.033181,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2018,hourly,ok,30.500143,2.720921,93.46189,0.268318,South Africa — N. Cape,production + demand,South Africa
+3536,2018,annual,ok,21.443615,3.098955,0.0,0.029734,South Africa — N. Cape,production + demand,South Africa
+3678,2018,hourly,ok,38.278442,3.907496,54.241401,0.331074,Namibia — Luderitz,low-cost production,Namibia
+3678,2018,annual,ok,24.299399,2.847932,0.0,0.002107,Namibia — Luderitz,low-cost production,Namibia
+3932,2018,hourly,ok,20.737023,3.862849,55.113585,0.263421,Chile — Antofagasta,low-cost production,Chile
+3932,2018,annual,ok,15.682371,3.733772,0.0,0.026227,Chile — Antofagasta,low-cost production,Chile
+4151,2018,hourly,ok,34.970365,3.04456,82.290615,0.205396,Australia — Pilbara,low-cost production,Australia
+4151,2018,annual,ok,28.484044,2.26206,0.0,0.134134,Australia — Pilbara,low-cost production,Australia
+4984,2018,hourly,ok,50.07532,4.007287,88.992642,0.196376,Kenya — Mombasa,emerging market,Kenya
+4984,2018,annual,ok,36.744474,3.200508,0.0,0.022548,Kenya — Mombasa,emerging market,Kenya
+5010,2018,hourly,ok,40.01807,5.661167,85.082651,0.114259,Indonesia — Java,island / security,Indonesia
+5010,2018,annual,ok,34.499638,5.503504,0.0,0.028489,Indonesia — Java,island / security,Indonesia
+5096,2018,hourly,ok,31.794237,4.612126,67.967176,0.204601,Brazil — Pecem,production + demand,Brazil
+5096,2018,annual,ok,17.792846,2.811793,0.0,0.009446,Brazil — Pecem,production + demand,Brazil
+5441,2018,hourly,ok,38.783941,5.612915,143.390714,0.119794,Singapore — Jurong,island / security,Malaysia
+5441,2018,annual,ok,31.799779,5.488326,0.0,0.026957,Singapore — Jurong,island / security,Malaysia
+6168,2018,hourly,ok,47.282056,5.09522,209.132561,0.205407,Philippines — Batangas,island / security,Philippines
+6168,2018,annual,ok,33.010932,5.587856,0.0,0.028766,Philippines — Batangas,island / security,Philippines
+6346,2018,hourly,ok,45.710256,3.696368,69.026756,0.159956,US — Hawaii (Big Island),island / security,United States of America
+6346,2018,annual,ok,39.477629,2.961973,0.0,0.092235,US — Hawaii (Big Island),island / security,United States of America
+6431,2018,hourly,ok,26.841885,4.141962,59.991658,0.120858,Oman — Duqm,low-cost production,Oman
+6431,2018,annual,ok,22.73664,4.021525,0.0,0.017752,Oman — Duqm,low-cost production,Oman
+6580,2018,hourly,ok,28.002193,3.650407,88.020695,0.162815,India — Gujarat,production + demand,India
+6580,2018,annual,ok,21.997694,2.623639,0.0,0.0906,India — Gujarat,production + demand,India
+6600,2018,hourly,ok,47.683493,3.823705,123.038055,0.149457,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2018,annual,ok,40.110713,3.154483,0.0,0.087842,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2018,hourly,ok,19.91121,3.856148,44.694052,0.230544,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2018,annual,ok,15.678077,3.762865,0.0,0.028532,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2018,hourly,ok,56.56428,2.883369,295.199758,0.175912,US — Houston,demand centre,United States of America
+6946,2018,annual,ok,44.159003,3.019895,0.0,0.077821,US — Houston,demand centre,United States of America
+7032,2018,hourly,ok,48.497125,7.564208,742.232957,0.072509,China — Yangtze Delta,demand centre,China
+7032,2018,annual,ok,31.231108,7.408265,0.0,0.02964,China — Yangtze Delta,demand centre,China
+7125,2018,hourly,ok,35.63707,4.972072,130.256844,0.304065,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2018,annual,ok,23.202612,4.321237,0.0,0.029786,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2018,hourly,ok,50.926164,3.799352,195.052525,0.364299,US — LA/Long Beach,demand centre,United States of America
+7225,2018,annual,ok,33.917236,2.98698,0.0,0.09266,US — LA/Long Beach,demand centre,United States of America
+7324,2018,hourly,ok,54.219965,2.944823,208.607587,0.210253,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2018,annual,ok,40.19309,3.024582,0.0,0.036222,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2018,hourly,ok,61.474314,3.632233,206.739826,0.215623,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2018,annual,ok,43.505571,3.407337,0.0,0.001259,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2018,hourly,ok,59.706469,3.71629,95.630049,0.384459,Spain — Huelva,carbon policy,Portugal
+7413,2018,annual,ok,40.301064,3.999939,0.0,0.106976,Spain — Huelva,carbon policy,Portugal
+7604,2018,hourly,ok,20.7439,2.901382,143.725753,0.154945,China — Inner Mongolia,low-cost production,China
+7604,2018,annual,ok,14.537762,3.701355,0.0,0.0,China — Inner Mongolia,low-cost production,China
+7725,2018,hourly,ok,25.937201,2.754809,145.53974,0.121132,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2018,annual,ok,17.957512,3.002265,0.0,0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2018,hourly,ok,51.825357,3.079371,105.920658,0.203223,UK — Humber,carbon policy,United Kingdom
+8280,2018,annual,ok,39.197576,3.435101,0.0,0.038227,UK — Humber,carbon policy,United Kingdom
+8282,2018,hourly,ok,40.438597,3.193522,73.533196,0.15632,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2018,annual,ok,31.394226,2.709242,0.0,0.040366,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2018,hourly,ok,47.000015,3.271834,83.098871,0.163009,Germany — Wilhelmshaven,demand centre,Germany
+8283,2018,annual,ok,39.340613,2.937195,0.0,0.05812,Germany — Wilhelmshaven,demand centre,Germany
+8431,2018,hourly,ok,40.86526,2.535473,156.753602,0.176193,Poland — Gdansk,carbon policy,Poland
+8431,2018,annual,ok,32.568308,2.882012,0.0,0.069687,Poland — Gdansk,carbon policy,Poland
+8991,2018,hourly,ok,43.64833,4.3083,151.890239,0.167523,Iceland — Reykjanes,island / security,Iceland
+8991,2018,annual,ok,23.827395,3.547583,0.0,-0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2019,hourly,ok,50.064404,3.593581,151.578293,0.119904,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2019,annual,ok,36.470163,2.904254,0.0,0.040826,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2019,hourly,ok,29.876285,3.495385,52.521277,0.312539,South Africa — N. Cape,production + demand,South Africa
+3536,2019,annual,ok,21.149687,3.153892,0.0,0.02763,South Africa — N. Cape,production + demand,South Africa
+3678,2019,hourly,ok,36.568038,2.655684,179.472896,0.242889,Namibia — Luderitz,low-cost production,Namibia
+3678,2019,annual,ok,21.681657,2.557803,0.0,1.8e-05,Namibia — Luderitz,low-cost production,Namibia
+3932,2019,hourly,ok,19.464431,3.648508,44.795283,0.232317,Chile — Antofagasta,low-cost production,Chile
+3932,2019,annual,ok,15.561805,3.691292,0.0,0.028042,Chile — Antofagasta,low-cost production,Chile
+4151,2019,hourly,ok,36.290107,3.03861,99.677518,0.212174,Australia — Pilbara,low-cost production,Australia
+4151,2019,annual,ok,29.688362,2.520817,0.0,0.106081,Australia — Pilbara,low-cost production,Australia
+4984,2019,hourly,ok,44.970002,3.458421,49.53579,0.154811,Kenya — Mombasa,emerging market,Kenya
+4984,2019,annual,ok,36.75031,3.116247,0.0,0.025336,Kenya — Mombasa,emerging market,Kenya
+5010,2019,hourly,ok,36.689583,5.335824,69.588045,0.098305,Indonesia — Java,island / security,Indonesia
+5010,2019,annual,ok,32.42543,5.258995,0.0,0.028001,Indonesia — Java,island / security,Indonesia
+5096,2019,hourly,ok,35.668992,4.831813,116.257006,0.248244,Brazil — Pecem,production + demand,Brazil
+5096,2019,annual,ok,17.704247,2.817408,0.0,0.008329,Brazil — Pecem,production + demand,Brazil
+5441,2019,hourly,ok,35.647766,5.375535,99.40902,0.110347,Singapore — Jurong,island / security,Malaysia
+5441,2019,annual,ok,30.479111,5.29844,0.0,0.028332,Singapore — Jurong,island / security,Malaysia
+6168,2019,hourly,ok,48.049169,5.473746,174.691904,0.210983,Philippines — Batangas,island / security,Philippines
+6168,2019,annual,ok,33.159116,5.560935,0.0,0.032383,Philippines — Batangas,island / security,Philippines
+6346,2019,hourly,ok,45.068294,3.505428,103.652686,0.182644,US — Hawaii (Big Island),island / security,United States of America
+6346,2019,annual,ok,38.298851,3.231292,0.0,0.073488,US — Hawaii (Big Island),island / security,United States of America
+6431,2019,hourly,ok,30.247457,4.388856,91.647033,0.183445,Oman — Duqm,low-cost production,Oman
+6431,2019,annual,ok,23.371135,4.048544,0.0,0.017841,Oman — Duqm,low-cost production,Oman
+6580,2019,hourly,ok,34.184242,3.557923,189.58438,0.278457,India — Gujarat,production + demand,India
+6580,2019,annual,ok,22.517009,2.64665,0.0,0.088194,India — Gujarat,production + demand,India
+6600,2019,hourly,ok,50.729507,4.383759,129.540987,0.178774,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2019,annual,ok,41.925808,3.264287,0.0,0.097314,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2019,hourly,ok,21.547011,4.010932,57.707865,0.274603,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2019,annual,ok,15.721812,3.641802,0.0,0.027948,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2019,hourly,ok,49.479275,3.013275,132.630549,0.143827,US — Houston,demand centre,United States of America
+6946,2019,annual,ok,43.12478,3.027443,0.0,0.081352,US — Houston,demand centre,United States of America
+7032,2019,hourly,ok,51.961065,7.419596,934.960038,0.029189,China — Yangtze Delta,demand centre,China
+7032,2019,annual,ok,31.780303,7.477411,0.0,0.026665,China — Yangtze Delta,demand centre,China
+7125,2019,hourly,ok,34.554034,4.968281,77.788715,0.379252,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2019,annual,ok,21.768647,4.12723,0.0,0.024102,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2019,hourly,ok,54.249909,3.72584,157.431308,0.44382,US — LA/Long Beach,demand centre,United States of America
+7225,2019,annual,ok,33.691352,2.798615,0.0,0.119606,US — LA/Long Beach,demand centre,United States of America
+7324,2019,hourly,ok,51.500979,2.919256,194.16714,0.12292,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2019,annual,ok,42.158427,2.920488,0.0,0.051241,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2019,hourly,ok,60.578365,2.971335,130.176771,0.118527,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2019,annual,ok,50.975268,3.92403,0.0,0.01091,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2019,hourly,ok,56.190296,3.172688,133.890835,0.351684,Spain — Huelva,carbon policy,Portugal
+7413,2019,annual,ok,38.480332,3.939867,0.0,0.091681,Spain — Huelva,carbon policy,Portugal
+7604,2019,hourly,ok,21.58999,3.447557,115.784886,0.152093,China — Inner Mongolia,low-cost production,China
+7604,2019,annual,ok,16.551229,3.370951,0.0,0.031938,China — Inner Mongolia,low-cost production,China
+7725,2019,hourly,ok,29.035561,2.974542,124.028011,0.141077,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2019,annual,ok,21.118877,3.533052,0.0,0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2019,hourly,ok,50.470045,3.064876,134.589855,0.132532,UK — Humber,carbon policy,United Kingdom
+8280,2019,annual,ok,38.672157,3.327128,0.0,0.050344,UK — Humber,carbon policy,United Kingdom
+8282,2019,hourly,ok,37.930693,2.65539,95.030797,0.164508,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2019,annual,ok,30.692555,2.835703,0.0,0.021562,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2019,hourly,ok,46.494818,3.110106,97.793057,0.172274,Germany — Wilhelmshaven,demand centre,Germany
+8283,2019,annual,ok,38.26687,2.906546,0.0,0.050538,Germany — Wilhelmshaven,demand centre,Germany
+8431,2019,hourly,ok,39.54018,2.593566,118.738074,0.230882,Poland — Gdansk,carbon policy,Poland
+8431,2019,annual,ok,27.63749,2.71643,0.0,0.026214,Poland — Gdansk,carbon policy,Poland
+8991,2019,hourly,ok,38.30709,3.416329,307.570987,0.106418,Iceland — Reykjanes,island / security,Iceland
+8991,2019,annual,ok,23.799436,3.543411,0.0,-0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2020,hourly,ok,46.087611,3.584836,145.054655,0.082752,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2020,annual,ok,34.11391,2.91487,0.0,0.02531,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2020,hourly,ok,28.113275,3.567576,47.047098,0.257539,South Africa — N. Cape,production + demand,South Africa
+3536,2020,annual,ok,21.167548,3.035883,0.0,0.029228,South Africa — N. Cape,production + demand,South Africa
+3678,2020,hourly,ok,37.188402,3.021813,97.442833,0.337523,Namibia — Luderitz,low-cost production,Namibia
+3678,2020,annual,ok,21.545835,2.541864,0.0,-0.0,Namibia — Luderitz,low-cost production,Namibia
+3932,2020,hourly,ok,18.98836,3.689551,26.360386,0.236291,Chile — Antofagasta,low-cost production,Chile
+3932,2020,annual,ok,15.516524,3.673214,0.0,0.028449,Chile — Antofagasta,low-cost production,Chile
+4151,2020,hourly,ok,37.57665,3.201627,99.075298,0.223443,Australia — Pilbara,low-cost production,Australia
+4151,2020,annual,ok,30.229991,2.608919,0.0,0.100039,Australia — Pilbara,low-cost production,Australia
+4984,2020,hourly,ok,50.979257,3.931751,68.723636,0.234903,Kenya — Mombasa,emerging market,Kenya
+4984,2020,annual,ok,36.808929,3.026991,0.0,0.028466,Kenya — Mombasa,emerging market,Kenya
+5010,2020,hourly,ok,39.844096,5.618937,85.257063,0.083559,Indonesia — Java,island / security,Indonesia
+5010,2020,annual,ok,35.377901,5.589164,0.0,0.027205,Indonesia — Java,island / security,Indonesia
+5096,2020,hourly,ok,32.630744,4.545894,110.031744,0.176026,Brazil — Pecem,production + demand,Brazil
+5096,2020,annual,ok,17.650175,2.824417,0.0,0.007084,Brazil — Pecem,production + demand,Brazil
+5441,2020,hourly,ok,37.403973,5.529495,106.760375,0.08484,Singapore — Jurong,island / security,Malaysia
+5441,2020,annual,ok,32.733964,5.534022,0.0,0.029949,Singapore — Jurong,island / security,Malaysia
+6168,2020,hourly,ok,41.56182,5.817258,142.544826,0.171161,Philippines — Batangas,island / security,Philippines
+6168,2020,annual,ok,32.280809,5.466526,0.0,0.028115,Philippines — Batangas,island / security,Philippines
+6346,2020,hourly,ok,44.976454,3.308878,102.9862,0.193867,US — Hawaii (Big Island),island / security,United States of America
+6346,2020,annual,ok,38.398735,3.351514,0.0,0.069681,US — Hawaii (Big Island),island / security,United States of America
+6431,2020,hourly,ok,27.938523,4.329875,49.965774,0.153998,Oman — Duqm,low-cost production,Oman
+6431,2020,annual,ok,23.251411,4.114429,0.0,0.016619,Oman — Duqm,low-cost production,Oman
+6580,2020,hourly,ok,29.688574,3.39875,83.080994,0.214476,India — Gujarat,production + demand,India
+6580,2020,annual,ok,23.973046,3.266212,0.0,0.061756,India — Gujarat,production + demand,India
+6600,2020,hourly,ok,49.545911,4.036543,140.707066,0.177576,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2020,annual,ok,40.317451,3.151691,0.0,0.103969,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2020,hourly,ok,20.2628,3.735898,42.817412,0.257689,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2020,annual,ok,15.636275,3.836995,0.0,0.033424,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2020,hourly,ok,48.519753,2.76374,123.686004,0.153525,US — Houston,demand centre,United States of America
+6946,2020,annual,ok,42.742444,2.933445,0.0,0.079909,US — Houston,demand centre,United States of America
+7032,2020,hourly,ok,46.244759,9.330866,289.65196,0.197227,China — Yangtze Delta,demand centre,China
+7032,2020,annual,ok,33.095937,7.74341,0.0,0.028707,China — Yangtze Delta,demand centre,China
+7125,2020,hourly,ok,35.943586,4.53642,169.392595,0.324845,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2020,annual,ok,21.954038,4.109819,0.0,0.024543,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2020,hourly,ok,47.5954,3.993381,118.606316,0.331849,US — LA/Long Beach,demand centre,United States of America
+7225,2020,annual,ok,34.187616,3.149334,0.0,0.076338,US — LA/Long Beach,demand centre,United States of America
+7324,2020,hourly,ok,52.452168,2.63145,305.941897,0.123159,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2020,annual,ok,39.947729,3.001265,0.0,0.036411,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2020,hourly,ok,62.518521,2.931724,195.522015,0.159462,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2020,annual,ok,46.628841,3.652793,0.0,0.001179,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2020,hourly,ok,63.469709,3.963331,117.289037,0.401288,Spain — Huelva,carbon policy,Portugal
+7413,2020,annual,ok,40.432584,4.040728,0.0,0.105069,Spain — Huelva,carbon policy,Portugal
+7604,2020,hourly,ok,24.077281,3.576995,145.842195,0.233579,China — Inner Mongolia,low-cost production,China
+7604,2020,annual,ok,17.006386,3.176063,0.0,0.051329,China — Inner Mongolia,low-cost production,China
+7725,2020,hourly,ok,25.644292,2.995065,95.331321,0.181756,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2020,annual,ok,17.853607,2.98482,0.0,-0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2020,hourly,ok,46.923606,2.684263,147.581005,0.198963,UK — Humber,carbon policy,United Kingdom
+8280,2020,annual,ok,34.27027,3.151033,0.0,0.0,UK — Humber,carbon policy,United Kingdom
+8282,2020,hourly,ok,40.435621,2.797073,170.332046,0.155929,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2020,annual,ok,29.021659,2.979039,0.0,-0.0,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2020,hourly,ok,49.198173,3.015234,200.798652,0.183811,Germany — Wilhelmshaven,demand centre,Germany
+8283,2020,annual,ok,37.614144,2.942211,0.0,0.044326,Germany — Wilhelmshaven,demand centre,Germany
+8431,2020,hourly,ok,39.28098,2.38577,192.436036,0.174896,Poland — Gdansk,carbon policy,Poland
+8431,2020,annual,ok,27.43548,2.708497,0.0,0.0233,Poland — Gdansk,carbon policy,Poland
+8991,2020,hourly,ok,39.399442,3.586349,216.145473,0.207514,Iceland — Reykjanes,island / security,Iceland
+8991,2020,annual,ok,20.80029,3.095939,0.0,0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2021,hourly,ok,48.539161,2.675511,144.702775,0.145131,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2021,annual,ok,36.204139,2.819564,0.0,0.03807,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2021,hourly,ok,28.117416,3.087148,56.513328,0.233677,South Africa — N. Cape,production + demand,South Africa
+3536,2021,annual,ok,21.464905,3.133024,0.0,0.029099,South Africa — N. Cape,production + demand,South Africa
+3678,2021,hourly,ok,39.75973,4.008763,85.979908,0.326627,Namibia — Luderitz,low-cost production,Namibia
+3678,2021,annual,ok,23.639964,2.786568,0.0,0.000291,Namibia — Luderitz,low-cost production,Namibia
+3932,2021,hourly,ok,20.024601,3.873044,34.238056,0.26898,Chile — Antofagasta,low-cost production,Chile
+3932,2021,annual,ok,15.527431,3.707767,0.0,0.027729,Chile — Antofagasta,low-cost production,Chile
+4151,2021,hourly,ok,36.535094,3.199379,50.058711,0.245768,Australia — Pilbara,low-cost production,Australia
+4151,2021,annual,ok,29.314712,2.371456,0.0,0.123215,Australia — Pilbara,low-cost production,Australia
+4984,2021,hourly,ok,43.799154,3.788867,31.121899,0.169311,Kenya — Mombasa,emerging market,Kenya
+4984,2021,annual,ok,35.933184,3.219553,0.0,0.017799,Kenya — Mombasa,emerging market,Kenya
+5010,2021,hourly,ok,39.99602,5.613285,84.095286,0.112783,Indonesia — Java,island / security,Indonesia
+5010,2021,annual,ok,34.584199,5.50441,0.0,0.026798,Indonesia — Java,island / security,Indonesia
+5096,2021,hourly,ok,28.237724,4.117431,74.87618,0.114861,Brazil — Pecem,production + demand,Brazil
+5096,2021,annual,ok,16.685413,2.615934,0.0,0.010781,Brazil — Pecem,production + demand,Brazil
+5441,2021,hourly,ok,37.566448,5.550403,129.000391,0.094914,Singapore — Jurong,island / security,Malaysia
+5441,2021,annual,ok,31.925141,5.51991,0.0,0.029441,Singapore — Jurong,island / security,Malaysia
+6168,2021,hourly,ok,40.310178,5.527542,92.345111,0.142145,Philippines — Batangas,island / security,Philippines
+6168,2021,annual,ok,32.641221,5.469209,0.0,0.029228,Philippines — Batangas,island / security,Philippines
+6346,2021,hourly,ok,44.437831,3.065405,111.483007,0.144248,US — Hawaii (Big Island),island / security,United States of America
+6346,2021,annual,ok,39.075803,3.539151,0.0,0.062399,US — Hawaii (Big Island),island / security,United States of America
+6431,2021,hourly,ok,26.411081,4.124187,47.021919,0.122406,Oman — Duqm,low-cost production,Oman
+6431,2021,annual,ok,22.724951,4.015147,0.0,0.016801,Oman — Duqm,low-cost production,Oman
+6580,2021,hourly,ok,32.398149,3.368458,75.951829,0.323235,India — Gujarat,production + demand,India
+6580,2021,annual,ok,23.085428,2.752162,0.0,0.066544,India — Gujarat,production + demand,India
+6600,2021,hourly,ok,47.25458,4.141786,77.250487,0.157813,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2021,annual,ok,41.042988,3.225797,0.0,0.104967,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2021,hourly,ok,20.737775,3.880087,44.866024,0.293981,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2021,annual,ok,14.819408,2.611667,0.0,0.0475,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2021,hourly,ok,51.489321,3.469787,114.009774,0.14874,US — Houston,demand centre,United States of America
+6946,2021,annual,ok,43.990982,3.06795,0.0,0.079329,US — Houston,demand centre,United States of America
+7032,2021,hourly,ok,39.274858,7.541304,377.835758,0.021539,China — Yangtze Delta,demand centre,China
+7032,2021,annual,ok,31.012115,7.327003,0.0,0.026381,China — Yangtze Delta,demand centre,China
+7125,2021,hourly,ok,35.598414,4.704404,131.527395,0.354234,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2021,annual,ok,21.962178,4.141501,0.0,0.024929,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2021,hourly,ok,49.148039,3.736655,154.566725,0.36472,US — LA/Long Beach,demand centre,United States of America
+7225,2021,annual,ok,33.094302,2.821722,0.0,0.102259,US — LA/Long Beach,demand centre,United States of America
+7324,2021,hourly,ok,51.314826,2.831509,174.555405,0.197863,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2021,annual,ok,38.744785,3.107896,0.0,0.021748,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2021,hourly,ok,67.577664,3.177942,272.551065,0.147068,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2021,annual,ok,48.546811,3.803343,0.0,0.001149,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2021,hourly,ok,56.263777,2.984173,202.934328,0.260963,Spain — Huelva,carbon policy,Portugal
+7413,2021,annual,ok,39.273743,3.988062,0.0,0.096577,Spain — Huelva,carbon policy,Portugal
+7604,2021,hourly,ok,21.952092,3.439963,63.339394,0.2859,China — Inner Mongolia,low-cost production,China
+7604,2021,annual,ok,14.394913,3.664859,0.0,0.0,China — Inner Mongolia,low-cost production,China
+7725,2021,hourly,ok,26.476198,2.49118,131.625134,0.126113,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2021,annual,ok,18.338429,3.06622,0.0,0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2021,hourly,ok,54.475321,2.784203,166.974102,0.247941,UK — Humber,carbon policy,United Kingdom
+8280,2021,annual,ok,40.930704,3.586707,0.0,0.038553,UK — Humber,carbon policy,United Kingdom
+8282,2021,hourly,ok,42.475256,2.843694,127.55688,0.184443,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2021,annual,ok,33.506783,2.91367,0.0,0.037832,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2021,hourly,ok,52.428828,3.072843,203.413537,0.161693,Germany — Wilhelmshaven,demand centre,Germany
+8283,2021,annual,ok,42.67445,3.158027,0.0,0.057373,Germany — Wilhelmshaven,demand centre,Germany
+8431,2021,hourly,ok,40.335946,2.729688,116.212145,0.151639,Poland — Gdansk,carbon policy,Poland
+8431,2021,annual,ok,30.843641,2.981106,0.0,0.041246,Poland — Gdansk,carbon policy,Poland
+8991,2021,hourly,ok,41.35771,3.189101,376.023036,0.03823,Iceland — Reykjanes,island / security,Iceland
+8991,2021,annual,ok,21.975423,3.271269,0.0,0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2022,hourly,ok,52.236714,4.040608,147.582071,0.210113,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2022,annual,ok,34.487949,2.954355,0.0,0.027267,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2022,hourly,ok,28.338353,2.89471,79.457146,0.175966,South Africa — N. Cape,production + demand,South Africa
+3536,2022,annual,ok,22.242993,3.33695,0.0,0.025773,South Africa — N. Cape,production + demand,South Africa
+3678,2022,hourly,ok,38.61274,3.15916,108.224886,0.332782,Namibia — Luderitz,low-cost production,Namibia
+3678,2022,annual,ok,22.953029,2.705266,0.0,0.000262,Namibia — Luderitz,low-cost production,Namibia
+3932,2022,hourly,ok,20.178433,3.760841,55.111425,0.264153,Chile — Antofagasta,low-cost production,Chile
+3932,2022,annual,ok,15.286162,3.679479,0.0,0.026165,Chile — Antofagasta,low-cost production,Chile
+4151,2022,hourly,ok,37.839561,3.017068,105.772673,0.241687,Australia — Pilbara,low-cost production,Australia
+4151,2022,annual,ok,29.980064,2.427202,0.0,0.1262,Australia — Pilbara,low-cost production,Australia
+4984,2022,hourly,ok,42.654536,3.464055,90.614523,0.07317,Kenya — Mombasa,emerging market,Kenya
+4984,2022,annual,ok,34.76316,3.002409,0.0,0.020312,Kenya — Mombasa,emerging market,Kenya
+5010,2022,hourly,ok,40.042066,5.715656,88.804436,0.089527,Indonesia — Java,island / security,Indonesia
+5010,2022,annual,ok,35.184471,5.581257,0.0,0.029807,Indonesia — Java,island / security,Indonesia
+5096,2022,hourly,ok,33.438196,4.496119,75.563242,0.282197,Brazil — Pecem,production + demand,Brazil
+5096,2022,annual,ok,17.672731,2.791,0.0,0.00997,Brazil — Pecem,production + demand,Brazil
+5441,2022,hourly,ok,38.728238,5.662209,100.257709,0.15284,Singapore — Jurong,island / security,Malaysia
+5441,2022,annual,ok,32.039999,5.499408,0.0,0.029134,Singapore — Jurong,island / security,Malaysia
+6168,2022,hourly,ok,42.388432,5.748832,147.945703,0.167182,Philippines — Batangas,island / security,Philippines
+6168,2022,annual,ok,33.16444,5.528286,0.0,0.028631,Philippines — Batangas,island / security,Philippines
+6346,2022,hourly,ok,44.910692,3.638716,85.574853,0.187442,US — Hawaii (Big Island),island / security,United States of America
+6346,2022,annual,ok,38.413566,3.788041,0.0,0.066983,US — Hawaii (Big Island),island / security,United States of America
+6431,2022,hourly,ok,28.752975,3.933742,99.423166,0.122399,Oman — Duqm,low-cost production,Oman
+6431,2022,annual,ok,23.201262,4.127008,0.0,0.017508,Oman — Duqm,low-cost production,Oman
+6580,2022,hourly,ok,29.893496,3.45341,84.31337,0.224861,India — Gujarat,production + demand,India
+6580,2022,annual,ok,23.643304,3.047554,0.0,0.073729,India — Gujarat,production + demand,India
+6600,2022,hourly,ok,48.387063,3.962112,171.05839,0.154527,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2022,annual,ok,37.89099,3.01374,0.0,0.093384,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2022,hourly,ok,20.972729,4.210176,55.973774,0.269897,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2022,annual,ok,15.477632,3.23646,0.0,0.035378,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2022,hourly,ok,50.8786,3.235128,145.309629,0.219943,US — Houston,demand centre,United States of America
+6946,2022,annual,ok,40.535021,2.964752,0.0,0.081025,US — Houston,demand centre,United States of America
+7032,2022,hourly,ok,51.13642,10.124571,382.165248,0.280565,China — Yangtze Delta,demand centre,China
+7032,2022,annual,ok,31.626196,7.430218,0.0,0.025362,China — Yangtze Delta,demand centre,China
+7125,2022,hourly,ok,36.320466,4.299076,217.735007,0.27673,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2022,annual,ok,22.313583,4.17157,0.0,0.028289,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2022,hourly,ok,49.102842,3.499548,114.117987,0.390341,US — LA/Long Beach,demand centre,United States of America
+7225,2022,annual,ok,33.721868,3.071698,0.0,0.08243,US — LA/Long Beach,demand centre,United States of America
+7324,2022,hourly,ok,48.419567,2.66855,188.651244,0.133467,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2022,annual,ok,39.271791,2.876357,0.0,0.042284,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2022,hourly,ok,56.938481,2.754001,174.066399,0.098999,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2022,annual,ok,46.22684,3.549373,0.0,0.011884,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2022,hourly,ok,60.74105,3.500118,120.577971,0.358664,Spain — Huelva,carbon policy,Portugal
+7413,2022,annual,ok,39.792777,4.016338,0.0,0.099274,Spain — Huelva,carbon policy,Portugal
+7604,2022,hourly,ok,23.596807,3.428054,128.836511,0.253516,China — Inner Mongolia,low-cost production,China
+7604,2022,annual,ok,16.199755,3.718092,0.0,0.017741,China — Inner Mongolia,low-cost production,China
+7725,2022,hourly,ok,24.255684,2.763813,94.362349,0.105376,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2022,annual,ok,18.034032,3.015113,0.0,0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2022,hourly,ok,54.219787,2.835426,236.322307,0.197838,UK — Humber,carbon policy,United Kingdom
+8280,2022,annual,ok,38.941316,3.418703,0.0,0.037261,UK — Humber,carbon policy,United Kingdom
+8282,2022,hourly,ok,42.755012,2.734926,182.034113,0.207321,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2022,annual,ok,31.859034,2.681241,0.0,0.04448,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2022,hourly,ok,51.626921,2.958202,267.208321,0.165124,Germany — Wilhelmshaven,demand centre,Germany
+8283,2022,annual,ok,39.216839,2.958226,0.0,0.049154,Germany — Wilhelmshaven,demand centre,Germany
+8431,2022,hourly,ok,45.75191,2.660486,306.746967,0.232132,Poland — Gdansk,carbon policy,Poland
+8431,2022,annual,ok,31.157657,2.96803,0.0,0.032994,Poland — Gdansk,carbon policy,Poland
+8991,2022,hourly,ok,43.007903,3.913069,174.727618,0.174167,Iceland — Reykjanes,island / security,Iceland
+8991,2022,annual,ok,24.567654,3.658029,0.0,0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2023,hourly,ok,53.282469,3.845471,138.410445,0.182424,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2023,annual,ok,37.131059,2.883119,0.0,0.039581,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2023,hourly,ok,30.364463,2.988046,69.749742,0.285913,South Africa — N. Cape,production + demand,South Africa
+3536,2023,annual,ok,21.552758,3.148465,0.0,0.030098,South Africa — N. Cape,production + demand,South Africa
+3678,2023,hourly,ok,40.183962,2.981927,174.111343,0.289844,Namibia — Luderitz,low-cost production,Namibia
+3678,2023,annual,ok,23.344523,2.752935,0.0,0.000159,Namibia — Luderitz,low-cost production,Namibia
+3932,2023,hourly,ok,18.912521,3.717795,29.846266,0.234103,Chile — Antofagasta,low-cost production,Chile
+3932,2023,annual,ok,15.312474,3.644296,0.0,0.027974,Chile — Antofagasta,low-cost production,Chile
+4151,2023,hourly,ok,37.297219,2.645663,123.300081,0.251728,Australia — Pilbara,low-cost production,Australia
+4151,2023,annual,ok,29.841425,2.620284,0.0,0.117364,Australia — Pilbara,low-cost production,Australia
+4984,2023,hourly,ok,48.054493,3.73114,145.542915,0.069096,Kenya — Mombasa,emerging market,Kenya
+4984,2023,annual,ok,37.147013,4.008574,0.0,0.016674,Kenya — Mombasa,emerging market,Kenya
+5010,2023,hourly,ok,38.746327,5.21065,139.74101,0.076423,Indonesia — Java,island / security,Indonesia
+5010,2023,annual,ok,33.005836,5.284485,0.0,0.029095,Indonesia — Java,island / security,Indonesia
+5096,2023,hourly,ok,31.514639,4.444433,87.134193,0.220958,Brazil — Pecem,production + demand,Brazil
+5096,2023,annual,ok,16.755786,2.660274,0.0,0.008802,Brazil — Pecem,production + demand,Brazil
+5441,2023,hourly,ok,39.711784,5.798545,103.482563,0.163822,Singapore — Jurong,island / security,Malaysia
+5441,2023,annual,ok,32.359934,5.546065,0.0,0.027943,Singapore — Jurong,island / security,Malaysia
+6168,2023,hourly,ok,40.506694,5.475004,149.988527,0.136571,Philippines — Batangas,island / security,Philippines
+6168,2023,annual,ok,32.583872,5.441468,0.0,0.030152,Philippines — Batangas,island / security,Philippines
+6346,2023,hourly,ok,43.287927,3.230786,83.253416,0.167031,US — Hawaii (Big Island),island / security,United States of America
+6346,2023,annual,ok,38.135337,3.150584,0.0,0.079558,US — Hawaii (Big Island),island / security,United States of America
+6431,2023,hourly,ok,26.644387,4.07511,62.208838,0.088838,Oman — Duqm,low-cost production,Oman
+6431,2023,annual,ok,23.219442,4.082347,0.0,0.016669,Oman — Duqm,low-cost production,Oman
+6580,2023,hourly,ok,28.358796,3.372934,50.051646,0.230282,India — Gujarat,production + demand,India
+6580,2023,annual,ok,22.452693,2.640236,0.0,0.086909,India — Gujarat,production + demand,India
+6600,2023,hourly,ok,50.064039,4.492441,74.404938,0.205157,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2023,annual,ok,39.884321,3.153886,0.0,0.106874,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2023,hourly,ok,20.479368,4.230579,26.47902,0.287306,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2023,annual,ok,15.658107,3.819732,0.0,0.028906,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2023,hourly,ok,50.256414,2.885024,129.214362,0.182049,US — Houston,demand centre,United States of America
+6946,2023,annual,ok,42.062876,3.043714,0.0,0.062625,US — Houston,demand centre,United States of America
+7032,2023,hourly,ok,35.687201,7.106464,231.130888,0.050407,China — Yangtze Delta,demand centre,China
+7032,2023,annual,ok,30.184924,7.094402,0.0,0.02947,China — Yangtze Delta,demand centre,China
+7125,2023,hourly,ok,30.741689,4.48397,64.164938,0.295456,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2023,annual,ok,21.955136,4.116171,0.0,0.024847,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2023,hourly,ok,52.363562,3.353798,186.814273,0.412016,US — LA/Long Beach,demand centre,United States of America
+7225,2023,annual,ok,33.803063,2.840658,0.0,0.10485,US — LA/Long Beach,demand centre,United States of America
+7324,2023,hourly,ok,50.273252,2.832929,150.371794,0.154392,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2023,annual,ok,41.400193,2.945323,0.0,0.048799,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2023,hourly,ok,60.780669,2.957103,130.727255,0.160845,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2023,annual,ok,50.018093,3.567042,0.0,0.016658,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2023,hourly,ok,61.399267,3.916065,197.510123,0.395535,Spain — Huelva,carbon policy,Portugal
+7413,2023,annual,ok,38.833406,3.948827,0.0,0.094831,Spain — Huelva,carbon policy,Portugal
+7604,2023,hourly,ok,20.566583,2.844786,124.576944,0.184904,China — Inner Mongolia,low-cost production,China
+7604,2023,annual,ok,14.743123,3.753821,0.0,-0.0,China — Inner Mongolia,low-cost production,China
+7725,2023,hourly,ok,27.745079,3.21991,69.022735,0.154964,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2023,annual,ok,18.877511,3.156731,0.0,-0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2023,hourly,ok,49.365869,2.757702,182.089414,0.140115,UK — Humber,carbon policy,United Kingdom
+8280,2023,annual,ok,37.455268,3.341957,0.0,0.025295,UK — Humber,carbon policy,United Kingdom
+8282,2023,hourly,ok,40.724522,2.426647,266.1582,0.125196,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2023,annual,ok,29.088099,2.985871,0.0,0.0,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2023,hourly,ok,47.760839,2.954039,228.784159,0.10834,Germany — Wilhelmshaven,demand centre,Germany
+8283,2023,annual,ok,36.703481,2.851052,0.0,0.036681,Germany — Wilhelmshaven,demand centre,Germany
+8431,2023,hourly,ok,41.472633,2.460223,215.939635,0.168314,Poland — Gdansk,carbon policy,Poland
+8431,2023,annual,ok,29.296086,2.895597,0.0,0.022427,Poland — Gdansk,carbon policy,Poland
+8991,2023,hourly,ok,40.46251,3.266615,335.347592,0.141305,Iceland — Reykjanes,island / security,Iceland
+8991,2023,annual,ok,22.714517,3.381541,0.0,-0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2024,hourly,ok,50.552595,3.51445,183.133577,0.063424,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2024,annual,ok,36.872018,2.866219,0.0,0.043455,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2024,hourly,ok,29.753009,3.053273,83.182566,0.276516,South Africa — N. Cape,production + demand,South Africa
+3536,2024,annual,ok,21.213184,3.103018,0.0,0.030156,South Africa — N. Cape,production + demand,South Africa
+3678,2024,hourly,ok,39.262596,3.389245,88.436541,0.362395,Namibia — Luderitz,low-cost production,Namibia
+3678,2024,annual,ok,22.737536,2.681951,0.0,8.6e-05,Namibia — Luderitz,low-cost production,Namibia
+3932,2024,hourly,ok,18.679625,3.728864,24.41694,0.225683,Chile — Antofagasta,low-cost production,Chile
+3932,2024,annual,ok,15.35496,3.648061,0.0,0.027594,Chile — Antofagasta,low-cost production,Chile
+4151,2024,hourly,ok,36.334649,3.155415,79.112028,0.225694,Australia — Pilbara,low-cost production,Australia
+4151,2024,annual,ok,29.836236,2.617649,0.0,0.105382,Australia — Pilbara,low-cost production,Australia
+4984,2024,hourly,ok,49.140115,3.633887,68.778209,0.216421,Kenya — Mombasa,emerging market,Kenya
+4984,2024,annual,ok,36.455702,2.956389,0.0,0.029514,Kenya — Mombasa,emerging market,Kenya
+5010,2024,hourly,ok,40.445475,5.853754,59.07055,0.150783,Indonesia — Java,island / security,Indonesia
+5010,2024,annual,ok,34.272585,5.481365,0.0,0.028551,Indonesia — Java,island / security,Indonesia
+5096,2024,hourly,ok,32.578608,4.644223,92.706723,0.214593,Brazil — Pecem,production + demand,Brazil
+5096,2024,annual,ok,15.81391,2.553736,0.0,0.004569,Brazil — Pecem,production + demand,Brazil
+5441,2024,hourly,ok,43.92104,6.193971,103.358024,0.229802,Singapore — Jurong,island / security,Malaysia
+5441,2024,annual,ok,33.667647,5.703711,0.0,0.030349,Singapore — Jurong,island / security,Malaysia
+6168,2024,hourly,ok,43.662187,5.740824,183.198469,0.172233,Philippines — Batangas,island / security,Philippines
+6168,2024,annual,ok,33.173779,5.506489,0.0,0.032375,Philippines — Batangas,island / security,Philippines
+6346,2024,hourly,ok,42.491735,3.33194,77.848669,0.174551,US — Hawaii (Big Island),island / security,United States of America
+6346,2024,annual,ok,36.29724,2.810337,0.0,0.104412,US — Hawaii (Big Island),island / security,United States of America
+6431,2024,hourly,ok,27.242718,4.003762,38.986654,0.114329,Oman — Duqm,low-cost production,Oman
+6431,2024,annual,ok,23.745451,3.804967,0.0,0.01794,Oman — Duqm,low-cost production,Oman
+6580,2024,hourly,ok,30.143438,3.737087,61.8413,0.245029,India — Gujarat,production + demand,India
+6580,2024,annual,ok,23.526245,2.860141,0.0,0.073162,India — Gujarat,production + demand,India
+6600,2024,hourly,ok,49.20562,4.24426,101.279103,0.180512,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2024,annual,ok,39.382827,3.120165,0.0,0.092612,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2024,hourly,ok,19.63023,3.655405,37.143363,0.24665,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2024,annual,ok,15.37219,3.208516,0.0,0.033345,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2024,hourly,ok,50.571963,3.480408,145.988766,0.119697,US — Houston,demand centre,United States of America
+6946,2024,annual,ok,43.301471,3.121512,0.0,0.074785,US — Houston,demand centre,United States of America
+7032,2024,hourly,ok,40.891414,7.75815,272.131463,0.149728,China — Yangtze Delta,demand centre,China
+7032,2024,annual,ok,31.083238,7.261073,0.0,0.025907,China — Yangtze Delta,demand centre,China
+7125,2024,hourly,ok,34.301173,4.964294,55.408758,0.37344,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2024,annual,ok,22.554075,4.237201,0.0,0.026483,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2024,hourly,ok,49.709894,3.203053,154.995116,0.397577,US — LA/Long Beach,demand centre,United States of America
+7225,2024,annual,ok,33.694732,2.939624,0.0,0.094888,US — LA/Long Beach,demand centre,United States of America
+7324,2024,hourly,ok,48.649247,2.51605,231.400776,0.115978,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2024,annual,ok,37.803019,3.15826,0.0,0.010761,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2024,hourly,ok,60.960815,2.89478,161.06821,0.171439,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2024,annual,ok,46.137251,3.611858,0.0,0.001516,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2024,hourly,ok,58.768553,3.283505,141.021009,0.345217,Spain — Huelva,carbon policy,Portugal
+7413,2024,annual,ok,40.162334,4.021725,0.0,0.11027,Spain — Huelva,carbon policy,Portugal
+7604,2024,hourly,ok,21.722211,2.90348,152.420143,0.138905,China — Inner Mongolia,low-cost production,China
+7604,2024,annual,ok,16.619861,4.003254,0.0,0.007489,China — Inner Mongolia,low-cost production,China
+7725,2024,hourly,ok,27.608745,2.666437,163.741855,0.10804,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2024,annual,ok,18.810507,3.145481,0.0,-0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2024,hourly,ok,54.163294,2.73842,273.86865,0.219741,UK — Humber,carbon policy,United Kingdom
+8280,2024,annual,ok,37.595224,3.259075,0.0,0.045377,UK — Humber,carbon policy,United Kingdom
+8282,2024,hourly,ok,43.444032,2.699856,272.060421,0.166191,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2024,annual,ok,30.602149,3.087254,0.0,0.016995,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2024,hourly,ok,51.943946,2.944299,259.036953,0.191316,Germany — Wilhelmshaven,demand centre,Germany
+8283,2024,annual,ok,38.94434,2.930654,0.0,0.061239,Germany — Wilhelmshaven,demand centre,Germany
+8431,2024,hourly,ok,38.874916,2.532649,178.628506,0.127788,Poland — Gdansk,carbon policy,Poland
+8431,2024,annual,ok,29.074027,2.85658,0.0,0.02699,Poland — Gdansk,carbon policy,Poland
+8991,2024,hourly,ok,34.63007,3.669748,243.671245,0.144569,Iceland — Reykjanes,island / security,Iceland
+8991,2024,annual,ok,22.268489,3.314994,0.0,-0.0,Iceland — Reykjanes,island / security,Iceland
+3071,2025,hourly,ok,50.468191,3.448956,156.317741,0.148257,Argentina — Bahia Blanca,low-cost production,Argentina
+3071,2025,annual,ok,35.739171,2.952498,0.0,0.030667,Argentina — Bahia Blanca,low-cost production,Argentina
+3536,2025,hourly,ok,28.364538,3.015643,51.802493,0.224946,South Africa — N. Cape,production + demand,South Africa
+3536,2025,annual,ok,21.640494,3.155835,0.0,0.026888,South Africa — N. Cape,production + demand,South Africa
+3678,2025,hourly,ok,37.373391,3.472806,63.974897,0.325685,Namibia — Luderitz,low-cost production,Namibia
+3678,2025,annual,ok,22.362024,2.638504,0.0,0.0,Namibia — Luderitz,low-cost production,Namibia
+3932,2025,hourly,ok,19.073932,3.704705,34.877521,0.235513,Chile — Antofagasta,low-cost production,Chile
+3932,2025,annual,ok,15.339076,3.6683,0.0,0.026626,Chile — Antofagasta,low-cost production,Chile
+4151,2025,hourly,ok,35.393608,3.216834,83.113071,0.162962,Australia — Pilbara,low-cost production,Australia
+4151,2025,annual,ok,29.984684,2.611576,0.0,0.104337,Australia — Pilbara,low-cost production,Australia
+4984,2025,hourly,ok,47.882438,3.779471,61.477144,0.216398,Kenya — Mombasa,emerging market,Kenya
+4984,2025,annual,ok,35.954802,3.188968,0.0,0.020296,Kenya — Mombasa,emerging market,Kenya
+5010,2025,hourly,ok,40.473063,5.796126,58.920719,0.122939,Indonesia — Java,island / security,Indonesia
+5010,2025,annual,ok,35.373836,5.608757,0.0,0.02667,Indonesia — Java,island / security,Indonesia
+5096,2025,hourly,ok,31.958001,4.245954,136.685536,0.150035,Brazil — Pecem,production + demand,Brazil
+5096,2025,annual,ok,15.808763,2.56828,0.0,0.002607,Brazil — Pecem,production + demand,Brazil
+5441,2025,hourly,ok,39.511774,5.779666,132.670688,0.135373,Singapore — Jurong,island / security,Malaysia
+5441,2025,annual,ok,32.275321,5.581227,0.0,0.028303,Singapore — Jurong,island / security,Malaysia
+6168,2025,hourly,ok,44.670993,5.693959,127.692385,0.203754,Philippines — Batangas,island / security,Philippines
+6168,2025,annual,ok,34.739093,5.737039,0.0,0.031262,Philippines — Batangas,island / security,Philippines
+6346,2025,hourly,ok,44.221691,3.157582,133.116386,0.190641,US — Hawaii (Big Island),island / security,United States of America
+6346,2025,annual,ok,37.372682,3.305795,0.0,0.075347,US — Hawaii (Big Island),island / security,United States of America
+6431,2025,hourly,ok,27.55029,3.943858,87.60934,0.108762,Oman — Duqm,low-cost production,Oman
+6431,2025,annual,ok,22.677158,4.009661,0.0,0.017021,Oman — Duqm,low-cost production,Oman
+6580,2025,hourly,ok,28.07486,3.383618,65.91408,0.180884,India — Gujarat,production + demand,India
+6580,2025,annual,ok,22.860618,2.637551,0.0,0.086874,India — Gujarat,production + demand,India
+6600,2025,hourly,ok,46.813541,4.141238,91.857935,0.119895,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6600,2025,annual,ok,39.062414,3.097991,0.0,0.087481,"Taiwan, China — Kaohsiung",island / security,Taiwan
+6854,2025,hourly,ok,20.787068,3.835049,42.866091,0.287437,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6854,2025,annual,ok,15.509207,3.660878,0.0,0.027658,Saudi Arabia — NEOM,low-cost production,Saudi Arabia
+6946,2025,hourly,ok,50.572781,3.280721,85.591405,0.18824,US — Houston,demand centre,United States of America
+6946,2025,annual,ok,43.558064,3.134202,0.0,0.081085,US — Houston,demand centre,United States of America
+7032,2025,hourly,ok,37.083378,7.148063,340.037122,0.081724,China — Yangtze Delta,demand centre,China
+7032,2025,annual,ok,28.011986,6.730454,0.0,0.024855,China — Yangtze Delta,demand centre,China
+7125,2025,hourly,ok,39.130018,4.541517,265.547599,0.285966,Morocco — Jorf Lasfar,low-cost production,Morocco
+7125,2025,annual,ok,22.513938,4.211133,0.0,0.027016,Morocco — Jorf Lasfar,low-cost production,Morocco
+7225,2025,hourly,ok,52.823022,4.034204,269.750734,0.340688,US — LA/Long Beach,demand centre,United States of America
+7225,2025,annual,ok,34.181633,3.080906,0.0,0.081594,US — LA/Long Beach,demand centre,United States of America
+7324,2025,hourly,ok,49.647169,2.892907,102.647669,0.245902,South Korea — Ulsan,resource-poor importer,South Korea
+7324,2025,annual,ok,37.58429,2.983205,0.0,0.024299,South Korea — Ulsan,resource-poor importer,South Korea
+7328,2025,hourly,ok,56.231764,3.537922,263.968467,0.067077,Japan — Tokyo Bay,resource-poor importer,Japan
+7328,2025,annual,ok,43.944551,3.434827,0.0,0.002352,Japan — Tokyo Bay,resource-poor importer,Japan
+7413,2025,hourly,ok,59.945421,3.248728,168.745216,0.333601,Spain — Huelva,carbon policy,Portugal
+7413,2025,annual,ok,40.583782,4.086777,0.0,0.101602,Spain — Huelva,carbon policy,Portugal
+7604,2025,hourly,ok,23.619135,3.303731,226.262948,0.179925,China — Inner Mongolia,low-cost production,China
+7604,2025,annual,ok,14.617601,3.721752,0.0,-0.0,China — Inner Mongolia,low-cost production,China
+7725,2025,hourly,ok,27.426871,3.278996,194.785493,0.055384,Kazakhstan — Aktau,low-cost production,Kazakhstan
+7725,2025,annual,ok,19.856038,3.321024,0.0,0.0,Kazakhstan — Aktau,low-cost production,Kazakhstan
+8280,2025,hourly,ok,50.681514,2.784716,196.037093,0.160471,UK — Humber,carbon policy,United Kingdom
+8280,2025,annual,ok,38.821069,3.359617,0.0,0.046415,UK — Humber,carbon policy,United Kingdom
+8282,2025,hourly,ok,40.604894,2.747912,174.463762,0.161537,Netherlands — Rotterdam,demand centre,Netherlands
+8282,2025,annual,ok,31.646107,2.735522,0.0,0.038191,Netherlands — Rotterdam,demand centre,Netherlands
+8283,2025,hourly,ok,49.258414,3.196512,161.180009,0.139106,Germany — Wilhelmshaven,demand centre,Germany
+8283,2025,annual,ok,40.544406,3.007942,0.0,0.057343,Germany — Wilhelmshaven,demand centre,Germany
+8431,2025,hourly,ok,41.195726,2.784126,98.482249,0.207796,Poland — Gdansk,carbon policy,Poland
+8431,2025,annual,ok,31.112941,3.001506,0.0,0.043179,Poland — Gdansk,carbon policy,Poland
+8991,2025,hourly,ok,43.031481,4.068905,216.349263,0.130586,Iceland — Reykjanes,island / security,Iceland
+8991,2025,annual,ok,25.293,3.766251,0.0,-0.0,Iceland — Reykjanes,island / security,Iceland

@@ -1,0 +1,8 @@
+fuel,clim_p99,mkt_p99,clim_max,mkt_max,cv_ratio_med,cv_ratio_max,cv_ratio_max_country,n_countries
+hydrogen,16.437,170.038,41.649,555.323,4.75,16.497,Germany,143
+ammonia,15.028,148.569,36.676,497.015,4.534,15.93,Cyprus,143
+methanol,14.607,173.851,25.627,564.448,5.66,19.332,Germany,143
+e-methane,14.89,215.522,26.078,657.599,6.94,22.228,Germany,143
+e-diesel,14.567,83.048,25.448,97.968,6.702,16.442,Republic of the Congo,143
+e-kerosene,14.567,87.539,25.448,96.706,6.856,16.82,Republic of the Congo,143
+ethanol,14.639,83.048,25.611,97.968,6.671,16.335,Republic of the Congo,143

@@ -1,0 +1,23 @@
+country,year,imports_t,exports_t,reported_imports,reported_exports,imports_usd,net_import_t,source,exports_usd,qty_imputed
+Madagascar,2015,62112.84462877811,0.0,True,False,27919340.719,62112.84462877811,"UN Comtrade public preview, annual, HS 281410, reporter totals",,True
+Madagascar,2016,30737.26781123119,0.0,True,False,13816212.378,30737.26781123119,"UN Comtrade public preview, annual, HS 281410, reporter totals",,True
+Madagascar,2017,51751.338,0.0,True,False,16468252.976,51751.338,"UN Comtrade public preview, annual, HS 281410, reporter totals",,False
+Madagascar,2018,25531.2,1.72,True,True,10340817.076,25529.48,"UN Comtrade public preview, annual, HS 281410, reporter totals",8371.231,False
+Madagascar,2019,33306.27,0.0,True,False,10774566.652,33306.27,"UN Comtrade public preview, annual, HS 281410, reporter totals",,False
+Madagascar,2020,15125.538,0.0,True,False,4546705.707,15125.538,"UN Comtrade public preview, annual, HS 281410, reporter totals",,False
+Madagascar,2021,20416.852,0.0,True,False,13980460.257,20416.852,"UN Comtrade public preview, annual, HS 281410, reporter totals",,False
+Madagascar,2022,33605.33,0.0,True,False,32949623.487,33605.33,"UN Comtrade public preview, annual, HS 281410, reporter totals",,False
+Madagascar,2023,41888.285,0.0,True,False,24977024.104,41888.285,"UN Comtrade public preview, annual, HS 281410, reporter totals",,False
+Madagascar,2024,18027.091,0.0,True,False,8904679.776,18027.091,"UN Comtrade public preview, annual, HS 281410, reporter totals",,False
+Madagascar,2025,0.0,0.0,False,False,,0.0,"UN Comtrade public preview, annual, HS 281410, reporter totals",,False
+Sri Lanka,2015,608.163,182.66,True,True,463969.0,425.50300000000004,"UN Comtrade public preview, annual, HS 281410, reporter totals",312812.0,False
+Sri Lanka,2016,920.202,134.88,True,True,433624.0,785.322,"UN Comtrade public preview, annual, HS 281410, reporter totals",163259.0,False
+Sri Lanka,2017,682.58,160.138,True,True,444176.719,522.442,"UN Comtrade public preview, annual, HS 281410, reporter totals",180223.188,False
+Sri Lanka,2018,0.0,0.0,False,False,,0.0,"UN Comtrade public preview, annual, HS 281410, reporter totals",,False
+Sri Lanka,2019,649.1126999999999,210.359,True,True,476578.721,438.75369999999987,"UN Comtrade public preview, annual, HS 281410, reporter totals",419309.232,False
+Sri Lanka,2020,543.4140085896848,120.508,True,True,398974.713,422.90600858968486,"UN Comtrade public preview, annual, HS 281410, reporter totals",178788.795,True
+Sri Lanka,2021,668.74153,171.403,True,True,594069.496,497.33853,"UN Comtrade public preview, annual, HS 281410, reporter totals",404932.422,False
+Sri Lanka,2022,747.986,174.096,True,True,1067245.075,573.89,"UN Comtrade public preview, annual, HS 281410, reporter totals",535146.423,False
+Sri Lanka,2023,681.7386821855611,114.318,True,True,500532.726,567.4206821855611,"UN Comtrade public preview, annual, HS 281410, reporter totals",298140.372,True
+Sri Lanka,2024,570.3721217239594,92.605,True,True,418767.367,477.76712172395935,"UN Comtrade public preview, annual, HS 281410, reporter totals",221913.613,True
+Sri Lanka,2025,559.740416,94.3,True,True,313091.897,465.44041599999997,"UN Comtrade public preview, annual, HS 281410, reporter totals",266243.355,False

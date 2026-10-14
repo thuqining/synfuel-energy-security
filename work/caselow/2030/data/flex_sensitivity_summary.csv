@@ -1,0 +1,7 @@
+scenario,fuel,run,cells,lcoh_change_median_pct,lcof_change_median_pct,lcof_change_p10_pct,lcof_change_p90_pct,lcof_const_median_mmbtu,lcof_flex_median_mmbtu,storage_h_median,storage_h_const_median,synthesis_capacity_median,lcof_change_demand_weighted_pct,cells_changing_cost_class,build_first_cells_fig2,build_first_demand_share_fig2,build_first_cells,build_first_demand_share,own_tercile_build_first_cells,own_tercile_build_first_demand_share,own_tercile_overlap,rank_correlation
+flex60,Fig. 2 mix,flex60,2740,,-15.2255,-22.5989,-10.1124,79.2254,67.0755,,,,-15.6332,1034.0,327.0,0.3921,542.0,0.637,336.0,0.4009,307.0,0.9818
+flex70,Fig. 2 mix,flex70,2740,,-13.0663,-18.3348,-8.9172,79.2254,68.8777,,,,-13.2993,899.0,327.0,0.3921,509.0,0.5827,335.0,0.3992,312.0,0.9902
+ft9425,Fig. 2 mix,flex60+ft9425,2740,,-7.5829,-13.6781,-4.4665,79.2254,72.7176,,,,-8.8381,558.0,327.0,0.3921,451.0,0.5144,327.0,0.3858,311.0,0.9897
+flex20,Fig. 2 mix,flex20,2740,,-18.4717,-32.8737,-11.3537,79.2254,63.8641,,,,-19.0217,1232.0,327.0,0.3921,588.0,0.6883,341.0,0.4087,291.0,0.9513
+syn150,Fig. 2 mix,syn150,2740,,-11.7295,-20.1042,-6.4427,79.2254,69.6672,,,,-12.3211,852.0,327.0,0.3921,502.0,0.5747,338.0,0.4027,309.0,0.982
+syn200,Fig. 2 mix,syn200,2740,,-8.3823,-17.8213,-2.3639,79.2254,72.2735,,,,-9.0161,659.0,327.0,0.3921,457.0,0.5303,339.0,0.398,309.0,0.9815

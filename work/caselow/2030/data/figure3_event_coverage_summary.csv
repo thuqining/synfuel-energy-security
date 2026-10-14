@@ -1,0 +1,15 @@
+version,event,countries_ge50pct_observed,countries_total
+ft,Arab Spring / Libya + EU Iran oil embargo,21,30
+ft,US Iran sanctions,28,30
+ft,Abqaiq attack,28,30
+ft,Russia–Ukraine + Red Sea / Houthi,29,30
+ft,2026 Hormuz disruption,27,30
+ft,Qatar blockade,0,30
+ft,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,0,30
+ammonia,Arab Spring / Libya + EU Iran oil embargo,0,30
+ammonia,US Iran sanctions,0,30
+ammonia,Abqaiq attack,0,30
+ammonia,Russia–Ukraine + Red Sea / Houthi,0,30
+ammonia,2026 Hormuz disruption,0,30
+ammonia,Qatar blockade,12,30
+ammonia,2021 Russian gas squeeze + Russia–Ukraine + Red Sea / Houthi + Israel–Iran war + 2026 Hormuz disruption,12,30

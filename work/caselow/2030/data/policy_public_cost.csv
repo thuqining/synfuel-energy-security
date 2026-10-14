@@ -1,0 +1,14 @@
+rule,description,ci_kg_per_kg,usd_per_tonne
+ours,islanded · co-located · dedicated · hourly balance,0.0,312.53
+A @ $1.0/kg,hourly matching · hourly credit,0.11,316.14
+A @ $2.0/kg,hourly matching · hourly credit,2.81,441.88
+A @ $3.5/kg,hourly matching · hourly credit,8.74,3484.69
+B @ $1.0/kg,hourly matching · annual credit,0.45,327.9
+B @ $2.0/kg,hourly matching · annual credit,2.61,429.21
+B @ $3.5/kg,hourly matching · annual credit,5.84,797.34
+C @ $1.0/kg,annual matching · incremental renewables,6.43,945.47
+C @ $2.0/kg,annual matching · incremental renewables,5.96,823.85
+C @ $3.5/kg,annual matching · incremental renewables,6.59,997.88
+D @ $1.0/kg,annual matching · non-incremental renewables,6.38,931.97
+D @ $2.0/kg,annual matching · non-incremental renewables,11.71,
+D @ $3.5/kg,annual matching · non-incremental renewables,12.52,

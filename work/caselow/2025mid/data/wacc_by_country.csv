@@ -1,0 +1,258 @@
+country,CONTINENT,equity_risk_premium_pct,wacc_pct,wacc_source
+Norfolk Island,Oceania,4.23,4.0,territory of Australia
+Wallis and Futuna,Oceania,5.010000000000001,4.78,territory of France
+Tonga,Oceania,10.030000000000001,9.8,imputed rating tier BB
+Cook Islands,Oceania,4.23,4.0,territory of New Zealand
+Samoa,Oceania,10.030000000000001,9.8,imputed rating tier BB
+Nauru,Oceania,10.030000000000001,9.8,imputed rating tier BB
+Tuvalu,Oceania,10.030000000000001,9.8,imputed rating tier BB
+Solomon Islands,Oceania,12.63,12.4,imputed rating tier B
+Federated States of Micronesia,Oceania,12.63,12.4,frontier default (B)
+French Polynesia,Oceania,5.010000000000001,4.78,territory of France
+Marshall Islands,Oceania,10.030000000000001,9.8,imputed rating tier BB
+Kiribati,Oceania,10.030000000000001,9.8,imputed rating tier BB
+Fiji,Oceania,10.030000000000001,9.8,imputed rating tier BB
+Sweden,Europe,4.23,4.0,damodaran
+Norway,Europe,4.23,4.0,damodaran
+Germany,Europe,4.23,4.0,damodaran
+Pitcairn Islands,Oceania,5.010000000000001,4.78,territory of United Kingdom
+Denmark,Europe,4.23,4.0,damodaran
+New Caledonia,Oceania,5.010000000000001,4.78,territory of France
+New Zealand,Oceania,4.23,4.0,damodaran
+Papua New Guinea,Oceania,12.63,12.4,imputed rating tier B
+Canada,North America,4.23,4.0,damodaran
+Australia,Oceania,4.23,4.0,damodaran
+Coral Sea Islands,Oceania,12.63,12.4,frontier default (B)
+Guam,Oceania,4.460000000000001,4.23,territory of United States of America
+Northern Mariana Islands,Oceania,4.460000000000001,4.23,territory of United States of America
+Palau,Oceania,10.030000000000001,9.8,imputed rating tier BB
+American Samoa,Oceania,4.460000000000001,4.23,territory of United States of America
+Vanuatu,Oceania,12.63,12.4,imputed rating tier B
+Niue,Oceania,4.23,4.0,territory of New Zealand
+Netherlands,Europe,4.23,4.0,damodaran
+Switzerland,Europe,4.23,4.0,damodaran
+Ashmore and Cartier Islands,Oceania,12.63,12.4,frontier default (B)
+Montserrat,North America,5.010000000000001,4.78,territory of United Kingdom
+Panama,North America,7.53,7.3,imputed rating tier BBB
+United States Minor Outlying Islands,North America,4.460000000000001,4.23,territory of United States of America
+Barbados,North America,12.63,12.4,imputed rating tier B
+Saint Vincent and the Grenadines,North America,12.63,12.4,imputed rating tier B
+Dominica,North America,12.63,12.4,imputed rating tier B
+Saint Lucia,North America,10.030000000000001,9.8,imputed rating tier BB
+Sint Maarten,North America,4.23,4.0,territory of Netherlands
+Cayman Islands,North America,5.010000000000001,4.78,territory of United Kingdom
+Bermuda,North America,5.010000000000001,4.78,territory of United Kingdom
+Saint Kitts and Nevis,North America,10.030000000000001,9.8,imputed rating tier BB
+Curaçao,North America,10.030000000000001,9.8,frontier default (BB)
+Aruba,North America,4.23,4.0,territory of Netherlands
+United States Virgin Islands,North America,4.460000000000001,4.23,territory of United States of America
+Antigua and Barbuda,North America,12.63,12.4,imputed rating tier B
+Haiti,North America,16.63,16.4,imputed rating tier UNRATED_CONFLICT
+US Naval Base Guantanamo Bay,North America,10.030000000000001,9.8,frontier default (BB)
+Turks and Caicos Islands,North America,5.010000000000001,4.78,territory of United Kingdom
+The Bahamas,North America,10.030000000000001,9.8,frontier default (BB)
+Greenland,North America,4.23,4.0,territory of Denmark
+Saint Pierre and Miquelon,North America,5.010000000000001,4.78,territory of France
+Grenada,North America,12.63,12.4,imputed rating tier B
+Saint Martin,North America,5.010000000000001,4.78,territory of France
+Trinidad and Tobago,North America,7.53,7.3,imputed rating tier BBB
+British Virgin Islands,North America,5.010000000000001,4.78,territory of United Kingdom
+Puerto Rico,North America,4.460000000000001,4.23,territory of United States of America
+Jamaica,North America,10.030000000000001,9.8,imputed rating tier BB
+Anguilla,North America,5.010000000000001,4.78,territory of United Kingdom
+Saint Barthelemy,North America,5.010000000000001,4.78,territory of France
+Costa Rica,North America,10.030000000000001,9.8,imputed rating tier BB
+Nicaragua,North America,12.63,12.4,imputed rating tier B
+Belize,North America,12.63,12.4,imputed rating tier B
+United States of America,North America,4.46,4.23,damodaran
+Bajo Nuevo Bank (Petrel Is.),North America,10.030000000000001,9.8,frontier default (BB)
+Guatemala,North America,10.030000000000001,9.8,imputed rating tier BB
+Honduras,North America,12.63,12.4,imputed rating tier B
+Cuba,North America,14.83,14.6,imputed rating tier CCC
+Dominican Republic,North America,10.030000000000001,9.8,imputed rating tier BB
+El Salvador,North America,10.030000000000001,9.8,frontier default (BB)
+Serranilla Bank,North America,10.030000000000001,9.8,frontier default (BB)
+Austria,Europe,4.59,4.36,damodaran
+Finland,Europe,4.59,4.36,damodaran
+South Korea,Asia,4.87,4.64,damodaran
+United Arab Emirates,Asia,4.87,4.64,damodaran
+Qatar,Asia,4.87,4.64,damodaran
+Bulgaria,Europe,7.53,7.3,imputed rating tier BBB
+Croatia,Europe,7.53,7.3,imputed rating tier BBB
+Slovenia,Europe,5.73,5.5,imputed rating tier A
+Saudi Arabia,Asia,5.01,4.78,damodaran
+San Marino,Europe,7.53,7.3,imputed rating tier BBB
+Monaco,Europe,4.430000000000001,4.2,imputed rating tier AA
+Republic of Serbia,Europe,10.030000000000001,9.8,imputed rating tier BB
+Liechtenstein,Europe,4.430000000000001,4.2,imputed rating tier AA
+Albania,Europe,10.030000000000001,9.8,imputed rating tier BB
+North Macedonia,Europe,10.030000000000001,9.8,imputed rating tier BB
+Vatican,Europe,4.430000000000001,4.2,imputed rating tier AA
+Gibraltar,Europe,5.010000000000001,4.78,territory of United Kingdom
+Montenegro,Europe,10.030000000000001,9.8,imputed rating tier BB
+Andorra,Europe,7.53,7.3,imputed rating tier BBB
+Bosnia and Herzegovina,Europe,10.030000000000001,9.8,imputed rating tier BB
+Moldova,Europe,10.030000000000001,9.8,imputed rating tier BB
+United Kingdom,Europe,5.01,4.78,damodaran
+Ireland,Europe,5.01,4.78,damodaran
+Hungary,Europe,7.53,7.3,imputed rating tier BBB
+Slovakia,Europe,5.73,5.5,imputed rating tier A
+Romania,Europe,7.53,7.3,imputed rating tier BBB
+Luxembourg,Europe,4.430000000000001,4.2,imputed rating tier AA
+Belgium,Europe,4.430000000000001,4.2,imputed rating tier AA
+Kosovo,Europe,10.030000000000001,9.8,imputed rating tier BB
+Belarus,Europe,16.63,16.4,imputed rating tier UNRATED_CONFLICT
+Malta,Europe,5.73,5.5,imputed rating tier A
+Jersey,Europe,10.030000000000001,9.8,frontier default (BB)
+Guernsey,Europe,10.030000000000001,9.8,frontier default (BB)
+Lithuania,Europe,5.73,5.5,imputed rating tier A
+Czechia,Europe,4.430000000000001,4.2,imputed rating tier AA
+Latvia,Europe,5.73,5.5,imputed rating tier A
+Estonia,Europe,5.73,5.5,imputed rating tier A
+Aland,Europe,4.590000000000001,4.36,territory of Finland
+Faroe Islands,Europe,4.23,4.0,territory of Denmark
+Isle of Man,Europe,10.030000000000001,9.8,frontier default (BB)
+France,Europe,5.01,4.78,damodaran
+Kuwait,Asia,5.14,4.91,damodaran
+China,Asia,5.14,4.91,damodaran
+Iceland,Europe,5.14,4.91,damodaran
+Japan,Asia,5.14,4.91,damodaran
+Chile,South America,5.33,5.1,damodaran
+Poland,Europe,5.33,5.1,damodaran
+Spain,Europe,5.78,5.55,damodaran
+Malaysia,Asia,5.78,5.55,damodaran
+Portugal,Europe,5.78,5.55,damodaran
+Peru,South America,6.3,6.07,damodaran
+Thailand,Asia,6.3,6.07,damodaran
+Israel,Asia,6.3,6.07,damodaran
+Botswana,Africa,6.3,6.07,damodaran
+Uruguay,South America,6.3,6.07,damodaran
+Kazakhstan,Asia,6.3,6.07,damodaran
+Bahrain,Asia,12.63,12.4,frontier default (B)
+Dhekelia Sovereign Base Area,Asia,12.63,12.4,frontier default (B)
+Mexico,North America,6.69,6.46,damodaran
+Cyprus No Mans Area,Asia,12.63,12.4,frontier default (B)
+Nepal,Asia,12.63,12.4,imputed rating tier B
+Afghanistan,Asia,16.63,16.4,imputed rating tier UNRATED_CONFLICT
+Kyrgyzstan,Asia,12.63,12.4,imputed rating tier B
+Yemen,Asia,16.63,16.4,imputed rating tier UNRATED_CONFLICT
+Hong Kong S.A.R.,Asia,5.140000000000001,4.91,territory of China
+Baykonur Cosmodrome,Asia,12.63,12.4,frontier default (B)
+Siachen Glacier,Asia,12.63,12.4,frontier default (B)
+Akrotiri Sovereign Base Area,Asia,12.63,12.4,frontier default (B)
+Northern Cyprus,Asia,12.63,12.4,frontier default (B)
+Georgia,Asia,10.030000000000001,9.8,imputed rating tier BB
+Azerbaijan,Asia,10.030000000000001,9.8,imputed rating tier BB
+Armenia,Asia,10.030000000000001,9.8,imputed rating tier BB
+Taiwan,Asia,4.430000000000001,4.2,imputed rating tier AA
+Lebanon,Asia,12.63,12.4,frontier default (B)
+Palestine,Asia,12.63,12.4,frontier default (B)
+Macao S.A.R,Asia,5.140000000000001,4.91,territory of China
+Turkmenistan,Asia,12.63,12.4,imputed rating tier B
+Brunei,Asia,5.73,5.5,imputed rating tier A
+Italy,Europe,6.69,6.46,damodaran
+Cambodia,Asia,12.63,12.4,imputed rating tier B
+Tajikistan,Asia,12.63,12.4,imputed rating tier B
+North Korea,Asia,16.63,16.4,imputed rating tier UNRATED_CONFLICT
+Syria,Asia,16.63,16.4,imputed rating tier UNRATED_CONFLICT
+Indian Ocean Territories,Asia,12.63,12.4,frontier default (B)
+Indonesia,Asia,6.69,6.46,damodaran
+Bhutan,Asia,12.63,12.4,imputed rating tier B
+Singapore,Asia,12.63,12.4,frontier default (B)
+Scarborough Reef,Asia,12.63,12.4,frontier default (B)
+Cyprus,Asia,7.53,7.3,imputed rating tier BBB
+Spratly Islands,Asia,12.63,12.4,frontier default (B)
+Laos,Asia,14.83,14.6,imputed rating tier CCC
+Sri Lanka,Asia,14.83,14.6,imputed rating tier CCC
+Philippines,Asia,6.69,6.46,damodaran
+Myanmar,Asia,16.63,16.4,imputed rating tier UNRATED_CONFLICT
+East Timor,Asia,12.63,12.4,frontier default (B)
+Paraguay,South America,7.08,6.85,damodaran
+Colombia,South America,7.08,6.85,damodaran
+India,Asia,7.08,6.85,damodaran
+Clipperton Island,Seven seas (open ocean),12.63,12.4,frontier default (B)
+South Georgia and the Islands,Seven seas (open ocean),5.010000000000001,4.78,territory of United Kingdom
+Greece,Europe,7.08,6.85,damodaran
+British Indian Ocean Territory,Seven seas (open ocean),5.010000000000001,4.78,territory of United Kingdom
+Oman,Asia,7.08,6.85,damodaran
+French Southern and Antarctic Lands,Seven seas (open ocean),5.010000000000001,4.78,territory of France
+Seychelles,Seven seas (open ocean),10.030000000000001,9.8,imputed rating tier BB
+Saint Helena,Seven seas (open ocean),5.010000000000001,4.78,territory of United Kingdom
+Mauritius,Seven seas (open ocean),7.53,7.3,imputed rating tier BBB
+Heard Island and McDonald Islands,Seven seas (open ocean),4.23,4.0,territory of Australia
+Maldives,Seven seas (open ocean),14.83,14.6,imputed rating tier CCC
+Guyana,South America,10.030000000000001,9.8,imputed rating tier BB
+Suriname,South America,14.83,14.6,imputed rating tier CCC
+Brazilian Island,South America,10.030000000000001,9.8,frontier default (BB)
+Southern Patagonian Ice Field,South America,10.030000000000001,9.8,frontier default (BB)
+Falkland Islands,South America,5.010000000000001,4.78,territory of United Kingdom
+Brazil,South America,7.47,7.24,damodaran
+Morocco,Africa,7.47,7.24,damodaran
+Libya,Africa,8.13,7.9,damodaran
+Vietnam,Asia,8.13,7.9,damodaran
+Russia,Europe,8.13,7.9,damodaran
+Ivory Coast,Africa,8.13,7.9,damodaran
+South Africa,Africa,8.13,7.9,damodaran
+Jordan,Asia,8.89,8.66,damodaran
+Turkey,Asia,8.89,8.66,damodaran
+Uzbekistan,Asia,8.89,8.66,damodaran
+Algeria,Africa,10.06,9.83,damodaran
+Mongolia,Asia,10.06,9.83,damodaran
+Namibia,Africa,10.06,9.83,damodaran
+United Republic of Tanzania,Africa,10.06,9.83,damodaran
+Bangladesh,Asia,11.35,11.12,damodaran
+Angola,Africa,12.64,12.41,damodaran
+Nigeria,Africa,12.64,12.41,damodaran
+Democratic Republic of the Congo,Africa,12.64,12.41,damodaran
+Benin,Africa,12.63,12.4,imputed rating tier B
+Burundi,Africa,12.63,12.4,imputed rating tier B
+Chad,Africa,14.83,14.6,imputed rating tier CCC
+Liberia,Africa,12.63,12.4,imputed rating tier B
+Argentina,South America,13.94,13.71,damodaran
+South Sudan,Africa,16.63,16.4,imputed rating tier UNRATED_CONFLICT
+Somalia,Africa,16.63,16.4,imputed rating tier UNRATED_CONFLICT
+Iran,Asia,13.94,13.71,damodaran
+Pakistan,Asia,13.94,13.71,damodaran
+Senegal,Africa,13.94,13.71,damodaran
+Sierra Leone,Africa,12.63,12.4,imputed rating tier B
+Togo,Africa,12.63,12.4,imputed rating tier B
+Madagascar,Africa,12.63,12.4,imputed rating tier B
+Egypt,Africa,13.94,13.71,damodaran
+Gambia,Africa,12.63,12.4,imputed rating tier B
+Equatorial Guinea,Africa,14.83,14.6,imputed rating tier CCC
+Mauritania,Africa,12.63,12.4,imputed rating tier B
+Uganda,Africa,12.63,12.4,imputed rating tier B
+Burkina Faso,Africa,14.83,14.6,imputed rating tier CCC
+Rwanda,Africa,12.63,12.4,imputed rating tier B
+Guinea,Africa,12.63,12.4,imputed rating tier B
+Djibouti,Africa,12.63,12.4,imputed rating tier B
+Eritrea,Africa,16.63,16.4,imputed rating tier UNRATED_CONFLICT
+Iraq,Asia,13.94,13.71,damodaran
+Central African Republic,Africa,16.63,16.4,imputed rating tier UNRATED_CONFLICT
+eSwatini,Africa,12.63,12.4,frontier default (B)
+Gabon,Africa,14.83,14.6,imputed rating tier CCC
+Cameroon,Africa,13.94,13.71,damodaran
+Bir Tawil,Africa,12.63,12.4,frontier default (B)
+Lesotho,Africa,12.63,12.4,imputed rating tier B
+Tunisia,Africa,13.94,13.71,damodaran
+Guinea-Bissau,Africa,12.63,12.4,imputed rating tier B
+Ghana,Africa,13.94,13.71,damodaran
+Kenya,Africa,13.94,13.71,damodaran
+Malawi,Africa,14.83,14.6,imputed rating tier CCC
+Comoros,Africa,12.63,12.4,imputed rating tier B
+Cabo Verde,Africa,12.63,12.4,frontier default (B)
+Somaliland,Africa,16.63,16.4,imputed rating tier UNRATED_CONFLICT
+São Tomé and Principe,Africa,12.63,12.4,frontier default (B)
+Western Sahara,Africa,7.470000000000001,7.24,territory of Morocco
+Republic of the Congo,Africa,14.83,14.6,imputed rating tier CCC
+Ethiopia,Africa,15.89,15.66,damodaran
+Zambia,Africa,15.89,15.66,damodaran
+Mali,Africa,15.89,15.66,damodaran
+Zimbabwe,Africa,15.89,15.66,damodaran
+Ecuador,South America,17.18,16.95,damodaran
+Mozambique,Africa,17.18,16.95,damodaran
+Niger,Africa,17.18,16.95,damodaran
+Bolivia,South America,19.77,19.54,damodaran
+Ukraine,Europe,19.77,19.54,damodaran
+Sudan,Africa,30.89,30.66,damodaran
+Venezuela,South America,30.89,30.66,damodaran

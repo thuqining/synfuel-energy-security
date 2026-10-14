@@ -1,0 +1,475 @@
+country,scenario_id,probability,unserved_quantity,unit,duration_days,end_use,end_use_class
+Albania,s1_top_supplier,0.2625,3040388.0048128422,GJ,243,gas,energetic
+Albania,s2_systemic,0.15,3923343.4057169077,GJ,106,gas,energetic
+Albania,s1_top_supplier,0.2625,10929646.083478244,GJ,243,oil,energetic
+Albania,s2_systemic,0.15,10570040.676672915,GJ,106,oil,energetic
+Angola,s1_top_supplier,0.2625,27691.596626803683,GJ,243,gas,energetic
+Angola,s2_systemic,0.15,24857.909745592216,GJ,106,gas,energetic
+Angola,s1_top_supplier,0.2625,31451840.165351555,GJ,243,oil,energetic
+Angola,s2_systemic,0.15,60774792.77359573,GJ,106,oil,energetic
+Argentina,s1_top_supplier,0.2625,98175438.69434,GJ,243,gas,energetic
+Argentina,s2_systemic,0.15,80226893.5113048,GJ,106,gas,energetic
+Argentina,s1_top_supplier,0.2625,61143750.99855012,GJ,243,oil,energetic
+Argentina,s2_systemic,0.15,65208300.41481527,GJ,106,oil,energetic
+Armenia,s1_top_supplier,0.2625,31130472.442676824,GJ,243,gas,energetic
+Armenia,s2_systemic,0.15,15533138.667742297,GJ,106,gas,energetic
+Armenia,s1_top_supplier,0.2625,13468559.302698405,GJ,243,oil,energetic
+Armenia,s2_systemic,0.15,9193321.496693717,GJ,106,oil,energetic
+Australia,s1_top_supplier,0.2625,15090772.713296229,GJ,243,gas,energetic
+Australia,s2_systemic,0.15,7093004.898649861,GJ,106,gas,energetic
+Australia,s1_top_supplier,0.2625,499394073.9951517,GJ,243,oil,energetic
+Australia,s2_systemic,0.15,653133566.8115145,GJ,106,oil,energetic
+Austria,s1_top_supplier,0.2625,176982822.6148378,GJ,243,gas,energetic
+Austria,s2_systemic,0.15,77582281.13056992,GJ,106,gas,energetic
+Austria,s1_top_supplier,0.2625,137471959.6685364,GJ,243,oil,energetic
+Austria,s2_systemic,0.15,135361309.1150477,GJ,106,oil,energetic
+Azerbaijan,s1_top_supplier,0.2625,14942720.966050528,GJ,243,gas,energetic
+Azerbaijan,s2_systemic,0.15,10864084.042716604,GJ,106,gas,energetic
+Azerbaijan,s1_top_supplier,0.2625,43414463.415760145,GJ,243,oil,energetic
+Azerbaijan,s2_systemic,0.15,33820810.453287356,GJ,106,oil,energetic
+Belgium,s1_top_supplier,0.2625,103361657.77494335,GJ,243,gas,energetic
+Belgium,s2_systemic,0.15,141465601.33774382,GJ,106,gas,energetic
+Belgium,s1_top_supplier,0.2625,772151739.1241361,GJ,243,oil,energetic
+Belgium,s2_systemic,0.15,342492050.16233593,GJ,106,oil,energetic
+Belize,s1_top_supplier,0.2625,676768.119454105,GJ,243,gas,energetic
+Belize,s2_systemic,0.15,471169.039734435,GJ,106,gas,energetic
+Belize,s1_top_supplier,0.2625,6344094.341332101,GJ,243,oil,energetic
+Belize,s2_systemic,0.15,3243468.746920872,GJ,106,oil,energetic
+Benin,s1_top_supplier,0.2625,671790.3637435082,GJ,243,gas,energetic
+Benin,s2_systemic,0.15,448720.16914439265,GJ,106,gas,energetic
+Benin,s1_top_supplier,0.2625,3780311.759665987,GJ,243,oil,energetic
+Benin,s2_systemic,0.15,9002449.049658457,GJ,106,oil,energetic
+Bhutan,s1_top_supplier,0.2625,426662.77446180297,GJ,243,gas,energetic
+Bhutan,s2_systemic,0.15,186664.9638270388,GJ,106,gas,energetic
+Bhutan,s1_top_supplier,0.2625,7295839.071968038,GJ,243,oil,energetic
+Bhutan,s2_systemic,0.15,3195223.322033771,GJ,106,oil,energetic
+Bolivia,s1_top_supplier,0.2625,789.7714682531099,GJ,243,gas,energetic
+Bolivia,s2_systemic,0.15,367.9928310438075,GJ,106,gas,energetic
+Bolivia,s1_top_supplier,0.2625,37237047.304072775,GJ,243,oil,energetic
+Bolivia,s2_systemic,0.15,54347580.601329185,GJ,106,oil,energetic
+Bosnia and Herzegovina,s1_top_supplier,0.2625,6726280.704369041,GJ,243,gas,energetic
+Bosnia and Herzegovina,s2_systemic,0.15,4257675.704322022,GJ,106,gas,energetic
+Bosnia and Herzegovina,s1_top_supplier,0.2625,32298546.99736999,GJ,243,oil,energetic
+Bosnia and Herzegovina,s2_systemic,0.15,24159964.071063608,GJ,106,oil,energetic
+Botswana,s1_top_supplier,0.2625,1546061.5561271275,GJ,243,gas,energetic
+Botswana,s2_systemic,0.15,677100.9034408006,GJ,106,gas,energetic
+Botswana,s1_top_supplier,0.2625,34162743.18434321,GJ,243,oil,energetic
+Botswana,s2_systemic,0.15,20582980.796207633,GJ,106,oil,energetic
+Brazil,s1_top_supplier,0.2625,95743167.86994094,GJ,243,gas,energetic
+Brazil,s2_systemic,0.15,74950422.8634761,GJ,106,gas,energetic
+Brazil,s1_top_supplier,0.2625,345583669.371672,GJ,243,oil,energetic
+Brazil,s2_systemic,0.15,548054159.8677841,GJ,106,oil,energetic
+Bulgaria,s1_top_supplier,0.2625,20945894.627960954,GJ,243,gas,energetic
+Bulgaria,s2_systemic,0.15,28233188.36715528,GJ,106,gas,energetic
+Bulgaria,s1_top_supplier,0.2625,126421089.30748741,GJ,243,oil,energetic
+Bulgaria,s2_systemic,0.15,64425812.99795098,GJ,106,oil,energetic
+Burkina Faso,s1_top_supplier,0.2625,4381990.564711136,GJ,243,gas,energetic
+Burkina Faso,s2_systemic,0.15,2912696.6749897394,GJ,106,gas,energetic
+Burkina Faso,s1_top_supplier,0.2625,22265039.95531083,GJ,243,oil,energetic
+Burkina Faso,s2_systemic,0.15,36632024.82540563,GJ,106,oil,energetic
+Cambodia,s1_top_supplier,0.2625,8359244.959496775,GJ,243,gas,energetic
+Cambodia,s2_systemic,0.15,7061631.266377202,GJ,106,gas,energetic
+Cambodia,s1_top_supplier,0.2625,28292450.77138291,GJ,243,oil,energetic
+Cambodia,s2_systemic,0.15,42055694.559262656,GJ,106,oil,energetic
+Cameroon,s1_top_supplier,0.2625,4048854.872183869,GJ,243,gas,energetic
+Cameroon,s2_systemic,0.15,2262677.5631675622,GJ,106,gas,energetic
+Cameroon,s1_top_supplier,0.2625,17300746.82087657,GJ,243,oil,energetic
+Cameroon,s2_systemic,0.15,34176619.029833294,GJ,106,oil,energetic
+Canada,s1_top_supplier,0.2625,165260237.74460384,GJ,243,gas,energetic
+Canada,s2_systemic,0.15,73343879.07918072,GJ,106,gas,energetic
+Canada,s1_top_supplier,0.2625,1092258265.8525722,GJ,243,oil,energetic
+Canada,s2_systemic,0.15,643557852.1345495,GJ,106,oil,energetic
+Central African Republic,s1_top_supplier,0.2625,15897.507977830612,GJ,243,gas,energetic
+Central African Republic,s2_systemic,0.15,10528.880898033993,GJ,106,gas,energetic
+Central African Republic,s1_top_supplier,0.2625,2279588.138310593,GJ,243,oil,energetic
+Central African Republic,s2_systemic,0.15,1815051.808857078,GJ,106,oil,energetic
+Chile,s1_top_supplier,0.2625,67186480.95467485,GJ,243,gas,energetic
+Chile,s2_systemic,0.15,75907465.97344053,GJ,106,gas,energetic
+Chile,s1_top_supplier,0.2625,420315242.4212505,GJ,243,oil,energetic
+Chile,s2_systemic,0.15,248015806.15262783,GJ,106,oil,energetic
+China,s1_top_supplier,0.2625,1037102195.3676239,GJ,243,gas,energetic
+China,s2_systemic,0.15,2533096943.2975116,GJ,106,gas,energetic
+China,s1_top_supplier,0.2625,3418721423.331387,GJ,243,oil,energetic
+China,s2_systemic,0.15,8080810724.617859,GJ,106,oil,energetic
+Colombia,s1_top_supplier,0.2625,30025734.042038325,GJ,243,gas,energetic
+Colombia,s2_systemic,0.15,14233723.82128755,GJ,106,gas,energetic
+Colombia,s1_top_supplier,0.2625,170313588.62649444,GJ,243,oil,energetic
+Colombia,s2_systemic,0.15,111197175.35674389,GJ,106,oil,energetic
+Costa Rica,s1_top_supplier,0.2625,7048724.387769409,GJ,243,gas,energetic
+Costa Rica,s2_systemic,0.15,3119627.633929985,GJ,106,gas,energetic
+Costa Rica,s1_top_supplier,0.2625,82613133.47662385,GJ,243,oil,energetic
+Costa Rica,s2_systemic,0.15,44306573.35517027,GJ,106,oil,energetic
+Croatia,s1_top_supplier,0.2625,26233670.78712702,GJ,243,gas,energetic
+Croatia,s2_systemic,0.15,27636618.334243488,GJ,106,gas,energetic
+Croatia,s1_top_supplier,0.2625,80513116.41487236,GJ,243,oil,energetic
+Croatia,s2_systemic,0.15,51399166.98402981,GJ,106,oil,energetic
+Cyprus,s1_top_supplier,0.2625,21686681.225175235,GJ,243,oil,energetic
+Cyprus,s2_systemic,0.15,31682459.434087258,GJ,106,oil,energetic
+Czechia,s1_top_supplier,0.2625,131177983.30658771,GJ,243,gas,energetic
+Czechia,s2_systemic,0.15,74993102.00214405,GJ,106,gas,energetic
+Czechia,s1_top_supplier,0.2625,139732174.1292374,GJ,243,oil,energetic
+Czechia,s2_systemic,0.15,117782907.27956967,GJ,106,oil,energetic
+Democratic Republic of the Congo,s1_top_supplier,0.2625,236036.28032533044,GJ,243,gas,energetic
+Democratic Republic of the Congo,s2_systemic,0.15,240363.29681956678,GJ,106,gas,energetic
+Democratic Republic of the Congo,s1_top_supplier,0.2625,95227484.81909974,GJ,243,oil,energetic
+Democratic Republic of the Congo,s2_systemic,0.15,164755170.3955684,GJ,106,oil,energetic
+Denmark,s1_top_supplier,0.2625,28431888.760879308,GJ,243,gas,energetic
+Denmark,s2_systemic,0.15,16897530.288896065,GJ,106,gas,energetic
+Denmark,s1_top_supplier,0.2625,109500936.13866341,GJ,243,oil,energetic
+Denmark,s2_systemic,0.15,87749282.39128985,GJ,106,oil,energetic
+Dominican Republic,s1_top_supplier,0.2625,70500821.59515592,GJ,243,gas,energetic
+Dominican Republic,s2_systemic,0.15,34753091.17641052,GJ,106,gas,energetic
+Dominican Republic,s1_top_supplier,0.2625,136770141.84123757,GJ,243,oil,energetic
+Dominican Republic,s2_systemic,0.15,76597554.21106939,GJ,106,oil,energetic
+Ecuador,s1_top_supplier,0.2625,11941957.087598376,GJ,243,gas,energetic
+Ecuador,s2_systemic,0.15,5226515.3606128385,GJ,106,gas,energetic
+Ecuador,s1_top_supplier,0.2625,133301350.54432903,GJ,243,oil,energetic
+Ecuador,s2_systemic,0.15,76459125.48683383,GJ,106,oil,energetic
+Egypt,s1_top_supplier,0.2625,165158784.2699838,GJ,243,gas,energetic
+Egypt,s2_systemic,0.15,101279152.32298541,GJ,106,gas,energetic
+Egypt,s1_top_supplier,0.2625,140817666.18556872,GJ,243,oil,energetic
+Egypt,s2_systemic,0.15,158056105.89851013,GJ,106,oil,energetic
+Ethiopia,s1_top_supplier,0.2625,440535.2123269408,GJ,243,gas,energetic
+Ethiopia,s2_systemic,0.15,316549.3451250422,GJ,106,gas,energetic
+Ethiopia,s1_top_supplier,0.2625,55273292.48611259,GJ,243,oil,energetic
+Ethiopia,s2_systemic,0.15,44176988.36345484,GJ,106,oil,energetic
+Fiji,s1_top_supplier,0.2625,1965019.617113515,GJ,243,gas,energetic
+Fiji,s2_systemic,0.15,929978.0091154011,GJ,106,gas,energetic
+Fiji,s1_top_supplier,0.2625,29574760.492141064,GJ,243,oil,energetic
+Fiji,s2_systemic,0.15,13058567.992535353,GJ,106,oil,energetic
+Finland,s1_top_supplier,0.2625,15856812.597888933,GJ,243,gas,energetic
+Finland,s2_systemic,0.15,11683353.124857225,GJ,106,gas,energetic
+Finland,s1_top_supplier,0.2625,162994436.2506923,GJ,243,oil,energetic
+Finland,s2_systemic,0.15,90622014.34143509,GJ,106,oil,energetic
+France,s1_top_supplier,0.2625,362144202.09871936,GJ,243,gas,energetic
+France,s2_systemic,0.15,322786604.5671433,GJ,106,gas,energetic
+France,s1_top_supplier,0.2625,350367327.3902145,GJ,243,oil,energetic
+France,s2_systemic,0.15,805248734.9921827,GJ,106,oil,energetic
+Gabon,s1_top_supplier,0.2625,1178135.4374229796,GJ,243,gas,energetic
+Gabon,s2_systemic,0.15,667895.0276488321,GJ,106,gas,energetic
+Gabon,s1_top_supplier,0.2625,2193475.3391926377,GJ,243,oil,energetic
+Gabon,s2_systemic,0.15,4127281.848909428,GJ,106,oil,energetic
+Georgia,s1_top_supplier,0.2625,21464427.071820024,GJ,243,gas,energetic
+Georgia,s2_systemic,0.15,13331714.470737537,GJ,106,gas,energetic
+Georgia,s1_top_supplier,0.2625,23162822.384567913,GJ,243,oil,energetic
+Georgia,s2_systemic,0.15,21321284.68008938,GJ,106,oil,energetic
+Germany,s1_top_supplier,0.2625,1235688525.5843182,GJ,243,gas,energetic
+Germany,s2_systemic,0.15,854996893.9639505,GJ,106,gas,energetic
+Germany,s1_top_supplier,0.2625,659892782.3490828,GJ,243,oil,energetic
+Germany,s2_systemic,0.15,1224727413.761027,GJ,106,oil,energetic
+Ghana,s1_top_supplier,0.2625,4633609.417912426,GJ,243,gas,energetic
+Ghana,s2_systemic,0.15,5058299.666068359,GJ,106,gas,energetic
+Ghana,s1_top_supplier,0.2625,60649392.670837454,GJ,243,oil,energetic
+Ghana,s2_systemic,0.15,92286200.59725773,GJ,106,oil,energetic
+Greece,s1_top_supplier,0.2625,58066652.28961876,GJ,243,gas,energetic
+Greece,s2_systemic,0.15,74686497.06391047,GJ,106,gas,energetic
+Greece,s1_top_supplier,0.2625,156406442.74046275,GJ,243,oil,energetic
+Greece,s2_systemic,0.15,182970694.13772193,GJ,106,oil,energetic
+Guatemala,s1_top_supplier,0.2625,27176852.5617125,GJ,243,gas,energetic
+Guatemala,s2_systemic,0.15,11915949.409923555,GJ,106,gas,energetic
+Guatemala,s1_top_supplier,0.2625,154592128.51397702,GJ,243,oil,energetic
+Guatemala,s2_systemic,0.15,74918312.5386209,GJ,106,oil,energetic
+Guyana,s1_top_supplier,0.2625,1152861.0314842293,GJ,243,gas,energetic
+Guyana,s2_systemic,0.15,685042.8818218425,GJ,106,gas,energetic
+Guyana,s1_top_supplier,0.2625,22338813.67239779,GJ,243,oil,energetic
+Guyana,s2_systemic,0.15,17949157.482574657,GJ,106,oil,energetic
+Honduras,s1_top_supplier,0.2625,3381062.1738500907,GJ,243,gas,energetic
+Honduras,s2_systemic,0.15,1483867.8883255506,GJ,106,gas,energetic
+Honduras,s1_top_supplier,0.2625,96219013.30802034,GJ,243,oil,energetic
+Honduras,s2_systemic,0.15,45726874.61975428,GJ,106,oil,energetic
+Hungary,s1_top_supplier,0.2625,161498208.39497554,GJ,243,gas,energetic
+Hungary,s2_systemic,0.15,90154442.23885477,GJ,106,gas,energetic
+Hungary,s1_top_supplier,0.2625,145064396.2908259,GJ,243,oil,energetic
+Hungary,s2_systemic,0.15,99200977.01668014,GJ,106,oil,energetic
+Iceland,s1_top_supplier,0.2625,13010933.161378706,GJ,243,oil,energetic
+Iceland,s2_systemic,0.15,11996746.305723647,GJ,106,oil,energetic
+India,s1_top_supplier,0.2625,618527571.8254596,GJ,243,gas,energetic
+India,s2_systemic,0.15,692778264.5768982,GJ,106,gas,energetic
+India,s1_top_supplier,0.2625,2524300200.544066,GJ,243,oil,energetic
+India,s2_systemic,0.15,3180194008.881661,GJ,106,oil,energetic
+Indonesia,s1_top_supplier,0.2625,106010331.37039179,GJ,243,gas,energetic
+Indonesia,s2_systemic,0.15,110130879.05198915,GJ,106,gas,energetic
+Indonesia,s1_top_supplier,0.2625,610872096.8938323,GJ,243,oil,energetic
+Indonesia,s2_systemic,0.15,619503634.9087826,GJ,106,oil,energetic
+Iran,s1_top_supplier,0.2625,5453.627393834505,GJ,243,gas,energetic
+Iran,s2_systemic,0.15,3572.442289778259,GJ,106,gas,energetic
+Iran,s1_top_supplier,0.2625,5951888.621154736,GJ,243,oil,energetic
+Iran,s2_systemic,0.15,4856123.665802541,GJ,106,oil,energetic
+Iraq,s1_top_supplier,0.2625,40236.30225202813,GJ,243,gas,energetic
+Iraq,s2_systemic,0.15,17603.382235262306,GJ,106,gas,energetic
+Iraq,s1_top_supplier,0.2625,179608406.4665127,GJ,243,oil,energetic
+Iraq,s2_systemic,0.15,78964536.35775982,GJ,106,oil,energetic
+Ireland,s1_top_supplier,0.2625,114133130.26338853,GJ,243,gas,energetic
+Ireland,s2_systemic,0.15,51067888.02424836,GJ,106,gas,energetic
+Ireland,s1_top_supplier,0.2625,102542005.43489397,GJ,243,oil,energetic
+Ireland,s2_systemic,0.15,88784313.82490551,GJ,106,oil,energetic
+Israel,s1_top_supplier,0.2625,7256119.515413738,GJ,243,gas,energetic
+Israel,s2_systemic,0.15,5772850.090643592,GJ,106,gas,energetic
+Israel,s1_top_supplier,0.2625,116842280.12628888,GJ,243,oil,energetic
+Israel,s2_systemic,0.15,118540779.96163781,GJ,106,oil,energetic
+Italy,s1_top_supplier,0.2625,608705131.4102305,GJ,243,gas,energetic
+Italy,s2_systemic,0.15,631445310.7893175,GJ,106,gas,energetic
+Italy,s1_top_supplier,0.2625,318275565.8635922,GJ,243,oil,energetic
+Italy,s2_systemic,0.15,718368622.2957278,GJ,106,oil,energetic
+Ivory Coast,s1_top_supplier,0.2625,25228628.947173502,GJ,243,gas,energetic
+Ivory Coast,s2_systemic,0.15,12402433.516973928,GJ,106,gas,energetic
+Ivory Coast,s1_top_supplier,0.2625,151454887.32659215,GJ,243,oil,energetic
+Ivory Coast,s2_systemic,0.15,91681527.30587827,GJ,106,oil,energetic
+Japan,s1_top_supplier,0.2625,849329176.9819647,GJ,243,gas,energetic
+Japan,s2_systemic,0.15,949196181.3758603,GJ,106,gas,energetic
+Japan,s1_top_supplier,0.2625,1721249447.2916234,GJ,243,oil,energetic
+Japan,s2_systemic,0.15,1842980865.142627,GJ,106,oil,energetic
+Jordan,s1_top_supplier,0.2625,18851696.11061221,GJ,243,gas,energetic
+Jordan,s2_systemic,0.15,14090172.30247807,GJ,106,gas,energetic
+Jordan,s1_top_supplier,0.2625,77487256.66913618,GJ,243,oil,energetic
+Jordan,s2_systemic,0.15,56783752.20761561,GJ,106,oil,energetic
+Kazakhstan,s1_top_supplier,0.2625,11162478.827383697,GJ,243,gas,energetic
+Kazakhstan,s2_systemic,0.15,7762285.75581551,GJ,106,gas,energetic
+Kazakhstan,s1_top_supplier,0.2625,25403131.78658718,GJ,243,oil,energetic
+Kazakhstan,s2_systemic,0.15,16830096.903811824,GJ,106,oil,energetic
+Kenya,s1_top_supplier,0.2625,11708800.408764465,GJ,243,gas,energetic
+Kenya,s2_systemic,0.15,7173232.096537431,GJ,106,gas,energetic
+Kenya,s1_top_supplier,0.2625,108730323.19349517,GJ,243,oil,energetic
+Kenya,s2_systemic,0.15,78820898.79904425,GJ,106,oil,energetic
+Kyrgyzstan,s1_top_supplier,0.2625,5884503.124696162,GJ,243,gas,energetic
+Kyrgyzstan,s2_systemic,0.15,2923846.4172514337,GJ,106,gas,energetic
+Kyrgyzstan,s1_top_supplier,0.2625,27797577.63278271,GJ,243,oil,energetic
+Kyrgyzstan,s2_systemic,0.15,14087815.754880182,GJ,106,oil,energetic
+Laos,s1_top_supplier,0.2625,931850.3330849238,GJ,243,gas,energetic
+Laos,s2_systemic,0.15,477078.4219356969,GJ,106,gas,energetic
+Laos,s1_top_supplier,0.2625,45383339.25503092,GJ,243,oil,energetic
+Laos,s2_systemic,0.15,22979731.800379977,GJ,106,oil,energetic
+Latvia,s1_top_supplier,0.2625,12927875.098083751,GJ,243,gas,energetic
+Latvia,s2_systemic,0.15,8459319.434628977,GJ,106,gas,energetic
+Latvia,s1_top_supplier,0.2625,28677324.578816637,GJ,243,oil,energetic
+Latvia,s2_systemic,0.15,19408522.522856537,GJ,106,oil,energetic
+Liberia,s1_top_supplier,0.2625,18.22417862628448,GJ,243,gas,energetic
+Liberia,s2_systemic,0.15,17.569830300162252,GJ,106,gas,energetic
+Liberia,s1_top_supplier,0.2625,27312726.32303034,GJ,243,oil,energetic
+Liberia,s2_systemic,0.15,12194948.386293804,GJ,106,oil,energetic
+Lithuania,s1_top_supplier,0.2625,17981931.096272055,GJ,243,gas,energetic
+Lithuania,s2_systemic,0.15,17513485.411378324,GJ,106,gas,energetic
+Lithuania,s1_top_supplier,0.2625,29921513.204423994,GJ,243,oil,energetic
+Lithuania,s2_systemic,0.15,35264907.66102187,GJ,106,oil,energetic
+Madagascar,s1_top_supplier,0.2625,1080437.7903837028,GJ,243,gas,energetic
+Madagascar,s2_systemic,0.15,482589.8269600571,GJ,106,gas,energetic
+Madagascar,s1_top_supplier,0.2625,26645770.396424476,GJ,243,oil,energetic
+Madagascar,s2_systemic,0.15,16436123.066315964,GJ,106,oil,energetic
+Malawi,s1_top_supplier,0.2625,159273.93302684263,GJ,243,gas,energetic
+Malawi,s2_systemic,0.15,108871.29018884261,GJ,106,gas,energetic
+Malawi,s1_top_supplier,0.2625,9173321.686060674,GJ,243,oil,energetic
+Malawi,s2_systemic,0.15,10621565.792347996,GJ,106,oil,energetic
+Malaysia,s1_top_supplier,0.2625,95040140.29082046,GJ,243,gas,energetic
+Malaysia,s2_systemic,0.15,64756679.39617339,GJ,106,gas,energetic
+Malaysia,s1_top_supplier,0.2625,545288523.5529495,GJ,243,oil,energetic
+Malaysia,s2_systemic,0.15,536365579.223135,GJ,106,oil,energetic
+Mali,s1_top_supplier,0.2625,815943.1732440883,GJ,243,gas,energetic
+Mali,s2_systemic,0.15,619824.7417547991,GJ,106,gas,energetic
+Mali,s1_top_supplier,0.2625,44219306.18220463,GJ,243,oil,energetic
+Mali,s2_systemic,0.15,41141255.10462991,GJ,106,oil,energetic
+Mauritania,s1_top_supplier,0.2625,4183576.698825829,GJ,243,gas,energetic
+Mauritania,s2_systemic,0.15,1847233.4509431298,GJ,106,gas,energetic
+Mauritania,s1_top_supplier,0.2625,31957345.502241388,GJ,243,oil,energetic
+Mauritania,s2_systemic,0.15,30231053.078158606,GJ,106,oil,energetic
+Mexico,s1_top_supplier,0.2625,633742110.9506013,GJ,243,gas,energetic
+Mexico,s2_systemic,0.15,278606591.19236344,GJ,106,gas,energetic
+Mexico,s1_top_supplier,0.2625,1427146963.054873,GJ,243,oil,energetic
+Mexico,s2_systemic,0.15,688456232.5731871,GJ,106,oil,energetic
+Mongolia,s1_top_supplier,0.2625,1088098.9405058974,GJ,243,gas,energetic
+Mongolia,s2_systemic,0.15,532181.604377992,GJ,106,gas,energetic
+Mongolia,s1_top_supplier,0.2625,70741961.75323263,GJ,243,oil,energetic
+Mongolia,s2_systemic,0.15,34187176.93710694,GJ,106,oil,energetic
+Morocco,s1_top_supplier,0.2625,17165379.54116271,GJ,243,gas,energetic
+Morocco,s2_systemic,0.15,9976440.67313953,GJ,106,gas,energetic
+Morocco,s1_top_supplier,0.2625,76906768.44327241,GJ,243,oil,energetic
+Morocco,s2_systemic,0.15,138576698.9356239,GJ,106,oil,energetic
+Mozambique,s1_top_supplier,0.2625,2449017.368956193,GJ,243,gas,energetic
+Mozambique,s2_systemic,0.15,2117905.9890210927,GJ,106,gas,energetic
+Mozambique,s1_top_supplier,0.2625,31437918.979860436,GJ,243,oil,energetic
+Mozambique,s2_systemic,0.15,30176940.64048441,GJ,106,oil,energetic
+Myanmar,s1_top_supplier,0.2625,2112443.4422903885,GJ,243,gas,energetic
+Myanmar,s2_systemic,0.15,1861086.6709017798,GJ,106,gas,energetic
+Myanmar,s1_top_supplier,0.2625,145831906.87985775,GJ,243,oil,energetic
+Myanmar,s2_systemic,0.15,94657519.13596572,GJ,106,oil,energetic
+Namibia,s1_top_supplier,0.2625,951370.468693695,GJ,243,gas,energetic
+Namibia,s2_systemic,0.15,420192.5265028982,GJ,106,gas,energetic
+Namibia,s1_top_supplier,0.2625,16369855.772079036,GJ,243,oil,energetic
+Namibia,s2_systemic,0.15,27187121.046536077,GJ,106,oil,energetic
+Netherlands,s1_top_supplier,0.2625,324184513.5348408,GJ,243,gas,energetic
+Netherlands,s2_systemic,0.15,275573274.1355389,GJ,106,gas,energetic
+Netherlands,s1_top_supplier,0.2625,246607226.18074188,GJ,243,oil,energetic
+Netherlands,s2_systemic,0.15,448143921.78682303,GJ,106,oil,energetic
+New Zealand,s1_top_supplier,0.2625,2576947.2170508387,GJ,243,gas,energetic
+New Zealand,s2_systemic,0.15,1273727.2288390277,GJ,106,gas,energetic
+New Zealand,s1_top_supplier,0.2625,84795300.55981325,GJ,243,oil,energetic
+New Zealand,s2_systemic,0.15,93956194.49110322,GJ,106,oil,energetic
+Nicaragua,s1_top_supplier,0.2625,5370847.918500578,GJ,243,gas,energetic
+Nicaragua,s2_systemic,0.15,2352466.097910556,GJ,106,gas,energetic
+Nicaragua,s1_top_supplier,0.2625,54450078.8332816,GJ,243,oil,energetic
+Nicaragua,s2_systemic,0.15,28783682.41718847,GJ,106,oil,energetic
+Niger,s1_top_supplier,0.2625,3047757.7107754503,GJ,243,gas,energetic
+Niger,s2_systemic,0.15,1378775.921179,GJ,106,gas,energetic
+Niger,s1_top_supplier,0.2625,1911343.178646559,GJ,243,oil,energetic
+Niger,s2_systemic,0.15,1944415.986373938,GJ,106,oil,energetic
+Nigeria,s1_top_supplier,0.2625,1255068.0301160454,GJ,243,gas,energetic
+Nigeria,s2_systemic,0.15,876573.0008898195,GJ,106,gas,energetic
+Nigeria,s1_top_supplier,0.2625,240744273.07579383,GJ,243,oil,energetic
+Nigeria,s2_systemic,0.15,390304750.7083922,GJ,106,oil,energetic
+Norway,s1_top_supplier,0.2625,1369826.7037947392,GJ,243,gas,energetic
+Norway,s2_systemic,0.15,1381036.0453130982,GJ,106,gas,energetic
+Norway,s1_top_supplier,0.2625,101010142.55011857,GJ,243,oil,energetic
+Norway,s2_systemic,0.15,115119750.6522574,GJ,106,oil,energetic
+Oman,s1_top_supplier,0.2625,11805548.907919103,GJ,243,gas,energetic
+Oman,s2_systemic,0.15,5662070.807504334,GJ,106,gas,energetic
+Oman,s1_top_supplier,0.2625,183783580.70786333,GJ,243,oil,energetic
+Oman,s2_systemic,0.15,145480721.47278672,GJ,106,oil,energetic
+Pakistan,s1_top_supplier,0.2625,217303415.71904287,GJ,243,gas,energetic
+Pakistan,s2_systemic,0.15,129651248.99569644,GJ,106,gas,energetic
+Pakistan,s1_top_supplier,0.2625,292560955.78473276,GJ,243,oil,energetic
+Pakistan,s2_systemic,0.15,225709381.52942848,GJ,106,oil,energetic
+Panama,s1_top_supplier,0.2625,5540684.73678529,GJ,243,gas,energetic
+Panama,s2_systemic,0.15,3102550.6141530015,GJ,106,gas,energetic
+Panama,s1_top_supplier,0.2625,99685571.82041572,GJ,243,oil,energetic
+Panama,s2_systemic,0.15,49119394.95066976,GJ,106,oil,energetic
+Papua New Guinea,s1_top_supplier,0.2625,828591.0046448229,GJ,243,gas,energetic
+Papua New Guinea,s2_systemic,0.15,364388.21966792573,GJ,106,gas,energetic
+Papua New Guinea,s1_top_supplier,0.2625,27591014.336525295,GJ,243,oil,energetic
+Papua New Guinea,s2_systemic,0.15,18992057.86273178,GJ,106,oil,energetic
+Paraguay,s1_top_supplier,0.2625,2060349.5540783172,GJ,243,gas,energetic
+Paraguay,s2_systemic,0.15,1251075.5092707446,GJ,106,gas,energetic
+Paraguay,s1_top_supplier,0.2625,25427855.671428915,GJ,243,oil,energetic
+Paraguay,s2_systemic,0.15,36159518.12504915,GJ,106,oil,energetic
+Peru,s1_top_supplier,0.2625,18711519.101136096,GJ,243,gas,energetic
+Peru,s2_systemic,0.15,10304528.9758837,GJ,106,gas,energetic
+Peru,s1_top_supplier,0.2625,242429952.8989971,GJ,243,oil,energetic
+Peru,s2_systemic,0.15,169448014.9521904,GJ,106,oil,energetic
+Philippines,s1_top_supplier,0.2625,12145498.104129387,GJ,243,gas,energetic
+Philippines,s2_systemic,0.15,39893223.61880716,GJ,106,gas,energetic
+Philippines,s1_top_supplier,0.2625,234764242.85903525,GJ,243,oil,energetic
+Philippines,s2_systemic,0.15,287251764.93295455,GJ,106,oil,energetic
+Poland,s1_top_supplier,0.2625,40667636.82272061,GJ,243,gas,energetic
+Poland,s2_systemic,0.15,43371886.94599309,GJ,106,gas,energetic
+Poland,s1_top_supplier,0.2625,409016014.5780177,GJ,243,oil,energetic
+Poland,s2_systemic,0.15,426793250.4335359,GJ,106,oil,energetic
+Portugal,s1_top_supplier,0.2625,35024563.704579465,GJ,243,gas,energetic
+Portugal,s2_systemic,0.15,42782309.41210059,GJ,106,gas,energetic
+Portugal,s1_top_supplier,0.2625,124278787.06989843,GJ,243,oil,energetic
+Portugal,s2_systemic,0.15,128974215.64143287,GJ,106,oil,energetic
+Republic of the Congo,s1_top_supplier,0.2625,6021.407002738346,GJ,243,gas,energetic
+Republic of the Congo,s2_systemic,0.15,5255.784214525149,GJ,106,gas,energetic
+Republic of the Congo,s1_top_supplier,0.2625,6471159.165935576,GJ,243,oil,energetic
+Republic of the Congo,s2_systemic,0.15,4077766.6574855973,GJ,106,oil,energetic
+Romania,s1_top_supplier,0.2625,79000519.0670108,GJ,243,gas,energetic
+Romania,s2_systemic,0.15,40151590.47872627,GJ,106,gas,energetic
+Romania,s1_top_supplier,0.2625,167208017.34340867,GJ,243,oil,energetic
+Romania,s2_systemic,0.15,140093174.17870012,GJ,106,oil,energetic
+Saudi Arabia,s1_top_supplier,0.2625,137129.5033706856,GJ,243,gas,energetic
+Saudi Arabia,s2_systemic,0.15,167743.1428741211,GJ,106,gas,energetic
+Saudi Arabia,s1_top_supplier,0.2625,147467967.09194252,GJ,243,oil,energetic
+Saudi Arabia,s2_systemic,0.15,269342704.5989659,GJ,106,oil,energetic
+Senegal,s1_top_supplier,0.2625,2996003.415667087,GJ,243,gas,energetic
+Senegal,s2_systemic,0.15,4743630.101209877,GJ,106,gas,energetic
+Senegal,s1_top_supplier,0.2625,74014726.37669758,GJ,243,oil,energetic
+Senegal,s2_systemic,0.15,60254759.97202402,GJ,106,oil,energetic
+South Africa,s1_top_supplier,0.2625,28183221.57181366,GJ,243,gas,energetic
+South Africa,s2_systemic,0.15,23310383.849977907,GJ,106,gas,energetic
+South Africa,s1_top_supplier,0.2625,208029401.1987344,GJ,243,oil,energetic
+South Africa,s2_systemic,0.15,288490132.05090946,GJ,106,oil,energetic
+South Korea,s1_top_supplier,0.2625,331457464.5549696,GJ,243,gas,energetic
+South Korea,s2_systemic,0.15,663921282.4360796,GJ,106,gas,energetic
+South Korea,s1_top_supplier,0.2625,1277097207.5866408,GJ,243,oil,energetic
+South Korea,s2_systemic,0.15,1574717835.544712,GJ,106,oil,energetic
+Spain,s1_top_supplier,0.2625,244321490.99834993,GJ,243,gas,energetic
+Spain,s2_systemic,0.15,329280807.5783277,GJ,106,gas,energetic
+Spain,s1_top_supplier,0.2625,280135334.0784902,GJ,243,oil,energetic
+Spain,s2_systemic,0.15,779097934.427856,GJ,106,oil,energetic
+Sri Lanka,s1_top_supplier,0.2625,69148411.8002126,GJ,243,oil,energetic
+Sri Lanka,s2_systemic,0.15,63482538.66309449,GJ,106,oil,energetic
+Suriname,s1_top_supplier,0.2625,853460.9880200244,GJ,243,gas,energetic
+Suriname,s2_systemic,0.15,439195.1344941628,GJ,106,gas,energetic
+Suriname,s1_top_supplier,0.2625,2831854.0854324256,GJ,243,oil,energetic
+Suriname,s2_systemic,0.15,3428335.004980301,GJ,106,oil,energetic
+Sweden,s1_top_supplier,0.2625,6983765.646358542,GJ,243,gas,energetic
+Sweden,s2_systemic,0.15,9007642.032827111,GJ,106,gas,energetic
+Sweden,s1_top_supplier,0.2625,198084040.54737458,GJ,243,oil,energetic
+Sweden,s2_systemic,0.15,143399295.72658327,GJ,106,oil,energetic
+Switzerland,s1_top_supplier,0.2625,47455024.368512444,GJ,243,gas,energetic
+Switzerland,s2_systemic,0.15,35748237.96601104,GJ,106,gas,energetic
+Switzerland,s1_top_supplier,0.2625,146177779.12488243,GJ,243,oil,energetic
+Switzerland,s2_systemic,0.15,112524691.5299964,GJ,106,oil,energetic
+Tajikistan,s1_top_supplier,0.2625,3030390.0308157927,GJ,243,gas,energetic
+Tajikistan,s2_systemic,0.15,2588419.9931282857,GJ,106,gas,energetic
+Tajikistan,s1_top_supplier,0.2625,1297448.425040602,GJ,243,oil,energetic
+Tajikistan,s2_systemic,0.15,1160307.780981245,GJ,106,oil,energetic
+Thailand,s1_top_supplier,0.2625,157799700.85078153,GJ,243,gas,energetic
+Thailand,s2_systemic,0.15,345094884.56008476,GJ,106,gas,energetic
+Thailand,s1_top_supplier,0.2625,676370186.6750214,GJ,243,oil,energetic
+Thailand,s2_systemic,0.15,691028504.0665673,GJ,106,oil,energetic
+Tunisia,s1_top_supplier,0.2625,91879880.54008919,GJ,243,gas,energetic
+Tunisia,s2_systemic,0.15,49666500.83676354,GJ,106,gas,energetic
+Tunisia,s1_top_supplier,0.2625,68213745.64295213,GJ,243,oil,energetic
+Tunisia,s2_systemic,0.15,49630114.52043446,GJ,106,oil,energetic
+Uganda,s1_top_supplier,0.2625,1611567.2006461658,GJ,243,gas,energetic
+Uganda,s2_systemic,0.15,828281.9581215424,GJ,106,gas,energetic
+Uganda,s1_top_supplier,0.2625,51560242.1527613,GJ,243,oil,energetic
+Uganda,s2_systemic,0.15,37183835.08302435,GJ,106,oil,energetic
+Ukraine,s1_top_supplier,0.2625,30816829.4929314,GJ,243,gas,energetic
+Ukraine,s2_systemic,0.15,56952114.40156633,GJ,106,gas,energetic
+Ukraine,s1_top_supplier,0.2625,35961167.824170455,GJ,243,oil,energetic
+Ukraine,s2_systemic,0.15,114917725.61330633,GJ,106,oil,energetic
+United Arab Emirates,s1_top_supplier,0.2625,2265056.131131828,GJ,243,gas,energetic
+United Arab Emirates,s2_systemic,0.15,1551031.1132169624,GJ,106,gas,energetic
+United Arab Emirates,s1_top_supplier,0.2625,239239259.2366574,GJ,243,oil,energetic
+United Arab Emirates,s2_systemic,0.15,366711148.3525557,GJ,106,oil,energetic
+United Kingdom,s1_top_supplier,0.2625,770702530.6764311,GJ,243,gas,energetic
+United Kingdom,s2_systemic,0.15,643934712.6567172,GJ,106,gas,energetic
+United Kingdom,s1_top_supplier,0.2625,718901354.8697139,GJ,243,oil,energetic
+United Kingdom,s2_systemic,0.15,782566069.4862877,GJ,106,oil,energetic
+United States of America,s1_top_supplier,0.2625,1010315400.0057373,GJ,243,gas,energetic
+United States of America,s2_systemic,0.15,480568882.6783245,GJ,106,gas,energetic
+United States of America,s1_top_supplier,0.2625,5528302025.501313,GJ,243,oil,energetic
+United States of America,s2_systemic,0.15,5124608749.600259,GJ,106,oil,energetic
+Uruguay,s1_top_supplier,0.2625,7038630.902300391,GJ,243,gas,energetic
+Uruguay,s2_systemic,0.15,3256219.509232395,GJ,106,gas,energetic
+Uruguay,s1_top_supplier,0.2625,33377268.710760623,GJ,243,oil,energetic
+Uruguay,s2_systemic,0.15,33439143.191516567,GJ,106,oil,energetic
+Uzbekistan,s1_top_supplier,0.2625,44163043.6634044,GJ,243,gas,energetic
+Uzbekistan,s2_systemic,0.15,20869292.517256428,GJ,106,gas,energetic
+Uzbekistan,s1_top_supplier,0.2625,48724555.92081678,GJ,243,oil,energetic
+Uzbekistan,s2_systemic,0.15,28014022.273138255,GJ,106,oil,energetic
+Vietnam,s1_top_supplier,0.2625,22661064.37005219,GJ,243,gas,energetic
+Vietnam,s2_systemic,0.15,46303276.987049304,GJ,106,gas,energetic
+Vietnam,s1_top_supplier,0.2625,429823400.10549307,GJ,243,oil,energetic
+Vietnam,s2_systemic,0.15,315469234.87834764,GJ,106,oil,energetic
+Yemen,s1_top_supplier,0.2625,2017.2286146197941,GJ,243,gas,energetic
+Yemen,s2_systemic,0.15,973.0447325840183,GJ,106,gas,energetic
+Yemen,s1_top_supplier,0.2625,8358839.008787029,GJ,243,oil,energetic
+Yemen,s2_systemic,0.15,4495983.110247951,GJ,106,oil,energetic
+Zambia,s1_top_supplier,0.2625,437037.06175896124,GJ,243,gas,energetic
+Zambia,s2_systemic,0.15,277112.4654655275,GJ,106,gas,energetic
+Zambia,s1_top_supplier,0.2625,20812104.199341122,GJ,243,oil,energetic
+Zambia,s2_systemic,0.15,34078795.675639994,GJ,106,oil,energetic
+Zimbabwe,s1_top_supplier,0.2625,6350343.381219517,GJ,243,gas,energetic
+Zimbabwe,s2_systemic,0.15,2932432.432935391,GJ,106,gas,energetic
+Zimbabwe,s1_top_supplier,0.2625,19684530.851032835,GJ,243,oil,energetic
+Zimbabwe,s2_systemic,0.15,28354729.04683542,GJ,106,oil,energetic
+Turkey,s1_top_supplier,0.2625,69622966.19491445,GJ,243,gas,energetic
+Turkey,s2_systemic,0.15,66288162.05464309,GJ,106,gas,energetic
+Turkey,s1_top_supplier,0.2625,489409581.8179216,GJ,243,oil,energetic
+Turkey,s2_systemic,0.15,373308739.8722864,GJ,106,oil,energetic
+Republic of Serbia,s1_top_supplier,0.2625,81552801.52253543,GJ,243,gas,energetic
+Republic of Serbia,s2_systemic,0.15,41794930.268820964,GJ,106,gas,energetic
+Republic of Serbia,s1_top_supplier,0.2625,50382598.554789536,GJ,243,oil,energetic
+Republic of Serbia,s2_systemic,0.15,54565088.4133986,GJ,106,oil,energetic
+United Republic of Tanzania,s1_top_supplier,0.2625,4229977.189025146,GJ,243,gas,energetic
+United Republic of Tanzania,s2_systemic,0.15,6145105.424229813,GJ,106,gas,energetic
+United Republic of Tanzania,s1_top_supplier,0.2625,44415236.88989919,GJ,243,oil,energetic
+United Republic of Tanzania,s2_systemic,0.15,54782012.976642855,GJ,106,oil,energetic
+The Bahamas,s1_top_supplier,0.2625,1436004.4714280155,GJ,243,gas,energetic
+The Bahamas,s2_systemic,0.15,686214.002590157,GJ,106,gas,energetic
+The Bahamas,s1_top_supplier,0.2625,21171885.484999876,GJ,243,oil,energetic
+The Bahamas,s2_systemic,0.15,10929581.244791372,GJ,106,oil,energetic
+Taiwan,s1_top_supplier,0.2625,357869415.12822765,GJ,243,gas,energetic
+Taiwan,s2_systemic,0.15,339808297.9692605,GJ,106,gas,energetic
+Taiwan,s1_top_supplier,0.2625,356707312.2795003,GJ,243,oil,energetic
+Taiwan,s2_systemic,0.15,481060465.06071466,GJ,106,oil,energetic

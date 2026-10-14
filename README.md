@@ -22,18 +22,24 @@ The layout mirrors the working project, so every script runs without editing pat
 (`scripts/lcof/inputs.py` locates all data relative to the repository root).
 
 ```
-scripts/lcof/            Python package: optimization, demand, prices, security value, allocation, figures, tables
-scripts/plot_style.py    shared plotting style
-cf_global_final/         ERA5 -> hourly capacity factors (dataprep/, python/); data/cf_hourly/ is downloaded separately
-data/cost/               processed model inputs (cost assumptions, tiers, country data, demand grid, prices, CO2, land)
-data/cost/flexlow/       linear-program results per cell and weather year for every cost year and tier
-data/jodi/               JODI oil and gas trade used for import dependence
-work/caselow/<case>/     results of the four cases quoted in the paper (2025mid: Figs 1-3; 2030, 2040, 2050: Figs 4-5)
-work/caselow/*.py        drivers that run a module on a case (run_mod.py, rerun_fig3.py, ...)
-source_data/             one Excel file per main figure (Fig1.xlsx ... Fig5.xlsx)
+scripts/lcof/             Python package: optimization, demand, prices, security value, allocation, figures, tables
+scripts/plot_style.py     shared plotting style
+cf_global_final/          ERA5 -> hourly capacity factors (dataprep/, python/, docs/); grid, cell metadata and annual
+                          capacity factors in data/; data/cf_hourly/ (3.0 GB) is downloaded separately
+data/cost/                processed model inputs (cost assumptions and tiers, country data, demand grid, prices, CO2, land)
+data/cost/flexlow/        linear-program results per cell and weather year for every cost year and tier
+data/demand/, data/prices/, data/co2/, data/grid/, data/jodi/
+                          other inputs read by the pipeline (Energy Institute, UN Energy Statistics, UN Comtrade nitrogen
+                          trade, price series, Climate TRACE, Natural Earth, JODI)
+work/caselow/<case>/      the four cases quoted in the paper (2025mid: Figs 1-3; 2030, 2040, 2050: Figs 4-5), each with
+                          its inputs and every model output
+work/caselow/*.py         drivers: run_mod.py (run one module on a case), rerun_fig3.py
+source_data/              Source Data: one Excel workbook per main figure (Fig1.xlsx ... Fig5.xlsx)
+DATA.md                   every data file: content, size, the module that writes it and the modules that read it
 ```
 
-`DATA.md` lists every data file, its content, units and the script that writes it.
+`DATA.md` lists every data file, its content, size, the module that writes it and the modules that read it.
+`python -m lcof.export_source_data ../source_data` rebuilds the Source Data workbooks from the four cases.
 
 ## 2. System requirements
 
@@ -97,7 +103,7 @@ The central and highest cost tiers (Supplementary Note 2) are built the same way
 
 ## 6. Data sources
 
-Processed inputs are included. Raw third-party data are not redistributed; they come from public sources cited in
+Processed inputs and the third-party series the pipeline reads are included, with their sources; they remain subject to the terms of their publishers (for example, Singapore MOPS prices are Platts assessments republished by KNOC Petronet). Raw downloads (ERA5 fields, bulk trade and price files) are not redistributed; they come from public sources cited in
 the paper (Supplementary Table 3): ERA5 (Copernicus), EDGAR, UN Energy Statistics, Energy Institute Statistical
 Review, UN Comtrade, Eurostat Comext, EIA, World Bank Pink Sheet and World Development Indicators, JODI,
 Climate TRACE, WRI Aqueduct, Natural Earth, IEA and IRENA cost reports, Damodaran country risk premiums.

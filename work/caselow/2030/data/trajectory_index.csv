@@ -1,0 +1,31 @@
+tech,case,tier,src,2025,2030,2035,2040,2045,2050
+pv,Conservative,A: NREL ATB 2024,NREL ATB 2024 v4.0.0,1.0,0.886,0.7719,0.7083,0.6447,0.5811
+pv,Moderate,A: NREL ATB 2024,NREL ATB 2024 v4.0.0,1.0,0.8001,0.6002,0.5528,0.5053,0.4578
+pv,Advanced,A: NREL ATB 2024,NREL ATB 2024 v4.0.0,1.0,0.7345,0.4689,0.4414,0.4139,0.3863
+wind_onshore,Conservative,A: NREL ATB 2024,NREL ATB 2024 v4.0.0,1.0,0.9662,0.9323,0.8985,0.8647,0.8308
+wind_onshore,Moderate,A: NREL ATB 2024,NREL ATB 2024 v4.0.0,1.0,0.8973,0.8506,0.8039,0.7572,0.7105
+wind_onshore,Advanced,A: NREL ATB 2024,NREL ATB 2024 v4.0.0,1.0,0.8688,0.8152,0.7615,0.7078,0.6542
+wind_offshore_fixed,Conservative,A: NREL ATB 2024,NREL ATB 2024 v4.0.0,1.0,0.9137,0.6165,0.5867,0.5646,0.5472
+wind_offshore_fixed,Moderate,A: NREL ATB 2024,NREL ATB 2024 v4.0.0,1.0,0.7572,0.5845,0.5625,0.546,0.5329
+wind_offshore_fixed,Advanced,A: NREL ATB 2024,NREL ATB 2024 v4.0.0,1.0,0.6844,0.5345,0.5201,0.5093,0.5006
+battery_energy,Conservative,A: NREL ATB 2024,NREL ATB 2024 v4.0.0,1.0,0.8329,0.7868,0.7601,0.7334,0.7068
+battery_energy,Moderate,A: NREL ATB 2024,NREL ATB 2024 v4.0.0,1.0,0.8134,0.7691,0.7054,0.6419,0.5785
+battery_energy,Advanced,A: NREL ATB 2024,NREL ATB 2024 v4.0.0,1.0,0.7991,0.7341,0.6682,0.6032,0.5382
+battery_power,Conservative,A: NREL ATB 2024 (via 4 h system),NREL ATB 2024 v4.0.0,1.0,0.8329,0.7868,0.7601,0.7334,0.7068
+battery_power,Moderate,A: NREL ATB 2024 (via 4 h system),NREL ATB 2024 v4.0.0,1.0,0.8134,0.7691,0.7054,0.6419,0.5785
+battery_power,Advanced,A: NREL ATB 2024 (via 4 h system),NREL ATB 2024 v4.0.0,1.0,0.7991,0.7341,0.6682,0.6032,0.5382
+electrolyzer,Conservative,B: literature bracket,electrolyser CAPEX outlooks + published CAPEX models; Conservative anchored on the pessimistic published end,1.0,0.79,0.71,0.66,0.61,0.57
+electrolyzer,Moderate,B: literature bracket,electrolyser CAPEX outlooks + published CAPEX models; Conservative anchored on the pessimistic published end,1.0,0.55,0.45,0.39,0.35,0.31
+electrolyzer,Advanced,B: literature bracket,electrolyser CAPEX outlooks + published CAPEX models; Conservative anchored on the pessimistic published end,1.0,0.46,0.34,0.28,0.24,0.21
+dac,Conservative,B: literature bracket,DAC cost curves; nth-of-a-kind targets vs observed early plants,1.0,0.8,0.66,0.56,0.48,0.4
+dac,Moderate,B: literature bracket,DAC cost curves; nth-of-a-kind targets vs observed early plants,1.0,0.6,0.42,0.32,0.26,0.22
+dac,Advanced,B: literature bracket,DAC cost curves; nth-of-a-kind targets vs observed early plants,1.0,0.5,0.32,0.23,0.18,0.14
+h2_storage,Conservative,B: literature bracket,"mature fabrication, low learning rate; scale effects only",1.0,0.97,0.95,0.93,0.92,0.9
+h2_storage,Moderate,B: literature bracket,"mature fabrication, low learning rate; scale effects only",1.0,0.94,0.9,0.87,0.83,0.8
+h2_storage,Advanced,B: literature bracket,"mature fabrication, low learning rate; scale effects only",1.0,0.9,0.85,0.8,0.75,0.7
+synthesis,Conservative,B: literature bracket,mature process plant; standardisation and scale,1.0,0.98,0.97,0.96,0.94,0.93
+synthesis,Moderate,B: literature bracket,mature process plant; standardisation and scale,1.0,0.96,0.93,0.9,0.88,0.85
+synthesis,Advanced,B: literature bracket,mature process plant; standardisation and scale,1.0,0.93,0.89,0.85,0.81,0.78
+eta_el,Conservative,"B: absolute level, not an index",published stack efficiency outlooks,0.65,0.66,0.67,0.67,0.68,0.68
+eta_el,Moderate,"B: absolute level, not an index",published stack efficiency outlooks,0.65,0.67,0.69,0.7,0.71,0.72
+eta_el,Advanced,"B: absolute level, not an index",published stack efficiency outlooks,0.65,0.69,0.71,0.73,0.74,0.75
