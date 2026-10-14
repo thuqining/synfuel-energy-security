@@ -946,7 +946,7 @@ def _figure(d: pd.DataFrame, curves: dict, land_style: str = "hatch",
             b.axhspan(lo - 0.5, hi - 0.5, xmin=0, xmax=1, color="#EEF1F4", lw=0, zorder=0)
         b.plot([104.6, 104.6], [lo - 0.35, hi - 0.65], color="#3A4550", lw=0.9,
                clip_on=False, zorder=6, solid_capstyle="butt")
-        nm = gname if hi - lo > 2 else gname.replace(chr(10), " ")     # short groups: one line
+        nm = gname                      # 2026-10-14: every group name on two lines, short groups too
         b.text(105.6, (lo + hi - 1) / 2, nm, fontsize=7, fontweight="bold", color="#3A4550",
                ha="left", va="center", linespacing=1.05, clip_on=False, zorder=6)
     b.set_yticks(ys)
