@@ -811,8 +811,10 @@ def draw_a_circles(ax, d, legend_anchor=(-0.02, 1.005), margin="arrow", order=No
         if group_labels:
             ax.text(XGRP, off + (len(imps) - 1) / 2, "Net importers", fontsize=7, color=LBL,
                     ha="center", va="center", rotation=90, zorder=6)
-            ax.text(XGRP, (len(exps) - 1) / 2, "Net exporters", fontsize=7, color=LBL,
-                    ha="center", va="center", rotation=90, zorder=6)
+            # 2026-10-14: the name is taller than the four exporter rows, so it hangs from just below
+            # the dashed line instead of being centred on them (centred, it crossed into the importers)
+            ax.text(XGRP, len(exps) - 0.6, "Net exporters", fontsize=7, color=LBL,
+                    ha="center", va="top", rotation=90, zorder=6)
     elif group_labels:
         xg_lab = float(inv(float(fwd(XMAX)) + 35.0))
         ax.text(xg_lab, off + (len(imps) - 1) / 2, "Net\nimporters", fontsize=7, color=LBL,
