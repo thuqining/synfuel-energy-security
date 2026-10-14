@@ -113,7 +113,7 @@ def main(*, write_data=True):
                 fontsize=7.5, va="center", ha="right", color="#333333")
     # a numeric column reads best right-aligned, decimals under
     # decimals, with the header right-aligned on the same edge
-    for ly, txt in ((n + 1.6, "demand,"), (n + 0.6, "bn MMBtu/yr")):
+    for ly, txt in ((n + 1.6, "demand,"), (n + 0.6, "billion MMBtu/yr")):
         ax.text(112.0, ly, txt, fontsize=7.0, ha="right", va="top",
                 color="#333333", fontweight="bold")
 

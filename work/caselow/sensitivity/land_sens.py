@@ -50,7 +50,7 @@ for year in (2030, 2040, 2050):
         rows.append(dict(year=year, case=case, covered=int(cov.sum()), land=int(land.sum()), budget=int(bud.sum()),
                          exporters=int(is_x.sum()), constrained=int(land.sum() + bud.sum()),
                          median_cov1=round(100 * float(d.cov_1.median()), 0),
-                         US_cov1=round(100 * float(d.cov_1[us]), 1), US_maxcov=round(100 * float(d.max_cov[us]), 1),
+                         US_cov1=round(100 * float(d.cov_1[us]), 2), US_maxcov=round(100 * float(d.max_cov[us]), 2),
                          land_list=", ".join(sorted(d.index[land]))))
     LS.build = orig_build
 pd.set_option("display.width", 250); pd.set_option("display.max_colwidth", 200)

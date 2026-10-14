@@ -35,11 +35,11 @@ STEPS = [
     ("Import prices and exposure",
      "monthly prices in and out of disruptions;\nchain exposure and supplier concentration", "Note 4"),
     ("Security value",
-     "disruption rates × expected shortfall\n× value of fuel lost", "Note 5"),
+     "expected shortfall (from disruption rates)\n× value of fuel lost", "Note 5"),
     ("National budgets and land",
      "premium filled in merit order\nat 1–3% of GDP, within land limits", "Note 6"),
     ("Carbon and trajectory",
-     "displaced CO$_2$ at 2030–2050 costs,\nabatement-cost curves", "Note 5"),
+     "displaced CO$_2$ at 2030–2050 costs,\nabatement cost curves", "Note 5"),
 ]
 DATA = [
     "ERA5 weather 2006–2025; IEA, IRENA, DEA, NREL ATB\ncosts (Note 2); cost of capital; Climate TRACE CO$_2$",
