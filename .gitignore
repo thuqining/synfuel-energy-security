@@ -1,0 +1,14 @@
+# hourly capacity factors (3.0 GB): download from the GitHub release or Zenodo
+cf_global_final/data/cf_hourly/*.nc
+
+# regenerated outputs
+work/caselow/*/figs/
+work/caselow/demo/
+synthetic_fuel_nature/
+
+# Python and OS clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
