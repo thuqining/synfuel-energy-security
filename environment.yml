@@ -1,0 +1,29 @@
+name: synfuel
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=2.4
+  - pandas=3.0
+  - scipy=1.17
+  - xarray=2026.4
+  - netcdf4=1.7
+  - h5netcdf=1.8
+  - dask=2026.3
+  - matplotlib=3.10
+  - geopandas=1.1
+  - shapely=2.1
+  - pyogrio=0.10
+  - pyproj=3.7
+  - rasterio=1.4
+  - linopy=0.7
+  - highspy=1.14
+  - atlite=0.6.1
+  - openpyxl=3.1
+  - requests
+  - tqdm
+  - pip
+  - pip:
+      # optional: commercial solver used for the paper's linear programs (academic licence);
+      # without it the code uses the free HiGHS solver above
+      - gurobipy==13.0.2

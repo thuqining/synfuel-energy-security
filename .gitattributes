@@ -1,0 +1,9 @@
+* text=auto
+*.nc binary
+*.npz binary
+*.xlsx binary
+*.gpkg binary
+*.shp binary
+*.dbf binary
+*.pdf binary
+*.png binary

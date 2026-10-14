@@ -1,0 +1,11 @@
+The data in this repository (data/, work/caselow/*/data/, cf_global_final/data/cf_hourly/ and source_data/)
+are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 Ning Qi, Zhiyuan Fan, Yousuf Baker, Beini Lu, Dan Esposito, Bolun Xu
+
+You are free to share and adapt the data for any purpose, provided you give appropriate credit (cite the paper
+and the Zenodo archive), provide a link to the license and indicate if changes were made.
+
+Processed data derived from third-party sources remain subject to the terms of those sources, listed in
+DATA.md and in Supplementary Table 3 of the paper. Raw third-party data are not redistributed here.
