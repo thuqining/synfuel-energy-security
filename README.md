@@ -64,7 +64,7 @@ conda activate synfuel
 ```
 
 Hourly capacity factors (3.0 GB, 20 netCDF files) are only needed to re-run the linear programs. Download them
-from the GitHub release or Zenodo into `cf_global_final/data/cf_hourly/`.
+from the assets of the GitHub release (https://github.com/thuqining/synfuel-energy-security/releases/tag/v1.0.0) into `cf_global_final/data/cf_hourly/`.
 
 ## 4. Demo: check and redraw the paper's results (about 5 minutes)
 
