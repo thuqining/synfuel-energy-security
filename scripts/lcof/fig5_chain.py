@@ -288,9 +288,10 @@ def _curve_to_zero(ax, p, yr, rcol, tj, xmax=None, ylo=None, inside=False):
         t_sec.set_text(" Pays off with\n security value")
     if inside:
         # 2026-10-08: right-aligned at the panel's right edge so it never reaches the next panel
+        # 2026-10-14: left-aligned just right of the dashed line, like the other group names
         t_dear = ax.annotate("Costlier with" + chr(10) + "security value",
-                             (1.0, -0.04 * (yhi - ylo)), xycoords=("axes fraction", "data"), xytext=(-1, 0),
-                             textcoords="offset points", ha="right", va="top", fontsize=5.2, linespacing=1.05,
+                             (zs, -0.04 * (yhi - ylo)), xycoords="data", xytext=(3, 0),
+                             textcoords="offset points", ha="left", va="top", fontsize=5.2, linespacing=1.05,
                              color="#6A7480", zorder=6)
     else:
         t_dear = ax.annotate("Costlier even\nwith security", (zs, yt), xytext=(4, 0), textcoords="offset points",
