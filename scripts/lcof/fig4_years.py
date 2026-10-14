@@ -86,7 +86,8 @@ def shared_ranges(data):
     return xa, (xb, yb, list(np.arange(0, xb + 1e-9, step)))
 
 
-PAY_SHARE = 0.75     # share of the panel-b width given to the demand that pays off
+PAY_SHARE = 0.72     # share of the panel-b width given to the demand that pays off
+                     # (2026-10-14: 0.75 -> 0.72, so 'Costlier with security value' clears the dashed line)
 
 
 def b_axes(p, yr):
