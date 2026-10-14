@@ -215,7 +215,7 @@ def main():
         norms[version] = mpl.colors.TwoSlopeNorm(vcenter=0.0, vmin=-100.0, vmax=vmax)
     DIS = "#D55E00"                              # the paper's disruption-price colour
     for ax, vax, version, letter, title in (
-            (axes[0], vaxes[0], "ammonia", "a", "Ammonia: natural-gas events"),
+            (axes[0], vaxes[0], "ammonia", "a", "Ammonia: natural gas events"),
             (axes[1], vaxes[1], "ft", "b", "Diesel and jet fuel: oil events")):
         M, thin, labels = mats[version]
         norm = norms[version]
