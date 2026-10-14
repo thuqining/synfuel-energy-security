@@ -1,0 +1,48 @@
+{
+  "title": "Code and data for \"Energy security can accelerate domestic synthetic fuel adoption and CO2 abatement\"",
+  "upload_type": "software",
+  "description": "Code, processed data and source data that reproduce every figure and table of the article \"Energy security can accelerate domestic synthetic fuel adoption and CO2 abatement\". Code is released under the MIT License and data under CC BY 4.0. The hourly solar and wind capacity factors (3.0 GB) are attached to the GitHub release. See README.md for installation, a demo and instructions.",
+  "creators": [
+    {
+      "name": "Qi, Ning",
+      "affiliation": "Department of Earth and Environmental Engineering, Columbia University"
+    },
+    {
+      "name": "Fan, Zhiyuan",
+      "affiliation": "John A. Paulson School of Engineering and Applied Sciences, Harvard University"
+    },
+    {
+      "name": "Baker, Yousuf",
+      "affiliation": "Department of Earth and Environmental Engineering, Columbia University"
+    },
+    {
+      "name": "Lu, Beini",
+      "affiliation": "Department of Earth and Environmental Engineering, Columbia University"
+    },
+    {
+      "name": "Esposito, Dan",
+      "affiliation": "Department of Chemical Engineering, Columbia University"
+    },
+    {
+      "name": "Xu, Bolun",
+      "affiliation": "Department of Earth and Environmental Engineering, Columbia University"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "synthetic fuels",
+    "energy security",
+    "power-to-X",
+    "CO2 abatement",
+    "renewable energy",
+    "optimization"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/thuqining/synfuel-energy-security",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "grants": []
+}

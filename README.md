@@ -12,7 +12,8 @@ of domestic supply and the CO2 abatement it enables (Fig. 4), and deployment und
 
 - Code: MIT License (`LICENSE`)
 - Data: CC BY 4.0 (`data/LICENSE`)
-- Archived versions: code and data on Zenodo, https://doi.org/10.5281/zenodo.[ID] (to be added on release)
+- Archived versions: code and data on Zenodo, https://doi.org/10.5281/zenodo.23357311 (v1.0.0; all versions:
+  https://doi.org/10.5281/zenodo.23357310)
 
 ---
 
@@ -133,4 +134,7 @@ Climate TRACE, WRI Aqueduct, Natural Earth, IEA and IRENA cost reports, Damodara
 
 ## 8. Citation
 
-Please cite the paper and the Zenodo archive (DOI above).
+Please cite the paper and the Zenodo archive:
+
+Qi, N., Fan, Z., Baker, Y., Lu, B., Esposito, D. & Xu, B. Code and data for "Energy security can accelerate
+domestic synthetic fuel adoption and CO2 abatement" (v1.0.0). Zenodo https://doi.org/10.5281/zenodo.23357311 (2026).
