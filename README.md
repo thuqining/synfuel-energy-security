@@ -101,13 +101,36 @@ Run all commands from `scripts/`. `run_mod.py <case dir> <cost year> <module>` r
 The central and highest cost tiers (Supplementary Note 2) are built the same way with `LCOF_TIER=mid` or
 `LCOF_TIER=high` and the corresponding `costs_<year><tier>.npz`.
 
-## 6. Data sources
+## 6. Supplementary analyses
+
+Each Supplementary table or paragraph that needs more than the four main cases has a driver in
+`work/caselow/sensitivity/` (run from any directory) or a module in `scripts/lcof/` (run from `scripts/`).
+
+| Supplementary item | Command | Needs |
+|---|---|---|
+| Cost years x tiers (Supplementary Table `tab:paths`, Supplementary Fig. `tiers`) | `python work/caselow/sensitivity/build_case.py <year> <low/mid/high>` for the 12 cases, then `python work/caselow/sensitivity/tier_table.py` | LP results in `data/cost/flexlow` |
+| Levelized cost by tier (`tab:lcostiers`) | `python work/caselow/sensitivity/lcos_tiers.py` | the 12 cases |
+| Oil-to-gas loss ratio m_f = 1.0 (`tab:mfsens`) | `python work/caselow/sensitivity/mf_sens.py` | cases 2030, 2040, 2050 |
+| Land limit (`tab:landsens`) | `python work/caselow/sensitivity/land_sens.py` | cases 2030, 2040, 2050 |
+| Fig. 4a sensitivity (`tab:fig5sens`) | `python ../work/caselow/run_mod.py ../work/caselow/2030 2030 lcof.fig5a_sens` (and `2025mid 2025`) | cases 2030, 2025mid |
+| Ireland at GNI* (Supplementary Note 5) | `python work/caselow/sensitivity/variants.py gni` | cases 2025mid, 2030 |
+| Coastal cells at offshore wind cost (Supplementary Note 3) | `python work/caselow/sensitivity/variants.py offshore` | case 2025mid, `work/sens_results` |
+| Equipment cost drivers, synthesis flexibility, battery (`tab:drivers`, `tab:minload`, `tab:battery`) | `python -m lcof.sens_summary` | `work/sens_results` (from `work/sens_pkg/sens_flex.py`) |
+| Recovery buffer (`tab:washout`) | `python ../work/caselow/rerun_fig3.py` | case 2025mid |
+| Source Data workbooks | `python -m lcof.export_source_data ../source_data` | the four main cases |
+
+The equipment and flexibility runs (`work/sens_pkg`) re-solve every land cell at its median weather year with
+one input changed: `python work/sens_pkg/sens_flex.py --groups all` (about 60,000 linear programs) writes
+`work/sens_pkg/out/<variant>/part_*.csv`; copy these folders to `work/sens_results/out/`, where
+`lcof.sens_summary` and `variants.py offshore` read them (the results of the paper are already there).
+
+## 7. Data sources
 
 Processed inputs and the third-party series the pipeline reads are included, with their sources; they remain subject to the terms of their publishers (for example, Singapore MOPS prices are Platts assessments republished by KNOC Petronet). Raw downloads (ERA5 fields, bulk trade and price files) are not redistributed; they come from public sources cited in
 the paper (Supplementary Table 3): ERA5 (Copernicus), EDGAR, UN Energy Statistics, Energy Institute Statistical
 Review, UN Comtrade, Eurostat Comext, EIA, World Bank Pink Sheet and World Development Indicators, JODI,
 Climate TRACE, WRI Aqueduct, Natural Earth, IEA and IRENA cost reports, Damodaran country risk premiums.
 
-## 7. Citation
+## 8. Citation
 
 Please cite the paper and the Zenodo archive (DOI above).
