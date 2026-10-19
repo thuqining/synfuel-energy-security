@@ -35,7 +35,7 @@ STEPS = [
     ("Import prices and exposure",
      "monthly prices in and out of disruptions;\nchain exposure and supplier concentration", "Note 4"),
     ("Security value",
-     "expected shortfall (from disruption rates)\n× value of fuel lost", "Note 5"),
+     "expected shortfall (from disruption rates)\n× value of lost fuel", "Note 5"),
     ("National budgets and land",
      "premium filled in merit order\nat 1–3% of GDP, within land limits", "Note 6"),
     ("Carbon and trajectory",

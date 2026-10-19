@@ -1,5 +1,5 @@
 """
-fig_si_voll_map.py - Supplementary figure (Note 4): the value of fuel lost,
+fig_si_voll_map.py - Supplementary figure (Note 4): the value of lost fuel,
 v_c, in the higher (reference) case that Fig. 4 uses, for every economy
 with data (2026-10-05; replaces the September draft fig_security_codf.png,
 which showed the central case in $/GJ).
@@ -67,7 +67,7 @@ def main():
     cb.ax.set_xticklabels([f"{b:,}" for b in BINS], fontsize=6.5)
     cb.ax.tick_params(length=2, width=0.5)
     cb.outline.set_linewidth(0.5)
-    cb.ax.set_title("Value of fuel lost (US\\$ MMBtu$^{-1}$)", fontsize=7, pad=3)
+    cb.ax.set_title("Value of lost fuel (US\\$ MMBtu$^{-1}$)", fontsize=7, pad=3)
     fig.text(0.06, 0.17, "No data", fontsize=6.5, va="center", ha="left", color="#3A4550",
              transform=fig.transFigure)
     fig.patches.append(mpl.patches.Rectangle((0.035, 0.158), 0.018, 0.024, transform=fig.transFigure,

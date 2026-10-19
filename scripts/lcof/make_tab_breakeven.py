@@ -2,7 +2,7 @@
 make_tab_breakeven.py - Supplementary Table tab:breakeven (2026-10-06, question on the
 EUR600/MWh valuation): for each of the 26 net importers of Fig. 4a, the European reference value of
 fuel lost at which the security margin plus the carbon price covers the extra cost of the
-1%-of-GDP merit-order portfolio. The security margin is linear in the value of fuel lost (every
+1%-of-GDP merit-order portfolio. The security margin is linear in the value of lost fuel (every
 national value is scaled by the same European factor, SI equation s:voll), so
 
     break-even = (extra cost - carbon price) / security margin at the reference x US$185/MMBtu.
@@ -51,10 +51,10 @@ def table():
         rows.append(f"{SHORT.get(c, c)} & {r.extra:,.0f} & {r.margin:,.0f} & {r.carbon:.0f} & {be} & {mult}\\\\")
     return "\n".join([
         r"\begin{table}[htbp]\centering\small",
-        r"\caption[Break-even value of fuel lost]{Break-even value of fuel lost for the 26 net importers of",
+        r"\caption[Break-even value of lost fuel]{Break-even value of lost fuel for the 26 net importers of",
         r"Fig.~\ref{fig:co2}a: the European reference value at which the security margin and the carbon price",
         r"together cover the extra cost of the 1\%-of-GDP portfolio (Supplementary Table~\ref{tab:fig5a}). The",
-        r"security margin is linear in the value of fuel lost, because every national value is scaled by the",
+        r"security margin is linear in the value of lost fuel, because every national value is scaled by the",
         r"same European factor (equation~(\ref{s:voll})), so the break-even value is the extra cost less the",
         r"carbon price, divided by the security margin at the reference value and multiplied by US\$185\,MMBtu$^{-1}$",
         r"(EUR600\,MWh$^{-1}$). Costs per tonne are in US\$\,tCO$_2^{-1}$. At the central value of",
@@ -62,7 +62,7 @@ def table():
         r"price, US\$78\,MMBtu$^{-1}$, one (Ireland), and at the reference value seven. Indonesia's",
         r"portfolio replaces no imports.}\label{tab:breakeven}",
         r"\begin{tabular}{@{}lrrrrr@{}}\toprule",
-        r" & Extra & Security margin & Carbon & \multicolumn{2}{c}{Break-even value of fuel lost}\\",
+        r" & Extra & Security margin & Carbon & \multicolumn{2}{c}{Break-even value of lost fuel}\\",
         r"\cmidrule(l){5-6}",
         r"Economy & cost & at reference & price & US\$\,MMBtu$^{-1}$ & $\times$ central value\\\midrule",
         *rows,

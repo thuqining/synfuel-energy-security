@@ -12,8 +12,11 @@ of domestic supply and the CO2 abatement it enables (Fig. 4), and deployment und
 
 - Code: MIT License (`LICENSE`)
 - Data: CC BY 4.0 (`data/LICENSE`)
-- Archived versions: code and data on Zenodo, https://doi.org/10.5281/zenodo.23357311 (v1.0.0; all versions:
-  https://doi.org/10.5281/zenodo.23357310)
+- Archived versions: code and data on Zenodo, https://doi.org/10.5281/zenodo.23357310 (all versions; v1.0.0:
+  https://doi.org/10.5281/zenodo.23357311)
+- v1.0.1 (2026-10-19): Fig. 2 adds regional maps of Europe, Japan and the Korean Peninsula, and South and Southeast
+  Asia (`lcof.fig_sd_map_zoom`); "value of lost fuel" wording in two SI figures and the break-even table. No result
+  changes (`lcof.test_paper` passes).
 
 ---
 
@@ -93,7 +96,7 @@ Run all commands from `scripts/`. `run_mod.py <case dir> <cost year> <module>` r
 | 2. Cost inputs per case | `python -m lcof.flex_prepare_lowest` | `data/cost/flexlow/costs_<case>.npz` | minutes |
 | 3. Linear programs | `python -m lcof.flex_local ../data/cost/flexlow/costs_<case>.npz ../data/cost/flexlow/run_<case> 24` | `run_<case>/out/part_*.csv` | 2-4 h (Gurobi, 24 processes) |
 | 4. Build a case | `python -m lcof.case_low <year> ../data/cost/flexlow/run_<case>/out ../work/caselow/<case> build fig4 fig5` | `work/caselow/<case>/data` | 5 min |
-| 5. Figs 1-3 (2025mid) | `python ../work/caselow/rerun_fig3.py`; `run_mod.py ... lcof.fig_main_framework`, `lcof.fig_sd_map` | figures and `core30_sites_*.csv` | 5 min |
+| 5. Figs 1-3 (2025mid) | `python ../work/caselow/rerun_fig3.py`; `run_mod.py ... lcof.fig_main_framework`, `lcof.fig_sd_map`, `lcof.fig_sd_map_zoom` (Fig. 2 with regional maps) | figures and `core30_sites_*.csv` | 5 min |
 | 6. Fig. 4b data | `run_mod.py ../work/caselow/<year> <year> lcof.fig5_chain` | `fig5b_chain_*.csv` | 1 min per year |
 | 7. Figs 4 and 5 | see Demo | `fig4`, `fig5` | 2 min |
 | 8. SI tables | `lcof.make_fig3_tables`, `lcof.risk_all_countries`, `lcof.make_fig5_tables`, `lcof.make_tab_breakeven`, `lcof.make_tab_budget_si`, `lcof.make_tab_paths` | `synthetic_fuel_nature/tab_*.tex` | minutes |
@@ -137,4 +140,4 @@ Climate TRACE, WRI Aqueduct, Natural Earth, IEA and IRENA cost reports, Damodara
 Please cite the paper and the Zenodo archive:
 
 Qi, N., Fan, Z., Baker, Y., Lu, B., Esposito, D. & Xu, B. Code and data for "Energy security can accelerate
-domestic synthetic fuel adoption and CO2 abatement" (v1.0.0). Zenodo https://doi.org/10.5281/zenodo.23357311 (2026).
+domestic synthetic fuel adoption and CO2 abatement". Zenodo https://doi.org/10.5281/zenodo.23357310 (2026).
