@@ -99,7 +99,10 @@ MIRROR = {"Russia": 643, "Qatar": 634, "Algeria": 12, "Iran": 364, "Turkmenistan
           "Libya": 434, "Nigeria": 566, "Bahrain": 48, "Venezuela": 862, "Oman": 512,
           "Egypt": 818, "Saudi Arabia": 682, "Trinidad and Tobago": 780, "Belarus": 112,
           "Uzbekistan": 860, "Ukraine": 804, "Kuwait": 414, "United Arab Emirates": 784,
-          "Iraq": 368, "Brunei": 96, "Indonesia": 360, "Malaysia": 458}
+          "Iraq": 368, "Brunei": 96, "Indonesia": 360, "Malaysia": 458,
+          # 2026-10-19: Norway reports almost no nitrogen exports (3 kt N), but its partners report 0.6 Mt N
+          # of imports from Norway (calcium nitrate and NPK from Yara Porsgrunn)
+          "Norway": 579}
 
 
 NES = 899          # 'Areas, nes': partners not stated

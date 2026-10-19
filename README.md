@@ -83,7 +83,7 @@ python -m lcof.fig5_years ../work/caselow/demo/fig5 2030=../work/caselow/2030 20
 ```
 
 Expected output: `fig4.pdf/png` and `fig5.pdf/png` identical to Figs 4 and 5 of the paper, and the console lines
-`2030: 0.552 Gt with security, 0.274 on cost only`, ... `2050: 1.876 Gt ..., 1.190 on cost only`.
+`2030: 0.555 Gt with security, 0.275 on cost only`, ... `2050: 1.907 Gt ..., 1.190 on cost only`.
 
 ## 5. Full reproduction
 

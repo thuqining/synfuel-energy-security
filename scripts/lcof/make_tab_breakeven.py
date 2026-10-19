@@ -18,7 +18,21 @@ import pandas as pd
 
 from . import inputs
 
-REF, CENTRAL, PEAK22 = 185.0, 23.0, 78.0     # US$/MMBtu: ENTSOG reference, central value, 2022 monthly TTF peak
+from .params import MMBTU_PER_GJ as MMB
+from .security import ACER_MID_USD_GJ, ENTSOG_USD_GJ
+
+
+def _peak_2022_real() -> float:
+    """August 2022 monthly peak of the European gas price (Pink Sheet, LHV), in 2025 US$ per MMBtu (BLS CPI-U)"""
+    g = pd.read_csv(inputs.PROJECT / "data" / "prices" / "fossil_monthly_gj_lhv.csv", index_col=0).gas_eu
+    c = pd.read_csv(inputs.PROJECT / "data" / "prices" / "fx" / "us_cpi_monthly.csv", index_col=0).cpi_u
+    c = c.astype(float)
+    return float(g["2022-08"] * MMB * c[c.index.str.startswith("2025")].mean() / c["2022-08"])
+
+
+# 2026-10-19: US$/MMBtu, from the anchors of security.py (EUR at the 2025 average US$1.13) and the 2022 peak in
+# 2025 dollars; were 185, 23 and 78 (nominal)
+REF, CENTRAL, PEAK22 = ENTSOG_USD_GJ * MMB, ACER_MID_USD_GJ * MMB, _peak_2022_real()
 SHORT = {"Dominican Republic": "Dominican Rep."}
 
 
@@ -56,7 +70,7 @@ def table():
         r"together cover the extra cost of the 1\%-of-GDP portfolio (Supplementary Table~\ref{tab:fig5a}). The",
         r"security margin is linear in the value of lost fuel, because every national value is scaled by the",
         r"same European factor (equation~(\ref{s:voll})), so the break-even value is the extra cost less the",
-        r"carbon price, divided by the security margin at the reference value and multiplied by US\$185\,MMBtu$^{-1}$",
+        rf"carbon price, divided by the security margin at the reference value and multiplied by US\${REF:.0f}\,MMBtu$^{{-1}}$",
         r"(EUR600\,MWh$^{-1}$). Costs per tonne are in US\$\,tCO$_2^{-1}$. At the central value of",
         r"US\$23\,MMBtu$^{-1}$ no portfolio is justified, at about the 2022 monthly peak of the European gas",
         r"price, US\$78\,MMBtu$^{-1}$, one (Ireland), and at the reference value seven. Indonesia's",

@@ -93,7 +93,7 @@ SPARSE_C = "#E4E4E4"
 # the incumbent fuel first, the synthetic substitute (and colour) in
 # brackets, so the demand map and the bill read as demand
 DEMAND_LABEL = {"e-methane": "gas (e-methane)", "e-diesel": "diesel (e-diesel)",
-                "methanol": "methanol", "e-kerosene": "jet fuel (e-kerosene)",
+                "methanol": "methanol", "e-kerosene": "jet fuel (e-jet fuel)",
                 "ammonia": "ammonia", "ethanol": "gasoline (ethanol)",
                 "marine": "fuel oil (marine e-methanol/e-ammonia)"}
 

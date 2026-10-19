@@ -24,7 +24,7 @@ EOL = " " + BS + BS
 SHORT = {"United States of America": "United States", "Dominican Republic": "Dominican Rep.",
          "United Kingdom": "United Kingdom"}
 MIX = {"ammonia": "A", "methanol": "M", "e-methane": "G", "e-diesel": "D",
-       "e-kerosene": "K", "ethanol": "E", "marine": "S"}   # S: marine fuel (2026-10-07)
+       "e-kerosene": "J", "ethanol": "E", "marine": "S"}   # S: marine fuel (2026-10-07)
 
 
 def num(x, fmt="{:.0f}"):

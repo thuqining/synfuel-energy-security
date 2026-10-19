@@ -53,7 +53,7 @@ NAME = {"United States": "United States of America", "USA": "United States of Am
         "United Rep. of Tanzania": "United Republic of Tanzania", "Serbia": "Republic of Serbia",
         "Bolivia (Plurinational State of)": "Bolivia", "Bahamas": "The Bahamas",
         "Timor-Leste": "East Timor", "Rep. of Moldova": "Moldova", "Other Asia, nes": "Taiwan",
-        "Cabo Verde": "Cabo Verde"}
+        "Cabo Verde": "Cabo Verde", "Central African Rep.": "Central African Republic"}
 # producers whose exports reach Comtrade only through their partners
 MIRROR = ["Russia", "Algeria", "Qatar", "Libya", "Nigeria", "Bahrain", "Argentina",
           "Mexico", "Bangladesh"]

@@ -80,8 +80,8 @@ def main():
     check("below disruption median in 6 (CN, US, DE, BR, CL, NO)",
           below_med == sorted(["China", "United States of America", "Germany", "Brazil", "Chile", "Norway"]), f"{below_med}")
     bills = a.set_index("country").quiet_bill_bn_usd
-    check("ammonia markets China 30, India 18, US 15, median 0.6 (US$ bn)",
-          round(bills["China"]) == 30 and round(bills["India"]) == 18 and round(bills["United States of America"]) == 15
+    check("ammonia markets China 31, India 18, US 15, median 0.6 (US$ bn)",
+          round(bills["China"]) == 31 and round(bills["India"]) == 18 and round(bills["United States of America"]) == 15
           and round(bills.median(), 1) == 0.6, f"{bills['China']:.1f}, {bills['India']:.1f}, "
           f"{bills['United States of America']:.1f}, {bills.median():.2f}")
     ft = sites("2025mid", "ft")
@@ -90,7 +90,7 @@ def main():
           and sorted(ft.country[ft.best_med_mmbtu <= ft.crisis_p99_mmbtu]) == ["China"])
 
     print("Fig. 4a (justified portfolios, security margin):")
-    for case, n_just, gt100, gt200 in (("2025mid", 1, None, None), ("2030", 8, 13, 7), ("2040", 11, 14, 7), ("2050", 15, 14, 7)):
+    for case, n_just, gt100, gt200 in (("2025mid", 1, None, None), ("2030", 9, 15, 7), ("2040", 11, 14, 7), ("2050", 15, 14, 7)):
         d = chain(case)
         sb = pd.read_csv(W / case / "data" / "security_budget.csv", index_col=0)
         imp = sb.import_pct.reindex(d.index) > 0
@@ -102,18 +102,18 @@ def main():
                   int((m > 100).sum()) == gt100 and int((m > 200).sum()) == gt200, f"{int((m > 100).sum())}, {int((m > 200).sum())}")
     d = chain("2030")
     m = d.gross_usd_t - d.net_usd_t
-    check("2030: Israel ~740, Ireland ~610 US$/t", near(m["Israel"], 740, 10) and near(m["Ireland"], 610, 10),
+    check("2030: Israel ~800, Ireland ~660 US$/t", near(m["Israel"], 800, 10) and near(m["Ireland"], 660, 10),
           f"{m['Israel']:.0f}, {m['Ireland']:.0f}")
     j30 = d[d.net_usd_t <= d.p_co2_usd_t]
-    check("2030: six by security alone, UK and Poland with carbon",
-          int((j30.net_usd_t <= 0).sum()) == 6 and sorted(j30.index[j30.net_usd_t > 0]) == ["Poland", "United Kingdom"])
+    check("2030: seven by security alone, UK and Poland with carbon",
+          int((j30.net_usd_t <= 0).sum()) == 7 and sorted(j30.index[j30.net_usd_t > 0]) == ["Poland", "United Kingdom"])
     d25 = chain("2025mid")
     gap = d25.net_usd_t - d25.p_co2_usd_t
-    check("2025: Netherlands and Germany short by ~22 and ~46 US$/t",
-          round(gap["Netherlands"]) == 22 and round(gap["Germany"]) == 46, f"{gap['Netherlands']:.1f}, {gap['Germany']:.1f}")
+    check("2025: Netherlands and Germany short by ~11 and ~28 US$/t",
+          round(gap["Netherlands"]) == 11 and round(gap["Germany"]) == 28, f"{gap['Netherlands']:.1f}, {gap['Germany']:.1f}")
 
     print("Fig. 4b (CO2 displaced, Gt/yr):")
-    for case, sec, cost in (("2030", 0.55, 0.27), ("2040", 1.24, 0.78), ("2050", 1.88, 1.19)):
+    for case, sec, cost in (("2030", 0.55, 0.27), ("2040", 1.26, 0.79), ("2050", 1.91, 1.19)):
         t = pd.read_csv(W / case / "data" / "fig5b_chain_trajectory.csv").set_index("year").loc[2025]
         check(f"{case}: {sec} with security, {cost} on cost alone",
               near(t.sec_gt, sec, 0.005) and near(t.cost_gt, cost, 0.005), f"{t.sec_gt:.3f}, {t.cost_gt:.3f}")

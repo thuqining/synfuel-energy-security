@@ -77,8 +77,10 @@ def _scenario_rates(start: int = CAT_START):
                     float(d.duration_months.clip(upper=24).median()))
     return out, len(ev)
 
-ACER_MID_USD_GJ = 22.0    # ~80 EUR/MWh mid of the ACER 45-114 country range
-ENTSOG_USD_GJ = 175.0     # 600 EUR/MWh harmonised planning value (upper anchor)
+# 2026-10-19: both anchors converted at the 2025 average rate used for carbon prices (policy.py, US$1.13/EUR)
+EUR_USD_2025 = 1.13
+ACER_MID_USD_GJ = 69.0 / 3.6 * EUR_USD_2025    # ACER (2018) Table 50: EU-26 median national CoDG, 69 EUR/MWh -> 21.7
+ENTSOG_USD_GJ = 600.0 / 3.6 * EUR_USD_2025     # ENTSOG TYNDP 2018 planning value, 600 EUR/MWh -> 188.3 (upper anchor)
 
 
 def _panel_prices():
