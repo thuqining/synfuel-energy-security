@@ -136,7 +136,7 @@ SPEC = {"ammonia": dict(fuels=("ammonia",), label="ammonia",
                         bill="(ammonia)", syn="Green ammonia", fos="Fossil ammonia"),
         "ft": dict(fuels=("e-diesel", "e-kerosene"),
                    label="diesel and jet fuel", bill="(diesel + jet)",
-                   syn="Synthetic diesel/jet", fos="Fossil diesel/jet")}
+                   syn="E-diesel/e-jet fuel", fos="Fossil diesel/jet fuel")}   # 2026-10-19: e- prefix as in Fig. 1
 # the version written to fig_main_sites.* / core30_sites.csv; None keeps the
 # paper's current constructed-ammonia render until the Fig 3 decision
 # 2026-09-14 (after review): ammonia is the main

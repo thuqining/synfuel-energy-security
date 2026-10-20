@@ -79,7 +79,7 @@ def _scenario_rates(start: int = CAT_START):
 
 # 2026-10-19: both anchors converted at the 2025 average rate used for carbon prices (policy.py, US$1.13/EUR)
 EUR_USD_2025 = 1.13
-ACER_MID_USD_GJ = 69.0 / 3.6 * EUR_USD_2025    # ACER (2018) Table 50: EU-26 median national CoDG, 69 EUR/MWh -> 21.7
+ACER_MID_USD_GJ = 69.0 / 3.6 * EUR_USD_2025    # central calibration 69 EUR/MWh -> 21.7, between ACER (2018) Table 50 EU-26 median (65) and mean (70) of member-state UCM
 ENTSOG_USD_GJ = 600.0 / 3.6 * EUR_USD_2025     # ENTSOG TYNDP 2018 planning value, 600 EUR/MWh -> 188.3 (upper anchor)
 
 

@@ -103,6 +103,9 @@ MIRROR = {"Russia": 643, "Qatar": 634, "Algeria": 12, "Iran": 364, "Turkmenistan
           # 2026-10-19: Norway reports almost no nitrogen exports (3 kt N), but its partners report 0.6 Mt N
           # of imports from Norway (calcium nitrate and NPK from Yara Porsgrunn)
           "Norway": 579}
+# producers whose own 2025 export report is far below what partners record (Norway: 3 kt N against 633 kt N),
+# so the mirror replaces it even though a 2025 report exists
+MIRROR_EVEN_IF_REPORTED = {"Norway"}
 
 
 NES = 899          # 'Areas, nes': partners not stated
@@ -153,7 +156,8 @@ def build(world_nh3_t: float = 160.0e6 * NH3_PER_N, write: bool = True) -> pd.Da
     for c in MIRROR:
         if c not in df.index:
             continue
-        if np.isfinite(df.at[c, "n_exports_t"]) and df.at[c, "exports_year"] == 2025:
+        if (np.isfinite(df.at[c, "n_exports_t"]) and df.at[c, "exports_year"] == 2025
+                and c not in MIRROR_EVEN_IF_REPORTED):
             continue
         m, n = _mirror_t_n(c)
         if n and (not np.isfinite(df.at[c, "n_exports_t"]) or m > df.at[c, "n_exports_t"]):
