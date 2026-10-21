@@ -95,7 +95,7 @@ SPARSE_C = "#E4E4E4"
 DEMAND_LABEL = {"e-methane": "gas (e-methane)", "e-diesel": "diesel (e-diesel)",
                 "methanol": "methanol", "e-kerosene": "jet fuel (e-jet fuel)",
                 "ammonia": "ammonia", "ethanol": "gasoline (ethanol)",
-                "marine": "fuel oil (marine e-methanol/e-ammonia)"}
+                "marine": "fuel oil (marine methanol/ammonia)"}
 
 
 def draw_reco(b, meta):

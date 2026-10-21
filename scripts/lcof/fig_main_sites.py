@@ -177,6 +177,10 @@ BEST, LOAD, GREY, CRIS, PURPLE = ("#0B4F9E", "#7FB2E0", "#8C8C8C",
                                   "#D55E00", "#CB181D")   # 2026-10-05: risk = import exposure red (as in Fig. 5), not the disruption orange
 # 2026-10-05: the risk column as shaded cells, 0 white to 1 dark red
 RISK_CELLS = True
+# 2026-10-21 (Bolun, Fan): the first right column shows the import share of the
+# ammonia supply chain, E_c in %, the quantity the security value builds on;
+# FIG3_COLUMN=risk restores the earlier import risk index sqrt(E_c H_c)
+SHOW_SHARE = os.environ.get("FIG3_COLUMN", "share") != "risk"
 SHORT = {"United States of America": "United States",
          "United Kingdom of Great Britain and Northern Ireland": "UK",
          "Dominican Republic": "Dominican Rep."}
@@ -549,10 +553,18 @@ def main(key, washout_months=FIG3_PRIMARY_WASHOUT, sensitivity=False,
         # net exporter of the fuel chain: no net import of the product and
         # none of its feedstock (2026-09-16: no 5% threshold)
         return np.isfinite(r[6]) and r[6] <= 0.0
+    def _share_order(r):
+        # 2026-10-21: import share first; ties by the Bill column as printed
+        # (per mille of GDP, one decimal), then by the cost ratio (lower on top).
+        # Rows are drawn bottom -> top, so larger keys sit higher.
+        gdp_r = float(_GDP.get(r[0], np.nan))
+        bill = round(1000.0 * r[7] * 1e9 / gdp_r, 1) if (np.isfinite(r[7]) and gdp_r > 0) else -1.0
+        ratio = (np.median(r[1]) / np.median(r[3])) if len(r[3]) else np.inf
+        return (round(r[6], 0), bill, -ratio)
     zero = sorted([r for r in rows if _is_exporter(r)],
                   key=lambda r: (r[5] if np.isfinite(r[5]) else -1.0))
     expo = sorted([r for r in rows if not _is_exporter(r)],
-                  key=lambda r: r[5])
+                  key=_share_order if SHOW_SHARE else (lambda r: r[5]))
     rows = zero + expo                       # drawn bottom -> top
     NZ = len(zero)
 
@@ -640,15 +652,32 @@ def main(key, washout_months=FIG3_PRIMARY_WASHOUT, sensitivity=False,
                     color="#3A4550")
         # every row carries its risk: a small importer's is small, an
         # exporter's is zero (2026-09-16)
-        if columns and np.isfinite(V):
+        if columns and SHOW_SHARE and np.isfinite(exposure):
+            V = exposure / 100.0             # the cell shade and text colour follow the share
+            lab = f"{exposure:.0f}"
+        elif columns and np.isfinite(V):
             lab = f"{V:.2f}" if V > 0 else "0"
+        if columns and np.isfinite(V):
             if RISK_CELLS:
                 cw = 0.085 * XMAX
-                fc = mpl.colormaps["Reds"](0.08 + 0.82 * min(max(V, 0.0), 1.0))
+                if SHOW_SHARE and os.environ.get("FIG3_SHADE", "full") == "full":
+                    # the full Reds ramp of the earlier risk column, white text on dark cells
+                    fc = mpl.colormaps["Reds"](0.08 + 0.82 * min(max(V, 0.0), 1.0))
+                    tcol = "white" if V > 0.5 else "#3A4550"
+                elif SHOW_SHARE:
+                    # 2026-10-21: a light crimson tint (white to 45% crimson), cooler than
+                    # the orange of the disruption prices; dark text throughout
+                    a = 0.03 + 0.80 * min(max(V, 0.0), 1.0)     # crimson ramp, white to deep, cooler than the orange
+                    base = np.array(mpl.colors.to_rgb("#B2182B"))
+                    fc = tuple(1.0 - a * (1.0 - base))
+                    tcol = "white" if a > 0.62 else "#3A4550"
+                else:
+                    fc = mpl.colormaps["Reds"](0.08 + 0.82 * min(max(V, 0.0), 1.0))
+                    tcol = "white" if V > 0.5 else "#3A4550"
                 ax.add_patch(mpl.patches.Rectangle((XV - cw / 2, i - 0.42), cw, 0.84, fc=fc,
                                                    ec="white", lw=0.6, zorder=3, clip_on=False))
                 ax.text(XV, i, lab, fontsize=6.5, va="center", ha="center", zorder=4,
-                        color="white" if V > 0.5 else "#3A4550")
+                        color=tcol)
             else:
                 colv = PURPLE if V > 0.3 else "#777777"
                 fw = "bold" if V > 0.3 else "normal"
@@ -666,9 +695,10 @@ def main(key, washout_months=FIG3_PRIMARY_WASHOUT, sensitivity=False,
     # the risk is the fuel's own: product imports plus the feedstock it is
     # made from, nothing else of the energy mix
     if columns:
-        ax.text(XV, n + 0.25, "Import risk", fontsize=7, ha="center",   # 2026-10-13: named as in the text
-                va="bottom", color=PURPLE, fontweight="bold")
-        ax.text(XV, n - 0.35, "(0–1)", fontsize=7, ha="center", va="bottom", color="#3A4550")
+        ax.text(XV, n + 0.25, "Import share" if SHOW_SHARE else "Import risk", fontsize=7, ha="center",
+                va="bottom", color="#3A4550" if SHOW_SHARE else PURPLE,
+                fontweight="normal" if SHOW_SHARE else "bold")
+        ax.text(XV, n - 0.35, "(%)" if SHOW_SHARE else "(0–1)", fontsize=7, ha="center", va="bottom", color="#3A4550")
         ax.text(XB, n - 0.35, "(‰ of GDP)", fontsize=7, ha="center",
                 va="bottom", color="#3A4550")
 
