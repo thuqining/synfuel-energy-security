@@ -12,6 +12,8 @@ import json
 import math
 from pathlib import Path
 
+import sys
+
 import geopandas as gpd
 import numpy as np
 import pandas as pd
@@ -20,7 +22,10 @@ R = Path(__file__).resolve().parents[1]
 W = R / "work" / "caselow"
 SD = R / "source_data"
 HERE = Path(__file__).resolve().parent
-YEARS = (2030, 2040, 2050)
+sys.path.insert(0, str(R / "scripts"))
+YEARS = (2030, 2040, 2050)                 # optimistic cost years of Figs 4-5 (cell cost maps too)
+F4YEARS = (2025, 2030, 2040, 2050)         # Figs 4-5 columns; 2025 = central costs, the 2025mid case
+CASE = {2025: "2025mid", 2030: "2030", 2040: "2040", 2050: "2050"}
 FUELS = ["hydrogen", "ammonia", "e-methane", "methanol", "e-kerosene", "e-diesel", "ethanol"]
 DFUELS = ["ammonia", "e-methane", "methanol", "e-kerosene", "e-diesel", "ethanol", "marine"]
 GJ_PER_MMBTU = 1.055056
@@ -131,31 +136,32 @@ def countries(c1):
     # Fig. 3 domestic-cost box for every economy and fuel (lcof.console_export on the 2025mid case)
     for _, r in pd.read_csv(HERE / "build/fuel_box_2025.csv").iterrows():
         get(r.country).setdefault("box", {})[r.fuel] = [num(r[q], 2) for q in ("p01", "p25", "p50", "p75", "p99")]
-    # matched normal / disruption prices of the core 30: ammonia (Fig. 3) and diesel + jet (SI version)
-    for c, r in f3.iterrows():
-        get(c).setdefault("pr", {})["amm"] = {
-            "n": [num(r[f"normal_price_{q}"], 2) for q in ("p01", "p25", "median", "p75", "p99")],
-            "d": [num(r[f"disruption_price_{q}"], 2) for q in ("p01", "p25", "median", "p75", "p99")],
-            "bill": num(r.ammonia_market_bn_usd_per_yr, 3), "pm": num(r.ammonia_market_per_mille_gdp, 3)}
-    ft = pd.read_csv(W / "2025mid/data/core30_sites_ft.csv").set_index("country")
-    gdp = pd.read_csv(W / "2030/data/security_budget.csv", index_col=0).gdp_usd
-    for c, r in ft.iterrows():
-        get(c).setdefault("pr", {})["ft"] = {
-            "n": [num(r[k], 2) for k in ("quiet_p01_mmbtu", "quiet_p25_mmbtu", "quiet_med_mmbtu", "quiet_p75_mmbtu", "quiet_p99_mmbtu")],
-            "d": [num(r[k], 2) for k in ("crisis_p01_mmbtu", "crisis_p25_mmbtu", "crisis_med_mmbtu", "crisis_p75_mmbtu", "crisis_p99_mmbtu")],
-            "bill": num(r.quiet_bill_bn_usd, 3),
-            "pm": num(r.quiet_bill_bn_usd * 1e9 / gdp[c] * 1000, 3) if c in gdp.index else None}
+    # normal / disruption prices and bill for every economy by the paper's rules (lcof.console_export.fig3_prices_all);
+    # the core 30 reproduce Fig. 3 and its SI diesel and jet version
+    gdp = pd.read_csv(W / "2025mid/data/security_budget.csv", index_col=0).gdp_usd
+    core = set(f3.index)
+    for k, key in (("amm", "ammonia"), ("ft", "ft")):
+        for _, r in pd.read_csv(HERE / f"build/fig3_prices_{key}.csv").iterrows():
+            c = r.country
+            pm = num(r.bill_bn_usd * 1e9 / gdp[c] * 1000, 4) if c in gdp.index else None
+            get(c).setdefault("pr", {})[k] = {
+                "n": [num(r[f"normal_p{q:02d}"], 2) for q in (1, 25, 50, 75, 99)],
+                "d": [num(r[f"disruption_p{q:02d}"], 2) for q in (1, 25, 50, 75, 99)],
+                "bill": num(r.bill_bn_usd, 3), "pm": pm, "core": c in core, "basis": r.basis}
     for c, r in f3.iterrows():
         d = get(c)
         d["core"] = True
         d["f3"] = {k: num(v, 3) if not isinstance(v, str) else v for k, v in r.items() if k != "import_risk_index"}
-    for y in YEARS:
-        a = pd.read_csv(HERE / f"build/fig4a_all_{y}.csv", index_col=0)
-        sb = pd.read_csv(W / f"{y}/data/security_budget.csv", index_col=0)
+    imp30 = pd.read_csv(W / "2030/data/security_budget.csv", index_col=0).import_pct > 0
+    for y in F4YEARS:
+        a = pd.read_csv(HERE / f"build/fig4a_all_{CASE[y]}.csv", index_col=0)
+        sb = pd.read_csv(W / f"{CASE[y]}/data/security_budget.csv", index_col=0)
         for c, r in a.iterrows():
             d = get(c)
-            imp = r.chain_import_share > 0
-            just = bool(imp and np.isfinite(r.net_usd_t) and r.net_usd_t <= r.p_co2_usd_t)
+            imp = bool(imp30.get(c, False))          # fig4_years: importers = net imports in the 2030 case
+            d["imp"] = imp
+            # justified as in fig4_years._first: net premium at or below the carbon price
+            just = bool(np.isfinite(r.net_usd_t) and r.net_usd_t <= r.p_co2_usd_t)
             d.setdefault("f4", {})[str(y)] = {
                 "gross": num(r.gross_usd_t, 1), "net": num(r.net_usd_t, 1),
                 "margin": num(r.gross_usd_t - r.net_usd_t, 1), "pco2": num(r.p_co2_usd_t, 1),
@@ -173,13 +179,55 @@ def countries(c1):
                 "s1": num(r.cov_1 * 100, 1), "s2": num(r.cov_2 * 100, 1), "s3": num(r.cov_3 * 100, 1),
                 "land": num(r.max_cov * 100, 1), "imp": num(r.import_pct * 100, 1),
                 "r1": num(r.ret_sf_1 * 100, 1) if imp else None, "r3": num(r.ret_sf_3 * 100, 1) if imp else None,
-                "grp": grp, "gdp": num(r.gdp_usd / 1e9, 1)}
+                "grp": grp, "gdp": num(r.gdp_usd / 1e9, 1), "c1": num(r.cov_1, 8)}
     for c, d in C.items():
         f4 = d.get("f4")
         if f4:
-            first = [y for y in YEARS if f4.get(str(y), {}).get("just")]
+            first = [y for y in YEARS if f4.get(str(y), {}).get("just")]      # the paper's columns, 2030-2050
             d["first_just"] = first[0] if first else None
     return C
+
+
+def orders(C):
+    """row orders exactly as the paper draws them (top to bottom)."""
+    out = {}
+    # Fig. 3 (fig_main_sites._share_order): importers by import share (%, rounded), then the bill (per mille of
+    # GDP, one decimal), then the cost ratio (lower on top); net exporters of the chain below, by supply risk
+    rk = pd.read_csv(W / "2025mid/data/fig3_risk_all_countries.csv")
+    for k, key, fuel in (("amm", "ammonia", "ammonia"), ("ft", "ft", "e-diesel")):
+        V = rk[rk.version == key].set_index("country").supply_risk
+        rows = [c for c, d in C.items() if d.get("pr", {}).get(k) and d.get("box", {}).get(fuel)]
+        E = {c: C[c].get("E_" + k) for c in rows}
+        imp = [c for c in rows if E[c] is not None and E[c] > 0]
+        exp_ = [c for c in rows if E[c] is not None and E[c] <= 0]
+        none = [c for c in rows if E[c] is None]
+
+        def key_(c):
+            pr = C[c]["pr"][k]
+            bill = round(pr["pm"], 1) if pr["pm"] is not None else -1.0
+            ratio = C[c]["box"][fuel][2] / pr["n"][2] if pr["n"][2] else math.inf
+            return (round(100 * E[c], 0), bill, -ratio)
+        imp.sort(key=key_, reverse=True)
+        from lcof.coreset import CORE30_LIST
+        ci = {c: i for i, c in enumerate(CORE30_LIST)}
+        exp_.sort(key=lambda c: (-(V.get(c) if np.isfinite(V.get(c, np.nan)) else -1.0), -ci.get(c, -1), c))
+        out["f3" + k] = {"rows": imp + exp_ + sorted(none), "split": len(imp), "nodata": len(imp) + len(exp_)}
+    # Fig. 4a (fig4_years.main): importers grouped by the first cost year justified, then by the 2030 net premium;
+    # net exporters below, by the 2030 net premium
+    f4 = {c: d for c, d in C.items() if d.get("f4", {}).get("2030", {}).get("net") is not None}
+    fj = lambda c: C[c].get("first_just") or 9999
+    imp = sorted([c for c in f4 if C[c].get("imp")], key=lambda c: (fj(c), C[c]["f4"]["2030"]["net"]))
+    exp_ = sorted([c for c in f4 if not C[c].get("imp")], key=lambda c: C[c]["f4"]["2030"]["net"])
+    out["f4"] = {"rows": imp + exp_, "split": len(imp)}
+    # Fig. 5 (security_budget._figure): imports covered, budget binds, land binds, net exporters; each by the
+    # share made at home at 1% of GDP, highest on top
+    G = ["imports covered", "budget binds", "land binds", "net exporter"]
+    out["f5"] = {}
+    for y in F4YEARS:
+        rows = [c for c, d in C.items() if d.get("f5", {}).get(str(y))]
+        rows.sort(key=lambda c: (G.index(C[c]["f5"][str(y)]["grp"]), -(C[c]["f5"][str(y)]["c1"] or 0)))
+        out["f5"][str(y)] = rows
+    return out
 
 
 def macc():
@@ -201,7 +249,8 @@ def main():
           "routes": pd.read_excel(SD / "Fig1.xlsx", "demand_by_route").to_dict("records"),
           "sectors": pd.read_excel(SD / "Fig1.xlsx", "sector_fuel_map").to_dict("records")}
     data = {"geo": geometry(), "cells": cl, "countries": countries(c1), "macc": macc(), "fig1": f1,
-            "fuels": FUELS, "dfuels": DFUELS, "years": list(YEARS)}
+            "fuels": FUELS, "dfuels": DFUELS, "years": [str(y) for y in F4YEARS], "cyears": [str(y) for y in YEARS]}
+    data["order"] = orders(data["countries"])
     s = json.dumps(data, separators=(",", ":"), ensure_ascii=False, allow_nan=False)
     body = (HERE / "template.html").read_text(encoding="utf-8").replace("/*__DATA__*/null", s)
     # index.html carries D3 inline (vendor/d3.min.js, v7.9.0, ISC licence) so it also opens offline

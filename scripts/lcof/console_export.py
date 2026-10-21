@@ -50,10 +50,84 @@ def fuel_boxes():
     print(d.country.nunique(), "economies x", d.fuel.nunique(), "fuels ->", OUT / "fuel_box_2025.csv")
 
 
+def fig3_prices_all(key):
+    """Fig. 3's normal and disruption price distributions for every economy, by the paper's own
+    rules (lcof.fig_main_sites.main): ammonia = the economy's own import price filled from the
+    urea-implied price at its own ratio; else the administered-gas route; else the urea-implied
+    price at its region's median own/urea ratio (economies outside the core 30 take the region of
+    their representative point). Diesel + jet = the economy's own import price filled from its
+    import market; economies with no import price of their own stay empty, as in the paper."""
+    import numpy as np
+    from lcof import fig_main_sites as F, import_prices as IP, global_trajectory as GT
+    qa = pd.read_csv(inputs.MAPS / "figure3_country_audit.csv")
+    qa = qa[qa.version == key].set_index("country")
+    gasdf, g = F.country_gas_monthly()
+    imp = F.load_import_prices()
+    meta = inputs.load_meta(2025)
+    land = meta[meta.cell_type == "land"]
+    pts = land.groupby("country")[["lon", "lat"]].mean()
+    dg = pd.read_csv(inputs.MAPS / "demand_fuel_grid.csv", index_col=0)
+    by_c = dg[["e-diesel_gj", "e-kerosene_gj"]].join(meta[["country"]]).groupby("country").sum()
+    dem_gj = (by_c.sum(axis=1) if key == "ft" else
+              dg[["ammonia_gj"]].join(meta[["country"]]).groupby("country").ammonia_gj.sum())
+    con = F.PR.load(verified=True).ammonia_implied.reindex(gasdf.index).dropna()
+    reg_of = {"China": "Asia-Pacific", "Rest of Asia and Oceania": "Asia-Pacific", "Europe": "Europe",
+              "Americas": "Americas", "Africa": "Middle East and Africa", "Middle East": "Middle East and Africa"}
+    rep_c = {}
+    for c, r in IP.NH3_REGION.items():
+        rep_c.setdefault(r, c)
+    rec = []
+    for c in sorted(pts.index):
+        try:
+            if key == "ft":
+                tot = by_c.loc[c].sum() if c in by_c.index else 0.0
+                wj = float(by_c.loc[c, "e-kerosene_gj"] / tot) if tot > 0 else 0.0
+                own, _ = F.country_buy_monthly(c, 1.0 - wj, wj, imp)
+                s, basis = F.country_buy_monthly_filled(c, 1.0 - wj, wj, imp)
+                if s.empty:
+                    continue
+                grey = s.dropna() * F.MMB
+            else:
+                s_nh3, why = F.country_ammonia_monthly(c, imp)
+                own = s_nh3
+                if len(s_nh3):
+                    ov = pd.concat([s_nh3, con], axis=1, keys=["own", "con"]).dropna()
+                    ratio = float((ov.own / ov.con).median()) if len(ov) >= 12 else 1.0
+                    grey = s_nh3.combine_first(con * ratio).dropna() * F.MMB
+                    basis = f"own import price, filled from the urea-implied price x {ratio:.3f}"
+                elif c in F.NH3_GAS_ROUTE:
+                    grey = F.fossil_for_fuel("ammonia", gasdf[c], g, c).dropna() * F.MMB
+                    basis = "administered national gas price"
+                else:
+                    reg = IP.NH3_REGION.get(c) or reg_of[GT.region_of(c, *pts.loc[c, ["lon", "lat"]])]
+                    k_reg, n_reg = F.nh3_regional_urea_ratio(rep_c[reg], imp)
+                    grey = con * k_reg * F.MMB
+                    basis = f"urea-implied price x {reg} ratio {k_reg:.3f}"
+            grey = F._real_2025(grey)
+            quiet, crisis, _ = F.paired_event_price_distributions(grey, key, washout_months=F.FIG3_PRIMARY_WASHOUT)
+            if not len(quiet):
+                continue
+            q = lambda a, p: float(np.percentile(a, p)) if len(a) else np.nan
+            rec.append(dict(country=c, version=key, basis=basis, own_share=len(own) / len(grey) if len(grey) else np.nan,
+                            # the bill as audit_figure3 defines it: demand x normal median price (2025 US$)
+                            bill_bn_usd=float(qa.estimated_quiet_bill_bn_usd[c]) if c in qa.index and np.isfinite(qa.estimated_quiet_bill_bn_usd[c])
+                            else dem_gj.get(c, 0.0) * q(quiet, 50) / F.MMB / 1e9,
+                            n_quiet=len(quiet), n_crisis=len(crisis),
+                            **{f"normal_p{p:02d}": q(quiet, p) for p in (1, 25, 50, 75, 99)},
+                            **{f"disruption_p{p:02d}": q(crisis, p) for p in (1, 25, 50, 75, 99)}))
+        except Exception as e:                      # noqa: BLE001 - one economy's gap must not stop the rest
+            print("  ", key, c, "skipped:", str(e)[:80])
+    d = pd.DataFrame(rec).round(3)
+    d.to_csv(OUT / f"fig3_prices_{key}.csv", index=False)
+    print(key, len(d), "economies ->", OUT / f"fig3_prices_{key}.csv")
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     if inputs.MAPS.parent.name == "2025mid":
-        return fuel_boxes()
+        fig3_prices_all("ammonia")
+        fig3_prices_all("ft")
+        fuel_boxes()                 # then, as for the later years, Fig. 4a at 2025 central costs
     orig = A.core_countries
     A.core_countries = lambda avail, n=30: sorted(avail)
     setup = A._setup()
