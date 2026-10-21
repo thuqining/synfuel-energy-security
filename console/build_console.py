@@ -128,6 +128,23 @@ def countries(c1):
         d["dem"] = [num(r[f + "_gj"], 4) for f in DFUELS]
         d["dem_tot"] = num(r.sum(), 4)
         d["co2_mt"] = num(co2[c], 2)
+    # Fig. 3 domestic-cost box for every economy and fuel (lcof.console_export on the 2025mid case)
+    for _, r in pd.read_csv(HERE / "build/fuel_box_2025.csv").iterrows():
+        get(r.country).setdefault("box", {})[r.fuel] = [num(r[q], 2) for q in ("p01", "p25", "p50", "p75", "p99")]
+    # matched normal / disruption prices of the core 30: ammonia (Fig. 3) and diesel + jet (SI version)
+    for c, r in f3.iterrows():
+        get(c).setdefault("pr", {})["amm"] = {
+            "n": [num(r[f"normal_price_{q}"], 2) for q in ("p01", "p25", "median", "p75", "p99")],
+            "d": [num(r[f"disruption_price_{q}"], 2) for q in ("p01", "p25", "median", "p75", "p99")],
+            "bill": num(r.ammonia_market_bn_usd_per_yr, 3), "pm": num(r.ammonia_market_per_mille_gdp, 3)}
+    ft = pd.read_csv(W / "2025mid/data/core30_sites_ft.csv").set_index("country")
+    gdp = pd.read_csv(W / "2030/data/security_budget.csv", index_col=0).gdp_usd
+    for c, r in ft.iterrows():
+        get(c).setdefault("pr", {})["ft"] = {
+            "n": [num(r[k], 2) for k in ("quiet_p01_mmbtu", "quiet_p25_mmbtu", "quiet_med_mmbtu", "quiet_p75_mmbtu", "quiet_p99_mmbtu")],
+            "d": [num(r[k], 2) for k in ("crisis_p01_mmbtu", "crisis_p25_mmbtu", "crisis_med_mmbtu", "crisis_p75_mmbtu", "crisis_p99_mmbtu")],
+            "bill": num(r.quiet_bill_bn_usd, 3),
+            "pm": num(r.quiet_bill_bn_usd * 1e9 / gdp[c] * 1000, 3) if c in gdp.index else None}
     for c, r in f3.iterrows():
         d = get(c)
         d["core"] = True

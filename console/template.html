@@ -57,6 +57,7 @@ tr.sel td{background:var(--bg)}
 .tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px}
 .tools input{max-width:260px}
 .tools button{font:inherit;font-size:13px;border:1px solid var(--rule);background:var(--panel);color:var(--ink);border-radius:4px;padding:4px 10px;cursor:pointer}
+[hidden]{display:none!important}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
@@ -73,7 +74,7 @@ tr.sel td{background:var(--bg)}
       <div class="layers" id="layers"></div>
     </div>
     <div id="fuelCtl"><p class="lab">Fuel</p><select id="fuel"></select>
-      <p class="lab" style="margin-top:8px">Equipment costs</p><div class="seg" id="cyears"></div>
+      <p class="lab" id="cyLab" style="margin-top:8px">Equipment costs</p><div class="seg" id="cyears"></div>
       <p class="note" id="cyNote" style="margin:4px 0 0"></p></div>
     <div id="yearCtl"><p class="lab">Cost year (Secs 4–5)</p><div class="seg" id="years"></div></div>
     <div><p class="lab">Find an economy</p><input type="search" id="find" list="names" placeholder="e.g. Japan"><datalist id="names"></datalist></div>
@@ -106,7 +107,7 @@ const C=DATA.countries, FU=DATA.fuels, YEARS=DATA.years.map(String);
 const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const fmt=(v,d=1)=>v==null||!isFinite(v)?"–":(+v).toLocaleString("en-US",{maximumFractionDigits:d,minimumFractionDigits:d});
 const pct=v=>v==null?"–":fmt(v*100,0)+"%";
-const S={layer:"cost",fuel:"ammonia",year:"2030",cyear:"2025",sel:null,tab:"f1"};
+const S={layer:"cost",fuel:"ammonia",year:"2030",cyear:"2025",f3fuel:"ammonia",sel:null,tab:"f1"};
 try{const t=localStorage.getItem("atlas-tab");if(t)S.tab=t}catch(e){}
 
 /* ---------- layers ---------- */
@@ -125,7 +126,7 @@ const LAYERS=[
   {id:"Hamm",name:"Supplier concentration (HHI), ammonia",unit:"HHI",v:c=>C[c].H_amm,scale:"hhi"},
   {id:"Hft",name:"Supplier concentration (HHI), diesel and jet",unit:"HHI",v:c=>C[c].H_ft,scale:"hhi"}]},
  {g:"3 · Domestic ammonia vs prices",items:[
-  {id:"bamm",name:"Lowest-cost domestic green ammonia, delivered",unit:"US$/MMBtu",v:c=>C[c].best_amm_delivered,scale:"costs"},
+  {id:"bamm",name:"Lowest-cost domestic fuel of the selected type (2025)",unit:"US$/MMBtu",fuel:true,nocy:true,v:c=>C[c].box?.[S.fuel==="e-kerosene"?"e-diesel":S.fuel]?.[2],scale:"costs"},
   {id:"ratio",name:"Cost ratio to normal median price (core 30)",unit:"×",v:c=>C[c].f3?C[c].f3.green_ammonia_median/C[c].f3.normal_price_median:null,scale:"ratio"},
   {id:"inrange",name:"Below disruption median price (core 30)",cat:true,v:c=>C[c].f3?(C[c].f3.green_ammonia_median<=C[c].f3.disruption_price_median?"below disruption median":"above disruption median"):null}]},
  {g:"4 · Security value (1% of GDP, by cost year)",yr:true,items:[
@@ -230,9 +231,10 @@ svg.call(d3.zoom().scaleExtent([1,12]).translateExtent([[0,0],[W,H]]).on("zoom",
 let curScale=null;
 function drawMap(){
   const lay=L(S.layer);
-  d3.select("#mapTitle").text(lay.name+(lay.yr?` · ${S.year} costs`:"")+(lay.fuel?` · ${S.fuel} · ${S.cyear} ${S.cyear==="2025"?"central":"optimistic"} costs`:""));
+  d3.select("#mapTitle").text(lay.name+(lay.yr?` · ${S.year} costs`:"")+(lay.fuel?` · ${S.fuel}`+(lay.nocy?"":` · ${S.cyear} ${S.cyear==="2025"?"central":"optimistic"} costs`):""));
   d3.select("#cyNote").text(S.cyear==="2025"?"2025 central costs (Figs 1–3).":`${S.cyear} optimistic projections, the cost layer of Figs 4–5.`);
   d3.select("#fuelCtl").attr("hidden",lay.fuel?null:true);
+  d3.selectAll("#cyears,#cyNote,#cyLab").attr("hidden",lay.nocy?true:null);
   d3.select("#yearCtl").style("opacity",lay.yr?1:.45);
   if(lay.cell){
     // one colour scale for all four cost years of a fuel, so the maps compare across years
@@ -255,7 +257,7 @@ function note(lay){
    Eamm:"Imported share of the ammonia supply chain: ammonia, fertilizer nitrogen and the gas or coal used to make it. Where trade records give no value, the fallback share used in the security value fills in (marked in the tooltip).",
    Eft:"Imported share of the diesel and jet fuel chain: product net imports plus domestic refining of imported crude oil. Where trade records give no value, the fallback share used in the security value fills in (marked in the tooltip).",
    Hamm:"Route-weighted Herfindahl index of supplier shares; it enters the security value through the share stranded in a supplier cut-off.",
-   bamm:"Lowest-cost domestic cell plus US$1.06/MMBtu delivery, as in Fig. 3.",
+   bamm:"Median over 20 weather years in each economy's lowest-cost cell, 2025 central costs, plus US$1.06/MMBtu delivery as in Fig. 3 (hydrogen without delivery).",
    ratio:"Only the 30 core economies have matched national price histories.",
    just:"A portfolio is justified when its net premium does not exceed the carbon price in force.",
    net:"Cost premium minus the security margin; blue cells are below zero.",
@@ -323,7 +325,7 @@ function panel(){
   const rows=[["Addressable demand",fmt(d.dem_tot,3)+" bn MMBtu"],["Fossil CO₂ addressed",fmt(d.co2_mt,1)+" Mt/yr"],
    ["Import share, ammonia chain",pct(d.E_amm)+(d.fb_amm?" *":"")],["Import share, diesel and jet",pct(d.E_ft)+(d.fb_ft?" *":"")],
    ["Supplier HHI, ammonia / diesel",fmt(d.H_amm,2)+" / "+fmt(d.H_ft,2)],
-   ["Lowest-cost green ammonia, delivered",fmt(d.best_amm_delivered)+" $/MMBtu"]];
+   ["Lowest-cost green ammonia, delivered",fmt(d.box?.ammonia?.[2])+" $/MMBtu"],["Lowest-cost e-diesel / e-methane",fmt(d.box?.["e-diesel"]?.[2])+" / "+fmt(d.box?.["e-methane"]?.[2])]];
   if(d.f3)rows.push(["Normal / disruption median price",fmt(d.f3.normal_price_median)+" / "+fmt(d.f3.disruption_price_median)]);
   if(a)rows.push([`Cost premium (${y})`,fmt(a.gross,0)+" $/t"],[`Security margin (${y})`,a.imp?fmt(a.margin,0)+" $/t":"–"],[`Net premium (${y})`,fmt(a.net,0)+" $/t"],["Carbon price",fmt(a.pco2,0)+" $/t"],
    ["First justified", d.first_just||(a.imp?"not by 2050":"net exporter")]);
@@ -350,7 +352,7 @@ function panel(){
 }
 
 /* ---------- figure tabs ---------- */
-const TABS=[["f1","Fig. 1 · costs and demand"],["f2","Fig. 2 · supply–demand classes"],["f3","Fig. 3 · import share and ammonia cost"],["f4a","Fig. 4a · security value"],["f4b","Fig. 4b · abatement curve"],["f5","Fig. 5 · fiscal capacity"],["tbl","Table"]];
+const TABS=[["f1","Fig. 1 · costs and demand"],["f2","Fig. 2 · supply–demand classes"],["f3","Fig. 3 · domestic cost vs prices"],["f4a","Fig. 4a · security value"],["f4b","Fig. 4b · abatement curve"],["f5","Fig. 5 · fiscal capacity"],["tbl","Table"]];
 d3.select("#tabs").selectAll("button").data(TABS).join("button").attr("role","tab").attr("id",d=>"tab-"+d[0]).text(d=>d[1])
  .on("click",(e,d)=>{S.tab=d[0];try{localStorage.setItem("atlas-tab",S.tab)}catch(err){}drawFig()});
 const ROWH=15;
@@ -419,28 +421,35 @@ function drawFig(){
     fn.text("Fig. 2 classes each land cell by the tercile of its demand-weighted fuel-mix cost and of its addressable demand. Map them with the layer “Supply–demand classes (Fig. 2)”.");
   }
   if(S.tab==="f3"){
-    const names=Object.keys(C).filter(c=>C[c].E_amm!=null).sort((a,b)=>(C[b].E_amm-C[a].E_amm)||((C[b].dem?.[0]||0)-(C[a].dem?.[0]||0)));
+    const F3=[["ammonia","ammonia","amm"],["e-diesel","diesel and jet fuel","ft"],["e-methane","e-methane",null],["methanol","methanol",null],["ethanol","ethanol",null],["hydrogen","hydrogen",null]];
+    const cur=F3.find(f=>f[0]===S.f3fuel)||F3[0], fu=cur[0], pk=cur[2];
+    const seg=tools.append("div").attr("class","seg").style("width","min(100%,560px)");
+    seg.selectAll("button").data(F3).join("button").text(f=>f[1]).attr("aria-pressed",f=>f[0]===fu).on("click",(e,f)=>{S.f3fuel=f[0];drawFig()});
+    const Ek=pk==="ft"?"E_ft":"E_amm", med=c=>C[c].box?.[fu]?.[2];
+    const names=Object.keys(C).filter(c=>C[c].box?.[fu]).sort(pk?((a,b)=>((C[b][Ek]??-1)-(C[a][Ek]??-1))||((C[b].dem_tot||0)-(C[a].dem_tot||0))):((a,b)=>med(a)-med(b)));
     const left=170,{s,y,h}=rowsFrame(names,W0,left);
     const x1=d3.scaleLinear().domain([0,1]).range([left,left+150]), x2=d3.scaleLinear().domain([0,1]).range([left+175,left+325]);
-    const cs=Object.values(C).flatMap(d=>[d.best_amm_delivered,d.f3?.disruption_price_p99]).filter(v=>v!=null);
+    const cs=names.flatMap(c=>[C[c].box[fu][4],pk&&C[c].pr?.[pk]?.d[4]]).filter(v=>v);
     const x3=d3.scaleLog().domain([10,Math.min(400,d3.max(cs))]).range([left+360,W0-130]).clamp(true);
-    s.append("text").attr("x",W0-120).attr("y",12).attr("font-size",11).attr("font-weight",600).text("Bill: US$ bn · ‰ GDP");
-    [[x1,"Import share, ammonia"],[x2,"Import share, diesel and jet"],[x3,"Green ammonia vs prices (US$/MMBtu)"]].forEach(([x,t],i)=>{
-      s.append("text").attr("x",x.range()[0]).attr("y",12).attr("font-size",11).attr("font-weight",600).text(t);
+    if(pk)s.append("text").attr("x",W0-120).attr("y",12).attr("font-size",11).attr("font-weight",600).text("Bill: US$ bn · ‰ GDP");
+    [[x1,"Import share, ammonia"],[x2,"Import share, diesel and jet"],[x3,`Domestic ${fu}${pk?" vs prices":""} (US$/MMBtu)`]].forEach(([x,tt],i)=>{
+      s.append("text").attr("x",x.range()[0]).attr("y",12).attr("font-size",11).attr("font-weight",600).text(tt);
       s.append("g").attr("class","ax").attr("transform",`translate(0,${h-12})`).call(i<2?d3.axisBottom(x).ticks(2,"~%").tickSize(-h+40):d3.axisBottom(x).ticks(6,"~s").tickSize(-h+40)).call(a=>a.selectAll("line").attr("stroke-opacity",.4))});
-    names.forEach(n=>{const d=C[n],Y=y(n),bh=y.bandwidth();
-      s.append("rect").attr("x",x1(0)).attr("y",Y).attr("height",bh).attr("width",x1(d.E_amm)-x1(0)).attr("fill",d3.interpolateReds(.25+.7*d.E_amm)).attr("opacity",d.fb_amm?.45:1);
-      if(d.E_ft!=null)s.append("rect").attr("x",x2(0)).attr("y",Y).attr("height",bh).attr("width",x2(d.E_ft)-x2(0)).attr("fill",d3.interpolateReds(.25+.7*d.E_ft)).attr("opacity",d.fb_ft?.45:1);
-      if(d.f3){const f=d.f3;
-        s.append("text").attr("x",W0-120).attr("y",Y+bh-2).attr("font-size",11).attr("font-family","var(--f-mono)").text(`${fmt(f.ammonia_market_bn_usd_per_yr,f.ammonia_market_bn_usd_per_yr<1?2:1)} · ${fmt(f.ammonia_market_per_mille_gdp,2)}`);
-        s.append("line").attr("x1",x3(f.green_ammonia_p01)).attr("x2",x3(f.green_ammonia_p99)).attr("y1",Y+bh/2).attr("y2",Y+bh/2).attr("stroke","var(--blue)");
-        s.append("rect").attr("x",x3(f.green_ammonia_p25)).attr("width",Math.max(2,x3(f.green_ammonia_p75)-x3(f.green_ammonia_p25))).attr("y",Y).attr("height",bh).attr("fill","var(--blue)").attr("opacity",.35);
-        s.append("line").attr("x1",x3(f.disruption_price_p01)).attr("x2",x3(f.disruption_price_p99)).attr("y1",Y+bh/2).attr("y2",Y+bh/2).attr("stroke","var(--orange)");
-        s.append("rect").attr("x",x3(f.normal_price_p01)).attr("width",x3(f.normal_price_p99)-x3(f.normal_price_p01)).attr("y",Y+1).attr("height",bh-2).attr("fill","var(--grayp)").attr("opacity",.45);
-        s.append("path").attr("d",d3.symbol(d3.symbolDiamond,28)()).attr("transform",`translate(${x3(f.disruption_price_median)},${Y+bh/2})`).attr("fill","var(--orange)");}
-      if(d.best_amm_delivered!=null)s.append("circle").attr("cx",x3(d.best_amm_delivered)).attr("cy",Y+bh/2).attr("r",3.5).attr("fill","var(--blue)")
-        .on("mousemove",e=>showTip(e,`<b>${n}</b><br>Green ammonia ${fmt(d.best_amm_delivered)} $/MMBtu${d.f3?`<br>Normal median ${fmt(d.f3.normal_price_median)} · disruption median ${fmt(d.f3.disruption_price_median)}`:"<br>No matched price history"}`)).on("mouseleave",hideTip);});
-    fn.text(`${names.length} economies with an ammonia import share, ordered by import share and then by ammonia demand. Pale bars: fallback shares where trade records give no Fig. 3 value (the chain share the security value uses). Blue dot: lowest-cost domestic cell plus delivery (2025 central costs). For the 30 core economies with matched price histories (Fig. 3): blue box, green ammonia across 20 weather years (IQR, whiskers 1st–99th); gray band, normal prices; orange line and diamond, disruption prices (1st–99th percentiles, median); bill at normal prices.`);
+    names.forEach(n=>{const d=C[n],Y=y(n),bh=y.bandwidth(),bx=d.box[fu],pr=pk?d.pr?.[pk]:null;
+      if(d.E_amm!=null)s.append("rect").attr("x",x1(0)).attr("y",Y).attr("height",bh).attr("width",x1(d.E_amm)-x1(0)).attr("fill",d3.interpolateReds(.08+.82*d.E_amm)).attr("opacity",d.fb_amm?.45:1);
+      if(d.E_ft!=null)s.append("rect").attr("x",x2(0)).attr("y",Y).attr("height",bh).attr("width",x2(d.E_ft)-x2(0)).attr("fill",d3.interpolateReds(.08+.82*d.E_ft)).attr("opacity",d.fb_ft?.45:1);
+      if(pr){
+        s.append("rect").attr("x",x3(pr.n[0])).attr("width",x3(pr.n[4])-x3(pr.n[0])).attr("y",Y+1).attr("height",bh-2).attr("fill","var(--grayp)").attr("opacity",.4);
+        s.append("line").attr("x1",x3(pr.n[2])).attr("x2",x3(pr.n[2])).attr("y1",Y+1).attr("y2",Y+bh-1).attr("stroke","#ffffff").attr("stroke-width",1.5);
+        s.append("line").attr("x1",x3(pr.d[0])).attr("x2",x3(pr.d[4])).attr("y1",Y+bh/2).attr("y2",Y+bh/2).attr("stroke","var(--orange)");
+        s.append("path").attr("d",d3.symbol(d3.symbolDiamond,28)()).attr("transform",`translate(${x3(pr.d[2])},${Y+bh/2})`).attr("fill","var(--orange)");
+        s.append("text").attr("x",W0-120).attr("y",Y+bh-2).attr("font-size",11).text(`${fmt(pr.bill,pr.bill<1?2:1)} · ${fmt(pr.pm,2)}`);}
+      s.append("line").attr("x1",x3(bx[0])).attr("x2",x3(bx[4])).attr("y1",Y+bh/2).attr("y2",Y+bh/2).attr("stroke","var(--blue)");
+      s.append("rect").attr("x",x3(bx[1])).attr("width",Math.max(2,x3(bx[3])-x3(bx[1]))).attr("y",Y+1).attr("height",bh-2).attr("fill","var(--blue)").attr("opacity",.85);
+      s.append("line").attr("x1",x3(bx[2])).attr("x2",x3(bx[2])).attr("y1",Y).attr("y2",Y+bh).attr("stroke","#ffffff").attr("stroke-width",1.5);
+      s.append("rect").attr("x",x3.range()[0]).attr("width",x3.range()[1]-x3.range()[0]).attr("y",Y).attr("height",bh).attr("fill","transparent")
+        .on("mousemove",e=>showTip(e,`<b>${n}</b> · ${fu}<br>Domestic, lowest-cost cell ${fmt(bx[2])} US$/MMBtu (IQR ${fmt(bx[1])}–${fmt(bx[3])}; 1st–99th ${fmt(bx[0])}–${fmt(bx[4])})${pr?`<br>Normal median ${fmt(pr.n[2])} · disruption median ${fmt(pr.d[2])}`:pk?"<br>No matched price history (core 30 only)":""}`)).on("mouseleave",hideTip);});
+    fn.text(`${names.length} economies. Blue box: ${fu} from each economy's lowest-cost cell across 20 weather years (2025 central costs; IQR, whiskers 1st–99th percentiles, white line median)${fu==="hydrogen"?"":", plus US$1.06/MMBtu delivery"}. `+(pk?`Rows ordered by the import share of the ${pk==="amm"?"ammonia":"diesel and jet fuel"} chain, then demand. For the 30 core economies with matched price histories (Fig. 3${pk==="ft"?", SI diesel and jet version":""}): gray band, normal prices; orange line and diamond, disruption prices (1st–99th percentiles, median); bill at normal prices. Pale red bars: fallback import shares.`:"Rows ordered by median cost; matched price histories exist for ammonia and diesel and jet fuel only."));
   }
   if(S.tab==="f4a"){
     const y0=S.year, has=Object.keys(C).filter(c=>C[c].f4?.[y0]?.gross!=null);
@@ -507,7 +516,7 @@ function drawFig(){
   }
   if(S.tab==="tbl"){
     const cols=[["name","Economy",d=>d.name,0],["Eamm","Import share NH₃",d=>d.E_amm,2],["Eft","Import share diesel/jet",d=>d.E_ft,2],["Hamm","HHI NH₃",d=>d.H_amm,2],
-     ["bamm","Green NH₃ $/MMBtu",d=>d.best_amm_delivered,1],["dem","Demand bn MMBtu",d=>d.dem_tot,3],
+     ["bamm","Green NH₃ $/MMBtu",d=>d.box?.ammonia?.[2],1],["bed","E-diesel $/MMBtu",d=>d.box?.["e-diesel"]?.[2],1],["dem","Demand bn MMBtu",d=>d.dem_tot,3],
      ...YEARS.flatMap(y=>[["net"+y,`Net premium ${y}`,d=>d.f4?.[y]?.net,0],["s1"+y,`At home 1% ${y}`,d=>d.f5?.[y]?.s1,0]]),["fj","First justified",d=>d.first_just,0]];
     const inp=tools.append("input").attr("type","search").attr("id","tblq").attr("placeholder","Filter economies");
     const btn=tools.append("button").text("Copy as CSV");
