@@ -124,6 +124,11 @@ def countries(c1):
             if d.get("E_" + k) is None and num(r.e) is not None:
                 d["E_" + k] = num(r.e)
                 d["fb_" + k] = True
+    # each fuel's own chain import share as the security value uses it (gas for e-methane, methanol and hydrogen,
+    # the oil chain for ethanol); ammonia and diesel + jet keep the Fig. 3 shares above
+    for _, r in cq[cq.fuel.isin(["e-methane", "methanol", "ethanol", "hydrogen"])].iterrows():
+        if num(r.e) is not None:
+            get(r.country).setdefault("Ech", {})[r.fuel] = num(r.e)
     for c, r in best.iterrows():
         d = get(c)
         d["best"] = [num(r[f + "_usd_mmbtu"], 1) for f in FUELS]

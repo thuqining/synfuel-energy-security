@@ -481,22 +481,24 @@ function drawFig(){
     const cur=F3.find(f=>f[0]===S.f3fuel)||F3[0], fu=cur[0], pk=cur[2];
     const seg=tools.append("div").attr("class","seg").style("width","min(100%,560px)");
     seg.selectAll("button").data(F3).join("button").text(f=>f[1]).attr("aria-pressed",f=>f[0]===fu).on("click",(e,f)=>{S.f3fuel=f[0];drawFig()});
-    const Ek=pk==="ft"?"E_ft":"E_amm", med=c=>C[c].box?.[fu]?.[2];
-    const names=pk?ORD["f3"+pk].rows.filter(c=>C[c].box?.[fu]):Object.keys(C).filter(c=>C[c].box?.[fu]).sort((a,b)=>med(a)-med(b));
+    // one import-share column: the selected fuel's own supply chain
+    const CHAIN={ammonia:"ammonia chain","e-diesel":"diesel and jet fuel chain","e-methane":"natural gas chain",methanol:"natural gas chain",ethanol:"oil chain",hydrogen:"natural gas chain"};
+    const Es=c=>pk==="amm"?C[c].E_amm:pk==="ft"?C[c].E_ft:C[c].Ech?.[fu], fbs=c=>pk==="amm"?C[c].fb_amm:pk==="ft"?C[c].fb_ft:false, med=c=>C[c].box?.[fu]?.[2];
+    // ammonia and diesel + jet in the paper's order; the other fuels by import share, then by domestic cost
+    const names=pk?ORD["f3"+pk].rows.filter(c=>C[c].box?.[fu]):Object.keys(C).filter(c=>C[c].box?.[fu]).sort((a,b)=>((Es(b)??-1)-(Es(a)??-1))||(med(a)-med(b)));
     const split=pk?ORD["f3"+pk].split:null;
     const left=170,{s,y,h}=rowsFrame(names,W0,left);
-    const x1=d3.scaleLinear().domain([0,1]).range([left,left+150]), x2=d3.scaleLinear().domain([0,1]).range([left+175,left+325]);
+    const x1=d3.scaleLinear().domain([0,1]).range([left,left+160]);
     const cs=names.flatMap(c=>[C[c].box[fu][4],pk&&C[c].pr?.[pk]?.d[4]]).filter(v=>v);
-    const x3=d3.scaleLog().domain([10,Math.min(400,d3.max(cs))]).range([left+360,W0-130]).clamp(true);
+    const x3=d3.scaleLog().domain([10,Math.min(400,d3.max(cs))]).range([left+200,W0-130]).clamp(true);
     if(pk)s.append("text").attr("x",W0-120).attr("y",12).attr("font-size",11).attr("font-weight",600).text("Bill: US$ bn · ‰ GDP");
-    [[x1,"Import share, ammonia"],[x2,"Import share, diesel and jet"],[x3,`Domestic ${fu}${pk?" vs prices":""} (US$/MMBtu)`]].forEach(([x,tt],i)=>{
+    [[x1,`Import share, ${CHAIN[fu]}`],[x3,`Domestic ${fu}${pk?" vs prices":""} (US$/MMBtu)`]].forEach(([x,tt],i)=>{
       s.append("text").attr("x",x.range()[0]).attr("y",12).attr("font-size",11).attr("font-weight",600).text(tt);
-      s.append("g").attr("class","ax").attr("transform",`translate(0,${h-12})`).call(i<2?d3.axisBottom(x).ticks(2,"~%").tickSize(-h+40):d3.axisBottom(x).ticks(6,"~s").tickSize(-h+40)).call(a=>a.selectAll("line").attr("stroke-opacity",.4))});
+      s.append("g").attr("class","ax").attr("transform",`translate(0,${h-12})`).call(i<1?d3.axisBottom(x).ticks(2,"~%").tickSize(-h+40):d3.axisBottom(x).ticks(6,"~s").tickSize(-h+40)).call(a=>a.selectAll("line").attr("stroke-opacity",.4))});
     if(pk)s.selectAll("text").filter(function(){return this.getAttribute("text-anchor")==="end"&&names.includes(this.textContent)&&C[this.textContent]&&!C[this.textContent].pr?.[pk]?.core}).style("fill","#7a8794");
     if(split)s.append("line").attr("x1",0).attr("x2",W0).attr("y1",y(names[split])-2).attr("y2",y(names[split])-2).attr("stroke","#8a94a0").attr("stroke-dasharray","5 3");
     names.forEach(n=>{const d=C[n],Y=y(n),bh=y.bandwidth(),bx=d.box[fu],pr=pk?d.pr?.[pk]:null;
-      if(d.E_amm!=null)s.append("rect").attr("x",x1(0)).attr("y",Y).attr("height",bh).attr("width",x1(d.E_amm)-x1(0)).attr("fill",d3.interpolateReds(.08+.82*d.E_amm)).attr("opacity",d.fb_amm?.45:1);
-      if(d.E_ft!=null)s.append("rect").attr("x",x2(0)).attr("y",Y).attr("height",bh).attr("width",x2(d.E_ft)-x2(0)).attr("fill",d3.interpolateReds(.08+.82*d.E_ft)).attr("opacity",d.fb_ft?.45:1);
+      const e=Es(n);if(e!=null)s.append("rect").attr("x",x1(0)).attr("y",Y).attr("height",bh).attr("width",x1(e)-x1(0)).attr("fill",d3.interpolateReds(.08+.82*e)).attr("opacity",fbs(n)?.45:1);
       if(pr){
         s.append("rect").attr("x",x3(pr.n[0])).attr("width",x3(pr.n[4])-x3(pr.n[0])).attr("y",Y+1).attr("height",bh-2).attr("fill","var(--grayp)").attr("opacity",.4);
         s.append("line").attr("x1",x3(pr.n[2])).attr("x2",x3(pr.n[2])).attr("y1",Y+1).attr("y2",Y+bh-1).attr("stroke","#ffffff").attr("stroke-width",1.5);
@@ -508,7 +510,7 @@ function drawFig(){
       s.append("line").attr("x1",x3(bx[2])).attr("x2",x3(bx[2])).attr("y1",Y).attr("y2",Y+bh).attr("stroke","#ffffff").attr("stroke-width",1.5);
       s.append("rect").attr("x",x3.range()[0]).attr("width",x3.range()[1]-x3.range()[0]).attr("y",Y).attr("height",bh).attr("fill","transparent")
         .on("mousemove",e=>showTip(e,`<b>${n}</b> · ${fu}<br>Domestic, lowest-cost cell ${fmt(bx[2])} US$/MMBtu (IQR ${fmt(bx[1])}–${fmt(bx[3])}; 1st–99th ${fmt(bx[0])}–${fmt(bx[4])})${pr?`<br>Normal median ${fmt(pr.n[2])} · disruption median ${fmt(pr.d[2])} US$/MMBtu<br>Bill ${fmt(pr.bill,2)} US$ bn · ${fmt(pr.pm,2)}‰ GDP<br><span style="color:var(--muted)">Price basis: ${pr.core?"as in Fig. 3":"constructed by the paper's rule for missing prices"} (${pr.basis})</span>`:pk?"<br>No price series":""}`)).on("mouseleave",hideTip);});
-    fn.text(`${names.length} economies. Blue box: ${fu} from each economy's lowest-cost cell across 20 weather years (2025 central costs; IQR, whiskers 1st–99th percentiles, white line median)${fu==="hydrogen"?"":", plus US$1.06/MMBtu delivery"}. `+(pk?`Rows in the paper's order: net importers by import share, then the bill (‰ of GDP), then the cost ratio; net exporters of the chain below the dashed line. Gray band, normal prices; orange line and diamond, disruption prices (1st–99th percentiles, median); bill at normal prices. The 30 core economies reproduce Fig. 3${pk==="ft"?" (SI diesel and jet version)":""}; the others use the same event windows and rules, with prices constructed as the paper does for missing prices (${pk==="amm"?"urea-implied price at the region's own/urea ratio":"the regional import-market price"}); names in gray. Pale red bars: fallback import shares.`:"Rows ordered by median cost; matched price histories exist for ammonia and diesel and jet fuel only."));
+    fn.text(`${names.length} economies. Box: ${fu} from each economy's lowest-cost cell across 20 weather years (2025 central costs; IQR, whiskers 1st–99th percentiles, white line median)${fu==="hydrogen"?"":", plus US$1.06/MMBtu delivery"}. `+(pk?`Rows in the paper's order: net importers by import share, then the bill (‰ of GDP), then the cost ratio; net exporters of the chain below the dashed line. Gray band, normal prices; orange line and diamond, disruption prices (1st–99th percentiles, median); bill at normal prices. The 30 core economies reproduce Fig. 3${pk==="ft"?" (SI diesel and jet version)":""}; the others use the same event windows and rules, with prices constructed as the paper does for missing prices (${pk==="amm"?"urea-implied price at the region's own/urea ratio":"the regional import-market price"}); names in gray. Pale red bars: fallback import shares.`:`Import share of the ${CHAIN[fu]}, as the security value uses it. Rows by import share, then by domestic cost; matched price histories exist for ammonia and diesel and jet fuel only.`));
   }
   if(S.tab==="f4a"){
     const y0=S.year;
