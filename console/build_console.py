@@ -110,6 +110,15 @@ def countries(c1):
         d["trade_" + k] = r.trade_status if isinstance(r.trade_status, str) else None
         if isinstance(r.note, str):
             d["note_" + k] = r.note
+    # fallback import shares: where trade records give no Fig. 3 value, the chain share the security value uses
+    # (nitrogen balance, or national gas / oil net import dependence; lcof.fig5a_chain.chain_inputs)
+    cq = pd.read_csv(W / "2030/data/chain_q.csv")
+    for k, fuel in (("amm", "ammonia"), ("ft", "e-diesel")):
+        for _, r in cq[cq.fuel == fuel].iterrows():
+            d = get(r.country)
+            if d.get("E_" + k) is None and num(r.e) is not None:
+                d["E_" + k] = num(r.e)
+                d["fb_" + k] = True
     for c, r in best.iterrows():
         d = get(c)
         d["best"] = [num(r[f + "_usd_mmbtu"], 1) for f in FUELS]
@@ -171,7 +180,10 @@ def macc():
 
 def main():
     cl, c1 = cells()
-    data = {"geo": geometry(), "cells": cl, "countries": countries(c1), "macc": macc(),
+    f1 = {"box": pd.read_excel(SD / "Fig1.xlsx", "box_statistics").to_dict("records"),
+          "routes": pd.read_excel(SD / "Fig1.xlsx", "demand_by_route").to_dict("records"),
+          "sectors": pd.read_excel(SD / "Fig1.xlsx", "sector_fuel_map").to_dict("records")}
+    data = {"geo": geometry(), "cells": cl, "countries": countries(c1), "macc": macc(), "fig1": f1,
             "fuels": FUELS, "dfuels": DFUELS, "years": list(YEARS)}
     s = json.dumps(data, separators=(",", ":"), ensure_ascii=False, allow_nan=False)
     body = (HERE / "template.html").read_text(encoding="utf-8").replace("/*__DATA__*/null", s)
