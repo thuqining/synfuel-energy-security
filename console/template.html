@@ -1,25 +1,21 @@
 <title>Synthetic Fuel Security Atlas</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,500&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <style>
-/* Layout: control rail | world map | economy panel, then figure tabs for every economy below */
+/* Layout: control rail | world map | economy panel, then figure tabs for every economy below.
+   Deliberately one light theme in the paper's figure palette (Nature Energy figures): white ground, Arial,
+   blue = synthetic fuel, gray = fossil, orange = disruption, red = import share, green = security, magenta = carbon. */
 :root{
-  --bg:#f6f7f8; --panel:#ffffff; --ink:#1b2733; --muted:#5d6b78; --rule:#d9dee3; --ocean:#e9eef2; --land:#d3d8dd;
-  --blue:#2e5e8e; --green:#1f9e6e; --magenta:#b4116f; --red:#b2182b; --orange:#d9822b; --gray:#9aa3ac; --nodata:#eceff2;
-  --f-display:"Newsreader",Georgia,serif; --f-body:"IBM Plex Sans",system-ui,sans-serif; --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+  --bg:#ffffff; --panel:#ffffff; --ink:#1a1a1a; --text2:#3a4550; --muted:#5a6570; --rule:#dddddd; --ocean:#ffffff; --land:#e4e4e4;
+  --blue:#0b4f9e; --blue2:#4a90d9; --blue3:#a8ccec; --green:#1f9e6e; --magenta:#b4116f; --red:#b2182b; --orange:#d55e00;
+  --gray:#8c8c8c; --grayp:#7a7f85; --dear:#cdd2d7; --ink2:#1f3a5f; --arrow:#9aa3ac; --nodata:#f2f2f2;
+  --f-display:Arial,"Helvetica Neue",Helvetica,sans-serif; --f-body:Arial,"Helvetica Neue",Helvetica,sans-serif; --f-mono:Arial,"Helvetica Neue",Helvetica,sans-serif;
+  color-scheme:light;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#12171c; --panel:#1a2128; --ink:#e3e8ec; --muted:#9aa6b1; --rule:#2c3640; --ocean:#16202a; --land:#2c3640;
-  --blue:#6fa3d6; --green:#3cc48f; --magenta:#e0529c; --red:#f06272; --orange:#f0a050; --gray:#7f8a95; --nodata:#222b33; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#12171c; --panel:#1a2128; --ink:#e3e8ec; --muted:#9aa6b1; --rule:#2c3640; --ocean:#16202a; --land:#2c3640;
-  --blue:#6fa3d6; --green:#3cc48f; --magenta:#e0529c; --red:#f06272; --orange:#f0a050; --gray:#7f8a95; --nodata:#222b33; color-scheme:dark}
-body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:14px;line-height:1.45}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:13px;line-height:1.45}
 .wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:14px 32px;max-width:1500px;margin:0 auto;display:grid;gap:14px}
 header{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px}
-h1{font-family:var(--f-display);font-weight:500;font-size:26px;margin:0;text-wrap:balance}
+h1{font-family:var(--f-display);font-weight:700;font-size:22px;margin:0;text-wrap:balance}
 header p{margin:0;color:var(--muted);max-width:80ch}
 .main{display:grid;grid-template-columns:250px minmax(0,1fr) 300px;gap:14px;align-items:start}
 @media (max-width:1100px){.main{grid-template-columns:minmax(0,1fr)} }
@@ -147,10 +143,12 @@ const LAYERS=[
   {id:"grp",name:"What limits deployment at 3% of GDP",cat:true,v:c=>f5(c,"grp")}]}
 ];
 const L=id=>LAYERS.flatMap(g=>g.items.map(i=>({...i,yr:g.yr}))).find(i=>i.id===id);
-const CATCOL={"export-oriented":"--blue","build-first":"--green","import-dependent":"--red","intermediate":"--gray",
- "2030":"--green","2040":"--blue","2050":"--orange","not by 2050":"--gray","net exporter":"--land",
+const CATCOL={"2030":"--green","2040":"--blue2","2050":"--blue3","not by 2050":"--dear","net exporter":"--land",
  "imports covered":"--green","land binds":"--orange","budget binds":"--blue",
- "below disruption median":"--green","above disruption median":"--gray"};
+ "below disruption median":"--blue","above disruption median":"--dear"};
+// Fig. 4b region colours (Tol muted), as in the paper
+const REGION_COL={"China":"#332288","Rest of Asia and Oceania":"#88CCEE","Europe":"#44AA99","Americas":"#CC6677","Africa":"#999933","Middle East":"#882255"};
+const ramp=cols=>d3.interpolateRgbBasis(cols);
 // Fig. 2 palette: rows cost tercile (high, middle, low), columns demand tercile (low, middle, high)
 const BIV=[["#EDEDED","#F2A0C6","#E6007E"],["#8FC0E8","#B072B8","#B4116F"],["#0F6FD1","#6A34B8","#33095E"]];
 const CT=["high","middle","low"], DT=["low","middle","high"];
@@ -161,15 +159,15 @@ function colorFor(lay,vals){
   const q=(p)=>d3.quantile(v.slice().sort(d3.ascending),p);
   switch(lay.scale){
     case"costs":return d3.scaleSequential(d3.interpolateYlGnBu).domain([q(.98),q(.02)]).clamp(true);
-    case"log":case"logc":return d3.scaleSequentialLog(d3.interpolateYlOrBr).domain([Math.max(q(.05),1e-4),q(.99)]).clamp(true);
-    case"share":return d3.scaleSequential(d3.interpolateReds).domain([0,1]);
-    case"hhi":return d3.scaleSequential(d3.interpolatePurples).domain([0,1]);
+    case"log":case"logc":return d3.scaleSequentialLog(ramp(["#f7f0f4","#f2a0c6","#e6007e","#b4116f","#33095e"])).domain([Math.max(q(.05),1e-4),q(.99)]).clamp(true);
+    case"share":return d3.scaleSequential(t=>d3.interpolateReds(.08+.82*t)).domain([0,1]);
+    case"hhi":return d3.scaleSequential(ramp(["#f7f4f9","#cbb3dc","#6a34b8","#33095e"])).domain([0,1]);
     case"ratio":return d3.scaleSequential(d3.interpolateYlGnBu).domain([3.5,0.8]).clamp(true);
-    case"prem":return d3.scaleSequentialLog(d3.interpolateYlOrRd).domain([20,2000]).clamp(true);
-    case"margin":return d3.scaleSequentialSqrt(d3.interpolateGreens).domain([0,q(.97)||1]).clamp(true);
-    case"carbon":return d3.scaleSequential(d3.interpolateRdPu).domain([0,Math.max(q(1),1)]);
-    case"div":return d3.scaleDivergingSymlog(t=>d3.interpolateRdBu(1-t)).domain([-500,0,1500]).constant(50).clamp(true);
-    case"pct":return d3.scaleSequential(d3.interpolateBlues).domain([0,100]);
+    case"prem":return d3.scaleSequentialLog(ramp(["#e8f0f9","#a8ccec","#4a90d9","#0b4f9e","#1f3a5f"])).domain([20,2000]).clamp(true);
+    case"margin":return d3.scaleSequentialSqrt(ramp(["#eef7f2","#9fd6bd","#1f9e6e","#0f5c3f"])).domain([0,q(.97)||1]).clamp(true);
+    case"carbon":return d3.scaleSequential(ramp(["#f9eef4","#e6007e","#b4116f","#5e0a3a"])).domain([0,Math.max(q(1),1)]);
+    case"div":return d3.scaleDivergingSymlog(ramp(["#0f5c3f","#1f9e6e","#cfeadd","#f2f2f2","#cdd2d7","#7a8794","#1f3a5f"])).domain([-500,0,1500]).constant(50).clamp(true);
+    case"pct":return d3.scaleSequential(ramp(["#eef4fb","#a8ccec","#4a90d9","#0b4f9e"])).domain([0,100]);
   }
 }
 
@@ -179,23 +177,55 @@ DATA.geo.features.forEach(f=>{const gm=f.geometry;if(!gm)return;
   const fix=rings=>d3.geoArea({type:"Polygon",coordinates:rings})>2*Math.PI?rings.map(r=>r.slice().reverse()):rings;
   if(gm.type==="Polygon")gm.coordinates=fix(gm.coordinates);
   else if(gm.type==="MultiPolygon")gm.coordinates=gm.coordinates.map(fix);});
-const svg=d3.select("#map"), W=960,H=470;
-const proj=d3.geoNaturalEarth1().fitExtent([[6,6],[W-6,H-6]],{type:"Sphere"}), path=d3.geoPath(proj);
+// plate carrée cropped to 58°S-84°N, so the 2.5° cell grid maps linearly onto the screen
+const svg=d3.select("#map"), W=960,H=380;
+svg.attr("viewBox",`0 0 ${W} ${H}`);
+const proj=d3.geoEquirectangular().fitExtent([[2,2],[W-2,H-2]],{type:"MultiPoint",coordinates:[[-180,-58],[180,84]]}), path=d3.geoPath(proj);
+const X0=proj([0,0])[0], Y0=proj([0,0])[1], KX=(proj([10,0])[0]-X0)/10, KY=(proj([0,10])[1]-Y0)/10;
 const defs=svg.append("defs");
 defs.append("pattern").attr("id","hatch").attr("patternUnits","userSpaceOnUse").attr("width",5).attr("height",5)
- .attr("patternTransform","rotate(45)").call(p=>{p.append("rect").attr("width",5).attr("height",5).attr("fill","var(--nodata)");p.append("line").attr("y2",5).attr("stroke","var(--gray)").attr("stroke-width",1)});
+ .attr("patternTransform","rotate(45)").call(p=>{p.append("rect").attr("width",5).attr("height",5).attr("fill","var(--nodata)");p.append("line").attr("y2",5).attr("stroke","#b8bec4").attr("stroke-width",1)});
+defs.append("clipPath").attr("id","landclip").selectAll("path").data(DATA.geo.features).join("path").attr("d",path);
 const g=svg.append("g");
-g.append("path").datum({type:"Sphere"}).attr("d",path).attr("fill","var(--ocean)");
-const cg=g.append("g"), cellg=g.append("g"), og=g.append("g");
+g.append("rect").attr("x",-W).attr("y",-H).attr("width",3*W).attr("height",3*H).attr("fill","var(--ocean)");
+const cg=g.append("g"), rasterImg=g.append("image").attr("clip-path","url(#landclip)").attr("preserveAspectRatio","none").style("pointer-events","none"),
+ bordg=g.append("g"), cellg=g.append("g"), og=g.append("g");
 const countryP=cg.selectAll("path").data(DATA.geo.features).join("path").attr("d",path)
- .attr("stroke","var(--panel)").attr("stroke-width",.3).style("cursor","pointer")
+ .attr("stroke","#ffffff").attr("stroke-width",.35).style("cursor","pointer")
  .on("mousemove",(e,d)=>tipC(e,d.properties.name)).on("mouseleave",hideTip).on("click",(e,d)=>select(d.properties.name));
+// thin borders drawn over the smoothed raster
+const borders=bordg.selectAll("path").data(DATA.geo.features).join("path").attr("d",path).attr("fill","none")
+ .attr("stroke","#ffffff").attr("stroke-width",.35).attr("stroke-opacity",.8).style("pointer-events","none");
 const sq=d=>({type:"Polygon",coordinates:[[[d.x-1.25,d.y-1.25],[d.x-1.25,d.y+1.25],[d.x+1.25,d.y+1.25],[d.x+1.25,d.y-1.25],[d.x-1.25,d.y-1.25]]]});
-const cellP=cellg.selectAll("path").data(DATA.cells).join("path").attr("d",d=>path(sq(d)))
+const cellP=cellg.selectAll("path").data(DATA.cells).join("path").attr("d",d=>path(sq(d))).attr("fill","transparent")
  .on("mousemove",tipCell).on("mouseleave",hideTip).on("click",(e,d)=>select(d.c));
+// smoothed cell surface: one pixel per 2.5° cell, gaps at coasts filled from neighbours, upsampled and blurred, clipped to land
+function raster(colorOf){
+  const NX=144,NY=73,c0=document.createElement("canvas");c0.width=NX;c0.height=NY;
+  const x0=c0.getContext("2d"),img=x0.createImageData(NX,NY),A=img.data,has=new Uint8Array(NX*NY);
+  DATA.cells.forEach(d=>{const col=colorOf(d);if(!col)return;const c=d3.rgb(col);
+    const i=Math.round((d.x+180)/2.5)%NX,j=Math.round((90-d.y)/2.5),k=j*NX+i;
+    A[4*k]=c.r;A[4*k+1]=c.g;A[4*k+2]=c.b;A[4*k+3]=255;has[k]=1});
+  for(let it=0;it<3;it++){const add=[];
+    for(let j=0;j<NY;j++)for(let i=0;i<NX;i++){const k=j*NX+i;if(has[k])continue;let r=0,gg=0,b=0,n=0;
+      for(const[di,dj]of[[1,0],[-1,0],[0,1],[0,-1],[1,1],[-1,-1],[1,-1],[-1,1]]){const ii=(i+di+NX)%NX,jj=j+dj;if(jj<0||jj>=NY)continue;const kk=jj*NX+ii;
+        if(has[kk]){r+=A[4*kk];gg+=A[4*kk+1];b+=A[4*kk+2];n++}}
+      if(n)add.push([k,r/n,gg/n,b/n])}
+    add.forEach(([k,r,gg,b])=>{A[4*k]=r;A[4*k+1]=gg;A[4*k+2]=b;A[4*k+3]=255;has[k]=1})}
+  x0.putImageData(img,0,0);
+  const F=8,c1=document.createElement("canvas");c1.width=NX*F;c1.height=NY*F;const x1=c1.getContext("2d");
+  x1.imageSmoothingEnabled=true;x1.imageSmoothingQuality="high";
+  if("filter" in x1)x1.filter="blur(5px)";
+  x1.drawImage(c0,0,0,NX*F,NY*F);
+  return c1.toDataURL("image/png");
+}
+function placeRaster(url){
+  // pixel i covers longitudes (i*2.5-180) +- 1.25, row j latitudes (90-j*2.5) +- 1.25
+  rasterImg.attr("href",url).attr("x",X0+KX*(-181.25)).attr("y",Y0+KY*91.25).attr("width",KX*360).attr("height",KY*(-182.5));
+}
 const outline=og.append("path").attr("fill","none").attr("stroke","var(--ink)").attr("stroke-width",1.2).attr("pointer-events","none");
 svg.call(d3.zoom().scaleExtent([1,12]).translateExtent([[0,0],[W,H]]).on("zoom",e=>{g.attr("transform",e.transform);
- countryP.attr("stroke-width",.3/e.transform.k);outline.attr("stroke-width",1.2/e.transform.k)}));
+ countryP.attr("stroke-width",.35/e.transform.k);borders.attr("stroke-width",.35/e.transform.k);outline.attr("stroke-width",1.2/e.transform.k)}));
 
 let curScale=null;
 function drawMap(){
@@ -209,9 +239,10 @@ function drawMap(){
     const vals=lay.id==="cost"?DATA.cells.flatMap(d=>[d.cost,...Object.values(d.cy)].map(a=>a[FU.indexOf(S.fuel)])):DATA.cells.map(lay.v);
     curScale=lay.cat?null:colorFor(lay,vals);
     countryP.attr("fill","var(--land)");
-    cellP.attr("display",null).attr("fill",d=>{const v=lay.v(d);return v==null?"none":lay.biv?bivCol(v):lay.cat?css(CATCOL[v]||"--gray"):curScale(v)});
+    placeRaster(raster(d=>{const v=lay.v(d);return v==null?null:lay.biv?bivCol(v):lay.cat?css(CATCOL[v]||"--gray"):curScale(v)}));
+    rasterImg.attr("display",null);bordg.attr("display",null);cellP.attr("display",null);
   }else{
-    cellP.attr("display","none");
+    cellP.attr("display","none");rasterImg.attr("display","none");bordg.attr("display","none");
     const names=Object.keys(C), vals=names.map(n=>lay.v(n)); curScale=lay.cat?null:colorFor(lay,vals);
     countryP.attr("fill",d=>{const c=d.properties.name;if(!C[c])return"url(#hatch)";const v=lay.v(c);
       if(v==null||(typeof v==="number"&&!isFinite(v)))return"url(#hatch)";return lay.cat?css(CATCOL[v]||"--gray"):curScale(v)});
@@ -310,9 +341,9 @@ function panel(){
     s.append("g").attr("class","ax").attr("transform",`translate(${m.l},0)`).call(d3.axisLeft(yy).tickSize(0));
     s.append("line").attr("x1",x(0)).attr("x2",x(0)).attr("y1",m.t).attr("y2",h-m.b).attr("stroke","var(--rule)");
     YEARS.forEach(y=>{const r=d.f4[y];if(!r||r.gross==null)return;const Y=yy(y);
-      s.append("line").attr("x1",x(r.gross)).attr("x2",x(r.net)).attr("y1",Y).attr("y2",Y).attr("stroke","var(--gray)");
-      s.append("circle").attr("cx",x(r.gross)).attr("cy",Y).attr("r",4).attr("fill","var(--panel)").attr("stroke","var(--ink)");
-      s.append("circle").attr("cx",x(r.net)).attr("cy",Y).attr("r",4).attr("fill",r.just?"var(--green)":"var(--ink)");
+      s.append("line").attr("x1",x(r.gross)).attr("x2",x(r.net)).attr("y1",Y).attr("y2",Y).attr("stroke","var(--arrow)");
+      s.append("circle").attr("cx",x(r.gross)).attr("cy",Y).attr("r",4).attr("fill","var(--panel)").attr("stroke","var(--ink2)");
+      s.append("circle").attr("cx",x(r.net)).attr("cy",Y).attr("r",4).attr("fill",r.just?"var(--green)":"var(--ink2)");
       s.append("line").attr("x1",x(r.pco2)).attr("x2",x(r.pco2)).attr("y1",Y-6).attr("y2",Y+6).attr("stroke","var(--magenta)").attr("stroke-width",2)});
     el.append("p").attr("class","note").text("Open: cost premium · filled: net premium (green = justified) · magenta: carbon price");
   }
@@ -405,7 +436,7 @@ function drawFig(){
         s.append("line").attr("x1",x3(f.green_ammonia_p01)).attr("x2",x3(f.green_ammonia_p99)).attr("y1",Y+bh/2).attr("y2",Y+bh/2).attr("stroke","var(--blue)");
         s.append("rect").attr("x",x3(f.green_ammonia_p25)).attr("width",Math.max(2,x3(f.green_ammonia_p75)-x3(f.green_ammonia_p25))).attr("y",Y).attr("height",bh).attr("fill","var(--blue)").attr("opacity",.35);
         s.append("line").attr("x1",x3(f.disruption_price_p01)).attr("x2",x3(f.disruption_price_p99)).attr("y1",Y+bh/2).attr("y2",Y+bh/2).attr("stroke","var(--orange)");
-        s.append("rect").attr("x",x3(f.normal_price_p01)).attr("width",x3(f.normal_price_p99)-x3(f.normal_price_p01)).attr("y",Y+1).attr("height",bh-2).attr("fill","var(--gray)").attr("opacity",.45);
+        s.append("rect").attr("x",x3(f.normal_price_p01)).attr("width",x3(f.normal_price_p99)-x3(f.normal_price_p01)).attr("y",Y+1).attr("height",bh-2).attr("fill","var(--grayp)").attr("opacity",.45);
         s.append("path").attr("d",d3.symbol(d3.symbolDiamond,28)()).attr("transform",`translate(${x3(f.disruption_price_median)},${Y+bh/2})`).attr("fill","var(--orange)");}
       if(d.best_amm_delivered!=null)s.append("circle").attr("cx",x3(d.best_amm_delivered)).attr("cy",Y+bh/2).attr("r",3.5).attr("fill","var(--blue)")
         .on("mousemove",e=>showTip(e,`<b>${n}</b><br>Green ammonia ${fmt(d.best_amm_delivered)} $/MMBtu${d.f3?`<br>Normal median ${fmt(d.f3.normal_price_median)} · disruption median ${fmt(d.f3.disruption_price_median)}`:"<br>No matched price history"}`)).on("mouseleave",hideTip);});
@@ -424,9 +455,9 @@ function drawFig(){
     names.forEach(n=>{const r=C[n].f4[y0],Y=y(n)+y.bandwidth()/2,k=rank(n);
       if(last!==null&&k!==last)s.append("line").attr("x1",0).attr("x2",W0).attr("y1",y(n)-2).attr("y2",y(n)-2).attr("stroke","var(--ink)").attr("stroke-dasharray",k===4?"4 3":null).attr("stroke-opacity",.5);
       last=k;
-      s.append("line").attr("x1",x(r.gross)).attr("x2",x(r.net)).attr("y1",Y).attr("y2",Y).attr("stroke","var(--gray)");
-      s.append("circle").attr("cx",x(r.gross)).attr("cy",Y).attr("r",3.5).attr("fill","var(--panel)").attr("stroke","var(--ink)");
-      s.append("circle").attr("cx",x(r.net)).attr("cy",Y).attr("r",3.5).attr("fill",r.just?"var(--green)":"var(--ink)").attr("stroke",r.just?"var(--green)":"none")
+      s.append("line").attr("x1",x(r.gross)).attr("x2",x(r.net)).attr("y1",Y).attr("y2",Y).attr("stroke","var(--arrow)");
+      s.append("circle").attr("cx",x(r.gross)).attr("cy",Y).attr("r",3.5).attr("fill","var(--panel)").attr("stroke","var(--ink2)");
+      s.append("circle").attr("cx",x(r.net)).attr("cy",Y).attr("r",3.5).attr("fill",r.just?"var(--green)":"var(--ink2)").attr("stroke",r.just?"var(--green)":"none")
        .on("mousemove",e=>showTip(e,`<b>${n}</b> (${y0})<br>Cost premium ${fmt(r.gross,0)} · margin ${fmt(r.margin,0)} · net ${fmt(r.net,0)} $/t<br>Carbon price ${fmt(r.pco2,0)} $/t · CO₂ ${fmt(r.co2,1)} Mt/yr<br>Chain import share ${pct(r.E)} · imports replaced ${r.imp?pct(r.ret):"–"}`)).on("mouseleave",hideTip);
       s.append("line").attr("x1",x(r.pco2)).attr("x2",x(r.pco2)).attr("y1",Y-5).attr("y2",Y+5).attr("stroke","var(--magenta)").attr("stroke-width",2);
       s.append("text").attr("x",W0-120).attr("y",Y+4).attr("font-size",11).attr("font-family","var(--f-mono)").text(`${r.imp?fmt(r.margin,0):"–"} / ${fmt(r.net,0)}`);});
@@ -440,15 +471,23 @@ function drawFig(){
     s.append("g").attr("class","ax").attr("transform",`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(8).tickSize(-(w-m.l-m.r))).call(a=>a.selectAll("line").attr("stroke-opacity",.4));
     s.append("text").attr("x",m.l).attr("y",h-4).attr("font-size",11).style("fill","var(--muted)").text("CO₂ displaced, GtCO₂ per year (net imports and the rest of demand of each country–fuel pair)");
     s.append("text").attr("x",m.l+4).attr("y",m.t+10).attr("font-size",11).style("fill","var(--muted)").text("Net premium, US$ per tCO₂");
-    const col=gname=>/without/.test(gname)?"var(--blue)":/with/.test(gname)?"var(--green)":"var(--gray)";
+    const sd=s.append("defs");Object.entries(REGION_COL).forEach(([r,c],i)=>{const p=sd.append("pattern").attr("id","rh"+i).attr("patternUnits","userSpaceOnUse").attr("width",4).attr("height",4).attr("patternTransform","rotate(45)");
+      p.append("rect").attr("width",4).attr("height",4).attr("fill","#ffffff");p.append("rect").attr("width",2).attr("height",4).attr("fill",c)});
+    const RI=Object.keys(REGION_COL);
+    const col=(gname,reg)=>/without/.test(gname)?(REGION_COL[reg]||"var(--gray)"):/with/.test(gname)?`url(#rh${RI.indexOf(reg)})`:"var(--dear)";
+    const lg=s.append("g").attr("transform",`translate(${w-m.r-200},${h-m.b-150})`);
+    lg.append("rect").attr("x",-6).attr("y",-6).attr("width",196).attr("height",RI.length*15+42).attr("fill","#ffffff").attr("stroke","var(--rule)");
+    RI.forEach((r,i)=>{lg.append("rect").attr("y",i*15).attr("width",10).attr("height",10).attr("fill",REGION_COL[r]);lg.append("text").attr("x",15).attr("y",i*15+9).attr("font-size",11).text(r)});
+    lg.append("rect").attr("y",RI.length*15+4).attr("width",10).attr("height",10).attr("fill","url(#rh2)").attr("stroke","#44AA99").attr("stroke-width",.5);lg.append("text").attr("x",15).attr("y",RI.length*15+13).attr("font-size",11).text("hatched: with security value");
+    lg.append("rect").attr("y",RI.length*15+19).attr("width",10).attr("height",10).attr("fill","var(--dear)");lg.append("text").attr("x",15).attr("y",RI.length*15+28).attr("font-size",11).text("remains costlier");
     s.append("g").selectAll("rect").data(bl.filter(b=>b[1]>0)).join("rect")
      .attr("x",b=>x(b[0])).attr("width",b=>Math.max(.6,x(b[0]+b[1])-x(b[0]))).attr("y",b=>Math.min(y(b[2]),y(0))).attr("height",b=>Math.abs(y(b[2])-y(0)))
-     .attr("fill",b=>col(b[4])).attr("opacity",b=>S.sel&&b[6]!==S.sel?.35:1).attr("stroke",b=>b[6]===S.sel?"var(--ink)":"none")
+     .attr("fill",b=>col(b[4],b[5])).attr("opacity",b=>S.sel&&b[6]!==S.sel?.35:1).attr("stroke",b=>b[6]===S.sel?"var(--ink)":"none")
      .on("mousemove",(e,b)=>showTip(e,`<b>${b[6]}</b> · ${b[7]} (${b[8]})<br>${b[4]}<br>Net premium ${fmt(b[2],0)} $/t · cost premium ${fmt(b[3],0)} $/t<br>${fmt(b[1]*1000,1)} MtCO₂/yr`)).on("mouseleave",hideTip).on("click",(e,b)=>select(b[6]));
     [[M.tot.co2_displaced_cost_only_gtco2,"4 2","without security"],[M.tot.co2_displaced_with_security_gtco2,"7 3","with security"]].forEach(([v,da,t])=>{
       s.append("line").attr("x1",x(v)).attr("x2",x(v)).attr("y1",m.t).attr("y2",h-m.b).attr("stroke","var(--ink)").attr("stroke-dasharray",da);
       s.append("text").attr("x",x(v)+4).attr("y",m.t+24+(t==="with security"?14:0)).attr("font-size",11).text(`${fmt(v,2)} Gt ${t}`)});
-    fn.text(`Abatement cost curve for ${new Set(bl.map(b=>b[6])).size} economies at ${S.year} costs. Blue: pays off on fuel cost alone; green: pays off with the security value; gray: remains costlier. Heights clipped to −US$800 to US$300 per tCO₂; ${fmt(M.tot.co2_above_axis_top_gtco2,2)} GtCO₂/yr lie above the top. Click a block to select its economy.`);
+    fn.text(`Abatement cost curve for ${new Set(bl.map(b=>b[6])).size} economies at ${S.year} costs. Solid: pays off on fuel cost alone; hatched: pays off with the security value; gray: remains costlier; colors are regions. Heights clipped to −US$800 to US$300 per tCO₂; ${fmt(M.tot.co2_above_axis_top_gtco2,2)} GtCO₂/yr lie above the top. Click a block to select its economy.`);
   }
   if(S.tab==="f5"){
     const y0=S.year,names=Object.keys(C).filter(c=>C[c].f5?.[y0]).sort((a,b)=>C[b].f5[y0].s1-C[a].f5[y0].s1||C[b].f5[y0].s3-C[a].f5[y0].s3);
@@ -456,7 +495,7 @@ function drawFig(){
     s.append("g").attr("class","ax").attr("transform",`translate(0,${h-12})`).call(d3.axisBottom(x).ticks(5).tickFormat(d=>d+"%").tickSize(-h+40)).call(a=>a.selectAll("line").attr("stroke-opacity",.4));
     s.append("text").attr("x",left+10).attr("y",12).attr("font-size",11).attr("font-weight",600).text(`Share of addressable demand made at home, ${y0} costs`);
     s.append("text").attr("x",W0-140).attr("y",12).attr("font-size",11).attr("font-weight",600).text("Limit at 3%");
-    const bc=["#08306b","#4a87c4","#a9cbe8"];
+    const bc=["#0B4F9E","#4A90D9","#A8CCEC"];
     names.forEach(n=>{const r=C[n].f5[y0],Y=y(n),bh=y.bandwidth();
       [[0,r.s1],[r.s1,r.s2],[r.s2,r.s3]].forEach(([a,b],i)=>{if(b>a)s.append("rect").attr("x",x(a)).attr("width",x(b)-x(a)).attr("y",Y).attr("height",bh).attr("fill",bc[i])});
       s.append("line").attr("x1",x(r.land)).attr("x2",x(r.land)).attr("y1",Y-1).attr("y2",Y+bh+1).attr("stroke","var(--orange)").attr("stroke-width",2);
