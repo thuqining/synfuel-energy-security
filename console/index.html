@@ -14,7 +14,7 @@
 :root{
   --bg:#ffffff; --panel:#ffffff; --ink:#1a1a1a; --text2:#3a4550; --muted:#5a6570; --rule:#dddddd; --ocean:#ffffff; --land:#e4e4e4;
   --blue:#0b4f9e; --blue2:#4a90d9; --blue3:#a8ccec; --green:#1f9e6e; --magenta:#b4116f; --red:#b2182b; --orange:#d55e00;
-  --gray:#8c8c8c; --grayp:#7a7f85; --dear:#cdd2d7; --ink2:#1f3a5f; --arrow:#9aa3ac; --nodata:#f2f2f2;
+  --gray:#8c8c8c; --grayp:#7a7f85; --c4a:#0b4f9e; --sec:#1b7a4b; --shade:#e3f2ea; --dear:#cdd2d7; --ink2:#1f3a5f; --arrow:#9aa3ac; --nodata:#f2f2f2;
   --f-display:Arial,"Helvetica Neue",Helvetica,sans-serif; --f-body:Arial,"Helvetica Neue",Helvetica,sans-serif; --f-mono:Arial,"Helvetica Neue",Helvetica,sans-serif;
   color-scheme:light;
 }
@@ -156,6 +156,9 @@ const CATCOL={"2030":"--green","2040":"--blue2","2050":"--blue3","not by 2050":"
 // Fig. 4b region colours (Tol muted), as in the paper
 const REGION_COL={"China":"#332288","Rest of Asia and Oceania":"#88CCEE","Europe":"#44AA99","Americas":"#CC6677","Africa":"#999933","Middle East":"#882255"};
 const ramp=cols=>d3.interpolateRgbBasis(cols);
+// Fig. 1 fuel colours (Okabe-Ito, as in the paper)
+const FCOL={hydrogen:"#14304A",ammonia:"#0072B2","e-methane":"#009E73",methanol:"#E69F00","e-kerosene":"#56B4E9","e-diesel":"#56B4E9",ethanol:"#CC79A7"};
+const RCOL={"e-methane":"#009E73","e-jet / e-diesel":"#56B4E9",methanol:"#E69F00",ammonia:"#0072B2",ethanol:"#CC79A7"};
 // Fig. 2 palette: rows cost tercile (high, middle, low), columns demand tercile (low, middle, high)
 const BIV=[["#EDEDED","#F2A0C6","#E6007E"],["#8FC0E8","#B072B8","#B4116F"],["#0F6FD1","#6A34B8","#33095E"]];
 const CT=["high","middle","low"], DT=["low","middle","high"];
@@ -349,11 +352,12 @@ function panel(){
     s.append("g").attr("class","ax").attr("transform",`translate(${m.l},0)`).call(d3.axisLeft(yy).tickSize(0));
     s.append("line").attr("x1",x(0)).attr("x2",x(0)).attr("y1",m.t).attr("y2",h-m.b).attr("stroke","var(--rule)");
     YEARS.forEach(y=>{const r=d.f4[y];if(!r||r.gross==null)return;const Y=yy(y);
-      s.append("line").attr("x1",x(r.gross)).attr("x2",x(r.net)).attr("y1",Y).attr("y2",Y).attr("stroke","var(--arrow)");
-      s.append("circle").attr("cx",x(r.gross)).attr("cy",Y).attr("r",4).attr("fill","var(--panel)").attr("stroke","var(--ink2)");
-      s.append("circle").attr("cx",x(r.net)).attr("cy",Y).attr("r",4).attr("fill",r.just?"var(--green)":"var(--ink2)");
+      s.append("line").attr("x1",x(r.gross)).attr("x2",x(r.net)).attr("y1",Y).attr("y2",Y).attr("stroke","var(--sec)").attr("stroke-width",1.2);
+      s.append("circle").attr("cx",x(r.gross)).attr("cy",Y).attr("r",4).attr("fill","var(--panel)").attr("stroke","var(--c4a)").attr("stroke-width",1.2);
+      if(r.just)s.append("circle").attr("cx",x(r.net)).attr("cy",Y).attr("r",6.5).attr("fill","none").attr("stroke","var(--sec)").attr("stroke-width",1.4);
+      s.append("circle").attr("cx",x(r.net)).attr("cy",Y).attr("r",4).attr("fill","var(--c4a)");
       s.append("line").attr("x1",x(r.pco2)).attr("x2",x(r.pco2)).attr("y1",Y-6).attr("y2",Y+6).attr("stroke","var(--magenta)").attr("stroke-width",2)});
-    el.append("p").attr("class","note").text("Open: cost premium · filled: net premium (green = justified) · magenta: carbon price");
+    el.append("p").attr("class","note").text("Open: cost premium · green: security margin · filled: net premium (green ring = justified) · magenta: carbon price");
   }
 }
 
@@ -390,9 +394,9 @@ function drawFig(){
     s.append("text").attr("x",m.l).attr("y",h-4).attr("font-size",11).style("fill","var(--muted)").text("Production cost across the 2,740 land cells, US$ per MMBtu (LHV, log scale)");
     boxes.forEach(b=>{const Y=y(b.f),bh=y.bandwidth(),q=b.q;
       s.append("text").attr("x",m.l-6).attr("y",Y+bh/2+4).attr("text-anchor","end").attr("font-size",12).text(b.f);
-      s.append("line").attr("x1",x(q[0])).attr("x2",x(q[4])).attr("y1",Y+bh/2).attr("y2",Y+bh/2).attr("stroke","var(--blue)");
-      s.append("rect").attr("x",x(q[1])).attr("width",x(q[3])-x(q[1])).attr("y",Y).attr("height",bh).attr("fill","var(--blue)").attr("opacity",.3).attr("stroke","var(--blue)");
-      s.append("line").attr("x1",x(q[2])).attr("x2",x(q[2])).attr("y1",Y).attr("y2",Y+bh).attr("stroke","var(--ink)").attr("stroke-width",2);
+      s.append("line").attr("x1",x(q[0])).attr("x2",x(q[4])).attr("y1",Y+bh/2).attr("y2",Y+bh/2).attr("stroke",FCOL[b.f]);
+      s.append("rect").attr("x",x(q[1])).attr("width",x(q[3])-x(q[1])).attr("y",Y).attr("height",bh).attr("fill",FCOL[b.f]).attr("opacity",.85).attr("stroke",FCOL[b.f]);
+      s.append("line").attr("x1",x(q[2])).attr("x2",x(q[2])).attr("y1",Y).attr("y2",Y+bh).attr("stroke","#ffffff").attr("stroke-width",2);
       s.append("rect").attr("x",m.l).attr("width",w-m.l-m.r).attr("y",Y).attr("height",bh).attr("fill","transparent")
        .on("mousemove",e=>showTip(e,`<b>${b.f}</b> (${S.cyear})<br>median ${fmt(q[2])} · IQR ${fmt(q[1])}–${fmt(q[3])} · 1st–99th ${fmt(q[0])}–${fmt(q[4])} US$/MMBtu`)).on("mouseleave",hideTip)});
     // addressable demand by route and the sector-to-fuel map
@@ -401,7 +405,7 @@ function drawFig(){
     const tot=d3.sum(R,r=>r.addressable_demand_bn_mmbtu_per_yr), xs=d3.scaleLinear().domain([0,d3.max(R,r=>r.addressable_demand_bn_mmbtu_per_yr)]).range([0,150]);
     const rs=side.append("svg").attr("width",330).attr("height",R.length*22+6);
     R.forEach((r,i)=>{rs.append("text").attr("x",0).attr("y",i*22+15).attr("font-size",12).text(r.route);
-      rs.append("rect").attr("x",110).attr("y",i*22+4).attr("height",14).attr("width",xs(r.addressable_demand_bn_mmbtu_per_yr)).attr("fill","var(--blue)");
+      rs.append("rect").attr("x",110).attr("y",i*22+4).attr("height",14).attr("width",xs(r.addressable_demand_bn_mmbtu_per_yr)).attr("fill",RCOL[r.route]||"var(--gray)");
       rs.append("text").attr("x",116+xs(r.addressable_demand_bn_mmbtu_per_yr)).attr("y",i*22+15).attr("font-size",11).attr("font-family","var(--f-mono)").text(`${fmt(r.addressable_demand_bn_mmbtu_per_yr,1)} (${fmt(r.share_pct,0)}%)`)});
     side.append("p").attr("class","note").text(`Total ${fmt(tot,1)} billion MMBtu a year.`);
     side.append("p").attr("class","lab").style("margin-top","10px").text("Sector → synthetic fuel");
@@ -450,8 +454,8 @@ function drawFig(){
         s.append("line").attr("x1",x3(pr.d[0])).attr("x2",x3(pr.d[4])).attr("y1",Y+bh/2).attr("y2",Y+bh/2).attr("stroke","var(--orange)");
         s.append("path").attr("d",d3.symbol(d3.symbolDiamond,28)()).attr("transform",`translate(${x3(pr.d[2])},${Y+bh/2})`).attr("fill","var(--orange)");
         s.append("text").attr("x",W0-120).attr("y",Y+bh-2).attr("font-size",11).text(`${fmt(pr.bill,pr.bill<1?2:1)} · ${fmt(pr.pm,2)}`);}
-      s.append("line").attr("x1",x3(bx[0])).attr("x2",x3(bx[4])).attr("y1",Y+bh/2).attr("y2",Y+bh/2).attr("stroke","var(--blue)");
-      s.append("rect").attr("x",x3(bx[1])).attr("width",Math.max(2,x3(bx[3])-x3(bx[1]))).attr("y",Y+1).attr("height",bh-2).attr("fill","var(--blue)").attr("opacity",.85);
+      s.append("line").attr("x1",x3(bx[0])).attr("x2",x3(bx[4])).attr("y1",Y+bh/2).attr("y2",Y+bh/2).attr("stroke",fu==="ammonia"?"var(--blue)":FCOL[fu]);
+      s.append("rect").attr("x",x3(bx[1])).attr("width",Math.max(2,x3(bx[3])-x3(bx[1]))).attr("y",Y+1).attr("height",bh-2).attr("fill",fu==="ammonia"?"var(--blue)":FCOL[fu]).attr("opacity",.85);
       s.append("line").attr("x1",x3(bx[2])).attr("x2",x3(bx[2])).attr("y1",Y).attr("y2",Y+bh).attr("stroke","#ffffff").attr("stroke-width",1.5);
       s.append("rect").attr("x",x3.range()[0]).attr("width",x3.range()[1]-x3.range()[0]).attr("y",Y).attr("height",bh).attr("fill","transparent")
         .on("mousemove",e=>showTip(e,`<b>${n}</b> · ${fu}<br>Domestic, lowest-cost cell ${fmt(bx[2])} US$/MMBtu (IQR ${fmt(bx[1])}–${fmt(bx[3])}; 1st–99th ${fmt(bx[0])}–${fmt(bx[4])})${pr?`<br>Normal median ${fmt(pr.n[2])} · disruption median ${fmt(pr.d[2])}`:pk?"<br>No matched price history (core 30 only)":""}`)).on("mouseleave",hideTip);});
@@ -464,19 +468,23 @@ function drawFig(){
     const left=170,{s,y,h}=rowsFrame(names,W0,left);
     const x=d3.scaleSymlog().constant(50).domain([-1500,4000]).range([left+10,W0-130]).clamp(true);
     s.append("g").attr("class","ax").attr("transform",`translate(0,${h-12})`).call(d3.axisBottom(x).tickValues([-1000,-300,-100,0,100,300,1000,3000]).tickSize(-h+40)).call(a=>a.selectAll("line").attr("stroke-opacity",.4));
+    s.insert("rect",":first-child").attr("x",x(-1500)).attr("width",x(0)-x(-1500)).attr("y",24).attr("height",h-36).attr("fill","var(--shade)");
+    s.append("defs").append("marker").attr("id","arr4a").attr("viewBox","0 0 10 10").attr("refX",9).attr("refY",5).attr("markerWidth",5).attr("markerHeight",5).attr("orient","auto-start-reverse")
+     .append("path").attr("d","M0,0L10,5L0,10z").attr("fill","var(--sec)");
     s.append("text").attr("x",left+10).attr("y",12).attr("font-size",11).attr("font-weight",600).text(`US$ per tCO₂ displaced, ${y0} costs, 1% of GDP`);
     s.append("text").attr("x",W0-120).attr("y",12).attr("font-size",11).attr("font-weight",600).text("Margin / net");
     let last=null;
     names.forEach(n=>{const r=C[n].f4[y0],Y=y(n)+y.bandwidth()/2,k=rank(n);
       if(last!==null&&k!==last)s.append("line").attr("x1",0).attr("x2",W0).attr("y1",y(n)-2).attr("y2",y(n)-2).attr("stroke","var(--ink)").attr("stroke-dasharray",k===4?"4 3":null).attr("stroke-opacity",.5);
       last=k;
-      s.append("line").attr("x1",x(r.gross)).attr("x2",x(r.net)).attr("y1",Y).attr("y2",Y).attr("stroke","var(--arrow)");
-      s.append("circle").attr("cx",x(r.gross)).attr("cy",Y).attr("r",3.5).attr("fill","var(--panel)").attr("stroke","var(--ink2)");
-      s.append("circle").attr("cx",x(r.net)).attr("cy",Y).attr("r",3.5).attr("fill",r.just?"var(--green)":"var(--ink2)").attr("stroke",r.just?"var(--green)":"none")
+      if(r.imp&&Math.abs(x(r.gross)-x(r.net))>6)s.append("line").attr("x1",x(r.gross)-4).attr("x2",x(r.net)+5).attr("y1",Y).attr("y2",Y).attr("stroke","var(--sec)").attr("stroke-width",1.2).attr("marker-end","url(#arr4a)");
+      s.append("circle").attr("cx",x(r.gross)).attr("cy",Y).attr("r",3.5).attr("fill","var(--panel)").attr("stroke","var(--c4a)").attr("stroke-width",1.2);
+      if(r.just)s.append("circle").attr("cx",x(r.net)).attr("cy",Y).attr("r",6).attr("fill","none").attr("stroke","var(--sec)").attr("stroke-width",1.4);
+      s.append("circle").attr("cx",x(r.net)).attr("cy",Y).attr("r",3.5).attr("fill","var(--c4a)")
        .on("mousemove",e=>showTip(e,`<b>${n}</b> (${y0})<br>Cost premium ${fmt(r.gross,0)} · margin ${fmt(r.margin,0)} · net ${fmt(r.net,0)} $/t<br>Carbon price ${fmt(r.pco2,0)} $/t · CO₂ ${fmt(r.co2,1)} Mt/yr<br>Chain import share ${pct(r.E)} · imports replaced ${r.imp?pct(r.ret):"–"}`)).on("mouseleave",hideTip);
       s.append("line").attr("x1",x(r.pco2)).attr("x2",x(r.pco2)).attr("y1",Y-5).attr("y2",Y+5).attr("stroke","var(--magenta)").attr("stroke-width",2);
-      s.append("text").attr("x",W0-120).attr("y",Y+4).attr("font-size",11).attr("font-family","var(--f-mono)").text(`${r.imp?fmt(r.margin,0):"–"} / ${fmt(r.net,0)}`);});
-    fn.text(`${names.length} economies. Groups from top: first justified at 2030, 2040, 2050 costs, not justified by 2050, and (below the dashed line) net exporters of the fuels' chains. Open circle: cost premium; filled: net premium after the security margin (green = justified); magenta: carbon price in force. Same calculation as Fig. 4a, run for every economy.`);
+      s.append("text").attr("x",W0-120).attr("y",Y+4).attr("font-size",11).attr("font-family","var(--f-mono)").html(`<tspan fill="#1b7a4b">${r.imp?fmt(r.margin,0):"–"}</tspan> / ${fmt(r.net,0)}`);});
+    fn.text(`${names.length} economies. Groups from top: first justified at 2030, 2040, 2050 costs, not justified by 2050, and (below the dashed line) net exporters of the fuels' chains. Open circle: cost premium; green arrow: security margin; filled circle: net premium (green ring = justified); magenta: carbon price in force; shaded: net premium below zero. Same calculation as Fig. 4a, run for every economy.`);
   }
   if(S.tab==="f4b"){
     const M=DATA.macc[S.year],bl=M.blocks,w=W0,h=420,m={l:56,r:16,t:16,b:36};
@@ -511,14 +519,17 @@ function drawFig(){
     s.append("text").attr("x",left+10).attr("y",12).attr("font-size",11).attr("font-weight",600).text(`Share of addressable demand made at home, ${y0} costs`);
     s.append("text").attr("x",W0-140).attr("y",12).attr("font-size",11).attr("font-weight",600).text("Limit at 3%");
     const bc=["#0B4F9E","#4A90D9","#A8CCEC"];
+    s.append("defs").append("pattern").attr("id","land5").attr("patternUnits","userSpaceOnUse").attr("width",4).attr("height",4).attr("patternTransform","rotate(45)")
+     .call(p=>{p.append("rect").attr("width",4).attr("height",4).attr("fill","#ECEEF0");p.append("line").attr("y2",4).attr("stroke","#7F8A95").attr("stroke-width",.8)});
     names.forEach(n=>{const r=C[n].f5[y0],Y=y(n),bh=y.bandwidth();
       [[0,r.s1],[r.s1,r.s2],[r.s2,r.s3]].forEach(([a,b],i)=>{if(b>a)s.append("rect").attr("x",x(a)).attr("width",x(b)-x(a)).attr("y",Y).attr("height",bh).attr("fill",bc[i])});
-      s.append("line").attr("x1",x(r.land)).attr("x2",x(r.land)).attr("y1",Y-1).attr("y2",Y+bh+1).attr("stroke","var(--orange)").attr("stroke-width",2);
-      if(r.imp>0)s.append("circle").attr("cx",x(Math.min(r.imp,100))).attr("cy",Y+bh/2).attr("r",2.5).attr("fill","var(--red)");
+      if(r.land>r.s3)s.append("rect").attr("x",x(r.s3)).attr("width",x(r.land)-x(r.s3)).attr("y",Y).attr("height",bh).attr("fill","url(#land5)");
+      s.append("line").attr("x1",x(r.land)).attr("x2",x(r.land)).attr("y1",Y-1).attr("y2",Y+bh+1).attr("stroke","#1a1a1a").attr("stroke-width",2);
+      if(r.imp>0){const xi=x(Math.min(r.imp,100));s.append("path").attr("d",`M${xi-3},${Y-1}L${xi+3},${Y-1}L${xi},${Y+bh*.5}Z M${xi-.6},${Y+bh*.5}h1.2v${bh*.5+1}h-1.2z`).attr("fill","#CB181D")}
       s.append("rect").attr("x",left).attr("width",W0-left-150).attr("y",Y).attr("height",bh).attr("fill","transparent")
        .on("mousemove",e=>showTip(e,`<b>${n}</b> (${y0})<br>Made at home: ${fmt(r.s1,0)}% (1% GDP), ${fmt(r.s2,0)}% (2%), ${fmt(r.s3,0)}% (3%)<br>Land ceiling ${fmt(r.land,0)}% · net import share ${fmt(r.imp,0)}%${r.r1!=null?`<br>Net imports replaced ${fmt(r.r1,0)}% (1%) / ${fmt(r.r3,0)}% (3%)`:""}`)).on("mouseleave",hideTip);
       s.append("text").attr("x",W0-140).attr("y",Y+bh-2).attr("font-size",11).style("fill",css(CATCOL[r.grp]||"--muted")).text(r.grp)});
-    fn.text(`${names.length} economies, ordered by the share made at home at 1% of GDP. Dark to light blue: 1%, 2% and 3% of GDP a year for the cost premium; orange tick: land ceiling; red dot: net import share of addressable demand.`);
+    fn.text(`${names.length} economies, ordered by the share made at home at 1% of GDP. Dark to light blue: 1%, 2% and 3% of GDP a year for the cost premium; hatched: unused land up to the land ceiling (black cap); red marker: imported share of addressable demand.`);
   }
   if(S.tab==="tbl"){
     const cols=[["name","Economy",d=>d.name,0],["Eamm","Import share NH₃",d=>d.E_amm,2],["Eft","Import share diesel/jet",d=>d.E_ft,2],["Hamm","HHI NH₃",d=>d.H_amm,2],
