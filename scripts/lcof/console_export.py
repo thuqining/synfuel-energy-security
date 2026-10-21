@@ -122,11 +122,67 @@ def fig3_prices_all(key):
     print(key, len(d), "economies ->", OUT / f"fig3_prices_{key}.csv")
 
 
+def fig3_prices_other():
+    """Normal and disruption price distributions for the fuels Fig. 3 does not draw, on the comparator the model
+    prices them against (lcof.gap.fossil_for_fuel, security_budget._grey) and Fig. 3's event rules:
+    e-methane = the national gas price, hydrogen = grey hydrogen, methanol = gas-based methanol (gas events);
+    ethanol = the economy's diesel + jet price, the comparator the paper uses for it (oil events)."""
+    import numpy as np
+    from lcof import fig_main_sites as F, gap as G
+    from lcof.regional_prices import gas_regime
+    gasdf, g = F.country_gas_monthly()
+    euro = pd.read_csv(inputs.PROJECT / "data" / "prices" / "country_gas_prices.csv")
+    eurostat = set(euro[(euro.basis == "pretax") & (euro.usd_gj_lhv > 0)].geo_label)
+    meta = inputs.load_meta(2025)
+    dg = pd.read_csv(inputs.MAPS / "demand_fuel_grid.csv", index_col=0)
+    dem = dg[["e-methane_gj", "methanol_gj", "ethanol_gj"]].join(meta[["country"]]).groupby("country").sum()
+    q = lambda a, p: float(np.percentile(a, p)) if len(a) else np.nan
+
+    def gas_basis(c):
+        r = gas_regime(c)
+        b = {"henry_hub": "Henry Hub (North American market)",
+             "producer": "administered producer price",
+             "ttf": "national price level (Eurostat) on the TTF monthly shape" if c in eurostat
+             else "TTF at the EU median national/TTF ratio (regional estimate)"}.get(
+            r, "LNG import price, Japan (World Bank)" if c == "Japan" else "Asian LNG marker (regional estimate)")
+        obs = r in ("henry_hub", "producer") or (r == "ttf" and c in eurostat) or c == "Japan"
+        if c in G.MIXED_GAS:
+            b += ", blended with the regulated domestic price"
+            obs = True
+        return b, obs
+    rec = []
+    for c in sorted(gasdf.columns):
+        b, obs = gas_basis(c)
+        for fuel in ("e-methane", "hydrogen", "methanol"):
+            grey = F._real_2025(G.fossil_for_fuel(fuel, gasdf[c], g, c).dropna() * F.MMB)
+            quiet, crisis, _ = F.paired_event_price_distributions(grey, "ammonia", washout_months=F.FIG3_PRIMARY_WASHOUT)
+            if not len(quiet):
+                continue
+            d_gj = float(dem.loc[c, f"{fuel}_gj"]) if fuel != "hydrogen" and c in dem.index else np.nan
+            rec.append(dict(country=c, fuel=fuel, basis=("" if fuel == "e-methane" else
+                                                         "grey hydrogen from " if fuel == "hydrogen" else
+                                                         "gas-based methanol from ") + b, observed=obs,
+                            bill_bn_usd=d_gj * q(quiet, 50) / F.MMB / 1e9,
+                            **{f"normal_p{p:02d}": q(quiet, p) for p in (1, 25, 50, 75, 99)},
+                            **{f"disruption_p{p:02d}": q(crisis, p) for p in (1, 25, 50, 75, 99)}))
+    # ethanol: the diesel + jet distributions of fig3_prices_ft, with its own demand for the bill
+    ft = pd.read_csv(OUT / "fig3_prices_ft.csv").set_index("country")
+    for c, r in ft.iterrows():
+        d_gj = float(dem.loc[c, "ethanol_gj"]) if c in dem.index else np.nan
+        rec.append(dict(country=c, fuel="ethanol", basis="diesel and jet fuel price (the paper's ethanol comparator): " + r.basis,
+                        observed=bool(r.own_share > 0), bill_bn_usd=d_gj * r.normal_p50 / F.MMB / 1e9,
+                        **{k: r[k] for k in r.index if k.startswith(("normal_p", "disruption_p"))}))
+    d = pd.DataFrame(rec).round(3)
+    d.to_csv(OUT / "fig3_prices_other.csv", index=False)
+    print(d.groupby("fuel").country.count().to_dict(), "->", OUT / "fig3_prices_other.csv")
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     if inputs.MAPS.parent.name == "2025mid":
         fig3_prices_all("ammonia")
         fig3_prices_all("ft")
+        fig3_prices_other()
         fuel_boxes()                 # then, as for the later years, Fig. 4a at 2025 central costs
     orig = A.core_countries
     A.core_countries = lambda avail, n=30: sorted(avail)
@@ -143,6 +199,8 @@ def main():
     year = inputs.MAPS.parent.name
     d.to_csv(OUT / f"fig4a_all_{year}.csv")
     print(year, len(d), "economies ->", OUT / f"fig4a_all_{year}.csv")
+    if year == "2025mid":            # 2025 cell costs come from Source Data Fig. 1
+        return
     # cell production costs at this case's equipment costs (the layer Figs 4-5 use), US$/MMBtu
     from lcof import params as P
     land, lcof = setup[0], setup[3]

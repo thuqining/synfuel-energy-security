@@ -35,6 +35,9 @@ security_budget._figure); for the core 30 they reproduce the published figures. 
 also rebuilds Fig. 3's normal and disruption prices and bill for every economy by the paper's rules (the core 30
 reproduce Fig. 3 and its SI version; elsewhere ammonia uses the urea-implied price at the region's own/urea ratio and
 diesel + jet the regional import-market price, as the paper does for missing prices), runs Fig. 4a at 2025 central
-costs, and writes Fig. 3's domestic-cost box for every economy and fuel (the Fig. 3
+costs, writes normal and disruption prices for the fuels Fig. 3 does not draw on the comparator the model prices
+them against (e-methane: national gas price; hydrogen: grey hydrogen; methanol: gas-based methanol; ethanol: the diesel
++ jet price; Fig. 3's event windows and rules; national data or a regional estimate, flagged per economy), and writes
+Fig. 3's domestic-cost box for every economy and fuel (the Fig. 3
 code path; reproduces the core-30 boxes of Fig. 3 and its SI diesel and jet version). On 2030-2050 it runs the Fig. 4a calculation (`lcof.fig5a_chain.compute`) for all 139 economies instead of the
 core 30; for the core 30 it reproduces `fig5a_chain.csv` exactly. Everything else is read from `source_data/` and the case outputs.

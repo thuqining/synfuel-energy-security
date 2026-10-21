@@ -153,6 +153,15 @@ def countries(c1):
                 "n": [num(r[f"normal_p{q:02d}"], 2) for q in (1, 25, 50, 75, 99)],
                 "d": [num(r[f"disruption_p{q:02d}"], 2) for q in (1, 25, 50, 75, 99)],
                 "bill": num(r.bill_bn_usd, 3), "pm": pm, "core": c in core, "basis": r.basis}
+    # the other fuels on their model comparators (lcof.console_export.fig3_prices_other)
+    PK = {"e-methane": "em", "methanol": "meoh", "ethanol": "eth", "hydrogen": "h2"}
+    for _, r in pd.read_csv(HERE / "build/fig3_prices_other.csv").iterrows():
+        c = r.country
+        get(c).setdefault("pr", {})[PK[r.fuel]] = {
+            "n": [num(r[f"normal_p{q:02d}"], 2) for q in (1, 25, 50, 75, 99)],
+            "d": [num(r[f"disruption_p{q:02d}"], 2) for q in (1, 25, 50, 75, 99)],
+            "bill": num(r.bill_bn_usd, 3), "pm": num(r.bill_bn_usd * 1e9 / gdp[c] * 1000, 4) if c in gdp.index else None,
+            "core": False, "obs": bool(r.observed), "basis": r.basis}
     for c, r in f3.iterrows():
         d = get(c)
         d["core"] = True
@@ -199,10 +208,11 @@ def orders(C):
     # Fig. 3 (fig_main_sites._share_order): importers by import share (%, rounded), then the bill (per mille of
     # GDP, one decimal), then the cost ratio (lower on top); net exporters of the chain below, by supply risk
     rk = pd.read_csv(W / "2025mid/data/fig3_risk_all_countries.csv")
-    for k, key, fuel in (("amm", "ammonia", "ammonia"), ("ft", "ft", "e-diesel")):
+    for k, key, fuel in (("amm", "ammonia", "ammonia"), ("ft", "ft", "e-diesel"), ("em", "ammonia", "e-methane"),
+                         ("meoh", "ammonia", "methanol"), ("eth", "ft", "ethanol"), ("h2", "ammonia", "hydrogen")):
         V = rk[rk.version == key].set_index("country").supply_risk
         rows = [c for c, d in C.items() if d.get("pr", {}).get(k) and d.get("box", {}).get(fuel)]
-        E = {c: C[c].get("E_" + k) for c in rows}
+        E = {c: (C[c].get("E_" + k) if k in ("amm", "ft") else C[c].get("Ech", {}).get(fuel)) for c in rows}
         imp = [c for c in rows if E[c] is not None and E[c] > 0]
         exp_ = [c for c in rows if E[c] is not None and E[c] <= 0]
         none = [c for c in rows if E[c] is None]
