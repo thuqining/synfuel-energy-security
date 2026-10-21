@@ -39,6 +39,8 @@ work/caselow/<case>/      the four cases quoted in the paper (2025mid: Figs 1-3;
                           its inputs and every model output
 work/caselow/*.py         drivers: run_mod.py (run one module on a case), rerun_fig3.py
 source_data/              Source Data: one Excel workbook per main figure (Fig1.xlsx ... Fig5.xlsx)
+console/                  interactive results console (index.html, opens offline): world map of every cell and economy,
+                          Figs 3-5 for all economies; rebuilt by console/build_console.py (see console/README.md)
 DATA.md                   every data file: content, size, the module that writes it and the modules that read it
 ```
 
