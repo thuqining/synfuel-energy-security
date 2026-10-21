@@ -12,3 +12,6 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 Thumbs.db
+
+# console: published copy of the page without the document shell (rebuilt by console/build_console.py)
+console/build/*.html
