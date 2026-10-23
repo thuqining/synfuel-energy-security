@@ -24,7 +24,8 @@ budget and land limits (Fig. 6).
   90th percentile; import prices outside the 30 core economies use regional markets. Six main figures: Fig. 4 security
   value per tonne, Fig. 5 abatement cost curves, Fig. 6 budget and land at 2030 costs; all figures are redrawn by
   `lcof.make_paper_figs` and the 139-economy SI figures and tables by `lcof.fig_rows139` and `lcof.make_si139_tables`.
-  `lcof.test_paper` checks the new numbers (ALL PAPER CHECKS PASSED); `lcof.audit_vintage` and `lcof.audit139` pass.
+  `lcof.test_paper` checks the new numbers (ALL PAPER CHECKS PASSED); `lcof.audit_vintage` and `lcof.audit139` pass. Archived as
+  https://doi.org/10.5281/zenodo.23583358.
 
 ---
 
