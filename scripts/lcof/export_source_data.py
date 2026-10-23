@@ -116,16 +116,24 @@ def fig2(out):
                     np.where((c.s == 2) & (c.d == 0), "export-oriented",
                     np.where((c.s == 0) & (c.d == 2), "supply-strained",
                     np.where((c.s == 0) & (c.d == 0), "limited near-term potential", "intermediate"))))
+    from .fig_sd_map_zoom import REGIONS
+    regions = pd.DataFrame([{"panel": letter, "region": name, "member": m,
+                             "lon_min": box[0], "lon_max": box[1], "lat_min": box[2], "lat_max": box[3]}
+                            for letter, name, members, box in REGIONS for m in members])
     _write(out / "Fig2.xlsx", {
         "README": _readme("Fig. 2 - supply-demand map (2025 central costs)", [
             ("cells", "Every land cell: demand-weighted levelized cost of the fuels its market uses (US$ per MMBtu), "
                       "addressable demand (million MMBtu per year), tercile classes and the nine-way category"),
+            ("a", "Panel a, global map: every land cell in the sheet cells"),
+            ("b-d", "Panels b (Europe), c (Japan and the Korean Peninsula) and d (South and Southeast Asia): the "
+                    "same cells, drawn only for the member countries listed in the sheet regions_b_d (home "
+                    "territory inside the lon/lat box; Japan's remote Pacific islands left out); no other data"),
             ("Note", "Terciles of cost and demand across land cells; demand terciles over cells with more than 0.06 "
                      "million MMBtu per year (the rest join the lowest class). Thresholds: US$83 and US$111 per MMBtu "
                      "for cost, 1.5 and 15 million MMBtu per year for demand. The map colors each cell by its "
                      "category (cost tercile x demand tercile); map boundaries are smoothed for display only"),
             ("Source", "work/caselow/2025mid/data/sd_map_classes.csv; code lcof.supply_demand, lcof.fig_sd_map")]),
-        "cells": d.round(3)})
+        "cells": d.round(3), "regions_b_d": regions})
 
 
 def _console():
@@ -314,7 +322,8 @@ def fig6(out):
         "share_made_at_home_1pct_gdp": d.cov_1 * 100, "share_made_at_home_2pct_gdp": d.cov_2 * 100,
         "share_made_at_home_3pct_gdp": d.cov_3 * 100, "land_ceiling_pct": d.max_cov * 100,
         "net_import_share_pct": d.import_pct * 100,
-        "imports_replaced_1pct_gdp": d.ret_sf_1 * 100, "imports_replaced_3pct_gdp": d.ret_sf_3 * 100,
+        "imports_replaced_1pct_gdp": d.ret_sf_1 * 100, "imports_replaced_2pct_gdp": d.ret_sf_2 * 100,
+        "imports_replaced_3pct_gdp": d.ret_sf_3 * 100,
         "gdp_2030_bn_usd": d.gdp_usd / 1e9}).round(2)
     cls = fig5_classes("2030")[0]
     b = pd.DataFrame({"economy": list(cls), "group": list(cls.values())})
