@@ -101,7 +101,9 @@ def countries(c1):
     dg = dg.join(meta[["country"]], how="inner")
     dem = dg.groupby("country")[[f + "_gj" for f in DFUELS]].sum() / GJ_PER_MMBTU / 1e9   # billion MMBtu
     co2 = dg.groupby("country").total_tco2.sum() / 1e6
-    f3 = pd.read_excel(SD / "Fig3.xlsx", "economies").set_index("economy")
+    # 2026-10-23: Source Data Fig. 3 panel a (the 30 core economies), p10-p90 columns; the console keys the medians
+    f3 = pd.read_excel(SD / "Fig3.xlsx", "a").set_index("economy")
+    f3 = f3.rename(columns=lambda k: k.replace("_p50", "_median"))
     best = c1.groupby("country")[[f + "_usd_mmbtu" for f in FUELS]].min()
     C = {}
 
@@ -178,7 +180,7 @@ def countries(c1):
             just = bool(np.isfinite(r.net_usd_t) and r.net_usd_t <= r.p_co2_usd_t)
             d.setdefault("f4", {})[str(y)] = {
                 "gross": num(r.gross_usd_t, 1), "net": num(r.net_usd_t, 1),
-                "margin": num(r.gross_usd_t - r.net_usd_t, 1), "pco2": num(r.p_co2_usd_t, 1),
+                "margin": num(r.gross_usd_t - r.net_usd_t, 2), "pco2": num(r.p_co2_usd_t, 1),
                 "co2": num(r.co2_mt, 2), "E": num(r.chain_import_share), "ret": num(r.retired_share),
                 "cov": num(r.cov), "spend": num(r.spend_bn, 2), "sv": num(r.sec_value_bn, 2),
                 "imp": bool(imp), "just": just}
@@ -211,7 +213,9 @@ def orders(C):
     for k, key, fuel in (("amm", "ammonia", "ammonia"), ("ft", "ft", "e-diesel"), ("em", "ammonia", "e-methane"),
                          ("meoh", "ammonia", "methanol"), ("eth", "ft", "ethanol"), ("h2", "ammonia", "hydrogen")):
         V = rk[rk.version == key].set_index("country").supply_risk
-        rows = [c for c, d in C.items() if d.get("pr", {}).get(k) and d.get("box", {}).get(fuel)]
+        # 2026-10-23: only the 139 economies of the paper (the cell map also covers a few territories outside them)
+        k139 = set(pd.read_csv(W / "2030/data/security_budget.csv", index_col=0).index)
+        rows = [c for c, d in C.items() if c in k139 and d.get("pr", {}).get(k) and d.get("box", {}).get(fuel)]
         E = {c: (C[c].get("E_" + k) if k in ("amm", "ft") else C[c].get("Ech", {}).get(fuel)) for c in rows}
         imp = [c for c in rows if E[c] is not None and E[c] > 0]
         exp_ = [c for c in rows if E[c] is not None and E[c] <= 0]
@@ -247,9 +251,10 @@ def orders(C):
 
 def macc():
     out = {}
-    tot = pd.read_excel(SD / "Fig4.xlsx", "b_totals").set_index("cost_year")
+    # 2026-10-23: the abatement cost curves are Fig. 5 (Source Data Fig5.xlsx)
+    tot = pd.read_excel(SD / "Fig5.xlsx", "totals").set_index("cost_year")
     for y in YEARS:
-        b = pd.read_excel(SD / "Fig4.xlsx", f"b_{y}")
+        b = pd.read_excel(SD / "Fig5.xlsx", str(y))
         out[str(y)] = {
             "blocks": [[num(r.x_start_gtco2_per_yr, 5), num(r.width_gtco2_per_yr, 5), num(r.net_premium_usd_per_tco2, 1),
                         num(r.cost_premium_usd_per_tco2, 1), r.group, r.region, r.country, r.fuel, r.demand_part]
@@ -276,6 +281,9 @@ def main():
             '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
             '</head><body>\n' + body.replace(tag, "<script>" + d3js + "</script>") + '\n</body></html>\n')
     (HERE / "index.html").write_text(html, encoding="utf-8")
+    # 2026-10-23: the same page is published on GitHub Pages from docs/ (repository Settings -> Pages -> main /docs)
+    (HERE.parent / "docs").mkdir(exist_ok=True)
+    (HERE.parent / "docs" / "index.html").write_text(html, encoding="utf-8")
     (HERE / "build" / "page_body.html").write_text(body, encoding="utf-8")   # same page without the document shell
     print("index.html", round(len(html) / 1e6, 2), "MB;", len(cl), "cells;", len(data["countries"]), "economies")
 

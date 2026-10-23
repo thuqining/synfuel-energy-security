@@ -17,6 +17,8 @@ body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1
 header{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px}
 h1{font-family:var(--f-display);font-weight:700;font-size:22px;margin:0;text-wrap:balance}
 header p{margin:0;color:var(--muted);max-width:80ch}
+header p.links{max-width:none;font-size:12px}
+header p.links a{color:inherit;text-decoration:underline;text-underline-offset:2px}
 .main{display:grid;grid-template-columns:250px minmax(0,1fr) 300px;gap:14px;align-items:start}
 @media (max-width:1100px){.main{grid-template-columns:minmax(0,1fr)} }
 .box{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:12px;min-width:0}
@@ -64,7 +66,8 @@ tr.sel td{background:var(--bg)}
 <div class="wrap">
 <header>
   <h1>Synthetic Fuel Security Atlas</h1>
-  <p>Every cell and every economy behind <i>Energy security can accelerate domestic synthetic fuel adoption and CO<sub>2</sub> abatement</i>: production costs (Sec. 1), supply and demand (Sec. 2), import shares and disruption prices (Sec. 3), security value and abatement (Sec. 4) and fiscal capacity (Sec. 5). Costs in 2025 US$ per MMBtu, lower heating value.</p>
+  <p>Every cell and every economy behind <i>Energy security can accelerate domestic synthetic fuel adoption and CO<sub>2</sub> abatement</i>: production costs and supply and demand (Figs 1–2), import shares and disruption prices (Fig. 3), security value and abatement (Figs 4–5) and budget and land limits (Fig. 6). Costs in 2025 US$ per MMBtu, lower heating value.</p>
+  <p class="links">Code and data: <a href="https://github.com/thuqining/synfuel-energy-security">GitHub</a> · <a href="https://doi.org/10.5281/zenodo.23583358">Zenodo archive (v1.1.0)</a> · Source data of Figs <a href="https://github.com/thuqining/synfuel-energy-security/raw/main/source_data/Fig1.xlsx">1</a> <a href="https://github.com/thuqining/synfuel-energy-security/raw/main/source_data/Fig2.xlsx">2</a> <a href="https://github.com/thuqining/synfuel-energy-security/raw/main/source_data/Fig3.xlsx">3</a> <a href="https://github.com/thuqining/synfuel-energy-security/raw/main/source_data/Fig4.xlsx">4</a> <a href="https://github.com/thuqining/synfuel-energy-security/raw/main/source_data/Fig5.xlsx">5</a> <a href="https://github.com/thuqining/synfuel-energy-security/raw/main/source_data/Fig6.xlsx">6</a> (Excel) · Results for every economy by cost year <a href="https://github.com/thuqining/synfuel-energy-security/raw/main/console/build/fig4a_all_2025mid.csv">2025</a> <a href="https://github.com/thuqining/synfuel-energy-security/raw/main/console/build/fig4a_all_2030.csv">2030</a> <a href="https://github.com/thuqining/synfuel-energy-security/raw/main/console/build/fig4a_all_2040.csv">2040</a> <a href="https://github.com/thuqining/synfuel-energy-security/raw/main/console/build/fig4a_all_2050.csv">2050</a> (CSV) · Cell costs <a href="https://github.com/thuqining/synfuel-energy-security/raw/main/console/build/cell_costs_2030.csv">2030</a> <a href="https://github.com/thuqining/synfuel-energy-security/raw/main/console/build/cell_costs_2040.csv">2040</a> <a href="https://github.com/thuqining/synfuel-energy-security/raw/main/console/build/cell_costs_2050.csv">2050</a> (CSV)</p>
 </header>
 
 <div class="main">
@@ -97,7 +100,7 @@ tr.sel td{background:var(--bg)}
   <p class="note" id="figNote"></p>
 </section>
 
-<p class="note">Built from the paper's code release (console/build_console.py). Fig. 3 price histories exist for the 30 core economies only; other economies show the import share and the lowest-cost domestic cell. Gray hatching marks economies without data for a layer.</p>
+<p class="note">Built from the paper's code release (console/build_console.py). Outside the 30 core economies, the Fig. 3 prices are constructed by the paper's rule for missing prices. Gray hatching marks economies without data for a layer.</p>
 </div>
 <div class="tip" id="tip" hidden></div>
 
@@ -116,30 +119,30 @@ try{const t=localStorage.getItem("atlas-tab");if(t)S.tab=t}catch(e){}
 /* ---------- layers ---------- */
 const f4=(c,k)=>C[c]?.f4?.[S.year]?.[k], f5=(c,k)=>C[c]?.f5?.[S.year]?.[k];
 const LAYERS=[
- {g:"1 · Production cost (per cell, 2025–2050)",items:[
+ {g:"Figs 1–2 · Production cost (per cell, 2025–2050)",items:[
   {id:"cost",cell:true,name:"Production cost of selected fuel",unit:"US$/MMBtu",fuel:true,v:d=>(S.cyear==="2025"?d.cost:d.cy[S.cyear])[FU.indexOf(S.fuel)],scale:"costs"},
   {id:"mix",cell:true,name:"Demand-weighted cost of the cell's fuel mix",unit:"US$/MMBtu",v:d=>d.mix,scale:"costs"}]},
- {g:"2 · Supply and demand (per cell)",items:[
+ {g:"Fig. 2 · Supply and demand (per cell)",items:[
   {id:"dem",cell:true,name:"Addressable demand",unit:"million MMBtu/yr",v:d=>d.dem>0?d.dem:null,scale:"log"},
   {id:"cat",cell:true,name:"Supply–demand classes (Fig. 2)",cat:true,biv:true,v:d=>d.ct&&d.dt?d.ct+"|"+d.dt:null}]},
- {g:"2 · Demand and exposure (per economy)",items:[
+ {g:"Fig. 3 · Demand and exposure (per economy)",items:[
   {id:"cdem",name:"Addressable demand",unit:"billion MMBtu/yr",v:c=>C[c].dem_tot,scale:"logc"},
   {id:"Eamm",name:"Import share, ammonia chain",unit:"share",v:c=>C[c].E_amm,scale:"share"},
   {id:"Eft",name:"Import share, diesel and jet fuel chain",unit:"share",v:c=>C[c].E_ft,scale:"share"},
   {id:"Hamm",name:"Supplier concentration (HHI), ammonia",unit:"HHI",v:c=>C[c].H_amm,scale:"hhi"},
   {id:"Hft",name:"Supplier concentration (HHI), diesel and jet",unit:"HHI",v:c=>C[c].H_ft,scale:"hhi"}]},
- {g:"3 · Domestic ammonia vs prices",items:[
+ {g:"Fig. 3 · Domestic ammonia vs prices",items:[
   {id:"bamm",name:"Lowest-cost domestic fuel of the selected type (2025)",unit:"US$/MMBtu",fuel:true,nocy:true,v:c=>C[c].box?.[S.fuel==="e-kerosene"?"e-diesel":S.fuel]?.[2],scale:"costs"},
   {id:"ratio",name:"Cost ratio to normal median price (core 30)",unit:"×",v:c=>C[c].f3?C[c].f3.green_ammonia_median/C[c].f3.normal_price_median:null,scale:"ratio"},
   {id:"inrange",name:"Below disruption median price (core 30)",cat:true,v:c=>C[c].f3?(C[c].f3.green_ammonia_median<=C[c].f3.disruption_price_median?"below disruption median":"above disruption median"):null}]},
- {g:"4 · Security value (1% of GDP, by cost year)",yr:true,items:[
+ {g:"Figs 4–5 · Security value (1% of GDP, by cost year)",yr:true,items:[
   {id:"gross",name:"Cost premium",unit:"US$/tCO₂",v:c=>f4(c,"gross"),scale:"prem"},
   {id:"margin",name:"Security margin",unit:"US$/tCO₂",v:c=>f4(c,"imp")?f4(c,"margin"):null,scale:"margin"},
   {id:"net",name:"Net premium",unit:"US$/tCO₂",v:c=>f4(c,"net"),scale:"div"},
   {id:"pco2",name:"Carbon price in force",unit:"US$/tCO₂",v:c=>f4(c,"pco2"),scale:"carbon"},
   {id:"just",name:"First cost year justified (2030–2050, as Fig. 4)",cat:true,v:c=>!C[c].f4?null:!C[c].imp?"net exporter":C[c].first_just?String(C[c].first_just):"not by 2050"},
   {id:"co2",name:"CO₂ displaced by the portfolio",unit:"MtCO₂/yr",v:c=>f4(c,"co2")>0?f4(c,"co2"):null,scale:"logc"}]},
- {g:"5 · Fiscal capacity and land (by cost year)",yr:true,items:[
+ {g:"Fig. 6 · Budget and land (by cost year)",yr:true,items:[
   {id:"s1",name:"Share of demand made at home, 1% of GDP",unit:"%",v:c=>f5(c,"s1"),scale:"pct"},
   {id:"s3",name:"Share of demand made at home, 3% of GDP",unit:"%",v:c=>f5(c,"s3"),scale:"pct"},
   {id:"land",name:"Land ceiling",unit:"% of demand",v:c=>f5(c,"land"),scale:"pct"},
@@ -150,7 +153,7 @@ const L=id=>LAYERS.flatMap(g=>g.items.map(i=>({...i,yr:g.yr}))).find(i=>i.id===i
 const CATCOL={"2030":"--green","2040":"--blue2","2050":"--blue3","not by 2050":"--dear","net exporter":"--land",
  "imports covered":"--green","land binds":"--orange","budget binds":"--blue",
  "below disruption median":"--blue","above disruption median":"--dear"};
-// Fig. 4b region colours (Tol muted), as in the paper
+// Fig. 5 region colours (Tol muted), as in the paper
 const REGION_COL={"China":"#332288","Rest of Asia and Oceania":"#88CCEE","Europe":"#44AA99","Americas":"#CC6677","Africa":"#999933","Middle East":"#882255"};
 const ramp=cols=>d3.interpolateRgbBasis(cols);
 // Fig. 1 fuel colours (Okabe-Ito, as in the paper)
@@ -289,7 +292,7 @@ let curScale=null;
 function drawMap(){
   const lay=L(S.layer);
   d3.select("#mapTitle").text(lay.name+(lay.yr?` · ${S.year} costs`:"")+(lay.fuel?` · ${NAME(S.fuel)}`+(lay.nocy?"":` · ${S.cyear} ${S.cyear==="2025"?"central":"optimistic"} costs`):""));
-  d3.select("#cyNote").text(S.cyear==="2025"?"2025 central costs (Figs 1–3).":`${S.cyear} optimistic projections, the cost layer of Figs 4–5.`);
+  d3.select("#cyNote").text(S.cyear==="2025"?"2025 central costs (Figs 1–3).":`${S.cyear} optimistic projections, the cost layer of Figs 4–6.`);
   d3.select("#fuelCtl").attr("hidden",lay.fuel?null:true);
   d3.selectAll("#cyears,#cyNote,#cyLab").attr("hidden",lay.nocy?true:null);
   d3.select("#yearCtl").style("opacity",lay.yr?1:.45);
@@ -318,7 +321,7 @@ function note(lay){
    ratio:"Only the 30 core economies have matched national price histories.",
    just:"A portfolio is justified when its net premium does not exceed the carbon price in force.",
    net:"Cost premium minus the security margin; blue cells are below zero.",
-   grp:"Classification of Fig. 5 at 3% of GDP."}[lay.id];
+   grp:"Classification of Fig. 6 at 3% of GDP."}[lay.id];
   d3.select("#mapNote").text(n||"");
 }
 function legend(lay){
@@ -411,7 +414,7 @@ function panel(){
 }
 
 /* ---------- figure tabs ---------- */
-const TABS=[["f1","Fig. 1 · costs and demand"],["f2","Fig. 2 · supply–demand classes"],["f3","Fig. 3 · domestic cost vs prices"],["f4a","Fig. 4a · security value"],["f4b","Fig. 4b · abatement curve"],["f5","Fig. 5 · fiscal capacity"],["tbl","Table"]];
+const TABS=[["f1","Fig. 1 · costs and demand"],["f2","Fig. 2 · supply–demand classes"],["f3","Fig. 3 · domestic cost vs prices"],["f4a","Fig. 4 · security value"],["f4b","Fig. 5 · abatement curve"],["f5","Fig. 6 · budget and land"],["tbl","Table"]];
 d3.select("#tabs").selectAll("button").data(TABS).join("button").attr("role","tab").attr("id",d=>"tab-"+d[0]).text(d=>d[1])
  .on("click",(e,d)=>{S.tab=d[0];try{localStorage.setItem("atlas-tab",S.tab)}catch(err){}drawFig()});
 const ROWH=15;
@@ -460,7 +463,7 @@ function drawFig(){
     side.append("p").attr("class","lab").style("margin-top","10px").text("Sector → synthetic fuel");
     const sm=d3.rollup(DATA.fig1.sectors,v=>v.map(r=>r.fuel).join(", "),r=>r.sector);
     side.append("dl").selectAll("div").data([...sm]).join("div").style("display","contents").html(([k,v])=>`<dt>${k}</dt><dd style="font-family:var(--f-body)">${v}</dd>`);
-    fn.text("Box: interquartile range of the cells' median cost over 20 weather years; whiskers 1st–99th percentiles; bar: median. 2025 matches Fig. 1; 2030–2050 use the optimistic cost layer of Figs 4–5. Hover a box for values.");
+    fn.text("Box: interquartile range of the cells' median cost over 20 weather years; whiskers 1st–99th percentiles; bar: median. 2025 matches Fig. 1; 2030–2050 use the optimistic cost layer of Figs 4–6. Hover a box for values.");
   }
   if(S.tab==="f2"){
     const cnt=d3.rollup(DATA.cells,v=>({n:v.length,dem:d3.sum(v,d=>d.dem||0)}),d=>d.ct+"|"+d.dt), totD=d3.sum(DATA.cells,d=>d.dem||0);
@@ -543,13 +546,13 @@ function drawFig(){
     fn.text(`${names.length} economies. Rows in the paper's order, the same for every year: net importers grouped by the first cost year (2030, 2040, 2050) in which the portfolio is justified, then by the 2030 net premium; net exporters below the dashed line. Open circle: cost premium; green arrow: security margin; filled circle: net premium (green ring = justified); magenta: carbon price in force; shaded: net premium below zero. Same calculation as Fig. 4a, run for every economy.`);
   }
   if(S.tab==="f4b"){
-    if(!DATA.macc[S.year]){fig.append("p").attr("class","note").text("Fig. 4b is drawn for 2030, 2040 and 2050 costs; choose one of those years.");return}
+    if(!DATA.macc[S.year]){fig.append("p").attr("class","note").text("Fig. 5 is drawn for 2030, 2040 and 2050 costs; choose one of those years.");return}
     const M=DATA.macc[S.year],bl=M.blocks,w=W0,h=420,m={l:56,r:16,t:16,b:36};
     const s=fig.append("svg").attr("width",w).attr("height",h);
     const X=d3.max(bl,b=>b[0]+b[1]),x=d3.scaleLinear().domain([0,X]).range([m.l,w-m.r]),y=d3.scaleLinear().domain([-800,300]).range([h-m.b,m.t]).clamp(true);
     s.append("g").attr("class","ax").attr("transform",`translate(0,${h-m.b})`).call(d3.axisBottom(x).ticks(8));
     s.append("g").attr("class","ax").attr("transform",`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(8).tickSize(-(w-m.l-m.r))).call(a=>a.selectAll("line").attr("stroke-opacity",.4));
-    s.append("text").attr("x",m.l).attr("y",h-4).attr("font-size",11).style("fill","var(--muted)").text("CO₂ displaced, GtCO₂ per year (net imports and the rest of demand of each country–fuel pair)");
+    s.append("text").attr("x",m.l).attr("y",h-4).attr("font-size",11).style("fill","var(--muted)").text("CO₂ displaced, GtCO₂ per year (imported supply and the rest of demand of each country–fuel pair)");
     s.append("text").attr("x",m.l+4).attr("y",m.t+10).attr("font-size",11).style("fill","var(--muted)").text("Net premium, US$ per tCO₂");
     const sd=s.append("defs");Object.entries(REGION_COL).forEach(([r,c],i)=>{const p=sd.append("pattern").attr("id","rh"+i).attr("patternUnits","userSpaceOnUse").attr("width",4).attr("height",4).attr("patternTransform","rotate(45)");
       p.append("rect").attr("width",4).attr("height",4).attr("fill","#ffffff");p.append("rect").attr("width",2).attr("height",4).attr("fill",c)});

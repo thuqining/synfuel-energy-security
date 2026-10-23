@@ -11,6 +11,11 @@ demand in 139 economies, matched import prices before and during supply disrupti
 of domestic supply per tonne of CO2 displaced (Fig. 4), the CO2 abatement it enables (Fig. 5), and deployment under
 budget and land limits (Fig. 6).
 
+- **Interactive results console:** https://thuqining.github.io/synfuel-energy-security/ (every cell and economy behind
+  Figs 1-6, with links to download the Source Data and the per-economy results; the same page is `docs/index.html`
+  and `console/index.html`, and opens offline)
+- **Download data:** Source Data of Figs 1-6 in `source_data/` (Excel); results for every economy and cell in
+  `console/build/` (CSV); the full code and data archive on Zenodo (below)
 - Code: MIT License (`LICENSE`)
 - Data: CC BY 4.0 (`data/LICENSE`)
 - Archived versions: code and data on Zenodo, https://doi.org/10.5281/zenodo.23357310 (all versions; v1.0.0:
