@@ -208,6 +208,9 @@ All data are licensed under CC BY 4.0 (`data/LICENSE`), except third-party files
 | `data/cost/flexlow/run_2050high/out` | `part_<year>_<chunk>.csv` | 1000 | 14.7 MB | linear-program results per cell and weather year, one chunk of cells |  |  |
 | `data/cost/flexlow/run_2050mid/out` | `part_<year>_<chunk>.csv` | 1000 | 14.3 MB | linear-program results per cell and weather year, one chunk of cells |  |  |
 | `data/demand/ei_2026` | `statistical review of world energy narrow format.csv` | 1 | 21.1 MB |  |  |  |
+| `data/demand/un_energy/raw_biomass` | `un_biomass_tes.xml` | 1 | 1.2 MB | UN Energy Statistics Database, total energy supply of primary solid biofuels and charcoal by country (SDMX); adds traditional biomass to national primary energy use in the value of lost fuel (2026-10-21) |  | un_energy |
+| `data/gdp_projections` | `imf_weo_gdp_2023_2031.json` | 1 | 43 kB | IMF World Economic Outlook real GDP growth 2023-2031 (DataMapper API); GDP projected from 2025 to 2030 |  | gdp_projection, security_budget |
+| `data/gdp_projections` | `ssp2_gdp_v3.2.csv` | 1 | 0.4 MB | SSP v3.2 (OECD ENV-Growth 2025) SSP2 GDP by country, extracted from ssp_basic_drivers_release_3.2_full.xlsx (not redistributed); growth after 2030 |  | gdp_projection, security_budget |
 | `data/demand/un_energy` | `un_net_dependence.csv` | 1 | 18 kB | output of `un_trade`: oil and gas net import dependence from the UN Energy Statistics Database, for the economies the Energy Institu | un_trade | security_budget |
 | `data/demand/un_energy` | `un_sector_fuel_tj.csv` | 1 | 0.4 MB | output of `un_energy`: national fossil fuel use by sector from the UN Energy Statistics Database, the LEVEL that demand_grid anchors  | un_energy | security_budget |
 | `data/demand/un_energy/raw` | `area_codes.csv` | 1 | 5 kB | output of `un_energy`: national fossil fuel use by sector from the UN Energy Statistics Database, the LEVEL that demand_grid anchors  | un_energy |  |

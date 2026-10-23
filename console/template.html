@@ -103,6 +103,9 @@ tr.sel td{background:var(--bg)}
 
 <script>
 const DATA=/*__DATA__*/null;
+const NAME=f=>f==="e-kerosene"?"e-jet fuel":f;
+// economy display names as in the paper (data keys stay the Natural Earth names)
+const CN=c=>c==="China"?"China (Mainland)":c==="Taiwan"?"China (Taiwan)":c;
 const C=DATA.countries, FU=DATA.fuels, YEARS=DATA.years.map(String), CYEARS=DATA.cyears.map(String), ORD=DATA.order;
 const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const fmt=(v,d=1)=>v==null||!isFinite(v)?"–":(+v).toLocaleString("en-US",{maximumFractionDigits:d,minimumFractionDigits:d});
@@ -285,7 +288,7 @@ svg.call(d3.zoom().scaleExtent([1,12]).translateExtent([[0,0],[W,H]]).on("zoom",
 let curScale=null;
 function drawMap(){
   const lay=L(S.layer);
-  d3.select("#mapTitle").text(lay.name+(lay.yr?` · ${S.year} costs`:"")+(lay.fuel?` · ${S.fuel}`+(lay.nocy?"":` · ${S.cyear} ${S.cyear==="2025"?"central":"optimistic"} costs`):""));
+  d3.select("#mapTitle").text(lay.name+(lay.yr?` · ${S.year} costs`:"")+(lay.fuel?` · ${NAME(S.fuel)}`+(lay.nocy?"":` · ${S.cyear} ${S.cyear==="2025"?"central":"optimistic"} costs`):""));
   d3.select("#cyNote").text(S.cyear==="2025"?"2025 central costs (Figs 1–3).":`${S.cyear} optimistic projections, the cost layer of Figs 4–5.`);
   d3.select("#fuelCtl").attr("hidden",lay.fuel?null:true);
   d3.selectAll("#cyears,#cyNote,#cyLab").attr("hidden",lay.nocy?true:null);
@@ -360,11 +363,11 @@ function hideTip(){tip.hidden=true}
 const FBNOTE="fallback: the chain share used in the security value (nitrogen balance or national net import dependence); no trade records for Fig. 3";
 function tipC(e,c){const lay=L(S.layer);if(lay.cell)return;const v=C[c]?lay.v(c):null;
   const fb=(lay.id==="Eamm"&&C[c]?.fb_amm)||(lay.id==="Eft"&&C[c]?.fb_ft);
-  showTip(e,`<b>${c}</b><br>${lay.name}: ${v==null?(C[c]?.note_amm||"no data"):typeof v==="number"?fmt(v,lay.unit==="share"||lay.unit==="HHI"?2:1)+" "+(lay.unit||""):v}${fb?`<br><span style="color:var(--muted)">${FBNOTE}</span>`:""}`)}
+  showTip(e,`<b>${CN(c)}</b><br>${lay.name}: ${v==null?(C[c]?.note_amm||"no data"):typeof v==="number"?fmt(v,lay.unit==="share"||lay.unit==="HHI"?2:1)+" "+(lay.unit||""):v}${fb?`<br><span style="color:var(--muted)">${FBNOTE}</span>`:""}`)}
 function tipCell(e,d){const lay=L(S.layer);const v=lay.v(d);
   const j=FU.indexOf(S.fuel);
   const vs=lay.biv&&v?`${d.cat} (cost ${d.ct}, demand ${d.dt})`:v;
-  showTip(e,`<b>${d.c}</b> · cell ${d.id} (${d.y}°, ${d.x}°)<br>${lay.name}: ${vs==null?"–":typeof vs==="number"?fmt(vs,lay.id==="dem"?3:1)+" "+lay.unit:vs}<br>Fuel-mix cost ${fmt(d.mix)} US$/MMBtu<br><span style="color:var(--muted)">${S.fuel}, US$/MMBtu: 2025 ${fmt(d.cost[j])} · 2030 ${fmt(d.cy["2030"][j])} · 2040 ${fmt(d.cy["2040"][j])} · 2050 ${fmt(d.cy["2050"][j])}<br>demand ${fmt(d.dem,3)} million MMBtu</span>`)}
+  showTip(e,`<b>${CN(d.c)}</b> · cell ${d.id} (${d.y}°, ${d.x}°)<br>${lay.name}: ${vs==null?"–":typeof vs==="number"?fmt(vs,lay.id==="dem"?3:1)+" "+lay.unit:vs}<br>Fuel-mix cost ${fmt(d.mix)} US$/MMBtu<br><span style="color:var(--muted)">${NAME(S.fuel)}, US$/MMBtu: 2025 ${fmt(d.cost[j])} · 2030 ${fmt(d.cy["2030"][j])} · 2040 ${fmt(d.cy["2040"][j])} · 2050 ${fmt(d.cy["2050"][j])}<br>demand ${fmt(d.dem,3)} million MMBtu</span>`)}
 
 /* ---------- economy panel ---------- */
 function select(c){S.sel=c;
@@ -375,7 +378,7 @@ function panel(){
   const el=d3.select("#panel").html(""), c=S.sel;
   if(!c||!C[c]){el.html(`<h3>${c||"No economy selected"}</h3><p class="note">${c?"This economy is outside the model's 139 economies or has no data.":"Click an economy on the map, or find one by name."}</p>`);return}
   const d=C[c], y=S.year, a=d.f4?.[y], b=d.f5?.[y];
-  el.append("h3").text(c);
+  el.append("h3").text(CN(c));
   if(d.core)el.append("span").attr("class","pill").style("color","var(--blue)").text("core 30 economy");
   const rows=[["Addressable demand",fmt(d.dem_tot,3)+" bn MMBtu"],["Fossil CO₂ addressed",fmt(d.co2_mt,1)+" Mt/yr"],
    ["Import share, ammonia chain",pct(d.E_amm)+(d.fb_amm?" *":"")],["Import share, diesel and jet",pct(d.E_ft)+(d.fb_ft?" *":"")],
@@ -416,7 +419,7 @@ function rowsFrame(names,width,left){
   const h=names.length*ROWH+40;const s=d3.select("#fig").append("svg").attr("width",width).attr("height",h).style("display","block");
   const y=d3.scaleBand().domain(names).range([28,h-12]).paddingInner(.15);
   s.append("g").selectAll("text").data(names).join("text").attr("x",left-6).attr("y",n=>y(n)+y.bandwidth()/2+4).attr("text-anchor","end")
-   .attr("font-size",11).attr("font-weight",n=>n===S.sel?600:400).style("cursor","pointer").text(n=>n.length>24?n.slice(0,23)+"…":n).on("click",(e,n)=>select(n));
+   .attr("font-size",11).attr("font-weight",n=>n===S.sel?600:400).style("cursor","pointer").text(n=>{const s=CN(n);return s.length>24?s.slice(0,23)+"…":s}).on("click",(e,n)=>select(n));
   s.append("g").selectAll("rect").data(names.filter(n=>n===S.sel)).join("rect").attr("x",0).attr("width",width).attr("y",n=>y(n)-1).attr("height",y.bandwidth()+2).attr("fill","var(--bg)").lower();
   return {s,y,h};
 }
@@ -439,12 +442,12 @@ function drawFig(){
     s.append("g").attr("class","ax").attr("transform",`translate(0,${h-m.b})`).call(d3.axisBottom(x).tickValues([10,20,30,50,100,200,300]).tickFormat(d3.format("~s")).tickSize(-(h-m.t-m.b))).call(a=>a.selectAll("line").attr("stroke-opacity",.4));
     s.append("text").attr("x",m.l).attr("y",h-4).attr("font-size",11).style("fill","var(--muted)").text("Production cost across the 2,740 land cells, US$ per MMBtu (LHV, log scale)");
     boxes.forEach(b=>{const Y=y(b.f),bh=y.bandwidth(),q=b.q;
-      s.append("text").attr("x",m.l-6).attr("y",Y+bh/2+4).attr("text-anchor","end").attr("font-size",12).text(b.f);
+      s.append("text").attr("x",m.l-6).attr("y",Y+bh/2+4).attr("text-anchor","end").attr("font-size",12).text(NAME(b.f));
       s.append("line").attr("x1",x(q[0])).attr("x2",x(q[4])).attr("y1",Y+bh/2).attr("y2",Y+bh/2).attr("stroke",FCOL[b.f]);
       s.append("rect").attr("x",x(q[1])).attr("width",x(q[3])-x(q[1])).attr("y",Y).attr("height",bh).attr("fill",FCOL[b.f]).attr("opacity",.85).attr("stroke",FCOL[b.f]);
       s.append("line").attr("x1",x(q[2])).attr("x2",x(q[2])).attr("y1",Y).attr("y2",Y+bh).attr("stroke","#ffffff").attr("stroke-width",2);
       s.append("rect").attr("x",m.l).attr("width",w-m.l-m.r).attr("y",Y).attr("height",bh).attr("fill","transparent")
-       .on("mousemove",e=>showTip(e,`<b>${b.f}</b> (${S.cyear})<br>median ${fmt(q[2])} · IQR ${fmt(q[1])}–${fmt(q[3])} · 1st–99th ${fmt(q[0])}–${fmt(q[4])} US$/MMBtu`)).on("mouseleave",hideTip)});
+       .on("mousemove",e=>showTip(e,`<b>${NAME(b.f)}</b> (${S.cyear})<br>median ${fmt(q[2])} · IQR ${fmt(q[1])}–${fmt(q[3])} · 1st–99th ${fmt(q[0])}–${fmt(q[4])} US$/MMBtu`)).on("mouseleave",hideTip)});
     // addressable demand by route and the sector-to-fuel map
     const R=DATA.fig1.routes, side=fig.append("div").style("display","inline-block").style("vertical-align","top").style("margin-left","18px").style("min-width","260px");
     side.append("p").attr("class","lab").text("Addressable demand by route (billion MMBtu a year)");
@@ -478,7 +481,7 @@ function drawFig(){
   }
   if(S.tab==="f3"){
     const F3=[["ammonia","ammonia","amm"],["e-diesel","diesel and jet fuel","ft"],["e-methane","e-methane","em"],["methanol","methanol","meoh"],["ethanol","ethanol","eth"],["hydrogen","hydrogen","h2"]];
-    const cur=F3.find(f=>f[0]===S.f3fuel)||F3[0], fu=cur[0], pk=cur[2];
+    const cur=F3.find(f=>f[0]===S.f3fuel)||F3[0], fu=cur[0], pk=cur[2], fuN=fu==="e-diesel"?"e-diesel/e-jet fuel":fu;
     const seg=tools.append("div").attr("class","seg").style("width","min(100%,560px)");
     seg.selectAll("button").data(F3).join("button").text(f=>f[1]).attr("aria-pressed",f=>f[0]===fu).on("click",(e,f)=>{S.f3fuel=f[0];drawFig()});
     // one import-share column: the selected fuel's own supply chain
@@ -492,11 +495,11 @@ function drawFig(){
     const cs=names.flatMap(c=>[C[c].box[fu][4],pk&&C[c].pr?.[pk]?.d[4]]).filter(v=>v);
     const x3=d3.scaleLog().domain([10,Math.min(400,d3.max(cs))]).range([left+200,W0-130]).clamp(true);
     if(pk)s.append("text").attr("x",W0-120).attr("y",12).attr("font-size",11).attr("font-weight",600).text("Bill: US$ bn · ‰ GDP");
-    [[x1,`Import share, ${CHAIN[fu]}`],[x3,`Domestic ${fu}${pk?" vs prices":""} (US$/MMBtu)`]].forEach(([x,tt],i)=>{
+    [[x1,`Import share, ${CHAIN[fu]}`],[x3,`Domestic ${fuN}${pk?" vs prices":""} (US$/MMBtu)`]].forEach(([x,tt],i)=>{
       s.append("text").attr("x",x.range()[0]).attr("y",12).attr("font-size",11).attr("font-weight",600).text(tt);
       s.append("g").attr("class","ax").attr("transform",`translate(0,${h-12})`).call(i<1?d3.axisBottom(x).ticks(2,"~%").tickSize(-h+40):d3.axisBottom(x).ticks(6,"~s").tickSize(-h+40)).call(a=>a.selectAll("line").attr("stroke-opacity",.4))});
     const paper=pk==="amm"||pk==="ft", plain=c=>{const pr=C[c]?.pr?.[pk];return pr&&(paper?pr.core:pr.obs)};
-    if(pk)s.selectAll("text").filter(function(){return this.getAttribute("text-anchor")==="end"&&names.includes(this.textContent)&&C[this.textContent]&&!plain(this.textContent)}).style("fill","#7a8794");
+    if(pk)s.selectAll("text").filter(function(){const k=names.find(n=>CN(n)===this.textContent);return this.getAttribute("text-anchor")==="end"&&k&&!plain(k)}).style("fill","#7a8794");
     if(split)s.append("line").attr("x1",0).attr("x2",W0).attr("y1",y(names[split])-2).attr("y2",y(names[split])-2).attr("stroke","#8a94a0").attr("stroke-dasharray","5 3");
     names.forEach(n=>{const d=C[n],Y=y(n),bh=y.bandwidth(),bx=d.box[fu],pr=pk?d.pr?.[pk]:null;
       const e=Es(n);if(e!=null)s.append("rect").attr("x",x1(0)).attr("y",Y).attr("height",bh).attr("width",x1(e)-x1(0)).attr("fill",d3.interpolateReds(.08+.82*e)).attr("opacity",fbs(n)?.45:1);
@@ -510,9 +513,9 @@ function drawFig(){
       s.append("rect").attr("x",x3(bx[1])).attr("width",Math.max(2,x3(bx[3])-x3(bx[1]))).attr("y",Y+1).attr("height",bh-2).attr("fill",fu==="ammonia"?"var(--blue)":FCOL[fu]).attr("opacity",.85);
       s.append("line").attr("x1",x3(bx[2])).attr("x2",x3(bx[2])).attr("y1",Y).attr("y2",Y+bh).attr("stroke","#ffffff").attr("stroke-width",1.5);
       s.append("rect").attr("x",x3.range()[0]).attr("width",x3.range()[1]-x3.range()[0]).attr("y",Y).attr("height",bh).attr("fill","transparent")
-        .on("mousemove",e=>showTip(e,`<b>${n}</b> · ${fu}<br>Domestic, lowest-cost cell ${fmt(bx[2])} US$/MMBtu (IQR ${fmt(bx[1])}–${fmt(bx[3])}; 1st–99th ${fmt(bx[0])}–${fmt(bx[4])})${pr?`<br>Normal median ${fmt(pr.n[2])} · disruption median ${fmt(pr.d[2])} US$/MMBtu<br>Bill ${fmt(pr.bill,2)} US$ bn · ${fmt(pr.pm,2)}‰ GDP<br><span style="color:var(--muted)">Price basis: ${pr.core?"as in Fig. 3":paper?"constructed by the paper's rule for missing prices":pr.obs?"national data":"regional estimate"} (${pr.basis})</span>`:pk?"<br>No price series":""}`)).on("mouseleave",hideTip);});
+        .on("mousemove",e=>showTip(e,`<b>${CN(n)}</b> · ${fuN}<br>Domestic, lowest-cost cell ${fmt(bx[2])} US$/MMBtu (IQR ${fmt(bx[1])}–${fmt(bx[3])}; 10th–90th ${fmt(bx[0])}–${fmt(bx[4])})${pr?`<br>Normal median ${fmt(pr.n[2])} · disruption median ${fmt(pr.d[2])} US$/MMBtu<br>Bill ${fmt(pr.bill,2)} US$ bn · ${fmt(pr.pm,2)}‰ GDP<br><span style="color:var(--muted)">Price basis: ${pr.core?"as in Fig. 3":paper?"constructed by the paper's rule for missing prices":pr.obs?"national data":"regional estimate"} (${pr.basis})</span>`:pk?"<br>No price series":""}`)).on("mouseleave",hideTip);});
     const SRC={em:"the national gas price",meoh:"gas-based methanol, from the national gas price",h2:"grey hydrogen (gas, and coal where that route is used)",eth:"the diesel and jet fuel price, the paper's comparator for ethanol"};
-    fn.text(`${names.length} economies. Box: ${fu} from each economy's lowest-cost cell across 20 weather years (2025 central costs; IQR, whiskers 1st–99th percentiles, white line median)${fu==="hydrogen"?"":", plus US$1.06/MMBtu delivery"}. `+(paper?`Rows in the paper's order: net importers by import share, then the bill (‰ of GDP), then the cost ratio; net exporters of the chain below the dashed line. Gray band, normal prices; orange line and diamond, disruption prices (1st–99th percentiles, median); bill at normal prices. The 30 core economies reproduce Fig. 3${pk==="ft"?" (SI diesel and jet version)":""}; the others use the same event windows and rules, with prices constructed as the paper does for missing prices (${pk==="amm"?"urea-implied price at the region's own/urea ratio":"the regional import-market price"}); names in gray. Pale red bars: fallback import shares.`:`Fossil comparator: ${SRC[pk]}, the price the model sets ${fu} against, in normal and disruption months (${pk==="eth"?"oil":"gas"} events, Fig. 3's windows and rules; 2025 US$). Import share of the ${CHAIN[fu]}, as the security value uses it. Rows by import share, then bill, then cost ratio, as Fig. 3; net exporters below the dashed line. Names in black: national price data; gray: regional estimate.`));
+    fn.text(`${names.length} economies. Box: ${fuN} from each economy's lowest-cost cell across 20 weather years (2025 central costs; IQR, whiskers 10th–90th percentiles, white line median)${fu==="hydrogen"?"":", plus US$1.06/MMBtu delivery"}. `+(paper?`Rows in the paper's order: net importers by import share, then the bill (‰ of GDP), then the cost ratio; net exporters of the chain below the dashed line. Gray band, normal prices; orange line and diamond, disruption prices (10th–90th percentiles, median); bill at normal prices. The 30 core economies reproduce Fig. 3${pk==="ft"?" (SI diesel and jet version)":""}; the others use the same event windows and rules, with prices constructed as the paper does for missing prices (${pk==="amm"?"urea-implied price at the region's own/urea ratio":"the regional import-market price"}); names in gray. Pale red bars: fallback import shares.`:`Fossil comparator: ${SRC[pk]}, the price the model sets ${fu} against, in normal and disruption months (${pk==="eth"?"oil":"gas"} events, Fig. 3's windows and rules; 2025 US$). Import share of the ${CHAIN[fu]}, as the security value uses it. Rows by import share, then bill, then cost ratio, as Fig. 3; net exporters below the dashed line. Names in black: national price data; gray: regional estimate.`));
   }
   if(S.tab==="f4a"){
     const y0=S.year;
@@ -534,7 +537,7 @@ function drawFig(){
       s.append("circle").attr("cx",x(r.gross)).attr("cy",Y).attr("r",3.5).attr("fill","var(--panel)").attr("stroke","var(--c4a)").attr("stroke-width",1.2);
       if(r.just)s.append("circle").attr("cx",x(r.net)).attr("cy",Y).attr("r",6).attr("fill","none").attr("stroke","var(--sec)").attr("stroke-width",1.4);
       s.append("circle").attr("cx",x(r.net)).attr("cy",Y).attr("r",3.5).attr("fill","var(--c4a)")
-       .on("mousemove",e=>showTip(e,`<b>${n}</b> (${y0})<br>Cost premium ${fmt(r.gross,0)} · margin ${fmt(r.margin,0)} · net ${fmt(r.net,0)} $/t<br>Carbon price ${fmt(r.pco2,0)} $/t · CO₂ ${fmt(r.co2,1)} Mt/yr<br>Chain import share ${pct(r.E)} · imports replaced ${r.imp?pct(r.ret):"–"}`)).on("mouseleave",hideTip);
+       .on("mousemove",e=>showTip(e,`<b>${CN(n)}</b> (${y0})<br>Cost premium ${fmt(r.gross,0)} · margin ${fmt(r.margin,0)} · net ${fmt(r.net,0)} $/t<br>Carbon price ${fmt(r.pco2,0)} $/t · CO₂ ${fmt(r.co2,1)} Mt/yr<br>Chain import share ${pct(r.E)} · imports replaced ${r.imp?pct(r.ret):"–"}`)).on("mouseleave",hideTip);
       s.append("line").attr("x1",x(r.pco2)).attr("x2",x(r.pco2)).attr("y1",Y-5).attr("y2",Y+5).attr("stroke","var(--magenta)").attr("stroke-width",2);
       s.append("text").attr("x",W0-120).attr("y",Y+4).attr("font-size",11).attr("font-family","var(--f-mono)").html(`<tspan fill="#1b7a4b">${r.imp?fmt(r.margin,0):"–"}</tspan> / ${fmt(r.net,0)}`);});
     fn.text(`${names.length} economies. Rows in the paper's order, the same for every year: net importers grouped by the first cost year (2030, 2040, 2050) in which the portfolio is justified, then by the 2030 net premium; net exporters below the dashed line. Open circle: cost premium; green arrow: security margin; filled circle: net premium (green ring = justified); magenta: carbon price in force; shaded: net premium below zero. Same calculation as Fig. 4a, run for every economy.`);
@@ -554,13 +557,13 @@ function drawFig(){
     const col=(gname,reg)=>/without/.test(gname)?(REGION_COL[reg]||"var(--gray)"):/with/.test(gname)?`url(#rh${RI.indexOf(reg)})`:"var(--dear)";
     const lg=s.append("g").attr("transform",`translate(${w-m.r-200},${h-m.b-150})`);
     lg.append("rect").attr("x",-6).attr("y",-6).attr("width",196).attr("height",RI.length*15+42).attr("fill","#ffffff").attr("stroke","var(--rule)");
-    RI.forEach((r,i)=>{lg.append("rect").attr("y",i*15).attr("width",10).attr("height",10).attr("fill",REGION_COL[r]);lg.append("text").attr("x",15).attr("y",i*15+9).attr("font-size",11).text(r)});
+    RI.forEach((r,i)=>{lg.append("rect").attr("y",i*15).attr("width",10).attr("height",10).attr("fill",REGION_COL[r]);lg.append("text").attr("x",15).attr("y",i*15+9).attr("font-size",11).text(r==="China"?"China (Mainland)":r)});
     lg.append("rect").attr("y",RI.length*15+4).attr("width",10).attr("height",10).attr("fill","url(#rh2)").attr("stroke","#44AA99").attr("stroke-width",.5);lg.append("text").attr("x",15).attr("y",RI.length*15+13).attr("font-size",11).text("hatched: with security value");
     lg.append("rect").attr("y",RI.length*15+19).attr("width",10).attr("height",10).attr("fill","var(--dear)");lg.append("text").attr("x",15).attr("y",RI.length*15+28).attr("font-size",11).text("remains costlier");
     s.append("g").selectAll("rect").data(bl.filter(b=>b[1]>0)).join("rect")
      .attr("x",b=>x(b[0])).attr("width",b=>Math.max(.6,x(b[0]+b[1])-x(b[0]))).attr("y",b=>Math.min(y(b[2]),y(0))).attr("height",b=>Math.abs(y(b[2])-y(0)))
      .attr("fill",b=>col(b[4],b[5])).attr("opacity",b=>S.sel&&b[6]!==S.sel?.35:1).attr("stroke",b=>b[6]===S.sel?"var(--ink)":"none")
-     .on("mousemove",(e,b)=>showTip(e,`<b>${b[6]}</b> · ${b[7]} (${b[8]})<br>${b[4]}<br>Net premium ${fmt(b[2],0)} $/t · cost premium ${fmt(b[3],0)} $/t<br>${fmt(b[1]*1000,1)} MtCO₂/yr`)).on("mouseleave",hideTip).on("click",(e,b)=>select(b[6]));
+     .on("mousemove",(e,b)=>showTip(e,`<b>${CN(b[6])}</b> · ${NAME(b[7])} (${b[8]})<br>${b[4]}<br>Net premium ${fmt(b[2],0)} $/t · cost premium ${fmt(b[3],0)} $/t<br>${fmt(b[1]*1000,1)} MtCO₂/yr`)).on("mouseleave",hideTip).on("click",(e,b)=>select(b[6]));
     [[M.tot.co2_displaced_cost_only_gtco2,"4 2","without security"],[M.tot.co2_displaced_with_security_gtco2,"7 3","with security"]].forEach(([v,da,t])=>{
       s.append("line").attr("x1",x(v)).attr("x2",x(v)).attr("y1",m.t).attr("y2",h-m.b).attr("stroke","var(--ink)").attr("stroke-dasharray",da);
       s.append("text").attr("x",x(v)+4).attr("y",m.t+24+(t==="with security"?14:0)).attr("font-size",11).text(`${fmt(v,2)} Gt ${t}`)});
@@ -581,7 +584,7 @@ function drawFig(){
       s.append("line").attr("x1",x(r.land)).attr("x2",x(r.land)).attr("y1",Y-1).attr("y2",Y+bh+1).attr("stroke","#1a1a1a").attr("stroke-width",2);
       if(r.imp>0){const xi=x(Math.min(r.imp,100));s.append("path").attr("d",`M${xi-3},${Y-1}L${xi+3},${Y-1}L${xi},${Y+bh*.5}Z M${xi-.6},${Y+bh*.5}h1.2v${bh*.5+1}h-1.2z`).attr("fill","#CB181D")}
       s.append("rect").attr("x",left).attr("width",W0-left-150).attr("y",Y).attr("height",bh).attr("fill","transparent")
-       .on("mousemove",e=>showTip(e,`<b>${n}</b> (${y0})<br>Made at home: ${fmt(r.s1,0)}% (1% GDP), ${fmt(r.s2,0)}% (2%), ${fmt(r.s3,0)}% (3%)<br>Land ceiling ${fmt(r.land,0)}% · net import share ${fmt(r.imp,0)}%${r.r1!=null?`<br>Net imports replaced ${fmt(r.r1,0)}% (1%) / ${fmt(r.r3,0)}% (3%)`:""}`)).on("mouseleave",hideTip);
+       .on("mousemove",e=>showTip(e,`<b>${CN(n)}</b> (${y0})<br>Made at home: ${fmt(r.s1,0)}% (1% GDP), ${fmt(r.s2,0)}% (2%), ${fmt(r.s3,0)}% (3%)<br>Land ceiling ${fmt(r.land,0)}% · net import share ${fmt(r.imp,0)}%${r.r1!=null?`<br>Net imports replaced ${fmt(r.r1,0)}% (1%) / ${fmt(r.r3,0)}% (3%)`:""}`)).on("mouseleave",hideTip);
       s.append("text").attr("x",W0-140).attr("y",Y+bh-2).attr("font-size",11).style("fill",css(CATCOL[r.grp]||"--muted")).text(r.grp);
       const nx=names[names.indexOf(n)+1];if(nx&&C[nx].f5[y0].grp!==r.grp)s.append("line").attr("x1",left).attr("x2",W0).attr("y1",Y+bh+1.5).attr("y2",Y+bh+1.5).attr("stroke","#1a1a1a").attr("stroke-opacity",.5).attr("stroke-dasharray",C[nx].f5[y0].grp==="net exporter"?"4 3":null)});
     fn.text(`${names.length} economies in the paper's order: imports covered, budget binds, land binds, net exporters, each by the share made at home at 1% of GDP. Dark to light blue: 1%, 2% and 3% of GDP a year for the cost premium; hatched: unused land up to the land ceiling (black cap); red marker: imported share of addressable demand.`);
@@ -596,9 +599,9 @@ function drawFig(){
     const tb=fig.append("table"),th=tb.append("thead").append("tr"),body=tb.append("tbody");
     th.selectAll("th").data(cols).join("th").text(c=>c[1]).on("click",(e,c)=>{asc=sortK===c[0]?!asc:c[0]==="name";sortK=c[0];render()});
     function rows(){const q=(inp.property("value")||"").toLowerCase();const c=cols.find(c=>c[0]===sortK);
-      return Object.values(C).filter(d=>d.name.toLowerCase().includes(q)&&(d.dem_tot!=null||d.E_amm!=null)).sort((a,b)=>{const va=c[2](a),vb=c[2](b);if(va==null)return 1;if(vb==null)return-1;return (va<vb?-1:va>vb?1:0)*(asc?1:-1)})}
+      return Object.values(C).filter(d=>CN(d.name).toLowerCase().includes(q)&&(d.dem_tot!=null||d.E_amm!=null)).sort((a,b)=>{const va=c[2](a),vb=c[2](b);if(va==null)return 1;if(vb==null)return-1;return (va<vb?-1:va>vb?1:0)*(asc?1:-1)})}
     function render(){body.selectAll("tr").data(rows(),d=>d.name).join("tr").attr("class",d=>d.name===S.sel?"sel":null).style("cursor","pointer").on("click",(e,d)=>select(d.name))
-      .selectAll("td").data(d=>cols.map(c=>[c,c[2](d)])).join("td").text(([c,v])=>c[0]==="name"||c[0]==="fj"?(v??"–"):fmt(v,c[3]))}
+      .selectAll("td").data(d=>cols.map(c=>[c,c[2](d)])).join("td").text(([c,v])=>c[0]==="name"?CN(v):c[0]==="fj"?(v??"–"):fmt(v,c[3]))}
     inp.on("input",render);
     btn.on("click",()=>{const lines=[cols.map(c=>c[1]).join(",")].concat(rows().map(d=>cols.map(c=>{const v=c[2](d);return v==null?"":String(v).includes(",")?`"${v}"`:v}).join(",")));
       const t=lines.join("\n");navigator.clipboard.writeText(t).then(()=>btn.text("Copied")).catch(()=>{const ta=fig.append("textarea").style("width","100%").style("height","120px").property("value",t);ta.node().select();btn.text("Select and copy the text below")})});
@@ -612,13 +615,13 @@ const lg=d3.select("#layers").selectAll("div").data(LAYERS).join("div").attr("cl
 lg.append("b").text(d=>d.g);
 lg.selectAll("label").data(d=>d.items).join("label").html(d=>`<input type="radio" name="layer" id="ly-${d.id}" value="${d.id}"${d.id===S.layer?" checked":""}><span>${d.name}</span>`)
  .on("change",(e,d)=>{S.layer=d.id;drawMap()});
-d3.select("#fuel").selectAll("option").data(FU).join("option").attr("value",d=>d).text(d=>d).property("selected",d=>d===S.fuel);
+d3.select("#fuel").selectAll("option").data(FU).join("option").attr("value",d=>d).text(d=>NAME(d)).property("selected",d=>d===S.fuel);
 d3.select("#fuel").on("change",e=>{S.fuel=e.target.value;drawMap()});
 d3.select("#cyears").selectAll("button").data(["2025",...CYEARS]).join("button").text(d=>d).attr("aria-pressed",d=>d===S.cyear)
  .on("click",(e,d)=>{S.cyear=d;d3.selectAll("#cyears button").attr("aria-pressed",x=>x===d);drawMap()});
 d3.select("#years").selectAll("button").data(YEARS).join("button").text(d=>d).attr("aria-pressed",d=>d===S.year).on("click",(e,d)=>setYear(d));
-d3.select("#names").selectAll("option").data(Object.keys(C).sort()).join("option").attr("value",d=>d);
-d3.select("#find").on("change",e=>{const v=e.target.value;if(C[v])select(v)});
+d3.select("#names").selectAll("option").data(Object.keys(C).sort()).join("option").attr("value",d=>CN(d));
+d3.select("#find").on("change",e=>{const v=e.target.value,k=Object.keys(C).find(c=>CN(c)===v);if(k)select(k)});
 drawMap();select("Japan");
 addEventListener("resize",()=>drawFig());
 </script>

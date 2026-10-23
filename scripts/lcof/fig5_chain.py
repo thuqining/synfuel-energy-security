@@ -151,10 +151,16 @@ _CAP = 300.0                              # panel b shows the dearer demand up t
 # 2026-10-05: right of the dashed line (cost above zero) the x axis is
 # compressed by these factors, so the demand below zero gets about 55% of the width
 _SQZ = {2025: 5.0, 2050: 2.0}
+# 2026-10-22 (user): a panel may also compress the security-only group (between the dotted and the dashed
+# line) so that a narrow cost-only group (2030) is wide enough for its name; 1 = not compressed
+_SQZ2 = {}
+# 2026-10-22 (co-author): one x axis for every build year, (x1, k): true scale up to x1 Gt and compressed k times
+# beyond it, the same in each panel, so the dotted and dashed lines can be compared across years; None = per panel
+_COMMON = None
 _XT = {2025: [0, 0.05, 0.5, 1.0, 1.5], 2050: [0, 0.5, 1.0, 2, 3, 4, 5]}   # 2026-10-07: ticks for the IEA-cost curves
 
 
-def _curve_to_zero(ax, p, yr, rcol, tj, xmax=None, ylo=None, inside=False):
+def _curve_to_zero(ax, p, yr, rcol, tj, xmax=None, ylo=None, inside=False, totals_low=False):
     """Abatement-cost curve of all addressable demand, cut at zero cost, in two
     groups (author, 2026-10-04): first the tranches that are cheaper than the
     fossil fuel on cost alone (premium at or below zero), then those that are
@@ -176,9 +182,9 @@ def _curve_to_zero(ax, p, yr, rcol, tj, xmax=None, ylo=None, inside=False):
     cty = p.country.to_numpy()
     sec = pd.concat([
         pd.DataFrame({"wd": imp * ef / 1e9, "c": (pi - w) / ef, "prem": pi / ef, "region": reg,
-                      "country": cty}),
+                      "country": cty, "fuel": p.fuel.to_numpy(), "part": "imp"}),
         pd.DataFrame({"wd": (p.dem_gj.to_numpy() - imp) * ef / 1e9, "c": pi_r / ef, "prem": pi_r / ef,
-                      "region": reg, "country": cty})])
+                      "region": reg, "country": cty, "fuel": p.fuel.to_numpy(), "part": "rest"})])
     sec = sec[sec.wd > 0].copy()
     sec["sec_only"] = (sec.prem > 0) & (sec.c <= 0)
     # third group (author, 2026-10-04: "negative and positive both in the main figure"):
@@ -196,6 +202,8 @@ def _curve_to_zero(ax, p, yr, rcol, tj, xmax=None, ylo=None, inside=False):
     # 2026-10-08: a figure with several build years passes one shared range
     ylo = _YLO[yr] if ylo is None else float(ylo)
     yhi = _CAP
+    if inside and (totals_low or _COMMON is not None):   # 2026-10-22: room above zero for the names and totals
+        yhi = 4.0 / 3.0 * _CAP
     xmax = float(bars.wd.sum()) if xmax is None else float(xmax)
     for r in bars.itertuples():
         ax.add_patch(Rectangle((r.x0, 0), r.wd, max(r.c, ylo), fc=_DEAR if r.dear else rcol[r.region],
@@ -215,7 +223,7 @@ def _curve_to_zero(ax, p, yr, rcol, tj, xmax=None, ylo=None, inside=False):
         # otherwise every name sits in the empty area right of the dashed line, with leaders
         if tb.wd.sum() >= 0.12 * xmax:
             ax.text(x_mid, 0.45 * float(tb.c.max()), f"{top}, {', '.join(fuels)}", ha="center", va="center",
-                    fontsize=6, color="white", fontweight="bold", zorder=7)
+                    fontsize=7, color="white", fontweight="bold", zorder=7)
         else:
             lines.append(f"{top}, {', '.join(fuels)}: {tb.wd.sum():.2f} Gt")
             targets.append((x_mid, 0.5 * float(tb.c.max())))
@@ -246,7 +254,7 @@ def _curve_to_zero(ax, p, yr, rcol, tj, xmax=None, ylo=None, inside=False):
         else:
             tx, ty = zs, 0.55 * ylo
         ax.annotate(chr(10).join(lines), (tx, ty), xytext=(4 if inside else 5, 0), textcoords="offset points",
-                    ha="left", va="center", fontsize=5.5, color=_INK, linespacing=1.1, zorder=7,
+                    ha="left", va="center", fontsize=7, color=_INK, linespacing=1.1, zorder=7,
                     bbox=dict(fc="white", ec="none", pad=0.5) if inside else None)
         # thin leaders from each block to the note
         for x, y in targets:
@@ -255,21 +263,47 @@ def _curve_to_zero(ax, p, yr, rcol, tj, xmax=None, ylo=None, inside=False):
                         zorder=7)
     # piecewise-linear x axis: true scale up to the dashed line, compressed after it
     k = _SQZ[yr]
-    ax.set_xscale("function", functions=(
-        lambda x: np.where(np.asarray(x) <= zs, x, zs + (np.asarray(x) - zs) / k),
-        lambda u: np.where(np.asarray(u) <= zs, u, zs + (np.asarray(u) - zs) * k)))
+    k2 = _SQZ2.get(yr, 1.0)
+    us = zc + (zs - zc) / k2                     # the dashed line on the transformed axis
+
+    def _fwd(x):
+        x = np.asarray(x, dtype=float)
+        return np.where(x <= zc, x, np.where(x <= zs, zc + (x - zc) / k2, us + (x - zs) / k))
+
+    def _inv(u):
+        u = np.asarray(u, dtype=float)
+        return np.where(u <= zc, u, np.where(u <= us, zc + (u - zc) * k2, zs + (u - us) * k))
+    if _COMMON is not None:
+        # own names: the closures bind late, and x1 is reused by a loop further down
+        cx1, ck = _COMMON
+        k, k2 = ck, 1.0
+        assert zs <= cx1, (yr, zs, cx1)          # the paying demand stays on the true scale
+
+        def _fwd(x):
+            x = np.asarray(x, dtype=float)
+            return np.where(x <= cx1, x, cx1 + (x - cx1) / ck)
+
+        def _inv(u):
+            u = np.asarray(u, dtype=float)
+            return np.where(u <= cx1, u, cx1 + (u - cx1) * ck)
+    ax.set_xscale("function", functions=(_fwd, _inv))
     ax.axhline(0, color="#555555", lw=0.6, zorder=4)
     if inside:
         # 2026-10-13: the lines stop at mid height and carry the totals at their tops
         y_top = 0.55 * yhi                # below the two-line group names
+        if totals_low:                    # short panels: totals sit low, so the lines stop low too
+            y_top = 0.30 * yhi
+        elif _COMMON is not None:         # 2026-10-22: under the two one-line names (fig_macc)
+            y_top = 0.42 * yhi
         ax.plot([zc, zc], [ylo, y_top], color=_INK, lw=0.7, ls=(0, (1, 1.5)), zorder=5)
         ax.plot([zs, zs], [ylo, y_top], color=_GREEN, lw=0.9, ls=(0, (3, 2)), zorder=5)
     else:
         ax.axvline(zc, color=_INK, lw=0.7, ls=(0, (1, 1.5)), zorder=5)
         ax.axvline(zs, color=_GREEN, lw=0.9, ls=(0, (3, 2)), zorder=5)
     # 2026-10-05: group names written on the panel above each group
-    yt = 0.97 * _CAP
-    lab = dict(fontsize=6, va="top", linespacing=1.05, zorder=6)
+    yt = 0.97 * yhi
+    # 2026-10-22: 6 pt group names in the short panels of Fig. 4c (Nature 5-7 pt), 7 pt elsewhere
+    lab = dict(fontsize=6 if totals_low else 7, va="top", linespacing=1.05, zorder=6)
     # 2026-10-07: no name for an empty group (2025: nothing pays off on cost alone), and a
     # name that would touch its neighbour moves down a line
     t_cost = (ax.text(zc / 2, yt, "Pays off without\nsecurity value" if inside else "Pays off on\ncost alone",
@@ -286,12 +320,26 @@ def _curve_to_zero(ax, p, yr, rcol, tj, xmax=None, ylo=None, inside=False):
         t_sec.set_ha("left")
         t_sec.set_x(zc)
         t_sec.set_text(" Pays off with\n security value")
-    if inside:
+    stacked = inside and _COMMON is not None and t_cost is not None
+    if stacked:
+        # 2026-10-22 (user, common axis, fig_macc): one layout in every year. The numbers stand above zero (the
+        # totals at the tops of the lines); the three group names sit in one row along the bottom of the panel,
+        # two lines each, each starting just right of the line that opens its group (0, dotted, dashed)
+        t_cost.remove()
+        t_sec.remove()
+        nm = dict(xycoords="data", xytext=(5.0, 2.0), textcoords="offset points", ha="left", va="bottom",
+                  fontsize=7, linespacing=1.05, zorder=6)
+        t_cost = ax.annotate("Pays off without" + chr(10) + "security value", (0.0, ylo), color=_INK,
+                             **{**nm, "xytext": (3.0, 2.0)})   # 2026-10-22: from the axis, no sliver to clear
+        t_sec = ax.annotate("Pays off with" + chr(10) + "security value", (zc, ylo), color=_GREEN, **nm)
+        t_dear = ax.annotate("Costlier with" + chr(10) + "security value", (zs, ylo), color="#6A7480", **nm)
+    elif inside:
         # 2026-10-08: right-aligned at the panel's right edge so it never reaches the next panel
         # 2026-10-14: left-aligned just right of the dashed line, like the other group names
         t_dear = ax.annotate("Costlier with" + chr(10) + "security value",
                              (zs, -0.04 * (yhi - ylo)), xycoords="data", xytext=(3, 0),
-                             textcoords="offset points", ha="left", va="top", fontsize=5.2, linespacing=1.05,
+                             textcoords="offset points", ha="left", va="top", fontsize=6 if totals_low else 7,
+                             linespacing=1.05,
                              color="#6A7480", zorder=6)
     else:
         t_dear = ax.annotate("Costlier even\nwith security", (zs, yt), xytext=(4, 0), textcoords="offset points",
@@ -301,24 +349,41 @@ def _curve_to_zero(ax, p, yr, rcol, tj, xmax=None, ylo=None, inside=False):
     if inside:
         # 2026-10-08: above zero, each total right-aligned inside its own group (the cost-only total
         # left of the dotted line, the total with security left of the dashed line), two lines
-        ax.annotate(f"{zc:.2f} Gt", (zc, y_top), xytext=(0, 1.5), textcoords="offset points",
-                    ha="center", va="bottom", fontsize=5.8, color=_INK, zorder=8,
+        g_c = ax.annotate(f"{zc:.2f} Gt", (zc, y_top), xytext=(0, 1.5), textcoords="offset points",
+                    ha="center", va="bottom", fontsize=7, color=_INK, zorder=8,
                     bbox=dict(fc="white", ec="none", pad=0.3))
-        ax.annotate(f"{zs:.2f} Gt", (zs, y_top), xytext=(0, 1.5), textcoords="offset points",
-                    ha="center", va="bottom", fontsize=5.8, color=_GREEN, fontweight="bold", zorder=8,
-                    bbox=dict(fc="white", ec="none", pad=0.3))
+        g_s = ax.annotate(f"{zs:.2f} Gt", (zs, y_top), xytext=(0, 1.5), textcoords="offset points",
+                          ha="center", va="bottom", fontsize=7, color=_GREEN, fontweight="bold", zorder=8,
+                          bbox=dict(fc="white", ec="none", pad=0.3))
+        if totals_low:
+            # 2026-10-21: short panels (Fig. 4b under the 139-economy Fig. 4a): each total sits just above
+            # zero, right-aligned against its own line, so the group names keep the top of the panel
+            for g, x in ((g_c, zc), (g_s, zs)):
+                g.xy = (x, 0.03 * yhi)
+                g.set_ha("right")
+                g.set_position((-2.0, 0.0))
     else:
         ax.annotate(f"{zs:.2f} Gt with security", (zs, yl), xytext=(3, 0), textcoords="offset points",
-                    ha="left", va="top", fontsize=6, color=_GREEN, fontweight="bold")
+                    ha="left", va="top", fontsize=7, color=_GREEN, fontweight="bold")
         ax.annotate(f"{zc:.2f} Gt without security", (zs, yl - dy), xytext=(3, 0), textcoords="offset points",
-                    ha="left", va="top", fontsize=6, color=_INK)
+                    ha="left", va="top", fontsize=7, color=_INK)
     # mark where the scale changes: a break on the x axis and a short note
-    ax.annotate("//", (zs, ylo), xytext=(0, -1), textcoords="offset points", ha="center", va="center",
+    xbrk = zs if _COMMON is None else _COMMON[0]       # the one break of a common axis sits at x1
+    ax.annotate("//", (xbrk, ylo), xytext=(0, -1), textcoords="offset points", ha="center", va="center",
                 fontsize=7, color="#555555", annotation_clip=False, zorder=6,
                 bbox=dict(fc="white", ec="none", pad=0.2))
-    ax.annotate(f"{k:.0f}\u00d7" if inside else f"axis compressed {k:.0f}\u00d7", (zs, ylo),
-                xytext=(4, 4), textcoords="offset points",
-                ha="left", va="bottom", fontsize=5.5, color="#555555")
+    if k2 > 1.0:                     # the second break, at the dotted line
+        ax.annotate("//", (zc, ylo), xytext=(0, -1), textcoords="offset points", ha="center", va="center",
+                    fontsize=7, color="#555555", annotation_clip=False, zorder=6,
+                    bbox=dict(fc="white", ec="none", pad=0.2))
+        ax.annotate(f"{k2:.3g}\u00d7", (zc, ylo), xytext=(4, 4), textcoords="offset points",
+                    ha="left", va="bottom", fontsize=7, color="#555555")
+    ax.annotate(f"{k:.3g}\u00d7" if inside else f"axis compressed {k:.0f}\u00d7",
+                (xbrk, yhi) if stacked else (xbrk, ylo),          # stacked: at the top, clear of the bottom names
+                xytext=(3, -2) if stacked else (4, 4), textcoords="offset points",
+                ha="left", va="top" if stacked else "bottom", fontsize=7, color="#555555")
+    if stacked:                      # the break also drawn as a thin rule through the panel
+        ax.plot([xbrk, xbrk], [0.0, yhi], color="#BBBBBB", lw=0.4, ls=(0, (1, 2)), zorder=1)
     # the build year sits in the empty lower right (below zero, right of the dashed line)
     if not inside:                   # Fig. 4 by build year names the year in the column title
         ax.text(0.98, 0.04, str(yr), transform=ax.transAxes, ha="right", va="bottom", fontsize=7,
@@ -327,7 +392,7 @@ def _curve_to_zero(ax, p, yr, rcol, tj, xmax=None, ylo=None, inside=False):
     ax.set_xticks(_XT[yr])
     ax.xaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{v:g}"))
     ax.set_ylim(ylo, yhi)
-    ax.tick_params(axis="both", labelsize=6.5)
+    ax.tick_params(axis="both", labelsize=7)
     # overlap test on the finished axes (scale and limits set)
     ax.figure.canvas.draw()
     rr = ax.figure.canvas.get_renderer()
@@ -375,6 +440,29 @@ def _curve_to_zero(ax, p, yr, rcol, tj, xmax=None, ylo=None, inside=False):
     bb = lambda o: o.get_window_extent(rr).expanded(1.1, 1.0)
     if not inside and bb(t_sec).overlaps(bb(t_dear)):
         t_sec.set_y(t_sec.get_position()[1] - 0.17 * _CAP)
+    # 2026-10-21: a narrow cost-only group (2030, value of lost fuel with biomass) — its name ran into
+    # "Pays off with security value"; then four lines, flush left in the group, above the total
+    if inside and totals_low and t_cost is not None and bb(t_cost).overlaps(bb(t_sec)):
+        # short panel: 2026-10-22 (user: every label wholly above or below zero, at most two lines) the
+        # cost-only name keeps the top of its group in the shorter wording of the build-year figure
+        if bb(t_cost).overlaps(bb(t_sec)):       # flush right against the dotted line
+            t_cost.set_ha("right")
+            t_cost.set_x(ax.transData.inverted().transform((px(zc) - 2.0, 0))[0])
+            ax.figure.canvas.draw()
+        if bb(t_cost).overlaps(bb(t_sec)) or bb(t_cost).overlaps(bb(g_c)):
+            print(f"  WARNING b {yr}: cost-only group name still touches a neighbour")
+    if inside and t_cost is not None and bb(t_cost).overlaps(bb(t_sec)) and not totals_low and not stacked:
+        t_cost.set_text("Pays off" + chr(10) + "without" + chr(10) + "security" + chr(10) + "value")
+        t_cost.set_ha("left")
+        t_cost.set_x(ax.transData.inverted().transform((px(0.0) + 1.5, 0))[0])
+        ax.figure.canvas.draw()
+        if bb(t_cost).overlaps(bb(g_c)):       # the cost-only total then sits left of its line, just above zero
+            g_c.xy = (zc, 0.03 * yhi)
+            g_c.set_ha("right")
+            g_c.set_position((-2.0, 0.0))
+            ax.figure.canvas.draw()
+        if bb(t_cost).overlaps(bb(g_c)) or bb(t_cost).overlaps(bb(t_sec)) or bb(g_c).overlaps(bb(t_sec)):
+            print(f"  WARNING b {yr}: cost-only group name still touches a neighbour")
     ax.yaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{v:,.0f}".replace("-", "−")))
     ax.set_ylabel("Abatement cost (US\\$ tCO$_2^{-1}$)", fontsize=7)
     for sp in ("top", "right"):

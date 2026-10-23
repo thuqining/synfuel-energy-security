@@ -32,7 +32,8 @@ BLUE, ORANGE, RED, GREEN, PURPLE, SKY = ("#0072B2", "#E69F00", "#D55E00",
                                          "#009E73", "#CC79A7", "#56B4E9")
 GREY = "#6A7683"
 INK = "#3A4550"
-FS = 7.4                        # 2026-10-08: Nature 5-7 pt at print size (figure is drawn 188 mm, set at 180 mm)
+FS = 7.0                        # 2026-10-22: main-text type scale, 7 pt titles and 6 pt text at 183 mm
+FS6 = 6.0                       # where 7 pt does not fit (box sublabels, circles, axis notes)
 
 
 # The axes is drawn at 1 data unit = 1 mm, so a width in points is
@@ -78,7 +79,7 @@ def _box(ax, x, y, w, h, color, title, sub=None, fc="white"):
             fontweight="bold", zorder=5)
     if sub:
         ax.text(x + w / 2, y + h / 2 - 2.5, sub, ha="center",
-                va="center", fontsize=FS - 1, color=INK, zorder=5)
+                va="center", fontsize=FS6, color=INK, zorder=5)
 
 
 def _turbine(ax, x, y, s=1.0, color=BLUE):
@@ -109,10 +110,10 @@ def _tank(ax, x, y, w=9.5, h=10.5, color=BLUE):
                                 boxstyle="round,pad=0.4,rounding_size=2.4",
                                 fc="white", ec=color, lw=1.3, zorder=3))
     ax.text(x + w / 2, y + h / 2 + 1.7, "H$_2$", ha="center",
-            va="center", fontsize=FS + 1, color=color,
+            va="center", fontsize=FS, color=color,
             fontweight="bold", zorder=5)
     ax.text(x + w / 2, y + h / 2 - 2.3, "store", ha="center",
-            va="center", fontsize=FS - 1, color=INK, zorder=5)
+            va="center", fontsize=FS6, color=INK, zorder=5)
 
 
 def _tanker(ax, x, y, color=RED):
@@ -163,7 +164,7 @@ def _vessel(ax, x, y, w=10.0, h=6.4, color=BLUE):
                                 boxstyle="round,pad=0.3,rounding_size=3.0",
                                 fc="white", ec=color, lw=1.3, zorder=3))
     ax.text(x + w / 2, y + h / 2, "H$_2$", ha="center", va="center",
-            fontsize=FS + 1, color=color, fontweight="bold", zorder=5)
+            fontsize=FS, color=color, fontweight="bold", zorder=5)
 
 
 def _bolt(ax, x, y, s=1.0, color=ORANGE, halo="white"):
@@ -269,7 +270,7 @@ def _industry(ax, x, y, w, h, kind, color, label, dots=()):
                             fc=cd, ec="white", lw=0.5, zorder=6))
 
 
-def _chip(ax, x, y, txt, fc, ec, tc, fs=8):
+def _chip(ax, x, y, txt, fc, ec, tc, fs=7):
     ax.add_patch(FancyBboxPatch((x, y), 1.9 * len(txt) + 2.4, 4.6,
                                 boxstyle="round,pad=0.4,rounding_size=1.2",
                                 fc=fc, ec=ec, lw=0.9, zorder=6))
@@ -491,7 +492,7 @@ def main():
                                     boxstyle="round,pad=0.0,"
                                     "rounding_size=2.2",
                                     fc=tint, ec="none", zorder=0))
-        ax.text((x0 + x1) / 2, HY, lab, fontsize=FS - 1, color=GREY,
+        ax.text((x0 + x1) / 2, HY, lab, fontsize=FS6, color=GREY,
                 ha="center", va="center", zorder=6, fontweight="bold")
 
     # ---- stage 1: wind and solar drop onto one node, the battery hangs
@@ -506,7 +507,7 @@ def main():
     ax.plot([16.0, 16.0], [31.3, 61.5], color=BLUE, lw=1.3, zorder=3,
             solid_capstyle="round")
     _battery(ax, 12.5, 27.5)
-    ax.text(21.8, 29.4, "battery", fontsize=FS - 1, color=INK,
+    ax.text(21.8, 29.4, "battery", fontsize=FS6, color=INK,
             va="center", ha="left")
     # the electrolyser sits 1.5 mm left of v19, so the arrow on to the
     # store has a real shaft (it was a bare head between the two)
@@ -519,7 +520,7 @@ def main():
     _elz(ax, EX, EY, w=EW, h=EH)
     ax.text(EX + 6.0, 43.8, "electrolysis", fontsize=FS, ha="center",
             color=BLUE, fontweight="bold")
-    ax.text(EX + 7.0, 71.6, "H$_2$O · US\\$0.6–1.9/t", fontsize=FS - 1.8,
+    ax.text(EX + 7.0, 71.6, "H$_2$O · US\\$0.6–1.9/t", fontsize=FS6,
             color=INK, ha="center", zorder=6)
     _arrow(ax, (EX + 7.0, 69.9),
            (EX + 7.0, _rim(EY + EH + 0.35, 1.2, +1) - TOUCH),
@@ -530,7 +531,7 @@ def main():
     _vessel(ax, 45.0, CY - 4.0, w=9.5, h=8.0)
     # "storage", not "store": it is the pressurized H2 tank the LP sizes
     # to carry the electrolyser's output through calm spells
-    ax.text(49.75, 43.8, "storage", fontsize=FS - 1, ha="center",
+    ax.text(49.75, 43.8, "storage", fontsize=FS6, ha="center",
             color=INK)
 
     # H2 bus: one vertical manifold, straight branches into each route
@@ -545,7 +546,7 @@ def main():
     # nitrogen is never bought — its cost is the on-site air-separation
     # unit's own power, which the caption states; the figure says only
     # where it comes from
-    ax.text(CIRX + 6.5, 90.0, "N$_2$ from air", fontsize=FS - 1.8,
+    ax.text(CIRX + 6.5, 90.0, "N$_2$ from air", fontsize=FS6,
             color=INK, ha="center", zorder=6)
     # the feed circles are r 2.5, outlined 0.8 pt; a tip ends on that
     # outline (the circle, drawn above, covers the last TOUCH of it)
@@ -560,7 +561,7 @@ def main():
     ax.add_patch(FancyBboxPatch((BXL, 13.8), BXW, 8.0,
                                 boxstyle="round,pad=0.45,rounding_size=1.0",
                                 fc="white", ec=GREY, lw=1.0, zorder=3))
-    ax.text(BXL + BXW / 2, 19.7, "CO$_2$ feed", fontsize=FS - 1.5,
+    ax.text(BXL + BXW / 2, 19.7, "CO$_2$ feed", fontsize=FS6,
             color=DARK, fontweight="bold", ha="center", va="center",
             zorder=5)
     # the ranges are read from the carbon layer the cost bars use, so the
@@ -569,7 +570,7 @@ def main():
     # 2026-10-08: with "US$" the two sources no longer fit one line; DAC = direct air capture (caption)
     for ly, txt in ((17.1, f"industry US\\${ci0}–{ci1}/t"),
                     (15.0, f"biomass US\\${cb0}–{cb1}/t · DAC US\\${cdac}/t")):
-        ax.text(BXL + BXW / 2, ly, txt, fontsize=FS - 2.0, color=INK,
+        ax.text(BXL + BXW / 2, ly, txt, fontsize=FS6, color=INK,
                 ha="center", va="center", zorder=5)
     # one path: out of the box's outline, round the elbow, up through the
     # carbon routes' circles to the e-methane one
@@ -636,10 +637,10 @@ def main():
         for tv in np.arange(0, amax + 1, step):
             ax.plot([xf(tv), xf(tv)], [AXY, AXY - 0.6], color=GREY,
                     lw=0.6, zorder=3)
-            ax.text(xf(tv), AXY - 1.4, f"{tv:.0f}", fontsize=FS - 2.0,
+            ax.text(xf(tv), AXY - 1.4, f"{tv:.0f}", fontsize=FS6,
                     color=GREY, ha="center", va="top", zorder=6)
         if title:
-            ax.text((x0 + x1) / 2, AXY - 5.2, title, fontsize=FS - 1.5,
+            ax.text((x0 + x1) / 2, AXY - 5.9, title, fontsize=FS6,
                     color=INK, ha="center", va="center", zorder=6)
 
     routes = [
@@ -664,7 +665,7 @@ def main():
                 fontsize=FS, color=col, fontweight="bold", zorder=5)
         _range_bar(yb + 3.1, col, br[2], br[3], br[4], q1=br[7], q3=br[8])
         # centred in the box (min-max bars start at its left edge, 2026-10-08)
-        ax.text(BXL + BXW / 2, yb + 0.75, br[6], fontsize=FS - 2.0,
+        ax.text(BXL + BXW / 2, yb + 0.75, br[6], fontsize=FS6,
                 color=GREY, ha="center", va="center", zorder=6)
         # tail on the bus's centre line (same width, so the round cap
         # closes the T, and the bus's end corners, with no seam); it runs
@@ -673,7 +674,7 @@ def main():
                color=BLUE, lw=1.3)
         ax.add_patch(Circle((CIRX, yc), 2.5, fc="white", ec=GREY,
                             lw=0.8, zorder=6))
-        ax.text(CIRX, yc, feed, fontsize=FS - 1.6, ha="center",
+        ax.text(CIRX, yc, feed, fontsize=FS6, ha="center",
                 va="center", color=INK, zorder=7)
         _arrow(ax, (_rim(BXR + 0.45, 1.2, +1), yc), (IND_TIP, yc),
                color=col, lw=1.3)
@@ -710,7 +711,7 @@ def main():
     _range_bar(17.0, DARK, hyd[2], hyd[3], hyd[4], xf=xv2, q1=hyd[7], q3=hyd[8])
     # 2026-10-08: no second ($/kg) scale; the $/kg median and IQR
     # are written under the bar, as for the fuels
-    ax.text((xv2(0) + xv2(H_TOP)) / 2, 14.6, hyd[6], fontsize=FS - 2.0, color=GREY,
+    ax.text((xv2(0) + xv2(H_TOP)) / 2, 14.6, hyd[6], fontsize=FS6, color=GREY,
             ha="center", va="center", zorder=6)
     _axis(XL2, XR2, xv2,
           title="levelized cost of hydrogen (US\\$ MMBtu$^{-1}$)",
@@ -738,7 +739,7 @@ def main():
             ec="white", lw=0.8, zorder=5))
         if w >= 2.0:
             ax.text(left + w / 2, 17.5, f"{100 * v / mix_tot:.0f}",
-                    fontsize=FS - 2.0,
+                    fontsize=FS6,
                     color=INK if col in ON_LIGHT else "white",
                     ha="center", va="center", zorder=6)
         left += w
@@ -747,7 +748,7 @@ def main():
     ax.text((DX0 + DX1) / 2, AXY - 5.2,
             f"demand by fuel (% of {mix_tot / P.MMBTU_PER_GJ:.0f} "
             "billion MMBtu per year)",
-            fontsize=FS - 1.5, color=INK, ha="center", va="center",
+            fontsize=FS6, color=INK, ha="center", va="center",
             zorder=6)
 
     fig.savefig(OUT / "fig_main_framework.pdf", bbox_inches="tight")

@@ -140,7 +140,7 @@ def countries(c1):
         d["co2_mt"] = num(co2[c], 2)
     # Fig. 3 domestic-cost box for every economy and fuel (lcof.console_export on the 2025mid case)
     for _, r in pd.read_csv(HERE / "build/fuel_box_2025.csv").iterrows():
-        get(r.country).setdefault("box", {})[r.fuel] = [num(r[q], 2) for q in ("p01", "p25", "p50", "p75", "p99")]
+        get(r.country).setdefault("box", {})[r.fuel] = [num(r[q], 2) for q in ("p10", "p25", "p50", "p75", "p90")]   # 2026-10-22: 10th-90th whiskers
     # normal / disruption prices and bill for every economy by the paper's rules (lcof.console_export.fig3_prices_all);
     # the core 30 reproduce Fig. 3 and its SI diesel and jet version
     gdp = pd.read_csv(W / "2025mid/data/security_budget.csv", index_col=0).gdp_usd
@@ -150,16 +150,16 @@ def countries(c1):
             c = r.country
             pm = num(r.bill_bn_usd * 1e9 / gdp[c] * 1000, 4) if c in gdp.index else None
             get(c).setdefault("pr", {})[k] = {
-                "n": [num(r[f"normal_p{q:02d}"], 2) for q in (1, 25, 50, 75, 99)],
-                "d": [num(r[f"disruption_p{q:02d}"], 2) for q in (1, 25, 50, 75, 99)],
+                "n": [num(r[f"normal_p{q:02d}"], 2) for q in (10, 25, 50, 75, 90)],
+                "d": [num(r[f"disruption_p{q:02d}"], 2) for q in (10, 25, 50, 75, 90)],
                 "bill": num(r.bill_bn_usd, 3), "pm": pm, "core": c in core, "basis": r.basis}
     # the other fuels on their model comparators (lcof.console_export.fig3_prices_other)
     PK = {"e-methane": "em", "methanol": "meoh", "ethanol": "eth", "hydrogen": "h2"}
     for _, r in pd.read_csv(HERE / "build/fig3_prices_other.csv").iterrows():
         c = r.country
         get(c).setdefault("pr", {})[PK[r.fuel]] = {
-            "n": [num(r[f"normal_p{q:02d}"], 2) for q in (1, 25, 50, 75, 99)],
-            "d": [num(r[f"disruption_p{q:02d}"], 2) for q in (1, 25, 50, 75, 99)],
+            "n": [num(r[f"normal_p{q:02d}"], 2) for q in (10, 25, 50, 75, 90)],
+            "d": [num(r[f"disruption_p{q:02d}"], 2) for q in (10, 25, 50, 75, 90)],
             "bill": num(r.bill_bn_usd, 3), "pm": num(r.bill_bn_usd * 1e9 / gdp[c] * 1000, 4) if c in gdp.index else None,
             "core": False, "obs": bool(r.observed), "basis": r.basis}
     for c, r in f3.iterrows():

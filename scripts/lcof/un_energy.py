@@ -195,9 +195,59 @@ def load_levels() -> pd.DataFrame:
     return pd.read_csv(UND / "un_national_levels_gj.csv", index_col=0)
 
 
+# 2026-10-21: solid biofuels (fuelwood, bagasse, animal waste, black liquor, other vegetal material),
+# total energy supply (transaction GA). The value of lost fuel divides GDP by energy use;
+# the OWID/EI primary energy behind it leaves traditional biomass out, which made the value highest in
+# economies that run mostly on fuelwood (DR Congo above Germany). Fuelwood is reported in m3, bagasse and
+# charcoal in tonnes, each with a per-series calorific factor; the rest in TJ.
+BIO = UND / "raw_biomass"
+BIO_URL = ("https://data.un.org/ws/rest/data/DF_UNDATA_ENERGY/"
+           "A..5110+5120+5130+5140+5150+5160+5210+5290+5300.GA/ALL/?startPeriod=2020&endPeriod=2023")
+# 2026-10-22: charcoal (5160) left out. It is made from fuelwood, whose supply (5110) already includes the wood
+# carbonized, so adding it counted that energy twice (13-16% of energy use in DR Congo, Haiti, Sierra Leone)
+SOLID_BIO = {"5110", "5120", "5130", "5140", "5150"}
+
+
+def fetch_biomass():
+    BIO.mkdir(parents=True, exist_ok=True)
+    with urllib.request.urlopen(BIO_URL, timeout=300) as r:
+        (BIO / "un_biomass_tes.xml").write_bytes(r.read())
+
+
+def biomass_gj(countries) -> pd.Series:
+    """Solid biofuel supply, GJ/yr, latest year (2020-2023) per commodity, by model country; NaN where
+    the UN database has no series (Taiwan, Iceland)."""
+    rows = []
+    for ser in ET.parse(BIO / "un_biomass_tes.xml").getroot().iter(G + "Series"):
+        key = {v.get("id"): v.get("value") for v in ser.find(G + "SeriesKey")}
+        if key["COMMODITY"] not in SOLID_BIO:
+            continue
+        sattr = {v.get("id"): v.get("value") for v in (ser.find(G + "Attributes") or [])}
+        for ob in ser.findall(G + "Obs"):
+            val = ob.find(G + "ObsValue")
+            if val is None:
+                continue
+            a = {**sattr, **{v.get("id"): v.get("value") for v in (ob.find(G + "Attributes") or [])}}
+            x = float(val.get("value")) * 10 ** int(a.get("UNIT_MULT", 0))
+            if a.get("UNIT_MEASURE") == "TJ":
+                tj = x
+            elif a.get("CONVERSION_FACTOR"):
+                tj = x * float(a["CONVERSION_FACTOR"]) / 1e3
+            else:
+                continue
+            rows.append((key["REF_AREA"], key["COMMODITY"], int(ob.find(G + "ObsDimension").get("value")), tj))
+    df = pd.DataFrame(rows, columns=["area", "commodity", "year", "tj"])
+    tj = (df.sort_values("year").groupby(["area", "commodity"]).tj.last()
+          .groupby("area").sum().clip(lower=0))
+    nm = _name_map(list(countries))
+    return pd.Series({c: tj.get(nm[c], np.nan) * 1e3 if c in nm else np.nan for c in countries},
+                     name="biomass_gj")
+
+
 def main():
     if "--fetch" in sys.argv:
         fetch()
+        fetch_biomass()
     df = parse()
     lev = national(df)
     print(f"UN levels for {len(lev)} model countries; world EJ: "

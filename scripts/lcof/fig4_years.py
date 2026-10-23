@@ -205,7 +205,7 @@ def main(stem, *pairs):
     fig.legend(handles=ha, loc="lower center", bbox_to_anchor=(0.56, 0.955), ncol=5, fontsize=6.5,
                frameon=False, handlelength=1.2, handletextpad=0.4, columnspacing=1.0)
     names = [r for r in RCOL if r in present]
-    short = {"Rest of Asia and Oceania": "Rest of Asia & Oceania"}
+    short = {"Rest of Asia and Oceania": "Rest of Asia & Oceania", "China": "China (Mainland)"}
     bs[0].legend([Rectangle((0, 0), 1, 1, fc=RCOL[r]) for r in names], [short.get(r, r) for r in names],
                  fontsize=6, frameon=False, ncol=6, loc="lower left", bbox_to_anchor=(-0.02, 1.04),
                  handlelength=1.1, columnspacing=0.8, borderaxespad=0.0)

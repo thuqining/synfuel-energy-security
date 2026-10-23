@@ -489,7 +489,9 @@ def compute(scale: float = 1.0, write: bool = True,
         co2_cost = co2df.co2_cost.reindex(land.index).fillna(P.C_CO2_DAC)
     lcof = lcof_cells(land, co2_cost)
 
-    si = pd.read_csv(inputs.MAPS / "security_index.csv", index_col=0)
+    # 2026-10-21: GDP projected to the cost year (IMF WEO to 2030, SSP2 after); value of lost fuel at 2025
+    from .gdp_projection import projected
+    si = projected(pd.read_csv(inputs.MAPS / "security_index.csv", index_col=0))
     # the import share of THE BILL, not of total energy: NET per-fuel
     # dependence max(0, 1 - production/consumption) from OWID (EI
     # Statistical Review), weighted by each country's oil-/gas-family
@@ -750,7 +752,7 @@ def main():
 
     _table(d)
     _figure(d, curves)
-    _figure_capacity(d)
+    _figure_capacity(df, bold=set(core))     # 2026-10-22: all 139 economies, the core 30 in bold
     _figure_co2(d, curves)
 
 
@@ -781,7 +783,7 @@ def _table(d: pd.DataFrame):
     (texdir / "tab_budget.tex").write_text(body, encoding="utf-8")
 
 
-def _figure_capacity(d: pd.DataFrame, name: str = "fig_si_capacity"):
+def _figure_capacity(d: pd.DataFrame, name: str = "fig_si_capacity", bold=()):
     """Supplementary figure (2026-10-05): why 1% of GDP buys so different
     shares in Fig. 5. Where the budget binds, the share made at home is
     1% of GDP per MMBtu of addressable demand divided by the mean premium
@@ -799,49 +801,67 @@ def _figure_capacity(d: pd.DataFrame, name: str = "fig_si_capacity"):
     order = list(g.sort_values(ascending=False).index)      # highest GDP per MMBtu on top
     ys = np.arange(len(order))
     names = [SHORT.get(c, c) for c in order]
+    # 2026-10-22 (user: every SI figure covers the 139 economies): a full page and 5 pt type for many rows,
+    # with the economies in `bold` (the core 30) in bold
+    many = len(order) > 40
+    if many:
+        from .fig4a_all import SHORT as SH139           # the short names of the 139-economy figures
+        names = [SH139.get(c, SHORT.get(c, c)) for c in order]
+    # 2026-10-22 (user: names must not touch): 139 rows go in two blocks side by side, 6 pt names
+    fs = 6.0 if many else 7.0
+    height = 226.0 if many else 112.0
+    gmax = max(4200.0, float(np.ceil(g.max() / 500.0) * 500.0))
+    tk = np.arange(0, gmax + 1, 1000 if gmax <= 4200 else 2000)
+    tr_ = mpl.transforms.blended_transform_factory
 
     # one panel, back to back (2026-10-05): GDP per MMBtu runs left
     # from the centre, the mean premium runs right, the names sit between
     # them; the shares themselves are in Fig. 5 and are not repeated here
-    fig = plt.figure(figsize=(183 * MM, 112 * MM))
-    a = fig.add_axes([0.02, 0.10, 0.40, 0.83])
-    b = fig.add_axes([0.555, 0.10, 0.33, 0.83])
-    a.barh(ys, g[order], height=0.66, color="#9AA5AF")
-    b.barh(ys, prem[order], height=0.66, color="#4A90D9")
-    a.set_xlim(4200, 0)                                   # grows to the left
-    # 2026-10-09: bars beyond the axis (Ireland, Israel) carry their value and a break mark
-    for i, c in enumerate(order):
-        if g[c] > 4200:
-            a.text(4150, i, f"{g[c]:,.0f} //", ha="left", va="center", fontsize=6.5,
-                   color="white", fontweight="bold")
-    a.set_xticks([0, 1000, 2000, 3000, 4000])
-    a.set_xticklabels(["0", "1,000", "2,000", "3,000", "4,000"])
-    a.set_xlabel("GDP per MMBtu of addressable\nfuel demand (US\\$)", fontsize=8)
-    b.set_xlim(0, 90)
-    b.set_xlabel("Mean premium of the fuel bought\nwith 1% of GDP (US\\$ MMBtu$^{-1}$)", fontsize=8)
-    for ax in (a, b):
-        ax.set_ylim(len(order) - 0.4, -0.6)
-        ax.set_yticks([])
-        ax.tick_params(axis="x", labelsize=7.5)
-        ax.grid(axis="x", alpha=0.20, lw=0.4)
-        ax.set_axisbelow(True)
-        for s in ("top", "left" if ax is a else "right"):
-            ax.spines[s].set_visible(False)
-    a.spines["right"].set_visible(True)
-    # names centred in the gap between the two halves
-    XN = (0.42 + 0.555) / 2
-    for i, nm in enumerate(names):
-        a.text(XN, i, nm, transform=mpl.transforms.blended_transform_factory(fig.transFigure, a.transData),
-               fontsize=7.5, ha="center", va="center", color="#1A1A1A", clip_on=False)
-    # GDP actually spent: 1% where the budget binds, less where the land
-    # ceiling is reached first (bold)
-    XC = 1.17
-    for i, cc in enumerate(order):
-        b.text(XC, i, f"{used[cc]:.2f}", transform=b.get_yaxis_transform(), fontsize=7.5, ha="center",
-               va="center", color="#1A1A1A" if land[cc] else "#8A94A0",
-               fontweight="bold" if land[cc] else "normal", clip_on=False)
-    b.text(XC, -1.0, "GDP spent\n(%)", transform=b.get_yaxis_transform(), fontsize=7.5, ha="center",
-           va="bottom", color="#3A4550", clip_on=False)
+    fig = plt.figure(figsize=(183 * MM, height * MM))
+    yb, yh = (0.05, 0.92) if many else (0.10, 0.83)
+    parts = [order[: (len(order) + 1) // 2], order[(len(order) + 1) // 2:]] if many else [order]
+    # block geometry as figure fractions: (left, GDP axis width, name gap, premium axis width)
+    geo = [(0.005, 0.15, 0.13, 0.13), (0.505, 0.15, 0.13, 0.13)] if many else [(0.02, 0.40, 0.135, 0.33)]
+    for part, (x0, wa, wn, wb) in zip(parts, geo):
+        n = len(part)
+        ys = np.arange(n)
+        a = fig.add_axes([x0, yb, wa, yh])
+        b = fig.add_axes([x0 + wa + wn, yb, wb, yh])
+        a.barh(ys, g[part], height=0.66, color="#9AA5AF")
+        b.barh(ys, prem[part], height=0.66, color="#4A90D9")
+        # 2026-10-22: the axis reaches the largest value, so no bar is cut
+        a.set_xlim(gmax, 0)                               # grows to the left
+        a.set_xticks(tk)
+        a.set_xticklabels([f"{v / 1000:g}k" if many and v else f"{v:,.0f}" for v in tk])
+        a.set_xlabel("GDP per MMBtu of addressable" + chr(10) + "fuel demand (US\\$)", fontsize=7)
+        b.set_xlim(0, 90)
+        b.set_xticks([0, 30, 60, 90] if many else [0, 20, 40, 60, 80])
+        b.set_xlabel("Mean premium of the fuel bought" + chr(10) + "with 1% of GDP (US\\$ MMBtu$^{-1}$)",
+                     fontsize=7)
+        for ax in (a, b):
+            ax.set_ylim(max(len(p_) for p_ in parts) - 0.4, -0.6)
+            ax.set_yticks([])
+            ax.tick_params(axis="x", labelsize=7)
+            ax.grid(axis="x", alpha=0.20, lw=0.4)
+            ax.set_axisbelow(True)
+            for s in ("top", "left" if ax is a else "right"):
+                ax.spines[s].set_visible(False)
+        a.spines["right"].set_visible(True)
+        # names centred in the gap between the two halves
+        XN = x0 + wa + wn / 2
+        for i, cc in enumerate(part):
+            a.text(XN, i, names[order.index(cc)], transform=tr_(fig.transFigure, a.transData), fontsize=fs,
+                   ha="center", va="center", color="#1A1A1A", clip_on=False,
+                   fontweight="bold" if cc in bold else "normal")
+        # GDP actually spent: 1% where the budget binds, less where the land
+        # ceiling is reached first (bold)
+        XC = 1.17
+        for i, cc in enumerate(part):
+            b.text(XC, i, f"{used[cc]:.2f}", transform=b.get_yaxis_transform(), fontsize=fs, ha="center",
+                   va="center", color="#1A1A1A" if land[cc] else "#8A94A0",
+                   fontweight="bold" if land[cc] else "normal", clip_on=False)
+        b.text(XC, -1.0, "GDP spent" + chr(10) + "(%)", transform=b.get_yaxis_transform(), fontsize=7,
+               ha="center", va="bottom", color="#3A4550", clip_on=False)
     fig.savefig(OUT / f"{name}.pdf", bbox_inches="tight")
     fig.savefig(OUT / f"{name}.png", dpi=600, bbox_inches="tight")
     plt.close(fig)
@@ -963,7 +983,7 @@ def _figure(d: pd.DataFrame, curves: dict, land_style: str = "hatch",
     b.set_xlabel("Share of fuel demand made at home (%)")
     b.annotate("* no net-trade record: the tick is one minus domestic "
                "production over consumption",
-               xy=(0.0, -0.105), xycoords="axes fraction", fontsize=6.5,
+               xy=(0.0, -0.105), xycoords="axes fraction", fontsize=6,
                color="#5A6570", ha="left", va="top", annotation_clip=False)
     import matplotlib.patches as mp
     from matplotlib.legend_handler import HandlerTuple

@@ -39,7 +39,8 @@ from .params import MMBTU_PER_GJ as MMB
 from .fig_pptx_pairs import OUT
 
 SHORT = {"United States of America": "United States",
-         "Dominican Republic": "Dominican Rep."}
+         "Dominican Republic": "Dominican Rep.",
+         "China": "China (Mainland)", "Taiwan": "China (Taiwan)"}   # 2026-10-21
 TYPE_COL = {"large consumer": "#111111",
             "industrial importer": "#D55E00",
             "emerging importer": "#E69F00",
@@ -110,7 +111,7 @@ def main(*, write_data=True):
         # palette (both Okabe-Ito); types are shown in the sites figure
         t = tot[c] / 1e9 / MMB          # EJ -> billion MMBtu per year
         ax.text(112.0, i, f"{t:.2f}" if t < 0.1 else f"{t:.1f}",
-                fontsize=7.5, va="center", ha="right", color="#333333")
+                fontsize=7, va="center", ha="right", color="#333333")
     # a numeric column reads best right-aligned, decimals under
     # decimals, with the header right-aligned on the same edge
     for ly, txt in ((n + 1.6, "demand,"), (n + 0.6, "billion MMBtu/yr")):
@@ -118,7 +119,7 @@ def main(*, write_data=True):
                 color="#333333", fontweight="bold")
 
     ax.set_yticks(ys)
-    ax.set_yticklabels([SHORT.get(c, c) for c in ex], fontsize=8)
+    ax.set_yticklabels([SHORT.get(c, c) for c in ex], fontsize=7)   # 2026-10-22: Nature maximum 7 pt
     ax.set_xlim(0, 118)
     ax.set_ylim(-0.9, n + 1.9)
     ax.set_xticks(np.arange(0, 101, 20))
@@ -132,7 +133,7 @@ def main(*, write_data=True):
               # segment is domestic fossil supply, not a separate fuel
               + [mp.Patch(fc="#9AA3AC", ec=(1, 1, 1, 0.85), hatch="//////",
                           lw=0, label="imported share")],
-              fontsize=8, frameon=False, loc="lower left",
+              fontsize=7, frameon=False, loc="lower left",   # 2026-10-22: Nature maximum 7 pt
               bbox_to_anchor=(-0.01, 1.005), ncol=7, handlelength=0.9,
               columnspacing=0.6, borderaxespad=0.0)
     for txt in leg.get_texts():          # the bracketed line centred under the fuel
@@ -159,6 +160,77 @@ def main(*, write_data=True):
           f"{gas.idxmax()}); bills {tot.min()/1e9/MMB:.2f}-"
           f"{tot.max()/1e9/MMB:.1f} bn MMBtu/yr "
           f"({tot.min()/1e9:.2f}-{tot.max()/1e9:.1f} EJ/yr)")
+
+
+def main139(out_dir, height_mm=232.0):
+    """2026-10-22 (user: every SI figure covers the 139 economies): the same bars for all 139 economies, in two
+    columns ordered by demand (largest at the top left), core economies in bold, at full-page height."""
+    import matplotlib.patches as mp
+    from pathlib import Path
+    from .fig4a_all import SHORT as SH139            # the short names of the 139-economy figures
+    plt.rcParams.update(NAT_RC)
+    meta = inputs.load_meta(2025)
+    econ = list(pd.read_csv(inputs.MAPS.parent.parent / "2030" / "data" / "security_budget.csv", index_col=0).index)
+    dg = pd.read_csv(inputs.MAPS / "demand_fuel_grid.csv", index_col=0)
+    cols = [f + "_gj" for f in FUELS]
+    d = dg[cols].join(meta[["country"]]).groupby("country")[cols].sum().reindex(econ)
+    tot = d.sum(axis=1)
+    sh = d.div(tot, axis=0) * 100
+    from .security_budget import family_dependence
+    dep_gas, dep_oil = family_dependence(econ)
+    GASF = {"e-methane", "ammonia", "methanol"}
+    dep = {f: (dep_gas if f in GASF else dep_oil).fillna(0.0) for f in FUELS}
+    order = list(tot.sort_values(ascending=False).index)
+    half = (len(order) + 1) // 2
+    blocks = [order[:half], order[half:]]
+    core = set(CORE30_LIST)
+    fig = plt.figure(figsize=(183 * MM, height_mm * MM))
+    plt.rcParams["hatch.linewidth"] = 0.4
+    for k, blk in enumerate(blocks):
+        ax = fig.add_axes([0.115 + k * 0.5, 0.045, 0.335, 0.905])
+        ex = blk[::-1]                                  # drawn bottom -> top, largest on top
+        ys = np.arange(len(ex))
+        left = np.zeros(len(ex))
+        for f in FUELS:
+            v = sh.loc[ex, f + "_gj"].to_numpy()
+            ax.barh(ys, v, left=left, height=0.7, color=FCOL[f], zorder=2)
+            ax.barh(ys, v * dep[f].reindex(ex).to_numpy(), left=left, height=0.7, color="none",
+                    edgecolor=(1, 1, 1, 0.75), hatch="//////", lw=0.0, zorder=3)
+            left += v
+        for i, c in enumerate(ex):
+            t = tot[c] / 1e9 / MMB
+            ax.text(117.0, i, "<0.01" if t < 0.005 else f"{t:.2f}" if t < 1 else f"{t:.1f}", fontsize=6,
+                    va="center", ha="right",
+                    color="#333333")
+        ax.text(117.0, len(ex) + 0.2, "billion\nMMBtu/yr", fontsize=6, ha="right", va="bottom", color="#333333",
+                fontweight="bold")
+        ax.set_yticks(ys)
+        ax.set_yticklabels([SH139.get(c, c) for c in ex], fontsize=6)
+        for lab, c in zip(ax.get_yticklabels(), ex):
+            if c in core:
+                lab.set_fontweight("bold")
+        ax.set_xlim(0, 118)
+        ax.set_ylim(-0.7, len(ex) - 0.3)
+        ax.set_xticks(np.arange(0, 101, 20))
+        ax.tick_params(axis="both", labelsize=6, length=2, pad=1.5)
+        ax.set_xlabel("share of addressable fuel demand (energy), %", fontsize=7, labelpad=2)
+        for s in ("top", "right"):
+            ax.spines[s].set_visible(False)
+        ax.spines["left"].set_bounds(-0.5, len(ex) - 0.5)
+        ax.grid(axis="x", alpha=0.20, lw=0.4)
+        ax.set_axisbelow(True)
+    # 2026-10-22 (user): the incumbent fuel only, without its synthetic substitute
+    leg = fig.legend(handles=[mp.Patch(color=FCOL[f], label=DEMAND_LABEL[f].split(" (")[0]) for f in FUELS]
+                     + [mp.Patch(fc="#9AA3AC", ec=(1, 1, 1, 0.85), hatch="//////", lw=0, label="imported share")],
+                     fontsize=7, frameon=False, loc="upper center", bbox_to_anchor=(0.5, 1.0), ncol=8,
+                     handlelength=0.9, columnspacing=0.8, borderaxespad=0.2)
+    for txt in leg.get_texts():
+        txt.set_multialignment("center")
+    out = Path(out_dir)
+    fig.savefig(out / "fig_main_demand_struct.pdf", bbox_inches="tight")
+    fig.savefig(out / "fig_main_demand_struct.png", dpi=300, bbox_inches="tight")
+    plt.close(fig)
+    print(f"saved fig_main_demand_struct (139): {len(order)} economies")
 
 
 if __name__ == "__main__":

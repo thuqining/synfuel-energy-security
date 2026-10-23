@@ -55,7 +55,9 @@ SHORT = {"United States of America": "United States",
          "United Kingdom of Great Britain and Northern Ireland":
          "United Kingdom", "United Arab Emirates": "UAE",
          "Russian Federation": "Russia",
-         "Dominican Republic": "Dominican Rep."}
+         "Dominican Republic": "Dominican Rep.",
+         # 2026-10-21: display names for the two economies, as in the text
+         "China": "China (Mainland)", "Taiwan": "China (Taiwan)"}
 
 
 def cell_area_km2(lat: pd.Series, dlat: float = 2.5,

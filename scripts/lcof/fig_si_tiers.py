@@ -3,8 +3,8 @@ fig_si_tiers.py - Supplementary figure (2026-10-09): fuel costs and core results
 cost tiers and four cost years. a-f, median levelized cost of each fuel over the 2,740 land cells
 (US$/MMBtu, trade unit on the right axis), lowest/central/highest tier; the settings of the main
 figures (2025 central, 2030-2050 lowest) are ringed. g-i, economies whose 1%-of-GDP portfolio is
-justified (Fig. 4a), CO2 displaced with and without the security value (Fig. 4b), and the median
-share of demand that 1% of GDP buys (Fig. 5).
+justified (Fig. 4a), CO2 displaced with and without the security value (Fig. 5 since 2026-10-22), and the median
+share of demand that 1% of GDP buys (Fig. 6).
 
 Reads work/caselow/lcos_tiers.csv (lcos_tiers.py) and tier_table.csv (tier_table.py).
 From scripts/:  python -m lcof.fig_si_tiers <caselow dir> <out dir>
@@ -49,7 +49,7 @@ def _lines(ax, get, label_end=False):
         y = [get(yr, t) for yr in YEARS]
         ax.plot(YEARS, y, color=col, ls=ls, lw=1.1, marker=mk, ms=3, mfc=col, mec=col, zorder=3)
         if label_end:
-            ax.text(2050.8, y[-1], nm, fontsize=5.6, color=col, va="center", ha="left")
+            ax.text(2050.8, y[-1], nm, fontsize=6, color=col, va="center", ha="left")
 
 
 def main(cdir: str, odir: str):
@@ -57,6 +57,11 @@ def main(cdir: str, odir: str):
     mpl.rcParams.update({"pdf.fonttype": 42})
     c = pd.read_csv(Path(cdir) / "lcos_tiers.csv").set_index(["fuel", "year", "tier"])
     r = pd.read_csv(Path(cdir) / "tier_table.csv").set_index(["year", "tier"])
+    # 2026-10-22 (user: every SI figure covers the 139 economies): panels g and i count all 118 net importers
+    # (sensitivity/all139_sens.py); the core-30 counts stay in Supplementary Table tab:paths
+    import json
+    a139 = {(x["year"], x["tier"]): x for x in
+            json.loads((Path(cdir) / "sensitivity" / "all139_sens.json").read_text(encoding="utf-8"))["paths"]}
     fig = plt.figure(figsize=(183 * MM, 165 * MM))
     gs = fig.add_gridspec(3, 3, left=0.07, right=0.90, bottom=0.06, top=0.93, wspace=0.62, hspace=0.55)
     for k, (f, title, unit, mult) in enumerate(FUELS):
@@ -68,15 +73,16 @@ def main(cdir: str, odir: str):
             ax.set_ylabel("US\\$ MMBtu$^{-1}$", fontsize=6)
         if unit:
             sec = ax.secondary_yaxis("right", functions=(lambda v, m=mult: v * m, lambda v, m=mult: v / m))
-            sec.tick_params(labelsize=5.6, length=2, colors=GREY)
-            sec.set_ylabel(unit, fontsize=5.8, color=GREY)
+            sec.tick_params(labelsize=6, length=2, colors=GREY)
+            sec.set_ylabel(unit, fontsize=6, color=GREY)
         _style(ax)
         if not unit:
             ax.spines["right"].set_visible(False)
     ax = fig.add_subplot(gs[2, 0])
-    _lines(ax, lambda yr, t: r.loc[(yr, t), "justified"])
-    ax.set_ylim(0, 16)
-    ax.set_title("g  Portfolios justified (of 30)", fontsize=7, loc="left", fontweight="bold", color=INK)
+    _lines(ax, lambda yr, t: a139[(yr, t)]["justified"])
+    ax.set_ylim(0, 50)
+    ax.set_ylabel("net importers (of 118)", fontsize=6)
+    ax.set_title("g  Portfolios justified", fontsize=7, loc="left", fontweight="bold", color=INK)
     _style(ax)
     ax = fig.add_subplot(gs[2, 1])
     # grouped bars: per cost year one bar per tier; solid = on cost alone, hatched = added by the security value
@@ -91,19 +97,19 @@ def main(cdir: str, odir: str):
         ax.bar(xs, sec, bottom=cost, width=bw * 0.9, color="white", ec=col, lw=0.5, hatch="//////", zorder=3)
     ax.legend(handles=[Patch(fc=GREY, ec="none", label="on cost alone"),
                        Patch(fc="white", ec=GREY, hatch="//////", lw=0.5, label="added by security value")],
-              loc="upper left", fontsize=5.6, frameon=False, handlelength=1.6)
+              loc="upper left", fontsize=6, frameon=False, handlelength=1.6)
     ax.set_ylim(0, 2.6)
     ax.set_ylabel("GtCO$_2$ yr$^{-1}$", fontsize=6)
-    ax.set_title("h  CO$_2$ displaced (Fig. 4b)", fontsize=7, loc="left", fontweight="bold", color=INK)
+    ax.set_title("h  CO$_2$ displaced (Fig. 5)", fontsize=7, loc="left", fontweight="bold", color=INK)
     _style(ax)
     ax.set_xticks(range(len(YEARS)))
     ax.set_xticklabels([str(y) for y in YEARS])
     ax.set_xlim(-0.55, len(YEARS) - 0.45)
     ax = fig.add_subplot(gs[2, 2])
-    _lines(ax, lambda yr, t: r.loc[(yr, t), "cov_3"])
-    ax.set_ylim(0, 13)
-    ax.set_ylabel("net importers (of 26)", fontsize=6)
-    ax.set_title("i  Imports covered at 3% of GDP (Fig. 5)", fontsize=7, loc="left", fontweight="bold", color=INK)
+    _lines(ax, lambda yr, t: a139[(yr, t)]["cov_3"])
+    ax.set_ylim(0, 80)
+    ax.set_ylabel("net importers (of 118)", fontsize=6)
+    ax.set_title("i  Imports covered at 3% of GDP (Fig. 6)", fontsize=7, loc="left", fontweight="bold", color=INK)
     _style(ax)
     from matplotlib.lines import Line2D
     hs = [Line2D([], [], color=col, ls=ls, lw=1.1, marker=mk, ms=3, label=f"{nm} cost tier")

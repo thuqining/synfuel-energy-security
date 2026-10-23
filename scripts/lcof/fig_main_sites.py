@@ -183,7 +183,8 @@ RISK_CELLS = True
 SHOW_SHARE = os.environ.get("FIG3_COLUMN", "share") != "risk"
 SHORT = {"United States of America": "United States",
          "United Kingdom of Great Britain and Northern Ireland": "UK",
-         "Dominican Republic": "Dominican Rep."}
+         "Dominican Republic": "Dominican Rep.",
+         "China": "China (Mainland)", "Taiwan": "China (Taiwan)"}   # 2026-10-21
 
 
 def _box(ax, y, data, color, h=0.17, alpha=0.85, wmin=0.05):

@@ -421,6 +421,17 @@ FILL_MARKET = {
     "Dominican Republic": "usgc", "Chile": "usgc", "Brazil": "usgc",
     "United States of America": "usgc",
 }
+# 2026-10-22: the 109 economies outside the core sample by the same rule (they have no month of their own, so the
+# market sets their whole series): Asia-Pacific, the Gulf and East and Southern Africa buy in Singapore, the
+# Americas on the US Gulf Coast; Europe, the CIS, North, West and Central Africa and the Levant stay Mediterranean
+FILL_MARKET.update({c: "singapore" for c in (
+    "Afghanistan", "Bangladesh", "Bhutan", "Cambodia", "Fiji", "Laos", "Malaysia", "Myanmar", "Nepal", "New Zealand",
+    "Papua New Guinea", "Taiwan", "Thailand", "Iran", "Iraq", "United Arab Emirates", "Yemen", "Botswana", "Eritrea",
+    "Ethiopia", "Malawi", "Mozambique", "Namibia", "Rwanda", "South Sudan", "Sudan", "Uganda",
+    "United Republic of Tanzania", "Zambia", "Zimbabwe")})
+FILL_MARKET.update({c: "usgc" for c in (
+    "Argentina", "Belize", "Bolivia", "Canada", "Colombia", "Costa Rica", "Cuba", "Ecuador", "Guatemala", "Guyana",
+    "Haiti", "Honduras", "Mexico", "Nicaragua", "Panama", "Paraguay", "Peru", "Suriname", "Uruguay", "Venezuela")})
 FILL_DEFAULT = "mediterranean"        # the European economies
 MIN_OVERLAP = 12                       # months needed to calibrate the ratio
 

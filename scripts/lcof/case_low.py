@@ -91,6 +91,7 @@ def apply_params(year: int, tier: str | None = None):
     import os
     from . import params as P
     tier = tier or os.environ.get("LCOF_TIER") or None
+    P.COST_YEAR = int(year)          # 2026-10-21: GDP is projected to this year (lcof.gdp_projection)
     if tier:
         s = pd.read_csv(COST / "tier_scalars.csv").set_index(["tier", "year"]).loc[(tier, year)]
     else:

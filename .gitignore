@@ -15,3 +15,22 @@ Thumbs.db
 
 # console: published copy of the page without the document shell (rebuilt by console/build_console.py)
 console/build/*.html
+
+# 2026-10-22: tier and variant cases (about 160 MB each) are rebuilt by work/caselow/sensitivity/build_case.py and
+# variants.py; only the four main cases (2025mid, 2030, 2040, 2050) are kept
+work/caselow/2025/
+work/caselow/2030mid/
+work/caselow/2040mid/
+work/caselow/2050mid/
+work/caselow/2025high/
+work/caselow/2030high/
+work/caselow/2040high/
+work/caselow/2050high/
+work/caselow/sensitivity/figs_out/
+work/caselow/*_gni/
+work/caselow/*_offshore/
+work/*.log
+# raw SSP v3.2 workbook (the processed series data/gdp_projections/ssp2_gdp_v3.2.csv is kept)
+data/gdp_projections/ssp_v3.2/
+# console sensitivity scratch (GDP-projection variants of 2026-10-21)
+console/build/gdpproj_*

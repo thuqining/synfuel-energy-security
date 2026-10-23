@@ -44,7 +44,7 @@ def fuel_boxes():
             else:
                 best = F._syn(fuel, frames, meta, best_id, co2) + F.TRANSPORT_USD_GJ * F.MMB
             rec.append(dict(country=c, fuel=fuel, best_cell=best_id, n_weather_years=len(best),
-                            **{f"p{q:02d}": float(np.percentile(best, q)) for q in (1, 25, 50, 75, 99)}))
+                            **{f"p{q:02d}": float(np.percentile(best, q)) for q in (1, 10, 25, 50, 75, 90, 99)}))
     d = pd.DataFrame(rec).round(3)
     d.to_csv(OUT / "fuel_box_2025.csv", index=False)
     print(d.country.nunique(), "economies x", d.fuel.nunique(), "fuels ->", OUT / "fuel_box_2025.csv")
@@ -113,8 +113,8 @@ def fig3_prices_all(key):
                             bill_bn_usd=float(qa.estimated_quiet_bill_bn_usd[c]) if c in qa.index and np.isfinite(qa.estimated_quiet_bill_bn_usd[c])
                             else dem_gj.get(c, 0.0) * q(quiet, 50) / F.MMB / 1e9,
                             n_quiet=len(quiet), n_crisis=len(crisis),
-                            **{f"normal_p{p:02d}": q(quiet, p) for p in (1, 25, 50, 75, 99)},
-                            **{f"disruption_p{p:02d}": q(crisis, p) for p in (1, 25, 50, 75, 99)}))
+                            **{f"normal_p{p:02d}": q(quiet, p) for p in (1, 10, 25, 50, 75, 90, 99)},
+                            **{f"disruption_p{p:02d}": q(crisis, p) for p in (1, 10, 25, 50, 75, 90, 99)}))
         except Exception as e:                      # noqa: BLE001 - one economy's gap must not stop the rest
             print("  ", key, c, "skipped:", str(e)[:80])
     d = pd.DataFrame(rec).round(3)
@@ -163,8 +163,8 @@ def fig3_prices_other():
                                                          "grey hydrogen from " if fuel == "hydrogen" else
                                                          "gas-based methanol from ") + b, observed=obs,
                             bill_bn_usd=d_gj * q(quiet, 50) / F.MMB / 1e9,
-                            **{f"normal_p{p:02d}": q(quiet, p) for p in (1, 25, 50, 75, 99)},
-                            **{f"disruption_p{p:02d}": q(crisis, p) for p in (1, 25, 50, 75, 99)}))
+                            **{f"normal_p{p:02d}": q(quiet, p) for p in (1, 10, 25, 50, 75, 90, 99)},
+                            **{f"disruption_p{p:02d}": q(crisis, p) for p in (1, 10, 25, 50, 75, 90, 99)}))
     # ethanol: the diesel + jet distributions of fig3_prices_ft, with its own demand for the bill
     ft = pd.read_csv(OUT / "fig3_prices_ft.csv").set_index("country")
     for c, r in ft.iterrows():

@@ -289,7 +289,9 @@ def compute(budget_pct=BUDGET_PCT, value="hi", rate=1.0, mode="merit", write=Fal
     """value 'hi' = CoDF_hi (ENTSOG anchor), 'central' = CoDF (ACER);
     rate multiplies the event rates (q is linear in them)."""
     land, dgc, grey, lcof = setup or _setup()
-    si = pd.read_csv(inputs.MAPS / "security_index.csv", index_col=0)
+    # 2026-10-21: GDP projected to the cost year (IMF WEO to 2030, SSP2 after); value of lost fuel at 2025
+    from .gdp_projection import projected
+    si = projected(pd.read_csv(inputs.MAPS / "security_index.csv", index_col=0))
     sb = pd.read_csv(inputs.MAPS / "security_budget.csv", index_col=0)
     core = [c for c in core_countries(sb.index) if c in sb.index]
     ch = chain_inputs(core)

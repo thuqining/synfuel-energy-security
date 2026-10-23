@@ -63,14 +63,14 @@ def _nat_map(fig, ax, values, cmap, vmin, vmax, cbar_label, title):
     ax.set_xticks([]); ax.set_yticks([]); ax.set_aspect("equal")
     for s in ax.spines.values():
         s.set_visible(False)
-    ax.set_title(title, loc="left", fontsize=8, x=0.024)
+    ax.set_title(title, loc="left", fontsize=7, x=0.024)   # 2026-10-22: Nature type scale
     ax.set_anchor("N")
     sm = plt.cm.ScalarMappable(cmap=cmap,
                                norm=mpl.colors.Normalize(vmin, vmax))
     cb = fig.colorbar(sm, ax=ax, orientation="horizontal", shrink=0.55,
                       pad=0.02, aspect=32)
-    cb.set_label(cbar_label, fontsize=8)
-    cb.ax.tick_params(labelsize=8, width=0.4, length=2.5)
+    cb.set_label(cbar_label, fontsize=7)
+    cb.ax.tick_params(labelsize=6, width=0.4, length=2.5)
     cb.outline.set_linewidth(0.4)
 BLUE, GREY, ORANGE = "#4C72B0", "#98A3AD", "#DD8452"
 SITES = ["Chile", "Namibia", "China", "Morocco", "United States of America",

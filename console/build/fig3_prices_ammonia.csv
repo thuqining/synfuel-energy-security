@@ -1,144 +1,144 @@
-country,version,basis,own_share,bill_bn_usd,n_quiet,n_crisis,normal_p01,normal_p25,normal_p50,normal_p75,normal_p99,disruption_p01,disruption_p25,disruption_p50,disruption_p75,disruption_p99
-Afghanistan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.0,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Albania,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.012,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Algeria,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Angola,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.023,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Argentina,ammonia,urea-implied price x Americas ratio 1.022,0.0,1.203,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Armenia,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.011,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Australia,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,2.332,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Austria,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.369,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Azerbaijan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.0,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Bangladesh,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.505,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Belarus,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.533,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Belgium,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.218,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Belize,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.006,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Benin,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.03,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Bhutan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.0,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Bolivia,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.0,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Bosnia and Herzegovina,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.026,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Botswana,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.007,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Brazil,ammonia,"own import price, filled from the urea-implied price x 1.022",0.976,5.936,24,65,27.132,28.278,34.421,38.819,40.988,22.974,54.336,68.409,89.45,89.45
-Bulgaria,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.311,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Burkina Faso,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.034,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Cambodia,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.152,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Cameroon,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.032,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Canada,ammonia,urea-implied price x Americas ratio 1.022,0.0,2.421,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Central African Republic,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Chad,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Chile,ammonia,"own import price, filled from the urea-implied price x 1.020",0.948,0.419,24,65,26.748,31.348,35.226,39.252,42.309,25.668,50.506,63.583,88.006,88.006
-China,ammonia,"own import price, filled from the urea-implied price x 1.015",0.665,30.54,24,65,24.907,31.415,33.863,35.643,41.464,25.821,35.82,46.267,72.304,107.471
-Colombia,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.387,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Costa Rica,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.075,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Croatia,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.0,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Cuba,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.0,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Cyprus,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.006,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Czechia,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.326,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Democratic Republic of the Congo,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.026,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Denmark,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.181,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Dominican Republic,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.021,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Ecuador,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.052,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Egypt,ammonia,administered national gas price,0.0,0.971,24,65,18.363,19.024,19.125,19.338,20.045,15.533,16.622,17.405,19.742,23.217
-Eritrea,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Ethiopia,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.328,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Falkland Islands,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.0,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Fiji,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.003,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Finland,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.017,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-France,ammonia,urea-implied price x Europe ratio 1.019,0.0,1.592,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Gabon,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.003,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Georgia,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.031,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Germany,ammonia,"own import price, filled from the urea-implied price x 1.047",0.988,1.739,24,65,23.439,28.241,32.464,35.408,40.933,26.454,45.116,56.473,79.992,96.845
-Ghana,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.046,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Greece,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.104,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Guatemala,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.149,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Guinea,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Guinea-Bissau,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Guyana,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.0,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Haiti,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.0,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Honduras,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.075,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Hungary,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.295,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Iceland,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.005,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-India,ammonia,"own import price, filled from the urea-implied price x 0.978",0.726,17.929,24,65,21.309,31.201,33.437,37.383,40.45,25.519,36.968,46.183,79.84,103.575
-Indonesia,ammonia,administered national gas price,0.0,1.963,24,65,19.784,20.75,20.872,21.21,22.122,17.174,18.538,19.415,22.249,27.228
-Iran,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,1.268,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Iraq,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.093,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Ireland,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.181,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Israel,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.068,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Italy,ammonia,"own import price, filled from the urea-implied price x 1.201",0.794,0.493,24,65,23.629,33.345,37.563,46.849,58.889,33.172,58.689,65.219,83.553,120.255
-Ivory Coast,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.05,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Japan,ammonia,"own import price, filled from the urea-implied price x 1.104",0.742,0.757,24,65,27.12,32.919,36.863,39.856,44.315,26.392,41.855,54.282,87.951,116.923
-Jordan,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Kazakhstan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.256,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Kenya,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.121,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Kyrgyzstan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.034,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Laos,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.036,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Latvia,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.07,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Liberia,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Libya,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Lithuania,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.279,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Madagascar,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.011,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Malawi,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.059,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Malaysia,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.436,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Mali,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.083,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Mauritania,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.014,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Mexico,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.844,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Mongolia,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.036,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Morocco,ammonia,"own import price, filled from the urea-implied price x 0.871",0.629,0.127,24,65,18.892,26.877,27.732,30.225,36.957,26.974,40.042,47.217,90.782,91.108
-Mozambique,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.028,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Myanmar,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.242,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Namibia,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.009,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Nepal,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.0,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Netherlands,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.352,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-New Zealand,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.314,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Nicaragua,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.048,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Niger,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.008,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Nigeria,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.009,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-North Korea,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.0,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Norway,ammonia,"own import price, filled from the urea-implied price x 0.955",0.976,0.151,24,65,23.205,29.306,31.421,34.971,38.845,24.45,44.466,57.406,79.545,99.826
-Oman,ammonia,administered national gas price,0.0,0.022,24,65,17.695,18.207,18.297,18.464,19.051,14.751,15.722,16.369,18.729,21.237
-Pakistan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,2.759,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Panama,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.019,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Papua New Guinea,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.018,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Paraguay,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.128,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Peru,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.374,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Philippines,ammonia,"own import price, filled from the urea-implied price x 1.078",0.379,0.424,24,65,20.321,30.359,32.62,37.058,61.358,28.122,39.485,47.632,63.987,114.166
-Poland,ammonia,urea-implied price x Europe ratio 1.019,0.0,1.324,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Portugal,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.179,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Republic of Serbia,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.115,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Republic of the Congo,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.001,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Romania,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.289,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Russia,ammonia,urea-implied price x Europe ratio 1.019,0.0,4.221,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Rwanda,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.017,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Saudi Arabia,ammonia,administered national gas price,0.0,0.171,24,65,15.948,16.062,16.095,16.118,16.356,12.578,13.143,13.698,14.949,16.064
-Senegal,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.034,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Sierra Leone,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Somalia,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Somaliland,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-South Africa,ammonia,"own import price, filled from the urea-implied price x 0.929",0.456,0.634,24,65,25.029,27.517,29.587,35.109,49.75,24.993,35.228,46.843,76.409,103.144
-South Korea,ammonia,"own import price, filled from the urea-implied price x 0.965",0.532,0.642,24,65,23.266,29.427,32.039,34.212,36.964,23.843,33.157,39.732,79.041,102.252
-South Sudan,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Spain,ammonia,"own import price, filled from the urea-implied price x 0.991",0.984,0.557,24,65,22.053,30.575,32.077,34.876,38.618,25.788,45.304,56.289,82.212,96.797
-Sri Lanka,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.139,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Sudan,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Suriname,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.007,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Sweden,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.257,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Switzerland,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.037,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Syria,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.015,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Taiwan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.029,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Tajikistan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.025,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Thailand,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,1.221,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Tunisia,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.051,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Turkey,ammonia,urea-implied price x Europe ratio 1.019,0.0,1.3,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-Turkmenistan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.045,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Uganda,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.017,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Ukraine,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.879,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-United Arab Emirates,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-United Kingdom,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.579,24,65,21.178,29.208,31.412,34.949,41.86,30.553,40.004,46.719,79.778,107.902
-United Republic of Tanzania,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.134,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-United States of America,ammonia,"own import price, filled from the urea-implied price x 1.133",0.851,14.607,24,65,29.763,36.398,38.464,41.048,43.62,29.141,59.795,69.648,87.922,119.993
-Uruguay,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.179,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Uzbekistan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.598,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Venezuela,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.123,24,65,21.244,29.299,31.509,35.058,41.989,30.648,40.128,46.864,80.026,108.237
-Vietnam,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,1.157,24,65,21.094,29.091,31.286,34.81,41.692,30.431,39.844,46.532,79.46,107.471
-Yemen,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.001,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Zambia,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.132,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
-Zimbabwe,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.074,24,65,18.717,25.813,27.761,30.887,36.994,27.002,35.354,41.289,70.506,95.36
+country,version,basis,own_share,bill_bn_usd,n_quiet,n_crisis,normal_p01,normal_p10,normal_p25,normal_p50,normal_p75,normal_p90,normal_p99,disruption_p01,disruption_p10,disruption_p25,disruption_p50,disruption_p75,disruption_p90,disruption_p99
+Afghanistan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.0,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Albania,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.012,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Algeria,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Angola,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.023,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Argentina,ammonia,urea-implied price x Americas ratio 1.022,0.0,1.203,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Armenia,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.011,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Australia,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,2.332,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Austria,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.369,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Azerbaijan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.0,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Bangladesh,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.505,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Belarus,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.533,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Belgium,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.218,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Belize,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.006,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Benin,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.03,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Bhutan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.0,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Bolivia,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.0,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Bosnia and Herzegovina,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.026,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Botswana,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.007,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Brazil,ammonia,"own import price, filled from the urea-implied price x 1.022",0.976,5.936,24,65,27.132,27.583,28.278,34.421,38.819,39.798,40.988,22.974,36.036,54.336,68.409,89.45,89.45,89.45
+Bulgaria,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.311,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Burkina Faso,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.034,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Cambodia,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.152,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Cameroon,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.032,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Canada,ammonia,urea-implied price x Americas ratio 1.022,0.0,2.421,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Central African Republic,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Chad,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Chile,ammonia,"own import price, filled from the urea-implied price x 1.020",0.948,0.419,24,65,26.748,28.539,31.348,35.226,39.252,40.652,42.309,25.668,40.549,50.506,63.583,88.006,88.006,88.006
+China,ammonia,"own import price, filled from the urea-implied price x 1.015",0.665,30.54,24,65,24.907,27.214,31.415,33.863,35.643,39.075,41.464,25.821,31.819,35.82,46.267,72.304,102.014,107.471
+Colombia,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.387,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Costa Rica,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.075,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Croatia,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.0,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Cuba,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.0,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Cyprus,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.006,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Czechia,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.326,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Democratic Republic of the Congo,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.026,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Denmark,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.181,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Dominican Republic,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.021,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Ecuador,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.052,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Egypt,ammonia,administered national gas price,0.0,0.971,24,65,18.363,18.833,19.024,19.125,19.338,19.671,20.045,15.533,15.804,16.622,17.405,19.742,21.45,23.217
+Eritrea,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Ethiopia,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.328,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Falkland Islands,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.0,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Fiji,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.003,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Finland,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.017,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+France,ammonia,urea-implied price x Europe ratio 1.019,0.0,1.592,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Gabon,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.003,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Georgia,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.031,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Germany,ammonia,"own import price, filled from the urea-implied price x 1.047",0.988,1.739,24,65,23.439,25.239,28.241,32.464,35.408,36.935,40.933,26.454,36.832,45.116,56.473,79.992,96.845,96.845
+Ghana,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.046,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Greece,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.104,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Guatemala,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.149,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Guinea,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Guinea-Bissau,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Guyana,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.0,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Haiti,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.0,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Honduras,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.075,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Hungary,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.295,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Iceland,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.005,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+India,ammonia,"own import price, filled from the urea-implied price x 0.978",0.726,17.929,24,65,21.309,23.868,31.201,33.437,37.383,39.806,40.45,25.519,33.384,36.968,46.183,79.84,102.439,103.575
+Indonesia,ammonia,administered national gas price,0.0,1.963,24,65,19.784,20.47,20.75,20.872,21.21,21.687,22.122,17.174,17.449,18.538,19.415,22.249,24.706,27.228
+Iran,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,1.268,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Iraq,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.093,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Ireland,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.181,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Israel,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.068,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Italy,ammonia,"own import price, filled from the urea-implied price x 1.201",0.794,0.493,24,65,23.629,31.973,33.345,37.563,46.849,50.127,58.889,33.172,47.274,58.689,65.219,83.553,120.255,120.255
+Ivory Coast,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.05,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Japan,ammonia,"own import price, filled from the urea-implied price x 1.104",0.742,0.757,24,65,27.12,30.137,32.919,36.863,39.856,41.539,44.315,26.392,34.59,41.855,54.282,87.951,115.063,116.923
+Jordan,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Kazakhstan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.256,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Kenya,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.121,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Kyrgyzstan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.034,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Laos,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.036,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Latvia,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.07,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Liberia,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Libya,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Lithuania,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.279,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Madagascar,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.011,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Malawi,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.059,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Malaysia,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.436,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Mali,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.083,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Mauritania,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.014,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Mexico,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.844,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Mongolia,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.036,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Morocco,ammonia,"own import price, filled from the urea-implied price x 0.871",0.629,0.127,24,65,18.892,24.465,26.877,27.732,30.225,33.765,36.957,26.974,33.739,40.042,47.217,90.782,91.108,91.108
+Mozambique,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.028,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Myanmar,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.242,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Namibia,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.009,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Nepal,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.0,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Netherlands,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.352,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+New Zealand,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.314,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Nicaragua,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.048,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Niger,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.008,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Nigeria,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.009,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+North Korea,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.0,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Norway,ammonia,"own import price, filled from the urea-implied price x 0.955",0.976,0.151,24,65,23.205,26.156,29.306,31.421,34.971,36.57,38.845,24.45,33.493,44.466,57.406,79.545,99.826,99.826
+Oman,ammonia,administered national gas price,0.0,0.022,24,65,17.695,18.047,18.207,18.297,18.464,18.709,19.051,14.751,15.015,15.722,16.369,18.729,19.851,21.237
+Pakistan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,2.759,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Panama,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.019,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Papua New Guinea,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.018,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Paraguay,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.128,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Peru,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.374,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Philippines,ammonia,"own import price, filled from the urea-implied price x 1.078",0.379,0.424,24,65,20.321,28.266,30.359,32.62,37.058,40.539,61.358,28.122,34.171,39.485,47.632,63.987,103.717,114.166
+Poland,ammonia,urea-implied price x Europe ratio 1.019,0.0,1.324,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Portugal,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.179,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Republic of Serbia,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.115,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Republic of the Congo,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.001,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Romania,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.289,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Russia,ammonia,urea-implied price x Europe ratio 1.019,0.0,4.221,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Rwanda,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.017,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Saudi Arabia,ammonia,administered national gas price,0.0,0.171,24,65,15.948,16.003,16.062,16.095,16.118,16.168,16.356,12.578,12.835,13.143,13.698,14.949,15.469,16.064
+Senegal,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.034,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Sierra Leone,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Somalia,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Somaliland,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+South Africa,ammonia,"own import price, filled from the urea-implied price x 0.929",0.456,0.634,24,65,25.029,25.849,27.517,29.587,35.109,41.311,49.75,24.993,29.746,35.228,46.843,76.409,103.144,103.144
+South Korea,ammonia,"own import price, filled from the urea-implied price x 0.965",0.532,0.642,24,65,23.266,25.529,29.427,32.039,34.212,36.006,36.964,23.843,30.115,33.157,39.732,79.041,95.878,102.252
+South Sudan,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Spain,ammonia,"own import price, filled from the urea-implied price x 0.991",0.984,0.557,24,65,22.053,26.882,30.575,32.077,34.876,37.766,38.618,25.788,32.995,45.304,56.289,82.212,96.797,96.797
+Sri Lanka,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.139,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Sudan,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Suriname,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.007,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Sweden,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.257,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Switzerland,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.037,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Syria,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.015,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Taiwan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.029,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Tajikistan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.025,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Thailand,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,1.221,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Tunisia,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.051,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Turkey,ammonia,urea-implied price x Europe ratio 1.019,0.0,1.3,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+Turkmenistan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.045,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Uganda,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.017,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Ukraine,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.879,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+United Arab Emirates,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.0,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+United Kingdom,ammonia,urea-implied price x Europe ratio 1.019,0.0,0.579,24,65,21.178,26.578,29.208,31.412,34.949,37.799,41.86,30.553,37.209,40.004,46.719,79.778,106.006,107.902
+United Republic of Tanzania,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.134,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+United States of America,ammonia,"own import price, filled from the urea-implied price x 1.133",0.851,14.607,24,65,29.763,31.863,36.398,38.464,41.048,42.173,43.62,29.141,49.717,59.795,69.648,87.922,119.993,119.993
+Uruguay,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.179,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Uzbekistan,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,0.598,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Venezuela,ammonia,urea-implied price x Americas ratio 1.022,0.0,0.123,24,65,21.244,26.66,29.299,31.509,35.058,37.917,41.989,30.648,37.325,40.128,46.864,80.026,106.335,108.237
+Vietnam,ammonia,urea-implied price x Asia-Pacific ratio 1.015,0.0,1.157,24,65,21.094,26.471,29.091,31.286,34.81,37.648,41.692,30.431,37.061,39.844,46.532,79.46,105.583,107.471
+Yemen,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.001,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Zambia,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.132,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36
+Zimbabwe,ammonia,urea-implied price x Middle East and Africa ratio 0.900,0.0,0.074,24,65,18.717,23.489,25.813,27.761,30.887,33.406,36.994,27.002,32.884,35.354,41.289,70.506,93.685,95.36

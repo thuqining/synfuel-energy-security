@@ -29,7 +29,7 @@ from .fig_pptx_pairs import OUT
 mpl.rcParams.update(NAT_RC)
 mpl.rcParams.update({"pdf.fonttype": 42})
 
-BINS = [0, 50, 100, 150, 200, 300, 650]          # US$ per MMBtu (2026-10-09: Ireland 603)
+BINS = [0, 50, 100, 150, 200, 300, 750]          # US$ per MMBtu (2026-10-22, value of lost fuel with biomass: Ireland 709)
 NODATA = "#E4E6E9"
 
 
@@ -64,11 +64,11 @@ def main():
     cax = fig.add_axes([0.06, 0.24, 0.20, 0.032])
     cb = fig.colorbar(mpl.cm.ScalarMappable(norm=norm, cmap=cmap), cax=cax, orientation="horizontal",
                       ticks=BINS, spacing="uniform")
-    cb.ax.set_xticklabels([f"{b:,}" for b in BINS], fontsize=6.5)
+    cb.ax.set_xticklabels([f"{b:,}" for b in BINS], fontsize=6)
     cb.ax.tick_params(length=2, width=0.5)
     cb.outline.set_linewidth(0.5)
     cb.ax.set_title("Value of lost fuel (US\\$ MMBtu$^{-1}$)", fontsize=7, pad=3)
-    fig.text(0.06, 0.17, "No data", fontsize=6.5, va="center", ha="left", color="#3A4550",
+    fig.text(0.06, 0.17, "No data", fontsize=6, va="center", ha="left", color="#3A4550",
              transform=fig.transFigure)
     fig.patches.append(mpl.patches.Rectangle((0.035, 0.158), 0.018, 0.024, transform=fig.transFigure,
                                              fc=NODATA, ec="#5A6570", lw=0.3))

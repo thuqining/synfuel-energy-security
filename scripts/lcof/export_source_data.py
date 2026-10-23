@@ -4,8 +4,9 @@ Energy asks): the numbers each panel draws, with a README sheet naming the figur
 the values come from.
 
 From scripts/:  python -m lcof.export_source_data <out_dir>
-Cases: work/caselow/2025mid (Figs 1-3, 2025 central costs) and work/caselow/2030, 2040, 2050 (Figs 4-5,
-lowest-tier costs).
+Cases: work/caselow/2025mid (Figs 1-3, 2025 central costs) and work/caselow/2030, 2040, 2050 (Figs 4-6,
+lowest-tier costs; Fig. 6 at 2030). Figs 3, 4b and 6b also read the console data (console/index.html), as the
+figures do (2026-10-22: six-figure layout).
 """
 from __future__ import annotations
 
@@ -127,46 +128,67 @@ def fig2(out):
         "cells": d.round(3)})
 
 
+def _console():
+    """2026-10-22: Figs 3-6 draw from the console data (console/index.html), so the Source Data read it too"""
+    import json
+    t = (inputs.PROJECT / "console" / "index.html").read_text(encoding="utf-8")
+    return json.JSONDecoder().raw_decode(t[t.index("const DATA=") + 11:])[0]
+
+
+P5 = ("p10", "p25", "p50", "p75", "p90")
+
+
 def fig3(out):
-    s = pd.read_csv(W / "2025mid" / "data" / "core30_sites_ammonia.csv").rename(
-        columns={"crisis_p98_mmbtu": "crisis_p99_mmbtu"})
-    cols = {"country": "economy",
-            "best_p01_mmbtu": "green_ammonia_p01", "best_p25_mmbtu": "green_ammonia_p25",
-            "best_med_mmbtu": "green_ammonia_median", "best_p75_mmbtu": "green_ammonia_p75",
-            "best_p99_mmbtu": "green_ammonia_p99",
-            "quiet_p01_mmbtu": "normal_price_p01", "quiet_p25_mmbtu": "normal_price_p25",
-            "quiet_med_mmbtu": "normal_price_median", "quiet_p75_mmbtu": "normal_price_p75",
-            "quiet_p99_mmbtu": "normal_price_p99",
-            "crisis_p01_mmbtu": "disruption_price_p01", "crisis_p25_mmbtu": "disruption_price_p25",
-            "crisis_med_mmbtu": "disruption_price_median", "crisis_p75_mmbtu": "disruption_price_p75",
-            "crisis_p99_mmbtu": "disruption_price_p99",
-            "supply_risk": "import_risk_index", "import_exposure_pct": "import_exposure_pct",
-            "quiet_bill_bn_usd": "ammonia_market_bn_usd_per_yr", "buy_basis": "price_basis"}
-    d = s[list(cols)].rename(columns=cols)
-    gdp = pd.read_csv(W / "2025mid" / "data" / "security_budget.csv", index_col=0).gdp_usd
-    d.insert(d.columns.get_loc("ammonia_market_bn_usd_per_yr") + 1, "ammonia_market_per_mille_gdp",
-             1e3 * d.ammonia_market_bn_usd_per_yr * 1e9 / d.economy.map(gdp))
+    from .fig35_core import fig3_classes
+    D = _console()
+    C = D["countries"]
+    k139 = pd.read_csv(W / "2030" / "data" / "security_budget.csv", index_col=0).index
+    core = set(pd.read_csv(W / "2030" / "data" / "fig5a_chain.csv", index_col=0).index)
+    own = pd.read_csv(inputs.PROJECT / "console" / "build" / "fig3_prices_ammonia.csv", index_col=0).own_share
+    cat, _, lab, _ = fig3_classes()
+    rows = [c for c in D["order"]["f3amm"]["rows"] if c in k139 and C[c].get("box", {}).get("ammonia")
+            and C[c].get("pr", {}).get("amm")]
+
+    def row(c):
+        d, pr, bx, e = C[c], C[c]["pr"]["amm"], C[c]["box"]["ammonia"], C[c].get("E_amm")
+        r = {"economy": c, "core_30": c in core,
+             "group": "net exporter" if (e is None or e <= 0) else ("imports the whole chain" if e >= 0.995
+                                                                   else "imports part of the chain"),
+             "import_share_pct": None if e is None else 100 * e,
+             "ammonia_bill_bn_usd_per_yr": pr["bill"], "ammonia_bill_per_mille_gdp": pr["pm"],
+             "own_import_price_series": bool(own.get(c, 0) > 0), "price_basis": pr["basis"]}
+        r.update({f"green_ammonia_{p}": v for p, v in zip(P5, bx)})
+        r.update({f"normal_price_{p}": v for p, v in zip(P5, pr["n"])})
+        r.update({f"disruption_price_{p}": v for p, v in zip(P5, pr["d"])})
+        r["panel_b_class"] = lab[cat[c]] if c in cat else None
+        return r
+    a = pd.DataFrame([row(c) for c in rows if c in core])
+    b = pd.DataFrame([row(c) for c in rows])
     _write(out / "Fig3.xlsx", {
         "README": _readme("Fig. 3 - ammonia prices during disruptions vs domestic green ammonia (2025 central costs)", [
-            ("economies", "Per economy: green ammonia from the lowest-cost cell incl. US$1.06/MMBtu delivery, across 20 "
-                          "weather years; matched national ammonia price in normal months and in disruption months "
-                          "(1st, 25th, 50th, 75th, 99th percentiles); all in 2025 US$ per MMBtu (LHV). Import risk index "
-                          "R_c = sqrt(E_c H_c) from 0 to 1 (first right column); annual ammonia market at the normal "
-                          "price, in billion US$ and per mille of GDP (second right column); import_exposure_pct = 0 "
-                          "marks the economies below the dashed line (no net imports in the ammonia supply chain)"),
+            ("a", "Panel a, the 30 representative economies in the order of the figure: green ammonia from the "
+                  "economy's lowest-cost cell incl. US$1.06/MMBtu delivery across 20 weather years (box: 25th-75th, "
+                  "whiskers: 10th-90th percentiles); the matched national ammonia price in normal months (gray bar) "
+                  "and in disruption months (orange line, diamond at the median), 10th-90th percentiles; all in 2025 "
+                  "US$ per MMBtu (LHV). Rows above the panel: import share of the ammonia supply chain E_c (%) and "
+                  "the annual ammonia bill at normal prices (per mille of GDP). own_import_price_series = False "
+                  "marks the asterisked economies"),
+            ("b", "Panel b, all 139 economies, same columns; panel_b_class gives the map class (median cost of "
+                  "domestic green ammonia below the median or the 90th percentile of the disruption price; economies "
+                  "that import none of their ammonia supply chain are net exporters)"),
             ("Units", "Prices and costs US$ per MMBtu; 1 t of ammonia = 17.6 MMBtu (LHV)"),
-            ("Source", "work/caselow/2025mid/data/core30_sites_ammonia.csv, figure3_country_audit.csv; code "
-                       "lcof.fig_main_sites, lcof.audit_figure3")]),
-        "economies": d.round(3)})
+            ("Source", "console/index.html (built by console/build_console.py from lcof.console_export), "
+                       "console/build/fig3_prices_ammonia.csv; code lcof.fig35_core, lcof.fig3_cols")]),
+        "a": a.round(3), "b": b.round(3)})
 
 
 def _blocks(p, yr, tj):
-    """the blocks of the Fig. 4b abatement-cost curve, as lcof.fig5_chain._curve_to_zero builds them"""
+    """the blocks of the Fig. 5 abatement-cost curve, as lcof.fig5_chain._curve_to_zero builds them"""
     from .fig5_chain import _CAP
     pi, pi_r = p[f"pi_{yr}"].to_numpy(), p[f"pi_rest_{yr}"].to_numpy()
     w, ef, imp = np.clip(p.w_usd_gj.to_numpy(), 0, None), p.ef.to_numpy(), p.imp_gj.to_numpy()
     sec = pd.concat([
-        pd.DataFrame({"country": p.country, "fuel": p.fuel, "part": "net imports", "wd": imp * ef / 1e9,
+        pd.DataFrame({"country": p.country, "fuel": p.fuel, "part": "imported supply", "wd": imp * ef / 1e9,
                       "c": (pi - w) / ef, "prem": pi / ef, "region": p.region}),
         pd.DataFrame({"country": p.country, "fuel": p.fuel, "part": "rest of demand",
                       "wd": (p.dem_gj.to_numpy() - imp) * ef / 1e9, "c": pi_r / ef, "prem": pi_r / ef,
@@ -189,7 +211,7 @@ def _blocks(p, yr, tj):
 
 
 def _above_cap(p, yr=2025):
-    """CO2 of the blocks whose net premium lies above the top of the Fig. 4b axis (named in the caption)"""
+    """CO2 of the blocks whose net premium lies above the top of the Fig. 5 axis (named in the caption)"""
     from .fig5_chain import _CAP
     pi, pi_r = p[f"pi_{yr}"].to_numpy(), p[f"pi_rest_{yr}"].to_numpy()
     w, ef, imp = np.clip(p.w_usd_gj.to_numpy(), 0, None), p.ef.to_numpy(), p.imp_gj.to_numpy()
@@ -199,7 +221,8 @@ def _above_cap(p, yr=2025):
 
 
 def fig4(out):
-    sheets, totals = {}, []
+    from .fig4a_all import load
+    sheets = {}
     for y in YEARS:
         d = pd.read_csv(W / str(y) / "data" / "fig5a_chain.csv")
         sb = pd.read_csv(W / str(y) / "data" / "security_budget.csv", index_col=0)
@@ -214,15 +237,6 @@ def fig4(out):
                           "carbon_price_usd_per_tco2": d.p_co2_usd_t})
         a["justified"] = a.net_premium_usd_per_tco2 <= a.carbon_price_usd_per_tco2
         sheets[f"a_{y}"] = a.round(2)
-        p = pd.read_csv(W / str(y) / "data" / "fig5b_chain_pairs.csv")
-        tj = pd.read_csv(W / str(y) / "data" / "fig5b_chain_trajectory.csv")
-        sheets[f"b_{y}"] = _blocks(p, 2025, tj).round(5)
-        t = tj.set_index("year").loc[2025]
-        totals.append(dict(cost_year=y, co2_displaced_with_security_gtco2=t.sec_gt,
-                           co2_displaced_cost_only_gtco2=t.cost_gt,
-                           co2_above_axis_top_gtco2=_above_cap(p)))
-    sheets["b_totals"] = pd.DataFrame(totals).round(3)
-    # rows of panel a are grouped by the first cost year in which the portfolio is justified
     first = {}
     for y in YEARS:
         a = sheets[f"a_{y}"]
@@ -230,58 +244,97 @@ def fig4(out):
             first.setdefault(e, y)
     for y in YEARS:
         sheets[f"a_{y}"]["first_justified_cost_year"] = sheets[f"a_{y}"].economy.map(first).astype("Int64")
-    readme = _readme("Fig. 4 - security value, deployment and CO2 abatement (lowest-tier costs 2030, 2040, 2050)", [
-        ("a_<year>", "Panel a: portfolio that up to 1% of GDP a year buys in each of the 30 economies; cost premium, "
-                     "security margin and net premium in US$ per tonne of CO2 displaced, carbon price in force; "
-                     "justified when the net premium does not exceed the carbon price (green ring); the security "
-                     "margin is the arrow from the open to the filled circle. first_justified_cost_year groups the "
-                     "rows (empty: not justified at any cost year); net_importer = False marks the economies below "
-                     "the dashed line"),
-        ("b_<year>", "Panel b: blocks of the abatement-cost curve of addressable demand in 139 economies (each country-"
-                     "fuel pair split into net imports, at the net premium, and the rest of demand); x from x_start, "
-                     "width in GtCO2 per year, height in US$ per tCO2. The figure clips heights below -US$700 and shows "
-                     "blocks up to US$300"),
-        ("b_totals", "CO2 displaced with the security value and on cost alone (dashed and dotted lines), and the "
-                     "CO2 of blocks above the top of the axis (US$300 per tCO2), in GtCO2 per year"),
-        ("Source", "work/caselow/<year>/data/fig5a_chain.csv, fig5b_chain_pairs.csv, fig5b_chain_trajectory.csv; "
-                   "code lcof.fig5a_chain, lcof.fig5_chain, lcof.fig4_years")])
+    data, imps, exps, fy = load()
+    sheets["b"] = pd.DataFrame(
+        [{"economy": c, "net_importer": True,
+          "first_justified_cost_year": None if fy[c] == 9999 else fy[c]} for c in imps]
+        + [{"economy": c, "net_importer": False, "first_justified_cost_year": None} for c in exps]
+    ).astype({"first_justified_cost_year": "Int64"})
+    for y in YEARS:
+        dy = data[y]
+        sheets["b"][f"security_margin_usd_per_tco2_{y}"] = sheets["b"].economy.map(dy.gross_usd_t - dy.net_usd_t).round(2)
+        sheets["b"][f"net_premium_usd_per_tco2_{y}"] = sheets["b"].economy.map(dy.net_usd_t).round(2)
+    sheets["b"]["carbon_price_usd_per_tco2"] = sheets["b"].economy.map(data[2030].p_co2_usd_t).round(2)
+    readme = _readme("Fig. 4 - security value per tonne of CO2 displaced (lowest-tier costs 2030, 2040, 2050; GDP "
+                     "projected to each cost year)", [
+        ("a_<year>", "Panel a: portfolio that up to 1% of GDP a year buys in each of the 30 economies; cost premium "
+                     "(open marker), security margin (green line) and net premium (filled marker) in US$ per tonne of "
+                     "CO2 displaced, carbon price in force (magenta line); justified (green ring) when the net "
+                     "premium does not exceed the carbon price. Markers by cost year: circles 2030, squares 2040, "
+                     "triangles 2050. first_justified_cost_year groups the rows (empty: not justified by 2050); "
+                     "net_importer = False marks the net oil and gas exporters shown separately"),
+        ("b", "Panel b: first cost year in which the 1%-of-GDP portfolio is justified, for all 139 economies "
+              "(empty for net importers: not justified by 2050; net exporters shown separately), with the security "
+              "margin and net premium of each cost year"),
+        ("Source", "work/caselow/<year>/data/fig5a_chain.csv, security_budget.csv; console/build/fig4a_all_<year>.csv; "
+                   "code lcof.fig5a_chain, lcof.fig4a_all, lcof.fig4_core")])
     _write(out / "Fig4.xlsx", {"README": readme, **sheets})
 
 
 def fig5(out):
-    sheets = {}
+    sheets, totals = {}, []
     for y in YEARS:
-        sb = pd.read_csv(W / str(y) / "data" / "security_budget.csv", index_col=0)
-        d = sb.reindex([c for c in core_countries(sb.index) if c in sb.index])
-        imp = d.import_pct > 0
-        covered = imp & (d.ret_sf_3 >= 0.995)
-        land = imp & ~covered & (d.cov_3 >= d.max_cov - 1e-6) & (d.max_cov < 1 - 1e-6)
-        grp = np.where(~imp, "net exporter", np.where(covered, "imports covered",
-                       np.where(land, "land binds", "budget binds")))
-        sheets[str(y)] = pd.DataFrame({
-            "economy": d.index, "group": grp,
-            "share_made_at_home_1pct_gdp": d.cov_1 * 100, "share_made_at_home_2pct_gdp": d.cov_2 * 100,
-            "share_made_at_home_3pct_gdp": d.cov_3 * 100, "land_ceiling_pct": d.max_cov * 100,
-            "net_import_share_pct": d.import_pct * 100,
-            "imports_replaced_1pct_gdp": d.ret_sf_1 * 100, "imports_replaced_3pct_gdp": d.ret_sf_3 * 100,
-            # starred in the figure: the tick is one minus domestic production over consumption
-            "no_net_trade_record": d.index.isin(["Kenya", "Dominican Republic", "Madagascar"])}).round(2)
-    readme = _readme("Fig. 5 - fiscal capacity and land availability (lowest-tier costs 2030, 2040, 2050)", [
-        ("<year>", "Per economy: share of addressable fuel demand made at home with annual support for the cost "
-                   "premium capped at 1%, 2% and 3% of GDP (bars), land ceiling (5% of screened eligible land, at most "
-                   "2% of territory; end caps), net import share of oil- and gas-based fuels (red ticks), share of net "
-                   "imports replaced, and the group of the figure; all in percent. Hatching is the part of the land "
-                   "ceiling above the 3%-of-GDP bar. no_net_trade_record = True marks the starred economies, whose "
-                   "tick is one minus domestic production over consumption. Sheets 2030, 2040 and 2050 are panels "
-                   "a, b and c"),
-        ("Source", "work/caselow/<year>/data/security_budget.csv; code lcof.security_budget, lcof.fig5_years")])
-    _write(out / "Fig5.xlsx", {"README": readme, **sheets})
+        p = pd.read_csv(W / str(y) / "data" / "fig5b_chain_pairs.csv")
+        tj = pd.read_csv(W / str(y) / "data" / "fig5b_chain_trajectory.csv")
+        sheets[str(y)] = _blocks(p, 2025, tj).round(5)
+        t = tj.set_index("year").loc[2025]
+        totals.append(dict(cost_year=y, co2_displaced_with_security_gtco2=t.sec_gt,
+                           co2_displaced_cost_only_gtco2=t.cost_gt,
+                           security_gain_gtco2=t.sec_gt - t.cost_gt,
+                           co2_above_axis_top_gtco2=_above_cap(p)))
+    readme = _readme("Fig. 5 - abatement cost curves of addressable demand in 139 economies (lowest-tier costs "
+                     "2030, 2040, 2050)", [
+        ("<year>", "Blocks of the curve: each country-fuel pair split into its imported supply (demand times the "
+                   "import share of its supply chain), at the cost premium less the security margin, and the rest "
+                   "of its demand, at the cost premium; x from x_start, width in GtCO2 per year, height (net premium) "
+                   "in US$ per tCO2; group: pays off without security value (solid), with security value (hatched), "
+                   "costlier (gray). The figure shows blocks up to US$300 per tCO2, cuts the axis at -US$900 per "
+                   "tCO2, and compresses the shared x axis 12-fold beyond 2 GtCO2 per year"),
+        ("totals", "CO2 displaced with the security value (dashed line) and on fuel cost alone (dotted line), their "
+                   "difference, and the CO2 of blocks above US$300 per tCO2, in GtCO2 per year"),
+        ("Source", "work/caselow/<year>/data/fig5b_chain_pairs.csv, fig5b_chain_trajectory.csv; code "
+                   "lcof.fig5_chain, lcof.fig_macc")])
+    _write(out / "Fig5.xlsx", {"README": readme, **sheets, "totals": pd.DataFrame(totals).round(3)})
+
+
+def fig6(out):
+    from .fig35_core import fig5_classes
+    D = _console()
+    sb = pd.read_csv(W / "2030" / "data" / "security_budget.csv", index_col=0)
+    core = set(pd.read_csv(W / "2030" / "data" / "fig5a_chain.csv", index_col=0).index)
+    rows = [c for c in D["order"]["f5"]["2030"] if c in core]
+    d = sb.reindex(rows)
+    imp = d.import_pct > 0
+    covered = imp & (d.ret_sf_3 >= 0.995)
+    land = imp & ~covered & (d.cov_3 >= d.max_cov - 1e-6) & (d.max_cov < 1 - 1e-6)
+    grp = np.where(~imp, "net exporter", np.where(covered, "imports covered",
+                   np.where(land, "land binds", "budget binds")))
+    a = pd.DataFrame({
+        "economy": d.index, "group": grp,
+        "share_made_at_home_1pct_gdp": d.cov_1 * 100, "share_made_at_home_2pct_gdp": d.cov_2 * 100,
+        "share_made_at_home_3pct_gdp": d.cov_3 * 100, "land_ceiling_pct": d.max_cov * 100,
+        "net_import_share_pct": d.import_pct * 100,
+        "imports_replaced_1pct_gdp": d.ret_sf_1 * 100, "imports_replaced_3pct_gdp": d.ret_sf_3 * 100,
+        "gdp_2030_bn_usd": d.gdp_usd / 1e9}).round(2)
+    cls = fig5_classes("2030")[0]
+    b = pd.DataFrame({"economy": list(cls), "group": list(cls.values())})
+    b["core_30"] = b.economy.isin(core)
+    readme = _readme("Fig. 6 - fiscal capacity and land availability (lowest-tier 2030 costs, GDP projected to 2030)", [
+        ("a", "Panel a, the 30 economies in the order of the figure: share of addressable fuel demand made at home "
+              "with annual support for the cost premium capped at 1%, 2% and 3% of GDP (bars), land ceiling (5% of "
+              "screened eligible land, at most 2% of territory; black end caps; the hatched part is unused land "
+              "beyond the 3%-of-GDP bar), net import share of oil- and gas-based fuels (red triangles), share of net "
+              "imports replaced, and the group named by the brackets on the right; all in percent"),
+        ("b", "Panel b, all 139 economies by the same groups (map)"),
+        ("Source", "work/caselow/2030/data/security_budget.csv; console/index.html; code lcof.security_budget, "
+                   "lcof.fig35_core")])
+    _write(out / "Fig6.xlsx", {"README": readme, "a": a, "b": b})
 
 
 def main(out_dir="source_data"):
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
-    for f in (fig1, fig2, fig3, fig4, fig5):
+    for f in (fig1, fig2, fig3, fig4, fig5, fig6):
         f(out)
 
 

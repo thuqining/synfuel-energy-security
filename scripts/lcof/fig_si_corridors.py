@@ -38,7 +38,10 @@ FLOW = "#14304A"
 SHORT = ["Iberia → Germany", "North Africa → Italy", "Inner Mongolia →\nNorth China Plain", "Pilbara → Japan",
          "Northern Chile → Rotterdam (Panama)", "Oman → Rotterdam (Suez)", "Oman → Rotterdam (Cape)"]
 # label anchors (lon, lat) in open water / off the route
-AT = [(-33, 55), (-33, 38.5), (165, 36), (160, 9), (-108, -2), None, None]
+# 2026-10-22 (7 pt boxes): Inner Mongolia in the open Pacific south of Japan, Pilbara in the Indian Ocean, both
+# with a leader, so no box covers land
+AT = [(-33, 55), (-33, 38.5), (157, 16), (82, -30), (-108, -2), None, None]
+NARROW = (2, 3)                       # boxes whose cost line is broken in two
 ZOOMS = [("China", (72, 136, 17, 55)), ("India", (62, 100, 5, 37)), ("United States", (-126, -66, 22, 52)),
          ("Europe", (-14, 40, 28, 63)), ("Middle East", (30, 66, 10, 40)), ("Africa", (-20, 54, -38, 38))]
 
@@ -54,7 +57,7 @@ def _corridor(ax, pts, mode, lw=1.0):
     return x, y
 
 
-def _box(ax, xy, text, fs=5.6, lead=None):
+def _box(ax, xy, text, fs=6, lead=None):
     ax.text(xy[0], xy[1], text, fontsize=fs, color=INK, ha="center", va="center", zorder=9, linespacing=1.15,
             bbox=dict(boxstyle="round,pad=0.22", fc="white", ec="#B8C2CC", lw=0.4, alpha=0.95))
     if lead is not None:
@@ -86,8 +89,9 @@ def main():
         x, y = _corridor(ax, pts, mode)
         r = cd.iloc[k]
         if AT[k] is not None:
-            lead = (x[len(x) // 2], y[len(y) // 2]) if mode == "land" else None
-            _box(ax, AT[k], f"{SHORT[k]}\n+US\\${r.transport:.1f}/MMBtu, {r.saving_pct:.0f}% cheaper", lead=lead)
+            lead = (x[len(x) // 2], y[len(y) // 2]) if mode == "land" else ((x[0], y[0]) if k == 3 else None)
+            sep = ",\n" if k in NARROW else ", "
+            _box(ax, AT[k], f"{SHORT[k]}\n+US\\${r.transport:.1f}/MMBtu{sep}{r.saving_pct:.0f}% cheaper", lead=lead)
     rs, rc = cd.iloc[5], cd.iloc[6]
     _box(ax, (78, -8), f"Oman → Rotterdam\nvia Suez +US\\${rs.transport:.1f}, {rs.saving_pct:.0f}% cheaper\n"
                        f"via the Cape +US\\${rc.transport:.1f}, {rc.saving_pct:.0f}% cheaper")
@@ -100,7 +104,7 @@ def main():
           Line2D([], [], color=INK, lw=1.4, label="overland corridor"),
           Line2D([], [], color=INK, lw=0.9, ls=(0, (3, 1.6)), label="sea corridor"),
           Line2D([], [], color=FLOW, lw=1.2, marker=">", ms=3, label="largest flows within countries (b–g)")]
-    fig.legend(handles=hs, loc="lower center", bbox_to_anchor=(0.5, 0.545), ncol=3, fontsize=5.8, frameon=False,
+    fig.legend(handles=hs, loc="lower center", bbox_to_anchor=(0.5, 0.545), ncol=3, fontsize=6, frameon=False,
                handlelength=1.8, columnspacing=1.4)
     # ---- b-g: zooms -----------------------------------------------------------------
     cmap = {"China": [2], "Europe": [0, 1], "Middle East": [5], "Africa": [6]}
@@ -136,15 +140,17 @@ def main():
                 ln.set_clip_on(True)
             for ch in ax.texts + ax.patches:
                 ch.set_clip_on(True)
-            r = cd.iloc[i]
-            sub.append(f"{SHORT[i].replace(chr(10), chr(32))}: +US\\${r.transport:.1f}/MMBtu, {r.saving_pct:.0f}% cheaper")
+            # 2026-10-22 (user: 7 pt): the route only; its transport cost and saving are on the map of panel a
+            sub.append(SHORT[i].replace(chr(10), chr(32)))
         if not sub:
             moved = g.gj.sum() / 1.0551e9 if len(g) else 0.0
-            sub = [f"ten largest within-country flows: {moved:.2f} billion MMBtu a year"]
+            sub = ["ten largest within-country flows:", f"{moved:.2f} billion MMBtu a year"]
         top = rect[1] + rect[3]
         letter = "bcdefg"[k]
-        fig.text(rect[0], top + 0.030, f"{letter}  {name}", fontsize=7, fontweight="bold", color=INK, va="bottom")
-        fig.text(rect[0], top + 0.004, "\n".join(sub), fontsize=5.4, color=GREY, va="bottom", linespacing=1.1)
+        H_mm = fig.get_figheight() * 25.4
+        fig.text(rect[0], top + (1.5 + 3.0 * 2) / H_mm, f"{letter}  {name}", fontsize=7, fontweight="bold",
+                 color=INK, va="bottom")
+        fig.text(rect[0], top + 0.8 / H_mm, chr(10).join(sub), fontsize=7, color=GREY, va="bottom", linespacing=1.1)
     for a_ in fig.axes:
         a_.set_rasterization_zorder(5)     # map fill and boundaries rasterized; routes, arrows, text vector
     fig.savefig(out / "fig_si_corridors.pdf", bbox_inches="tight", dpi=300)

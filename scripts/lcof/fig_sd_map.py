@@ -93,7 +93,7 @@ def _key(ax, pal, qc_lbl, qd_lbl, kx=-161.0, ky=-44.0, S=30.0,
     n = len(pal)
     # big (2026-10-05: the key was hard to read): a larger
     # key with larger type; the paper's map uses it
-    FT, FL, SW, DY = (6.5, 6.5, 3.0, 7.0) if big else (5.5, 5.5, 2.4, 6.0)
+    FT, FL, SW, DY = (7.0, 7.0, 3.0, 7.0) if big else (7.0, 7.0, 2.4, 6.0)   # 2026-10-22: main-text 7 pt
     if big:
         S, kx, ky = 36.0, -163.0, -46.0
     # the ground covers the key and its titles only: the verdict list
@@ -115,7 +115,7 @@ def _key(ax, pal, qc_lbl, qd_lbl, kx=-161.0, ky=-44.0, S=30.0,
         x = kx + f * S
         ax.plot([x, x], [ky, ky - 1.0], color="#1A1A1A", lw=0.5,
                 zorder=6, clip_on=False)
-        ax.text(x, ky - 1.7, _fmt(v), fontsize=FT,
+        ax.text(x, ky - 2.6, _fmt(v), fontsize=FT,   # 2026-10-22: clear of the cost labels at 7 pt
                 ha="center", va="top", color="#1A1A1A", zorder=6)
     for f, v in qc_lbl:                      # cost up the side, cheap high
         y = ky + f * S
@@ -145,11 +145,11 @@ def _key(ax, pal, qc_lbl, qd_lbl, kx=-161.0, ky=-44.0, S=30.0,
     # a taller key lets the unit stand on one line: 10^6 rather than
     # "million", which also keeps an M for million away from the MM
     # of MMBtu
-    ax.text(kx + S / 2, ky - (6.9 if big else 5.4),
+    ax.text(kx + S / 2, ky - (7.8 if big else 6.3),
             "Demand\n(million MMBtu yr$^{-1}$)",
             fontsize=7, ha="center", va="top", color="#1A1A1A",
             linespacing=1.3, zorder=6)
-    ax.text(kx - 16.6, ky + S / 2,
+    ax.text(kx - 18.2, ky + S / 2,
             "Cost\n(US\$ MMBtu$^{-1}$)", fontsize=7,
             ha="center", va="center", rotation=90, linespacing=1.3,
             color="#1A1A1A", zorder=6)

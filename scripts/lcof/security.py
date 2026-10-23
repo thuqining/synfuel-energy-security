@@ -134,6 +134,10 @@ def build() -> pd.DataFrame:
     e_use_inf = e_imp.where(pct <= 0, e_imp / pct.clip(lower=0.02))
     e_use_inf = e_use_inf.where(pct > 0, np.nan)
     e_use = dem.primary_gj.where(dem.primary_gj.notna(), e_use_inf)
+    # 2026-10-21: plus solid biofuels (UN Energy Statistics), which OWID/EI primary energy leaves out;
+    # without them the value of lost fuel came out highest where fuelwood dominates (DR Congo, Chad, Haiti)
+    from .un_energy import biomass_gj
+    e_use = e_use + biomass_gj(vi.index).reindex(vi.index).fillna(0.0)
 
     # ---- CoDF: ACER-calibrated GDP intensity --------------------------------
     gdp_int = vi.gdp_usd / e_use                              # $/GJ of use

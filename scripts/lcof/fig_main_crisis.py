@@ -68,7 +68,8 @@ SHORT_EVENT = {"Arab Spring / Libya": "Libya",
                "Israel–Iran war": "Israel–Iran war",
                "2026 Hormuz disruption": "Hormuz"}
 SHORT_COUNTRY = {"United States of America": "United States",
-                 "Dominican Republic": "Dominican Rep."}   # full names, as in Figs 3-5
+                 "Dominican Republic": "Dominican Rep.",
+                 "China": "China (Mainland)", "Taiwan": "China (Taiwan)"}   # full names, as in Figs 3-5
 
 
 def event_label(event: str) -> str:
@@ -226,10 +227,10 @@ def main():
                 ax.add_patch(plt.Rectangle((c - 0.5, r - 0.5), 1, 1, fill=False,
                                            hatch="///", ec="white", lw=0))
         ax.set_yticks(range(len(M)))
-        ax.set_yticklabels(labels, fontsize=7.5)
+        ax.set_yticklabels(labels, fontsize=7)
         ax.set_xticks(range(len(order)))
-        ax.set_title(title, loc="left", fontsize=8, pad=4)
-        ax.text(-0.24, 1.16, letter, transform=ax.transAxes, fontsize=9,
+        ax.set_title(title, loc="left", fontsize=7, pad=4)   # 2026-10-22: Nature maximum 7 pt
+        ax.text(-0.24, 1.16, letter, transform=ax.transAxes, fontsize=8,
                 fontweight="bold", va="bottom")
         ax.tick_params(direction="out", length=2)
         for sp in ax.spines.values():
@@ -249,27 +250,27 @@ def main():
             vax.text(1.03, r, f"{q2:+.0f}%", transform=vax.get_yaxis_transform(), ha="left",
                      va="center", fontsize=7, color="#3D4650", clip_on=False)
         vax.text(1.03, -0.75, "median", transform=vax.get_yaxis_transform(), ha="left", va="bottom",
-                 fontsize=6.5, color="#5A6570", fontstyle="italic", clip_on=False)
+                 fontsize=6, color="#5A6570", fontstyle="italic", clip_on=False)
         vax.set_ylim(len(M) - 0.5, -0.5)
         vax.set_yticks([])
         lo = min(-25.0, float(np.floor(np.nanmin(M.values) / 25) * 25))
         hi = float(np.ceil(np.nanmax(M.values) / 50) * 50)
         vax.set_xlim(lo, hi)
         vax.axvline(0, color="#5A6570", lw=0.5, zorder=1)
-        vax.tick_params(axis="x", labelsize=6.5, length=2, width=0.4)
+        vax.tick_params(axis="x", labelsize=6, length=2, width=0.4)
         vax.grid(axis="x", alpha=0.2, lw=0.4)
         vax.set_axisbelow(True)
         for s in ("top", "right", "left"):
             vax.spines[s].set_visible(False)
         vax.spines["bottom"].set_linewidth(0.4)
-        vax.set_title("across economies", loc="left", fontsize=6.5, color="#5A6570", pad=4,
+        vax.set_title("across economies", loc="left", fontsize=6, color="#5A6570", pad=4,
                       fontstyle="italic")
     vaxes[1].set_xlabel("move over baseline, %", fontsize=7)
     # Figure 3's divider: net exporters of the ammonia chain to the right
     axes[0].axvline(nz - 0.5, color="#3D4650", lw=0.8, ls=(0, (4, 2)))
     axes[0].tick_params(axis="x", labelbottom=False, length=0)
     axes[1].set_xticklabels([SHORT_COUNTRY.get(c, c) for c in order], rotation=65,
-                            ha="right", fontsize=7.5)
+                            ha="right", fontsize=7)
     # 2026-10-05: the hatched cells get a key above panel a (and the
     # grey no-data cells, where any exist), not only a caption sentence
     from matplotlib.patches import Patch
@@ -277,7 +278,7 @@ def main():
     if any(np.isnan(mats[v][0].values).any() for v in mats):
         keys.append(Patch(fc="#E6E8EB", ec="none", label="no price data"))
     axes[0].legend(handles=keys, loc="lower right", bbox_to_anchor=(1.0, 1.01), ncol=len(keys),
-                   fontsize=6.5, frameon=False, handlelength=1.4, handleheight=1.0, borderaxespad=0.0,
+                   fontsize=6, frameon=False, handlelength=1.4, handleheight=1.0, borderaxespad=0.0,
                    columnspacing=1.0)
     for ax, version in ((axes[0], "ammonia"), (axes[1], "ft")):
         pos = ax.get_position()
