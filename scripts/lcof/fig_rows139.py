@@ -1,5 +1,5 @@
 """
-fig_rows139.py — the 139-economy SI versions of Figs 3, 4a and 6 with one economy per row (2026-10-22, user: no
+fig_rows139.py — the 139-economy SI versions of Figs 3, 4a and 6 with one economy per row (2026-10-22: no
 upright economy names), in two blocks side by side on one page. Names and the numbers beside them read level;
 groups open with a bold heading row; the 30 core economies are in bold. Marks and colours as the main figures
 (fig3_cols, fig4a_cols, fig35_core.fig5_horizontal). Data: console/index.html and console/build (as those).

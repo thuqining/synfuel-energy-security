@@ -34,7 +34,7 @@ def main(stem, *pairs, height_mm=80.0, fig=None):
     for y in cols:
         xb, yb, kb, tb = b_axes(data[y][1], y)
         F5._SQZ2.pop(y, None)                   # no compression left over from an earlier call
-        # 2026-10-22 (user): every panel leaves at least 40% of its width to the cost-only group and 36% to
+        # 2026-10-22: every panel leaves at least 40% of its width to the cost-only group and 36% to
         # the dearer demand right of the dashed line, so the two-line names fit; the security-only group
         # is compressed only where it must be (2030)
         tt = data[y][2].set_index("year")

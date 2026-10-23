@@ -16,7 +16,7 @@ R = Path(__file__).resolve().parents[2]
 W = R / "work" / "caselow"
 FUELS3 = ("ammonia", "e-diesel", "e-methane", "methanol", "ethanol", "hydrogen")
 # name -> the sandbox whose data/ the figure reads (None: it names its inputs itself)
-# 2026-10-22 (co-author): Fig. 4c became its own figure, Fig. 5 (fig5_core, lcof.fig_macc); the budget figure is
+# 2026-10-22: Fig. 4c became its own figure, Fig. 5 (fig5_core, lcof.fig_macc); the budget figure is
 # now Fig. 6 (fig6_core), 2030 only
 FIGS = {"fig3_core": None, "fig4_core": None, "fig5_core": None, "fig6_core": None,
         "fig_main_framework": "2025mid", "fig_sd_map_full": "2025mid", "fig_main_demand_struct": "2025mid",
@@ -41,13 +41,13 @@ def _one(name: str, out: Path):
         inputs.MAPS = W / case / "data"
         C.apply_params(int(case[:4]))
     from lcof import fixwidth, fig_pptx_pairs as FPP
-    # 2026-10-22 (user): 7 pt throughout, except the dense 139-economy figures, whose economy names stay smaller
+    # 2026-10-22: 7 pt throughout, except the dense 139-economy figures, whose economy names stay smaller
     dense = name in ("fig_main_demand_struct", "fig_main_crisis", "fig_si_capacity") or name.endswith("_139")
     fixwidth.install(min_pt=None if dense else 7.0)
     FPP.OUT = out
     if name == "fig3_core":
         from lcof import fig35_core
-        fig35_core.main("fig3", str(out / name), 104.0, 72.0)     # 2026-10-22 (co-author): a shorter, more space before b
+        fig35_core.main("fig3", str(out / name), 104.0, 72.0)     # 2026-10-22: a shorter, more space before b
     elif name == "fig6_core":
         from lcof import fig35_core
         fig35_core.main("fig6", str(out / name), 85.0)
@@ -57,7 +57,7 @@ def _one(name: str, out: Path):
     elif name == "fig5_core":
         from lcof import fig_macc
         fig_macc.main(str(out / name), *(f"{y}={W / str(y)}" for y in (2030, 2040, 2050)))
-    elif name.startswith("si_fig3_"):          # 2026-10-22 (user): one economy per row, names level
+    elif name.startswith("si_fig3_"):          # 2026-10-22: one economy per row, names level
         from lcof import fig_rows139
         fig_rows139.fig3(str(out / name), name[len("si_fig3_"):-len("_139")])
     elif name == "si_fig4a_139":

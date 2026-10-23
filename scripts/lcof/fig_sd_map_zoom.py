@@ -1,5 +1,5 @@
 """
-fig_sd_map_zoom.py - Fig. 2 with regional maps (2026-10-19 draft, Bolun's review): a, the global
+fig_sd_map_zoom.py - Fig. 2 with regional maps (2026-10-19 draft): a, the global
 supply-demand map exactly as fig_sd_map.full draws it; b-d, three regions (Europe; Japan and the Korean
 Peninsula; South and Southeast Asia) drawn as maps of their own member countries (not crops of a): only members carry the class colors, inside a firm regional outline;
 neighbouring land is left blank with a faint outline. No corridors or flows (those stay in the SI).

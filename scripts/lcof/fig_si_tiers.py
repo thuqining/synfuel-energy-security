@@ -57,7 +57,7 @@ def main(cdir: str, odir: str):
     mpl.rcParams.update({"pdf.fonttype": 42})
     c = pd.read_csv(Path(cdir) / "lcos_tiers.csv").set_index(["fuel", "year", "tier"])
     r = pd.read_csv(Path(cdir) / "tier_table.csv").set_index(["year", "tier"])
-    # 2026-10-22 (user: every SI figure covers the 139 economies): panels g and i count all 118 net importers
+    # 2026-10-22 (every SI figure covers the 139 economies): panels g and i count all 118 net importers
     # (sensitivity/all139_sens.py); the core-30 counts stay in Supplementary Table tab:paths
     import json
     a139 = {(x["year"], x["tier"]): x for x in

@@ -140,7 +140,7 @@ def main():
                 ln.set_clip_on(True)
             for ch in ax.texts + ax.patches:
                 ch.set_clip_on(True)
-            # 2026-10-22 (user: 7 pt): the route only; its transport cost and saving are on the map of panel a
+            # 2026-10-22 (7 pt): the route only; its transport cost and saving are on the map of panel a
             sub.append(SHORT[i].replace(chr(10), chr(32)))
         if not sub:
             moved = g.gj.sum() / 1.0551e9 if len(g) else 0.0

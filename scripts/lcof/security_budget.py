@@ -801,13 +801,13 @@ def _figure_capacity(d: pd.DataFrame, name: str = "fig_si_capacity", bold=()):
     order = list(g.sort_values(ascending=False).index)      # highest GDP per MMBtu on top
     ys = np.arange(len(order))
     names = [SHORT.get(c, c) for c in order]
-    # 2026-10-22 (user: every SI figure covers the 139 economies): a full page and 5 pt type for many rows,
+    # 2026-10-22 (every SI figure covers the 139 economies): a full page and 5 pt type for many rows,
     # with the economies in `bold` (the core 30) in bold
     many = len(order) > 40
     if many:
         from .fig4a_all import SHORT as SH139           # the short names of the 139-economy figures
         names = [SH139.get(c, SHORT.get(c, c)) for c in order]
-    # 2026-10-22 (user: names must not touch): 139 rows go in two blocks side by side, 6 pt names
+    # 2026-10-22 (names must not touch): 139 rows go in two blocks side by side, 6 pt names
     fs = 6.0 if many else 7.0
     height = 226.0 if many else 112.0
     gmax = max(4200.0, float(np.ceil(g.max() / 500.0) * 500.0))

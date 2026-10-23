@@ -151,10 +151,10 @@ _CAP = 300.0                              # panel b shows the dearer demand up t
 # 2026-10-05: right of the dashed line (cost above zero) the x axis is
 # compressed by these factors, so the demand below zero gets about 55% of the width
 _SQZ = {2025: 5.0, 2050: 2.0}
-# 2026-10-22 (user): a panel may also compress the security-only group (between the dotted and the dashed
+# 2026-10-22: a panel may also compress the security-only group (between the dotted and the dashed
 # line) so that a narrow cost-only group (2030) is wide enough for its name; 1 = not compressed
 _SQZ2 = {}
-# 2026-10-22 (co-author): one x axis for every build year, (x1, k): true scale up to x1 Gt and compressed k times
+# 2026-10-22: one x axis for every build year, (x1, k): true scale up to x1 Gt and compressed k times
 # beyond it, the same in each panel, so the dotted and dashed lines can be compared across years; None = per panel
 _COMMON = None
 _XT = {2025: [0, 0.05, 0.5, 1.0, 1.5], 2050: [0, 0.5, 1.0, 2, 3, 4, 5]}   # 2026-10-07: ticks for the IEA-cost curves
@@ -322,7 +322,7 @@ def _curve_to_zero(ax, p, yr, rcol, tj, xmax=None, ylo=None, inside=False, total
         t_sec.set_text(" Pays off with\n security value")
     stacked = inside and _COMMON is not None and t_cost is not None
     if stacked:
-        # 2026-10-22 (user, common axis, fig_macc): one layout in every year. The numbers stand above zero (the
+        # 2026-10-22 (common axis, fig_macc): one layout in every year. The numbers stand above zero (the
         # totals at the tops of the lines); the three group names sit in one row along the bottom of the panel,
         # two lines each, each starting just right of the line that opens its group (0, dotted, dashed)
         t_cost.remove()
@@ -443,7 +443,7 @@ def _curve_to_zero(ax, p, yr, rcol, tj, xmax=None, ylo=None, inside=False, total
     # 2026-10-21: a narrow cost-only group (2030, value of lost fuel with biomass) — its name ran into
     # "Pays off with security value"; then four lines, flush left in the group, above the total
     if inside and totals_low and t_cost is not None and bb(t_cost).overlaps(bb(t_sec)):
-        # short panel: 2026-10-22 (user: every label wholly above or below zero, at most two lines) the
+        # short panel: 2026-10-22 (every label wholly above or below zero, at most two lines) the
         # cost-only name keeps the top of its group in the shorter wording of the build-year figure
         if bb(t_cost).overlaps(bb(t_sec)):       # flush right against the dotted line
             t_cost.set_ha("right")

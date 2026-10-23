@@ -1,5 +1,5 @@
 """
-crisis139.py — the disruption-event heatmap of the SI (fig_main_crisis) for all 139 economies (2026-10-22, user:
+crisis139.py — the disruption-event heatmap of the SI (fig_main_crisis) for all 139 economies (2026-10-22:
 every SI figure covers the 139 economies). Same series (audit_figure3._series: the economy's own import price,
 filled from the urea-implied price, the administered gas route or the regional urea ratio; diesel and jet from the
 own import price filled from the import market) and the same rule: each dated event's median against its regime's
@@ -89,7 +89,7 @@ def main(out):
         mats[version] = (M, thin, events)
     # two blocks of economies side by side (core 30 first, then alphabetical), each with the six gas events
     # (ammonia) and the seven oil events (diesel and jet fuel); one colour scale per fuel, keyed at the bottom
-    # 2026-10-22 (user): keys and labels aligned with the panels: a two-line group title above each event
+    # 2026-10-22: keys and labels aligned with the panels: a two-line group title above each event
     # block, the colour bars directly under the left column's two panels and the hatching key under the right
     # column, each starting at its panel's left edge
     H = 189.0                                 # 2026-10-22: 3 mm shorter for the longer caption

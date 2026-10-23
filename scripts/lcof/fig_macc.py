@@ -1,6 +1,6 @@
 """
 fig_macc.py — the abatement-cost curves cut at zero (2030 / 2040 / 2050) as a figure of their own (2026-10-22,
-co-author: formerly Fig. 4c). The three build years are stacked, each across the full page width, on one common
+formerly Fig. 4c). The three build years are stacked, each across the full page width, on one common
 x axis: true scale up to X1 Gt, which holds all the demand that pays off in every year, and compressed by the same
 factor beyond it, so the dotted (cost only) and dashed (with security value) lines can be compared across years.
 Same data and marks as fig4b_only / fig5_chain._curve_to_zero.
@@ -28,7 +28,7 @@ from .fig4_years import year_data, b_axes
 mpl.rcParams.update(NAT_RC)
 
 X1 = 2.0             # Gt: true scale up to here (the demand that pays off with security value is 1.86 Gt in 2050)
-RIGHT = 0.12         # share of the width left for the compressed demand beyond X1 (user: the paying part first)
+RIGHT = 0.12         # share of the width left for the compressed demand beyond X1 (the paying part first)
 
 
 def main(stem, *pairs, row_mm=40.0):

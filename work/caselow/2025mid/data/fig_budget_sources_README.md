@@ -13,7 +13,7 @@ One row per core-30 economy; every number behind the budget figures
 | agri_share_WDI2023 | agricultural land share of territory | fraction | World Bank WDI `AG.LND.AGRI.ZS` (FAO), year 2023 | 2026-08-28 |
 | forest_share_WDI2023 | forest land share of territory | fraction | World Bank WDI `AG.LND.FRST.ZS` (FAO), year 2023 | 2026-08-28 |
 | protected_share_WDPA | terrestrial protected-area share | fraction | World Bank WDI `ER.LND.PTLD.ZS` (UNEP-WCMC Protected Planet), latest 2020–25 | 2026-08-28 |
-| eligible_share | max(0, (1−p)(1−f−0.9a)) — co-author screening note 2026-08-18 | fraction | derived | — |
+| eligible_share | max(0, (1−p)(1−f−0.9a)) — screening rule of 2026-08-18 | fraction | derived | — |
 | dev_share_baseline | 5% of eligible, capped at 2% of territory | fraction | derived (`land_screen.py`) | — |
 | capped_at_2pct | True where the 2% review cap binds | bool | derived | — |
 | potential_H2_EJ | firm-hydrogen potential on screened land, cell-optimal PV/wind mix | EJ/yr | derived (`supply_demand.firm_h2_potential_gj`) | — |

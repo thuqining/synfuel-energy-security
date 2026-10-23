@@ -71,7 +71,7 @@ def main(stem, height_mm=165.0, fig=None, subset=None):
                           top=1 - top_mm / height_mm, bottom=bot_mm / height_mm)
     # 2026-10-21: the justified groups carry the message, so their columns are wider; net exporters (no
     # security margin) get narrow columns
-    # 2026-10-22 (co-author): in the 30-economy main figure the numbers are set level and the names slanted, so
+    # 2026-10-22: in the 30-economy main figure the numbers are set level and the names slanted, so
     # the net exporters' columns are widened to hold three digits
     level = subset is not None
     # (7 pt numbers: about 1 mm between three-digit numbers, 0.6 mm between the four-character negatives)
@@ -121,7 +121,7 @@ def main(stem, height_mm=165.0, fig=None, subset=None):
             imp = c in imps
             if c in d30.index and np.isfinite(d30.net_usd_t[c]):
                 sm, sn = fmt(float(d30.gross_usd_t[c] - d30.net_usd_t[c])), fmt(float(d30.net_usd_t[c]))
-                f_ = T if level else fsz[i]          # 2026-10-22 (user): 7 pt like the rest of the main figure
+                f_ = T if level else fsz[i]          # 2026-10-22: 7 pt like the rest of the main figure
                 am.text(xs[i], 0.5, sm, rotation=0 if level else 90,
                         ha="center", va="center", fontsize=f_, color=RING_C)
                 an.text(xs[i], 0.5, sn, rotation=0 if level else 90, ha="center", va="center", fontsize=f_,

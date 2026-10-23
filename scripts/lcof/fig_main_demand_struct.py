@@ -163,7 +163,7 @@ def main(*, write_data=True):
 
 
 def main139(out_dir, height_mm=232.0):
-    """2026-10-22 (user: every SI figure covers the 139 economies): the same bars for all 139 economies, in two
+    """2026-10-22 (every SI figure covers the 139 economies): the same bars for all 139 economies, in two
     columns ordered by demand (largest at the top left), core economies in bold, at full-page height."""
     import matplotlib.patches as mp
     from pathlib import Path
@@ -219,7 +219,7 @@ def main139(out_dir, height_mm=232.0):
         ax.spines["left"].set_bounds(-0.5, len(ex) - 0.5)
         ax.grid(axis="x", alpha=0.20, lw=0.4)
         ax.set_axisbelow(True)
-    # 2026-10-22 (user): the incumbent fuel only, without its synthetic substitute
+    # 2026-10-22: the incumbent fuel only, without its synthetic substitute
     leg = fig.legend(handles=[mp.Patch(color=FCOL[f], label=DEMAND_LABEL[f].split(" (")[0]) for f in FUELS]
                      + [mp.Patch(fc="#9AA3AC", ec=(1, 1, 1, 0.85), hatch="//////", lw=0, label="imported share")],
                      fontsize=7, frameon=False, loc="upper center", bbox_to_anchor=(0.5, 1.0), ncol=8,

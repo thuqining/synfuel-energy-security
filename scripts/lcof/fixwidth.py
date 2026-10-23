@@ -14,7 +14,7 @@ _orig = mf.Figure.savefig
 
 
 def _raise_type(fig, pt):
-    """2026-10-22 (user): no text below `pt` points — tick labels through tick_params, so a redraw keeps them"""
+    """2026-10-22: no text below `pt` points — tick labels through tick_params, so a redraw keeps them"""
     import matplotlib.text as mt
     fig.canvas.draw()
     for ax in fig.axes:
@@ -45,7 +45,7 @@ def _savefig(self, fname, *args, **kwargs):
     if str(fname).endswith(".pdf"):           # 2026-10-22: the same text checks as the new figures
         from lcof.figcheck import report
         report(self, str(fname).replace("\\", "/").split("/")[-1])
-        # 2026-10-22 (user): raster parts of a vector PDF (map fills, heat maps, colour bars) at 600 dpi
+        # 2026-10-22: raster parts of a vector PDF (map fills, heat maps, colour bars) at 600 dpi
         dpi = kwargs.get("dpi")
         if not isinstance(dpi, (int, float)) or dpi < 600:      # None or "figure" included
             kwargs["dpi"] = 600

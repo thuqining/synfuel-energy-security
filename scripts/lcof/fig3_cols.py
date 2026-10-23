@@ -77,11 +77,11 @@ def main(stem, fuel="ammonia", height_mm=166.0, fig=None, subset=None):
         fig = plt.figure(figsize=(183 * MM, height_mm * MM))
     # 2026-10-21: margins in millimetres (as at 166 mm), so extra height goes to the plots
     top_mm, bot_mm, gap_mm, num_mm = 11.0, 20.0, 25.5, 5.8
-    # 2026-10-22 (co-author): in the 30-economy main figure names run at 45 degrees and the numbers above the
+    # 2026-10-22: in the 30-economy main figure names run at 45 degrees and the numbers above the
     # columns are set level; the 139-economy SI rows are too dense for either and stay upright
     level = subset is not None
     if level:
-        bot_mm = 19.0                  # 2026-10-22 (co-author): a little more space between a and b
+        bot_mm = 19.0                  # 2026-10-22: a little more space between a and b
     nr = len(blocks)
     row_mm = (height_mm - top_mm - bot_mm - gap_mm * (nr - 1)) / nr
     outer = fig.add_gridspec(nr, 1, hspace=gap_mm / row_mm, left=0.08 if subset else 0.06, right=0.995,   # 2026-10-22: room for the 7 pt row labels

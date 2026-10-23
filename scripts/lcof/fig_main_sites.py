@@ -177,7 +177,7 @@ BEST, LOAD, GREY, CRIS, PURPLE = ("#0B4F9E", "#7FB2E0", "#8C8C8C",
                                   "#D55E00", "#CB181D")   # 2026-10-05: risk = import exposure red (as in Fig. 5), not the disruption orange
 # 2026-10-05: the risk column as shaded cells, 0 white to 1 dark red
 RISK_CELLS = True
-# 2026-10-21 (Bolun, Fan): the first right column shows the import share of the
+# 2026-10-21: the first right column shows the import share of the
 # ammonia supply chain, E_c in %, the quantity the security value builds on;
 # FIG3_COLUMN=risk restores the earlier import risk index sqrt(E_c H_c)
 SHOW_SHARE = os.environ.get("FIG3_COLUMN", "share") != "risk"

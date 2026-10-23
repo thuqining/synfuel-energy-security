@@ -35,7 +35,7 @@ V_CEN = 23.0
 
 
 CORE = set(pd.read_csv(W / "2030" / "data" / "fig5a_chain.csv", index_col=0).index)
-# 2026-10-22 (user): the 30 core economies of the main figures come first, in bold
+# 2026-10-22: the 30 core economies of the main figures come first, in bold
 CORE_NOTE = " The 30 core economies of the main figures come first, in bold; the others follow in alphabetical order."
 
 

@@ -47,7 +47,7 @@ def fig3_classes():
         m = bx[2]
         cat[c] = "x" if (e is None or e <= 0) else ("med" if m <= pr["d"][2] else ("p90" if m <= pr["d"][4] else "above"))
     colors = {"med": "#0B4F9E", "p90": "#7FB2E0", "above": "#D9D9D9", "x": "#DDB967"}
-    # 2026-10-22 (user): "above both" was redundant; the middle class lies between the two percentiles
+    # 2026-10-22: "above both" was redundant; the middle class lies between the two percentiles
     labels = {"med": "< median", "p90": "median–90th percentile", "above": "> 90th percentile",
               "x": "Net exporters"}
     return cat, colors, labels, "Green ammonia vs disruption price"
@@ -353,7 +353,7 @@ def fig5_horizontal(stem, bars_mm=92.0, map_mm=19.5, years=("2030", "2040", "205
     C, core = D["countries"], core30()
     rows = [c for c in D["order"]["f5"]["2030"] if c in core]
     n = len(rows)
-    # 2026-10-22 (co-author): years=("2030",) draws 2030 alone, bars across the page and the map under them at
+    # 2026-10-22: years=("2030",) draws 2030 alone, bars across the page and the map under them at
     # the full page width (GDP after 2030 too speculative for the main figure; 2040 and 2050 stay in the SI)
     one = len(years) == 1
     BC, INK, RED = ["#0B4F9E", "#4A90D9", "#A8CCEC"], "#1A1A1A", "#CB181D"
@@ -364,13 +364,13 @@ def fig5_horizontal(stem, bars_mm=92.0, map_mm=19.5, years=("2030", "2040", "205
     # 2026-10-22: both keys on top side by side; maps as wide as their bar columns, in the extent of Fig. 2
     x0, cgap = 0.150, 0.008
     colw = (0.982 - x0 - (len(years) - 1) * cgap) / len(years)   # right margin for the last "100" and edge markers
-    if one:              # 2026-10-22 (user): room on the right for the group names written beside the bars
+    if one:              # 2026-10-22: room on the right for the group names written beside the bars
         colw = 0.845 - x0
     LAT = (-58, 84)                              # the extent of Fig. 2 (fig_sd_map), as Figs 3 and 4
     mx0, mw = (0.005, 0.99) if one else (None, colw)
     map_mm = mw * 183 * (LAT[1] - LAT[0]) / 360
     leg_mm, head_mm, axis_mm, gap_mm, mkey_mm = 11.0, 6.0, 9.0, 1.0, 5.5     # 2026-10-22: counts row under the maps
-    if one:              # 2026-10-22 (user): bar key on top, groups named beside the bars, class key on the map
+    if one:              # 2026-10-22: bar key on top, groups named beside the bars, class key on the map
         leg_mm, mkey_mm = 6.0, 0.5
     H = leg_mm + head_mm + bars_mm + axis_mm + gap_mm + map_mm + mkey_mm
     fig = plt.figure(figsize=(183 * MM, H * MM))
@@ -390,7 +390,7 @@ def fig5_horizontal(stem, bars_mm=92.0, map_mm=19.5, years=("2030", "2040", "205
                 if lv[k + 1] > lv[k]:
                     ax.add_patch(Rectangle((lv[k], i - h), lv[k + 1] - lv[k], 2 * h, fc=BC[k], ec="none", zorder=2))
             if r["land"] > r["s3"] + 0.05:
-                # 2026-10-22 (user): hatched, so it is not read as a class colour; the hatch takes its colour from
+                # 2026-10-22: hatched, so it is not read as a class colour; the hatch takes its colour from
                 # ec (lw 0, no outline): left to the rcParams it printed black in some rows and not at all in others
                 ax.add_patch(Rectangle((r["s3"], i - h), r["land"] - r["s3"], 2 * h, fc="white", ec="#8C96A0",
                                        hatch="////", lw=0, zorder=1))
@@ -436,10 +436,10 @@ def fig5_horizontal(stem, bars_mm=92.0, map_mm=19.5, years=("2030", "2040", "205
         figmap.draw(fig, cat, colors, MLAB, rect=(mxl, mkey_mm / H, mw, map_mm / H), legend=one, ylim=LAT)
         if one:
             fig.text(0.004, (mkey_mm + map_mm) / H, "b", fontsize=8, fontweight="bold", ha="left", va="top")
-        # 2026-10-22 (user: the maps carry no numbers): under each map, the number of economies in each class
+        # 2026-10-22 (the maps carry no numbers): under each map, the number of economies in each class
         cnt = pd.Series(cat).value_counts()
         yk = 1.6 / H
-        # 2026-10-22 (user): spread evenly across the map's width, the number clear of its square
+        # 2026-10-22: spread evenly across the map's width, the number clear of its square
         for q, k in enumerate(colors if not one else ()):
             xq = mxl + (q + 0.5) * mw / 4 - 3.0 / 183
             fig.patches.append(Rectangle((xq, yk), 2.2 / 183, 2.2 / H, transform=fig.transFigure, fc=colors[k],

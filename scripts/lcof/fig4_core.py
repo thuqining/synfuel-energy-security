@@ -25,7 +25,7 @@ from lcof.figcheck import report
 R = Path(__file__).resolve().parents[2]
 # 2026-10-21: in the style of Fig. 2 (fig_sd_map): its no-data gray, mid-gray 0.1 pt borders and map extent; justified
 # years in muted greens (green = justified/security throughout Fig. 4), exporters in Fig. 2's sand tone
-# 2026-10-22 (user): five classes, the three cost years in the blues of a, not justified, net exporters
+# 2026-10-22: five classes, the three cost years in the blues of a, not justified, net exporters
 CAT_C = {2030: "#253494", 2040: "#2C7FB8", 2050: "#41B6C4", 9999: "#D9D9D9", "x": "#DDB967"}   # years: blues of a
 CAT_L = {2030: "Justified at 2030 costs", 2040: "Justified at 2040 costs", 2050: "Justified at 2050 costs",
          9999: "Not justified by 2050", "x": "Net exporters"}
@@ -67,7 +67,7 @@ def draw_map(sf):
 
 
 def main(stem, pairs, a_mm=74.0, b_mm=60.0, c_mm=50.0):
-    # 2026-10-22 (co-author): c_mm = 0 leaves out the abatement-cost curves, now a figure of their own (lcof.fig_macc)
+    # 2026-10-22: c_mm = 0 leaves out the abatement-cost curves, now a figure of their own (lcof.fig_macc)
     fig = plt.figure(figsize=(183 * MM, (a_mm + b_mm + c_mm) * MM))
     if c_mm > 0:
         sa, sb, sc = fig.subfigures(3, 1, height_ratios=[a_mm, b_mm, c_mm], hspace=0)

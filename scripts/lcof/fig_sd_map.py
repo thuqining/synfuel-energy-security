@@ -1,5 +1,5 @@
 """
-fig_sd_map.py — supply MEETS demand on one map (Bolun's merge of the
+fig_sd_map.py — supply MEETS demand on one map (a merge of the
 cost map and the demand map).
 
 Every land cell is classed on two axes at once:

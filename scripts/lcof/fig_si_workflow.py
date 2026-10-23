@@ -27,7 +27,7 @@ GROUND = {"data": "#EEF3F8", "model": "#F8F1E7", "result": "#F1F2F4"}
 ACCENT = "#1F5F8B"
 
 # step: (title, detail, note)
-# 2026-10-22 (user): all text at 7 pt, so the descriptions run to three shorter lines; six main figures (the
+# 2026-10-22: all text at 7 pt, so the descriptions run to three shorter lines; six main figures (the
 # abatement cost curves became Fig. 5, the budget figure Fig. 6)
 STEPS = [
     ("Production costs",
