@@ -3,7 +3,7 @@
 Code and data for
 
 > N. Qi, Z. Fan, Y. Baker, B. Lu, D. Esposito, B. Xu. *Energy security can accelerate domestic synthetic fuel
-> adoption and CO2 abatement.* (submitted to Nature Energy, 2026).
+> adoption and CO2 abatement.* (submitted to Nature Energy, 23 October 2026).
 
 The repository reproduces every figure, table and number in the main text and Supplementary Information:
 global synthetic fuel production costs on a 2.5° × 2.5° land grid (2,740 cells, 20 weather years), addressable
