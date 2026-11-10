@@ -2,10 +2,10 @@
 
 Code and data for
 
-> N. Qi, Z. Fan, Y. Baker, B. Lu, D. Esposito, B. Xu. *Energy security can accelerate domestic synthetic fuel
-> adoption and CO2 abatement.* (submitted to Nature Energy, 23 October 2026).
+> N. Qi, Z. Fan, Y. Baker, B. Lu, D. V. Esposito, B. Xu. *Energy security can accelerate domestic synthetic fuel
+> adoption and CO2 abatement.* (submitted to Joule, 2026).
 
-The repository reproduces every figure, table and number in the main text and Supplementary Information:
+The repository reproduces every figure, table and number in the main text and supplemental information:
 global synthetic fuel production costs on a 2.5° × 2.5° land grid (2,740 cells, 20 weather years), addressable
 demand in 139 economies, matched import prices before and during supply disruptions (Fig. 3), the security value
 of domestic supply per tonne of CO2 displaced (Fig. 4), the CO2 abatement it enables (Fig. 5), and deployment under
@@ -119,23 +119,23 @@ Run all commands from `scripts/`. `run_mod.py <case dir> <cost year> <module>` r
 | 9. SI tables | `lcof.make_fig3_tables`, `lcof.risk_all_countries`, `lcof.make_fig5_tables`, `lcof.make_tab_breakeven`, `lcof.make_tab_budget_si`, `lcof.make_tab_paths`, `lcof.make_si139_tables` | `tab_*.tex` | minutes |
 | 10. Check | `python -m lcof.test_paper`; `python -m lcof.audit139` | ALL PAPER CHECKS PASSED; FAILURES: 0 | seconds |
 
-The central and highest cost tiers (Supplementary Note 2) are built the same way with `LCOF_TIER=mid` or
+The central and highest cost tiers (Note S2) are built the same way with `LCOF_TIER=mid` or
 `LCOF_TIER=high` and the corresponding `costs_<year><tier>.npz`.
 
-## 6. Supplementary analyses
+## 6. Supplemental analyses
 
-Each Supplementary table or paragraph that needs more than the four main cases has a driver in
+Each supplemental table or paragraph that needs more than the four main cases has a driver in
 `work/caselow/sensitivity/` (run from any directory) or a module in `scripts/lcof/` (run from `scripts/`).
 
-| Supplementary item | Command | Needs |
+| Supplemental item | Command | Needs |
 |---|---|---|
-| Cost years x tiers (Supplementary Table `tab:paths`, Supplementary Fig. `tiers`) | `python work/caselow/sensitivity/build_case.py <year> <low/mid/high>` for the 12 cases, then `python work/caselow/sensitivity/tier_table.py` | LP results in `data/cost/flexlow` |
+| Cost years x tiers (Table S28, Figure S16) | `python work/caselow/sensitivity/build_case.py <year> <low/mid/high>` for the 12 cases, then `python work/caselow/sensitivity/tier_table.py` | LP results in `data/cost/flexlow` |
 | Levelized cost by tier (`tab:lcostiers`) | `python work/caselow/sensitivity/lcos_tiers.py` | the 12 cases |
 | Oil-to-gas loss ratio m_f = 1.0 (`tab:mfsens`) | `python work/caselow/sensitivity/mf_sens.py` | cases 2030, 2040, 2050 |
 | Land limit (`tab:landsens`) | `python work/caselow/sensitivity/land_sens.py` | cases 2030, 2040, 2050 |
 | Fig. 4a sensitivity (`tab:fig5sens`) | `python ../work/caselow/run_mod.py ../work/caselow/2030 2030 lcof.fig5a_sens` (and `2025mid 2025`) | cases 2030, 2025mid |
-| Ireland at GNI* (Supplementary Note 5) | `python work/caselow/sensitivity/variants.py gni` | cases 2025mid, 2030 |
-| Coastal cells at offshore wind cost (Supplementary Note 3) | `python work/caselow/sensitivity/variants.py offshore` | case 2025mid, `work/sens_results` |
+| Ireland at GNI* (Note S5) | `python work/caselow/sensitivity/variants.py gni` | cases 2025mid, 2030 |
+| Coastal cells at offshore wind cost (Note S3) | `python work/caselow/sensitivity/variants.py offshore` | case 2025mid, `work/sens_results` |
 | Equipment cost drivers, synthesis flexibility, battery (`tab:drivers`, `tab:minload`, `tab:battery`) | `python -m lcof.sens_summary` | `work/sens_results` (from `work/sens_pkg/sens_flex.py`) |
 | Recovery buffer (`tab:washout`) | `python ../work/caselow/rerun_fig3.py` | case 2025mid |
 | Source Data workbooks | `python -m lcof.export_source_data ../source_data` | the four main cases |
@@ -148,7 +148,7 @@ one input changed: `python work/sens_pkg/sens_flex.py --groups all` (about 60,00
 ## 7. Data sources
 
 Processed inputs and the third-party series the pipeline reads are included, with their sources; they remain subject to the terms of their publishers (for example, Singapore MOPS prices are Platts assessments republished by KNOC Petronet). Raw downloads (ERA5 fields, bulk trade and price files) are not redistributed; they come from public sources cited in
-the paper (Supplementary Table 3): ERA5 (Copernicus), EDGAR, UN Energy Statistics, Energy Institute Statistical
+the paper (Table S3): ERA5 (Copernicus), EDGAR, UN Energy Statistics, Energy Institute Statistical
 Review, UN Comtrade, Eurostat Comext, EIA, World Bank Pink Sheet and World Development Indicators, JODI,
 Climate TRACE, WRI Aqueduct, Natural Earth, IEA and IRENA cost reports, Damodaran country risk premiums, IMF World
 Economic Outlook (GDP growth to 2030) and the SSP v3.2 database (SSP2 GDP, OECD ENV-Growth 2025; the processed
@@ -158,5 +158,5 @@ series is in `data/gdp_projections/ssp2_gdp_v3.2.csv`, the raw workbook is not r
 
 Please cite the paper and the Zenodo archive:
 
-Qi, N., Fan, Z., Baker, Y., Lu, B., Esposito, D. & Xu, B. Code and data for "Energy security can accelerate
+Qi, N., Fan, Z., Baker, Y., Lu, B., Esposito, D. V. & Xu, B. Code and data for "Energy security can accelerate
 domestic synthetic fuel adoption and CO2 abatement". Zenodo https://doi.org/10.5281/zenodo.23357310 (2026).

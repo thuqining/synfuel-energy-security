@@ -1,6 +1,6 @@
 # Data
 
-All data are licensed under CC BY 4.0 (`data/LICENSE`), except third-party files, which remain subject to the terms of their publishers (sources in the table and in Supplementary Table 3 of the paper). Hourly capacity factors (`cf_global_final/data/cf_hourly/`, 3.0 GB) are attached to the GitHub release and archived on Zenodo.
+All data are licensed under CC BY 4.0 (`data/LICENSE`), except third-party files, which remain subject to the terms of their publishers (sources in the table and in Table S3 of the paper). Hourly capacity factors (`cf_global_final/data/cf_hourly/`, 3.0 GB) are attached to the GitHub release and archived on Zenodo.
 
 `<case>` is one of `2025mid` (2025 central costs; Figs 1-3), `2030`, `2040`, `2050` (lowest-tier costs; Figs 4-5). Each case folder holds the processed inputs (a copy of `data/cost`) and every model output. Units: costs in 2025 US$; energy in GJ or MMBtu (lower heating value), as stated in the column names.
 
